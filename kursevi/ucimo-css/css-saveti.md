@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Dobre CSS prakse
+layout: lekcija-css
 author: damjan
-tags: [css, kodni-standard, dobre-prakse]
-image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
+permalink: /css-saveti
+image: /images/kursevi/css.png
 ---
 
 ![]({{page.image}})

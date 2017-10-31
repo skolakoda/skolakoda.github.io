@@ -1,0 +1,24 @@
+@import "../base/variables";
+
+.uokvireno {
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin-top: 40px;
+  padding: 10px;
+  h3 {
+    margin-top: auto;
+  }
+  @media (min-width: $screen-lg-min) {
+    padding: 20px 40px;
+  }
+}
+
+.uokvireno.ideja {
+  position: relative;
+  &::before {
+    color: $citron;
+    content: "☛";
+    left: 12px;
+    position: absolute;
+  }
+}

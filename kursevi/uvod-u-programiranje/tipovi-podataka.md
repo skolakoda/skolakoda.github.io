@@ -1,7 +1,7 @@
 ---
 title: Tipovi podataka
-layout: post
-tags: [tipovi, podaci, racunarska-nauka]
+layout: lekcija-uvod
+permalink: /tipovi-podataka
 image: /images/koncepti/podaci/binarni.jpg
 ---
 

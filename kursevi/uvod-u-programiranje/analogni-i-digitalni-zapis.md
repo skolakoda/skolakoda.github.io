@@ -1,8 +1,8 @@
 ---
 title: Analogni i digitalni zapis
-layout: post
-tags: [podaci, zapis, tehnologija]
-image: http://www.centerpointaudio.com/Images/Analog-Digital%20frequency%20examples.png
+layout: lekcija-uvod
+permalink: /analogni-i-digitalni-zapis
+image: /images/koncepti/podaci/analogni-i-digitalni-zapis.png
 ---
 
 ![]({{page.image}})

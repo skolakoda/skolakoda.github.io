@@ -24,6 +24,7 @@ function prevedi(ulaz, lang, izlaz) {
     izlaz.innerHTML = rezultat.compilemessage
     if (rezultat.stdout) izlaz.innerHTML += rezultat.stdout[0]
   }
+  http.onerror = () => izlaz.innerHTML = 'Greška, nema odgovora sa servera.'
   http.send(params)
 }
 
@@ -36,12 +37,12 @@ for (let i = 0; i < brojUlaza; i++) {
   code.contentEditable = true
   code.spellcheck = false
 
-  const izlaz = document.createElement('small')
+  const izlaz = document.createElement('pre')
   izlaz.classList.add('izlaz')
   ulaz.parentNode.insertBefore(izlaz, ulaz.nextSibling)  // append after
 
   const dugme = document.createElement('button')
-  dugme.innerText = '⚙'
+  dugme.innerText = 'Izvrši ⚙'
   dugme.onclick = () => prevedi(ulaz, jezici[jezik], izlaz)
   ulaz.appendChild(dugme)
 }

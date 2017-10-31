@@ -1,17 +1,17 @@
 ---
 title: Klase i objekti u Javi
-layout: post
-tags: [java, uvod, klase]
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Programmer_writing_code_with_Unit_Tests.jpg/1024px-Programmer_writing_code_with_Unit_Tests.jpg
+layout: lekcija-uvod
+permalink: /java-klase-i-objekti
+image: /images/koncepti/oop/klasa-i-objekti.jpg
 ---
 
 ![]({{page.image}})
 
-*Klase, atributi i metode • objekti • razlikovanje objekata iste klase • višestruko referenciranje objekta • statičke varijable • metode •prenošenje argumenta u metodu • vraćanje vrijednosti iz metoda • setter metode • getter metode • ista imena varijabli i metoda • konstruktori • skrivanje imena varijabli i ključna riječ this • polja*
+*Klase, atributi i metode • objekti • razlikovanje objekata iste klase • višestruko referenciranje objekta • statičke varijable • metode •prenošenje argumenta u metodu • vraćanje vrijednosti iz metoda • setter metode • getter metode • ista imena varijabli i metoda • konstruktori • skrivanje imena varijabli i ključna riječ this*
 
 ## Klase, atributi i metode
 
-Klasa je obrazac ili prototip koji definira varijable i metode zajedničke svim objektima neke vrste. Atribuiti kažu što neki objekt jest. Metode kažu što neki objekt radi.
+Klasa je obrazac ili prototip koji definira varijable i metode zajedničke svim objektima neke vrste. Svojstva ili atribuiti kažu što neki objekt jest. Metode kažu što neki objekt radi.
 
 ```java
 class TwoDPoint {
@@ -57,6 +57,8 @@ Ishodiste ima koordinate 0.0, 0.0
 ```
 
 ## Razlikovanje objekata iste klase
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CPT-OOP-objects_and_classes.svg/800px-CPT-OOP-objects_and_classes.svg.png)
 
 Općenito, klase će imati više od jednog objekta. Za razlikovanje objekata unutar iste klase koriste se referentne varijable. Sljedeći program kreira dva različita objekta tipa `TwoDPoint` i ispisuje njihove atribute.
 
@@ -126,6 +128,7 @@ Primijetite da su origin1 i origin2 dvije različite referentne varijable koje r
 
 Statička varijabla je varijabla klase, ona pripada klasi (samoj klasi), a ne nekom objektu (instanci klase).
 
+{:.ulaz}
 ```java
 class Point {
     double x;
@@ -296,6 +299,7 @@ Imamo:
 
 Također poznate i kao “mutator” metode, ove metode samo postavljaju vrijednosti varijabli (obično privatnih) unutar klase.
 
+{:.ulaz}
 ```java
 class TwoDPoint {
     double x;
@@ -341,6 +345,7 @@ Imamo opet:
 
 Također poznate i kao *accessor* metode, ove metode samo vraćaju vrijednosti varijebli unutar klase.
 
+{:.ulaz}
 ```java
 class TwoDPoint {
     double x;
@@ -589,53 +594,5 @@ class TwoDPoint {
 
 Kažemo da unutar metode, deklaracija lokalne varijable ili argumenta sa istim imenom kao neka *member* varijabla skriva ili zasjenjuje (*hides*) tu varijablu. Ona se može referencirati dodavanjem prefiksa `this`.
 
-## Polja
-
-Polje je kolekcija varijabli istog tipa. Npr. `args[]` u `main()` metodi je polje objekata tipa String.
-
-Zamislimo klasu koja broji pojavljivanja znamenaka 0-9. Pretpostavimo da želimo testirati da li je raspodjela brojeva koje generira generator slučajnih brojeva doista uniformna. Ako jest, sve znamenka bi trebale imati približno istu frekvenciju nakon duljeg vremena.
-
-Napravit ćemo polje `ndigits` od 10 elemenata. Nulti element će pratiti broj pojavljivanja nula, prvi element broj pojavljivanja jedinica itd. Koristit ćemo klasu `java.util.Random`. Za generiranje slučajnih brojeva koristit ćemo metodu `nextDouble()` iz te klase.
-
-```java
-import java.util.Random;
-class RandomTest {
-  public static void main (String args[]) {
-    int[] ndigits = new int[10];
-    double x;
-    int n;
-    Random myRandom = new Random();
-    for (int i = 0; i < 10; i++) {      // inicijaliziranje polja
-      ndigits[i] = 0;
-    }
-    for (long i=0; i < 100000; i++) {   // testiranje generatora slucajnih brojeva
-      x = myRandom.nextDouble() * 10.0; // novi slucajni broj izmedju 0 i 9
-      n = (int) x;                      // pretvaranje u cijeli broj
-      ndigits[n]++;                     // biljezimo pojavu dobivenog slucajnog broja
-    }
-    for (int i = 0; i < 10; i++) {      // ispis rezultata
-      System.out.println(i+": " + ndigits[i]);
-    }
-  }
-}
-```
-
-Ispis može izgledati otprilike ovako:
-```
-% javac RandomTest.java
-% java RandomTest
-0: 9967
-1: 9808
-2: 10069
-3: 10057
-4: 9984
-5: 9932
-6: 10004
-7: 10128
-8: 9952
-9: 10099
-```
-
-U programu su tri `for-petlje`: jedna za inicijaliziranje polja, druga za izvođenje odgovarajućih računa i treća za ispis rezultata. To je uobičajeno u programima koji koriste polja.
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](http://www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

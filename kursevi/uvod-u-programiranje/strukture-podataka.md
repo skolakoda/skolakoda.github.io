@@ -1,7 +1,7 @@
 ---
 title: Strukture podataka
-layout: post
-tags: [strukture, podaci, racunarska-nauka]
+layout: lekcija-uvod
+permalink: /strukture-podataka
 image: /images/koncepti/podaci/kockice.jpeg
 ---
 

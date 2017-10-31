@@ -6,7 +6,14 @@ layout: default
 
 <p>< Nazad na <a href="/kursevi/ucimo-css">CSS kurs</a></p>
 
+<h1>{{page.title}}</h1>
+
+{% include autor.html %}
+{% include share-buttons.html %}
+
 {{ content }}
+
+{% include bilten.html %}
 
 <script src="/libs/codemirror/codemirror.min.js"></script>
 <script>

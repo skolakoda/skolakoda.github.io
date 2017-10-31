@@ -1,7 +1,9 @@
 ---
-title: Šta su pokazivači?
-layout: post
-tags: [pokazivaci, c]
+title: Pokazivači u jeziku C
+layout: lekcija-uvod
+permalink: /c-pokazivaci
+redirect_from:
+  - /pokazivaci-c
 image: /images/koncepti/pokazivac.png
 ---
 
@@ -45,7 +47,11 @@ int main()
 
 Možete pristupiti vrednosti celobrojne promenljive na koju se pokazuje, koristeći pokazivač. Za to koristimo znak `*`. Menjanje vrednosti na koju pokazuje pokazivač na celobrojnu promenljivu, će promeniti vrednost te celobrojne promenljive.
 
+{:.ulaz}
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+
 int main()
 {
     int i, j;

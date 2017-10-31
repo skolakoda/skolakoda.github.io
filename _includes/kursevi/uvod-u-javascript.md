@@ -27,7 +27,7 @@
 
 ### Tipovi podataka <a href="https://youtu.be/T0VLAWelSUA"><img src="/images/ui/ikonice/youtube.svg" class="ikonica-veca" alt="play"></a>
 
-- [Čuvanje podataka](/uvod-u-podatke) i [binarni zapis](/binarni-brojevi)
+- [Čuvanje podataka](/kako-racunar-belezi-podatke) i [binarni zapis](/binarni-brojevi)
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
   - Logičke vrednosti (`true` i `false`)
   - Brojevi
@@ -122,6 +122,8 @@
 - Vežba: pronađi najmanji broj
 
 ### Objekti
+
+- [Strukture podataka](/strukture-podataka)
 - struktura objekta: svojstva i metode
   - objekti kao asocijativni nizovi (rečnici, mape)
   - objekti kao stabla

@@ -12,10 +12,6 @@
   display: none;
 }
 
-.pokazi:checked + .hide {
-  display:block;
-}
-
 .center {
   text-align: center;
 }
@@ -55,24 +51,8 @@
   }
 }
 
-.overflow-auto {
-  overflow: auto;
-}
-
-.bg-gray {
-  background-color: $wild-sand;
-}
-
 .pointer {
   cursor: pointer;
-}
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
 }
 
 .flex {
@@ -93,4 +73,12 @@
 
 .text-right {
   text-align: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }

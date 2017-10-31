@@ -1,8 +1,11 @@
 ---
-title: Matrice (dvodimenzionalni nizovi)
-layout: post
-tags: [matrice, strukture, c++]
+title: Matrice
+layout: lekcija-uvod
+permalink: /matrice
+image: /images/koncepti/podaci/matrica.png
 ---
+
+![]({{page.image}})
 
 ***Matricu možemo da zamislimo kao tabelu. Sastoji se od polja koja pripadaju redovima i kolonama, označenim indeksima.***
 
@@ -29,30 +32,30 @@ Napiši program koji od korisnika prima prirodni broj `n` (između 2 i 10) te sm
 Rešenje u C++:
 
 ```cpp
-#include <iostream.h>
+#include <iostream>
 #define max 10
 
-main ()
+int main ()
 {
     int matrica[max][max], suma[max], proizvod[max];
     int n, s = 0, p = 1;
-    cout << "n=";
-    cin >> n;
+    std::cout << "n=";
+    std::cin >> n;
     for (int i = 1; i <= max; i++) {
         suma[i] = 0;
         proizvod[i] = 1;
     }
     for (int i = 1; i <= n; i++)
         for (int j = 1; j <= n; j++) {
-            cout << "Mat[" << i << "," << j << "]=";
-            cin >> matrica[i][j];
+            std::cout << "Mat[" << i << "," << j << "]=";
+            std::cin >> matrica[i][j];
             suma[j] += matrica[i][j];
             proizvod[i] *= matrica[i][j];
         }
     for (int i = 1; i <= n; i++)
-        cout << "Suma[" << i << "]=" << suma[i] << endl;
+        std::cout << "Suma[" << i << "]=" << suma[i] << std::endl;
     for (int i = 1; i <= n; i++)
-        cout << "Proizvod[" << i << "]=" << proizvod[i] << endl;
+        std::cout << "Proizvod[" << i << "]=" << proizvod[i] << std::endl;
     return 0;
 }
 ```

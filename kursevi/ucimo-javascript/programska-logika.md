@@ -3,7 +3,6 @@ title: Logički tok programa
 layout: lekcija-js
 author: damjan
 permalink: /programska-logika
-tags: [uvod, programiranje, logika]
 image: /images/koncepti/logika/skretnica.jpg
 ---
 

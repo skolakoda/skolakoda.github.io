@@ -1,8 +1,10 @@
 ---
-title: Uvod u podatke
-layout: post
-tags: [podaci, uvod, zvuk, grafika]
-image: http://homepage.cs.uri.edu/book/binary_data/binary_data_files/binary5.jpg
+title: Kako računar beleži podatke?
+layout: lekcija-uvod
+permalink: /kako-racunar-belezi-podatke
+redirect_from:
+  - /uvod-u-podatke
+image: /images/hardver/hard-disk.jpg
 ---
 
 ![]({{page.image}})

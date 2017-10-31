@@ -1,7 +1,7 @@
 ---
 title: Šta su varijable?
-layout: post
-tags: [varijable, c, c++, uvod]
+layout: lekcija-uvod
+permalink: /c-varijable
 image: /images/koncepti/varijabla.png
 ---
 

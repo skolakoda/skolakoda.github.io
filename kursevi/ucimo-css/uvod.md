@@ -1,9 +1,8 @@
 ---
+title: Čemu služi CSS?
 layout: lekcija-css
 permalink: /ucimo-css/uvod
 ---
-
-# Čemu služi CSS?
 
 **CSS služi za stilizovanje HTML stranica. Ova dva jezika čine nerazdvojan par - HTML određuje strukturu, a CSS izgled stranice.**
 

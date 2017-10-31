@@ -1,7 +1,7 @@
 ---
-title: Koja je razlika između podatka i informacije?
-layout: post
-tags: [podaci, informacije, obrada]
+title: Razlika između podatka i informacije
+layout: lekcija-uvod
+permalink: /razlika-podaci-informacije
 ---
 
 ***Ponekad se podatak i informacija koriste kao sinonimi, iako nisu. Podatak predstavlja neku vrednost (niz simbola) van konteksta i bez značenja. Informacija je podatak sa značenjem.***

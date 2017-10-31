@@ -9,19 +9,6 @@ $razmak: 30px;
   }
 }
 
-.uokvireno {
-  border-radius: 12px;
-  border: 1px solid #ccc;
-  margin-top: 40px;
-  padding: 10px;
-  h3 {
-    margin-top: auto;
-  }
-  @media (min-width: $screen-lg-min) {
-    padding: 20px 40px;
-  }
-}
-
 .ikonica-veca,
 .ikonica-manja {
   vertical-align: middle;

@@ -32,9 +32,23 @@ bundle exec jekyll serve --limit_posts 1
 ## TODO
 
 - smanjiti visinu navigacije na velikim
+- srediti editor za css, vidi tipografiju
+- dodati js editor
+http://qnimate.com/create-an-frontend-editor-with-code-highlighting-and-execution/
+https://code.tutsplus.com/tutorials/create-a-wysiwyg-editor-with-the-contenteditable-attribute--cms-25657
+https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
+  - mogu redefinisati console.log?
+  https://stackoverflow.com/questions/16616722/sending-all-javascript-console-output-into-a-dom-element
+  https://stackoverflow.com/questions/11403107/capturing-javascript-console-log
 - proveriti https://github.com/kripken/sql.js
 
 <!--
+sadrzaj:
+https://www.toptal.com/algorithms/computability-theory-complexity
+https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
+https://profesorka.wordpress.com/2012/06/24/nizovi-2/
+
+slike:
 https://pixabay.com/en/children-win-success-video-game-593313/
 https://pixabay.com/en/apple-brick-wall-computer-cup-1854101/
 https://pixabay.com/en/apple-computer-cup-electronics-1853306/

@@ -21,14 +21,13 @@
 .vrednost {
   display: block;
   font-family: monospace;
+  font-size: smaller;
 }
 
 .izlaz {
   background: $mine-shaft;
   color: $white;
-  // &::before {
-  //   content: "izlaz: ";
-  // }
+  padding: 0 16px;
 }
 
 .vrednost {

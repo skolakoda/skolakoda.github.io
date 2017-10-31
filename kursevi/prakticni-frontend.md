@@ -86,7 +86,7 @@ image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
 - Pisanje dokumentacije
   - Markdown format (`md`)
 
-### Bootstrap i prilagodljivi dizajn
+### Bootstrap i prilagodljivi dizajn [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-bootstrap)
 
 - [Šta je Bootstrap?](https://www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
 - Dodavanje biblioteke
@@ -238,3 +238,13 @@ image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
   - Kontrole kamere
   - Kontrole kretanja
 - 3D tekst
+
+### Van u divljini
+
+- Snalaženje na postojećim projektima
+  - Nađi projekat [na Školi](/radovi) koda ili Githubu
+- Čitanje dokumentacije (ako postoji)
+- Upoznavanje sa strukturom projekta
+- Identifikovanje tehnologija i biblioteka
+- Pravljenje nove grane i zahtev za izmenom (*pull request*)
+- Zadatak: nalaženje i menjanje postojećeg projekta otvorenog koda

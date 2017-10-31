@@ -1,9 +1,9 @@
 ---
 title: Promenljive i nepromenljive u Javaskriptu
-layout: post
+layout: lekcija-js
 author: damjan
-tags: [uvod, programiranje, javascript]
-image: http://wesbos.com/wp-content/uploads/2016/08/2.png
+permalink: /promenljive-i-nepromenljive-u-javaskriptu
+image: /images/koncepti/let-vs-const.png
 ---
 
 ![]({{page.image}})

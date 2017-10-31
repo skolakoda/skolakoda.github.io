@@ -9,7 +9,7 @@ image: /images/kursevi/uvod.png
 ### Učimo C, Javu, PHP, Python i Javaskript
 # Uvod u svet programiranja
 
-**Nauči osnovne obrasce zajedničke raznim programskim jezicima. Nauči da programiraš kroz pet vodećih jezika. Postani programer pre nego što postaneš koder.**
+**Savladaj temelje računarske nauke. Nauči osnovne obrasce zajedničke raznim programskim jezicima. Stekni širinu i postani ozbiljan programer.**
 
 ***Kurs je za potpune početnike. Solidan temelj za dalju profesionalnu orjentaciju.***
 
@@ -19,7 +19,8 @@ image: /images/kursevi/uvod.png
 
 - Šta je programiranje
 - [Kako učiti programiranje](/programiranje-je-tesko)
-- [Uvod u programske jezike](https://www.slideshare.net/DamjanPavlica/programski-jezici-73018599)
+- [Mogu li učiti programiranje bez matematike?](/ne-znam-matematiku)
+- [Uvod u programske jezike](/uvod-u-programske-jezike) ([prezentacija](https://www.slideshare.net/DamjanPavlica/programski-jezici-73018599))
 
 ### Instalacija
 - Instalacija jezika (C, Java, PHP, Python, NodeJS)
@@ -39,6 +40,11 @@ image: /images/kursevi/uvod.png
 - prevođenje novijeg koda u stariji
 - prevođenje jednog jezika u drugi
 
+### Kako radi računar?
+
+- [Fon Nojmanova arhitektura računara](/fon-nojmanova-arhitektura)
+
+
 ### Drugačije vrste brojeva
 
 - [Brojčani sistemi](/brojcani-sistemi)
@@ -49,9 +55,15 @@ image: /images/kursevi/uvod.png
 - primeri: skladištenje podataka u binarnom formatu
 - primeri: zapisivanje boja u heksadecimalnom
 
-### Tipovi podataka i skladištenje
+### Uvod u podatke
 
-- [Tipovi podataka](/tipovi-podataka)
+- [Kako računar beleži podatke?](/kako-racunar-belezi-podatke)
+- [Razlika analognog i digitalnog zapisa](/analogni-i-digitalni-zapis)
+- [Razlika između podatka i informacije](/razlika-podaci-informacije)
+
+### Tipovi podataka
+
+- [Tipovi podataka u programskim jezicima](/tipovi-podataka)
   - brojevi (celi, decimalni..)
   - znakovi
   - strune
@@ -67,6 +79,7 @@ image: /images/kursevi/uvod.png
 - dodeljivanje vrednosti
 - promenljive i nepromenljive
 - kopiranje i pokazivanje vrednosti
+- [Pokazivači u jeziku C](/c-pokazivaci)
 
 ### Rad sa brojevima
 - aritmetički operatori (`+`, `-`, `*`, `/`)
@@ -99,24 +112,35 @@ image: /images/kursevi/uvod.png
 - čiste i nečiste funkcije (procedure)
 - bočni efekti funkcije
 
-### Prosleđivanje argumenata
+### Argumenti komandne linije
 
 - Argumenti komandne linije
 - [Argumenti komandne linije u Javi](/java-argumenti-komandne-linije)
 
 ### Rad sa tekstom
+- [Strune u jeziku C](/c-strune)
 - traženje i zamena znakova
-
-### Rad sa nizovima
-- iteracija: `forEach()`, `map()`
-- `map`, `filter`, `reduce`
 
 ### Rad sa fajlovima
 - otvaranje i čuvanje fajlova
 - pretraga i menjanje sadržaja fajla
 
+### Strukture podataka
+
+- [Strukture podataka](/strukture-podataka)
+- Nizovi ili polja (*array*)
+  - Jednodimenzionalni nizovi (liste)
+  - [Dvodimenzionalni nizovi (matrice)](/matrice)
+  - Višedimenzionalni nizovi
+- [Polja u Javi](/java-polja)
+
+### Rad sa nizovima
+- iteracija nizova: `forEach()`, `map()`
+- `map`, `filter`, `reduce`
+
 ### Klase i nasleđivanje
 - [Uvod u objektno orijentisano programiranje](https://www.slideshare.net/DamjanPavlica/uvod-u-objektno-orijentisano-programiranje-i-c)
+- [Klase i objekti u Javi](/java-klase-i-objekti)
 - privatne i javne metode
 - statičke metode
 

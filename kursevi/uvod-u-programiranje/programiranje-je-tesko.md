@@ -1,11 +1,11 @@
 ---
 title: Je li teško naučiti programiranje?
-layout: post
-tags: [programiranje, ucenje, motivacija]
+layout: lekcija-uvod
+permalink: /programiranje-je-tesko
 image: /images/ljudi/programer.jpg
 ---
 
-<img class="full" src="{{page.image}}" alt="programer">
+<img class="extra-full" src="{{page.image}}" alt="programer">
 
 **Da, teško je. Ako mislimo da ćemo uzeti nekakav programski jezik i da ćemo za par dana pisati programe, kao što možemo uzeti FrontPage pa za par dana napraviti web stranicu, od toga neće biti ništa.**
 
@@ -28,4 +28,4 @@ Programiranje se ne uči tako da se nauči sadržaj neke knjige, a zatim se even
 
 Nakon što smo određenu naredbu shvatili, nismo završili s učenjem. Nakon toga treba napraviti nekoliko desetaka manjih programa u kojima ćemo tu naredbu koristiti da bismo stekli rutinu u njenom korištenju.
 
-Izvor: Jakopec Ratko, *C++ programiranje za apsolutne početnike*
+Izvor: Jakopec Ratko, *C++ programiranje za apsolutne početnike*, Varaždin, 2006.

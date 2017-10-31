@@ -1,7 +1,7 @@
 ---
 title: Fon Nojmanova arhitektura računara
-layout: post
-tags: [racunarska-nauka, arhitektura]
+layout: lekcija-uvod
+permalink: /fon-nojmanova-arhitektura
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Modellrechenautomat_TH_Dresden_1958_TSD.jpg/1024px-Modellrechenautomat_TH_Dresden_1958_TSD.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Tipografija i web development
-layout: post
-tags: [tipografija, web-dizajn, frontend]
+layout: lekcija-css
+permalink: /tipografija-i-web-development
 author: damjan
 ---
 

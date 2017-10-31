@@ -107,10 +107,6 @@ image: /images/kursevi/css.png
 - Menjanje
 - Vežba: menjanje slike na hover
 
-## CSS grid
-
-- CSS grid
-
 ### Prilagodljivi dizajn
 - Izvorna prilagodljivost HTML-a
 - Fiksiranje dizajna i tačke preloma (*breakpoints*)
@@ -158,3 +154,11 @@ image: /images/kursevi/css.png
 - Upotreba [Zeplin](https://zeplin.io/)-a
 - Prevođenje dizajna u kod
 - Izrada Wordpress teme
+
+## Bonus: CSS grid
+
+- Šta je CSS grid?
+- [http://learncssgrid.com/](learn CSS grid)
+- [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout](CSS Grid Layout)
+- [https://www.sitepoint.com/introduction-css-grid-layout-module/](An Introduction to the CSS Grid Layout)
+- Primer: [https://codepen.io/mor10/pen/QvmLpd](Standardna struktura sajta u gridu)

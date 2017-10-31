@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% assign author = site.data.authors[page.author] %}
-
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <link itemprop="mainEntityOfPage" href="{{site.url}}{{page.url}}" />
   <meta itemprop="datePublished" content="{{page.date | date: "%Y-%m-%d"}}"/>
@@ -19,11 +17,7 @@ layout: default
     <h1 itemprop="headline">{{ page.title | escape }}</h1>
     <div class="post-meta">
       <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{ page.date | date: "%d. %m. %Y." | downcase }}</time>
-      {% if author %}
-      <div class="author-box margin-md-top" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <img class="author-img circle" src="{{author.image}}"> <a href="{{author.url}}" rel="author" itemprop="url"><span itemprop="name">{{author.name}}</span></a>
-      </div>
-      {% endif %}
+      {% include autor.html %}
     </div>
 
     {% include share-buttons.html %}
