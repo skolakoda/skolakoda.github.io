@@ -1,0 +1,35 @@
+.simplesharebuttons img {
+  width: 35px;
+  padding: 5px;
+}
+
+.post-header {
+  margin-bottom: 24px;
+}
+
+.post {
+  h1,
+  h2,
+  h3 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+}
+
+.author-box {
+  .author-img {
+    vertical-align: middle;
+    width: 40px;
+  }
+}
+
+.simplesharebuttons,
+.post-tags {
+  margin-top: 16px;
+}
+
+.newslatter-form {
+  border: 1px solid $silver;
+  background: #eee;
+  padding: 20px;
+}

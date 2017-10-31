@@ -1,0 +1,274 @@
+[
+  {
+    "tekst": "Najveći izazov za programera je da se ne zbuni pred kompleksnošću sopstvene tvorevine.",
+    "autor": "E. W. Dijkstra"
+  },
+  {
+    "tekst": "Postoje dva načina izgradnje softvera: Jedan je napraviti ga toliko prostim da očigledno nema nedostaka, a drugi je napraviti ga toliko komplikovanim da nema očiglednih nedostataka. Prva metoda je puno teža.",
+    "autor": "Tony Hoare"
+  },
+  {
+    "tekst": "Jedan od mojih najproduktivnijih dana je bio kada sam bacio 1000 linija koda.",
+    "autor": "Ken Thompson"
+  },
+  {
+    "tekst": "Kada si u dvojbi, koristi brutalnu silu.",
+    "autor": "Ken Thompson"
+  },
+  {
+    "tekst": "Izbrisan kod je debagovan kod.",
+    "autor": "Jeff Sickel"
+  },
+  {
+    "tekst": "Debagovanje je dvostruko teže od pisanja koda. Ako si napisao kod najpametnije što možeš, onda, po definiciji, nisi dovoljno pametan da ga debaguješ.",
+    "autor": "Brian Kernighan."
+  },
+  {
+    "tekst": "Kontrola kompleksnosti je suština kompjuterskog programiranja.",
+    "autor": "Brian Kernighan"
+  },
+  {
+    "tekst": "Lepota je važnija u računarstvu nego igde drugde u tehnologiji, zato što je softver tako složen. Lepota je ultimativna odbrana od složenosti.",
+    "autor": "David Gelernter"
+  },
+  {
+    "tekst": "Program koji dvostruko brže daje netačan rezultat je beskonačno sporiji.",
+    "autor": "John Osterhout"
+  },
+  {
+    "tekst": "Nije da su Perl programeri idioti, samo taj jezik nagrađuje idiotsko ponašanje na način na koji ni jedan drugi jezik ili alat nikada nisu.",
+    "autor": "Erik Naggum"
+  },
+  {
+    "tekst": "Glavni neprijatelj pouzdanosti je složenost.",
+    "autor": "Daniel Geer"
+  },
+  {
+    "tekst": "Jednostavnost je preduslov za pouzdanost.",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
+    "tekst": "Unix je jednostavan. Samo je potreban genij da razume njegovu jednostavnost.",
+    "autor": "Dennis Ritchie"
+  },
+  {
+    "tekst": "Ako misliš da su tvoji korisnici idioti, samo će idioti to koristiti.",
+    "autor": "Linus Torvalds"
+  },
+  {
+    "tekst": "Da li ste potpuno sigurni da sva ova zvona i praporci, sve ove predivne mogućnosti vaših takozvanih moćnih programskih jezika pripadaju skupu rešenja, a ne skupu problema?",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
+    "tekst": "Ceniti programe po broju linija koda je kao ceniti avione po težini.",
+    "autor": "Bill Gates"
+  },
+  {
+    "tekst": "Prvo, reši problem. Onda, piši kod.",
+    "autor": "John Johnson"
+  },
+  {
+    "tekst": "Složenost ubija. Ona isisava život iz developera, čini proizvode teškim za planiranje, pravljenje i testiranje, uvodi bezbednosne izazove i izaziva frustracije korisnika i administratora.",
+    "autor": "Ray Ozzie"
+  },
+  {
+    "tekst": "Jezik koji nema sve je zapravo lakši za programiranje u tome što ima.",
+    "autor": "Dennis Ritchie"
+  },
+  {
+    "tekst": "Ne možeš verovati kodu koji nisi u potpunosti sam napisao.",
+    "autor": "Ken Thompson"
+  },
+  {
+    "tekst": "Jednostavnost je vrhunska prefinjenost.",
+    "autor": "Leonardo da Vinci"
+  },
+  {
+    "tekst": "Kompatibilnost znači namerno ponavljati tuđe greške.",
+    "autor": "David Wheeler"
+  },
+  {
+    "tekst": "Vreme debagovanje se povećava kvadratno u odnosu na veličinu programa.",
+    "autor": "Chris Wenham"
+  },
+  {
+    "tekst": "Kompjuter je glupa mašina sa sposobnošću da radi neviđeno pametne stvari, dok je programer pametan čovek sa sposobnošću da radi neviđeno glupe stvari.",
+    "autor": "David Parnas"
+  },
+  {
+    "tekst": "Preko pola vremena koje provedeš radeći na projektu je razmišljanje, i nema alatke, ma koliko bila napredna, koja može razmišljati umesto tebe.",
+    "autor": "Dick Gabriel"
+  },
+  {
+    "tekst": "Više je računarskih grehova počinjeno u ime efikasnosti (bez da je nužno dostignuta) nego iz bilo kog drugog razloga, uključujući čistu glupost.",
+    "autor": "William Wulf"
+  },
+  {
+    "tekst": "Testiranje programa može biti veoma adekvatan način da se pokaže prisustvo bagova, ali i beznadežno neadekvatan da se pokaže njihovo odsustvo.",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
+    "tekst": "Kompetentan programer je potpuno svestan ograničene veličine svoje lobanje. On stoga prilazi svojim zadacima sa potpunom skromnošću, i izbegava lukave trikove kao kugu.",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
+    "tekst": "Kod nikada ne laže, komentari nekad lažu.",
+    "autor": "Ron Jeffries"
+  },
+  {
+    "tekst": "Ono što ne mogu napraviti, ne razumem.",
+    "autor": "Richard Feynman"
+  },
+  {
+    "tekst": "Retko sam srećniji nego kad provedem čitav dan programirajući svoj računar da automatski izvrši zadatak za koji bi mi inače trebalo dobrih deset sekundi da uradim ručno.",
+    "autor": "Douglas Adams"
+  },
+  {
+    "tekst": "Kada radim na problemu nikada ne razmišljam o lepoti. Razmišljam jedino kako da rešim problem. Ali kada završim, ako rešenje nije lepo, znam da je pogrešno.",
+    "autor": "Buckminster Fuller"
+  },
+  {
+    "tekst": "Ja, u stvari, tvrdim da je razlika između lošeg i dobrog programera u tome da li on smatra njegov kod ili strukture podataka važnijim. Loši programeri brinu o kodu. Dobri programeri brinu o strukturama podataka i njihovim odnosima.",
+    "autor": "Linus Torvalds"
+  },
+  {
+    "tekst": "Neki problemi su toliko kompleksni da morate biti visoko inteligentni i dobro informisani samo da biste bili neodlučni oko njih.",
+    "autor": "Laurence J. Peter"
+  },
+  {
+    "tekst": "Inteligentna budala može napraviti da stvari budu veće, složenije i više nasilne. Potreban je dodir genija, i mnogo hrabrosti, za pokret u suprotnom pravcu.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "tekst": "Jednostavnost dovedena do ekstrema postaje elegancija.",
+    "autor": "Jon Franklin"
+  },
+  {
+    "tekst": "Softver podleže zakonu širenja gasa – nastavlja da raste sve dok potpuno ne ispuni memoriju.",
+    "autor": "Larry Gleason"
+  },
+  {
+    "tekst": "Sposobnost uprošćavanja znači eliminisati ne-neophodno kako bi neophodno moglo progovoriti.",
+    "autor": "Hans Hoffmann"
+  },
+  {
+    "tekst": "Odgovarajuća upotreba komentara je kompenzacija za naš neuspeh da se izrazimo u kodu.",
+    "autor": "Robert C. Martin"
+  },
+  {
+    "tekst": "Nema smisla biti egzaktan oko nečega ako uopšte ne znaš o čemu govoriš.",
+    "autor": "John von Neumann"
+  },
+  {
+    "tekst": "Dobar kod je kratak, jednostavan i simetričan – izazov je da otkriješ kako stići dotle.",
+    "autor": "Sean Parent"
+  },
+  {
+    "tekst": "Jedini greh je napraviti izbor neznajući da si ga napravio.",
+    "autor": "Jonathan Shewchuk"
+  },
+  {
+    "tekst": "Bolna je stvar pogledati na svoju nevolju i shvatiti da si ti i niko drugi to napravio.",
+    "autor": "Sofokle, Ajaks"
+  },
+  {
+    "tekst": "Organizacija koja tretira svoje programere kao morone će uskoro imati programere koji su voljni i kadri da se ponašaju jedino kao moroni.",
+    "autor": "Bjarne Stroustrup"
+  },
+  {
+    "tekst": "Oduvek sam želeo da moj kompjuter bude jednostavan za upotrebu kao moj telefon. Moja želje se obistinila. Sada više ne znam da koristim svoj telefon.",
+    "autor": "Bjarne Stroustrup"
+  },
+  {
+    "tekst": "Najvažniji pojedinačni aspekt razvoja softvera je biti načisto oko toga šta pokušavaš da napraviš.",
+    "autor": "Bjarne Stroustrup"
+  },
+  {
+    "tekst": "Softver postaje sporiji brže nego što hardver postaje brži.",
+    "autor": "Wirthov zakon"
+  },
+  {
+    "tekst": "Svrha softverskog razvoja je da kontroliše složenost, ne da je stvara.",
+    "autor": "Pamela Zave"
+  },
+  {
+    "tekst": "Složenost nema nikakve veze sa inteligencijom, jednostavnost ima.",
+    "autor": "Larry Bossidy"
+  },
+  {
+    "tekst": "Jednostavnost je teško izgraditi, lako koristiti, i teško naplatiti. Složenost je lako izgraditi, teško koristiti, i lako naplatiti.",
+    "autor": "Chris Sacca"
+  },
+  {
+    "tekst": "Kompjuteri vam olakšavaju mnoge stvari, ali mnoge stvari koje oni olakšavaju ne treba da budu urađene.",
+    "autor": "Andy Rooney"
+  },
+  {
+    "tekst": "Kada si u dvojbi, ostavi to.",
+    "autor": "Joshua Bloch"
+  },
+  {
+    "tekst": "Ni jedan kod nije brži od koda kog nema.",
+    "autor": "Merb motto"
+  },
+  {
+    "tekst": "Problem sa objektno orjentisanim jezicima je što oni imaju svo to implicitno okruženje koje nose sa sobom. Vi hoćete bananu ali ono što dobijate je gorila koji drži bananu sa sve džunglom.",
+    "autor": "Joe Armstrong"
+  },
+  {
+    "tekst": "Program je kao pesma: ne možete napisati pesmu bez pisanja. Ipak, ljudi govore o programiranju kao procesu proizvodnje i mere „programersku produktivnost“ u terminima „broja proizvedenih linija koda“. Na taj način oni su na pogrešnoj strani knjige: Mi uvek gledamo „broj ušteđenih linija koda“.",
+    "autor": "E. W. Dijkstra"
+  },
+  {
+    "tekst": "U programiranju težak deo nije rešavanje problema, već odlučivanje koje probleme rešiti.",
+    "autor": "Paul Graham"
+  },
+  {
+    "tekst": "Kada ne postoji hijerarhija tipova ne morate da upravljate hijerarhijom tipova.",
+    "autor": "Rob Pike"
+  },
+  {
+    "tekst": "Toliko složenosti u softveru dolazi iz pokušavanja da se napravi da jedna stvar radi dve stvari.",
+    "autor": "Ryan Singer"
+  },
+  {
+    "tekst": "Složen sistem koji radi je bez izuzetka evoluirao od jednostavnog sistema koja je radio. Obrnuta tvrdnja takođe izgleda istinita: složen sistem projektovan od nule nikad ne radi i ne može biti napravljen da radi.",
+    "autor": "John Gall"
+  },
+  {
+    "tekst": "Normalni ljudi veruju da ako nije pokvareno, ne treba popraviti. Inženjeri veruju da ako nije pokvareno, još uvek nema dovoljno mogućnosti.",
+    "autor": "Scott Adams"
+  },
+  {
+    "tekst": "Matematičari stoje jedni drugima na ramenima, a kompjuterski naučnici stoje jedni drugima na prstima.",
+    "autor": "Richard Hamming"
+  },
+  {
+    "tekst": "PHP je malo zlo, počinjeno i stvoreno od nekompetentnih amatera, dok je Perl veliko i podmuklo zlo, počinjeno od obučenih ali izopačenih profesionalaca.",
+    "autor": "Mike Stay"
+  },
+  {
+    "tekst": "Hofštadter zakon: Uvek vam treba duže nego što ste očekivali, čak i kada se uzme u obzir Hofštadter zakon.",
+    "autor": "P. J. Plauger"
+  },
+  {
+    "tekst": "Najneverovatnije dostignuće računarske softverske industrije je kontinuirano poništavanje stalnih i neverovatnih doprinosa računarske hardverske industrije.",
+    "autor": "Henry Petroski"
+  },
+  {
+    "tekst": "Ne postoji programski jezik, bez obzira koliko struktuiran, koji će sprečiti programere da prave loše programe.",
+    "autor": "Larry Flon"
+  },
+  {
+    "tekst": "Nikada ne pamti nešto što možeš pogledati.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "tekst": "Svako bi trebalo da nauči da programira, jer to te uči kako da misliš.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "tekst": "Jednom kada nova tehnologija počne da se valja, ako nisi deo valjka, onda si deo druma.",
+    "autor": "Stewart Brand"
+  }
+]

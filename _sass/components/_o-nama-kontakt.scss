@@ -1,0 +1,16 @@
+.citat {
+  font-size: .75em;
+  text-align: right;
+
+  blockquote {
+    @media (min-width: $screen-md-min) {
+      width: 60%;
+    }
+  }
+}
+
+.nav-box {
+  .citat {
+    text-align: left;
+  }
+}

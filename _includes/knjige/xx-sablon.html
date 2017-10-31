@@ -1,0 +1,29 @@
+<a href="/kursevi/{{putanja}}" class="book" data-id="{{id}}">
+  <ul class='hardcover_front'>
+    <li>
+      <div class="inner {{pozadina}}">
+        {% if novo == true %}
+          <span class="ribbon">Novo</span>
+        {% endif %}
+        <h3>{{naslov}}</h3>
+        <p>{{podnaslov}}</p>
+      </div>
+    </li>
+    <li></li>
+  </ul>
+  <ul class='page'>
+    <li></li>
+    <li><p>{{opis}}</p></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <ul class='hardcover_back'>
+    <li></li>
+    <li></li>
+  </ul>
+  <ul class='book_spine'>
+    <li></li>
+    <li></li>
+  </ul>
+</a>

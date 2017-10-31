@@ -1,0 +1,57 @@
+@import "../base/variables";
+
+footer {
+  background: #222;
+  color: #ececec;
+  overflow: auto;
+  margin-top: 40px;
+  padding: $xs-spacing 0;
+
+  img {
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 24px;
+  }
+
+  a {
+    color: inherit;
+    display: inline-block;
+    margin: $sm-spacing 0;
+    text-decoration: none;
+  }
+
+  svg {
+    height: 44px;
+    width: 100%;
+    @media (min-width: $screen-md-min) {
+      height: 50px;
+    }
+  }
+
+  .copyleft {
+    display: inline-block;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .wrapper {
+    @media (min-width: $screen-md-min) {
+      display: flex;
+    }
+    @media (min-width: $screen-lg-min) {
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  @media (max-width: $screen-sm-max) {
+    text-align: center;
+  }
+}
+
+.slogan {
+  text-align: center;
+  @media (min-width: $screen-md-min) {
+    width: 50%;
+  }
+}

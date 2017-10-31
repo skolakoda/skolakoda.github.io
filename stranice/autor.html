@@ -1,0 +1,40 @@
+---
+title: Damjan Pavlica
+permalink: /autor/damjan-pavlica
+---
+
+{% assign username = "damjan" %}
+{% assign clanci = site.posts | where:"author",username %}
+
+<section itemscope itemtype="http://schema.org/Person">
+  <h1>Autor: <span itemprop="name">{{site.data.authors[username].name}}</span></h1>
+
+  <div class="author-wrapper uokvireno">
+    <img class="author-page-img circle" src="https://sr.gravatar.com/userimage/56596340/26e1c70225c1c275aadd8ce7863fa6f9.jpg?size=200" itemprop="image">
+    <div>
+      <p>Zdravo, ja sam Damjan, <span itemprop="jobTitle">osnivač Škole koda</span>. Započeo sam sulud poduhvat pisanja <a href="/kursevi">desetak programerskih udžbenika</a> istovremeno. Kursevi koje držim zapravo su sadržaji budućih knjiga. Cela ova priča sa radionicama samo je način da stignem do glavnog cilja, besplatnog računarskog obrazovanja na srpskom jeziku.</p>
+    </div>
+  </div>
+</section>
+
+<div class="blog">
+  {% for post in clanci limit:20 %}
+    <article class="post uokvireno">
+      <h2><a href="{{post.url | relative_url}}">{{ post.title | escape }}</a></h2>
+      <time>{{ page.date | date: "%d. %m. %Y." | downcase }}</time>
+      <div class="post-tags">
+        {% for tag in post.tags %}
+          <a href="{{site.baseurl}}/teme/#{{tag|slugize}}">{{tag}}</a>&nbsp;
+        {% endfor %}
+      </div>
+
+      <p class="post-summary">
+        {% if post.summary %}
+          {{ post.summary }}
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
+      </p>
+    </article>
+  {% endfor %}
+</div>

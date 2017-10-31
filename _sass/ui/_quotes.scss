@@ -1,0 +1,34 @@
+@import "../base/variables";
+
+blockquote {
+  // border-left: 5px solid $silver;
+  color: $mid-gray;
+  display: inline-block;
+  margin: 0;
+  padding: 4px 30px;
+  position: relative;
+
+  &::after,
+  &::before {
+    color: $silver;
+    font-size: 40px;
+    position: absolute;
+  }
+
+  &::after {
+    bottom: -10px;
+    content: '\201D';
+    right: 0px;
+  }
+
+  &::before {
+    top: 0;
+    left: 10px;
+    content: '\201C';
+  }
+
+  small,
+  cite {
+    display: inline-block;
+  }
+}

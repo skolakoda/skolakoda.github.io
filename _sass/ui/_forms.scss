@@ -1,0 +1,89 @@
+@import "../base/variables.scss";
+
+/* DEFAULTS */
+
+button,
+input,
+textarea ,
+select {
+  margin-bottom: $md-spacing;
+  margin-top: $xs-spacing;
+  width: 100%;
+}
+
+[type="radio"] {
+  width: initial;
+}
+
+input,
+textarea ,
+select {
+  font: inherit;
+  padding: $xs-spacing $sm-spacing;
+}
+
+button,
+input,
+textarea {
+  outline: 0;
+  border-radius: 0;
+  border-style: solid;
+}
+
+input,
+textarea {
+  background-color: $white;
+  border-color: $silver;
+  border-width: 1px;
+  color: inherit;
+
+  &:focus {
+    border-color: $tundora;
+  }
+}
+
+textarea {
+  height: 300px;
+}
+
+fieldset {
+  border: 1px solid $silver;
+}
+
+/* prati nove lekcije */
+.input-small-wrapper {
+  display: flex;
+  input {
+    flex-basis: 70%;
+    margin-right: 16px;
+    min-width: 0;
+  }
+  button {
+    background-color: $white;
+    border-color: $silver;
+    border-width: 1px;
+    flex-basis: 30%;
+    font-size: 16px;
+    padding: 0 4px;
+    &:hover {
+      background-color: $citron;
+      border-color: $tundora;
+    }
+  }
+}
+
+.podrzi input {
+  border: 0;
+  width: auto;
+}
+
+.dropdown {
+  // nestaje strelica na firefoxu
+  // background: #fff;
+  // border-color: #ccc;
+  padding: 8px 4px;
+  @media (min-width: $screen-lg-min) {
+    padding: 10px;
+    font-size: 120%;
+  }
+}

@@ -1,0 +1,96 @@
+@import "../base/variables";
+
+header {
+  background: $mine-shaft;
+  background: linear-gradient(to right, $mine-shaft 0%, #222 100%);
+  color: $white;
+
+  .header-wrapper {
+    @media (max-width: $screen-sm-max) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    @media (min-width: $screen-md-min) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  a {
+    color: $white;
+    line-height: 50px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .logo-wrapper {
+    @media (max-width: $screen-sm-max) {
+      text-align: center;
+    }
+
+    .logo {
+      font-family: courier, monospace;
+    }
+  }
+
+  nav {
+    @media (min-width: $screen-md-min) {
+      display: flex;
+      justify-content: space-between;
+      width: 66%;
+    }
+    @media (min-width: $screen-xl-min) {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+    }
+    a {
+      text-align: center;
+      @media (max-width: $screen-sm-max) {
+        display: none;
+      }
+      @media (min-width: $screen-md-min) {
+        width: 25%;
+      }
+      &.active,
+      &:hover {
+        font-weight: bold;
+        background: $disco;
+        @media (min-width: $screen-md-min) {
+          background: $white;
+          color: initial;
+        }
+      }
+    }
+  }
+}
+
+.newslatter-form {
+  margin-top: 20px;
+  @media (max-width: $screen-sm-max) {
+    padding: 0 $wrapper-padding;
+  }
+  @media (min-width: $screen-md-min) {
+    margin-top: 60px;
+  }
+}
+
+.burger-wrapper {
+  left: $md-spacing;
+  position: absolute;
+  top: $sm-spacing;
+  @media (min-width: $screen-md-min) {
+    display: none;
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  // otvaranje menija
+  #burger-checkbox:checked ~ nav {
+    a {
+      border-top: 1px solid $tundora;
+      display: block;
+      padding: 0 $wrapper-padding;
+    }
+  }
+}

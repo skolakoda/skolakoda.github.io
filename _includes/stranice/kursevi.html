@@ -1,0 +1,63 @@
+<select class="dropdown">
+  <option value="0">Izaberi svoje buduće zanimanje</option>
+  <option value="1">Web dizajner</option>
+  <option value="2">Frontend Developer</option>
+  <option value="3">Backend Developer (PHP)</option>
+  <option value="6">Backend Developer (Node.js)</option>
+  <option value="4">Web Developer</option>
+  <option value="5">3D Web Developer</option>
+  <option value="7">Javascript Developer</option>
+  <option value="8">Full Stack Web Developer</option>
+  <option value="9">Ne mogu da se odlučim</option>
+</select>
+
+<p class="kurs-info hide" data-id="101"><b>Web dizajner</b> je osoba koja kodira web stranice, implementirajući dizajn. Glavna aktivnost web dizajnera je izrada stranica i prevođenje dizajna (obično PSD fajlova) u kod.</p>
+
+<p class="kurs-info hide" data-id="102"><b>Front-end developer</b> je specijalista za izradu svega vidljivog na webu. Frontend developer je sve traženije IT zanimanje, u koje se relativno lako ulazi (kasnije stvari postaju složene).</p>
+
+<p class="kurs-info hide" data-id="103"><b>PHP Developer</b> je specijalista za velike serverske aplikacije, poput poznatih kupoprodajnih sajtova. PHP je najpopularniji backend jezik u Srbiji i zanimanje je veoma traženo.</p>
+
+<p class="kurs-info hide" data-id="106"><b>Node.js Developer</b> je relativno novo back-end zanimanje, orjentisano na razvoj web aplikacija i API servisa. Node.js trenutno ima najveći ekosistem od svih jezika ikad.</p>
+
+<p class="kurs-info hide" data-id="104"><b>Web developer</b> je poput lekara opšte prakse - poznaje glavne web tehnologije, ali ni u jednoj nije specijalista. Pozicija web developera karakteristična je za manje firme.</p>
+
+<p class="kurs-info hide" data-id="105"><b>3D Web developer</b> je retko i visoko specijalizovano zanimanje. Oglasa za posao nema puno, ali firme u Srbiji često i po nekoliko meseci traže Three.js programera.</p>
+
+<p class="kurs-info hide" data-id="107"><b>Javascript developer</b> je specijalizovani programer koji odlično poznaje sam jezik i glavne biblioteke. Veoma traženo zanimanje, jer je pomoću JS-a moguće praviti softver za sve platforme i operativne sisteme.</p>
+
+<p class="kurs-info hide" data-id="108"><b>Full Stack Web Developer</b> je kompletan developer koji dobro poznaje sve aspekte izrade profesionalnih web aplikacija, od baza podataka do dizajna. Iako vlada svim tehnologijama u procesu, obično ima svoje polje specijalizacije.</p>
+
+<p class="kurs-info hide" data-id="109"><b>Programer u povoju</b> nije zanimanje koje postoji u oglasima za posao, ali je veoma dobar start za svakog ko je rešio da pođe putem razvoja softvera.</p>
+
+<h2>Osnovni</h2>
+
+<p class="kurs-info" data-id="1"><small class="pale">Napomena: HTML i CSS su jedan kurs.</small></p>
+
+<div class="knjige flex wrap around">
+  {% include knjige/uvod.html %}
+  {% include knjige/html.html %}
+  {% include knjige/css.html %}
+  {% include knjige/js.html %}
+  {% include knjige/php.html %}
+  {% include knjige/sql.html %}
+</div>
+
+<h2 class="kurs-info" data-id="100">Napredni</h2>
+
+<div class="knjige flex wrap around">
+  {% include knjige/frontend.html %}
+  {% include knjige/nodejs.html %}
+  {% include knjige/threejs.html %}
+  {% include knjige/js-napredni.html %}
+</div>
+
+<p class="uokvireno">
+  <b class="boja3">Cena</b>: mesečna članarina, koja uključuje kurs po izboru, materijale i dodatne aktivnosti, iznosi <b class="boja3">3000 din</b>.
+  <span class="block text-right margin-sm-top"><a class="btn" href="/kursevi/prijava">Prijavi se</a></span>
+</p>
+
+<p>Za kurseve u toku vidi <a href="/raspored">raspored</a>.</p>
+
+<script>
+  {% include js/kursevi.js %}
+</script>

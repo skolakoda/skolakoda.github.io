@@ -1,0 +1,96 @@
+@import "variables";
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
+
+.pokazi:checked + .hide {
+  display:block;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.disabled {
+  color: $silver;
+}
+
+.full {
+  width: 100%;
+}
+
+.post-content .full,
+.extra-full {
+  left: 50%;
+  margin-left: -50vw;
+  max-width: none;
+  position: relative;
+  width: 100vw;
+  z-index: 1;
+}
+
+.back {
+  text-decoration: none;
+
+  &::before {
+    content: '< ';
+  }
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.bg-gray {
+  background-color: $wild-sand;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.text-right {
+  text-align: right;
+}

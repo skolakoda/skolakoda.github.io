@@ -1,0 +1,68 @@
+@import "../base/variables";
+
+.wrapper {
+  padding: 0 $wrapper-padding;
+
+  form {
+    button,
+    .btn {
+      display: block;
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: 80%;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: 60%;
+  }
+}
+
+footer,
+header {
+  .wrapper {
+    margin: auto;
+  }
+}
+
+.main {
+  @media (min-width: $screen-lg-min) {
+    // align-items: flex-start;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapper {
+    @media (max-width: $screen-md-max) {
+      margin: auto;
+    }
+  }
+}
+
+.side {
+  text-align: center;
+
+  @media (min-width: $screen-lg-min) {
+    width: 18%;
+  }
+}
+
+.podrzi {
+  display: inline-block;
+
+  .podrzi-paypal {
+    max-height: 100%;
+    padding: 4px;
+  }
+
+  .podrzi-slika {
+    height: 200px;
+    margin-top: 44px;
+  }
+}
+
+.side-right {
+  @media (max-width: $screen-md-max) {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,35 @@
+@import "../base/variables";
+
+$visina: 60px;
+$sredina: 128px;
+$ivica: 3px;
+
+.speech {
+  border-radius: 30px;
+  border: $ivica solid $silver;
+  box-sizing: content-box;
+  height: $visina;
+  position: relative;
+  text-align: center;
+  width: 200px;
+
+  &:after,
+  &:before {
+    border-style: solid;
+    content: ' ';
+    position: absolute;
+    top: $visina;
+  }
+
+  &:before {
+    border-color: $silver transparent transparent $silver;
+    border-width: 20px;
+    left: $sredina;
+  }
+
+  &:after {
+    border-color: #fff transparent transparent #fff;
+    border-width: 17px;
+    left: $sredina + $ivica;
+  }
+}

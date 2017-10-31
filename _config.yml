@@ -1,0 +1,29 @@
+# Site settings
+title: Škola koda # You can create any custom variable, like {{site.title}}
+description: Učimo narod programiranju!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://skolakoda.org" # the base hostname & protocol for your site
+permalink: /:slug
+
+# Build settings
+gems:
+  - jekyll-paginate
+  - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .git
+  - .sass-cache
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      layout: "default"
+sass:
+  sass_dir: _sass
+  style: compressed
+
+paginate: 8
+paginate_path: "/blog/strana:num"

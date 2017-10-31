@@ -1,0 +1,36 @@
+$razmak: 30px;
+
+.knjige {
+  margin: -$razmak;
+  padding-bottom: 40px;
+
+  .book {
+  	margin: 60px $razmak;
+  }
+}
+
+.uokvireno {
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin-top: 40px;
+  padding: 10px;
+  h3 {
+    margin-top: auto;
+  }
+  @media (min-width: $screen-lg-min) {
+    padding: 20px 40px;
+  }
+}
+
+.ikonica-veca,
+.ikonica-manja {
+  vertical-align: middle;
+}
+
+.ikonica-veca {
+  height: 32px;
+}
+
+.ikonica-manja {
+  height: 28px;
+}

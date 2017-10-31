@@ -1,0 +1,71 @@
+---
+layout: naslovna
+---
+
+<main class="upper">
+  <div class="poziv">
+    <p>Prva nedelja je besplatna.</p>
+    <a class="btn" href="/kursevi/prijava">Prijavi se</a>
+  </div>
+
+  <aside class="nove-lekcije">
+    <h2><a href="/blog/">Blog</a></h2>
+    {% for post in site.posts limit:5 %}
+      <a href="{{post.url | relative_url}}">{{post.title | escape}}</a>
+    {% endfor %}
+  </aside>
+  <img src="/images/ui/pozadina.png" alt="pozadina" class="gornja-slika">
+</main>
+
+<nav class="navigation">
+  <input type="checkbox" class="hide" id="check1" />
+  <label class="nav-box nav-onama" for="check1">
+    <section>
+      <h2 class="nav-naslov"><a href="/o-nama">O nama</a></h2>
+      <img alt="damjan-tabla" src="/images/skola/damjan-tabla.jpg" class="nav-slika slika-onama">
+      <p class="toggle-hover info-text">Saznaj kako funkcioniše obuka</p>
+      <div class="toggle-checked">
+        {% include stranice/o-nama.html %}
+    </section>
+  </label>
+
+  <input type="checkbox" class="hide" id="check2" />
+  <label class="nav-box nav-kursevi" for="check2">
+    <section>
+      <h2 class="nav-naslov"><a href="/kursevi/">Kursevi</a></h2>
+      {% include knjige/polica.html %}
+      <p class="toggle-hover info-text">Izaberi svoje buduće zanimanje</p>
+      <div class="toggle-checked">
+        {% include stranice/kursevi.html %}
+      </div>
+    </section>
+  </label>
+
+  <input type="checkbox" class="hide" id="check3" />
+  <label class="nav-box nav-radovi" for="check3">
+    <section>
+      <h2 class="nav-naslov"><a href="/radovi">Projekti</a></h2>
+      <img src="/images/ui/projekti.png" alt="projekti" class="nav-slika hide-checked">
+      <p class="toggle-hover info-text">Pogledaj projekte koje radimo</p>
+      <div class="toggle-checked">
+        {% include stranice/radovi.html %}
+      </div>
+    </section>
+  </label>
+
+  <input type="checkbox" class="hide" id="check4" />
+  <label class="nav-box nav-kontakt" for="check4">
+    <section>
+      <h2 class="nav-naslov"><a href="/kontakt">Kontakt</a></h2>
+      <img src="/images/ui/robot.png" class="nav-slika" alt="slicica-robot">
+      <p class="toggle-hover info-text">Piši, zovi ili samo dođi.</p>
+      <div class="toggle-checked">
+        {% include stranice/kontakt.html %}
+      </div>
+    </section>
+  </label>
+</nav>
+
+<script>
+  {% include js/naslovna.js %}
+</script>

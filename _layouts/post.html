@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% assign author = site.data.authors[page.author] %}
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <link itemprop="mainEntityOfPage" href="{{site.url}}{{page.url}}" />
+  <meta itemprop="datePublished" content="{{page.date | date: "%Y-%m-%d"}}"/>
+  {% if page.image %}
+    {% assign start = page.image | slice: 0, 1 %}
+    {% if start == '/' %}
+      <meta itemprop="image" content="{{site.url}}{{page.image}}"></meta>
+    {% else %}
+      <meta itemprop="image" content="{{page.image}}"></meta>
+    {% endif %}
+  {% endif %}
+  <div class="post-header">
+    <h1 itemprop="headline">{{ page.title | escape }}</h1>
+    <div class="post-meta">
+      <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{ page.date | date: "%d. %m. %Y." | downcase }}</time>
+      {% if author %}
+      <div class="author-box margin-md-top" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <img class="author-img circle" src="{{author.image}}"> <a href="{{author.url}}" rel="author" itemprop="url"><span itemprop="name">{{author.name}}</span></a>
+      </div>
+      {% endif %}
+    </div>
+
+    {% include share-buttons.html %}
+  </div>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <div class="post-tags">Teme:
+    {% for tag in page.tags %}
+      <a href="{{site.baseurl}}/teme/#{{tag|slugize}}" rel="tag"><span itemprop="keywords">{{tag}}</span></a>&nbsp;
+    {% endfor %}
+  </div>
+
+  <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+      <meta itemprop="url" content="{{site.url}}/images/ui/pozadina.png">
+    </div>
+    <meta itemprop="name" content="Škola koda">
+  </div>
+
+  {% include bilten.html %}
+</article>

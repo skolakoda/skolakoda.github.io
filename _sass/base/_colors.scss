@@ -1,0 +1,38 @@
+@import "variables.scss";
+
+@mixin color($name, $value) {
+  .#{$name} {
+    color: $value;
+  }
+  .#{$name}-bg {
+    background-color: $value;
+  }
+}
+
+@include color('boja1', $citron);
+@include color('boja2', $bleached-cedar);
+@include color('boja3', $disco);
+@include color('boja4', $valencia);
+@include color('boja5', $carrot-orange);
+@include color('boja6', $tundora);
+
+@mixin book-color($name, $value) {
+  .#{$name} {
+    color: $value;
+    border: 1px solid darken($value, 30%);
+    .book-inner {
+      background-color: rgba($value, 0.9);
+    }
+    p {
+      $shadow: rgba(darken($value, 30%), 0.6);
+      text-shadow: 1px 1px 1px $shadow, 0 -1px 0 $shadow;
+    }
+  }
+}
+
+@include book-color('knjiga-boja1', $citron);
+@include book-color('knjiga-boja2', $bleached-cedar);
+@include book-color('knjiga-boja3', $disco);
+@include book-color('knjiga-boja4', $valencia);
+@include book-color('knjiga-boja5', $carrot-orange);
+@include book-color('knjiga-boja6', $tundora);

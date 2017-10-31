@@ -1,0 +1,19 @@
+@import "../base/variables";
+
+code {
+  background-color: $wild-sand;
+  display: inline-block;
+  font-size: 90%;
+}
+
+pre {
+  background-color: $wild-sand;
+  border-radius: 3px;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
+
+  code {
+    width: 100%;
+  }
+}

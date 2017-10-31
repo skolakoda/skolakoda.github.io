@@ -1,0 +1,27 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+p {
+  margin: 20px 0;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+time {
+  color: $boulder;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+}

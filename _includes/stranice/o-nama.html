@@ -1,0 +1,25 @@
+<div class="citat">
+  {% assign random = site.time | date: "%s%N" | modulo: site.data.quotes.size %}
+  <blockquote>
+    <i> {{site.data.quotes[random].tekst}} </i><br>
+    <small class="tiny margin-sm-top"> — {{ site.data.quotes[random].autor }} </small>
+  </blockquote>
+</div>
+
+<p><b>Škola koda</b> je platforma za <b>učenje programiranja</b>, posvećena prekvalifikaciji omladine i nezaposlenih u IT sektor. Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni.</p>
+
+<p>Organizujemo kvalitetnu obuku <b>uživo i preko neta</b>, po cenama daleko ispod tržišnih. Naši kursevi funkcionišu kao obuka borilačkih veština - članarina je mesečna i vežbaš dok ne postigneš zadovoljavajući nivo.</p>
+
+<p>Školu koda pokrenuo je Damjan Pavlica, politikolog koji je uspešno promenio struku i postao programer. To takođe možeš i ti, potrebno je samo početi!</p>
+
+<h2>Obuka</h2>
+
+<p>Radimo po malim grupama. Kursevi traju između 3 i 6 meseci. Termini su između 10 i 16 časova (vidi <a href="/raspored">raspored</a>). Tempo rada je dva dvočasa nedeljno.</p>
+
+<p><b class="boja3">Cena</b>: mesečna članarina, koja uključuje kurs po izboru, materijale i dodatne aktivnosti, iznosi <b class="boja3">3000 din</b>. Za pohađanje dva kursa uporedo, plaća se članarina i po.</p>
+
+<p>Prva nedelja je besplatna. <a href="/kursevi/prijava">Prijavi se</a> na vreme!</p>
+
+{% include o-predavacu.html %}
+
+<p>Drugi o nama: <a href="http://www.nsz.gov.rs/live/info/vesti/u_imo_narod_programiranju.cid39637?page=2" target="_blank">članak Nacionalne službe za zapošljavanje o Školi koda</a></p>

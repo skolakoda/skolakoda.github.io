@@ -1,0 +1,32 @@
+@import "../base/variables";
+
+table {
+  border-collapse: collapse;
+  overflow-x: auto;
+  text-align: left;
+  width: 100%;
+
+  @media (max-width: $screen-sm-max) {
+    display: block;
+  }
+
+  td,
+  th {
+    border: 1px solid $silver;
+    padding: 2px 20px;
+  }
+
+  thead {
+    background: $scorpion;
+    color: $white;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: $wild-sand;
+  }
+}
+
+.small-table {
+  text-align: center;
+  width: auto;
+}
