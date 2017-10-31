@@ -6,7 +6,7 @@ Poseti nas na [skolakoda.org](http://skolakoda.org/)
 
 ## Preduslovi
 
-Prvo instaliraš `ruby`. Potom:
+Prvo instaliraš [ruby](https://rubyinstaller.org/downloads/). Potom:
 
 ```
 gem install bundler
