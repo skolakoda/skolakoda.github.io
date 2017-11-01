@@ -64,7 +64,7 @@ redirect_from:
 
 - [Faze razvoja softvera](/faze-razvoja-programa)
 - Analiza zahteva
-  - Slučajevi korišćenja (*use cases*)
+  - [Slučajevi korišćenja](/slucaj-koriscenja) (*use cases*)
   - Korisničke priče (*user stories*)
   - Izrada specifikacije
 - Projektovanje modela
