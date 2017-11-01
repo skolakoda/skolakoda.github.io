@@ -1,10 +1,11 @@
 ---
-layout: post
 title: Kako organizovati frontend projekat koji raste?
+layout: lekcija-razvoj
 author: damjan
-tags: [frontend, arhitektura]
+permalink: /kako-organizovati-frontend-projekat
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Bau_MSW_%281%29.jpg/1280px-Bau_MSW_%281%29.jpg
 ---
+
 <img class="full" src="{{page.image}}" alt="arhitektura">
 
 Pre nego što počnemo, bitno je upoznati neke konvencije:

@@ -1,8 +1,8 @@
 ---
 title: Izrada dijagrama klasa
-layout: post
+layout: lekcija-razvoj
 author: damjan
-tags: [inzenjerstvo, razvoj-softvera, projektovanje]
+permalink: /dijagram-klasa
 image: /images/koncepti/oop/klasa-film.jpg
 ---
 

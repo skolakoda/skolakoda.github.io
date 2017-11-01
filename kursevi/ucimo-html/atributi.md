@@ -1,9 +1,8 @@
 ---
+title: HTML atributi
 layout: lekcija-html
 permalink: /ucimo-html/atributi
 ---
-
-# HTML atributi
 
 **HTML elementi mogu imati atribute.**
 

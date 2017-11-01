@@ -1,9 +1,8 @@
 ---
+title: Čemu služi HTML?
 layout: lekcija-html
 permalink: /ucimo-html/uvod
 ---
-
-# Čemu služi HTML?
 
 **HTML je osnovni jezik weba. Sve stranice su njime napisane.**
 

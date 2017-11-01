@@ -1,7 +1,7 @@
 ---
 title: Objektno-orijentisano programiranje
-layout: post
-tags: [objekti, klase, oop]
+layout: lekcija-razvoj
+permalink: /objektno-orijentisano-programiranje
 ---
 
 ***Objektno-orijentisano programiranje je pristup razvoju računarskih programa koji imitira način na koji su objekti definisani u realnom svetu.***

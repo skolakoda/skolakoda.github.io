@@ -10,7 +10,9 @@ image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
 ## Praktični Frontend
 # Priprema za rad u firmama
 
-***Učimo sve ono što nije osnovni HTML, CSS i JS, a potrebno je za poziciju Front-end developera. Za ovaj kurs je neophodno predznanje HTML, CSS i JS-a.***
+**Razvijamo aplikaciju preko Githuba, po taskovima i pod pritiskom. Koristimo Node i NPM, Webpack, Sass, Angular, React i sve što zatreba.**
+
+***Za kurs je neophodno predznanje HTML, CSS i JS-a.***
 
 <a href="/kursevi/prijava?kurs=4" class="btn float-right">Prijavi se</a>
 
@@ -49,16 +51,16 @@ image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
   - `localtunnel`, za isprobavanje lokalnog projekta preko neta
 - Vežba: Pročitaj fajl i ispiši njegov sadržaj
 
-### Razvoj softvera
+### Razvoj softvera [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
 
 - [Uvod u softversko inženjerstvo](https://www.slideshare.net/DamjanPavlica/uvod-u-softversko-inenjerstvo)
   - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
 - [Ideje za aplikacije](/ideje-za-aplikacije)
-- Izrada specifikacije
+- Analiza zahteva
   - Slučajevi korišćenja (*use cases*)
   - Korisničke priče (*user stories*)
-- [Faze razvoja softvera](/faze-razvoja-programa)
-  - Analiza zahteva
+  - Izrada specifikacije
+- Projektovanje modela
   - Detektovanje elemenata sistema
   - [Izgrada dijagrama klasa](/dijagram-klasa)
 - [Dobre prakse pisanja programa](/dobre-prakse)
@@ -89,21 +91,17 @@ image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
 ### Bootstrap i prilagodljivi dizajn [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-bootstrap)
 
 - [Šta je Bootstrap?](https://www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
+- Prvo mobilni pristup
 - Dodavanje biblioteke
   - Prilagođena instalacija
-- Prilagodljiva `container` klasa
+- Osnovna `container` klasa
 - Tačke preloma (*breakpoints*)
 - Sistem rešetki (*grid*)
   - redovi (`row`) i kolone (`col-xs-`, `col-sm-`, `col-md-`, `col-lg-`)
   - različita širina kolona za različite veličine
   - dodavanje ofseta
-- Klase za pozicioniranje (`pull-left`, `pull-right`)
-- Prilagodljive slike (`img-responsive`)
 - Glif ikonice
-- Javaskript dodaci
-  - Vrteška (*carousel*)
-  - Harmonika (*accordion*)
-  - Prozorče (*modal*)
+- jQuery dodaci: vrteška (*carousel*), harmonika (*accordion*), prozorče (*modal*)
 - [Saveti za rad sa Bootstrapom](/rad-sa-bootstrapom)
 - [Kako tretirati uređaje iste veličine prema dodirljivosti ekrana?](/kako-tretirati-klijentske-uredjaje)
 
@@ -242,7 +240,7 @@ image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
 ### Van u divljini
 
 - Snalaženje na postojećim projektima
-  - Nađi projekat [na Školi](/radovi) koda ili Githubu
+  - Nađi projekat [na Školi koda](/radovi) ili Githubu
 - Čitanje dokumentacije (ako postoji)
 - Upoznavanje sa strukturom projekta
 - Identifikovanje tehnologija i biblioteka

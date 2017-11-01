@@ -1,9 +1,8 @@
 ---
+title: HTML stablo
 layout: lekcija-html
 permalink: /ucimo-html/stablo
 ---
-
-# HTML stablo
 
 HTML elementi su ugnježdeni jedni unutar drugih (*deca* unutar *roditelja*), tvoreći strukturu stabla.
 
@@ -46,7 +45,7 @@ Uporedi gornju sliku stabla sa kodom u editoru. Pronađi sličnosti i razlike:
 
         <ul>
             <li><a href="http://skolakoda.org/kursevi/ucimo-html">HTML</a></li>
-            <li><a href="http://skolakoda.org/kursevi/ucimo-css">CSS</a></li>
+            <li><a href="http://skolakoda.org/kursevi/ucimo-css/">CSS</a></li>
             <li><a href="http://skolakoda.org/kursevi/ucimo-javascript">Javascript</a></li>
             <li><a href="http://skolakoda.org/kursevi/ucimo-php">PHP</a></li>
         </ul>

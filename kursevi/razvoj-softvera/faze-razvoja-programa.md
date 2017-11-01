@@ -1,7 +1,7 @@
 ---
 title: Faze razvoja softvera
-layout: post
-tags: [inzenjerstvo, razvoj-softvera, projektovanje]
+layout: lekcija-razvoj
+permalink: /faze-razvoja-programa
 ---
 
 **Tokom izrade programa, bez obzira koliko su oni jednostavni, potrebno je voditi računa o velikoj količini informacija i pravila neophodnih za ispravno funkcioniranje programa.**

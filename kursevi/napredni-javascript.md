@@ -15,13 +15,13 @@ image: /images/ljudi/ibm.jpg
 
 <a href="/kursevi/prijava?kurs=5" class="btn float-right">Prijavi se</a>
 
-### Klase i nasleđivanje
+### Objektno orijentisano programiranje [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
 
 - [Objektno orjentisan pristup](/objektno-orijentisano-programiranje)
   - [Uvod u objektno orijentisano programiranje](https://www.slideshare.net/DamjanPavlica/uvod-u-objektno-orijentisano-programiranje-i-c)
 - Modelovanje klase
-  - Apstrakcija i neponavljanje koda
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
+  - Apstrakcija i neponavljanje koda
   - Nasleđivanje i polimorfizam (više vidova iste metode)
   - Otvoren/zatvoren princip (otvoren za proširenje, zatvoren za menjanje)
 - Čemu služe `constructor` i `super`?

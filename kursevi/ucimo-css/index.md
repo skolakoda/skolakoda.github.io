@@ -112,6 +112,7 @@ image: /images/kursevi/css.png
 - Fiksiranje dizajna i tačke preloma (*breakpoints*)
 - CSS `@media` upiti (*queries*)
 - Prvo mobilni dizajn (*mobile first*)
+- Bootstrap biblioteka
 - Vežba: napravi dva prikaza navigacije, za mobilni i desktop
 - Vežba: prilagodi prikaz stranica za razne uređaje
 
@@ -155,10 +156,10 @@ image: /images/kursevi/css.png
 - Prevođenje dizajna u kod
 - Izrada Wordpress teme
 
-## Bonus: CSS grid
+### Bonus: CSS grid
 
 - Šta je CSS grid?
-- [http://learncssgrid.com/](learn CSS grid)
-- [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout](CSS Grid Layout)
-- [https://www.sitepoint.com/introduction-css-grid-layout-module/](An Introduction to the CSS Grid Layout)
+- [Learn CSS grid](http://learncssgrid.com/)
+- [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+- [An Introduction to the CSS Grid Layout](https://www.sitepoint.com/introduction-css-grid-layout-module/)
 - Primer: [https://codepen.io/mor10/pen/QvmLpd](Standardna struktura sajta u gridu)

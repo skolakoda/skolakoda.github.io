@@ -1,9 +1,8 @@
 ---
+title: Oznake za formatiranje teksta
 layout: lekcija-html
 permalink: /ucimo-html/formatiranje-teksta
 ---
-
-# Oznake za formatiranje teksta
 
 HTML je prvobitno stvoren za formatiranje teksta, što mu je i dalje osnovna namena. Neki od osnovnih HTML tagova su:
 

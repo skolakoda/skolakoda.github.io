@@ -1,9 +1,8 @@
 ---
+title: HTML elementi
 layout: lekcija-html
 permalink: /ucimo-html/elementi
 ---
-
-# HTML elementi
 
 **HTML stranica je sastavljena od HTML elemenata.**
 

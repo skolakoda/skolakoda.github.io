@@ -32,7 +32,8 @@ bundle exec jekyll serve --limit_posts 1
 ## TODO
 
 - smanjiti visinu navigacije na velikim
-- srediti editor za css, vidi tipografiju
+- srediti editor za css, vidi lekciju tipografija
+- vratiti decji kurs
 - dodati js editor
 http://qnimate.com/create-an-frontend-editor-with-code-highlighting-and-execution/
 https://code.tutsplus.com/tutorials/create-a-wysiwyg-editor-with-the-contenteditable-attribute--cms-25657

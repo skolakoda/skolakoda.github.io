@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Kako napraviti kontakt formu bez bekenda?
+layout: lekcija-html
 author: damjan
-tags: [frontend, kontakt-forma, servisi]
+permalink: /kontakt-forma-bez-bekenda
 ---
 
 ***Nikako, naravno, bez bekenda je nemoguće napraviti funkcionalnu kontakt formu. No, fora je u tome da bekend ne mora biti naš. Možemo koristiti neki od besplatnih servisa koji će prihvatiti podatke naših korisnika i proslediti nam na mejl, ili uskladištiti negde.***

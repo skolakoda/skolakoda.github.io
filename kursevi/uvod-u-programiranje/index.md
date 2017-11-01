@@ -9,7 +9,7 @@ image: /images/kursevi/uvod.png
 ### Učimo C, Javu, PHP, Python i Javaskript
 # Uvod u svet programiranja
 
-**Savladaj temelje računarske nauke. Nauči osnovne obrasce zajedničke raznim programskim jezicima. Stekni širinu i postani ozbiljan programer.**
+**Savladaj temelje računarske nauke. Nauči osnovne obrasce zajedničke raznim programskim jezicima. Postani ozbiljan programer, ne koder.**
 
 ***Kurs je za potpune početnike. Solidan temelj za dalju profesionalnu orjentaciju.***
 
@@ -152,10 +152,12 @@ image: /images/kursevi/uvod.png
 - [Algoritmi sortiranja](/agoritmi-sortiranja)
 - [Efikasnost algoritama](/efikasnost-algoritama)
 
-### Pisanje programa
+### Pisanje programa [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
+
 - planiranje programa
 - pseudokod
 - kodiranje
+- [Dobre prakse pisanja programa](/dobre-prakse)
 
 ### Zajednički rad i arhiviranje koda
 - Čemu služe Git i Github?

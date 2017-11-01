@@ -9,15 +9,20 @@ $razmak: 30px;
   }
 }
 
+.ikonica-manja,
 .ikonica-veca,
-.ikonica-manja {
+.ikonica-velika {
   vertical-align: middle;
+}
+
+.ikonica-manja {
+  height: 28px;
 }
 
 .ikonica-veca {
   height: 32px;
 }
 
-.ikonica-manja {
-  height: 28px;
+.ikonica-velika {
+  height: 36px;
 }

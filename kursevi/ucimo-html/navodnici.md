@@ -1,9 +1,8 @@
 ---
+title: Navodnici i polunavodnici u HTML-u
 layout: lekcija-html
 permalink: /ucimo-html/navodnici
 ---
-
-## Navodnici i polunavodnici u HTML-u
 
 Vrednost atributa se može pisati unutar običnih (`"`) ili polunavodnika (`'`). Ako nam trebaju navodnici unutar navodnika, onda moramo kombinovati obične i polunavodnike. Tako na primer pišemo:
 
