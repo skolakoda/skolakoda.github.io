@@ -19,7 +19,6 @@ image: /images/kursevi/uvod.png
 
 - Šta je programiranje
 - [Kako učiti programiranje](/programiranje-je-tesko)
-- [Mogu li učiti programiranje bez matematike?](/ne-znam-matematiku)
 - [Uvod u programske jezike](/uvod-u-programske-jezike) ([prezentacija](https://www.slideshare.net/DamjanPavlica/programski-jezici-73018599))
 
 ### Instalacija
@@ -40,10 +39,11 @@ image: /images/kursevi/uvod.png
 - prevođenje novijeg koda u stariji
 - prevođenje jednog jezika u drugi
 
-### Kako radi računar?
+### Šta je računar?
 
-- [Fon Nojmanova arhitektura računara](/fon-nojmanova-arhitektura)
-
+- [Rana istorija računara](/rana-istorija-racunara)
+- [Fon Nojmanova arhitektura](/fon-nojmanova-arhitektura)
+- [Savremena istorija računara](/savremena-istorija-racunara)
 
 ### Drugačije vrste brojeva
 
@@ -97,6 +97,7 @@ image: /images/kursevi/uvod.png
 - logički operatori (`i`, `ili`, `ne`)
 - uslovi (`if`, `if-else`, `else-if`, `switch`)
 - [Logičke kapije](/logicke-kapije)
+- [Bitovni operatori](/bitovni-operatori)
 
 ### Petlje i iteracija
 

@@ -1,8 +1,7 @@
-<!-- https://github.com/skolakoda/ucimo-javaskript-staro -->
-
 ### Čemu služi JS? <a href="https://youtu.be/BFc_YPAxQcg"><img src="/images/ui/ikonice/youtube.svg" class="ikonica-veca" alt="play"></a>
 
 - [Je li teško naučiti programiranje?](/programiranje-je-tesko)
+- [Mogu li učiti programiranje bez matematike?](/ne-znam-matematiku)
 - Čemu služi Javascript?
 - Kratka istorija jezika <a href="https://youtu.be/E1c1wXOheFk"><img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play"></a>
 - Razlika između programiranja u pregledaču i na fajl sistemu

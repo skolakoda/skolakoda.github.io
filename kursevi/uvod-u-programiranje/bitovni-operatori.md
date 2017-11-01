@@ -1,8 +1,8 @@
 ---
 title: Bitovni operatori
-layout: post
-tags: [bitovi, brojevi, c, racunarska-nauka]
-image: /images/ljudi/programerka.jpg
+layout: lekcija-uvod
+permalink: /bitovni-operatori
+image: /images/fore/bitovni-operatori.svg
 ---
 
 ![]({{page.image}})

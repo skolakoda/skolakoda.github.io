@@ -1,7 +1,7 @@
 ---
 title: Savremena istorija računara
-layout: post
-tags: [istorija, racunari, tehnologija]
+layout: lekcija-uvod
+permalink: /savremena-istorija-racunara
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/IBM_Electronic_Data_Processing_Machine_-_GPN-2000-001881.jpg/1280px-IBM_Electronic_Data_Processing_Machine_-_GPN-2000-001881.jpg
 ---
 

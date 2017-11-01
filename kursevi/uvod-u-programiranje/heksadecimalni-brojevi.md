@@ -1,7 +1,7 @@
 ---
 title: Heksadecimalni brojevi
-layout: post
-tags: [brojevi, racunanje, matematika]
+layout: lekcija-uvod
+permalink: /heksadecimalni-brojevi
 image: https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2011/05/color-hex-examples.png
 ---
 

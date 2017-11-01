@@ -1,7 +1,7 @@
 ---
 title: Rana istorija računara
-layout: post
-tags: [istorija, racunari, tehnologija]
+layout: lekcija-uvod
+permalink: /rana-istorija-racunara
 ---
 
 ***Računari u današnjem smislu nastali su polovinom XX veka, ali koreni računarstva su mnogo stariji od prvih računara. Vekovima su ljudi stvarali mehaničke i elektromehaničke naprave koje su mogle da rešavaju neke numeričke zadatke.***
