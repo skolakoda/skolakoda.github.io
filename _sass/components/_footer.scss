@@ -36,10 +36,7 @@ footer {
   .wrapper {
     @media (min-width: $screen-md-min) {
       display: flex;
-    }
-    @media (min-width: $screen-lg-min) {
       align-items: center;
-      flex-direction: row;
       justify-content: space-between;
     }
   }
