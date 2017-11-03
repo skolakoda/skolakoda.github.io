@@ -26,7 +26,7 @@ Kopira se vrijednost lokalne varijable iz pozivajuće procedure, u lokalnu varij
 
 Pozvana procedura dobiva pristup lokalnim varijablama iz pozivajuće procedure. Pozvana procedura može trajno promijeniti vrijednost varijablama čije su adrese prenesene.
 
-![](http://www.sitesbay.com/cpp/images/function/callbyvalue-callbyreference.png)
+![](//www.sitesbay.com/cpp/images/function/callbyvalue-callbyreference.png)
 
 ## Doseg i trajanje varijabli
 

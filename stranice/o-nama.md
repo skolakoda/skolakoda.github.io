@@ -15,13 +15,13 @@ image: /images/skola/damjan-predavanje-tabla.jpg
 	"@context": "http://schema.org",
 	"@type": "EducationalOrganization",
 	"legalName": "Škola koda",
-	"url": "http://skolakoda.org/",
+	"url": "https://skolakoda.org/",
 	"contactPoint": [{
 		"@type": "ContactPoint",
 		"telephone": "+381659777253",
 		"contactType": "customer service"
 	}],
-	"logo": "http://skolakoda.org/images/ui/pozadina.png",
+	"logo": "https://skolakoda.org/images/ui/pozadina.png",
 	"sameAs": ["https://www.facebook.com/skolakoda/",
 		"https://twitter.com/skolakoda",
 		"https://www.youtube.com/channel/UCxtuC8KZxqkh4WhNgiH_JTg",

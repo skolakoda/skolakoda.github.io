@@ -5,11 +5,11 @@ author: damjan
 tags: [svg, frontend, css]
 ---
 
-Poslednjih par godina, slike u vektorskom formatu su postale [opšte podržane](http://caniuse.com/#feat=svg) na webu i redovno se koriste za ikonice, logoe i druge odgovarajuće namene. Kao što verovatno znate, SVG ne gubi kvalitet prilikom skaliranja, ali je pogodan uglavnom za geometriju (ne može zameniti fotografije).
+Poslednjih par godina, slike u vektorskom formatu su postale [opšte podržane](//caniuse.com/#feat=svg) na webu i redovno se koriste za ikonice, logoe i druge odgovarajuće namene. Kao što verovatno znate, SVG ne gubi kvalitet prilikom skaliranja, ali je pogodan uglavnom za geometriju (ne može zameniti fotografije).
 
 SVG na stranici možemo tretirati kao sliku, ali ga takođe možemo tretirati kao bilo koji drugi HTML element, jer su SVG i HTML zapravo dva člana iste jezičke porodice.
 
-![](http://www.icons-land.com/images/products/Metro-SVG-Zodiac-Icons.png)
+![](//www.icons-land.com/images/products/Metro-SVG-Zodiac-Icons.png)
 
 ## SVG kao slika
 
@@ -25,13 +25,13 @@ Tako uključen svg fajl se tretira kao slika, što ograničava široke mogućnos
 
 Da bismo izvukli maksimum od SVG formata, potrebno ga je tretirati kao HTML, jer su SVG i HTML zapravo bliski rođaci. Ako otvorite SVG fajl sa bilo kojim tekst editorom videćete da se sastoji od uglastih tagova, isto kao HTML. Oba pripadaju [XML porodici jezika](https://en.wikipedia.org/wiki/List_of_XML_markup_languages).
 
-Uzmimo bilo koji svg fajl, npr. [twitter ikonicu](http://www.flaticon.com/free-icon/twitter-logo-silhouette_8800). SVG prvo treba očistiti od svega suvišnog, što nam nije potrebno u HTML-u. To je pre svega prvi red koji izgleda otprilike ovako:
+Uzmimo bilo koji svg fajl, npr. [twitter ikonicu](//www.flaticon.com/free-icon/twitter-logo-silhouette_8800). SVG prvo treba očistiti od svega suvišnog, što nam nije potrebno u HTML-u. To je pre svega prvi red koji izgleda otprilike ovako:
 
 ```svg
 <?xml version="1.0" encoding="iso-8859-1"?>
 ```
 
-I još gomila suvišnih tagova koje ostavljaju programi za obradu slika. Čišćenje se može raditi ručno, ali preporučujem alatku [SVG Optimiser](http://petercollingridge.appspot.com/svg-optimiser). Nakon čišćenja, naš fajl izgleda ovako:
+I još gomila suvišnih tagova koje ostavljaju programi za obradu slika. Čišćenje se može raditi ručno, ali preporučujem alatku [SVG Optimiser](//petercollingridge.appspot.com/svg-optimiser). Nakon čišćenja, naš fajl izgleda ovako:
 
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612">

@@ -2,7 +2,7 @@
 
 Učimo narod programiranju!
 
-Poseti nas na [skolakoda.org](http://skolakoda.org/)
+Poseti nas na [skolakoda.org](https://skolakoda.org/)
 
 ## Preduslovi
 
@@ -20,16 +20,19 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Može i:
+### Parametri
+
+Da uključi i neobjavljene skice članaka:
 ```
 bundle exec jekyll serve --drafts
 ```
-ili
+
+Da prikazuje samo poslednji post:
 ```
 bundle exec jekyll serve --limit_posts 1
 ```
 
-ili eksperimentalno
+Da pravi samo ono što je menjano (najbrže ali eksperimentalno)
 ```
 bundle exec jekyll serve --incremental
 ```

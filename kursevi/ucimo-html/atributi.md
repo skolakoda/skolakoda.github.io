@@ -17,7 +17,7 @@ permalink: /ucimo-html/atributi
 
 Dodaj vrednosti atributima:
 
-- `href` atributu dodaj vrednost `http://skolakoda.org`
+- `href` atributu dodaj vrednost `https://skolakoda.org`
 - `title` atributu dodaj vrednost `O Školi koda`
 - `src` atributu dodaj vrednost `http://lorempixel.com/400/200/`
 
@@ -40,7 +40,7 @@ Nadnesi miš iznad pasusa da bi se pojavio titl.
 Vrednost atributa nekad radi i bez navodnika, kao u slučaju:
 
 ```html
-<a href=http://skolakoda.org>
+<a href=https://skolakoda.org>
 ```
 
 Međutim, navodnici su neophodni ukoliko vrednost sadrži praznine:

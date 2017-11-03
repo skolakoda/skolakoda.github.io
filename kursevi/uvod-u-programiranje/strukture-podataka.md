@@ -149,7 +149,7 @@ Struktura stoga često se upotrebljava u situacijama kada određene korake obrad
 
 ## Red (*queue*)
 
-![](http://cdn.newsapi.com.au/image/v1/407e6d170faa1120aaf8ec08e2c92d5a?width=650)
+![](//cdn.newsapi.com.au/image/v1/407e6d170faa1120aaf8ec08e2c92d5a?width=650)
 
 Red je linearna struktura u kojoj se elementi dodaju isključivo na jednom kraju, a oduzimaju isključivo na drugom kraju. Strukturu reda lako je predočiti analogijom sa istim pojmom u svakodnevnom životu – npr. redom ispred blagajne u dućanu. Svaka nova osoba koja dođe zauzima mjesto na kraju reda, a osoba sa početka reda plaća svoju robu i odlazi. Drugi uobičajeni naziv za ovu strukturu je “FIFO” lista (eng. *first in – first out*).
 

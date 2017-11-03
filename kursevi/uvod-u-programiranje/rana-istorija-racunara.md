@@ -25,7 +25,7 @@ Prve mehaničke sprave koje su mogle da potpuno automatski izvode aritmetičke o
 Žozef Mari Žakard konstruisao je 1801. godine prvu
 programabilnu mašinu — mehanički tkački razboj koji je koristio bušene kartice kao svojevrsne programe za generisanje kompleksnih šara na tkanini. Svaka rupa na kartici određivala je jedan pokret mašine, a svaki red na kartici odgovarao je jednom redu šare.
 
-![Analitička mašina](http://ds-wordpress.haverford.edu/bitbybit/wp-content/uploads/2012/07/Chapter_2-60.jpg)
+![Analitička mašina](//ds-wordpress.haverford.edu/bitbybit/wp-content/uploads/2012/07/Chapter_2-60.jpg)
 
 U prvoj polovini XIX veka, Čarls Bebidž dizajnirao je, mada ne i realizovao, prve programabilne računske mašine. Godine 1822. započeo je rad na diferencijskoj mašini koja je trebalo da računa vrednosti polinomijalnih funkcija (i eliminiše česte ljudske greške u tom poslu) u cilju izrade što preciznijih logaritamskih tablica. Ime je dobila zbog toga što je koristila tzv. metod konačnih razlika da bi bila eliminisana potreba za množenjem i deljenjem. Mašina je trebalo da ima oko 25000 delova i da se pokreće ručno, ali nije nikada završena.
 

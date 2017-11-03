@@ -38,7 +38,7 @@ image: /images/kursevi/js-logo.png
   "provider": {
     "@type": "Organization",
     "name": "Škola koda",
-    "url": "http://skolakoda.org"
+    "url": "https://skolakoda.org"
   }
 }
 </script>

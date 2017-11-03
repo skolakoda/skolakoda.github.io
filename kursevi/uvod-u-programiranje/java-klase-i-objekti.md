@@ -595,4 +595,4 @@ class TwoDPoint {
 Kažemo da unutar metode, deklaracija lokalne varijable ili argumenta sa istim imenom kao neka *member* varijabla skriva ili zasjenjuje (*hides*) tu varijablu. Ona se može referencirati dodavanjem prefiksa `this`.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](http://www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

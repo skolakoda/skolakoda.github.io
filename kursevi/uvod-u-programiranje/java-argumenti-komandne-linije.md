@@ -31,4 +31,4 @@ args.length je 2.
 Svi argumenti s komandne linije prenose se kao strune (stringovi), nikad kao brojevi. Kasnije menjamo tip podatka u broj.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](http://www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

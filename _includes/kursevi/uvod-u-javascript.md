@@ -8,7 +8,7 @@
 
 ### Instalacija i pokretanje <a href="https://youtu.be/GxHEdXGu62g"><img src="/images/ui/ikonice/youtube.svg" class="ikonica-veca" alt="play"></a>
 
-- Instalacija editora ([Atom](https://atom.io/), [Brackets](http://brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
+- Instalacija editora ([Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
   - Instalacija dodataka (Emmet, linter, beautifier)
 - Instalacija [NodeJS](https://nodejs.org/)-a
 - Prvi program Zdravo Svete

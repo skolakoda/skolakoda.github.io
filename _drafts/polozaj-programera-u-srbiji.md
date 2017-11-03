@@ -12,7 +12,7 @@ Programer u Srbiji je visoko kvalifikovani najamni radnik sa platom većom od pr
 
 ## Prosečna programerska plata
 
-IT industriji trenutno fali kvalifikovanih radnika. Zato se ulažu veliki napori u propagandu koja predstavlja programere kao ljude koji rade kada i koliko žele, imaju para, uživaju. Glavni deo u toj propagandi igraju nameštene ankete o prosečnoj plati programera u Srbji, koje tvrde da ona iznosi [1225€](https://startit.rs/istrazivanje-srpski-programeri-plate-obrazovanje/) pa čak i [210 hiljada dinara](http://www.blic.rs/vesti/ekonomija/prosecna-plata-programera-u-srbiji-210-hiljada-dinara/yhx6rwy).
+IT industriji trenutno fali kvalifikovanih radnika. Zato se ulažu veliki napori u propagandu koja predstavlja programere kao ljude koji rade kada i koliko žele, imaju para, uživaju. Glavni deo u toj propagandi igraju nameštene ankete o prosečnoj plati programera u Srbji, koje tvrde da ona iznosi [1225€](https://startit.rs/istrazivanje-srpski-programeri-plate-obrazovanje/) pa čak i [210 hiljada dinara](//www.blic.rs/vesti/ekonomija/prosecna-plata-programera-u-srbiji-210-hiljada-dinara/yhx6rwy).
 
 (Postoji čitava klasa regrutera, odnosa sa javnošću, ljudskih resursa, menadžera i ostalih koji pumpaju tu priču. Znate ono, izazovan posao, dinamično okruženje, tabu plate.)
 

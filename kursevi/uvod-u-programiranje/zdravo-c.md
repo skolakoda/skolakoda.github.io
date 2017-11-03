@@ -24,7 +24,7 @@ Biblioteke su fajlovi u kojima se nalaze neke napisane funkcije koje programer m
 
 Dok programiramo, mi ne pravimo izvršnu verziju programa, već samo source fajl, koji je u C-u `fajl.c`. Da bi od ovog source fajla napravili izvršni fajl (`exe`) potreban nam je kompajler. I za Windows i za Linux platforme postoji dosta programa za kompaliranje.
 
-[Code::Blocks](http://www.codeblocks.org/) je freeware, lepo izgleda, jednostavan za korišćenje, koristi GCC kompajler, takođe, koristi se za C i C++. Preporučio bih ga onima koji planiraju da se bave C programiranjem.
+[Code::Blocks](//www.codeblocks.org/) je freeware, lepo izgleda, jednostavan za korišćenje, koristi GCC kompajler, takođe, koristi se za C i C++. Preporučio bih ga onima koji planiraju da se bave C programiranjem.
 
 ## Prvi program
 

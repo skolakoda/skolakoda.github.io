@@ -22,7 +22,7 @@ image: /images/kursevi/css.png
 
 ### Upoznavanje alata
 
-- Instalacija editora (Notepad++, [Atom](https://atom.io/), [Brackets](http://brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
+- Instalacija editora (Notepad++, [Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
 - Instalacija dodataka
   - bojenje koda
   - ulepšavanje koda
@@ -144,7 +144,7 @@ image: /images/kursevi/css.png
 - [Dobre CSS prakse](/css-saveti)
 - upotreba `!important` kao loša praksa
 - skraćene direktive i opasnost od gaženja
-- Vežba: proveri kod sa [CSSlint](http://csslint.net/)-om
+- Vežba: proveri kod sa [CSSlint](//csslint.net/)-om
 
 ### Organizacija koda
 - Vežba: organizuj kod u logične celine
@@ -159,7 +159,7 @@ image: /images/kursevi/css.png
 ### Bonus: CSS grid
 
 - Šta je CSS grid?
-- [Learn CSS grid](http://learncssgrid.com/)
+- [Learn CSS grid](//learncssgrid.com/)
 - [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 - [An Introduction to the CSS Grid Layout](https://www.sitepoint.com/introduction-css-grid-layout-module/)
 - Primer: [https://codepen.io/mor10/pen/QvmLpd](Standardna struktura sajta u gridu)

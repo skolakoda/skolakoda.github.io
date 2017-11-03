@@ -56,7 +56,7 @@
 
 ## Materijali
 
-* [Šta je Bootstrap?](http://www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
+* [Šta je Bootstrap?](//www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
 
 ## Kuda dalje?
 
