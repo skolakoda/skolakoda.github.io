@@ -47,6 +47,14 @@ a.btn:hover {
   text-decoration: none;
 }
 
+.back {
+  text-decoration: none;
+
+  &::before {
+    content: '< ';
+  }
+}
+
 .dugme-kratko {
   width: auto;
 }

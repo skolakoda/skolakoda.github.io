@@ -1,0 +1,91 @@
+@import "../../base/variables";
+@import "./varijable";
+
+.naslovna {
+  overflow: hidden;
+  transition: background 2s;
+
+  .upper {
+    overflow: hidden;
+    position: relative;
+
+    .gornja-slika {
+      display: block;
+      margin-left: 50%;
+      max-width: none;
+      transform: translateX(-50%);
+      user-select: none;
+    }
+  }
+
+  .slika-onama {
+    box-shadow: 8px 8px 10px #aaa;
+    filter: sepia(0);
+    transition: filter .8s;
+    &:hover {
+      filter: sepia(.5);
+    }
+  }
+}
+
+.nav-slika {
+  height: $visina-slicica-xs;
+}
+
+.upper {
+  font-size: .75em;
+}
+
+.poziv {
+  position: absolute;
+  z-index: 1;
+  p {
+    margin-top: 0;
+    color: $citron;
+  }
+}
+
+.nove-lekcije {
+  position: absolute;
+  right: $razmak-xs;
+  text-align: right;
+  top: $razmak-xs;
+  width: 26%;
+  z-index: 1;
+  @media (min-width: $screen-sm-min) {
+    width: 34%;
+  }
+  @media (min-width: $screen-md-min) {
+    right: $razmak-lg;
+    width: 40%;
+  }
+
+  h2 {
+    color: $valencia;
+    margin-top: 0;
+  }
+
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  & > a {
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: $carrot-orange;
+    font-size: .75em;
+    @media (min-width: $screen-md-min) {
+      font-size: inherit;
+    }
+  }
+}
+
+.nav-box {
+  left: 40%;  // za tranziciju
+  overflow: hidden;
+  padding: 0 $razmak-xs;
+  top: 10%;  // za tranziciju
+}

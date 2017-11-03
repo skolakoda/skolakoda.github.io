@@ -152,7 +152,6 @@ image: /images/kursevi/css.png
 
 ### Završni rad
 
-- Upotreba [Zeplin](https://zeplin.io/)-a
 - Prevođenje dizajna u kod
 - Izrada Wordpress teme
 

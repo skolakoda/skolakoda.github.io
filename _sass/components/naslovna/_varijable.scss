@@ -1,0 +1,32 @@
+$razmak-xs: 10px;
+$razmak-lg: 20px;
+$min-visina-xs: 525px;
+$visina-slicica-xs: 120px;
+$visina-slicica-sm: 140px;
+$visina-slicica-md: 174px;
+$visina-slicica-lg: 180px;
+$visina-slicica-xl: 200px;
+
+// USPRAVNO
+
+$visina-nav-xs-uspravno: $visina-slicica-xs + 75px;
+$visina-nav-sm-uspravno: $visina-slicica-sm + 90px;
+$visina-nav-md-uspravno: $visina-slicica-md + 106px;
+$visina-nav-lg-uspravno: $visina-slicica-lg + 200px;
+
+$visina-pozadina-xs-uspravno: calc(100vh - #{$visina-nav-xs-uspravno} * 2);
+$visina-pozadina-sm-uspravno: calc(100vh - #{$visina-nav-sm-uspravno} * 2);
+$visina-pozadina-md-uspravno: calc(100vh - #{$visina-nav-md-uspravno} * 2);
+$visina-pozadina-lg-uspravno: calc(100vh - #{$visina-nav-lg-uspravno} * 2);
+
+// POLOZENO
+
+$visina-nav-xs-polozeno: $visina-slicica-xs + 75px;
+$visina-nav-md-polozeno: $visina-slicica-md + 130px;
+$visina-nav-lg-polozeno: $visina-slicica-lg + 180px;
+$visina-nav-xl-polozeno: $visina-slicica-xl + 180px;
+
+$visina-pozadina-xs-polozeno: calc(100vh - #{$visina-nav-xs-polozeno});
+$visina-pozadina-md-polozeno: calc(100vh - #{$visina-nav-md-polozeno});
+$visina-pozadina-lg-polozeno: calc(100vh - #{$visina-nav-lg-polozeno});
+$visina-pozadina-xl-polozeno: calc(100vh - #{$visina-nav-xl-polozeno});

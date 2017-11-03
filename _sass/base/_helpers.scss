@@ -43,14 +43,6 @@
   z-index: 1;
 }
 
-.back {
-  text-decoration: none;
-
-  &::before {
-    content: '< ';
-  }
-}
-
 .pointer {
   cursor: pointer;
 }

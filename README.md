@@ -39,9 +39,6 @@ bundle exec jekyll serve --incremental
 
 ## TODO
 
-- smanjiti visinu navigacije na velikim
-- ubaciti editovanje stranica
-  https://docs.mongodb.com/manual/reference/method/db.collection.update/
 - srediti editor za css, vidi lekciju tipografija
 - vratiti decji kurs
 - dodati js editor
@@ -52,6 +49,7 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
   https://stackoverflow.com/questions/16616722/sending-all-javascript-console-output-into-a-dom-element
   https://stackoverflow.com/questions/11403107/capturing-javascript-console-log
 - zvati nove polaznike
+- napraviti letke
 
 <!--
 sadrzaj:

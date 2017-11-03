@@ -1,0 +1,156 @@
+@import "../../base/variables";
+
+.navigation {
+  width: 100%;
+  display: flex;
+}
+
+.nav-box {
+  .nav-naslov {
+    margin: 20px 0;
+    transition: font-size .4s;
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: $screen-xs-max) {
+      margin: 20px 0 10px;
+    }
+  }
+
+  .nav-slika {
+    max-width: none;
+  }
+
+  .knjige-polica {
+    font-size: 18px;
+    overflow: hidden;
+    text-align: left;
+    width: 50vw;
+  }
+
+  &:nth-of-type(1) {
+    background: $wild-sand;
+    .nav-naslov {
+      color: $citron;
+    }
+  }
+
+  &:nth-of-type(2) {
+    background: $white;
+    .nav-naslov {
+      color: $valencia;
+    }
+  }
+
+  &:nth-of-type(3) {
+    z-index: 1;  // za xs
+    background: $mercury;
+  }
+
+  &:nth-of-type(4) {
+    background: $wild-sand;
+    z-index: 1;  // za xs
+    .nav-naslov {
+      color: $disco;
+    }
+  }
+}
+
+.nav-kontakt {
+  form {
+    @media (min-width: $screen-lg-min) {
+      display: inline-block;
+      width: 50%;
+    }
+  }
+}
+
+/* TOGGLE */
+
+input:not(:checked) + .nav-box {
+  cursor: pointer;
+  text-align: center;
+  .nav-slika {
+    display: block;
+    margin: auto;
+  }
+  .dropdown {
+    pointer-events: none;
+  }
+}
+
+input:checked + .nav-box {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  overflow-y: auto;
+  height: 100vh;
+  top: 0;
+
+  &::after {
+    content: '\00d7';
+    cursor: pointer;
+    font-size: 2em;
+    position: absolute;
+    right: 4%;
+    top: 3%;
+  }
+
+  .nav-naslov {
+    font-size: $h2-full-size;
+    @media (min-width: $screen-lg-min) {
+      font-size: $h1-full-size;
+    }
+  }
+
+  .slika-onama {
+    height: auto;
+  }
+
+  &.nav-kontakt {
+    @media (min-width: $screen-md-min) {
+      text-align: right;
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    padding: 0 10%;
+  }
+  @media (min-width: $screen-lg-min) {
+    padding: 0 20%;
+  }
+}
+
+.toggle-hover,
+.toggle-checked,
+input:checked + .nav-box .toggle-hover,
+input:checked + .nav-box .hide-checked {
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+.toggle-checked,
+input:checked + .nav-box .toggle-hover,
+input:checked + .nav-box .hide-checked {
+  position: absolute;  // kad je otvoreno da ne zauzima prostor
+}
+
+@media (min-width: $screen-md-min) {
+  .nav-box:hover {
+     .toggle-hover {
+        opacity: 1;
+     }
+  }
+}
+
+input:checked + .nav-box {
+   .toggle-checked {
+      opacity: 1;
+      position: static;
+   }
+}
+
+.hide-checked {
+  opacity: 1;
+}
