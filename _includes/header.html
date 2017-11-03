@@ -8,11 +8,11 @@
 
     <input type="checkbox" class="hide" id="burger-checkbox" />
     <nav>
-      <a href="/o-nama" {% if page.url contains '/o-nama' %} class="active"{% endif %} rel="canonical">O nama</a>
-      <a href="/kursevi/" {% if page.url contains '/kursevi' %} class="active"{% endif %} rel="canonical">Kursevi</a>
-      <a href="/radovi" {% if page.url contains '/radovi' %} class="active"{% endif %} rel="canonical">Projekti</a>
+      <a href="/o-nama" {% if page.url contains '/o-nama' %} class="active"{% endif %}>O nama</a>
+      <a href="/kursevi/" {% if page.url contains '/kursevi' %} class="active"{% endif %}>Kursevi</a>
+      <a href="/radovi" {% if page.url contains '/radovi' %} class="active"{% endif %}>Projekti</a>
       <a href="/blog/" {% if page.url contains '/blog' or page.layout == 'post' %} class="active"{% endif %}>Blog</a>
-      <a href="/kontakt" {% if page.url contains '/kontakt' %} class="active"{% endif %} rel="canonical">Kontakt</a>
+      <a href="/kontakt" {% if page.url contains '/kontakt' %} class="active"{% endif %}>Kontakt</a>
     </nav>
   </div>
 
