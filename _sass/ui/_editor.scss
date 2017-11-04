@@ -32,15 +32,13 @@
 
 .vrednost {
   text-align: right;
-  // &::before {
-  //   content: "vrednost: ";
-  // }
 }
 
 .CodeMirror {
-  height: auto !important;
   font-size: 1rem;
+  height: auto !important;
   letter-spacing: 0;
+  word-wrap: normal;
 }
 
 .tablet-wrapper {

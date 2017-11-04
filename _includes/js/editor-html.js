@@ -1,18 +1,37 @@
-/* global $, CodeMirror */
+/* global CodeMirror */
 
-const editor = CodeMirror.fromTextArea($('#editor-ulaz'), {
-  mode: 'htmlmixed',
-  theme: 'monokai',
-  lineNumbers: true,
-  lineWrapping: true,
-  autofocus: true,
-  matchBrackets: true,
-  autoCloseBrackets: true,
-  autoCloseTags: true
-})
+const ulazi = document.querySelectorAll('.ulaz')
+const brojUlaza = ulazi.length || 0
 
-const proslediKod = () => $('#tablet').srcdoc = editor.getValue()
+for (let i = 0; i < brojUlaza; i++) {
+  const ulaz = ulazi[i]
+  const value = ulaz.textContent || ulaz.innerText
 
-$('.CodeMirror').onkeyup = proslediKod
+  // pravi tablet
+  const tabletWrapper = document.createElement('div')
+  tabletWrapper.classList.add('tablet-wrapper')
+  const izlaz = document.createElement('iframe')
+  tabletWrapper.appendChild(izlaz)
+  const kruzic = document.createElement('div')
+  kruzic.classList.add('kruzic')
+  const kockica = document.createElement('span')
+  kockica.classList.add('kockica')
+  kruzic.appendChild(kockica)
+  tabletWrapper.appendChild(kruzic)
 
-proslediKod()
+  const editor = new CodeMirror(node => ulaz.parentNode.replaceChild(node, ulaz), {
+    value,
+    mode: 'htmlmixed',
+    theme: 'monokai',
+    lineNumbers: true,
+    lineWrapping: true,
+    matchBrackets: true,
+    autoCloseBrackets: true,
+    autoCloseTags: true
+  })
+
+  const editorWrapper = editor.getWrapperElement()
+  editorWrapper.parentNode.insertBefore(tabletWrapper, editorWrapper.nextSibling) // append after
+  editorWrapper.on('keyup', izlaz.srcdoc = editor.getValue())
+  izlaz.srcdoc = editor.getValue()
+}

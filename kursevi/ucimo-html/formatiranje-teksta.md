@@ -23,8 +23,16 @@ Trik za pamćenje: Tagovi su često skraćenice engleskih naziva.
 
 Isprobaj neke od gornjih tagova u editoru:
 
-{% include editor.html %}
-{% include tablet.html %}
+{:.ulaz}
+```html
+
+
+
+
+
+
+
+```
 
 *Zapamti koji tagovi nisu radili, kasnije ćemo utvrditi zašto.*
 

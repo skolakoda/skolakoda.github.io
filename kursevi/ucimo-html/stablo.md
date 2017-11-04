@@ -14,7 +14,8 @@ HTML stablo podseća na porodično, pa svakom elementu možemo utvrditi pretke i
 
 Uporedi gornju sliku stabla sa kodom u editoru. Pronađi sličnosti i razlike:
 
-<textarea id="editor-ulaz">
+{:.ulaz}
+```html
 <!doctype html>
 <html lang="sr">
 
@@ -55,9 +56,7 @@ Uporedi gornju sliku stabla sa kodom u editoru. Pronađi sličnosti i razlike:
 </body>
 
 </html>
-</textarea>
-
-{% include tablet.html %}
+```
 
 Kao što možeš videti, sadržaj glave se ne prikazuje na ekranu, samo sadržaj tela stranice.
 

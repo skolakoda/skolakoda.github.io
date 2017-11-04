@@ -40,6 +40,8 @@ bundle exec jekyll serve --incremental
 ## TODO
 
 - srediti editor za css, vidi lekciju tipografija
+- videti nove polaznike
+- napraviti letke
 - vratiti decji kurs
 - dodati js editor
 http://qnimate.com/create-an-frontend-editor-with-code-highlighting-and-execution/
@@ -48,8 +50,6 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
   - mogu redefinisati console.log?
   https://stackoverflow.com/questions/16616722/sending-all-javascript-console-output-into-a-dom-element
   https://stackoverflow.com/questions/11403107/capturing-javascript-console-log
-- zvati nove polaznike
-- napraviti letke
 
 <!--
 sadrzaj:

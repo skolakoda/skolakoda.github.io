@@ -23,15 +23,14 @@ Dodaj vrednosti atributima:
 
 Pokušaj da zaključiš čemu koji atribut služi. Probaj da ukloniš navodnike i vidiš hoće li raditi bez njih.
 
-<textarea id="editor-ulaz">
+{:.ulaz}
+```html
 <a href="">Škola koda</a>
 
 <p title="">Škola koda je grupa prijatelja koje povezuje ljubav prema pisanju koda. Zajedno učimo HTML, CSS, Javascript, PHP, Python i druge jezike. </p>
 
 <img src="">
-</textarea>
-
-{% include tablet.html %}
+```
 
 Nadnesi miš iznad pasusa da bi se pojavio titl.
 
