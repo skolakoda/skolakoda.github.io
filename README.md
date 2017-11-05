@@ -39,8 +39,7 @@ bundle exec jekyll serve --incremental
 
 ## TODO
 
-- videti nove polaznike
-  - bilten javiti da pocinemo react
+- postaviti react
 - napraviti letke
 - vratiti decji kurs
 - dodati js editor
