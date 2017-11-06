@@ -42,6 +42,8 @@ redirect_from:
   - Apstrakcija i neponavljanje koda
   - Nasleđivanje i polimorfizam (više vidova iste metode)
   - Otvoren/zatvoren princip (otvoren za proširenje, zatvoren za menjanje)
+  - Ograničenja nasleđivanja
+- Kompozicija vs nasleđivanje
 
 ### Projektni obrasci
 
