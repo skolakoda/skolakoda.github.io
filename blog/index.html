@@ -13,12 +13,21 @@ title: Blog
         {% endfor %}
       </div>
 
-      {% assign author = site.data.authors[page.author] %}
+      {% assign author = site.data.authors[post.author] %}
       {% if author %}
       <div class="author-box margin-md-top" itemprop="author" itemscope itemtype="http://schema.org/Person">
         <meta itemprop="name" content="{{author.name}}">
         <meta itemprop="url" content="{{author.url}}">
       </div>
+      {% endif %}
+
+      {% if post.image %}
+        {% assign start = post.image | slice: 0, 1 %}
+        {% if start == '/' %}
+          <meta itemprop="image" content="{{site.url}}{{post.image}}"></meta>
+        {% else %}
+          <meta itemprop="image" content="{{post.image}}"></meta>
+        {% endif %}
       {% endif %}
 
       <div class="post-summary" itemprop="description">
@@ -28,14 +37,14 @@ title: Blog
           {{ post.excerpt }}
         {% endif %}
       </div>
-    </article>
 
-    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-      <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-        <meta itemprop="url" content="{{site.url}}/images/ui/pozadina.png">
+      <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+          <meta itemprop="url" content="{{site.url}}/images/ui/pozadina.png">
+        </div>
+        <meta itemprop="name" content="Škola koda">
       </div>
-      <meta itemprop="name" content="Škola koda">
-    </div>
+    </article>
   {% endfor %}
 </div>
 {% include pagination.html %}
