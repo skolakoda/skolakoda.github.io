@@ -72,4 +72,4 @@ Za kraj, treba pomenuti i dobre strane: ima posla, prijavljeni ste, plata je ve�
 
 Cilj ovog teksta nije da vas obeshrabri, već da jasno znate šta vas čeka. Tekst sam pisao na osnovu sopstvenog iskustva i svedočanstava ljudi koje dobro poznajem.
 
-**Ako i dalje mislite da je programiranje dobra ideja, [prijavite se za naše kurseve](/kursevi)!**
+**Ako i dalje mislite da je programiranje dobra ideja, [prijavite se za kurseve koje držim](/kursevi)!**
