@@ -13,6 +13,14 @@ title: Blog
         {% endfor %}
       </div>
 
+      {% assign author = site.data.authors[page.author] %}
+      {% if author %}
+      <div class="author-box margin-md-top" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="{{author.name}}">
+        <meta itemprop="url" content="{{author.url}}">
+      </div>
+      {% endif %}
+
       <div class="post-summary" itemprop="description">
         {% if post.summary %}
           {{ post.summary }}
@@ -21,6 +29,13 @@ title: Blog
         {% endif %}
       </div>
     </article>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+      <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="{{site.url}}/images/ui/pozadina.png">
+      </div>
+      <meta itemprop="name" content="Škola koda">
+    </div>
   {% endfor %}
 </div>
 {% include pagination.html %}
