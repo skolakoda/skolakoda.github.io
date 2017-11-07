@@ -40,22 +40,9 @@ bundle exec jekyll serve --incremental
 ## TODO
 
 - seo:
-  https://search.google.com/structured-data/testing-tool
-  ```
-  <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Course",
-  "name": "Introduction to Computer Science and Programming",
-  "description": "Introductory CS course laying out the basics.",
-  "provider": {
-    "@type": "Organization",
-    "name": "University of Technology - Eureka",
-    "sameAs": "http://www.ut-eureka.edu"
-  }
-}
-</script>
-  ```
+  - dodati jedinstvene opise i naslove stranica
+  - ubacivati ključne reči
+- popraviti slomljene aplikacije
 - napraviti letke
 - vratiti decji kurs
 - dodati js editor
