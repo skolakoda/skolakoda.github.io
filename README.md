@@ -41,7 +41,21 @@ bundle exec jekyll serve --incremental
 
 - seo:
   https://search.google.com/structured-data/testing-tool
-  - dodati linkove ka skolikoda.org na wikipediju, preko referenci i vanjskih veza
+  ```
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "Introduction to Computer Science and Programming",
+  "description": "Introductory CS course laying out the basics.",
+  "provider": {
+    "@type": "Organization",
+    "name": "University of Technology - Eureka",
+    "sameAs": "http://www.ut-eureka.edu"
+  }
+}
+</script>
+  ```
 - napraviti letke
 - vratiti decji kurs
 - dodati js editor
@@ -54,9 +68,6 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
 - poraditi na drustvenim mrezama (growthhack)
   - instagram:
   https://medium.freecodecamp.org/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340
-
-https://www.scribd.com/document/252650892/Misliti-na-jeziku-C
-https://www.scribd.com/doc/188153676/Misliti-Na-Javi
 
 <!--
 sadrzaj:
