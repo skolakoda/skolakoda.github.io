@@ -46,7 +46,7 @@ Jedino je pitanje gde ćete učiti nove tehnologije: na poslu ili kući? U nekim
 
 ## Zdravstvene posledice
 
-![](http://www.yegor256.com/images/2016/12/ben-hur.jpg)
+![](//www.yegor256.com/images/2016/12/ben-hur.jpg)
 
 Rudari, pardon programeri, su vrlo potrošna roba. Već nakon manje od decenije intenzivnog rada, kod mnogih nastaju nepovratne zdravstvene posledice, poput gibitka vida i problema sa kičmom.
 
