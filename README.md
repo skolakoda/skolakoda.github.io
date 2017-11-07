@@ -49,9 +49,6 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
   https://stackoverflow.com/questions/16616722/sending-all-javascript-console-output-into-a-dom-element
   https://stackoverflow.com/questions/11403107/capturing-javascript-console-log
 - poraditi na drustvenim mrezama (growthhack)
-  - twiter:
-  https://medium.com/@karanjthakkar/how-i-grew-from-300-to-5k-followers-in-just-3-weeks-2436528da845
-  https://web.crowdfireapp.com/#/grow/2784561070-tw/nonFollowers?source=power_tools
   - instagram:
   https://medium.freecodecamp.org/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340
 
