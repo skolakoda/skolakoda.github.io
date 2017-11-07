@@ -3,6 +3,7 @@ layout: kurs
 title: Učimo Javaskript
 github: ucimo-javaskript
 image: /images/kursevi/js-logo.png
+desc: Učimo programiranje kroz JavaScript, uključujući Node.js i novi ES standard.
 ---
 
 ![js]({{page.image}})
@@ -11,7 +12,7 @@ image: /images/kursevi/js-logo.png
 
 # Uvod u programiranje
 
-**Učimo programiranje kroz JavaScript, uključujući Node.js i novi ES standard.**
+**{{page.desc}}**
 
 ***Kurs je za početnike u programiranju, ali se podrazumeva poznavanje HTML-a i osnovna računarska pismenost.***
 

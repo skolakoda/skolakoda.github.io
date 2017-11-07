@@ -3,6 +3,7 @@ layout: kurs
 title: Učimo CSS
 github: ucimo-web-dizajn
 image: /images/kursevi/css.png
+desc: Na ovom kursu naučićeš temelje web dizajna.
 ---
 
 ![web-design]({{page.image}})
@@ -11,7 +12,9 @@ image: /images/kursevi/css.png
 
 # Uvod u web dizajn
 
-***Kurs je za apsolutne početnike. Na ovom kursu naučićeš temelje web dizajna.***
+**{{page.desc}}**
+
+***Kurs je za apsolutne početnike.***
 
 <a href="/kursevi/prijava?kurs=1" class="btn float-right">Prijavi se</a>
 

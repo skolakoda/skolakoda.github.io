@@ -3,6 +3,7 @@ layout: kurs
 title: Učimo HTML
 github: ucimo-web-dizajn
 image: /images/kursevi/html.gif
+desc: Na ovom kursu pravimo funkcionalne stranice sa tekstom, slikama, vezama, multimedijom, formularima i učimo temelje web razvoja.
 ---
 
 ![]({{page.image}})
@@ -10,7 +11,7 @@ image: /images/kursevi/html.gif
 ## Učimo HTML
 # Uvod u web
 
-**Na ovom kursu pravimo funkcionalne stranice sa tekstom, slikama, vezama, multimedijom, formularima i učimo temelje web razvoja.**
+**{{page.desc}}**
 
 ***Kurs je za apsolutne početnike.***
 

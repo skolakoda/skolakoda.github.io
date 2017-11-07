@@ -39,6 +39,9 @@ bundle exec jekyll serve --incremental
 
 ## TODO
 
+- seo:
+  https://search.google.com/structured-data/testing-tool
+  - dodati linkove ka skolikoda.org na wikipediju, preko referenci i vanjskih veza
 - napraviti letke
 - vratiti decji kurs
 - dodati js editor
