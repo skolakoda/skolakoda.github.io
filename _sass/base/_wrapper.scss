@@ -64,5 +64,8 @@ header {
 .side-right {
   @media (max-width: $screen-md-max) {
     margin-top: 20px;
+    form {
+      display: none;
+    }
   }
 }

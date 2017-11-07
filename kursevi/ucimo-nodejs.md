@@ -3,6 +3,7 @@ layout: kurs
 title: Učimo Node.js
 github: ucimo-nodejs
 image: /images/kursevi/nodejs-logo.jpg
+kurs: nodejs
 ---
 
 ![nodejs]({{page.image}})

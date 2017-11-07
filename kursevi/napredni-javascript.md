@@ -2,7 +2,7 @@
 layout: kurs
 title: Napredni Javascript
 image: /images/ljudi/ibm.jpg
-desc: Nauči objektno orjentisanu paradigmu, module i asinhrono programiranje. Nauči napredne koncepte jezika, strukture podataka i algoritme.
+kurs: napredni-js
 ---
 
 ![programiranje]({{page.image}})
@@ -10,7 +10,7 @@ desc: Nauči objektno orjentisanu paradigmu, module i asinhrono programiranje. N
 ## Napredni Javaskript
 # Programiranje II
 
-**{{page.desc}}**
+**Nauči objektno orjentisanu paradigmu, module i asinhrono programiranje. Nauči napredne koncepte jezika, strukture podataka i algoritme.**
 
 ***Preporučeni preduslov za uspešno praćenje kursa je bar 2 godine programiranja.***
 

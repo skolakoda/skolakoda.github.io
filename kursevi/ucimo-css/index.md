@@ -3,16 +3,16 @@ layout: kurs
 title: Učimo CSS
 github: ucimo-web-dizajn
 image: /images/kursevi/css.png
-desc: Na ovom kursu naučićeš temelje web dizajna.
+kurs: web-dizajn
 ---
 
 ![web-design]({{page.image}})
 
-## Učimo CSS [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-web-dizajn)
+## Učimo CSS [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/{{page.github}})
 
 # Uvod u web dizajn
 
-**{{page.desc}}**
+**Nauči da ulepšavaš stranice, koristeći prilagodljivi dizajn, tipografiju, boje i animacije.**
 
 ***Kurs je za apsolutne početnike.***
 

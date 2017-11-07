@@ -16,3 +16,20 @@ layout: default
 <p>< Nazad na <a href="/kursevi/" title="online kursevi programiranja">kurseve</a></p>
 
 {{ content }}
+
+{% assign kurs = site.data.kursevi[page.kurs] %}
+{% if kurs %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "{{kurs.naslov}}",
+  "description": "{{kurs.opis}}",
+  "provider": {
+    "@type": "Organization",
+    "name": "Škola koda",
+    "sameAs": "https://skolakoda.org/"
+  }
+}
+</script>
+{% endif %}

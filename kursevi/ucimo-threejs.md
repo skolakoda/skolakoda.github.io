@@ -3,6 +3,7 @@ layout: kurs
 title: Učimo Three.js
 image: https://raw.githubusercontent.com/skolakoda/ucimo-threejs/master/ucimo-threejs.png
 github: ucimo-threejs
+kurs: threejs
 ---
 
 <iframe scrolling="no" class="float-left" src="https://skolakoda.org/ucimo-threejs/40-rad-sa-modelima/90-modeli-dae/" width="100%" height="600"></iframe>

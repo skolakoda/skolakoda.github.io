@@ -8,7 +8,7 @@ web-dizajn:
   url: /kursevi/ucimo-css/
 javascript:
   naslov: Uvod u programiranje kroz Javascript
-  opis: Nauči programiranje. Nauči da oživljavaš stranice pomoću interakcije. Nauči da praviš igre i aplikacije.
+  opis: Nauči da programiraš. Nauči da oživljavaš stranice pomoću interakcije. Nauči da praviš web aplikacije.
   url: /kursevi/ucimo-javascript/
 php:
   naslov: Backend programiranje (PHP)
@@ -30,7 +30,7 @@ threejs:
   naslov: 3D grafika na webu (Three.js)
   opis: Nauči 3D grafiku, fizičke simulacije, vizuelizacije podataka, rad sa 3D modelima, igre i animacije. Dodaj treću dimenziju webu.
   url: /kursevi/ucimo-threejs
-javascript2:
+napredni-js:
   naslov: Napredni Javascript
   opis: Savladaj objektno orjentisanu paradigmu, klase, nasleđivanje, module, asinhronost. Počni da razmišljaš o efikasnosti algoritama.
   url: /kursevi/napredni-javascript

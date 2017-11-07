@@ -3,6 +3,7 @@ layout: kurs
 title: Učimo PHP
 github: ucimo-php
 image: /images/kursevi/php.jpg
+kurs: php
 ---
 
 ![php]({{page.image}})

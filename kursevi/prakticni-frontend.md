@@ -3,6 +3,7 @@ layout: kurs
 title: Praktični Frontend
 github: shank-app
 image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
+kurs: frontend
 ---
 
 ![front-end]({{page.image}})

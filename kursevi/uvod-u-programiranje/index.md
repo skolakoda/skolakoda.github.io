@@ -2,6 +2,7 @@
 layout: kurs
 title: Uvod u svet programiranja
 image: /images/kursevi/uvod.png
+kurs: uvod
 ---
 
 ![]({{page.image}})

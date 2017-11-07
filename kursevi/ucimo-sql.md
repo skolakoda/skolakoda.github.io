@@ -2,6 +2,7 @@
 layout: kurs
 title: Učimo SQL
 image: /images/kursevi/sql.jpg
+kurs: sql
 ---
 
 ![sql]({{page.image}})
