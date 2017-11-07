@@ -121,6 +121,24 @@ desc: Na ovom kursu pravimo funkcionalne stranice sa tekstom, slikama, vezama, m
 - Sopstvene HTML oznake
 - Vežba: napravi svoje tagove
 
+### SEO optimizacija
+
+- Identifikacija ključnih reči
+- Sređivanje sadržaja, naslova, linkova, titlova, meta opisa...
+- Optimizacija slika (jasni nazivi fajlova, alt i title atributi)
+- Dodavanje struktuiranih podataka (*structured data*)
+- *PageRank*: dodavanje veza ka sajtu (društvene mreže, Github, Youtube, blog)
+- Čitljive URL adrese
+- Vežba: Optimizuj svoje stranice i nađi još neku foru
+
+### Optimizacija brzine učitavanja
+
+- Merenje brzine učitavanja ([PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/))
+- Optimizacija brzine učitavanja
+  - Optimizacija slika
+  - Minifikacija koda
+  - Uklanjanje ostalih prepreka
+
 ### Mrežni protokoli
 
 - Protokol za transfer fajlova (`ftp`)
