@@ -42,7 +42,18 @@ bundle exec jekyll serve --incremental
 - seo:
   - dodati jedinstvene opise i naslove stranica
   - ubacivati ključne reči
-- popraviti slomljene aplikacije
+
+za kurseve dodati cenu i ostalo
+http://schema.org/Course
+http://schema.org/hasCourseInstance
+https://www.w3.org/community/schema-course-extend/
+https://www.w3.org/community/schema-course-extend/wiki/Organizations_providing_and_offering_course
+
+- vratiti struktuirane podatke na lekcije/clanke
+
+- prekvalifikacija blog
+  https://pcpress.rs/zavrsen-drugi-krug-konkursa-za-program-prekfalivikacija-u-it/
+
 - napraviti letke
 - vratiti decji kurs
 - dodati js editor

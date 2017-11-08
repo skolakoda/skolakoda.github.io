@@ -1,6 +1,22 @@
-<section class="rad">
-  <h3>Kucaća mašina</h3>
-  <a href="https://mudroljub.github.io/kucaca-masina/"><img src="https://raw.githubusercontent.com/mudroljub/kucaca-masina/master/screen.jpg" alt="kucaca-masina"></a>
-  <p>Efekat (animacija i zvuk) stare pisaće mašine za vašu stranicu.</p>
-  <small><a href="https://github.com/mudroljub/kucaca-masina"><img src="/images/ui/ikonice/github.svg" class="github" alt="github"> Izvorni kod</a></small>
+{% assign name = 'Pisaća mašina' %}
+{% assign url = 'https://mudroljub.github.io/kucaca-masina/' %}
+{% assign image = 'https://raw.githubusercontent.com/mudroljub/kucaca-masina/master/screen.jpg' %}
+{% assign description = 'Efekat (animacija i zvuk) stare pisaće mašine za vašu stranicu.' %}
+{% assign source = 'https://github.com/mudroljub/kucaca-masina' %}
+
+<section class="rad" itemscope itemtype="http://schema.org/WebApplication">
+  <link itemprop="applicationCategory" href="http://schema.org/MultimediaApplication" />
+  <h3 itemprop="name">{{name}}</h3>
+
+  <a itemprop="url" href="{{url}}"><img itemprop="image" src="{{image}}" alt="web aplikacija" title="Otvori aplikaciju"></a>
+  <p itemprop="description">{{description}}</p>
+
+  <small><a href="{{source}}" title="Vidi izvorni kod aplikacije"><img src="/images/ui/ikonice/github.svg" class="github" alt="izvorni kod" title="Razvoj aplikacija"> Izvorni kod</a></small>
+
+  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <meta content="0" itemprop="price">
+  </div>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Organization">
+    <meta content="Škola koda" itemprop="name">
+  </div>
 </section>

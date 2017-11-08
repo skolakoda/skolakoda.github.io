@@ -1,6 +1,22 @@
-<section class="rad">
-  <h3>Igrica političari</h3>
-  <a href="https://mudroljub.github.io/igrica-politicari/"><img src="https://raw.githubusercontent.com/mudroljub/igrica-politicari/master/screen.png" alt="igrica-politicari"></a>
-  <p>Političari izlaze na prozore, ti ih gađaš paradajzom. To je sve.</p>
-  <small><a href="https://github.com/mudroljub/igrica-politicari"><img src="/images/ui/ikonice/github.svg" class="github" alt="github"> Izvorni kod</a></small>
+{% assign name = 'Igrica političari' %}
+{% assign url = 'https://mudroljub.github.io/igrica-politicari/' %}
+{% assign image = 'https://raw.githubusercontent.com/mudroljub/igrica-politicari/master/screen.png' %}
+{% assign description = 'Političari izlaze na prozore, ti ih gađaš paradajzom. To je sve.' %}
+{% assign source = 'https://github.com/mudroljub/igrica-politicari' %}
+
+<section class="rad" itemscope itemtype="http://schema.org/WebApplication">
+  <link itemprop="applicationCategory" href="http://schema.org/GameApplication" />
+  <h3 itemprop="name">{{name}}</h3>
+
+  <a itemprop="url" href="{{url}}"><img itemprop="image" src="{{image}}" alt="web aplikacija" title="Otvori aplikaciju"></a>
+  <p itemprop="description">{{description}}</p>
+
+  <small><a href="{{source}}" title="Vidi izvorni kod aplikacije"><img src="/images/ui/ikonice/github.svg" class="github" alt="izvorni kod" title="Razvoj aplikacija"> Izvorni kod</a></small>
+
+  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <meta content="0" itemprop="price">
+  </div>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Organization">
+    <meta content="Škola koda" itemprop="name">
+  </div>
 </section>

@@ -1,6 +1,22 @@
-<section class="rad">
-  <h3>Citati</h3>
-  <a href="https://skolakoda.org/citati/"><img src="https://skolakoda.org/citati/screen.png" alt="citati"></a>
-  <p>Živa pretraga citata osnivača velikih religija.</p>
-  <small><a href="https://github.com/skolakoda/citati"><img src="/images/ui/ikonice/github.svg" class="github" alt="github"> Izvorni kod</a></small>
+{% assign name = 'Citati' %}
+{% assign url = 'https://skolakoda.org/citati/' %}
+{% assign image = 'https://skolakoda.org/citati/screen.png' %}
+{% assign description = 'Živa pretraga citata napravljena sa AngularJS.' %}
+{% assign source = 'https://github.com/skolakoda/citati' %}
+
+<section class="rad" itemscope itemtype="http://schema.org/SoftwareApplication">
+  <link itemprop="applicationCategory" href="http://schema.org/WebApplication" />
+  <h3 itemprop="name">{{name}}</h3>
+
+  <a itemprop="url" href="{{url}}"><img itemprop="image" src="{{image}}" alt="web aplikacija" title="Otvori aplikaciju"></a>
+  <p itemprop="description">{{description}}</p>
+
+  <small><a href="{{source}}" title="Vidi izvorni kod aplikacije"><img src="/images/ui/ikonice/github.svg" class="github" alt="izvorni kod" title="Razvoj aplikacija"> Izvorni kod</a></small>
+
+  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <meta content="0" itemprop="price">
+  </div>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Organization">
+    <meta content="Škola koda" itemprop="name">
+  </div>
 </section>

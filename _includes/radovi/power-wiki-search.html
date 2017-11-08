@@ -1,6 +1,22 @@
-<section class="rad">
-  <h3>Power Wiki Search</h3>
-  <a href="https://mudroljub.github.io/power-wiki-search/"><img src="https://raw.githubusercontent.com/mudroljub/power-wiki-search/master/screen.png" alt="power-wiki-search"></a>
-  <p>Search engine for Wikipedia and related Wikimedia projects.</p>
-  <small><a href="https://github.com/mudroljub/power-wiki-search"><img src="/images/ui/ikonice/github.svg" class="github" alt="github"> Source code</a></small>
+{% assign name = 'Power Wiki Search' %}
+{% assign url = 'https://mudroljub.github.io/power-wiki-search/' %}
+{% assign image = 'https://raw.githubusercontent.com/mudroljub/power-wiki-search/master/screen.png' %}
+{% assign description = 'Search engine for Wikipedia and related Wikimedia projects.' %}
+{% assign source = 'https://github.com/mudroljub/power-wiki-search' %}
+
+<section class="rad" itemscope itemtype="http://schema.org/WebApplication">
+  <link itemprop="applicationCategory" href="http://schema.org/EducationalApplication" />
+  <h3 itemprop="name">{{name}}</h3>
+
+  <a itemprop="url" href="{{url}}"><img itemprop="image" src="{{image}}" alt="web aplikacija" title="Otvori aplikaciju"></a>
+  <p itemprop="description">{{description}}</p>
+
+  <small><a href="{{source}}" title="Vidi izvorni kod web aplikacije"><img src="/images/ui/ikonice/github.svg" class="github" alt="izvorni kod" title="Razvoj aplikacija"> Izvorni kod</a></small>
+
+  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <meta content="0" itemprop="price">
+  </div>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Organization">
+    <meta content="Škola koda" itemprop="name">
+  </div>
 </section>
