@@ -25,10 +25,17 @@ layout: default
   "@type": "Course",
   "name": "{{kurs.naslov}}",
   "description": "{{kurs.opis}}",
+{% if page.image %}
+  "image": "{{page.image}}",
+{% endif %}
   "provider": {
     "@type": "Organization",
     "name": "Škola koda",
     "sameAs": "https://skolakoda.org/"
+  },
+  "offers": {
+    "price": "3000",
+    "priceCurrency": "RSD"
   }
 }
 </script>

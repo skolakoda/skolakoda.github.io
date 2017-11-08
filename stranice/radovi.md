@@ -1,7 +1,7 @@
 ---
 title: Aplikacije
 permalink: /radovi
-opis: Ovo su neke od naših aplikacija otvorenog koda, koje slobodno možeš menjati.
+opis: Ovo su neke od aplikacija koje razvijamo. Pravimo i po narudžbini.
 ---
 
 # {{page.title}}

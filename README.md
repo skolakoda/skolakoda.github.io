@@ -40,20 +40,8 @@ bundle exec jekyll serve --incremental
 ## TODO
 
 - seo:
-  - dodati jedinstvene opise i naslove stranica
   - ubacivati ključne reči
-
-za kurseve dodati cenu i ostalo
-http://schema.org/Course
-http://schema.org/hasCourseInstance
-https://www.w3.org/community/schema-course-extend/
-https://www.w3.org/community/schema-course-extend/wiki/Organizations_providing_and_offering_course
-
-- vratiti struktuirane podatke na lekcije/clanke
-
-- prekvalifikacija blog
-  https://pcpress.rs/zavrsen-drugi-krug-konkursa-za-program-prekfalivikacija-u-it/
-
+  - vratiti struktuirane podatke na lekcije/clanke
 - napraviti letke
 - vratiti decji kurs
 - dodati js editor
@@ -66,6 +54,8 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
 - poraditi na drustvenim mrezama (growthhack)
   - instagram:
   https://medium.freecodecamp.org/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340
+
+- mobilna aplikacija alkometar
 
 <!--
 sadrzaj:
