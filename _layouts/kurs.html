@@ -8,11 +8,35 @@ layout: default
   </style>
   <div class="github-fork-ribbon-wrapper right">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/skolakoda/{{page.github}}">Kod na GitHubu</a>
+      <a href="https://github.com/skolakoda/{{page.github}}">Fork me on GitHub</a>
     </div>
   </div>
 {% endif %}
 
-<p>< Nazad na <a href="/kursevi/">kurseve</a></p>
+<p>< Nazad na <a href="/kursevi/" title="online kursevi programiranja">kurseve</a></p>
 
 {{ content }}
+
+{% assign kurs = site.data.kursevi[page.kurs] %}
+{% if kurs %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "{{kurs.naslov}}",
+  "description": "{{kurs.opis}}",
+{% if page.image %}
+  "image": "{{page.image}}",
+{% endif %}
+  "provider": {
+    "@type": "Organization",
+    "name": "Škola koda",
+    "sameAs": "https://skolakoda.org/"
+  },
+  "offers": {
+    "price": "3000",
+    "priceCurrency": "RSD"
+  }
+}
+</script>
+{% endif %}

@@ -2,11 +2,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Škola koda | {{page.title | default: "Učimo narod programiranju!"}}</title>
-  {% assign slika = 'http://skolakoda.org/images/ui/pozadina.png' %}
+
+  {% assign opis = 'Škola programiranja, posvećena prekvalifikaciji omladine i nezaposlenih u IT sektor.' %}
+  {% if page.opis %}
+    {% assign opis = page.opis %}
+  {% endif %}
+  {% if page.layout == 'kurs' %}
+    {% assign opis = site.data.kursevi[page.kurs].opis %}
+  {% endif %}
+  <meta name="description" content="{{opis}}">
+
+  {% assign slika = 'https://skolakoda.org/images/ui/pozadina.png' %}
   {% if page.image %}
     {% assign slika = page.image %}
   {% endif %}
   <meta property="og:image" content="{{slika}}" />
+  <link rel="canonical" href="{{site.url}}{{page.url}}" />
   <style>
     {% capture include_to_scssify %}
       {% include css/style.scss %}

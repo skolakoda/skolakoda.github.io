@@ -2,7 +2,7 @@
 
 Učimo narod programiranju!
 
-Poseti nas na [skolakoda.org](http://skolakoda.org/)
+Poseti nas na [skolakoda.org](https://skolakoda.org/)
 
 ## Preduslovi
 
@@ -20,19 +20,26 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Može i:
+### Parametri
+
+Da uključi i neobjavljene skice članaka:
 ```
 bundle exec jekyll serve --drafts
 ```
-ili
+
+Da prikazuje samo poslednji post:
 ```
 bundle exec jekyll serve --limit_posts 1
 ```
 
+Da pravi samo ono što je menjano (najbrže ali eksperimentalno)
+```
+bundle exec jekyll serve --incremental
+```
+
 ## TODO
 
-- smanjiti visinu navigacije na velikim
-- srediti editor za css, vidi lekciju tipografija
+- napraviti letke
 - vratiti decji kurs
 - dodati js editor
 http://qnimate.com/create-an-frontend-editor-with-code-highlighting-and-execution/
@@ -41,7 +48,11 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
   - mogu redefinisati console.log?
   https://stackoverflow.com/questions/16616722/sending-all-javascript-console-output-into-a-dom-element
   https://stackoverflow.com/questions/11403107/capturing-javascript-console-log
-- proveriti https://github.com/kripken/sql.js
+- poraditi na drustvenim mrezama (growthhack)
+  - instagram:
+  https://medium.freecodecamp.org/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340
+- dodati kurseve u pripremi
+- mobilna aplikacija alkometar
 
 <!--
 sadrzaj:

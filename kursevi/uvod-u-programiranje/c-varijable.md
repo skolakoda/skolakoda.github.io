@@ -28,4 +28,4 @@ Programski jezici poput C++ dozvoljavaju vlastito definiranje operacija nad (vla
 Varijable su neizostavan dio svakog programskog jezika i služe kao pomoć u samom procesu programiranja (točno poznavanje memorijske lokacije je zamijenjeno poznavanjem definicije varijable).
 
 
-Izvor: [tutorijali.net](http://tutorijali.net/)
+Izvor: [tutorijali.net](//tutorijali.net/)

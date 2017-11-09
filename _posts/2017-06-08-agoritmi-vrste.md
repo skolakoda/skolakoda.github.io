@@ -22,7 +22,7 @@ Moguće je razlučiti određen broj različitih metodologija (paradigmi):
 
 * Genetički algoritmi nastoje pronaći rješenje oponašanjem bioloških evolucijskih procesa - ciklusima slučajnih mutacija generiraju se sukcesivne "generacije rješenja".
 
-![](http://web.stanford.edu/~cdebs/GameOfLife/img/glidergun.gif)
+![](//web.stanford.edu/~cdebs/GameOfLife/img/glidergun.gif)
 
 Drugi način klasifikacije algoritama je prema načinu implementacije. Rekurzivni algoritam poziva (referencira) samog sebe do trenutka ispunjenja određenog uvjeta, a takva metoda uobičajena je u tzv. funkcijskom programiranju. Algoritmi se uobičajeno razmatraju sa pretpostavkom da računalo izvodi jednu po jednu instrukciju, odnosno podrazumijeva se jednoprocesorska arhitektura. Takve algoritme zovemo serijski algoritmi za razliku od paralelnih algoritama koji koriste prednosti višeprocesorskih arhitektura računala.
 

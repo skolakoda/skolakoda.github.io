@@ -11,7 +11,7 @@ Da bismo dosledno primenili dizajn, veoma je bitno na početku postaviti sistem 
 
 ## Korak 1: definisanje varijabli
 
-Prvo prevodimo kodove boja u format čitljiv za ljude (sa [ovom alatkom](http://chir.ag/projects/name-that-color)) i pravimo odgovarajuće varijable.
+Prvo prevodimo kodove boja u format čitljiv za ljude (sa [ovom alatkom](//chir.ag/projects/name-that-color)) i pravimo odgovarajuće varijable.
 
 ```scss
 // osnovne boje

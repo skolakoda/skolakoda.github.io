@@ -57,4 +57,4 @@
 ## Materijali
 
 - [Učimo algoritme](https://github.com/skolakoda/ucimo-algoritme)
-- [Intro to Algorithms](http://www.teaching-materials.org/algorithms/#/)
+- [Intro to Algorithms](//www.teaching-materials.org/algorithms/#/)

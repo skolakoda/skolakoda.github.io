@@ -1,0 +1,97 @@
+@import "../../base/variables";
+@import "./varijable";
+
+@media (orientation:portrait) {
+  .gornja-slika {
+    height: $visina-pozadina-xs-uspravno;
+  }
+  .poziv {
+    bottom: 5%;
+    text-align: center;
+    width: 100%;
+    p {
+      display: none;
+    }
+  }
+  .navigation {
+    flex-wrap: wrap;
+  }
+  .nav-box {
+    height: $visina-nav-xs-uspravno;
+    width: 50%;
+    transition: top .6s, left .6s;  // tranzicija sirine ne valja
+  }
+
+  @media (min-width: $screen-sm-min) {
+    .upper {
+      font-size: 1em;
+    }
+    .gornja-slika {
+      height: $visina-pozadina-sm-uspravno;
+    }
+    .poziv {
+      left: $razmak-lg;
+      text-align: left;
+      width: auto;
+      p {
+        display: block;
+      }
+    }
+    .nove-lekcije {
+      bottom: $razmak-xs;
+      top: inherit;
+    }
+    .nav-box {
+      height: $visina-nav-sm-uspravno;
+    }
+    .nav-slika {
+      height: $visina-slicica-sm;
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    .gornja-slika {
+      height: $visina-pozadina-md-uspravno;
+    }
+    .nove-lekcije {
+      bottom: 0;
+      top: $razmak-lg;
+    }
+    .nav-box {
+      height: $visina-nav-md-uspravno;
+      padding: 0 $razmak-lg;
+    }
+    .nav-slika {
+      height: $visina-slicica-md;
+    }
+  }
+
+  @media (min-width: $screen-lg-min) {
+    .gornja-slika {
+      height: $visina-pozadina-lg-uspravno;
+    }
+    .poziv {
+      bottom: auto;
+    }
+    .nav-slika {
+      height: $visina-slicica-lg;
+    }
+  }
+
+  @media (min-width: $screen-xl-min) {
+    .gornja-slika {
+      height: 40vh;
+      padding-top: 2vh;
+    }
+  }
+
+  // min visina
+  @media (max-height: $min-visina-xs) {
+    .naslovna {
+      overflow-y: auto;
+    }
+    .gornja-slika {
+      height: 150px;
+    }
+  }
+}  // uspravno

@@ -64,7 +64,7 @@ Sada ćemo opisati algoritam koji vodi do stabilnog uparivanja. Svakog dana se p
 
 Kada posle nekoliko dana ujutro ispod svakog balkona ostane samo po jedan mladić, devojke uzimaju te mladiće. Tako formirani parovi biće stabilni u skladu sa našom definicijom stabilnosti. Tu je i kraj našeg algoritma. Algoritam sadrži sve tri vrste koraka: sekvencu, selekciju i repeticiju.
 
-![](http://www.science4all.org/wp-content/uploads/2012/06/stable_marriage.png)
+![](//www.science4all.org/wp-content/uploads/2012/06/stable_marriage.png)
 
 ## Primena
 

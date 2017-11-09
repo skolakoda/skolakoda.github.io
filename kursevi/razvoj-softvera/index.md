@@ -4,6 +4,7 @@ title: Uvod u softversko inženjerstvo
 image: /images/kursevi/softversko-inzenjerstvo.jpg
 redirect_from:
   - /kursevi/ucimo-arhitekturu
+desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver. Učimo da prepoznajemo obrasce i primenjujemo oprobane metode razvoja softvera.
 ---
 
 ![]({{page.image}})
@@ -11,7 +12,7 @@ redirect_from:
 ## Učimo razvoj softvera <!-- Učimo arhitekturu i projektovanje -->
 # Uvod u softversko inženjerstvo
 
-**Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver. Učimo da prepoznajemo obrasce i primenjujemo oprobane metode razvoja softvera.**
+**{{page.desc}}**
 
 ***Znanje programiranja je uslov za efektivno praćenje kursa.***
 
@@ -42,6 +43,8 @@ redirect_from:
   - Apstrakcija i neponavljanje koda
   - Nasleđivanje i polimorfizam (više vidova iste metode)
   - Otvoren/zatvoren princip (otvoren za proširenje, zatvoren za menjanje)
+  - Ograničenja nasleđivanja
+- Kompozicija vs nasleđivanje
 
 ### Projektni obrasci
 

@@ -14,7 +14,7 @@ image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
 
 Nemoj uzimati celu Bootstrap biblioteku ako ćeš većinu stvari redefinisati. Time otežavaš učitavanje i taložiš gomilu suvišnog koda na projektu. Uzmi samo ono što ti treba.
 
-Bootstrap je u potpunosti konfigurabilan. Na [ovoj strani](http://getbootstrap.com/customize/) možeš izabrati delove Bootstrapa koji ti trebaju, i prilagoditi ga potrebama dizajna. Najbolje je sve na početku projekta podesiti - od osnovnog fonta, margina, naslova, boja, navigacije, grid sistema i svega ostalog.
+Bootstrap je u potpunosti konfigurabilan. Na [ovoj strani](//getbootstrap.com/customize/) možeš izabrati delove Bootstrapa koji ti trebaju, i prilagoditi ga potrebama dizajna. Najbolje je sve na početku projekta podesiti - od osnovnog fonta, margina, naslova, boja, navigacije, grid sistema i svega ostalog.
 
 ## Pazi na rezervisane nazive
 

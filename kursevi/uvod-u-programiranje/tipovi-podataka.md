@@ -46,7 +46,7 @@ Podatke možemo povezati u sledeće strukture:
 
 ## Primitivni tipovi
 
-![](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/3d39b4/data-types-in-json/Images/JSON-represents-six-data-types.jpg)
+![](//csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/3d39b4/data-types-in-json/Images/JSON-represents-six-data-types.jpg)
 
 **Primitivni tipovi podataka**, za razliku od kompozitnih, su tipovi koje programski jezik nudi kao osnovne gradbene elemente. Ovisno o jeziku i implementaciji,
 primitivni tipovi mogu ili nemoraju imati "jedan prema jedan" korespondenciju sa objektima u računalnoj memoriji. Primitivni tipovi poznati su i kao osnovni ili ugrađeni tipovi (eng. *built-in types*).

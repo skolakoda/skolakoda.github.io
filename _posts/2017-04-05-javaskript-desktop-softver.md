@@ -5,7 +5,7 @@ author: damjan
 tags: [electron, javascript, node.js]
 ---
 
-***Web aplikaciju možemo lako pretvoriti u desktop softver, uz pomoć [Electrona](http://electron.atom.io/), Javaskript okvira za razvoj desktop softvera.***
+***Web aplikaciju možemo lako pretvoriti u desktop softver, uz pomoć [Electrona](//electron.atom.io/), Javaskript okvira za razvoj desktop softvera.***
 
 Za razliku od tradicionalnih softvera, programi napravljeni sa Elektronom rade na svim sistemima (Mac, Windows, Linux). Pomoću Elektrona su napravljeni Atom Editor, Visual Studio Code, Slack i mnogi drugi višeplatformski programi.
 

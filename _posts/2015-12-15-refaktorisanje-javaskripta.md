@@ -29,7 +29,7 @@ Srećom, postoje rutinski koraci koji će vam pomoći da sve to organizujete. Na
 
 ## Podelite kod u zasebne fajlove
 
-![alt text](http://i.stack.imgur.com/YaaJ6.png)
+![alt text](//i.stack.imgur.com/YaaJ6.png)
 
 Podelite glavni JS fajl u manje fajlove, nazvane po logičnim celinama za čiju funkcionalnost su nadležni (npr. `contact.js`, `header.js`, `slider.js`). U glavnom fajlu ostavite samo zajedničku funkcionalnost. Na primer, ako se funkcija za slanje formulara koristi samo na kontakt stranici, smestite je tamo. Obavezno testirajte program posle svakog premeštanja.
 
@@ -49,7 +49,7 @@ Komentarima naznačite glavne odeljke koje ćemo imati unutar svakog fajla. Vaš
 /*** FUNCTIONS ***/
 ```
 
-Na vrhu su varijable, koje služe kao konfiguracija. Potom dolaze event listeneri, unutar kojih se pozivaju funkcije (izvršni deo koda). Na kraju se nalaze deklaracije funkcija, koje je moguće ranije koristiti zbog [*dizanja*](http://www.w3schools.com/js/js_hoisting.asp). Neke od opštekorisnih funkcija kasnije možemo odvojiti u poseban fajl (npr. `utils.js`), izolovati iz globalnog opsega i organizovati kao modul.
+Na vrhu su varijable, koje služe kao konfiguracija. Potom dolaze event listeneri, unutar kojih se pozivaju funkcije (izvršni deo koda). Na kraju se nalaze deklaracije funkcija, koje je moguće ranije koristiti zbog [*dizanja*](//www.w3schools.com/js/js_hoisting.asp). Neke od opštekorisnih funkcija kasnije možemo odvojiti u poseban fajl (npr. `utils.js`), izolovati iz globalnog opsega i organizovati kao modul.
 
 Da biste stekli širu sliku, zamislite gornji deo fajla kao kontrolnu tablu, gde podešavate neke dugmiće, a donji deo kao unutrašnjost mašine. Sve dok radi, unutrašnjost mašine ne treba da vam bude pred očima. Kad neki deo otkaže, otvarate ga. Tako je i sa funkcijama (modulima). Ne treba sve vreme da vam budu pred očima.
 
@@ -105,7 +105,7 @@ $(window).resize(function() {
 });
 ```
 
-<img src='http://www.simoahava.com/wp-content/uploads/2014/08/custom-listeners.png' width='600'>
+<img src='//www.simoahava.com/wp-content/uploads/2014/08/custom-listeners.png' width='600'>
 
 Međutim, ukoliko sve trpamo u `document ready`, Javascript fajl će brzo postati jedno veliko *jQuery crevo*. Štaviše, neće raditi događaji za elemente koji se dinamički ubacuju u DOM, tokom izvršenja programa. Ako, na primer, vežemo `klik` za klasu `.should-hide`, koja trenutno nije u HTML-u, nakon što klasa bude dodata u DOM, klik neće raditi:
 
@@ -152,7 +152,7 @@ $(document).on('click', '.book-description', function(){
 
 ## Izdvojte funkcije u poseban odeljak
 
-Pretražite fajl i organizujte sve funkcije u poseban odeljak, koja se nalazi na dnu. Obavezno koristiti deklaracije funkcija, a ne funkcionalne izraze, jer je [razlika presudna](http://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip) (u drugom slučaju će pući aplikacija). Anonimne funkcije za sada ostavite gde jesu, ali neke od njih ćemo kasnije [imenovati](#imenujte-anonimne-funkcije). Sada naš odeljak sa funkcijama izgleda ovako:
+Pretražite fajl i organizujte sve funkcije u poseban odeljak, koja se nalazi na dnu. Obavezno koristiti deklaracije funkcija, a ne funkcionalne izraze, jer je [razlika presudna](//stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip) (u drugom slučaju će pući aplikacija). Anonimne funkcije za sada ostavite gde jesu, ali neke od njih ćemo kasnije [imenovati](#imenujte-anonimne-funkcije). Sada naš odeljak sa funkcijama izgleda ovako:
 
 ```javascript
 /*** FUNCTIONS ***/
@@ -177,7 +177,7 @@ Tokom ovog procesa, verovatno ćete morati da popravite neke funkcije. Vodite ra
 
 ## Imenujte anonimne funkcije
 
-Imenovanje anonimnih funkcija je važan korak kako bismo izbegli zloglasni [*callback pakao*](http://callbackhell.com/). Evo jednog primera zbrkanog koda, kojim se iz browsera šalje `http` zahtev serveru:
+Imenovanje anonimnih funkcija je važan korak kako bismo izbegli zloglasni [*callback pakao*](//callbackhell.com/). Evo jednog primera zbrkanog koda, kojim se iz browsera šalje `http` zahtev serveru:
 
 ```javascript
 var form = document.querySelector('form')
@@ -329,7 +329,7 @@ Ovako smo umesto pukog kopi-pejstovanja, preuzeti kod prilagodili strukturi naš
 
 ## Povežite varijable u objekte
 
-<img src='http://eloquentjavascript.net/img/object.jpg' width='400'>
+<img src='//eloquentjavascript.net/img/object.jpg' width='400'>
 
 Ukoliko u konfiguracionom delu fajla imate letećih varijabli, struktuirajte ih u objekte. Na primer, ako imate:
 
@@ -379,9 +379,9 @@ Ovako organizovan objekat sada možemo [izdvojiti u zaseban fajl](#podelite-kod-
 
 ## Uklonite JavaScript iz HTML-a
 
-<img src='http://www.proun-game.com/Oogst3D/BLOG/Italian%20Food%20Coding%20Spaghetti.jpg' width='300'>
+<img src='//www.proun-game.com/Oogst3D/BLOG/Italian%20Food%20Coding%20Spaghetti.jpg' width='300'>
 
-Akademska zajednica [preporučuje](http://www.ece.ubc.ca/~amesbah/docs/scam13.pdf) da se u web aplikacijama potpuno odvoje `JS`, `HTML` i `CSS`. HTML služi za prezentaciju sadržaja i strukture, CSS za stilizovanje, a JavaScript za funkcionalnost, što je princip poznat kao [razdvajanje briga](https://en.wikipedia.org/wiki/Separation_of_concerns). Nažalost, web developeri često mešaju ove jezike, što negativno utiče na razumevanje, održavanje i debagovanje programa.
+Akademska zajednica [preporučuje](//www.ece.ubc.ca/~amesbah/docs/scam13.pdf) da se u web aplikacijama potpuno odvoje `JS`, `HTML` i `CSS`. HTML služi za prezentaciju sadržaja i strukture, CSS za stilizovanje, a JavaScript za funkcionalnost, što je princip poznat kao [razdvajanje briga](https://en.wikipedia.org/wiki/Separation_of_concerns). Nažalost, web developeri često mešaju ove jezike, što negativno utiče na razumevanje, održavanje i debagovanje programa.
 
 Verovatno ste često viđali male pomoćne skripte u HTML-u koje nešto rade na određenoj stranici:
 

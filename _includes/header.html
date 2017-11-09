@@ -3,16 +3,16 @@
     <label for="burger-checkbox" class="burger-wrapper"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDEyNCAxMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEyNCAxMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMTEyLDZIMTJDNS40LDYsMCwxMS40LDAsMThzNS40LDEyLDEyLDEyaDEwMGM2LjYsMCwxMi01LjQsMTItMTJTMTE4LjYsNiwxMTIsNnoiIGZpbGw9IiNGRkZGRkYiLz4KCTxwYXRoIGQ9Ik0xMTIsNTBIMTJDNS40LDUwLDAsNTUuNCwwLDYyYzAsNi42LDUuNCwxMiwxMiwxMmgxMDBjNi42LDAsMTItNS40LDEyLTEyQzEyNCw1NS40LDExOC42LDUwLDExMiw1MHoiIGZpbGw9IiNGRkZGRkYiLz4KCTxwYXRoIGQ9Ik0xMTIsOTRIMTJjLTYuNiwwLTEyLDUuNC0xMiwxMnM1LjQsMTIsMTIsMTJoMTAwYzYuNiwwLDEyLTUuNCwxMi0xMlMxMTguNiw5NCwxMTIsOTR6IiBmaWxsPSIjRkZGRkZGIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" class="burger pointer" alt="menu" /></label>
 
     <div class="logo-wrapper">
-      <a href="/" class="logo {% if page.url == '/' %} active{% endif %}" rel="home">{Škola koda}</a>
+      <a href="/" class="logo {% if page.url == '/' %} active{% endif %}" rel="home" title="Škola programiranja">{Škola koda}</a>
     </div>
 
     <input type="checkbox" class="hide" id="burger-checkbox" />
     <nav>
-      <a href="/o-nama" {% if page.url contains '/o-nama' %} class="active"{% endif %} rel="canonical">O nama</a>
-      <a href="/kursevi/" {% if page.url contains '/kursevi' %} class="active"{% endif %} rel="canonical">Kursevi</a>
-      <a href="/radovi" {% if page.url contains '/radovi' %} class="active"{% endif %} rel="canonical">Projekti</a>
-      <a href="/blog/" {% if page.url contains '/blog' or page.layout == 'post' %} class="active"{% endif %}>Blog</a>
-      <a href="/kontakt" {% if page.url contains '/kontakt' %} class="active"{% endif %} rel="canonical">Kontakt</a>
+      <a href="/o-nama" {% if page.url contains '/o-nama' %} class="active"{% endif %} title="programerska obuka">O nama</a>
+      <a href="/kursevi/" {% if page.url contains '/kursevi' %} class="active"{% endif %} title="kursevi programiranja">Kursevi</a>
+      <a href="/radovi" {% if page.url contains '/radovi' %} class="active"{% endif %} title="izrada aplikacija">Aplikacije</a>
+      <a href="/blog/" {% if page.url contains '/blog' or page.layout == 'post' %} class="active"{% endif %} title="besplatni tutorijali">Blog</a>
+      <a href="/kontakt" {% if page.url contains '/kontakt' %} class="active"{% endif %} title="škola programiranja u Beogradu">Kontakt</a>
     </nav>
   </div>
 

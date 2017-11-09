@@ -9,7 +9,7 @@ permalink: /kontakt-forma-bez-bekenda
 
 ## Opcija 1: Formspree
 
-Na sajtu Škole koda koristimo [Formspree](http://formspree.io), i prilično dobro radi. Nije vam potreban ni Javascript ni PHP, samo obična HTML forma. Jedino je bitno da definišete parametre na formularu. U akciju stavite adresu formspree.io sa vašim mejlom, a metod podesite POST. Na njihovom sajtu imate kratko uputstvo, a ključna linija bi otprilike trebalo da izgleda ovako:
+Na sajtu Škole koda koristimo [Formspree](//formspree.io), i prilično dobro radi. Nije vam potreban ni Javascript ni PHP, samo obična HTML forma. Jedino je bitno da definišete parametre na formularu. U akciju stavite adresu formspree.io sa vašim mejlom, a metod podesite POST. Na njihovom sajtu imate kratko uputstvo, a ključna linija bi otprilike trebalo da izgleda ovako:
 
 ```html
 <form action="http://formspree.io/tvoj@email.com" method="POST">

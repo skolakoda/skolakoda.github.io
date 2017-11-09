@@ -32,7 +32,7 @@ Ovaj kod se pojavljuje u više varijanti, a UTF-16 je 16-bitna varijanta koja po
 
 Zvuk nastaje vibracijom vazduha, pa kada se vibracija prenese do naše bubne opne, ona vibrira u istom ritmu i proizvodi signal, koji naš mozak interpretira kao zvuk. Pošto je zvuk vibracija vazduha, ta se vibracija u mikrofonu (slično kao u bubnoj opni) pretvara u električni signal. U komjuteru se zvuk takođe pamti pomoću brojeva.
 
-![](http://www.karbosguide.com/images/u1727.gif)
+![](//www.karbosguide.com/images/u1727.gif)
 
 S druge strane, reprodukcija zvučnog signala se odvija tako što se brojevi, kojima je registrovan zvuk, pretvaraju ponovo u električni signal.
 
@@ -66,7 +66,7 @@ Videli smo da nam je za čuvanje bilo koje vrste podataka potrebno da čuvamo sa
 
 Ako 8 bitova povežemo u jednu celinu dobićemo tzv. bajt kao pokazuje sledeća slika.
 
-![](http://image.noelshack.com/fichiers/2010/48/1291400659-bytes-5506b22482.png)
+![](//image.noelshack.com/fichiers/2010/48/1291400659-bytes-5506b22482.png)
 
 U jedan bajt možemo smestiti jednu od 256 mogućih kombinacija 0 i 1. Na primer neko ASCII slovo ili jednu od RGB boja nekog piksela. Svaki bit u bajtu ima svoju adresu (od 0 do 7), te svakom možemo individualno pristupati i menjati ga.
 

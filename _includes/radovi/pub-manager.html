@@ -1,6 +1,22 @@
-<section class="rad">
-  <h3>Pub manager</h3>
-  <a href="https://mudroljub.github.io/pub-manager/"><img src="https://raw.githubusercontent.com/mudroljub/pub-manager/master/screen.png" alt="pub-manager"></a>
-  <p>Aplikacija za vođenje šanka.</p>
-  <small><a href="https://github.com/mudroljub/pub-manager"><img src="/images/ui/ikonice/github.svg" class="github" alt="github"> Izvorni kod</a></small>
+{% assign name = 'Pub manager' %}
+{% assign url = 'https://skolakoda.org/pub-manager/' %}
+{% assign image = 'https://skolakoda.org/pub-manager/screen.png' %}
+{% assign description = 'Aplikacija za vođenje šanka.' %}
+{% assign source = 'https://github.com/skolakoda/pub-manager' %}
+
+<section class="rad" itemscope itemtype="http://schema.org/SoftwareApplication">
+  <link itemprop="applicationCategory" href="http://schema.org/BusinessApplication" />
+  <h3 itemprop="name">{{name}}</h3>
+
+  <a itemprop="url" href="{{url}}"><img itemprop="image" src="{{image}}" alt="web aplikacija" title="Otvori aplikaciju"></a>
+  <p itemprop="description">{{description}}</p>
+
+  <small><a href="{{source}}" title="Vidi izvorni kod web aplikacije"><img src="/images/ui/ikonice/github.svg" class="github" alt="izvorni kod" title="Razvoj aplikacija"> Izvorni kod</a></small>
+
+  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <meta content="0" itemprop="price">
+  </div>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Organization">
+    <meta content="Škola koda" itemprop="name">
+  </div>
 </section>

@@ -2,6 +2,7 @@
 layout: kurs
 title: Uvod u svet programiranja
 image: /images/kursevi/uvod.png
+kurs: uvod
 ---
 
 ![]({{page.image}})
@@ -11,7 +12,7 @@ image: /images/kursevi/uvod.png
 
 **Savladaj temelje računarske nauke. Nauči osnovne obrasce zajedničke raznim programskim jezicima. Postani ozbiljan programer, ne koder.**
 
-***Kurs je za potpune početnike. Solidan temelj za dalju profesionalnu orjentaciju.***
+***Kurs programiranja za potpune početnike. Solidan temelj za dalju profesionalnu orjentaciju.***
 
 <a href="/kursevi/prijava?kurs=10" class="btn float-right">Prijavi se</a>
 

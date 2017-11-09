@@ -3,6 +3,7 @@ layout: kurs
 title: Praktični Frontend
 github: shank-app
 image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
+kurs: frontend
 ---
 
 ![front-end]({{page.image}})
@@ -82,7 +83,7 @@ image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
 ### Komunikacija na projektu
 
 - Alatke za komunikaciju (Skype, Slack i ostalo)
-- Alatke za upravljanje projektom ([Jira](https://www.atlassian.com/software/jira) i [Redmine](http://www.redmine.org/), [Trello](https://trello.com/) i druge)
+- Alatke za upravljanje projektom ([Jira](https://www.atlassian.com/software/jira) i [Redmine](//www.redmine.org/), [Trello](https://trello.com/) i druge)
 - Komunikacija dizajnera i developera ([Zeplin](https://zeplin.io/))
 - Redovni sastanci developera
 - Pisanje dokumentacije

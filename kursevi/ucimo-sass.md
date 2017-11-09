@@ -44,7 +44,7 @@
 
 - Miksini sa argumentima i bez (`@mixin`)
 - Pozivanje miksina (`@include`)
-- [Čiste funkcije](http://thesassway.com/advanced/pure-sass-functions) koje vraćaju vrednost (`@function`)
+- [Čiste funkcije](//thesassway.com/advanced/pure-sass-functions) koje vraćaju vrednost (`@function`)
 - Pozivanje funkcija
 - Vežba: mixin za centriranje (`margin-left` i `margin-right`: auto)
 - Vežba: mixin za `placeholder`

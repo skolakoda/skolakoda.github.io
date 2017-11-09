@@ -12,9 +12,10 @@ Tagove na svakoj stranici možeš videti klikom na desno dugme miša i `View pag
 
 ## Učimo putem primera
 
-U našem editoru uživo možeš isprobavati kod. Slobodno pokušaj da promeniš bilo šta, ništa ne možeš pokvariti:
+U našem editoru uživo možeš isprobavati kod, rezultat odmah izlazi na simulatoru uređaja. Slobodno pokušaj da promeniš bilo šta, ništa ne možeš pokvariti:
 
-<textarea id="editor-ulaz">
+{:.ulaz}
+```html
 <h1>Zdravo svete</h1>
 
 <p>Zdravo svete. Ja sam prvi pasus.</p>
@@ -26,10 +27,6 @@ U našem editoru uživo možeš isprobavati kod. Slobodno pokušaj da promeniš 
 <p>Ja sam još samo jedan pasus.</p>
 
 <h3>Ja sam još manji podnaslov</h3>
-</textarea>
-
-Rezultat odmah izlazi na simulatoru uređaja:
-
-{% include tablet.html %}
+```
 
 Gornji kod takođe možeš prekopirati u `.html` fajl i pokrenuti sa pravog uređaja!

@@ -10,7 +10,7 @@ image: https://designmodo.com/wp-content/uploads/2014/09/Style-Guides.jpg
 
 ***Da me je neko prošle godine u ovo vreme pitao čemu služi stilski vodič za korisnički interfejs, ne bih imao pojma o čemu priča. U međuvremenu sam imao prilike da radim sa najboljim dizajnerima na novom sajtu poznate nemačke modne kuće Burda, upoznavši dobre prakse implementacije dizajna i dosledne izgradnje fronteda.***
 
-**Stilski vodič za korisnički interfejs** (en. *UI Style Guide*) je skup pravila za dizajn stranica, koji osigurava doslednost širom projekta i podstiče najbolje prakse. Lakše je shvatiti preko primera, pa bacite pogled na neke od najpoznatijih stilskih vodiča, poput onih koje koriste [Mailchimp](https://ux.mailchimp.com/patterns/), [Code Pen](http://codepen.io/guide/), [Lonely Planet](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours) ili [američka državna administracija](https://standards.usa.gov/components/).
+**Stilski vodič za korisnički interfejs** (en. *UI Style Guide*) je skup pravila za dizajn stranica, koji osigurava doslednost širom projekta i podstiče najbolje prakse. Lakše je shvatiti preko primera, pa bacite pogled na neke od najpoznatijih stilskih vodiča, poput onih koje koriste [Mailchimp](https://ux.mailchimp.com/patterns/), [Code Pen](//codepen.io/guide/), [Lonely Planet](//rizzo.lonelyplanet.com/styleguide/design-elements/colours) ili [američka državna administracija](https://standards.usa.gov/components/).
 
 ## Elementi stilskog vodiča
 

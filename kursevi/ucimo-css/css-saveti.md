@@ -20,7 +20,7 @@ Do višestrukih redefinicija, odnosno **gaženja**, dolazi svaki put kada iznova
 * smanjuje se preglednost
 * drugi developeri su prinuđeni da koriste tvrde metode, kao `important!`
 
-Ukoliko ti neke definicije ne trebaju, nemoj ih gaziti, ukloni ih. Ako koristiš Bootstrap, ne moraš gaziti podrazumevane stilove biblioteke, postoji [mogućnost prilagođavanja](http://getbootstrap.com/customize/).
+Ukoliko ti neke definicije ne trebaju, nemoj ih gaziti, ukloni ih. Ako koristiš Bootstrap, ne moraš gaziti podrazumevane stilove biblioteke, postoji [mogućnost prilagođavanja](//getbootstrap.com/customize/).
 
 ### Jedna klasa jedna odgovornost
 
@@ -158,7 +158,7 @@ Bitno je koristiti tačke preloma dosledno, da bi čitava stranica prešla iz je
 }
 ```
 
-Ukoliko se na projektu koristi neki frejmvork, treba se držati njegovih tačaka preloma (vidi [Bootstrap media queries](http://getbootstrap.com/css/#grid-media-queries), [Foundation media queries](http://foundation.zurb.com/sites/docs/v/5.5.3/media-queries.html)), kako se naš sistem i sistem biblioteke ne došli u raskorak. Bitno je napomenuti da se i Bootstrapov sistem razlikuje između verzija.
+Ukoliko se na projektu koristi neki frejmvork, treba se držati njegovih tačaka preloma (vidi [Bootstrap media queries](//getbootstrap.com/css/#grid-media-queries), [Foundation media queries](//foundation.zurb.com/sites/docs/v/5.5.3/media-queries.html)), kako se naš sistem i sistem biblioteke ne došli u raskorak. Bitno je napomenuti da se i Bootstrapov sistem razlikuje između verzija.
 
 ### Piši prilagodljiva pravila po komponentama
 
@@ -182,4 +182,4 @@ profile-pic {
 }
 ```
 
-Ova [ustaljena praksa](http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32) `Sass`-a olakšava održavanje projekta i čini komponente nezavisnijim.
+Ova [ustaljena praksa](//thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32) `Sass`-a olakšava održavanje projekta i čini komponente nezavisnijim.

@@ -1,8 +1,9 @@
 ---
-title: Projekti
+title: Aplikacije
 permalink: /radovi
+opis: Ovo su neke od aplikacija koje razvijamo. Pravimo i po narudžbini.
 ---
 
-# Projekti
+# {{page.title}}
 
 {% include stranice/radovi.html %}

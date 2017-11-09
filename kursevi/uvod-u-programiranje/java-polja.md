@@ -56,4 +56,4 @@ Ispis može izgledati otprilike ovako:
 U programu su tri `for-petlje`: jedna za inicijaliziranje polja, druga za izvođenje odgovarajućih računa i treća za ispis rezultata. To je uobičajeno u programima koji koriste polja.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](http://www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

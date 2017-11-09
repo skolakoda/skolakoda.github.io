@@ -20,12 +20,12 @@ Postoji standardan zapis ovih stvari, koje umnogome olakšava razumevanje među 
 
 U praksi, počinjemo tako što uzmemo nekoliko listova papira, i na svaki napišemo ime neke od glavnih klasa. Zatim povučemo crtu, i ispod nabrojimo svojstva (atribute) koje dotični predmet ima. Zatim povučemo još jednu crtu, i ispod nabrojimo metode, odnosno akcije objekta. Na primer, Automobil ima svojstva: boju, model, vlasnika, godište, itd. A metode mu mogu biti dodavanje gasa, skretanje i slično (ako je u pitanju simulacija) ili dodavanje u korpu i menjanje boje (ako je u pitanju online prodavnica).
 
-![uml](http://learning.londonmet.ac.uk/computing/staff/chalkp/proj/ootutor/personuml.gif)
+![uml](//learning.londonmet.ac.uk/computing/staff/chalkp/proj/ootutor/personuml.gif)
 
 Nakon toga, kada imamo napisane klase na papirima, počinjemo da ih mrdamo i uspostavljamo odnose između njih. Na primer, Kupac definitivno ima neku interakciju sa Korpom, i tako dalje. Ne postoji jedan ispravan način kako napraviti model buduće aplikacije, kreativnost i iskustvo tu igraju bitnu ulogu. Tokom procesa osmišljanja ćemo često premeštati metode sa klase na klasu, dok ne pronađemo gde najviše odgovara da budu.
 
 ![dijagram klasa](https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/what-is-a-class-diagram-in-UML/UML_class_diagram_example3-800x786.png)
 
-<!--![dijagram klasa](http://www.uml-diagrams.org/class-diagrams/class-diagram-domain-overview.png)-->
+<!--![dijagram klasa](//www.uml-diagrams.org/class-diagrams/class-diagram-domain-overview.png)-->
 
 Misao vodilja nam je da smanjimo međuzavisnost delova sistema koliko je god to moguće. Komunikaciju elemenata sistema često zamišljam kao vojnu organizaciju, gde ne naređuje svako svakome, već postoji strogo određen lanac komandovanja. Suština je da svedemo komunikaciju među elementima sistema na najmanju neophodnu meru, i tako učinimo softver modularnijim. Na taj način ćemo bezbolnije zameniti neki deo kad bude potrebno.

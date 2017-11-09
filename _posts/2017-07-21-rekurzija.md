@@ -16,7 +16,7 @@ Rekurzija je beskonačno skalirajuće ponavljanje istog obrasca (rastuće ili sm
 
 Ideja rekurzije je uvek beskonačna, a ograničavaju je isključivo spoljnji faktori. Na primer, puževa kućica je rekurzija koja se neprestano ponavlja, ograničena isključivo smrću puža. Bez ometajućih faktora, rekurzija je beskonačna, kao u slučaju međusobno ogledajućih ogledala, gde se isti obrazac ponavlja doslovno u beskonačnost.
 
-![](http://68.media.tumblr.com/59f43c03ca0e9ede45b8b71f79b44268/tumblr_inline_ntx0langcg1r1aqjj_1280.jpg)
+![](//68.media.tumblr.com/59f43c03ca0e9ede45b8b71f79b44268/tumblr_inline_ntx0langcg1r1aqjj_1280.jpg)
 
 ![](/images/koncepti/rekurzija-strip.png)
 
@@ -24,7 +24,7 @@ Ideja rekurzije je uvek beskonačna, a ograničavaju je isključivo spoljnji fak
 
 Rekurzija u prirodi je uočljiva u rastućem ponavljanju spiralnih obrazaca, kod školjki i raznih vrsta biljaka. Trajanje biljnih i životinjskih rekurzija je u konačnici ograničeno trajanjem života domaćina.
 
-![](http://spacecollective.org/userdata/zdP3mVy7/_cimg/1197601200.jpg)
+![](//spacecollective.org/userdata/zdP3mVy7/_cimg/1197601200.jpg)
 
 ![](https://s3-us-west-2.amazonaws.com/sfmomaopenspace/wp-content/uploads/2011/07/seashells2.jpg)
 

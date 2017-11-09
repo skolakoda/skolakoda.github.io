@@ -3,15 +3,18 @@ layout: kurs
 title: Učimo CSS
 github: ucimo-web-dizajn
 image: /images/kursevi/css.png
+kurs: web-dizajn
 ---
 
 ![web-design]({{page.image}})
 
-## Učimo CSS [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-web-dizajn)
+## Učimo CSS [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/{{page.github}})
 
 # Uvod u web dizajn
 
-***Kurs je za apsolutne početnike. Na ovom kursu naučićeš temelje web dizajna.***
+**Nauči da ulepšavaš stranice, koristeći prilagodljivi dizajn, tipografiju, boje i animacije. Već nakon par časova imaćeš svoj prvi sajt online.**
+
+***Web dizajn kurs je za apsolutne početnike.***
 
 <a href="/kursevi/prijava?kurs=1" class="btn float-right">Prijavi se</a>
 
@@ -22,7 +25,7 @@ image: /images/kursevi/css.png
 
 ### Upoznavanje alata
 
-- Instalacija editora (Notepad++, [Atom](https://atom.io/), [Brackets](http://brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
+- Instalacija editora (Notepad++, [Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
 - Instalacija dodataka
   - bojenje koda
   - ulepšavanje koda
@@ -144,7 +147,7 @@ image: /images/kursevi/css.png
 - [Dobre CSS prakse](/css-saveti)
 - upotreba `!important` kao loša praksa
 - skraćene direktive i opasnost od gaženja
-- Vežba: proveri kod sa [CSSlint](http://csslint.net/)-om
+- Vežba: proveri kod sa [CSSlint](//csslint.net/)-om
 
 ### Organizacija koda
 - Vežba: organizuj kod u logične celine
@@ -152,14 +155,13 @@ image: /images/kursevi/css.png
 
 ### Završni rad
 
-- Upotreba [Zeplin](https://zeplin.io/)-a
 - Prevođenje dizajna u kod
 - Izrada Wordpress teme
 
 ### Bonus: CSS grid
 
 - Šta je CSS grid?
-- [Learn CSS grid](http://learncssgrid.com/)
+- [Learn CSS grid](//learncssgrid.com/)
 - [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 - [An Introduction to the CSS Grid Layout](https://www.sitepoint.com/introduction-css-grid-layout-module/)
 - Primer: [https://codepen.io/mor10/pen/QvmLpd](Standardna struktura sajta u gridu)

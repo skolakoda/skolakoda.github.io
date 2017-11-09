@@ -14,10 +14,9 @@ Element se obično sastoji od početnog i završnog taga i sadržaja između (ne
 
 Ovako, na primer, izgleda naslov:
 
-<textarea id="editor-ulaz">
+{:.ulaz}
+```html
 <h1>Zdravo svete</h1>
-</textarea>
-
-{% include tablet.html %}
+```
 
 Pokušaj da promeniš broj nakon slova `h`.
