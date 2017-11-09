@@ -12,7 +12,7 @@ kurs: sql
 
 **Nauči da praviš baze podataka i pretražuješ ih. Nauči da barataš velikim podacima.**
 
-***Kurs je za apsolutne početnike, ali se podrazumeva osnovna računarska pismenost.***
+***SQL kurs je za apsolutne početnike, ali se podrazumeva osnovna računarska pismenost.***
 
 <a href="/kursevi/prijava?kurs=8" class="btn float-right">Prijavi se</a>
 

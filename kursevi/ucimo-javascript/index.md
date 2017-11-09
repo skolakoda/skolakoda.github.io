@@ -6,15 +6,15 @@ image: /images/kursevi/js-logo.png
 kurs: javascript
 ---
 
-![js]({{page.image}})
+![Javascript programiranje za početnike]({{page.image}})
 
 ## Učimo Javaskript <a href="https://www.youtube.com/playlist?list=PLrd-JzTjtZUVJDD7cK43JIzVBDpHnfrUW"><img src="/images/ui/ikonice/youtube.svg" class="ikonica-veca" alt="play-video"></a> [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-javaskript)
 
 # Uvod u programiranje
 
-**Učimo programiranje kroz JavaScript, uključujući Node.js i novi ES standard.**
+**Nauči da programiraš kroz popularni jezik JavaScript. Nauči da oživljavaš stranice pomoću interakcije. Nauči da praviš web aplikacije.**
 
-***Kurs je za početnike u programiranju, ali se podrazumeva poznavanje HTML-a i osnovna računarska pismenost.***
+***Kurs programiranja za početnike, idealno za učenje programiranje korak po korak. Podrazumeva se poznavanje HTML-a i osnovna računarska pismenost.***
 
 <a href="/kursevi/prijava?kurs=2" class="btn float-right">Prijavi se</a>
 

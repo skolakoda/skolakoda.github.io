@@ -12,9 +12,9 @@ kurs: web-dizajn
 
 # Uvod u web dizajn
 
-**Nauči da ulepšavaš stranice, koristeći prilagodljivi dizajn, tipografiju, boje i animacije.**
+**Nauči da ulepšavaš stranice, koristeći prilagodljivi dizajn, tipografiju, boje i animacije. Već nakon par časova imaćeš svoj prvi sajt online.**
 
-***Kurs je za apsolutne početnike.***
+***Web dizajn kurs je za apsolutne početnike.***
 
 <a href="/kursevi/prijava?kurs=1" class="btn float-right">Prijavi se</a>
 

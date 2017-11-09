@@ -11,7 +11,9 @@ kurs: php
 ## Učimo PHP
 # Backend programiranje
 
-**Učimo programiranje kroz PHP, sa fokusom na backend. Kurs je za početnike u programiranju, ali se podrazumeva poznavanje HTML-a i osnovna računarska pismenost.**
+**Nauči PHP programiranje. Nauči da praviš serverske web aplikacije kao što su CMS sistemi i internet prodavnice. Savladaj programski jezik PHP.**
+
+***Kurs je za početnike u programiranju, ali se podrazumeva poznavanje HTML-a i osnovna računarska pismenost.***
 
 <a href="/kursevi/prijava?kurs=7" class="btn float-right">Prijavi se</a>
 

@@ -11,8 +11,7 @@ image: /images/ljudi/programer.jpg
 
 Neki, ako ne i većina profesionalnih učitelja programiranja, započet će poduku nekakvim algoritmima i time kako je to sve jednostavno jer mi ionako mnoge stvari radimo po algoritmu. Npr. ako kuhamo kavu, prvo stavljamo vodu u posudu, zatim čekamo da zavri, pa onda stavljamo... da sad ne kompliciramo, mi smo i do sada stvari radili po nekakvom algoritmu, a programiranje je nešto slično.
 
-To su gluposti. Možda i jesmo do sada stvari radili po određenom algoritmu, ali nismo o tome na taj način razmišljali, nemamo um posložen na taj način. Osim toga u programiranju se upotrebljavaju malo drugačiji algoritmi nego što su algoritmi za kuhanje kave.
-Programiranje je zapravo potpuno drugačiji način razmišljanja od onog na koji smo do sada navikli i trebat će godine rada da počnemo razmišljati na taj način. Cijeli problem dodatno komplicira činjenica da su današnja računala vrlo složeni sustavi i treba nam puno vremena da barem približno počnemo shvaćati kako računala funkcioniraju.
+To su gluposti. Možda i jesmo do sada stvari radili po određenom algoritmu, ali nismo o tome na taj način razmišljali, nemamo um posložen na taj način. Osim toga u programiranju se upotrebljavaju malo drugačiji algoritmi nego što su algoritmi za kuhanje kave. Programiranje je zapravo potpuno drugačiji način razmišljanja od onog na koji smo do sada navikli i trebat će godine rada da počnemo razmišljati na taj način. Cijeli problem dodatno komplicira činjenica da su današnja računala vrlo složeni sustavi i treba nam puno vremena da barem približno počnemo shvaćati kako računala funkcioniraju.
 
 **Zbog svega toga trebat će nam dvije do tri godine svakodnevnog rada da bismo koliko - toliko naučili programirati.**
 

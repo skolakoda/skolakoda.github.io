@@ -39,9 +39,6 @@ bundle exec jekyll serve --incremental
 
 ## TODO
 
-- seo:
-  - ubacivati ključne reči
-  - vratiti struktuirane podatke na lekcije/clanke
 - napraviti letke
 - vratiti decji kurs
 - dodati js editor
@@ -54,7 +51,7 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
 - poraditi na drustvenim mrezama (growthhack)
   - instagram:
   https://medium.freecodecamp.org/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340
-
+- dodati kurseve u pripremi
 - mobilna aplikacija alkometar
 
 <!--
