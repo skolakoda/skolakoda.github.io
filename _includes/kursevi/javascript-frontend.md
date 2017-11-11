@@ -13,7 +13,7 @@
   - `document.getElementById()`
   - `document.querySelector()`
   - `document.querySelectorAll()`
-- [Dodavanje elemenata](https://jsfiddle.net/mudroljub/rhLggx3t/) (`appendChild` ili `innerHTML`)
+- [Dodavanje elemenata](https://jsfiddle.net/mudroljub/rhLggx3t/) (`appendChild`, `innerHTML`, `element.insertAdjacentHTML()`)
 - Uklanjanje elemenata (`removeChild` ili `innerHTML`)
 - Menjanje stila
 

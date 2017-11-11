@@ -9,27 +9,29 @@ Copyright (c) 1997-2004 The PHP Group
 Zend Engine v2.0.0, Copyright (c) 1998-2004 Zend Technologies
 ```
 
-Drugi način da odredite da li je PHP instaliran je da probate neki PHP skript. To možete da uradite ako pročitate odeljak "Kreiranje prvog PHP skripta" u ovom poglavlju. Ako skript radi, PHP je instaliran i sve je podešeno.
+Drugi način da odredite da li je PHP instaliran je da probate neki PHP skript. Ako skript radi, PHP je instaliran i sve je podešeno.
 
 ## Lokalna instalacija PHP-a
 
-Nije loše da na svom računaru instalirate PHP tako da prilikom razvoja možete da isprobate svoje skriptove. U tom slučaju nećete morati da trošite vreme na prebacivanje skriptova na računar provajdera, da ih onda isprobate preuzimanjem u svom pretraživaču, pa da u slučaju grešaka sve radite iz početka. Neki operativni sistemi, kao što su Linux i mnoge verzije Unixa, sada se isporučuju sa već instaliranim PHP-om. Kod drugih operativnih sistema, kao što su Windows ili Mac OSX, moraćete da sami preuzmete i instalirate PHP. Prvi korak je da proverite da li ste instalirali PHP u lokalu. Primenite komandu php -v (ovo se radi u prozoru za unos komandi - na primer, na Windowsu u DOS prozoru). Ako radi, onda je već sve podešeno. PHP možete sami instalirati. Postoje unapred pripremljene verzije za različite operativne sisteme, koje se mogu preuzeti. Postoje verzije za operativne sisteme Windows, Mac OSX, Novell NetWare, OS/2, RISC OS, SGI IRIX 6.5x i AS/400. Binarni paket sa instalacijom za Windows možete pronaći na adresi http://www.php.net/downloads.php. Tu su i linkovi na verzije za druge opera- tivne sisteme.
+Nije loše da na svom računaru instalirate PHP tako da prilikom razvoja možete da isprobate svoje skriptove. U tom slučaju nećete morati da trošite vreme na prebacivanje skriptova na računar provajdera, da ih onda isprobate u svom pretraživaču, pa da u slučaju grešaka sve radite iz početka. Neki operativni sistemi, kao što su Linux i mnoge verzije Unixa, sada se isporučuju sa već instaliranim PHP-om. Kod drugih operativnih sistema, kao što su Windows ili Mac OSX, moraćete da sami preuzmete i instalirate PHP. Prvi korak je da proverite da li ste instalirali PHP u lokalu. Primenite komandu `php -v` (ovo se radi u prozoru za unos komandi). Ako radi, onda je već sve podešeno. 
 
-Instrukcije za instalaciju PHP možete pronaći u dokumentaciji za PHP, koja se nalazi na adresi http://www.php.net/docs.php (kompletnu dokumentaciju možete da pruzmete sa adrese http://www.php.net/download-docs.php). Instrukcije za instalaciju naći ćete i u datoteci za instalaciju (obično datoteka pod nazivom install.txt), koja se dobija kada se dekompresuje ono što ste preuzeli. Pošto se instrukcije menjaju svaki put kada se promeni PHP i pošto postoji puno operativnih sistema i Web servera, trebalo bi da koristite najnovije instrukcije i da po njima postupate. Prikazivanje svih instrukcija ovde bi oduzelo 20 strana, a one bi ionako zastarele do trenutka kada dođu do Vas.
+PHP možete sami instalirati. Postoje unapred pripremljene verzije za različite operativne sisteme, koje se mogu preuzeti. Binarni paket sa instalacijom za Windows možete pronaći na adresi [http://www.php.net/downloads.php](http://www.php.net/downloads.php). Tu su i linkovi na verzije za druge operativne sisteme.
 
-Evo kako bi "stvari" mogle da izgledaju za Windows (detaljnije informacije se mogu naći u instrukcijama za intalaciju koje skidate sa Interneta). Prvo Vam je potreban Web server, kao što su Apache ili Microsoftov Internet Information Server (IIS). Program za instalaciju Apache servera na Windows može se preuzeti na adresi http://httpd.apache.org/dowload.cgi. Kada ovaj fajl preuzmete i dva puta ga brzo kliknete, instaliraće se Apache.
+Instrukcije za instalaciju PHP možete pronaći u dokumentaciji za PHP, koja se nalazi na adresi [http://www.php.net/docs.php](http://www.php.net/docs.php). Pošto se instrukcije menjaju svaki put kada se promeni PHP i pošto postoji puno operativnih sistema i Web servera, trebalo bi da koristite najnovije instrukcije i da po njima postupate.
 
-Naredni korak je da instalaciju PHP-a povežete sa Web serverom. Ako koristite Apache, trebalo bi da promenite i datoteku http.cong.
+Evo kako bi "stvari" mogle da izgledaju za Windows (detaljnije informacije se mogu naći u instrukcijama za intalaciju koje skidate sa Interneta). Prvo Vam je potreban web server, kao što su *Apache* ili Microsoftov *Internet Information Server* (IIS). Program za instalaciju Apache servera na Windows može se preuzeti na adresi http://httpd.apache.org/dowload.cgi. Kada ovaj fajl preuzmete i dva puta ga brzo kliknete, instaliraće se Apache.
+
+Naredni korak je da instalaciju PHP-a povežete sa web serverom. Ako koristite Apache, trebalo bi da promenite i datoteku `http.cong`.
 
 ## Podešavanje razvojnog okruženja
 
-Da biste mogli da pravite PHP strane, potrebanVam je neki editor teksta. Postoje različiti editori, koji se koriste na različitim operativnim sistemima, kao što su, na primer, vi, emacs, pico, BBEdit ili SimpleText za Macintosh ili Notepad i WordPAd za Windows.
+Da biste mogli da pravite PHP strane, potreban vam je neki editor teksta. Postoje različiti editori, koji se koriste na različitim operativnim sistemima.
 
-PHP datoteke su često mešavina HTML-a i PHP koda. Podrazumevana ekstenzija PHP datoteka je .php. PHP deo je skripta koja se nalazi između oznaka <?php i ?> .
+PHP datoteke su često mešavina HTML-a i PHP koda. Podrazumevana ekstenzija PHP datoteka je `.php`. PHP deo je skripta koja se nalazi između oznaka `<?php` i `?>` .
 
-Za kreiranje PHP datoteka možete da koristite i neko integrisano razvojno okruženje za PHP (IDE). U ovakvim okruženjima imate na raspolaganju alate kojih nema kod običnih tekstualnih editora. Tu mislim na automatsku proveru onog što ste napisali da biste bili sigurni da je PHP kod ispravan i automatsko isticanje sintaktičkih elemenata (na primer, ključne reči PHP-a se prikazuju u drugoj boji, tako da lako možete da vidite šta ste uradili). Tu je i automatsko postavljanje, jer IDE može da prebaci Vaše PHP strane kod Vašeg ISP provajdera ako kliknete odgovarajuće dugme ili iz menija izaberete odgovarajuću stavku.
+Za kreiranje PHP datoteka možete da koristite i neko integrisano razvojno okruženje (IDE). U ovakvim okruženjima imate na raspolaganju alate kojih nema kod običnih tekstualnih editora. Tu mislim na automatsku proveru onog što ste napisali da biste bili sigurni da je PHP kod ispravan i automatsko isticanje sintaktičkih elemenata (na primer, ključne reči PHP-a se prikazuju u drugoj boji, tako da lako možete da vidite šta ste uradili). Tu je i automatsko postavljanje, jer IDE može da prebaci vaše PHP strane na vaš hosting ako kliknete odgovarajuće dugme ili iz menija izaberete odgovarajuću stavku.
 
-Ako radite sa nekim ISP provajderom, potreban Vam je i neki način za transport PHP strana na njegov računar. Isto je važi i za obične HTML strane. Možete koristiti FTP (File Transfer Protocol) program ili Web interface, ako takav postoji. Ako ranije niste prebacivali Web strane na računar provajdera, konsultujte se sa provajderovim osobljem za podršku. Ti ljudi će Vas verovatno uputiti na neki FTP program ili Web interfejs koji su napravili. PHP strane se prebacuju i pokreću isto kao i obične HTML strane, naravno ako server podržava PHP.
+Ako radite sa nekim ISP provajderom, potreban Vam je i neki način za transport PHP strana na njegov računar. Isto je važi i za obične HTML strane. Možete koristiti neki FTP (*File Transfer Protocol*) program ili web interface, ako postoji. Ako ranije niste prebacivali web strane na računar provajdera, konsultujte se sa provajderom za podršku. Ti ljudi će vas verovatno uputiti na neki FTP program ili web interfejs koji su napravili. PHP strane se prebacuju i pokreću isto kao i obične HTML strane, naravno ako server podržava PHP.
 
 ## Kreiranje prvog PHP skripta
 
@@ -383,3 +385,6 @@ Svaki drugi tip se smatra da je TRUE (ukučujući i resource). Kada konvertujete
 - Vrednosti tipa float se zaokružuju prema nuli.
 
 Kada konvertujete tip float, konverzija je ista kao kad je vrednost konvertovana u integer, a onda u float. Konverziju možete da vršite i iz integera u numeričke tipove, ali to ponekad može biti komplikovano.
+
+
+Izvor: Steven Holzner, *PHP 5*, Beograd, 2006.
