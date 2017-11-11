@@ -2,7 +2,7 @@
 title: O nama
 permalink: /o-nama
 image: /images/skola/damjan-predavanje-tabla.jpg
-opis: Škola koda je škola programiranja, posvećena prekvalifikaciji omladine i nezaposlenih u IT sektor. 
+opis: Škola koda je platforma za učenje programiranja na srpskom jeziku. 
 ---
 
 # O nama
