@@ -32,6 +32,16 @@ IT firme, sa svoje strane, rade sve da sakriju stvarno stanje od svojih zaposlen
 
 Što se tiče povišice, ona se uglavnom događa kada promenite kompaniju.
 
+## Ogroman pritisak
+
+**Svakodnevni pritisak nije samo subjektivan osećaj - to je objektivno poslovanje IT firmi.**
+
+Mnoge IT firme u Srbiji su zapravo agencije za izdavanje najamnih radnika - plaćaju programere u Srbiji po 500-800 eura mesečno, a izdaju ih strancima višestruko skuplje (recimo 2000-3000 eura mesečno). Problem nastaje kad im to nije dovoljno, pa jednog istog radnika iznajme dvojici ili trojici stranih kupaca istovremeno.
+
+Ako se ikada nađete u toj situaciji, ne samo što ćete morati da ispunjavate dvostruku radnu normu (svaki od naručilaca će s pravom očekivati da posao bude urađen), već ćete biti primorani da svakodnevno lažete o svojim aktivnostima i napretku.
+
+Stres i osećaj krivice su samo neke od ozbiljnih posledica vašu psihu.
+
 ## Prekovremeni rad
 
 Postoje firme za fiksnim i sa fleksibilnim radnim vremenom. Kod fiksnog radnog vremena situacija je jasna, i tu nema mnogo prostora za manipulisanje.
@@ -70,6 +80,6 @@ Kako god okrenete, vama kao radniku će uglavnom naređivati stranci. U stranim 
 
 Za kraj, treba pomenuti i dobre strane: ima posla, prijavljeni ste, plata je veća od proseka.
 
-Cilj ovog teksta nije da vas obeshrabri, već da jasno znate šta vas čeka. Tekst sam pisao na osnovu sopstvenog iskustva i svedočanstava ljudi koje dobro poznajem.
+Cilj ovog teksta nije da vas obeshrabri, već da jasno znate šta vas čeka. Tekst sam pisao na osnovu sopstvenog iskustva i svedočanstava ljudi koje dobro poznajem. Ako radite u IT indutriji, i ne pronalazite se u tekstu, onda definitivno imate sreće u izboru firme.
 
 **Ako i dalje mislite da je programiranje dobra ideja, [prijavite se za kurseve koje držim](/kursevi)!**
