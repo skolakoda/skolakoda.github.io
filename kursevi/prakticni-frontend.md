@@ -218,6 +218,14 @@ kurs: frontend
 - [Odvajanje složene logike u pomoćnu funkciju](/uprosti-svoju-logiku)
 - [Refaktorisanje if/else uslova do nestanka](/refaktorisanje-if-else-uslova) -->
 
+### CSS grid
+
+- Šta je CSS grid?
+- [Learn CSS grid](//learncssgrid.com/)
+- [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+- [An Introduction to the CSS Grid Layout](https://www.sitepoint.com/introduction-css-grid-layout-module/)
+- Primer: [https://codepen.io/mor10/pen/QvmLpd](Standardna struktura sajta u gridu)
+
 ### Three.js [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-threejs)
 
 - 3D grafika na webu

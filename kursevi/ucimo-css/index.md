@@ -12,7 +12,7 @@ kurs: web-dizajn
 
 # Uvod u web dizajn
 
-**Nauči da ulepšavaš stranice, koristeći prilagodljivi dizajn, tipografiju, boje i animacije. Već nakon par časova imaćeš svoj prvi sajt online.**
+**Nauči da ulepšavaš stranice, koristeći prilagodljivi dizajn, tipografiju, boje i animacije. Nakon par časova napravićeš svoj sajt, a nakon par meseći pravićeš šta god zamisliš.**
 
 ***Web dizajn kurs je za apsolutne početnike.***
 
@@ -155,13 +155,11 @@ kurs: web-dizajn
 
 ### Završni rad
 
+- Izbor zaršnog rada (ideja možete naći [ovde](https://trello.com/c/gMc2zPNn/1-ideje-za-sajtove-i-aplikacije))
+  - Bitno je da sajt bude realan
+  - Da ne bude vaš (da klijent niste vi)
+  - Da po izradi bude postavljen na internet
+- Osmišljavanje dizajna
 - Prevođenje dizajna u kod
-- Izrada Wordpress teme
-
-### Bonus: CSS grid
-
-- Šta je CSS grid?
-- [Learn CSS grid](//learncssgrid.com/)
-- [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-- [An Introduction to the CSS Grid Layout](https://www.sitepoint.com/introduction-css-grid-layout-module/)
-- Primer: [https://codepen.io/mor10/pen/QvmLpd](Standardna struktura sajta u gridu)
+- Postavljanje na server
+- Bonus: izrada Wordpress teme

@@ -83,19 +83,22 @@ desc: Na ovom kursu pravimo funkcionalne stranice sa tekstom, slikama, vezama, m
 ### Formulari
 
 - Kako rade formulari?
-- Unosna polja (`input`) i tipovi (`text`, `number`, `email`, `url`, `tel`)
-- Polje za više redova teksta (`textarea`)
-- Padajuci meni (`select`)
-- `checkbox` i `radio` dugmad
-- Dodavanje labele (`label`)
+- Standardna polja
+  - Unosna polja (`input`) i tipovi (`text`, `number`, `email`, `url`, `tel`)
+  - Polje za više redova teksta (`textarea`)
+  - Padajuci meni (`select`)
+  - `checkbox` i `radio` dugmad
+- Dodavanje labele (`label`) i njena funkcija
 - Validacija formi:
+  - po tipu polja
   - `required` (obavezno polje)
   - `pattern` ([regularni izraz](/regularni izraz))
+- URL parametri (*[query string](https://en.wikipedia.org/wiki/Query_string)*)
 - Slanje formulara serveru i traženje odgovora od servera (`POST` i `GET` metoda)
 - Vežba: validiraj vrste unosa i odredi obavezna polja
 - Vežba: zatraži Google pretragu sa GET metodom
 
-### Moćni dodaci za statične stranice
+### Dinamički dodaci za statične stranice
 
 - Komentari za statične sajtove (*[Disqus](https://disqus.com/)*)
 - Dumgići za deljenje (*[HTML Share Buttons](https://simplesharebuttons.com/html-share-buttons/)*)

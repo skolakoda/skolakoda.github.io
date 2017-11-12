@@ -45,6 +45,7 @@ bundle exec jekyll serve --drafts --incremental
 ## TODO
 
 - napraviti letke
+- isprobati skajp
 - krenuti online kurseve
 - vratiti decji kurs
 - dodati js editor
