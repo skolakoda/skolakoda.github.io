@@ -21,8 +21,7 @@ function prevedi(ulaz, lang, izlaz) {
   http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded')
   http.onload = () => {
     const rezultat = JSON.parse(JSON.parse(http.responseText).response).result
-    izlaz.innerHTML = rezultat.compilemessage
-    if (rezultat.stdout) izlaz.innerHTML += rezultat.stdout[0]
+    izlaz.innerHTML = rezultat.stdout ? rezultat.stdout[0] : rezultat.compilemessage
   }
   http.onerror = () => izlaz.innerHTML = 'Greška, nema odgovora sa servera.'
   http.send(params)

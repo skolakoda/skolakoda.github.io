@@ -1,4 +1,9 @@
-# Prelazak poslovne logike na frontend
+---
+title: Prelazak posla na frontend
+layout: post
+---
+
+**Trend koji se kontinuirano nastavlja poslednjih pola decenije je prelazak poslovne logike na frontend. To znači da se na frontendu sada rade mnoge stvari koje su tradicionalno bile u nadležnosti serverske strane, odnosno backend programiranja.**
 
 U početku, na web stranama bejahu male skripte, koje su služile da se nešto mrdne ili promeni boju. Izgledale su otprilike ovako:
 

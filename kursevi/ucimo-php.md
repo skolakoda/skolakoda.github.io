@@ -17,12 +17,13 @@ kurs: php
 
 <a href="/kursevi/prijava?kurs=7" class="btn float-right">Prijavi se</a>
 
-### Overview Of PHP
+### Uvod
 
 - Static vs. Dynamic Web Sites
 - Dynamic Content from Databases
 - Client-Side Scripting vs. Server-Side Scripting
 - Overview of PHP Advantages i Capabilities
+- [Instalacija i pokretanje programa](/uvod-u-php)
 - Configuring `php.ini`
 
 ### Basic Scripting i Looping Constructs
@@ -118,7 +119,7 @@ kurs: php
 - Reading Directory Contents
 - Creating i Deleting Directories
 
-### Enabling E-Commerce
+<!-- ### Enabling E-Commerce
 
 - Required Characteristics of an E-Commerce Site
 - Authentication i Authorization
@@ -130,7 +131,7 @@ kurs: php
 - Order Processing via the Web
 - Implementing Order System Security using SSL
 - Using Mail Servers (SMTP i Sendmail) for Client Communication
-- Configuring E-mail Output Parameters
+- Configuring E-mail Output Parameters -->
 
 ### Configuring i Using MySQL
 

@@ -36,10 +36,16 @@ Da pravi samo ono što je menjano (najbrže ali eksperimentalno)
 ```
 bundle exec jekyll serve --incremental
 ```
+ili
+
+```
+bundle exec jekyll serve --drafts --incremental
+```
 
 ## TODO
 
 - napraviti letke
+- krenuti online kurseve
 - vratiti decji kurs
 - dodati js editor
 http://qnimate.com/create-an-frontend-editor-with-code-highlighting-and-execution/
@@ -53,6 +59,7 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
   https://medium.freecodecamp.org/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340
 - dodati kurseve u pripremi
 - mobilna aplikacija alkometar
+- php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 
 <!--
 sadrzaj:

@@ -4,8 +4,7 @@ layout: post
 tags: [algoritmi, racunarska-nauka]
 ---
 
-***Pod pretraživanjem niza elemenata podrazumevamo određivanje indeksa elementa niza koji je jednak
-datoj vrednosti ili ispunjava neko zadato svojstvo (npr. najveći je element niza).***
+***Pod pretraživanjem niza elemenata podrazumevamo određivanje indeksa elementa niza koji je jednak datoj vrednosti ili ispunjava neko zadato svojstvo (npr. najveći je element niza).***
 
 ## Linearno pretraživanje
 
