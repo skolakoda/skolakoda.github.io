@@ -89,6 +89,7 @@ desc: Na ovom kursu pravimo funkcionalne stranice sa tekstom, slikama, vezama, m
   - Padajuci meni (`select`)
   - `checkbox` i `radio` dugmad
 - Dodavanje labele (`label`) i njena funkcija
+- `value` i `placeholder` atributi
 - Validacija formi:
   - po tipu polja
   - `required` (obavezno polje)
