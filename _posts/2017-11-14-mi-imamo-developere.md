@@ -3,6 +3,7 @@ title: Mi imamo developere, vi imate ideje!
 author: damjan
 layout: post
 image: /images/kursevi/frontend.png
+tags: izrada-sajtova, besplatne-aplikacije, ideje
 ---
 
 ![]({{page.image}})
@@ -29,4 +30,4 @@ Ako želite besplatan sajt ili web aplikaciju, [javite se](/kontakt)!
 
 Ako imate neke druge predloge za saradnju, veoma smo otvoreni.
 
-[Javite se](/kontakt)!
+Javite se!
