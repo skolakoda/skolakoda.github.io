@@ -11,13 +11,15 @@ Na radionicama Škole koda pravimo [razne zanimljive aplikacije](/radovi). Polaz
 
 Ako želite besplatan sajt ili web aplikaciju, [javite se](/kontakt)!
 
-## Pravila igre su sledeća:
+## Pravila igre su sledeća
 
 - Vi se javite sa idejom. 
 - Mi je dodamo na [spisak](https://trello.com/c/gMc2zPNn/1-ideje-za-sajtove-i-aplikacije), zajedno sa ostalima.
 - Svako od naših polaznika bira ideju koja mu se sviđa.
 - Ako se neko odluči za vašu ideju, kontaktiraće vas.
 - Vi ste dužni da obezbedite domen i hosting. Nama je svejedno kom provajderu ćete se obratiti.
+
+## Mali saveti
 
 **Ako želite besplatnu izradu**, prednost imaju mali prezentacioni sajtovi i jednostavne web aplikacije. Možete predložiti i kompleksan softver, ali nije realno da će to neko uspeti da završi tokom kursa.
 
