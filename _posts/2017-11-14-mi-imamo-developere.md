@@ -10,7 +10,7 @@ tags: izrada-sajtova, besplatne-aplikacije, ideje
 
 Na radionicama Škole koda pravimo [razne zanimljive aplikacije](/radovi). Polaznici preferiraju realne projekte, koji bi im nakon toga ostali za portfolio, pa smo odlučili da pokrenemo ovu akciju.
 
-Ako želite besplatan sajt ili web aplikaciju, [javite se](/kontakt)!
+**Ako želite besplatan sajt ili web aplikaciju, [javite se](/kontakt)!**
 
 ## Pravila igre su sledeća
 
