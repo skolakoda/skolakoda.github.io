@@ -62,6 +62,7 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
 - mobilna aplikacija alkometar
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - dodati paralax pomeranje mišem u gornji prostor
+- intenzivna obuka, individualno mentorstvo (prećenje svačijeg napretka)
 
 <!--
 sadrzaj:

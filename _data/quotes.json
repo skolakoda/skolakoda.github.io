@@ -144,6 +144,25 @@
     "autor": "Laurence J. Peter"
   },
   {
+    "tekst": "Jednom kad prestanete da učite, počinjete da umirete.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "tekst": "Mašta je važnija od znanja.",
+    "autor": "Albert Einstein",
+    "izvor": "U razgovoru s Georgeom Sylvesterom Viereckom What Life Means to Einstein (u novinama The Saturday Evening Post, 26. listopada 1929.)"
+  },
+  {
+    "tekst": "Život je poput vožnje bicikla. Da bi održao ravnotežu, moraš biti stalno u kretanju.",
+    "autor": "Albert Einstein",
+    "izvor": "Iz pisma sinu Eduardu (5. veljače 1930.), zapisano u knjizi Waltera Isaacsona: Einstein: His Life and Universe (2007.), strana 367."
+  },
+  {
+    "tekst": "Ja nemam neke posebne talente. Samo sam jako radoznao.",
+    "autor": "Albert Einstein",
+    "izvor": "Pismo Carlu Seeligu (11. ožujka 1952.), zabilježeno u Einstein Archives 39-013"
+  },
+  {
     "tekst": "Inteligentna budala može napraviti da stvari budu veće, složenije i više nasilne. Potreban je dodir genija, i mnogo hrabrosti, za pokret u suprotnom pravcu.",
     "autor": "Albert Einstein"
   },
@@ -274,6 +293,10 @@
   {
     "tekst": "Svako bi trebalo da nauči da programira, jer to te uči kako da misliš.",
     "autor": "Steve Jobs"
+  },
+  {
+    "tekst": "Dobar programer je neko ko uvek gleda levo-desno kada prelazi jednosmernu ulicu.",
+    "autor": "Doug Linder"
   },
   {
     "tekst": "Jednom kada nova tehnologija počne da se valja, ako nisi deo valjka, onda si deo druma.",
