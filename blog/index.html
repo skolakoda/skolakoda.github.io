@@ -32,11 +32,7 @@ opis: Nove lekcije, besplatni tutorijali i autorski članci.
       {% endif %}
 
       <div class="post-summary" itemprop="description">
-        {% if post.summary %}
-          {{ post.summary }}
-        {% else %}
-          {{ post.excerpt }}
-        {% endif %}
+        {{ post.excerpt }}
       </div>
 
       <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
