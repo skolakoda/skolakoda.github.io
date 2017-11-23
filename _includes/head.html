@@ -10,9 +10,6 @@
   {% if page.layout == 'kurs' %}
     {% assign opis = site.data.kursevi[page.kurs].opis %}
   {% endif %}
-  {% if page.layout == 'post' %}
-    {% assign opis = page.excerpt %}
-  {% endif %}
   <meta name="description" content="{{opis}}">
 
   {% assign slika = 'https://skolakoda.org/images/ui/pozadina.png' %}
