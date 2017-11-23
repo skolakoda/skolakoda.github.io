@@ -17,7 +17,6 @@ Ako se borilačkom klubu isplati da posluje za 3000 mesečno, zašto se ne bi is
 ## Četiri vrste majstora
 
 ![majtor](/images/fore/lego-majstor.png)
-<!-- http://www.clipartlord.com/wp-content/uploads/2016/08/mechanic2.png -->
 
 Svojevremeno mi je stric pričao da postoje 4 vrste majstora:
 
@@ -58,7 +57,7 @@ Ako se pitate kako uspevamo da držimo cenu toliko ispod tržišne, ovo su neki 
 
 ### Škola koda ne prodaje znanje
 
-![](http://1.bp.blogspot.com/-ZJOUXs--oBo/TpXoCe5cyzI/AAAAAAAAAAc/pcAB4zQzxxA/s1600/knowledge0)
+![](https://1.bp.blogspot.com/-ZJOUXs--oBo/TpXoCe5cyzI/AAAAAAAAAAc/pcAB4zQzxxA/s1600/knowledge0)
 
 Druge škole, koje prodaju tražena znanja, imaju daleko skuplje kurseve. Mi znanje ne prodajemo, mi znanje delimo. Sve kurseve i nastavne materijale [besplatno objavljujemo](/kursevi/). Svakoga ohrabrujemo da snima nastavu i deli. Nama su kursevi samo sredstvo, [glavni cilj](/autor/damjan-pavlica) je besplatno računarsko obrazovanje na srpskom jeziku.
 

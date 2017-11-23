@@ -46,6 +46,7 @@ bundle exec jekyll serve --drafts --incremental
 
 - isprobati skajp
 - zakazati online kurseve
+- srediti blog
 - napraviti letke
 - vratiti decji kurs
 - dodati js editor
