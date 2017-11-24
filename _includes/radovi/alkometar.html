@@ -1,0 +1,22 @@
+{% assign name = 'Alkometar' %}
+{% assign url = 'https://build.phonegap.com/apps/2900212/builds' %}
+{% assign image = 'https://raw.githubusercontent.com/mudroljub/alkometar/master/screen.png' %}
+{% assign description = 'Aplikacija za procenu nivoa alkohola u krvi.' %}
+{% assign source = 'https://github.com/mudroljub/alkometar' %}
+
+<section class="rad mobilni" itemscope itemtype="http://schema.org/MobileApplication">
+  <link itemprop="applicationCategory" href="http://schema.org/UtilitiesApplication" />
+  <h3 itemprop="name">{{name}}</h3>
+
+  <a itemprop="url" href="{{url}}"><img itemprop="image" src="{{image}}" alt="android aplikacija" title="Preuzmi aplikaciju" class="screen"></a>
+  <p itemprop="description">{{description}}</p>
+
+  <small><a href="{{source}}" title="Vidi izvorni kod aplikacije"><img src="/images/ui/ikonice/github.svg" class="github" alt="izvorni kod" title="Razvoj aplikacija"> Izvorni kod</a></small>
+
+  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <meta content="0" itemprop="price">
+  </div>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Organization">
+    <meta content="Škola koda" itemprop="name">
+  </div>
+</section>

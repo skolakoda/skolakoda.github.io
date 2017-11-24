@@ -12,7 +12,7 @@
   margin-bottom: 40px;
   padding: 20px;
 
-  img {
+  .screen {
     width: 100%;
   }
 
@@ -30,5 +30,12 @@
 
   @media (min-width: $screen-xl-min) {
     width: 31%;
+  }
+}
+
+.rad.mobilni {
+  .screen {
+    height: 400px;
+    width: auto;
   }
 }
