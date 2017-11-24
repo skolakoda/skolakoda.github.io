@@ -1,7 +1,7 @@
 ---
 title: Da li skupa IT obuka garantuje kvalitet?
-layout: post
 author: damjan
+layout: post
 image: /images/skola/damjan.jpg
 tags: obuke, kursevi, prekvalifikacija
 ---
