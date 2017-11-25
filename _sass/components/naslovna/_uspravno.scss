@@ -2,13 +2,11 @@
 @import "./varijable";
 
 @media (orientation:portrait) {
-  .gornja-slika {
+  .upper {
+    background-size: auto 90%;
     height: $visina-pozadina-xs-uspravno;
   }
   .poziv {
-    bottom: 5%;
-    text-align: center;
-    width: 100%;
     p {
       display: none;
     }
@@ -24,22 +22,12 @@
 
   @media (min-width: $screen-sm-min) {
     .upper {
-      font-size: 1em;
-    }
-    .gornja-slika {
       height: $visina-pozadina-sm-uspravno;
     }
     .poziv {
-      left: $razmak-lg;
-      text-align: left;
-      width: auto;
       p {
         display: block;
       }
-    }
-    .nove-lekcije {
-      bottom: $razmak-xs;
-      top: inherit;
     }
     .nav-box {
       height: $visina-nav-sm-uspravno;
@@ -50,11 +38,11 @@
   }
 
   @media (min-width: $screen-md-min) {
-    .gornja-slika {
+    .upper {
+      font-size: 1em;
       height: $visina-pozadina-md-uspravno;
     }
-    .nove-lekcije {
-      bottom: 0;
+    .blog-novo {
       top: $razmak-lg;
     }
     .nav-box {
@@ -67,11 +55,8 @@
   }
 
   @media (min-width: $screen-lg-min) {
-    .gornja-slika {
+    .upper {
       height: $visina-pozadina-lg-uspravno;
-    }
-    .poziv {
-      bottom: auto;
     }
     .nav-slika {
       height: $visina-slicica-lg;
@@ -79,9 +64,8 @@
   }
 
   @media (min-width: $screen-xl-min) {
-    .gornja-slika {
+    .upper {
       height: 40vh;
-      padding-top: 2vh;
     }
   }
 
@@ -90,7 +74,7 @@
     .naslovna {
       overflow-y: auto;
     }
-    .gornja-slika {
+    .upper {
       height: 150px;
     }
   }

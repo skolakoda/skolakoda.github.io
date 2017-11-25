@@ -2,16 +2,9 @@
 @import "./varijable";
 
 @media (orientation:landscape) {
-  .upper,
-  .info-text {
-    font-size: .6em;
-  }
-  .gornja-slika {
+  .upper {
+    background-size: auto 90%;
     height: $visina-pozadina-xs-polozeno;
-  }
-  .poziv {
-    top: $razmak-xs;
-    left: $razmak-xs;
   }
   .nav-box {
     height: $visina-nav-xs-polozeno;
@@ -26,20 +19,8 @@
     height: $visina-slicica-xs;
   }
 
-  @media (min-width: $screen-sm-min) {
-    .upper,
-    .info-text {
-      font-size: .75em;
-    }
-  }
-
   @media (min-width: $screen-md-min) {
-    .poziv {
-      top: $razmak-lg;
-      left: $razmak-lg;
-    }
-    .gornja-slika {
-      padding-top: 20px;
+    .upper {
       height: $visina-pozadina-md-polozeno;
     }
     .nav-box {
@@ -51,7 +32,7 @@
   }
 
   @media (min-width: $screen-lg-min) {
-    .gornja-slika {
+    .upper {
       height: $visina-pozadina-lg-polozeno;
     }
     .nav-box {
@@ -60,8 +41,7 @@
     .nav-slika {
       height: $visina-slicica-lg;
     }
-    .nove-lekcije {
-      bottom: auto;
+    .blog-novo {
       top: $razmak-lg;
     }
   }
@@ -69,12 +49,6 @@
   @media (min-width: $screen-xl-min) {
     .upper {
       font-size: 1em;
-    }
-    .gornja-slika {
-      // height: $visina-pozadina-xl-polozeno;
-    }
-    .nav-box {
-      // height: $visina-nav-xl-polozeno;
     }
     .nav-slika {
       height: $visina-slicica-xl;
