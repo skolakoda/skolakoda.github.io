@@ -23,7 +23,7 @@ kurs: napredni-js
 - Modelovanje klase
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
   - Apstrakcija i neponavljanje koda
-  - Nasleđivanje i polimorfizam (više vidova iste metode)
+  - Nasleđivanje i polimorfizam (višeobličnost, više vidova iste metode)
   - Otvoren/zatvoren princip (otvoren za proširenje, zatvoren za menjanje)
 - Čemu služe `constructor` i `super`?
 - Pristupne `get` i `set` metode (geteri i seteri)

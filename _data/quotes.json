@@ -4,6 +4,18 @@
     "autor": "Edsger W. Dijkstra"
   },
   {
+    "tekst": "Jednostavnost je preduslov za pouzdanost.",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
+    "tekst": "Program je kao pesma: ne možete napisati pesmu bez pisanja. Ipak, ljudi govore o programiranju kao procesu proizvodnje i mere „programersku produktivnost“ u terminima „broja proizvedenih linija koda“. Na taj način oni su na pogrešnoj strani knjige: Mi uvek gledamo „broj ušteđenih linija koda“.",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
+    "tekst": "Da li ste potpuno sigurni da sva ova zvona i praporci, sve ove predivne mogućnosti vaših takozvanih moćnih programskih jezika pripadaju skupu rešenja, a ne skupu problema?",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
     "tekst": "Računarska nauka se tiče računara koliko i astronomija teleskopa.",
     "en": "Computer Science is no more about computers than astronomy is about telescopes.",
     "autor": "Edsger W. Dijkstra"
@@ -54,19 +66,31 @@
     "tekst": "Nošenje trudnoće traje devet meseci, bez obzira koliko žena dodali.",
     "en": "The bearing of a child takes nine months, no matter how many women are assigned.",
     "autor": "Fred Brooks",
-    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering"
+    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
   },
   {
     "tekst": "Devet žena ne može roditi bebu za mesec dana.",
     "en": "Nine women can't make a baby in one month.",
     "autor": "Fred Brooks",
-    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering"
+    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
+  },
+  {
+    "tekst": "Ako svaki zadatak mora biti zasebno koordiniran sa svakim drugim, napor komunikacije raste n(n-1)/2. Tri radnika zahtevaju trostruko više međusobne komunikacije nego dva; četiri zahtevaju šestostruko više nego dva.",
+    "en": "If each part of the task must be separately coordinated with each other part, the effort increases as n(n-1)/2. Three workers require three times as much pairwise intercommunication as two; four require six times as much as two.",
+    "autor": "Fred Brooks",
+    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
+  },
+  {
+    "tekst": "Prva lažna pretpostavka koja podriva rokove programiranja je da će sve proći dobro, tj. da će svaki zadatak trajati samo koliko \"treba\" da traje. Veliki programerski napori se, pak, sastoje od mnogo zadataka, od kojih su neki ulančani od početka do kraja. Verovatnoća da će sve proći dobro postaje nestvarno mala.",
+    "en": "The first false assumption that underlies the scheduling of systems programming is that all will go well, i.e., that each task will hike only as long as it \"ought\" to take. A large programming effort, however, consists of many tasks, some chained end-to-end. The probability that each will go well becomes vanishingly small.",
+    "autor": "Fred Brooks",
+    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
   },
   {
     "tekst": "Imati sistemskog arhitektu je najvažniji korak ka konceptualnom integritetu. Nakon držanja laboratorija softverskog inženjerstva više od 20 puta, počeo sam da insistiram da mali studentski timovi, već od četvoro ljudi, izaberu menadžera i arhitektu.",
     "en": "Having a system architect is the most important single step toward conceptual integrity. After teaching a software engineering laboratory more than 20 times, I came to insist that student teams as small as four people choose a manager and a separate architect.",
     "autor": "Fred Brooks",
-    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering"
+    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
   },
   {
     "tekst": "Treba da zaboravimo na male učinkovitosti, recimo u oko 97% slučajeva: prerana optimizacija je koren svih zala. Međutim, ne smemo propustiti priliku u tih kritičnih 3%.",
@@ -143,20 +167,12 @@
     "autor": "Erik Naggum"
   },
   {
-    "tekst": "Jednostavnost je preduslov za pouzdanost.",
-    "autor": "Edsger W. Dijkstra"
-  },
-  {
     "tekst": "Unix je jednostavan. Samo je potreban genij da razume njegovu jednostavnost.",
     "autor": "Dennis Ritchie"
   },
   {
     "tekst": "Ako misliš da su tvoji korisnici idioti, samo će idioti to koristiti.",
     "autor": "Linus Torvalds"
-  },
-  {
-    "tekst": "Da li ste potpuno sigurni da sva ova zvona i praporci, sve ove predivne mogućnosti vaših takozvanih moćnih programskih jezika pripadaju skupu rešenja, a ne skupu problema?",
-    "autor": "Edsger W. Dijkstra"
   },
   {
     "tekst": "Meriti napredak programa po broju linija koda je kao meriti napredak gradnje aviona po težini.",
@@ -207,6 +223,12 @@
     "tekst": "Dva glavna proizvoda izašla iz Berklija su: LSD i UNIX. Ne verujemo da je to koincidencija.",
     "en": "There are two major products that come out of Berkeley: LSD and UNIX. We don't believe this to be a coincidence.",
     "autor": "Jeremy S. Anderson"
+  },
+  {
+    "tekst": "Napravi procenu, udvostruči broj, a onda pređi na narednu jedinicu vremena. Ovo pravilo skalira zadatke na veoma interesantan način: jednominutni zadatak eksplodira stepenom od 120 da uzme dva časa. Jednočasovni zadatak eksplodira \"samo\" stepenom 48 na dva dana, dok jednodnevni posao poraste stepenom od 14 na dve sedmice.",
+    "en": "Make a guess, double the number, and then move to the next larger unit of time. This rule scales tasks in a very interesting way: a one-minute task explodes by a factor of 120 to take two hours. A one-hour job explodes by \"only\" a factor 48 to take two days, while a one-day job grows by a factor of 14 to take two weeks.",
+    "autor": "﻿Poul-Henning Kamp",
+    "izvor": "﻿Poul-Henning Kamp, The hyperdimensional tar pit"
   },
   {
     "tekst": "Kada imaš samo čekić, sve ti liči na ekser.",
@@ -384,10 +406,6 @@
   {
     "tekst": "Problem sa objektno orjentisanim jezicima je što oni imaju svo to implicitno okruženje koje nose sa sobom. Vi hoćete bananu ali ono što dobijate je gorila koji drži bananu sa sve džunglom.",
     "autor": "Joe Armstrong"
-  },
-  {
-    "tekst": "Program je kao pesma: ne možete napisati pesmu bez pisanja. Ipak, ljudi govore o programiranju kao procesu proizvodnje i mere „programersku produktivnost“ u terminima „broja proizvedenih linija koda“. Na taj način oni su na pogrešnoj strani knjige: Mi uvek gledamo „broj ušteđenih linija koda“.",
-    "autor": "Edsger W. Dijkstra"
   },
   {
     "tekst": "U programiranju težak deo nije rešavanje problema, već odlučivanje koje probleme rešiti.",

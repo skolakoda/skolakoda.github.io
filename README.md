@@ -44,8 +44,6 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-- napraviti letke
-- vratiti decji kurs i dodati kurseve u pripremi
 - dodati js editor
 http://qnimate.com/create-an-frontend-editor-with-code-highlighting-and-execution/
 https://code.tutsplus.com/tutorials/create-a-wysiwyg-editor-with-the-contenteditable-attribute--cms-25657
@@ -55,8 +53,9 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
   https://stackoverflow.com/questions/11403107/capturing-javascript-console-log
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - dodati paralax pomeranje mišem u gornji prostor
-- dodati savo mitraljezac, https://github.com/skolakoda/react-filteri i sl.
-- oglas casovi JS programiranja
+- zen mudrosti na blog
+- napraviti letke
+- vratiti decji kurs i dodati kurseve u pripremi
 
 <!--
 sadrzaj:
