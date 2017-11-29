@@ -11,9 +11,20 @@ opis: Damjan Pavlica, diplomirani politikolog koji je uspešno promenio struku i
   <h1>Autor: <span itemprop="name">{{site.data.authors[username].name}}</span></h1>
 
   <div class="author-wrapper uokvireno">
-    <img class="author-page-img circle" src="https://sr.gravatar.com/userimage/56596340/26e1c70225c1c275aadd8ce7863fa6f9.jpg?size=200" itemprop="image">
+    <img class="author-page-img circle" src="https://sr.gravatar.com/userimage/56596340/26e1c70225c1c275aadd8ce7863fa6f9.jpg?size=200" itemprop="image" alt="Damjan Pavlica">
     <div>
-      <p>Zdravo, ja sam Damjan, <span itemprop="jobTitle">osnivač Škole koda</span>. Započeo sam sulud poduhvat pisanja <a href="/kursevi">desetak programerskih udžbenika</a> istovremeno. Kursevi koje držim zapravo su sadržaji budućih knjiga. Cela ova priča sa radionicama samo je način da stignem do glavnog cilja, besplatnog računarskog obrazovanja na srpskom jeziku.</p>
+
+      <p>Zdravo, ja sam Damjan, <span itemprop="jobTitle">osnivač</span>, glavni <span itemprop="jobTitle">developer</span>, <span itemprop="jobTitle">predavač</span>, domar i kafe kuvarica Škole koda. Započeo sam sulud poduhvat pisanja <a href="/kursevi">desetak programerskih udžbenika</a> istovremeno. Kursevi koje držim zapravo su sadržaji budućih knjiga. Cela ova priča sa radionicama samo je način da stignem do glavnog cilja, besplatnog računarskog obrazovanja na srpskom jeziku.</p>
+
+      <span class="social">
+        <a itemprop="sameAs" href="https://github.com/mudroljub"><img src="/images/ui/ikonice/github.svg" alt="github"></a>
+
+        <a itemprop="sameAs" href="https://twitter.com/DamjanPavlica"><img src="/images/ui/ikonice/twitter.svg" alt="twitter"></a>
+
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/damjanpavlica/"><img src="/images/ui/ikonice/linkedin.svg" alt="linkedin"></a>
+
+        <a itemprop="sameAs" href="https://damjanpavlica.wordpress.com/"><img src="/images/ui/ikonice/wordpress.svg" alt="wordpress-blog"></a>
+      </span>
     </div>
   </div>
 </section>
@@ -33,7 +44,7 @@ opis: Damjan Pavlica, diplomirani politikolog koji je uspešno promenio struku i
         {% if post.summary %}
           {{ post.summary }}
         {% else %}
-          {{ post.excerpt }}
+          {{ post.excerpt | truncatewords:50}}
         {% endif %}
       </p>
     </article>
