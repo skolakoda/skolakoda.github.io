@@ -105,6 +105,7 @@ kurs: php
 - Tracking Visitors with Session IDs
 - Populating Forms
 - Retrieving Data from Forms
+- [Heš funkcije i čuvanje lozinki](https://learncryptography.com/hash-functions/what-are-hash-functions)
 
 ### Working with Data Files in PHP
 

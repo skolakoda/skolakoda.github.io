@@ -1,19 +1,83 @@
 [
   {
     "tekst": "Najveći izazov za programera je da se ne zbuni pred kompleksnošću sopstvene tvorevine.",
-    "autor": "E. W. Dijkstra"
+    "autor": "Edsger W. Dijkstra"
   },
   {
     "tekst": "Računarska nauka se tiče računara koliko i astronomija teleskopa.",
-    "autor": "E. W. Dijkstra"
+    "en": "Computer Science is no more about computers than astronomy is about telescopes.",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
+    "tekst": "Programiranje je jedna od najtežih grana primenjene matematike; lošiji matematičari bolje da ostanu čisti matematičari.",
+    "en": "Programming is one of the most difficult branches of applied mathematics; the poorer mathematicians had better remain pure mathematicians.",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
+    "tekst": "Ako je debagovanje proces uklanjanja bagova, onda programiranje mora biti proces njihovog umetanja.",
+    "en": "If debugging is the process of removing software bugs, then programming must be the process of putting them in.",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
+    "tekst": "Kako ubediti ljude da u programiranju jednostavnost i jasnoća — što matematičari zovu \"elegancija\" — nisu nepriuštiv luksuz, već ključna stvar koja odlučuje između uspeha i propasti? ",
+    "en": "How do we convince people that in programming simplicity and clarity — in short: what mathematicians call \"elegance\" — are not a dispensable luxury, but a crucial matter that decides between success and failure?",
+    "autor": "Edsger W. Dijkstra"
   },
   {
     "tekst": "Alati koje koristimo imaju veliki uticaj na naše navike u razmišljanju, a samim tim i na našu sposobnost razmišljanja uopšte.",
-    "autor": "E. W. Dijkstra"
+    "autor": "Edsger W. Dijkstra"
   },
   {
     "tekst": "Postoje dva načina izgradnje softvera: Jedan je napraviti ga toliko prostim da očigledno nema nedostaka, a drugi je napraviti ga toliko komplikovanim da nema očiglednih nedostataka. Prva metoda je puno teža.",
     "autor": "Tony Hoare"
+  },
+  {
+    "tekst": "Najbolji umovi moje generacije misle o tome kako naterati ljude da klikću reklame.",
+    "en": "The best minds of my generation are thinking about how to make people click ads.",
+    "autor": "Jeff Hammerbacher"
+  },
+  {
+    "tekst": "Ponekad postoji srebrni metak softverske produktivnosti. Ali treba da upucate pravu osobu.",
+    "en": "Sometimes there is a silver bullet for boosting software engineering productivity. But you need to shoot the right person.",
+    "autor": "Michael Stal"
+  },
+  {
+    "tekst": "Dodavanje ljudstva na projekat koji kasni dovodi do još većeg kašnjenja.",
+    "autor": "Fred Brooks"
+  },
+  {
+    "tekst": "Ono što jedan programer može uraditi za mesec dana, dva programera mogu uraditi za dva meseca.",
+    "en": "What one programmer can do in one month, two programmers can do in two months.",
+    "autor": "Fred Brooks"
+  },
+  {
+    "tekst": "Nošenje trudnoće traje devet meseci, bez obzira koliko žena dodali.",
+    "en": "The bearing of a child takes nine months, no matter how many women are assigned.",
+    "autor": "Fred Brooks",
+    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering"
+  },
+  {
+    "tekst": "Devet žena ne može roditi bebu za mesec dana.",
+    "en": "Nine women can't make a baby in one month.",
+    "autor": "Fred Brooks",
+    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering"
+  },
+  {
+    "tekst": "Imati sistemskog arhitektu je najvažniji korak ka konceptualnom integritetu. Nakon držanja laboratorija softverskog inženjerstva više od 20 puta, počeo sam da insistiram da mali studentski timovi, već od četvoro ljudi, izaberu menadžera i arhitektu.",
+    "en": "Having a system architect is the most important single step toward conceptual integrity. After teaching a software engineering laboratory more than 20 times, I came to insist that student teams as small as four people choose a manager and a separate architect.",
+    "autor": "Fred Brooks",
+    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering"
+  },
+  {
+    "tekst": "Treba da zaboravimo na male učinkovitosti, recimo u oko 97% slučajeva: prerana optimizacija je koren svih zala. Međutim, ne smemo propustiti priliku u tih kritičnih 3%.",
+    "en": "We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%.",
+    "autor": "Donald Knuth",
+    "izvor": "Donald Knuth, Structured Programming with go to Statements, JACM Computing Surveys, Vol 6, No. 4, Dec. 1974, p.268"
+  },
+  {
+    "tekst": "Da Java ima pravo sakupljanje smeća, većina programa bi izbrisala sebe po izvršenju.",
+    "en": "If Java had true garbage collection, most programs would delete themselves upon execution.",
+    "autor": "Robert Sewell"
   },
   {
     "tekst": "Jedan od mojih najproduktivnijih dana je bio kada sam bacio 1000 linija koda.",
@@ -28,8 +92,39 @@
     "autor": "Jeff Sickel"
   },
   {
+    "tekst": "Jedno precizno merenje vredi više od hiljadu ekspertskih mišljenja.",
+    "en": "One accurate measurement is worth more than a thousand expert opinions.",
+    "autor": "Grace Hopper"
+  },
+  {
+    "tekst": "Nevolja sa programerima je što nikad ne možeš znati šta rade dok ne bude prekasno.",
+    "en": "The trouble with programmers is that you can never tell what a programmer is doing until it’s too late.",
+    "autor": "Seymour Cray"
+  },
+  {
+    "tekst": "Čišćenje koda ne uzima vreme. Ne čišćenje koda uzima vreme.",
+    "en": "Cleaning code does NOT take time. NOT cleaning code does take time.",
+    "autor": "Robert C. Martin"
+  },
+  {
+    "tekst": "Još nisam video problem, ma kako zamršen, koji kad se osmotri na pravi način, ne postoje još zamršeniji.",
+    "en": "I have yet to see any problem, however complicated, which when looked at in the right way, did not become more complicated.",
+    "autor": "Poul Anderson"
+  },
+  {
+    "tekst": "Uvek kodiraj kao da će momak koji nasledi tvoj kod biti nasilni psihopata koji zna gde živiš.",
+    "en": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
+    "autor": "Rick Osborne"
+  },
+  {
+    "tekst": "I hodanje po vodi i razvijanje softvera po specifikaciji su lakši kad je zaleđena.",
+    "en": "Walking on water and developing software from a specification are easy if both are frozen.",
+    "autor": "Edward V. Berard"
+  },
+  {
     "tekst": "Debagovanje je dvostruko teže od pisanja koda. Ako si napisao kod najpametnije što možeš, onda, po definiciji, nisi dovoljno pametan da ga debaguješ.",
-    "autor": "Brian Kernighan."
+    "en": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+    "autor": "Brian Kernighan"
   },
   {
     "tekst": "Kontrola kompleksnosti je suština kompjuterskog programiranja.",
@@ -48,10 +143,6 @@
     "autor": "Erik Naggum"
   },
   {
-    "tekst": "Glavni neprijatelj pouzdanosti je složenost.",
-    "autor": "Daniel Geer"
-  },
-  {
     "tekst": "Jednostavnost je preduslov za pouzdanost.",
     "autor": "Edsger W. Dijkstra"
   },
@@ -68,7 +159,8 @@
     "autor": "Edsger W. Dijkstra"
   },
   {
-    "tekst": "Ceniti programe po broju linija koda je kao ceniti avione po težini.",
+    "tekst": "Meriti napredak programa po broju linija koda je kao meriti napredak gradnje aviona po težini.",
+    "en": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.",
     "autor": "Bill Gates"
   },
   {
@@ -112,6 +204,26 @@
     "autor": "William Wulf"
   },
   {
+    "tekst": "Dva glavna proizvoda izašla iz Berklija su: LSD i UNIX. Ne verujemo da je to koincidencija.",
+    "en": "There are two major products that come out of Berkeley: LSD and UNIX. We don't believe this to be a coincidence.",
+    "autor": "Jeremy S. Anderson"
+  },
+  {
+    "tekst": "Kada imaš samo čekić, sve ti liči na ekser.",
+    "en": "When all you have is a hammer, everything starts to look like a nail.",
+    "autor": "Abraham Maslow"
+  },
+  {
+    "tekst": "Mnogo je poštenije reći greška nego buba, jer nedvosmisleno stavlja krivicu tamo gde treba, na programera koji ju je napravio.",
+    "en": "We could, for instance, begin with cleaning up our language by no longer calling a bug a bug but by calling it an error. It is much more honest because it squarely puts the blame where it belongs, viz. with the programmer who made the error.",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
+    "tekst": "Testiranje može samo dokazati prisustvo bagova, ne njihovo odsustvo.",
+    "en": "Testing can only prove the presence of bugs, not their absence.",
+    "autor": "Edsger W. Dijkstra"
+  },
+  {
     "tekst": "Testiranje programa može biti veoma adekvatan način da se pokaže prisustvo bagova, ali i beznadežno neadekvatan da se pokaže njihovo odsustvo.",
     "autor": "Edsger W. Dijkstra"
   },
@@ -142,6 +254,11 @@
   {
     "tekst": "Neki problemi su toliko kompleksni da morate biti visoko inteligentni i dobro informisani samo da biste bili neodlučni oko njih.",
     "autor": "Laurence J. Peter"
+  },
+  {
+    "tekst": "Pametni ljudi rešavaju probleme. Mudri ih izbegavaju.",
+    "en": "A clever person solves a problem. A wise person avoids it.",
+    "autor": "Albert Einstein"
   },
   {
     "tekst": "Jednom kad prestanete da učite, počinjete da umirete.",
@@ -183,6 +300,27 @@
     "autor": "Robert C. Martin"
   },
   {
+    "tekst": "Svaka budala može napisati kod koji računar razume. Dobri programeri pišu kod koji ljudi razumeju.",
+    "en": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "autor": "Martin Fowler",
+    "izvor": "Martin Fowler, Refactoring",
+  },
+  {
+    "tekst": "Pravo pitanje nije misle li mašine, već misle li ljudi.",
+    "en": "The real question is not whether machines think but whether men do.",
+    "autor": "B. F. Skinner"
+  },
+  {
+    "tekst": "Nikad nisam zadovoljan dok ne kažem najviše moguće sa najmanje reči, a sažeto pisanje uzima mnogo više vremena nego pisanje nadugačko.",
+    "en": "I am never satisfied until I have said as much as possible in a few words, and writing briefly takes far more time than writing at length.",
+    "autor": "Carl Friedrich Gauss"
+  },
+  {
+    "tekst": "Par meseci pisanja koda može ti uštedeti par sati projektovanja.",
+    "en": "A few months writing code can save you a few hours in design.",
+    "autor": "Nepoznat"
+  },
+  {
     "tekst": "Nema smisla biti egzaktan oko nečega ako uopšte ne znaš o čemu govoriš.",
     "autor": "John von Neumann"
   },
@@ -197,6 +335,11 @@
   {
     "tekst": "Bolna je stvar pogledati na svoju nevolju i shvatiti da si ti i niko drugi to napravio.",
     "autor": "Sofokle, Ajaks"
+  },
+  {
+    "tekst": "Postoji samo dve vrste jezika: oni na koje se ljudi žale i oni koje niko ne koristi.",
+    "en": "There are only two kinds of languages: the ones people complain about and the ones nobody uses.",
+    "autor": "Bjarne Stroustrup"
   },
   {
     "tekst": "Organizacija koja tretira svoje programere kao morone će uskoro imati programere koji su voljni i kadri da se ponašaju jedino kao moroni.",
@@ -244,7 +387,7 @@
   },
   {
     "tekst": "Program je kao pesma: ne možete napisati pesmu bez pisanja. Ipak, ljudi govore o programiranju kao procesu proizvodnje i mere „programersku produktivnost“ u terminima „broja proizvedenih linija koda“. Na taj način oni su na pogrešnoj strani knjige: Mi uvek gledamo „broj ušteđenih linija koda“.",
-    "autor": "E. W. Dijkstra"
+    "autor": "Edsger W. Dijkstra"
   },
   {
     "tekst": "U programiranju težak deo nije rešavanje problema, već odlučivanje koje probleme rešiti.",
