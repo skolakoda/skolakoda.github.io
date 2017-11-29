@@ -15,3 +15,6 @@ Pohadjanje kurseva u Školi koda je super iskustvo, puno toga sam naučio, dobio
 
 Mirjana Zajić:
 Generalni utisak mi je da sam puno naučila, neke stvari koje su mi izgledale strašno, tipa Git, Github, Nodejs me uopšte više ne plaše :) a i kod onog što sam znala, saznala sam dosta praktičnih trikova!
+
+Miloš Trifunović:
+"Damjan nije obican predavač, on je onaj koji isto tako uvek uči, istražuje, tako da i nema prepreka koje donosi odnos učitelj-učenik. Pri tom će se zadržati baš na onim mestima koje iskrsnu kao najinteresantnije ili najvažnije, prilagođavajući se potrebama radionice koja je bila prilično široka i obuhvatala full stack tehnologije".

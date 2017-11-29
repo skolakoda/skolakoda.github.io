@@ -44,9 +44,6 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-- zakazati online kurseve
-  - poslati sms
-  - azurirati javljeno u bazi
 - napraviti letke
 - vratiti decji kurs i dodati kurseve u pripremi
 - dodati js editor
@@ -56,7 +53,6 @@ https://stackoverflow.com/questions/6007242/how-to-create-a-rich-text-editor
   - mogu redefinisati console.log?
   https://stackoverflow.com/questions/16616722/sending-all-javascript-console-output-into-a-dom-element
   https://stackoverflow.com/questions/11403107/capturing-javascript-console-log
-- mobilna aplikacija alkometar
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - dodati paralax pomeranje mišem u gornji prostor
 - dodati savo mitraljezac, https://github.com/skolakoda/react-filteri i sl.
