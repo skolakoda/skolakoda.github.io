@@ -18,3 +18,13 @@ Generalni utisak mi je da sam puno naučila, neke stvari koje su mi izgledale st
 
 Miloš Trifunović:
 "Damjan nije obican predavač, on je onaj koji isto tako uvek uči, istražuje, tako da i nema prepreka koje donosi odnos učitelj-učenik. Pri tom će se zadržati baš na onim mestima koje iskrsnu kao najinteresantnije ili najvažnije, prilagođavajući se potrebama radionice koja je bila prilično široka i obuhvatala full stack tehnologije".
+
+Mirjana Zajic:
+samo pohvale!
+kurs je temeljan i sa odlicnim planom. veliki naglasak na prakticnosti, detalji i saveti koje nisam nalazila na online tuts.
+plan rada je koncizan ali atmosfera neformalna, prijatna i vrlo radno inspirativna! :)
+Damjan je odlican predavac! jako sposoban da oslusne kada nesto zapne :). I vrlo uporan u motivisanju da se zatatak zavrsi,nauci.
+sve u svemu (handclap)
+
+Marijana Radulovic:
+Kao neko ko je totalni početnik u ovoj oblasti, dobila sam mnogo više nego što sam mogla da zamislim. Osnovni kurs je potpuno praktično koncipiran i imam sajt kao opipljiv rezultat rada u ovih par meseci 🙂. Sve mi je bilo interesantno i imam želju da nastavim da učim. Damjan pored iskustva u programiranju ima i razvijenu društvenu svest i želju da pomaže drugima, što je za svaku preporuku!
