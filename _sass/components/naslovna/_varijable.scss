@@ -22,11 +22,13 @@ $visina-pozadina-lg-uspravno: calc(100vh - #{$visina-nav-lg-uspravno} * 2);
 // POLOZENO
 
 $visina-nav-xs-polozeno: $visina-slicica-xs + 75px;
+$visina-nav-sm-polozeno: $visina-slicica-sm + 100px;
 $visina-nav-md-polozeno: $visina-slicica-md + 130px;
 $visina-nav-lg-polozeno: $visina-slicica-lg + 180px;
 $visina-nav-xl-polozeno: $visina-slicica-xl + 180px;
 
 $visina-pozadina-xs-polozeno: calc(100vh - #{$visina-nav-xs-polozeno});
+$visina-pozadina-sm-polozeno: calc(100vh - #{$visina-nav-sm-polozeno});
 $visina-pozadina-md-polozeno: calc(100vh - #{$visina-nav-md-polozeno});
 $visina-pozadina-lg-polozeno: calc(100vh - #{$visina-nav-lg-polozeno});
 $visina-pozadina-xl-polozeno: calc(100vh - #{$visina-nav-xl-polozeno});
