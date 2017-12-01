@@ -86,7 +86,7 @@
     "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
   },
   {
-    "tekst": "Prva lažna pretpostavka koja podriva rokove programiranja je da će sve proći dobro, tj. da će svaki zadatak trajati samo koliko \"treba\" da traje. Veliki programerski napori se, pak, sastoje od mnogo zadataka, od kojih su neki ulančani od početka do kraja. Verovatnoća da će sve proći dobro postaje nestvarno mala.",
+    "tekst": "Prva lažna pretpostavka koja podriva rokove razvoja softvera je da će sve proći dobro, tj. da će svaki zadatak trajati samo koliko \"treba\" da traje. Veliki programerski projekat se, pak, sastoje od mnogo zadataka, od kojih su neki ulančani od početka do kraja. Verovatnoća da će sve proći dobro postaje nestvarno mala.",
     "en": "The first false assumption that underlies the scheduling of systems programming is that all will go well, i.e., that each task will hike only as long as it \"ought\" to take. A large programming effort, however, consists of many tasks, some chained end-to-end. The probability that each will go well becomes vanishingly small.",
     "autor": "Fred Brooks",
     "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
@@ -146,7 +146,7 @@
     "autor": "Rick Osborne"
   },
   {
-    "tekst": "I hodanje po vodi i razvijanje softvera po specifikaciji su lakši kad je zaleđena.",
+    "tekst": "Hodanje po vodi i razvijanje softvera po specifikaciji su lakši kad je zaleđena.",
     "en": "Walking on water and developing software from a specification are easy if both are frozen.",
     "autor": "Edward V. Berard"
   },

@@ -44,7 +44,8 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-- pomeriti citate
+- tabela clanova na drajvu
+- poslati info bilten
 - dodati js editor
 http://qnimate.com/create-an-frontend-editor-with-code-highlighting-and-execution/
 https://code.tutsplus.com/tutorials/create-a-wysiwyg-editor-with-the-contenteditable-attribute--cms-25657
