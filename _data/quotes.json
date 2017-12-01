@@ -63,6 +63,11 @@
     "autor": "Fred Brooks"
   },
   {
+    "tekst": "Programer, poput pesnika, radi tek neznatno udaljen od čiste misli. On gradi dvorce u vazduhu, od vazduha, stvarajući naporom mašte. Retki mediji stvaranja su tako gipki, tako jednostavni za poliranje i preradu, tako podesni za realizaciju veličanstvene konceptualne tvorevine.",
+    "autor": "Fred Brooks",
+    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
+  },
+    {
     "tekst": "Nošenje trudnoće traje devet meseci, bez obzira koliko žena dodali.",
     "en": "The bearing of a child takes nine months, no matter how many women are assigned.",
     "autor": "Fred Brooks",
