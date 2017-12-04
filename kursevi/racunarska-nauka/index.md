@@ -9,7 +9,7 @@ kurs: uvod
 
 ![]({{page.image}})
 
-### Učimo računarsku nauku
+### Računarska nauka za početnike
 # Uvod u svet programiranja
 
 **Savladaj temelje računarske nauke, strukture podataka, algoritme, kriptografiju. Nauči osnovne programske obrasce kroz C, Javu, PHP, Python i Javaskript.**
