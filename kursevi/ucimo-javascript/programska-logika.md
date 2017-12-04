@@ -26,21 +26,21 @@ Postoje i dva kombinovana operatora, koja takođe često koristimo:
 * jel **veće ili jednako** (`>=`)
 * jel **manje ili jednako** (`<=`)
 
-Operatori rade tako što im prosledimo dve vrednosti (sa leve i desne strane), a kao rezultat dobijemo `true` ili `false`. Na primer:
+Operatori rade tako što im prosledimo dve ulazi (sa leve i desne strane), a kao rezultat dobijemo `true` ili `false`. Na primer:
 
-{:.ulaz}
+{:.izraz}
 ```js
 2 < 3
 ```
 
-{:.ulaz}
+{:.izraz}
 ```js
 4 >= 5
 ```
 
-Zbog toga što operišu nad dve vrednosti, zovu se dvojni tj. binarni operatori. Možemo ih kombinovati sa matematičkim operacijama, na primer:
+Zbog toga što operišu nad dve ulazi, zovu se dvojni tj. binarni operatori. Možemo ih kombinovati sa matematičkim operacijama, na primer:
 
-{:.ulaz}
+{:.izraz}
 ```js
 2 + 2 == 5
 ```
@@ -49,17 +49,17 @@ Zbog toga što operišu nad dve vrednosti, zovu se dvojni tj. binarni operatori.
 
 U nekim jezicima postoji razlika između jednakosti i identičnosti:
 
-* jel **jednako** (`==`), tj. iste vrednosti
-* jel **identično** (`===`), tj. iste vrednosti i istog tipa
+* jel **jednako** (`==`), tj. iste ulazi
+* jel **identično** (`===`), tj. iste ulazi i istog tipa
 
 Tako, poređenje jednakosti i identičnosti daje različite razultate:
 
-{:.ulaz}
+{:.izraz}
 ```js
 2 == "2"
 ```
 
-{:.ulaz}
+{:.izraz}
 ```js
 2 === "2"
 ```
@@ -79,9 +79,9 @@ Kao i u govornom jeziku, `i` i `ili` su veznici, a `ne` je negacija. Njihova upo
 * Kupi hleb i mleko i jaja (mora sve)
 * Kupi hleb ili mleko ili jaja (mora bar jedno)
 
-U programiranju, logičke operatore koristimo za spajanje više logičkih vrednosti u složeni uslov. Na primer, veznikom `&&` proveravamo da li je korisnik punoletan i prihvatio je uslove korištenja i platio:
+U programiranju, logičke operatore koristimo za spajanje više logičkih ulazi u složeni uslov. Na primer, veznikom `&&` proveravamo da li je korisnik punoletan i prihvatio je uslove korištenja i platio:
 
-{:.ulaz}
+{:.izraz}
 ```js
 godine = 19
 platio = true
@@ -92,7 +92,7 @@ godine >=18 && platio && prihvatio
 
 Veznikom `||` možemo proveriti da li korisnik pripada nekoj od povlaštenih kategorija za javni prevoz:
 
-{:.ulaz}
+{:.izraz}
 ```js
 student = false
 penzioner = false
@@ -125,6 +125,7 @@ Uz pomoć operatora poređenja i veznika, možemo postavljati najrazličitije vr
 
 Najprostiji uslovni izraz je ako (`if`). Sastoji se od samog uslova, i ishoda koji se izvršava ako je uslov zadovoljen.
 
+{:.ulaz}
 ```js
 const godine = 19
 
@@ -134,6 +135,7 @@ if (godine >= 18)
 
 Sve postaje mnogo realnije kad dodamo interakciju sa korisnikom, komandom `prompt()`:
 
+{:.ulaz}
 ```js
 const godine = prompt('Unesi svoje godine')
 
@@ -143,6 +145,7 @@ if (godine >= 18)
 
 Ako imamo više linija koje treba uslovno izvršiti, onda su nam neophodne vitičaste zagrade (`{}`) oko njih:
 
+{:.ulaz}
 ```js
 const godine = prompt('Unesi svoje godine')
 
@@ -156,6 +159,7 @@ if (godine >= 18) {
 
 Ako želimo da izvršimo određenu operaciju kada uslov nije zadovoljen, dodajemo ključnu reč `else` (inače):
 
+{:.ulaz}
 ```js
 const godine = prompt('Unesi svoje godine')
 
@@ -169,6 +173,7 @@ else
 
 Ako želimo više uslova sa različitim ishodima, onda između `if` i `else` dodajemo ključne reči `else if`:
 
+{:.ulaz}
 ```js
 const ime = prompt('Unesi svoje korisničko ime')
 
@@ -186,6 +191,7 @@ else
 
 `switch` je pregledniji način pisanja višestrukih uslova. Na primer, prethodni uslov možemo napisati u vidu skretnice:
 
+{:.ulaz}
 ```js
 const ime = prompt('Unesi svoje korisničko ime')
 
