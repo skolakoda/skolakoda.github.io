@@ -74,7 +74,7 @@
 - učitavanje audio i video fajlova
 - puštanje fajlova
 - Vežba: Napravi plejer i plejlistu
-- Napravi program za pravljenje muzike
+- Vežba: Napravi program za pravljenje muzike
 
 ### Crtanje i animacije [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-animacije)
 
