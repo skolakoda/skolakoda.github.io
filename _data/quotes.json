@@ -63,6 +63,11 @@
     "autor": "Fred Brooks"
   },
   {
+    "tekst": "Programer, poput pesnika, radi tek neznatno udaljen od čiste misli. On gradi dvorce u vazduhu, od vazduha, stvarajući naporom mašte. Retki mediji stvaranja su tako gipki, tako jednostavni za poliranje i preradu, tako podesni za realizaciju veličanstvene konceptualne tvorevine.",
+    "autor": "Fred Brooks",
+    "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
+  },
+    {
     "tekst": "Nošenje trudnoće traje devet meseci, bez obzira koliko žena dodali.",
     "en": "The bearing of a child takes nine months, no matter how many women are assigned.",
     "autor": "Fred Brooks",
@@ -81,7 +86,7 @@
     "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
   },
   {
-    "tekst": "Prva lažna pretpostavka koja podriva rokove programiranja je da će sve proći dobro, tj. da će svaki zadatak trajati samo koliko \"treba\" da traje. Veliki programerski napori se, pak, sastoje od mnogo zadataka, od kojih su neki ulančani od početka do kraja. Verovatnoća da će sve proći dobro postaje nestvarno mala.",
+    "tekst": "Prva lažna pretpostavka koja podriva rokove razvoja softvera je da će sve proći dobro, tj. da će svaki zadatak trajati samo koliko \"treba\" da traje. Veliki programerski projekat se, pak, sastoje od mnogo zadataka, od kojih su neki ulančani od početka do kraja. Verovatnoća da će sve proći dobro postaje nestvarno mala.",
     "en": "The first false assumption that underlies the scheduling of systems programming is that all will go well, i.e., that each task will hike only as long as it \"ought\" to take. A large programming effort, however, consists of many tasks, some chained end-to-end. The probability that each will go well becomes vanishingly small.",
     "autor": "Fred Brooks",
     "izvor": "Frederick P. Brooks Jr., The Mythical Man-Month"
@@ -141,7 +146,7 @@
     "autor": "Rick Osborne"
   },
   {
-    "tekst": "I hodanje po vodi i razvijanje softvera po specifikaciji su lakši kad je zaleđena.",
+    "tekst": "Hodanje po vodi i razvijanje softvera po specifikaciji su lakši kad je zaleđena.",
     "en": "Walking on water and developing software from a specification are easy if both are frozen.",
     "autor": "Edward V. Berard"
   },
@@ -237,7 +242,7 @@
   },
   {
     "tekst": "Mnogo je poštenije reći greška nego buba, jer nedvosmisleno stavlja krivicu tamo gde treba, na programera koji ju je napravio.",
-    "en": "We could, for instance, begin with cleaning up our language by no longer calling a bug a bug but by calling it an error. It is much more honest because it squarely puts the blame where it belongs, viz. with the programmer who made the error.",
+    "en": "We could, for instance, begin with cleaning up our language by no longer calling a bug a bug but by calling it an error. It is much more honest because it squarely puts the blame where it belongs, viz. with the programmer who made the error. The animistic metaphor of the bug that maliciously sneaked in while the programmer was not looking is intellectually dishonest as it disguises that the error is the programmer's own creation. The nice thing of this simple change of vocabulary is that it has such a profound effect: while, before, a program with only one bug used to be \"almost correct\", afterwards a program with an error is just \"wrong\" (because in error).",
     "autor": "Edsger W. Dijkstra"
   },
   {

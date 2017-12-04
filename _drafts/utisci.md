@@ -28,3 +28,6 @@ sve u svemu (handclap)
 
 Marijana Radulovic:
 Kao neko ko je totalni početnik u ovoj oblasti, dobila sam mnogo više nego što sam mogla da zamislim. Osnovni kurs je potpuno praktično koncipiran i imam sajt kao opipljiv rezultat rada u ovih par meseci 🙂. Sve mi je bilo interesantno i imam želju da nastavim da učim. Damjan pored iskustva u programiranju ima i razvijenu društvenu svest i želju da pomaže drugima, što je za svaku preporuku!
+
+Jelena Milutinović:
+Atmosfera sjajna, pristup D. ti je veoma produktivan! Cela inicijativa je plemenita i super korisna! Keep the spirit i nema granica :)

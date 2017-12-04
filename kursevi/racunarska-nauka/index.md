@@ -2,27 +2,36 @@
 layout: kurs
 title: Uvod u svet programiranja
 image: /images/kursevi/uvod.png
+redirect_from:
+  - /kursevi/uvod-u-programiranje/
 kurs: uvod
 ---
 
 ![]({{page.image}})
 
-### Učimo C, Javu, PHP, Python i Javaskript
+### Učimo računarsku nauku
 # Uvod u svet programiranja
 
-**Savladaj temelje računarske nauke. Nauči osnovne obrasce zajedničke raznim programskim jezicima. Postani ozbiljan programer, ne koder.**
+**Savladaj temelje računarske nauke, strukture podataka, algoritme, kriptografiju. Nauči osnovne programske obrasce kroz C, Javu, PHP, Python i Javaskript.**
 
-***Kurs programiranja za potpune početnike. Solidan temelj za dalju profesionalnu orjentaciju.***
+***Kurs programiranja za potpune početnike, kao i samouke kodere koji hoće da popune praznine. Solidan temelj za dalju profesionalnu orjentaciju.***
 
 <a href="/kursevi/prijava?kurs=10" class="btn float-right">Prijavi se</a>
 
-### Uvod
+### Šta je računar?
 
-- Šta je programiranje
+- [Rana istorija računara](/rana-istorija-racunara)
+- [Fon Nojmanova arhitektura](/fon-nojmanova-arhitektura)
+- [Savremena istorija računara](/savremena-istorija-racunara)
+
+### Šta je programiranje?
+
+- Šta je programiranje?
 - [Kako učiti programiranje](/programiranje-je-tesko)
 - [Uvod u programske jezike](/uvod-u-programske-jezike) ([prezentacija](https://www.slideshare.net/DamjanPavlica/programski-jezici-73018599))
 
-### Instalacija
+### Instalacija jezika i alata
+
 - Instalacija jezika (C, Java, PHP, Python, NodeJS)
 - Instalacija editora (Codeblocks, NetBeans, Atom...)
 - Instalacija dodatnih alata
@@ -30,7 +39,7 @@ kurs: uvod
 ### Prvi program
 - [Zdravo C](/zdravo-c)
 - [Zdravo Java](/zdravo-java)
-- Zdravo PHP
+- [Zdravo PHP](/uvod-u-php)
 - Zdravo Python
 - Zdravo Javaskript
 
@@ -39,12 +48,6 @@ kurs: uvod
 - prevođenje programa u mašinski jezik
 - prevođenje novijeg koda u stariji
 - prevođenje jednog jezika u drugi
-
-### Šta je računar?
-
-- [Rana istorija računara](/rana-istorija-racunara)
-- [Fon Nojmanova arhitektura](/fon-nojmanova-arhitektura)
-- [Savremena istorija računara](/savremena-istorija-racunara)
 
 ### Drugačije vrste brojeva
 
@@ -74,7 +77,7 @@ kurs: uvod
 - [Tipovi podataka u Javi](/java-tipovi-podataka)
 - tipizirani i netipizirani jezici (statički i dinamički tipovi)
 
-### Varijable
+### Imenovanja podataka
 - [Šta su varijable?](/c-varijable)
 - identifikatori i pravila imenovanja
 - dodeljivanje vrednosti
@@ -82,17 +85,12 @@ kurs: uvod
 - kopiranje i pokazivanje vrednosti
 - [Pokazivači u jeziku C](/c-pokazivaci)
 
-### Rad sa brojevima
+### Brojevi i računanje
 - aritmetički operatori (`+`, `-`, `*`, `/`)
 - upotreba modulo operatora (`%`)
 - nepreciznosti u računanju
 
-### Naredbe i izrazi
-- izraz (vrednost koja se evaluira)
-- naredba (zapovest računaru da nešto uradi)
-- vežba: razlikovanje naredbi i izraza
-
-### Logika
+### Uslovi i grananje
 - [Logički tok programa](/programska-logika)
 - operatori poređenja (`>`, `<`, `==`, `!=`)
 - logički operatori (`i`, `ili`, `ne`)
@@ -100,7 +98,7 @@ kurs: uvod
 - [Logičke kapije](/logicke-kapije)
 - [Bitovni operatori](/bitovni-operatori)
 
-### Petlje i iteracija
+### Petlje i ponavljanje
 
 - [Petlje u C-u](/c-petlje)
   - vrste petlji (`while`, `do-while`, `for`, `for-each`)
@@ -113,6 +111,11 @@ kurs: uvod
 - vraćanje rezultata funkcije
 - čiste i nečiste funkcije (procedure)
 - bočni efekti funkcije
+
+### Naredbe i izrazi
+- izraz (vrednost koja se evaluira)
+- naredba (zapovest računaru da nešto uradi)
+- vežba: razlikovanje naredbi i izraza
 
 ### Argumenti komandne linije
 
@@ -140,11 +143,23 @@ kurs: uvod
 - iteracija nizova: `forEach()`, `map()`
 - `map`, `filter`, `reduce`
 
-### Klase i nasleđivanje
+### Objekti, klase i nasleđivanje
 - [Uvod u objektno orijentisano programiranje](https://www.slideshare.net/DamjanPavlica/uvod-u-objektno-orijentisano-programiranje-i-c)
 - [Klase i objekti u Javi](/java-klase-i-objekti)
 - privatne i javne metode
 - statičke metode
+
+### Mrežna komunikacija
+
+- `http` (protokol za transfer teksta)
+- čitanje resursa preko mreže
+- slanje resursa preko mreže
+
+### Kriptografija
+
+- Uvod u kriptografiju
+- Jednosmerno šifriranje
+- [Heš funkcije i čuvanje lozinki](https://learncryptography.com/hash-functions/what-are-hash-functions)
 
 ### Algoritmi [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-agoritme)
 

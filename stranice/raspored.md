@@ -1,6 +1,7 @@
 ---
 title: Raspored
 permalink: /raspored
+opis: Raspored radionica Škole koda uživo i online.
 ---
 
 # Raspored
