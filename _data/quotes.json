@@ -251,12 +251,10 @@
     "autor": "Edsger W. Dijkstra"
   },
   {
-    "tekst": "Testiranje programa može biti veoma adekvatan način da se pokaže prisustvo bagova, ali i beznadežno neadekvatan da se pokaže njihovo odsustvo.",
-    "autor": "Edsger W. Dijkstra"
-  },
-  {
     "tekst": "Kompetentan programer je potpuno svestan ograničene veličine svoje lobanje. On stoga prilazi svojim zadacima sa potpunom skromnošću, i izbegava lukave trikove kao kugu.",
-    "autor": "Edsger W. Dijkstra"
+    "en": "The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague",
+    "autor": "Edsger W. Dijkstra",
+    "izvor": "The Humble Programmer (1972)"
   },
   {
     "tekst": "Kod nikada ne laže, komentari nekad lažu.",
