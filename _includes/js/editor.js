@@ -1,12 +1,10 @@
-/* global $ */
-
 /*
-Izvršava JS na dva načina
+Editor izvršava JS na dva načina
 - evaluira izraze $('.izraz')
 - preusmerava console.log u HTML $('.ulaz')
 */
 
-const izrazi = $('.izraz')
+const izrazi = document.querySelectorAll('.izraz')
 const brojIzraza = izrazi.length || 0
 
 const ulazi = document.querySelectorAll('.ulaz')

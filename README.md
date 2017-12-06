@@ -1,10 +1,8 @@
-# Škola koda
+# Sajt Škole koda
 
-Učimo narod programiranju!
+Vidi [skolakoda.org](https://skolakoda.org/)
 
-Poseti nas na [skolakoda.org](https://skolakoda.org/)
-
-## Preduslovi
+## Instalacija
 
 Prvo instaliraš [ruby](https://rubyinstaller.org/downloads/). Potom:
 
@@ -44,7 +42,8 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-- dodati js editor svuda
+- spojiti html i css
+- vratiti kutijice
 - dodati paralax pomeranje mišem u gornji prostor
 - zen mudrosti na blog
 - napraviti letke

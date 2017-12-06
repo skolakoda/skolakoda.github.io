@@ -26,7 +26,7 @@ kurs: web-dizajn
 ### Upoznavanje alata
 
 - Instalacija editora (Notepad++, [Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
-- Instalacija dodataka
+- Instalacija bitnih dodataka za:
   - bojenje koda
   - ulepšavanje koda
   - otkrivanje grešaka u kucanju

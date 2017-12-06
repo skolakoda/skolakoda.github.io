@@ -211,3 +211,7 @@ switch(ime) {
 ```
 
 Primetite kočnicu (`break`) koja stoji nakon svakog ishoda. Probajte da je izbacite i vidite kako će se vaš program ponašati.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_rpKqyeAU5M" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kpa3u-fCBYA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>

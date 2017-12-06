@@ -16,12 +16,13 @@ image: /images/koncepti/let-vs-const.png
 
 Najbolje ćemo zapamtiti preko primera iz života. Na primer:
 
+{:.ulaz}
 ```js
 let sampion = "Djoka"
 sampion = "Mika"
 sampion = "Pera"
 
-console.log(`Ovogodisnju titulu osvojio je ${sampion}`)
+console.log(`Ovogodišnju titulu osvojio je ${sampion}`)
 ```
 
 ## Nepromenljive
@@ -36,6 +37,7 @@ const PI = 3.14
 
 Za razliku od varijabli, konstante nakon icijalne dodele vrednosti ne dozvoljavaju ponovno dodeljivanje. Svaki sličan pokušaj će uroditi greškom:
 
+{:.ulaz}
 ```js
 const PI = 3.14
 PI = 2.14 // na ovom redu puca program
@@ -47,7 +49,7 @@ PI = 2.14 // na ovom redu puca program
 
 Stare varijable (`var`) su bile omeđene samo opsegom funkcije, a mogle su važiti i izvan bloka u kome su definisane. Za razliku od njih, `let` i `const` ne mogu važiti izvan vitičastih zagrada.
 
-
+{:.ulaz}
 ```js
 const a = 10;
 // b je unutar bloka
