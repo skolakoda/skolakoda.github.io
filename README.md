@@ -45,12 +45,12 @@ bundle exec jekyll serve --drafts --incremental
 ## TODO
 
 - dodati js editor svuda
-- php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - dodati paralax pomeranje mišem u gornji prostor
 - zen mudrosti na blog
 - napraviti letke
 - vratiti decji kurs i dodati kurseve u pripremi
 - lagane ikonice https://shkspr.mobi/blog/2017/11/super-tiny-website-logos-in-svg/
+- php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 
 <!--
 sadrzaj:
@@ -176,3 +176,71 @@ Talk is cheap. Show me the code.
 Those that can, do. Those that can't, complain.
 
 Really, I'm not out to destroy Microsoft. That will just be a completely unintentional side effect.
+
+## Rob Pike
+
+Object-oriented design is the roman numerals of computing.
+
+## Kent Beck
+
+I'm not a great programmer; I'm just a good programmer with great habits.
+
+When you find you have to add a feature to a program, and the program's code is not structured in a convenient way to add the feature, first refactor the program to make it easy to add the feature, then add the feature.
+
+When you feel the need to write a comment, first try to refactor the code so that any comment becomes superfluous.
+
+## Martin Fowler
+
+With testing, I know straight away when I added a bug. That lets me fix the bug immediately, before it can crawl off and hide.
+
+There are few things more frustrating or time wasting than debugging. Wouldn't it be a hell of a lot quicker if we just didn't create the bugs in the first place?
+
+I think one of the most valuable rules is avoid duplication.
+
+Often designers do complicated things that improve the capacity on a particular hardware platform when it might actually be cheaper to buy more hardware.
+
+## John D. Carmack
+
+If you want to set off and go develop some grand new thing, you don't need millions of dollars of capitalization. You need enough pizza and Diet Coke to stick in your refrigerator, a cheap PC to work on, and the dedication to go through with it.
+
+The situation is so much better for programmers today - a cheap used PC, a linux CD, and an internet account, and you have all the tools necessary to work your way to any level of programming skill you want to shoot for.
+
+Story in a game is like a story in a porn movie. It's expected to be there, but it's not that important.
+
+## Paul Graham
+
+The best thing software can be is easy, but the way to do this is to get the defaults right, not to limit users' choices.
+
+The most important thing is to be able to think what you want, not to say what you want.
+
+The top 5% of programmers probably write 99% of the good software.
+
+There are few sources of energy so powerful as a procrastinating grad student.
+
+There's no switch inside you that magically flips when you turn a certain age or graduate from some institution. You start being an adult when you decide to take responsibility for your life. You can do that at any age.
+
+It's not so important what you work on, so long as you're not wasting your time.
+
+## Bill Gates
+
+There's only one trick in software, and that is using a piece of software that's already been written.
+
+Sometimes we do get taken by surprise. For example, when the Internet came along, we had it as a fifth or sixth priority.
+
+Your most unhappy customers are your greatest source of learning.
+
+If you show people the problems and you show people the solutions they will be moved to act.
+
+The finest pieces of software are those where one individual has a complete sense of exactly how the program works. To have that, you have to really love the program and concentrate on keeping it simple, to an incredible degree.
+
+We're no longer in the days where everything is super well crafted. But at the heart of the programs that make it to the top, you'll find that the key internal code was done by a few people who really know what they were doing.
+
+Success is a lousy teacher. It seduces smart people into thinking they can't lose.
+
+## Ward Cunningham
+
+It was a turning point in my programming career when I realized that I didn't have to win every argument. I
+
+What is simplicity? Simplicity is the shortest path to a solution.
+
+Putting a new feature into a program is important, but refactoring so new features can be added in the future is equally important.
