@@ -66,3 +66,22 @@ https://pixabay.com/en/cyber-glasses-virtual-virtual-world-1938449/
 https://damjanpavlica.files.wordpress.com/2014/04/stari-programer.jpg
 vr: http://www.vrupple.com/wp-content/uploads/2016/11/headset-footer.jpg
 -->
+
+Don't blame me for the fact that competent programming will be too difficult for "the average programmer" — you must not fall into the trap of rejecting a surgical technique because it is beyond the capabilities of the barber in his shop around the corner.
+Dijkstra (1975) Comments at a Symposium (EWD 512).
+
+as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.
+The Humble Programmer (1972)
+
+LISP has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts.
+The Humble Programmer (1972)
+
+If you want more effective programmers, you will discover that they should not waste their time debugging, they should not introduce the bugs to start with.
+The Humble Programmer (1972)
+
+The use of COBOL cripples the mind; its teaching should, therefore, be regarded as a criminal offense.
+How do we tell truths that might hurt? (1975)
+
+It is practically impossible to teach good programming to students that have had a prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration.
+How do we tell truths that might hurt? (1975)
+
