@@ -44,13 +44,7 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-- viber grupa, info za placanje do 15-og
-- poslati info bilten, moze se uci na kurseve u toku
-
-- dodati js editor
-  - mogu redefinisati console.log?
-  https://stackoverflow.com/questions/16616722/sending-all-javascript-console-output-into-a-dom-element
-  https://stackoverflow.com/questions/11403107/capturing-javascript-console-log
+- dodati js editor svuda
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - dodati paralax pomeranje mišem u gornji prostor
 - zen mudrosti na blog
