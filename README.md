@@ -243,3 +243,121 @@ It was a turning point in my programming career when I realized that I didn't ha
 What is simplicity? Simplicity is the shortest path to a solution.
 
 Putting a new feature into a program is important, but refactoring so new features can be added in the future is equally important.
+
+## Albert Einstein
+
+A new idea comes suddenly and in a rather intuitive way. But intuition is nothing but the outcome of earlier intellectual experience.
+
+## Ludwig Wittgenstein
+
+The limits of my language mean the limits of my world.
+
+The limits of my language are the limits of my mind. 
+
+An entire mythology is stored within our language.
+
+## George Boole
+
+The design of the following treatise is to investigate the fundamental laws of those operations of the mind by which reasoning is performed; to give expression to them in the symbolical language of a Calculus, and upon this foundation to establish the science of Logic and construct its method.
+
+Let us conceive, then, of an algebra in which the symbols x, y z etc. admit indifferently of the values 0 and 1, and of these values alone The laws, the axioms, and the processes, of such an Algebra will be identical in their whole extend with the laws, the axioms, and the processes of an Algebra of Logic.
+
+That language is an instrument of human reason, and not merely a medium for the expression of thought, is a truth generally admitted. 
+
+## Alan Perlis
+
+A programming language is low level when its programs require attention to the irrelevant.
+
+If you have a procedure with 10 parameters, you probably missed some.
+
+A language that doesn't affect the way you think about programming, is not worth knowing.
+
+Simplicity does not precede complexity, but follows it.
+
+A year spent in artificial intelligence is enough to make one believe in God.
+
+Dealing with failure is easy: Work hard to improve. 
+
+The best book on programming for the layman is Alice in Wonderland, but that's because it's the best book on anything for the layman. 
+
+## Razno
+
+The cleaner and nicer the program, the faster it's going to run. And if it doesn't, it'll be easy to make it fast.
+    Joshua Bloch
+  
+ And programming computers was so fascinating. You create your own little universe, and then it does what you tell it to do.
+
+    Vint Cerf
+    
+Computer programs are the most intricate, delicately balanced and finely interwoven of all the products of human industry to date. 
+  
+  James Gleick
+  
+The effective exploitation of his powers of abstraction must be regarded as one of the most vital activities of a competent programmer.
+
+    Edsger W. Dijkstra
+    
+No matter how slick the demo is in rehearsal, when you do it in front of a live audience, the probability of a flawless presentation is inversely proportional to the number of people watching, raised to the power of the amount of money involved.
+
+    Mark Gibbs
+
+Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.
+
+    Alan Kay
+
+Programs must be written for people to read, and only incidentally for machines to execute.
+
+    Abelson & Sussman, "Structure and Interpretation of Computer Programs",
+
+SQL, Lisp, and Haskell are the only programming languages that I've seen where one spends more time thinking than typing.
+
+    Philip Greenspun
+    
+Real Programmers always confuse Christmas and Halloween because Oct31 == Dec25.
+
+    Andrew Rutherford 
+    
+The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.
+
+    Brian Kernighan
+    
+The last bug isn't fixed until the last user is dead.
+
+    Sidney Markowitz
+    
+Python is more concerned with making it easy to write good programs than difficult to write bad ones.
+
+    Steve Holden
+    
+Software engineering is the part of computer science which is too difficult for the computer scientist.
+
+    Friedrich Bauer
+    
+The amateur software engineer is always in search of magic, some sensational method or tool whose application promises to render software development trivial. It is the mark of the professional software engineer to know that no such panacea exist.
+
+    Grady Booch
+    
+the reason that we think computer science is about computers is pretty much the same reason that the Egyptians thought geometry was about surveying instruments: when some field is just getting started and you don't really understand it very well, it's very easy to confuse the essence of what you're doing with the tools that you use.
+
+  Hal Abelson 
+  
+Is studying computer science the best way to prepare to be a programmer? No. the best way to prepare is to write programs, and to study great programs that other people have written
+
+  Bill Gates
+  
+Computer science... differs from physics in that it is not actually a science. It does not study natural objects. Rather, computer science is like engineering; it is all about getting something to do something.
+
+    Richard Feynman
+    
+The purpose of computing is insight, not numbers.
+
+    Richard Hamming
+    
+Computer science is an empirical discipline. [...] Each new machine that is built is an experiment. Actually constructing the machine poses a question to nature; and we listen for the answer by observing the machine in operation and analyzing it-
+
+  Allen Newell
+  
+Computer science research is different from these more traditional disciplines. Philosophically it differs from the physical sciences because it seeks not to discover, explain, or exploit the natural world, but instead to study the properties of machines of human creation. 
+
+    Dennis Ritchie
+    
