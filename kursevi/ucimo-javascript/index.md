@@ -279,7 +279,7 @@ kurs: javascript
 - Vežba: učitaj adresar iz JSON fajla
 - Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
 
-### Bekend servisi u Node.js-u
+### Node.js bekend servisi [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
 
 - Čemu služi Node.js?
 - Čitanje i pisanje fajlova
