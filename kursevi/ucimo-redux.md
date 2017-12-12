@@ -25,7 +25,7 @@
 
 - Skladište prima reduktor funkciju, pomoću koje menja stanje
 - Stanje se čuva u skladištu, a dobija se metodom `getState()`
-- Skladište ima `dispatch` metod koji inicira promenu stanja sa opisom promene
+- Skladište ima `dispatch` metod, koji inicira promenu stanja sa opisom promene
 - Skladište prijavljuje (`subscribe`) niz povratnih funkcija koje okida nakon svake promene stanja (render i sl)
 
 ## Materijali

@@ -42,6 +42,7 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
+- dodati skraceni sazetak bloga kao opis strane
 - spojiti html i css
 - vratiti kutijice
 - dodati paralax pomeranje mišem u gornji prostor
@@ -252,7 +253,7 @@ A new idea comes suddenly and in a rather intuitive way. But intuition is nothin
 
 The limits of my language mean the limits of my world.
 
-The limits of my language are the limits of my mind. 
+The limits of my language are the limits of my mind.
 
 An entire mythology is stored within our language.
 
@@ -262,7 +263,7 @@ The design of the following treatise is to investigate the fundamental laws of t
 
 Let us conceive, then, of an algebra in which the symbols x, y z etc. admit indifferently of the values 0 and 1, and of these values alone The laws, the axioms, and the processes, of such an Algebra will be identical in their whole extend with the laws, the axioms, and the processes of an Algebra of Logic.
 
-That language is an instrument of human reason, and not merely a medium for the expression of thought, is a truth generally admitted. 
+That language is an instrument of human reason, and not merely a medium for the expression of thought, is a truth generally admitted.
 
 ## Alan Perlis
 
@@ -276,27 +277,27 @@ Simplicity does not precede complexity, but follows it.
 
 A year spent in artificial intelligence is enough to make one believe in God.
 
-Dealing with failure is easy: Work hard to improve. 
+Dealing with failure is easy: Work hard to improve.
 
-The best book on programming for the layman is Alice in Wonderland, but that's because it's the best book on anything for the layman. 
+The best book on programming for the layman is Alice in Wonderland, but that's because it's the best book on anything for the layman.
 
 ## Razno
 
 The cleaner and nicer the program, the faster it's going to run. And if it doesn't, it'll be easy to make it fast.
     Joshua Bloch
-  
+
  And programming computers was so fascinating. You create your own little universe, and then it does what you tell it to do.
 
     Vint Cerf
-    
-Computer programs are the most intricate, delicately balanced and finely interwoven of all the products of human industry to date. 
-  
+
+Computer programs are the most intricate, delicately balanced and finely interwoven of all the products of human industry to date.
+
   James Gleick
-  
+
 The effective exploitation of his powers of abstraction must be regarded as one of the most vital activities of a competent programmer.
 
     Edsger W. Dijkstra
-    
+
 No matter how slick the demo is in rehearsal, when you do it in front of a live audience, the probability of a flawless presentation is inversely proportional to the number of people watching, raised to the power of the amount of money involved.
 
     Mark Gibbs
@@ -312,52 +313,122 @@ Programs must be written for people to read, and only incidentally for machines 
 SQL, Lisp, and Haskell are the only programming languages that I've seen where one spends more time thinking than typing.
 
     Philip Greenspun
-    
+
 Real Programmers always confuse Christmas and Halloween because Oct31 == Dec25.
 
-    Andrew Rutherford 
-    
+    Andrew Rutherford
+
 The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.
 
     Brian Kernighan
-    
+
 The last bug isn't fixed until the last user is dead.
 
     Sidney Markowitz
-    
+
 Python is more concerned with making it easy to write good programs than difficult to write bad ones.
 
     Steve Holden
-    
+
 Software engineering is the part of computer science which is too difficult for the computer scientist.
 
     Friedrich Bauer
-    
+
 The amateur software engineer is always in search of magic, some sensational method or tool whose application promises to render software development trivial. It is the mark of the professional software engineer to know that no such panacea exist.
 
     Grady Booch
-    
+
 the reason that we think computer science is about computers is pretty much the same reason that the Egyptians thought geometry was about surveying instruments: when some field is just getting started and you don't really understand it very well, it's very easy to confuse the essence of what you're doing with the tools that you use.
 
-  Hal Abelson 
-  
+  Hal Abelson
+
 Is studying computer science the best way to prepare to be a programmer? No. the best way to prepare is to write programs, and to study great programs that other people have written
 
   Bill Gates
-  
+
 Computer science... differs from physics in that it is not actually a science. It does not study natural objects. Rather, computer science is like engineering; it is all about getting something to do something.
 
     Richard Feynman
-    
+
 The purpose of computing is insight, not numbers.
 
     Richard Hamming
-    
+
 Computer science is an empirical discipline. [...] Each new machine that is built is an experiment. Actually constructing the machine poses a question to nature; and we listen for the answer by observing the machine in operation and analyzing it-
 
   Allen Newell
-  
-Computer science research is different from these more traditional disciplines. Philosophically it differs from the physical sciences because it seeks not to discover, explain, or exploit the natural world, but instead to study the properties of machines of human creation. 
+
+Computer science research is different from these more traditional disciplines. Philosophically it differs from the physical sciences because it seeks not to discover, explain, or exploit the natural world, but instead to study the properties of machines of human creation.
 
     Dennis Ritchie
-    
+
+A good scientist is a person with original ideas. A good engineer is a person who makes a design that works with as few original ideas as possible. There are no prima donnas in engineering.
+    Freeman Dyson
+
+I was originally supposed to become an engineer but the thought of having to expend my creative energy on things that make practical everyday life even more refined, with a loathsome capital gain as the goal, was unbearable to me.
+    Albert Einstein
+
+Computers are no more able to create information than iPods are capable of creating music.
+    Stephen C. Meyer
+
+All of our exalted technological progress, civilization for that matter, is comparable to an axe in the hand of a pathological criminal.
+    Albert Einstein
+
+The most important and urgent problems of the technology of today are no longer the satisfactions of the primary needs or of archetypal wishes, but the reparation of the evils and damages by the technology of yesterday.
+    Dennis Gabor
+
+When a distinguished but elderly scientist states that something is possible, they are almost certainly right. When they state that something is impossible, they are very probably wrong.
+    Arthur C. Clarke
+
+Any sufficiently advanced technology is indistinguishable from magic.
+    Arthur C. Clarke
+
+The liberating force of technology—the instrumentalization of things—turns into ... the instrumentalization of man.
+    Herbert Marcuse
+
+Machinery mutilates people today, even if it also feeds them.
+  Max Horkheimer and Theodor W. Adorno
+
+## Brian Foote and Joseph Yoder
+
+While much attention has been focused on high-level software architectural patterns, what is, in effect, the de-facto standard software architecture is seldom discussed: the BIG BALL OF MUD.
+
+All too many of our software systems are, architecturally, little more than shantytowns. Investment in tools and infrastructure is too often inadequate. Tools are usually primitive, and infrastructure such as libraries and frameworks, is undercapitalized. Individual portions of the system grow unchecked, and the lack of infrastructure and architecture allows problems in one part of the system to erode and pollute adjacent portions. Deadlines loom like monsoons, and architectural elegance seems unattainable.
+
+A BIG BALL OF MUD is haphazardly structured, sprawling, sloppy, duct-tape and bailing wire, spaghetti code jungle.
+
+THROWAWAY CODE is quick-and-dirty code that was intended to be used only once and then discarded. However, such code often takes on a life of its own, despite casual structure and poor or non-existent documentation. It works, so why fix it?
+
+The way to arrest entropy in software is to refactor it. A sustained commitment to refactoring can keep a system from subsiding into a BIG BALL OF MUD.
+
+A number of forces can conspire to drive even the most architecturally conscientious organizations to produce BIG BALLS OF MUD.
+
+One reason that software architectures are so often mediocre is that architecture frequently takes a back seat to more mundane concerns such as cost, time-to-market, and programmer skill.
+
+A program’s user interface presents the public face of a program, much as a building’s exterior manifests its architecture. However, unlike buildings, only the people who build a program see how it looks inside.
+
+Managing a large project is a qualitatively different problem from managing a small one, just as leading a division of infantry into battle is different from commanding a small special forces team.
+
+Often, the people who control and manage the development process simply do not regard architecture as a pressing concern.
+
+One reason for the popularity and success of BIG BALL OF MUD approaches might be that this approach doesn't require a hyperproductive virtuos architect at every keyboard.
+
+Sadly, architecture has been undervalued for so long that many engineers regard life with a BIG BALL OF MUD as normal.
+
+Yet, a case can be made that the casual, undifferentiated structure of a BIG BALL OF MUD is one of its secret advantages, since forces acting between two parts of the system can be directly addressed without having to worry about undermining the system’s grander architectural aspirations.
+
+Reviews and pair programming provide programmers with something their work would not otherwise have: an audience. Sunlight, it is said is a powerful disinfectant. An immediate audience of one's peers provides immediate incentives to programmers to keep their code clear and comprehensible, as well as functional.
+
+Time, or a lack thereof, is frequently the decisive force that drives programmers to write THROWAWAY CODE.
+
+When you build a prototype, there is always the risk that someone will say "that's good enough, ship it". One way to minimize the risk of a prototype being put into production is to write the prototype in using a language or tool that you couldn't possibly use for a production version of your product.
+
+Not every program need be a palace. A simple throwaway program is like a tent city or a mining boomtown, and often has no need for fifty year solutions to its problems, given that it will give way to a ghost town in five.
+
+The real problem with THROWAWAY CODE comes when it isn't thrown away.
+
+Sometimes it’s just easier to throw a system away, and start over.
+
+In the end, software architecture is about how we distill experience into wisdom, and disseminate it.
+
+People build BIG BALLS OF MUD because they work. In many domains, they are the only things that have been shown to work.
