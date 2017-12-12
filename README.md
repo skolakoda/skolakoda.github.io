@@ -42,15 +42,14 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-- dodati skraceni sazetak bloga kao opis strane
 - spojiti html i css
 - vratiti kutijice
-- dodati paralax pomeranje mišem u gornji prostor
 - zen mudrosti na blog
 - napraviti letke
 - vratiti decji kurs i dodati kurseve u pripremi
 - lagane ikonice https://shkspr.mobi/blog/2017/11/super-tiny-website-logos-in-svg/
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
+- dodati paralax pomeranje mišem u gornji prostor
 
 <!--
 sadrzaj:
