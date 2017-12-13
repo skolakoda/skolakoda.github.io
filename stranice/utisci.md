@@ -9,6 +9,7 @@ klasa: utisci
 # Utisci polaznika
 
 **Utisci polaznika kurseva i radionica, koje Damjan Pavlica drži od 2014. godine.**
+
 <br>
 
 {% include utisci/milos.html %}
