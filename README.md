@@ -58,6 +58,7 @@ https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
 https://profesorka.wordpress.com/2012/06/24/nizovi-2/
 
 slike:
+https://cdn-images-1.medium.com/max/2000/1*8NX1BJ5azRg2uhNnTgwUTg.jpeg
 https://pixabay.com/en/children-win-success-video-game-593313/
 https://pixabay.com/en/apple-brick-wall-computer-cup-1854101/
 https://pixabay.com/en/apple-computer-cup-electronics-1853306/
