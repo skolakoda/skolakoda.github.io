@@ -138,7 +138,7 @@ kurs: javascript
 ### Objekti
 
 - [Uvod u strukture podataka](/strukture-podataka)
-- [Tri vrste objekata u Javaskriptu](/vrste-objekata-u-javaskriptu)
+- [Tri vrste objekata u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
   - [Objekat kao rečnik](https://youtu.be/ZJ5__rBMkso)
   - [Objekat kao model](https://youtu.be/wEVoMn_sX_U)
   - [Objekat kao stablo](https://youtu.be/ppODhkAAQ3A)
