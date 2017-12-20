@@ -137,14 +137,15 @@ kurs: javascript
 
 ### Objekti
 
-- [Strukture podataka](/strukture-podataka)
-- struktura objekta: svojstva i metode
-  - objekti kao asocijativni nizovi (rečnici, mape)
-  - objekti kao stabla
-- osnovne metode: `Object.keys()`, `Object.assign()`, `Object.freeze()`
-- iteracija objekta: `for in` i `hasOwnProperty`
-- vežba: pronađi koliko se koje ime ponavlja u nizu
-- vežba: [napravi kasu za prodavnicu](https://www.codecademy.com/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
+- [Uvod u strukture podataka](/strukture-podataka)
+- [Tri vrste objekata u Javaskriptu](/vrste-objekata-u-javaskriptu)
+  - [Objekat kao rečnik](https://youtu.be/ZJ5__rBMkso)
+  - [Objekat kao model](https://youtu.be/wEVoMn_sX_U)
+  - [Objekat kao stablo](https://youtu.be/ppODhkAAQ3A)
+- Osnovne metode: `Object.keys()`, `Object.assign()`, `Object.freeze()`
+- Iteracija objekta: `for in` i `hasOwnProperty`
+- Vežba: pronađi koliko se koje ime ponavlja u nizu
+- Vežba: [napravi kasu za prodavnicu](https://www.codecademy.com/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
 ### JSON format
 
