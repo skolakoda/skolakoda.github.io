@@ -45,7 +45,9 @@ bundle exec jekyll serve --drafts --incremental
 Bitne novosti u Školi koda:
 Od januara radionice kreću vikendom, da ih i zaposleni mogu pohađati.
 Radnim danima prostor postaje Hub, mesto gde možete u miru raditi.
+(boostovati post)
 
+Sve više smo orjentisani na praksu, otvaramo:
 - Frontend odeljenje (JS aplikacije)
 - Backend odeljenje (Node.js, Python, PHP)
 - Odeljenje za dizajn (CSS, Sass)

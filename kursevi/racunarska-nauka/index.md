@@ -164,9 +164,30 @@ kurs: uvod
 ### Algoritmi [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-agoritme)
 
 - [Uvod u algoritme](/agoritmi-uvod)
+- Algoritmi računanja
+  - Egipatsko množenje
+  - Euklidov algoritam (najveći zajednički delilac)
+  - Fibonačijev niz (rekurzivno i iterativno)
+  - Faktorijel funkcija (rekurzivno i iterativno)
 - [Algoritmi pretrage](/agoritmi-pretrazivanja)
+  - [Linearna pretraga](/linearna-pretraga) (redom)
+  - [Binarna pretraga](/binarna-pretraga) (podelom)
 - [Algoritmi sortiranja](/agoritmi-sortiranja)
+  - Ređanje izborom (selection sort)
+  - Ređanje umetanjem (insertion sort)
+  - Ređanje mehurom (bubble sort)
+  - Ređanje spajanjem (merge sort)
+  - Brzo ređanje (quicksort)
 - [Efikasnost algoritama](/efikasnost-algoritama)
+  - Konstantna složenost: O(1)
+  - Podlinearna složenost: O(log n), O(√n)
+  - Linearna složenost: O(n)
+  - Kvadratna složenost: O(n^2)
+  - Eksponencijalna složenost: O(x^n)
+- Vežba: nalaženje najvećeg broja u nizu
+- Vežba: nalaženje osobe u telefonskom imeniku
+- Vežba: [rekurzivna palindrom funkcija](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/p/challenge-is-a-string-a-palindrome) (jel reč ista odnapred i odpozadi)
+- Vežba: [problem stabilnih parova](/problem-stabilnih-parova)
 
 ### Pisanje programa [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
 
@@ -179,10 +200,3 @@ kurs: uvod
 - Čemu služe Git i Github?
 - Osnovne git komande: `status`, `add`, `commit`, `pull`, `push`
 - Postavljanje koda na Github
-
-## Materijali
-
-* [Učimo C](https://github.com/skolakoda/ucimo-c)
-* [Učimo Python](https://github.com/skolakoda/ucimo-python)
-* [Učimo Javu](https://github.com/skolakoda/ucimo-javu)
-* [Učimo Javaskript](https://github.com/skolakoda/ucimo-javaskript)
