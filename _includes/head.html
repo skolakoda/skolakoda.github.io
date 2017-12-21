@@ -15,6 +15,9 @@
   {% assign slika = 'https://skolakoda.org/images/ui/pozadina.png' %}
   {% if page.image %}
     {% assign slika = page.image %}
+    {% if page.image contains "/images/" %}
+      {% assign slika = site.url | append: page.image %}
+    {% endif %}
   {% endif %}
   <meta property="og:image" content="{{slika}}" />
   <link rel="canonical" href="{{site.url}}{{page.url}}" />
