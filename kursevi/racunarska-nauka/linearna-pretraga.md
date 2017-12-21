@@ -1,9 +1,8 @@
 ---
 title: Linearna pretraga
 layout: lekcija-uvod
-tags: [algoritmi, racunarska-nauka]
 permalink: /linearna-pretraga
-image: http://peterstratton.com/img/LinearSearch/LinearSearch.png
+image: /images/koncepti/algoritmi/linearna-pretraga.png
 ---
 
 ![]({{page.image}})

@@ -41,8 +41,8 @@ opis: Damjan Pavlica, diplomirani politikolog koji je uspešno promenio struku i
       </div>
 
       <p class="post-summary">
-        {% if post.summary %}
-          {{ post.summary }}
+        {% if post.opis %}
+          {{ post.opis }}
         {% else %}
           {{ post.excerpt | truncatewords:50}}
         {% endif %}

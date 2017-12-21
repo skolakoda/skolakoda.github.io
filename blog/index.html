@@ -41,8 +41,8 @@ opis: Nove lekcije, besplatni tutorijali i autorski članci.
       {% endif %}
 
       <div class="post-summary" itemprop="description">
-        {% if post.summary %}
-          {{ post.summary }}
+        {% if post.opis %}
+          {{ post.opis }}
         {% else %}
           {{ post.excerpt | truncatewords:50}}
         {% endif %}
