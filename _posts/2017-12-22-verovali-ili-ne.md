@@ -2,6 +2,7 @@
 title: Verovali ili ne
 layout: post
 tags: [softver, inzenjerstvo, zanimljivosti]
+image: /images/fore/bitovni-operatori.svg
 ---
 
 <style>
@@ -11,13 +12,13 @@ p::first-letter {
 }
 </style>
 
-![](images/fore/bitovni-operatori.svg)
+![]({{page.image}})
 
 Grupa Standish je 1994. godine obavila istraživanje u vezi sa ishodima više od 8000 softverskih projekata u preko 350 softverskih kompanija. Došli su do saznanja da je oko 35% projekata otkazano pre nego što je završeno, a da je samo 9% projekata isporučeno na vreme i u okviru planiranog budžeta.
 
 Boehm i Papaccio su 1988. godine sproveli istraživanje koje je pokazalo da otkrivanje i otklanjanje grešaka u zahtevima u kasnijim fazama projekta ima vrlo visoku cenu. Naime, otklanjanje iste greške u fazi projektovanja sistema košta pet puta više nego u fazi definisanja zahteva, u fazi pisanja programa deset puta više, a ako je greška otkrivena nakon isporuke softvera čak dve stotine puta više.
 
-![](images/fore/panika.jpg)
+![](/images/fore/panika.jpg)
 
 Easterbrook i Nuseibeh su 1996. godine dokazivali da je često bolje tolerisati nedoslednosti koje se pojave prilikom definisanja zahteva, a u nekim slučajevima ih čak i podsticati. Oni smatraju da je u ranoj fazi procesa definisanja zahteva besmisleno ulagati veliki trud u rezrešenje nadoslednosti, jer to može biti težak, skup, a ponekad i nemoguć posao. Razlog za ovakvo mišljenje je u tome što se tokom projekta kod svih učesnika akumulira znanje iz date oblasti, čime se poboljšava razumevanje problema.
 
