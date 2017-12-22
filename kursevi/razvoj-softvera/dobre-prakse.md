@@ -1,7 +1,7 @@
 ---
 title: Dobre prakse pisanja programa
-layout: post
-tags: [dobre-prakse, razvoj-softvera, kodni-standard]
+layout: lekcija-uvod
+permalink: /dobre-prakse
 ---
 
 ***Programi napisani na višem programskom jeziku sredstvo su komunikacije između čoveka i računara ali i između ljudi samih. Razumljivost, čitljivost programa, iako nebitna za računar, od ogromne je važnosti za kvalitet i upotrebljivost programa.***

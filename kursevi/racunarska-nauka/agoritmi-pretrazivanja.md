@@ -1,7 +1,9 @@
 ---
 title: Algoritmi pretrage
-layout: post
-tags: [algoritmi, pretraga]
+layout: lekcija-uvod
+permalink: /algoritmi-pretrazivanja
+redirect_from:
+  - /agoritmi-pretrazivanja
 ---
 
 **Algoritam pretraživanja je algoritam koji daje rješenje nekog problema nakon evaluacije skupa mogućih rješenja. Skup svih mogućih rješenja problema naziva se "prostor pretraživanja".**

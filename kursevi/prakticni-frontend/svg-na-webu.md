@@ -1,8 +1,8 @@
 ---
 title: Rad sa SVG-om
-layout: post
 author: damjan
-tags: [svg, frontend, css]
+layout: lekcija-frontend
+permalink: /svg-na-webu
 ---
 
 Poslednjih par godina, slike u vektorskom formatu su postale [opšte podržane](//caniuse.com/#feat=svg) na webu i redovno se koriste za ikonice, logoe i druge odgovarajuće namene. Kao što verovatno znate, SVG ne gubi kvalitet prilikom skaliranja, ali je pogodan uglavnom za geometriju (ne može zameniti fotografije).

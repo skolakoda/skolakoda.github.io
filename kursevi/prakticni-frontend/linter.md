@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Linter, mali pomoćnik koji ispravlja tvoj kod
 author: damjan
-tags: [lint, javascript, alatke]
+layout: lekcija-frontend
+permalink: /linter
 ---
 
 > Otkad sam pre par godina otkrio Linter, više nijedan projekat ne počinjem bez njega!

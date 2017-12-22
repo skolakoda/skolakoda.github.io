@@ -1,7 +1,7 @@
 ---
 title: Efikasnost algoritama
-layout: post
-tags: [algoritmi, racunarska-nauka]
+layout: lekcija-uvod
+permalink: /efikasnost-algoritama
 author: damjan
 image: /images/koncepti/algoritmi/efikasnost-algoritama.png
 ---

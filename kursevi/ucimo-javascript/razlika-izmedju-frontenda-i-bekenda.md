@@ -1,8 +1,8 @@
 ---
 title: Koja je razlika između frontenda i bekenda?
-layout: post
+layout: lekcija-js
 author: damjan
-tags: [frontend, backend, web]
+permalink: /razlika-izmedju-frontenda-i-bekenda
 ---
 
 ***Pitao me jedan od polaznika koja je razlika između frontenda i bekenda? Pokušao sam da mu objasnim, ali je zvučalo previše komplikovano. To me je nateralo da sednem i razmislim kako jednostavno preneti ove pojmove.***
@@ -17,7 +17,7 @@ Odnos [zadnjeg i prednjeg kraja](https://en.wikipedia.org/wiki/Front_and_back_en
 
 Server možemo zamisliti kao udaljeni računar na kome se nalazi naš sajt, a koji se najčešće nalazi u Americi (oko 60% servera za sajtove iz Srbije se nalaze u SAD, oko 30% u Evropi, i 10% u Srbiji). Server (ili služavnik) danonoćno služi web stranice svim zainteresovanim uređajima - mobilnim telefonima, tabletima, računarima. Oni svi su njegovi klijenti.
 
-Server je jedan, a klijenata je mnogo (za prosečan sajt je dovoljan jedan server, osim za gigantske sisteme). Ako nešto promenimo na klijentu (npr. boju pozadine u pregledaču), to vidimo samo mi, ali ako promenimo na serveru, to vide svi.
+Server je jedan, a klijenata je mnogo (za prosečan sajt je dovoljan jedan server, osim za velike sisteme). Ako nešto promenimo na klijentu (npr. boju pozadine u pregledaču), to vidimo samo mi, ali ako promenimo na serveru, to vide svi.
 
 Server nema ekran, već samo kućište, ima posebno instaliran i pokrenut program i mora biti stalno upaljen kako bi naš sajt bio stalno dostupan klijentima.
 

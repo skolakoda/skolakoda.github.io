@@ -1,8 +1,8 @@
 ---
 title: Rad sa gitom
-layout: post
 author: damjan
-tags: [git, proces-rada, inzenjerstvo]
+layout: lekcija-frontend
+permalink: /rad-sa-gitom
 ---
 
 ***Na velikim projektima se, po pravilu, radi sa gitom. Postoje uobičajene procedure, načini rada i modeli grananja softvera, koje morate pohvatati kako biste postali produktivan član kolektiva.***

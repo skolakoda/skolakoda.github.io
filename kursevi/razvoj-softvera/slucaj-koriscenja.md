@@ -1,7 +1,7 @@
 ---
 title: Slučaj korišćenja
-layout: post
-tags: [razvoj-softvera, specifikacija]
+layout: lekcija-razvoj
+permalink: /slucaj-koriscenja
 image: /images/koncepti/oop/slucaj-koristenja.jpg
 ---
 

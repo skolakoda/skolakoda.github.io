@@ -1,8 +1,8 @@
 ---
 title: Logičke kapije za početnike
-layout: post
+layout: lekcija-uvod
 author: damjan
-tags: [programiranje, elektronika, logika]
+permalink: /logicke-kapije
 image: /images/koncepti/logika/xor.gif
 ---
 

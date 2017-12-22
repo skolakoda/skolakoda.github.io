@@ -1,7 +1,9 @@
 ---
 title: Algoritmi sortiranja
-layout: post
-tags: [algoritmi, programiranje]
+layout: lekcija-uvod
+permalink: /algoritmi-sortiranja
+redirect_from:
+  - /agoritmi-sortiranja
 image: /images/koncepti/algoritmi/sorting-algorithms.gif
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: Kako napraviti desktop softver sa Javaskriptom?
 author: damjan
-tags: [electron, javascript, node.js]
+layout: lekcija-frontend
+permalink: /javaskript-desktop-softver
 ---
 
 ***Web aplikaciju možemo lako pretvoriti u desktop softver, uz pomoć [Electrona](//electron.atom.io/), Javaskript okvira za razvoj desktop softvera.***
@@ -35,7 +36,7 @@ pa ga pokretati pomoću npm skripti.
 
 Da bismo od web aplikacije napravili desktop aplikaciju, dodajemo u `root` projekta fajl `app.js` sledeće sadržine:
 
-```
+```js
 const {app, BrowserWindow} = require('electron')
 
 app.on('ready', () => {

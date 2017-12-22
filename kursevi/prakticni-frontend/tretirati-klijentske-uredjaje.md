@@ -1,8 +1,8 @@
 ---
 title: Kako razlikovati uređaje iste veličine prema dodirljivosti ekrana?
-layout: post
+layout: lekcija-frontend
+permalink: /tretirati-klijentske-uredjaje
 author: damjan
-tags: [responsive, css, frontend, touch-screen]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/A_user_performing_gesture_interactions_with_a_Powerwall_display_at_the_University_of_Leeds.jpg/1024px-A_user_performing_gesture_interactions_with_a_Powerwall_display_at_the_University_of_Leeds.jpg
 ---
 

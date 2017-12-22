@@ -1,9 +1,9 @@
 ---
 title: Višestruko vraćanje vrednosti
-layout: post
+layout: lekcija-napredni-js
 author: damjan
 image: /images/apstraktno/cigle.jpg
-tags: [refaktorisanje, funkcije, uslovi]
+permalink: /visestruko-vracanje-vrednosti
 ---
 
 <img src="{{page.image}}" class="full">

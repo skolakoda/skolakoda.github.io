@@ -286,6 +286,7 @@ kurs: javascript
 - Čitanje i pisanje fajlova
 - Žetva podataka (*web scraping*)
 - Server i služenje podataka
+- Vežba: žanji i kombinuj vesti sa raznih izvora
 
 ### Završni projekat
 

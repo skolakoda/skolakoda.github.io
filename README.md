@@ -60,6 +60,7 @@ Sve više smo orjentisani na praksu, otvaramo:
 - lagane ikonice https://shkspr.mobi/blog/2017/11/super-tiny-website-logos-in-svg/
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - dodati paralax pomeranje mišem u gornji prostor
+- Refaktorisanje vodič
 
 <!--
 sadrzaj:

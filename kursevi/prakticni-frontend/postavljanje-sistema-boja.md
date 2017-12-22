@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Postavljanje sistema boja na frontendu sa Sass-om
 author: damjan
-tags: [sass, boje, frontend]
+layout: lekcija-frontend
+permalink: /postavljanje-sistema-boja
 image: /images/bojice.jpg
 ---
 <img class="full" src="{{page.image}}" alt="boje">

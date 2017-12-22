@@ -1,8 +1,8 @@
 ---
 title: Nasleđivanje klasa
-layout: post
+layout: lekcija-razvoj
 image: /images/koncepti/oop/nasledjivanje.jpg
-tags: [objekti, klase, java, oop]
+permalink: /nasledjivanje-klasa
 ---
 
 ![nasledjivanje]({{page.image}})

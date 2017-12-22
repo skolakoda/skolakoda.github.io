@@ -48,7 +48,7 @@ kurs: frontend
   - Globalna i lokalna instalacija biblioteka
 - Razvojne JS alatke
   - [Linter, mali pomoćnik koji ispravlja tvoj kod](/linter)
-  - `live-server`: lokalni server sa automatskim osvežavanjem <a href="https://youtu.be/CjbnqXSC5CA"><img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play-video"></a>
+  - [Live server, lokalni server sa automatskim osvežavanjem](https://youtu.be/CjbnqXSC5CA)
   - `localtunnel`, za isprobavanje lokalnog projekta preko neta
 - Vežba: Pročitaj fajl i ispiši njegov sadržaj
 
@@ -212,12 +212,6 @@ kurs: frontend
 - Vežba: prevedi `.js` fajl u `.ts`
 - Vežba: prevedi projekat u Typescript
 
-<!-- ### Refaktorisanje
-
-- [Uklanjanje ugnježdenih uslova](/uklanjanje-ugnjezdenih-uslova)
-- [Odvajanje složene logike u pomoćnu funkciju](/uprosti-svoju-logiku)
-- [Refaktorisanje if/else uslova do nestanka](/refaktorisanje-if-else-uslova) -->
-
 ### CSS grid
 
 - Šta je CSS grid?
@@ -226,7 +220,14 @@ kurs: frontend
 - [An Introduction to the CSS Grid Layout](https://www.sitepoint.com/introduction-css-grid-layout-module/)
 - Primer: [https://codepen.io/mor10/pen/QvmLpd](Standardna struktura sajta u gridu)
 
-### Three.js [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-threejs)
+### Mobilne i desktop aplikacije
+
+- [Electron za desktop softver sa Javaskriptom](/javaskript-desktop-softver)
+- PhoneGap za hibridne mobilne aplikacije
+- Ionic (Angular + Typescript) za mobilne aplikacije
+- React Native za prirodne IOS i android aplikacije
+
+<!-- ### Three.js [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-threejs)
 
 - 3D grafika na webu
 - Koordinatni sistem
@@ -244,7 +245,7 @@ kurs: frontend
 - Kontrole i interakcija
   - Kontrole kamere
   - Kontrole kretanja
-- 3D tekst
+- 3D tekst -->
 
 ### Van u divljini
 

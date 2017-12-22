@@ -1,7 +1,9 @@
 ---
 title: Uvod u algoritme
-layout: post
-tags: [algoritmi, uvod, programiranje]
+layout: lekcija-uvod
+permalink: /algoritmi-uvod
+redirect_from:
+  - /agoritmi-uvod
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2010-10-30_Geeste%2C_Moormuseum_032_%285207510676%29.jpg/1024px-2010-10-30_Geeste%2C_Moormuseum_032_%285207510676%29.jpg
 ---
 

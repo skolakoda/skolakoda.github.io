@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Kako napraviti prilagodljivi grid sistem u Sass-u?
 author: damjan
-tags: [sass, grid, frontend]
+layout: lekcija-frontend
+permalink: /kako-napraviti-grid-sistem
 image: https://cdn.tutsplus.com/webdesign/uploads/2013/08/web.jpg
 ---
 

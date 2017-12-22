@@ -1,8 +1,8 @@
 ---
 title: Šta je rekurzija?
-layout: post
+layout: lekcija-uvod
 author: damjan
-tags: [rekurzija, racunarska-nauka, grafika, filozofija]
+permalink: /rekurzija
 image: https://upload.wikimedia.org/wikipedia/commons/3/30/Cuncha_GFDL_Galicia4.jpg
 ---
 
@@ -56,6 +56,8 @@ Kod beskonačno smanjujućih fraktala, samoslični obrasci se ne mogu izbrojati 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a4/Mandelbrot_sequence_new.gif)
 
-Jedan od prostijih fraktala u grafici je binarno stablo. Sastoji se od osnovnog obrasca, stabla, koji iz sebe reprodukuje dva umanjena. Ispod možete videti implementaciju binarnog drveta u kodu:
+## Primer: binarno stablo
 
-<iframe width="100%" height="600" src="//jsfiddle.net/mudroljub/x1bzmq7s/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+Jedan od prostijih fraktala u grafici je binarno stablo. Sastoji se od osnovnog obrasca, stabla, koji iz sebe reprodukuje dva umanjena. Ispod možete videti implementaciju binarnog stabla u kodu:
+
+<iframe width="100%" height="600" src="//jsfiddle.net/mudroljub/x1bzmq7s/embedded/js,result/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>

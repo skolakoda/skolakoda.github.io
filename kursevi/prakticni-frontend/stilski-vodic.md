@@ -1,7 +1,7 @@
 ---
 title: Čemu služi stilski vodič?
-layout: post
-tags: [css, web-dizajn, frontend]
+layout: lekcija-frontend
+permalink: /stilski-vodic
 author: damjan
 image: https://designmodo.com/wp-content/uploads/2014/09/Style-Guides.jpg
 ---

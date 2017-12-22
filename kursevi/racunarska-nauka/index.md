@@ -163,16 +163,17 @@ kurs: uvod
 
 ### Algoritmi [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-agoritme)
 
-- [Uvod u algoritme](/agoritmi-uvod)
+- [Uvod u algoritme](/algoritmi-uvod)
+- [Šta je rekurzija?](/rekurzija)
 - Algoritmi računanja
   - Egipatsko množenje
   - Euklidov algoritam (najveći zajednički delilac)
   - Fibonačijev niz (rekurzivno i iterativno)
   - Faktorijel funkcija (rekurzivno i iterativno)
-- [Algoritmi pretrage](/agoritmi-pretrazivanja)
+- [Algoritmi pretrage](/algoritmi-pretrazivanja)
   - [Linearna pretraga](/linearna-pretraga) (redom)
   - [Binarna pretraga](/binarna-pretraga) (podelom)
-- [Algoritmi sortiranja](/agoritmi-sortiranja)
+- [Algoritmi sortiranja](/algoritmi-sortiranja)
   - Ređanje izborom (selection sort)
   - Ređanje umetanjem (insertion sort)
   - Ređanje mehurom (bubble sort)

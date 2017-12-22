@@ -1,7 +1,7 @@
 ---
 title: ! 'Uvod u PHP: instalacija i pokretanje programa'
-layout: post
-tags: php, uvod
+layout: lekcija-php
+permalink: /uvod-u-php
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/600px-Webysther_20160423_-_Elephpant.svg.png
 ---
 
