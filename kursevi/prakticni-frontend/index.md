@@ -11,7 +11,7 @@ kurs: frontend
 ## Praktični Frontend
 # Priprema za rad u firmama
 
-**Razvijamo aplikaciju preko Githuba, po taskovima i pod pritiskom. Koristimo Node i NPM, Webpack, Sass, Angular, React i sve što zatreba.**
+**Razvijamo realne aplikaciju preko Githuba, po taskovima i pod pritiskom. Koristimo Node i NPM, Webpack, Sass, Angular, React i ostale moderne frontend alatke.**
 
 ***Za kurs je neophodno predznanje HTML, CSS i JS-a.***
 

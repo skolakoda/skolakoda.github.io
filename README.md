@@ -42,24 +42,10 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-Bitne novosti u Školi koda:
-Od januara radionice kreću vikendom, da ih i zaposleni mogu pohađati.
-Radnim danima prostor postaje Hub, mesto gde možete u miru raditi.
-(boostovati post)
-
-Sve više smo orjentisani na praksu, otvaramo:
-- Frontend odeljenje (JS aplikacije)
-- Backend odeljenje (Node.js, Python, PHP)
-- Odeljenje za dizajn (CSS, Sass)
-
-- spojiti html i css
-- vratiti kutijice
 - zen mudrosti na blog
-- napraviti letke
 - vratiti decji kurs i dodati kurseve u pripremi
 - lagane ikonice https://shkspr.mobi/blog/2017/11/super-tiny-website-logos-in-svg/
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
-- dodati paralax pomeranje mišem u gornji prostor
 - Refaktorisanje vodič
 
 <!--

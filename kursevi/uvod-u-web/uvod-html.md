@@ -1,7 +1,9 @@
 ---
 title: Čemu služi HTML?
 layout: lekcija-html
-permalink: /ucimo-html/uvod
+permalink: /uvod-u-web/uvod-html
+redirect_from:
+  - /ucimo-html/uvod
 ---
 
 **HTML je osnovni jezik weba. Sve stranice su njime napisane.**

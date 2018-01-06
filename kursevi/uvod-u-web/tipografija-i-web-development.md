@@ -1,6 +1,6 @@
 ---
 title: Tipografija i web development
-layout: lekcija-css
+layout: lekcija-html
 permalink: /tipografija-i-web-development
 author: damjan
 ---

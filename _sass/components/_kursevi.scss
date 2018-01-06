@@ -1,11 +1,28 @@
 $razmak: 30px;
 
-.knjige {
-  margin: -$razmak;
-  padding-bottom: 40px;
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
-  .book {
-  	margin: 60px $razmak;
+  a {
+    border-radius: 5px;
+    color: #FAFBFD;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    @media (min-width: $screen-sm-min) {
+      width: 47%;
+    }
+    @media (min-width: $screen-xl-min) {
+      width: 30%;
+    }
+  }
+
+  h3 {
+    color: inherit;
   }
 }
 
