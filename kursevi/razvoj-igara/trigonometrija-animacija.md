@@ -4,6 +4,7 @@ title: Kako napraviti kružnu animaciju pomoću trigonometrije?
 author: damjan
 tags: [gamedev, trigonometrija, animacija, javascript]
 image: /images/koncepti/circle_cos_sin.gif
+permalink: /trigonometrija-animacija
 ---
 
 ![colors]({{page.image}})

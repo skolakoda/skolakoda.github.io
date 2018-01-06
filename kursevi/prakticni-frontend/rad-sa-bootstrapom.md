@@ -4,6 +4,7 @@ title: Saveti za rad sa Bootstrapom
 author: damjan
 tags: [css, bootstrap, frontend, web-dizajn]
 image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
+permalink: /rad-sa-bootstrapom
 ---
 
 ***Bootstrap je lako naučiti toliko da počnemo raditi u njemu. Teži deo je naučiti da radimo sa Bootstrapom na održiv način, koji neće praviti probleme našim koleginicama i kolegama.***

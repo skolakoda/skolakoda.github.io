@@ -3,6 +3,7 @@ title: Vektori za game developere
 layout: post
 author: damjan
 tags: [gamedev, matematika]
+permalink: /vektori
 ---
 
 ***Vektori su ušli u nauku u 19. veku, kada su matematičari i fizičari nastojali da opišu kretanje, umesto statičnog sveta. Vektor je zapravo samo format zapisa, poput niza.***

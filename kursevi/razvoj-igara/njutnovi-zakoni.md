@@ -3,6 +3,7 @@ title: Njutnovi zakoni za game developere
 layout: post
 tags: [fizika, gamedev]
 author: damjan
+permalink: /njutnovi-zakoni
 image: https://upload.wikimedia.org/wikipedia/commons/2/2c/Isaac_Newton_laboratory_fire.jpg
 ---
 

@@ -212,13 +212,13 @@ kurs: frontend
 - Vežba: prevedi `.js` fajl u `.ts`
 - Vežba: prevedi projekat u Typescript
 
-### CSS grid
+<!-- ### CSS grid
 
 - Šta je CSS grid?
 - [Learn CSS grid](//learncssgrid.com/)
 - [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 - [An Introduction to the CSS Grid Layout](https://www.sitepoint.com/introduction-css-grid-layout-module/)
-- Primer: [https://codepen.io/mor10/pen/QvmLpd](Standardna struktura sajta u gridu)
+- Primer: [https://codepen.io/mor10/pen/QvmLpd](Standardna struktura sajta u gridu) -->
 
 ### Mobilne i desktop aplikacije
 
@@ -226,26 +226,6 @@ kurs: frontend
 - PhoneGap za hibridne mobilne aplikacije
 - Ionic (Angular + Typescript) za mobilne aplikacije
 - React Native za prirodne IOS i android aplikacije
-
-<!-- ### Three.js [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-threejs)
-
-- 3D grafika na webu
-- Koordinatni sistem
-- Postavljanje scene
-  - Kamera
-  - Geometrija
-  - Svetlo
-  - Renderovanje
-- Učitavanje modela
-- Animacije
-  - Glavna petlja (`main loop`)
-  - Animiranje sa `setInterval` i `requestAnimationFrame`
-  - FPS (kadrova po sekundi)
-  - Pomeranje predmeta
-- Kontrole i interakcija
-  - Kontrole kamere
-  - Kontrole kretanja
-- 3D tekst -->
 
 ### Van u divljini
 
