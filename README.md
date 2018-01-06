@@ -42,11 +42,10 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-- zen mudrosti na blog
-- vratiti decji kurs i dodati kurseve u pripremi
-- lagane ikonice https://shkspr.mobi/blog/2017/11/super-tiny-website-logos-in-svg/
+- vratiti decji kurs
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - Refaktorisanje vodič
+- zen mudrosti na blog
 
 <!--
 sadrzaj:
