@@ -1,7 +1,7 @@
 ---
 title: Imperativno vs. funkcionalno programiranje
-layout: post
-tags: [programiranje, racunarska-nauka, paradigme]
+layout: lekcija-napredni-js
+permalink: /imperativno-vs-funkcionalno-programiranje
 ---
 
 ***Paradigma određuje način koncipiranja, ali i izvršavanja programa. Na primjer u objektnom programiranju, programer promatra program kao skup objekata koji međusobno komuniciraju, dok u funkcijskom programiranju program možemo promatrati kao niz evaluacija funkcija.***

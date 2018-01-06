@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Saveti za rad sa Bootstrapom
 author: damjan
-tags: [css, bootstrap, frontend, web-dizajn]
+layout: lekcija-frontend
 image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
 permalink: /rad-sa-bootstrapom
 ---

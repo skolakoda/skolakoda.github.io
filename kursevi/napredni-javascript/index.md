@@ -16,7 +16,7 @@ kurs: napredni-js
 
 <a href="/kursevi/prijava?kurs=5" class="btn float-right">Prijavi se</a>
 
-### Objektno orijentisano programiranje [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
+### Objektno orijentisani Javascript [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
 
 - [Objektno orjentisan pristup](/objektno-orijentisano-programiranje)
   - [Uvod u objektno orijentisano programiranje](https://www.slideshare.net/DamjanPavlica/uvod-u-objektno-orijentisano-programiranje-i-c)
@@ -58,6 +58,7 @@ kurs: napredni-js
 - Generator funkcije (`function*`)
   - Pauziranje generator funkcije sa `yield`
   - Nastavak izvršenja sa `next()`
+- [Imperativno vs. funkcionalno programiranje](/imperativno-vs-funkcionalno-programiranje)
 
 ### Kontekst izvršenja (`this`)
 - Vrednost `this` i kontekst izvršenja (funkcije, metode, klase, povratne funkcije)

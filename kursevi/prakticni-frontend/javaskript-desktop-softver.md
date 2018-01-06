@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kako napraviti desktop softver sa Javaskriptom?
 author: damjan
 layout: lekcija-frontend
