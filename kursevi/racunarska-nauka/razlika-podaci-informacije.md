@@ -1,6 +1,6 @@
 ---
 title: Razlika između podatka i informacije
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /razlika-podaci-informacije
 ---
 

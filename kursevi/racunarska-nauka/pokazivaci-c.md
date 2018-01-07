@@ -1,6 +1,6 @@
 ---
 title: Pokazivači u jeziku C
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /c-pokazivaci
 redirect_from:
   - /pokazivaci-c

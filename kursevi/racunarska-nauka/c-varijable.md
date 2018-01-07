@@ -1,6 +1,6 @@
 ---
 title: Šta su varijable?
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /c-varijable
 image: /images/koncepti/varijabla.png
 ---

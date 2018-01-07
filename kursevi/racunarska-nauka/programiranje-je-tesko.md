@@ -1,6 +1,6 @@
 ---
 title: Je li teško naučiti programiranje?
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /programiranje-je-tesko
 image: /images/ljudi/programer.jpg
 ---

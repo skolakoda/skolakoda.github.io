@@ -1,8 +1,8 @@
 ---
 title: Uklanjanje ugnježdenih uslova
-layout: post
+layout: refaktorisanje
 author: damjan
-tags: [refaktorisanje, uslovi, logika]
+permalink: /uklanjanje-ugnjezdenih-uslova
 image: https://upload.wikimedia.org/wikipedia/commons/2/2c/Rock_crusher_gears.jpg
 ---
 

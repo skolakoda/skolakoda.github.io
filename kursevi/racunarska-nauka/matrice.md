@@ -1,6 +1,6 @@
 ---
 title: Matrice
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /matrice
 image: /images/koncepti/podaci/matrica.png
 ---

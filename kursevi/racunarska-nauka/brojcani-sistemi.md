@@ -1,6 +1,6 @@
 ---
 title: Brojčani sistemi
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /brojcani-sistemi
 image: http://pad2.whstatic.com/images/thumb/e/ee/Convert-Binary-to-Octal-Number-Step-9.jpg/aid3607658-v4-728px-Convert-Binary-to-Octal-Number-Step-9.jpg
 ---

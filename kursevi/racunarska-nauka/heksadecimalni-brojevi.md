@@ -1,6 +1,6 @@
 ---
 title: Heksadecimalni brojevi
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /heksadecimalni-brojevi
 image: https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2011/05/color-hex-examples.png
 ---

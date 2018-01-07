@@ -1,6 +1,6 @@
 ---
 title: Tipovi podataka
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /tipovi-podataka
 image: /images/koncepti/podaci/binarni.jpg
 ---

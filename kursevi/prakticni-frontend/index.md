@@ -19,7 +19,7 @@ kurs: frontend
 
 ### Uvod
 
-- Kako postati upotrebljiv?
+- [Kako postati upotrebljiv?](https://youtu.be/elOG6tINmHg)
 - Praksa kao teret IT firmama
 - Jaz između pravljenja stranica i razvoja softvera
 

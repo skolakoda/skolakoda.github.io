@@ -1,6 +1,6 @@
 ---
 title: Algoritmi pretrage
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /algoritmi-pretrazivanja
 redirect_from:
   - /agoritmi-pretrazivanja

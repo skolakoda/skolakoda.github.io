@@ -1,6 +1,6 @@
 ---
 title: Binarna pretraga
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 tags: [algoritmi, racunarska-nauka]
 permalink: /binarna-pretraga
 image: https://devopedia.org/images/article/28/2951.1490520804.gif

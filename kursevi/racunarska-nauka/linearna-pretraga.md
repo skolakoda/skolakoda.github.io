@@ -1,6 +1,6 @@
 ---
 title: Linearna pretraga
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /linearna-pretraga
 image: /images/koncepti/algoritmi/linearna-pretraga.png
 ---

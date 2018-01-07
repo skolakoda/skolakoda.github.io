@@ -1,6 +1,6 @@
 ---
 title: Tipovi podataka u Javi
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /java-tipovi-podataka
 image: /images/koncepti/podaci/java-tipovi-podataka.png
 ---

@@ -1,8 +1,10 @@
 ---
-layout: post
-title: Refaktorisanje if/else uslova do nestanka
+layout: refaktorisanje
+title: Refaktorisanje uslova do nestanka
 author: damjan
-tags: [refaktorisanje, logika, coffeescript]
+permalink: /refaktorisanje-uslova-do-nestanka
+redirect_from:
+  - /refaktorisanje-if-else-uslova
 ---
 
 **Nedavno sam u sklopu redovnog pregleda koda naišao na sledeći primer bespotrebnog if/else uslova, čije uklanjanje prilično dobro oslikava vrednost refaktorisanja.**

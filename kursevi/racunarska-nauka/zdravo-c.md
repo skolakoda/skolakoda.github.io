@@ -1,6 +1,6 @@
 ---
 title: Zdravo C
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /zdravo-c
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg/959px-Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg
 ---

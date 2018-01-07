@@ -1,6 +1,6 @@
 ---
 title: Petlje u jeziku C
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /c-petlje
 image: /images/fore/bart.png
 ---

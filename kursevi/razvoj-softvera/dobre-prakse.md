@@ -1,6 +1,6 @@
 ---
 title: Dobre prakse pisanja programa
-layout: lekcija-uvod
+layout: lekcija-razvoj
 permalink: /dobre-prakse
 ---
 

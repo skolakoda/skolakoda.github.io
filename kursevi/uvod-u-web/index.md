@@ -1,7 +1,7 @@
 ---
 layout: kurs
 title: Uvod u web
-github: ucimo-web-dizajn
+github: uvod-u-web
 image: /images/kursevi/css.png
 opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multimedijom. Nauči temelje web razvoja.
 redirect_from:
@@ -24,6 +24,8 @@ redirect_from:
 ### Uvod
 
 - [Čemu služe HTML, CSS i Javascript?](https://youtu.be/BFc_YPAxQcg) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play-video">
+  - [Čemu služi HTML?](/uvod-u-web/uvod-html)
+  - [Čemu služi CSS?](/uvod-u-web/uvod-css)
 - Razdvajanje briga i nastanak CSS-a
 - Konvencija imenovanja fajlova i foldera
 - Služenje stranica i HTTP protokol

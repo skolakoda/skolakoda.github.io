@@ -1,6 +1,6 @@
 ---
 title: Logičke kapije za početnike
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 author: damjan
 permalink: /logicke-kapije
 image: /images/koncepti/logika/xor.gif

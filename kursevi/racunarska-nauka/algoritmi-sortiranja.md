@@ -1,6 +1,6 @@
 ---
 title: Algoritmi sortiranja
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /algoritmi-sortiranja
 redirect_from:
   - /agoritmi-sortiranja

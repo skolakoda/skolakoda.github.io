@@ -1,6 +1,6 @@
 ---
 title: Analogni i digitalni zapis
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /analogni-i-digitalni-zapis
 image: /images/koncepti/podaci/analogni-i-digitalni-zapis.png
 ---

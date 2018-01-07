@@ -1,6 +1,6 @@
 ---
 title: Rana istorija računara
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /rana-istorija-racunara
 ---
 

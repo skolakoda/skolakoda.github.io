@@ -1,6 +1,6 @@
 ---
 title: Petlje u Javi
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /java-petlje
 ---
 

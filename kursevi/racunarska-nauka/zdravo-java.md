@@ -1,6 +1,6 @@
 ---
 title: Zdravo Java
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /zdravo-java
 redirect_from:
   - /java-upoznavanje

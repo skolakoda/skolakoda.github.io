@@ -1,6 +1,6 @@
 ---
 title: Kako računar beleži podatke?
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /kako-racunar-belezi-podatke
 redirect_from:
   - /uvod-u-podatke

@@ -1,6 +1,6 @@
 ---
 title: Argumenti komandne linije u Javi
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /java-argumenti-komandne-linije
 ---
 

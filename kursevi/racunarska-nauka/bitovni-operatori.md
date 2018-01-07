@@ -1,6 +1,6 @@
 ---
 title: Bitovni operatori
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /bitovni-operatori
 image: /images/fore/bitovni-operatori.svg
 ---

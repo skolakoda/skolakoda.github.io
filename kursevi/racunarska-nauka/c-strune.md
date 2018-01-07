@@ -1,6 +1,6 @@
 ---
 title: Strune u jeziku C
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /c-strune
 image: /images/koncepti/strune/c-string.gif
 ---

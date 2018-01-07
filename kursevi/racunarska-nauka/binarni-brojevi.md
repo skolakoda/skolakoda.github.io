@@ -1,6 +1,6 @@
 ---
 title: Binarni brojevi
-layout: lekcija-uvod
+layout: lekcija-racunarstvo
 permalink: /binarni-brojevi
 image: http://www.wikihow.com/images/d/d5/Convert-Binary-to-Octal-Number-Step-11.jpg
 ---
