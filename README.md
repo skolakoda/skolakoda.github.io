@@ -28,15 +28,14 @@ bundle exec jekyll serve --limit_posts 1
 
 ## TODO
 
+sadrzaj:
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
-- zen mudrosti na blog
+- zen mudrosti
+  https://www.toptal.com/algorithms/computability-theory-complexity
+  https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
+  https://profesorka.wordpress.com/2012/06/24/nizovi-2/
 
 <!--
-sadrzaj:
-https://www.toptal.com/algorithms/computability-theory-complexity
-https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
-https://profesorka.wordpress.com/2012/06/24/nizovi-2/
-
 slike:
 https://cdn-images-1.medium.com/max/2000/1*8NX1BJ5azRg2uhNnTgwUTg.jpeg
 https://pixabay.com/en/children-win-success-video-game-593313/

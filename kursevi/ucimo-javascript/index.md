@@ -216,15 +216,13 @@ kurs: javascript
   - Validacija putem Javaskripta
   - Prirodna validacija pregledača
   - Slanje podataka bekendu
-- Regularni izrazi za nalaženje obrazaca u tekstu
 - Vežba: [email validacija](https://jsfiddle.net/mudroljub/h70xtpco/)
 - Vežba: proveri dužinu unetog teksta
 - Vežba: spreči podrazumevano slanje, proveri podatke pa pošalji
 
 ### Regularni izraz
 
-- [Čemu služi regularni izraz?](/regularni-izraz)
-- Sintaksa
+- [Regularni izrazi](/regularni-izraz)
   - Početak i kraj (`^`, `$`)
   - Broj pojavljivanja (`?`, `+`, `*`, `{}`)
   - Posebni karakteri (`\d`, `\D`, `\w`, `\W`, `\s`, `\S`)

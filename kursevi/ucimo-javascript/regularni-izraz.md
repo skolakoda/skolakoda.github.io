@@ -1,9 +1,9 @@
 ---
 title: Regularni izrazi
-layout: post
-tags: [regex, strune, pretraga]
+layout: lekcija-js
 author: damjan
 image: /images/jezici/regex.jpg
+permalink: regularni-izraz
 ---
 
 ![regex]({{page.image}})
@@ -16,7 +16,7 @@ Regularni izrazi (**regex**) proširuju mogućnosti manipulacije tekstom, pomoć
 - `replace()`
 - `search()`
 
-Primena regularnih izraza može varirati od jezika do jezika. U Javaskriptu regularni izraz ima dva dela, izraz (oivičen kosim crtama) i opcione modifikatore:
+Primena regularnih izraza može varirati od jezika do jezika. U Javaskriptu regularni izraz ima dva dela: izraz (oivičen kosim crtama) i opcione modifikatore:
 
 ```
 /izraz/modifikatori
@@ -30,6 +30,7 @@ Modifikatori mogu biti:
 
 U programu za pronalaženje psovki, to bi izgledalo ovako:
 
+{:.ulaz}
 ```js
 const izjava = "Ti si govno!"
 const izraz = /govno/i
@@ -44,6 +45,7 @@ else
 
 Ako stavimo kapicu (`^`) ispred izraza koji tražimo, onda taj izraz mora biti na samom početku teksta.
 
+{:.ulaz}
 ```js
 const izjava = "Ti si moj prijatelj!"
 const izraz = /^prijatelj/
@@ -56,7 +58,7 @@ else
 
 Ukoliko stavimo znak dolara (`$`) iza izraza koji tražimo, onda taj izraz mora biti na samom kraju teksta.
 
-## Grupisanje (`[]`) i negacija (`^`)
+## Grupisanje (`[]`)
 
 Kada grupišemo više znakova u uglaste zagrade, regex traži alternativno bilo koji od njih:
 
@@ -66,12 +68,38 @@ Kada grupišemo više znakova u uglaste zagrade, regex traži alternativno bilo 
 [NG]eo   traži Neo ili Geo
 ```
 
+Na primer:
+
+{:.ulaz}
+```js
+const struna = "Moje ime je Neo."
+const izraz = /[NG]eo/
+
+const ne = struna.match(izraz) ? "" : "ne "
+alert (`Obrazac se ${ne}nalazi u struni.`)
+```
+
+### Negacija (`[^]`)
+
 Kapica (`^`) unutar uglastih zagrada ima značenje negacije:
 
 ```
 [^abc]   traži bilo koji znak a da nije a, b, c
 [^123]   traži bilo koji znak a da nije 1, 2, 3
 ```
+
+Na primer:
+
+{:.ulaz}
+```js
+const struna = "11231"
+const izraz = /[^123]/
+
+const ne = struna.match(izraz) ? "" : "ne "
+alert (`Obrazac se ${ne} nalazi u struni.`)
+```
+
+### Raspon (`[-]`)
 
 Crta (`-`) unutar uglastih zagrada označava raspon:
 
@@ -83,6 +111,17 @@ Crta (`-`) unutar uglastih zagrada označava raspon:
 [^5-9]   traži sve brojeve koji nisu u rasponu od 5 do 9
 ```
 
+Na primer:
+
+{:.ulaz}
+```js
+const struna = "ZDRAVO SVETE 32354646"
+const izraz = /[a-z]/
+
+const ne = struna.match(izraz) ? "" : "ne "
+alert (`Obrazac se ${ne} nalazi u struni.`)
+```
+
 Napomena: crtica izvan uglastih zagrada je samo crtica.
 
 ## Broj pojavljivanja (`?`, `+`, `*`, `{}`)
@@ -91,6 +130,17 @@ Znak pitanja (`?`) znači da se prethodni znak javlja opciono (0 ili jedanput).
 
 ```
 rj?ečnik traži rečnik i rječnik
+```
+
+Na primer:
+
+{:.ulaz}
+```js
+const struna = "Vukov rečnik srpskog jezika"
+const izraz = /rj?ečnik/
+
+const ne = struna.match(izraz) ? "" : "ne "
+alert (`Obrazac se ${ne} nalazi u struni.`)
 ```
 
 Slično, zvezdica (`*`) znači da se prethodni znak javlja opciono, 0 ili više puta.
@@ -134,6 +184,17 @@ Obične zagrade `()` mogu služiti da grupišemo delove izraza, što se naziva p
 ```
 (Dobar)( )(dan)    traži Dobar dan
 (\w+)\W+(\w+)      traži slova prazninu slova
+```
+
+Primer:
+
+{:.ulaz}
+```js
+const struna = "Petar Petrović"
+const izraz = /(\w+)\W+(\w+)/
+
+const ne = struna.match(izraz) ? "" : "ne "
+alert (`Obrazac se ${ne} nalazi u struni.`)
 ```
 
 ## Alternativa (`|`)
