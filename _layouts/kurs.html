@@ -17,14 +17,14 @@ layout: default
 
 {{ content }}
 
-{% assign kurs = site.data.kursevi[page.kurs] %}
-{% if kurs %}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Course",
-  "name": "{{kurs.naslov}}",
-  "description": "{{kurs.opis}}",
+  "name": "{{page.title}}",
+{% if page.opis %}
+  "description": "{{page.opis}}",
+{% endif %}
 {% if page.image %}
   "image": "{{page.image}}",
 {% endif %}
@@ -39,4 +39,3 @@ layout: default
   }
 }
 </script>
-{% endif %}

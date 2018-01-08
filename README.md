@@ -28,10 +28,8 @@ bundle exec jekyll serve --limit_posts 1
 
 ## TODO
 
-- vratiti decji kurs
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - zen mudrosti na blog
-- izbrisati data/kursevi, zameniti gde se koriste u fajlu layout/kurs
 
 <!--
 sadrzaj:
