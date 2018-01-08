@@ -5,7 +5,7 @@ author: damjan
 permalink: /refaktorisanje/za-koga-je-prirucnik
 ---
 
-**Priručnik je izvorno pisan (2015) sa motivacijom da se "preživi jQuery", odnosno da se organizuje nasleđeni Javascript kod, koji je redovno uključivao jQuery biblioteku.**
+**Priručnik je započet 2015. sa motivacijom da se "preživi jQuery", odnosno da se organizuje nasleđeni Javascript kod, koji je redovno uključivao jQuery biblioteku.**
 
 Ukoliko ste ikad radili kao Front-end developer, verovatno ste naišli na ogroman jQuery fajl (obično `main.js`), koji su pisale generacije developera, ko je kako stigao. Novi developeri obično ubace svoje parče koda na dnu fajla, bez neke posebne logike. Takav fajl brzo naraste na par stotina (čak par hiljada) linija, pa je veoma teško izboriti se sa njim.
 

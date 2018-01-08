@@ -5,7 +5,10 @@ author: damjan
 permalink: /refaktorisanje/
 redirect_from:
   - /refaktorisanje-javaskripta
+image: /images/refaktorisanje/refaktorisanje.png
 ---
+
+<img src="{{page.image}}" class="extra-full" alt="refaktorisanje" title="refaktorisanje knjiga">
 
 ## Kako preživeti jQuery?
 

@@ -46,5 +46,4 @@ https://pixabay.com/en/apple-brick-wall-computer-cup-1854101/
 https://pixabay.com/en/apple-computer-cup-electronics-1853306/
 https://pixabay.com/en/cyber-glasses-virtual-virtual-world-1938449/
 https://damjanpavlica.files.wordpress.com/2014/04/stari-programer.jpg
-vr: http://www.vrupple.com/wp-content/uploads/2016/11/headset-footer.jpg
 -->
