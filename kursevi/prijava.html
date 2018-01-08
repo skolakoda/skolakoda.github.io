@@ -9,17 +9,18 @@ title: Prijava
 
   <select name="kurs" required>
     <option value=""></option>
-    <optgroup label="Osnovni">
+    <optgroup label="Aktivni">
       <option value="1">HTML i CSS</option>
       <option value="2">Javaskript</option>
-      <option value="10">Uvod u svet programiranja</option>
+      <option value="4">Praktični Frontend</option>
+    </optgroup>
+    <optgroup label="U pripremi">
+      <option value="3">Node.js</option>
       <option value="7">PHP</option>
       <option value="8">SQL</option>
-    </optgroup>
-    <optgroup label="Napredni">
-      <option value="4">Praktični Frontend</option>
-      <option value="3">Node.js</option>
       <option value="9">Three.js</option>
+      <option value="6">Programiranje bez struje</option>
+      <option value="10">Računarska nauka za početnike</option>
       <option value="5">Napredni Javascript</option>
     </optgroup>
   </select>
@@ -46,6 +47,7 @@ title: Prijava
   <ul>
     <li>Kursevi se održavaju u Rakovici</li>
     <li>Grupa počinje kada se skupi dovoljno polaznika.</li>
+    <li>{% include/clanarina.html %}</li>
     <li>Raspored termina javljamo na mejl.</li>
   </ul>
 
