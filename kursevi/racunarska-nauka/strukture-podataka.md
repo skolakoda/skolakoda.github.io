@@ -176,7 +176,7 @@ Binarno stablo pretraživanja jedna je od najvažnijih struktura podataka u rač
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/400px-Binary_search_tree.svg.png)
 
-## Gomila (*heap*)
+## Gomila ili hrpa (*heap*)
 
 Gomila je vrsta strukture stabla koja se koristi u jednom od algoritama sortiranja. Struktura gomile je binarno stablo u kojem za svaki čvor vrijedi slijedeće: vrijednost u čvoru je veća ili jednaka od vrijednosti svih čvorova ispod njega (svih sljedbenika).
 

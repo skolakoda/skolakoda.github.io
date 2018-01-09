@@ -1,6 +1,6 @@
 ---
 title: Efikasnost algoritama
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 permalink: /efikasnost-algoritama
 author: damjan
 image: /images/koncepti/algoritmi/efikasnost-algoritama.png

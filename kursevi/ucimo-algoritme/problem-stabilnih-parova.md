@@ -1,6 +1,6 @@
 ---
 title: Algoritam za nalaženje stabilnih parova
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 permalink: /problem-stabilnih-parova
 image: https://static01.nyt.com/images/2013/01/13/fashion/13COURTSHIP_SUBCOURTSHIP/13COURTSHIP_SUBCOURTSHIP-jumbo-v2.jpg
 ---

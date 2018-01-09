@@ -5,14 +5,14 @@ author: damjan
 permalink: /refaktorisanje/
 redirect_from:
   - /refaktorisanje-javaskripta
-image: /images/refaktorisanje/refaktorisanje.png
+image: https://cdn-images-1.medium.com/max/2000/1*8NX1BJ5azRg2uhNnTgwUTg.jpeg
 ---
 
 <img src="{{page.image}}" class="extra-full" alt="refaktorisanje" title="refaktorisanje knjiga">
 
 ## Kako preživeti jQuery?
 
-# Vodič za refaktorisanje Javaskript koda
+# Vodič za refaktorisanje Javaskripta
 
 {% include autor.html %}
 
@@ -22,7 +22,7 @@ image: /images/refaktorisanje/refaktorisanje.png
 
 - [Za koga je ovaj priručnik?](/refaktorisanje/za-koga-je-prirucnik)
 
-### Korak 1: Podela koda
+### Korak 1: Podela
 
 - [Podeli kod u komponente](/refaktorisanje/podeli-kod-u-komponente)
 
@@ -45,7 +45,7 @@ image: /images/refaktorisanje/refaktorisanje.png
 - [Pretvori skripte u module](/refaktorisanje/pretvori-skripte-u-module)
 - [Učitavaj skripte asinhrono](/refaktorisanje/ucitavaj-skripte-asinhrono)
 
-### Bonus: refaktorisanje logike
+### Bonus: Refaktorisanje uslova
 
 - [Odvajanje uslova u funkciju](/odvajanje-uslova-u-funkciju)
 - [Uklanjanje ugnježdenih uslova](/uklanjanje-ugnjezdenih-uslova)

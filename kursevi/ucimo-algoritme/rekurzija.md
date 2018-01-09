@@ -1,6 +1,6 @@
 ---
 title: Šta je rekurzija?
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 author: damjan
 permalink: /rekurzija
 image: https://upload.wikimedia.org/wikipedia/commons/3/30/Cuncha_GFDL_Galicia4.jpg

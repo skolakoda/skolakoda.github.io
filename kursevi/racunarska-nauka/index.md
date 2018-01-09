@@ -161,7 +161,7 @@ kurs: uvod
 - Jednosmerno šifriranje
 - [Heš funkcije i čuvanje lozinki](https://learncryptography.com/hash-functions/what-are-hash-functions)
 
-### Algoritmi [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-agoritme)
+### Algoritmi [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/ucimo-algoritme/)
 
 - [Uvod u algoritme](/algoritmi-uvod)
 - [Šta je rekurzija?](/rekurzija)
@@ -188,7 +188,6 @@ kurs: uvod
 - Vežba: nalaženje najvećeg broja u nizu
 - Vežba: nalaženje osobe u telefonskom imeniku
 - Vežba: [rekurzivna palindrom funkcija](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/p/challenge-is-a-string-a-palindrome) (jel reč ista odnapred i odpozadi)
-- Vežba: [problem stabilnih parova](/problem-stabilnih-parova)
 
 ### Pisanje programa [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
 

@@ -1,6 +1,6 @@
 ---
 title: Uvod u algoritme
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 permalink: /algoritmi-uvod
 redirect_from:
   - /agoritmi-uvod
