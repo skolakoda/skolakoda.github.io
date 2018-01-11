@@ -2,9 +2,10 @@
 layout: kurs
 github: ucimo-algoritme
 permalink: /ucimo-algoritme
+image: /images/kursevi/algoritmi.jpg
 ---
 
-![](https://blogs.kent.ac.uk/jonw/files/2015/04/mech.jpg)
+![]({{page.image}})
 
 ## Učimo algoritme [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-algoritme)
 # Nauka o sledu koraka
@@ -58,12 +59,18 @@ permalink: /ucimo-algoritme
 - Grafički prikaz složenosti algoritama
 
 ### Rekurzivni algoritmi
+
 - [Šta je rekurzija?](/rekurzija)
-- Faktorijal funkcija (rekurzivno i iterativno)
-- Fibonacijev broj (rekurzivno i iterativno)
-- [Fraktal binarno stablo](http://jsfiddle.net/mudroljub/x1bzmq7s/)
+- Rekurzivne funkcije
+  - [Faktorijel funkcija](/faktorijel)
+  - [Fibonacijev niz](/fibonacijev-niz)
+  - [Kule Hanoja](/kule-hanoja)
+- Rekurzivna umetnost
+  - [Fraktal binarno stablo](http://jsfiddle.net/mudroljub/x1bzmq7s/)
+- [Uzajamna rekurzija](/uzajamna-rekurzija)
+- [Loše strane rekurzije](/lose-strane-rekurzije)
 - Vežba: [palindrom funkcija](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/p/challenge-is-a-string-a-palindrome) (jel reč ista odnapred i odpozadi)
-- Vežba: rekurzivna umetnost
+- Vežba: crtanje pomoću rekurzije
 
 ### Ostali algoritmi
 

@@ -34,6 +34,7 @@ sadrzaj:
   https://www.toptal.com/algorithms/computability-theory-complexity
   https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
   https://profesorka.wordpress.com/2012/06/24/nizovi-2/
+- bug: covek koji se prijavio sa online, ne moze se prijaviti za uzivo
 
 <!--
 slike:
