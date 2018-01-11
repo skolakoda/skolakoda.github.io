@@ -54,30 +54,26 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 - Factory Pattern
 - Facades
 - Adapter Pattern
-
-### MVC arhitektura
-
-- Uvod u MVC (Model-View-Controller)
-- Šta je model?
-- Šta je prikaz (*view*)?
-- Šta je kontroler?
-- Model-View-Controller: Practice
+- Model-View-Controller (MVC)
+- Vežba: Implementiraj MVC obrazac
 
 ### Faza razvoja softvera
 
-- [Faze razvoja softvera](/faze-razvoja-programa)
-- Analiza zahteva
+- [Proces razvoja softvera](/faze-razvoja-programa)
+- [Analiza zahteva](/analiza-zahteva)
   - [Slučajevi korišćenja](/slucaj-koriscenja) (*use cases*)
   - Korisničke priče (*user stories*)
   - Izrada specifikacije
-- Projektovanje modela
+- [Projektovanje modela](/projektovanje-modela)
   - Detektovanje elemenata sistema
   - UML notacija
   - [Izgrada dijagrama klasa](/dijagram-klasa)
+  - [Izrada dijagrama toka](/dijagram-toka)
 - Kodiranje programa
   - Prevođenje koncepata u softverske klase
   - [Dobre prakse pisanja programa](/dobre-prakse)
-- Testiranje softvera
+- [Testiranje softvera](/testiranje-programa)
+- [Dokumentacija programa](/dokumentacija-programa)
 - Održavanje softvera
   - [Starenje softvera](https://www.slideshare.net/DamjanPavlica/starenje-softvera)
 

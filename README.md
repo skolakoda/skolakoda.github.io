@@ -21,8 +21,8 @@ bundle exec jekyll serve
 Mogući parametri:
 ```
 bundle exec jekyll serve --incremental
-bundle exec jekyll serve --drafts
 bundle exec jekyll serve --drafts --incremental
+bundle exec jekyll serve --drafts
 bundle exec jekyll serve --limit_posts 1
 ```
 
