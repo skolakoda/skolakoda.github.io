@@ -5,7 +5,7 @@ author: damjan
 permalink: /refaktorisanje/
 redirect_from:
   - /refaktorisanje-javaskripta
-image: https://cdn-images-1.medium.com/max/2000/1*8NX1BJ5azRg2uhNnTgwUTg.jpeg
+image: /images/apstraktno/kontrolna-soba.jpeg
 ---
 
 <img src="{{page.image}}" class="extra-full" alt="refaktorisanje" title="refaktorisanje knjiga">
