@@ -1,4 +1,5 @@
 ---
+title: Učimo algoritme
 layout: kurs
 github: ucimo-algoritme
 permalink: /ucimo-algoritme
