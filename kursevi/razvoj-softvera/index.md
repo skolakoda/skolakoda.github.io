@@ -1,6 +1,6 @@
 ---
-layout: kurs
 title: Uvod u softversko inženjerstvo
+layout: kurs
 image: /images/kursevi/softversko-inzenjerstvo.jpg
 redirect_from:
   - /kursevi/ucimo-arhitekturu
@@ -9,7 +9,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 
 ![]({{page.image}})
 
-## Učimo razvoj softvera <!-- Učimo arhitekturu i projektovanje -->
+## Učimo razvoj softvera
 # Uvod u softversko inženjerstvo
 
 **{{page.desc}}**
