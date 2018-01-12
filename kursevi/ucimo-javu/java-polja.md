@@ -1,6 +1,6 @@
 ---
 title: Polja u Javi
-layout: lekcija-racunarstvo
+layout: lekcija-java
 permalink: /java-polja
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Las_filas_003.jpg/640px-Las_filas_003.jpg
 ---

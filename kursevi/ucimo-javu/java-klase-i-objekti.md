@@ -1,6 +1,6 @@
 ---
 title: Klase i objekti u Javi
-layout: lekcija-racunarstvo
+layout: lekcija-java
 permalink: /java-klase-i-objekti
 image: /images/koncepti/oop/klasa-i-objekti.jpg
 ---

@@ -2,7 +2,10 @@
 layout: kurs
 title: Učimo Javu
 github: ucimo-javu
+image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/java-logo.png?resize=720%2C340&ssl=1
 ---
+
+![]({{page.image}})
 
 ## Učimo Javu
 # Uvod u objektno orjentisano programiranje

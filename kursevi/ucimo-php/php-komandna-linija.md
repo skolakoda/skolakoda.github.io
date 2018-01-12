@@ -1,7 +1,7 @@
 ---
 title: Izvršavanje PHP-a sa komandne linije
-layout: post
-tags: php, uvod
+layout: lekcija-php
+permalink: /php-komandna-linija
 ---
 
 **Pored toga što PHP možete da povežete sa serverom da čita skripte i izvršava ih, PHP može da se pokrene i sa komandne linije.**
@@ -26,7 +26,7 @@ PHP CLI ima puno opcija. PHP će vam izlistati sve opcije ako unesete `php -h` (
 
 Ako, na primer, želite da dobijete info preko komande linije, možete ukucati `php -i`.
 
-## Štampanje u komandnoj liniji i pretraživaču
+## Štampanje u komandnoj liniji i štampanje na stranici
 
 Između štampanja teksta na komandnoj liniji i u pretraživaču ima razlike. U pretraživaču za formatiranje možete da koristite HTML elemente, kao što su `<br>` ili `<p>`. Kada štampate sa komandne linije, za formatiranje teksta možete da koristite specijalne karaktere:
 

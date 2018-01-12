@@ -1,7 +1,7 @@
 ---
 title: Tipovi podataka u PHP-u
-layout: post
-tags: php, uvod, podaci
+layout: lekcija-php
+permalink: /php-tipovi-podataka
 ---
 
 Vi ne možete da odlučujete o načinu na koji se vaši podaci interno skladište. O tome odlučuje PHP. Iza scene, on podržava osam internih tipova podataka:

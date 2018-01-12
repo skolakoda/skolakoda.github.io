@@ -3,7 +3,6 @@ layout: kurs
 title: Učimo PHP
 github: ucimo-php
 image: /images/kursevi/php.jpg
-kurs: php
 ---
 
 ![php]({{page.image}})
@@ -22,24 +21,24 @@ kurs: php
 - Static vs. Dynamic Web Sites
 - Dynamic Content from Databases
 - Client-Side Scripting vs. Server-Side Scripting
-- Overview of PHP Advantages i Capabilities
 - [Instalacija i pokretanje programa](/uvod-u-php)
+- [Izvršavanje PHP-a sa komandne linije](/php-komandna-linija)
 - Configuring `php.ini`
 
-### Basic Scripting i Looping Constructs
+### Osnove jezika i petlje
 
 - PHP Fundamentals
 - Print Statement
 - Code Blocks
-- Primitive Data Types
-- Defining Constants i Variables
-- Looping Constructs
+- [Tipovi podataka u PHP-u](/php-tipovi-podataka)
+- [Promenljive i nepromenljive](/php-promenljive-i-nepromenljive)
+- Petlje
   - `while`
   - `do… while`
   - `for`
   - `exit` & `break`
 
-### Conditional Constructs
+### Uslovi
 
 - True i False Expressions
 - `if`, `else` i `elseif`
@@ -47,7 +46,7 @@ kurs: php
 - The `?` (Ternary) Operator
 - Timestamps
 
-### Introduction to the Apache Web Server
+### Apache Web Server
 
 - Apache Configuration Files
 - Configuring Apache for PHP
@@ -171,7 +170,7 @@ kurs: php
 - Showing Different Content to Different Browsers
 - Getting IP Addresses from Visitors
 
-### Symfony [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-symfony)
+### Symfony Framework [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-symfony)
 
 - MVC arhitektura
 - Symfony Framework

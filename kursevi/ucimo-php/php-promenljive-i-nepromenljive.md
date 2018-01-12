@@ -1,12 +1,8 @@
 ---
 title: Promenljive i nepromenljive u PHP-u
-layout: post
-tags: php, uvod
+layout: lekcija-php
+permalink: /php-promenljive-i-nepromenljive
 ---
-
-![varijabla](/images/koncepti/varijabla.png)
-
-## Promenljive ili varijable
 
 Sve poruke koje smo do sada prikazivali bile su fiksne i nepromenljive, poput:
 
@@ -19,7 +15,11 @@ echo "Hello from PHP.";
 
 Ovim se samo prikazuje tekst i ništa više. Ako bi to bilo sve, PHP ne bi ni bio potreban - isti efekat bi mogao da se postigne korišćenjem HTML-a. Suština PHP-a je u dinamičkom rukovanju podacima. Za tu svrhu se koriste promenljive.
 
-Promenljive su skladišta podataka. Recimo, na primer, da prodajete šešire preko weba i da želite da proverite ukupne zalihe u sva tri magacina, koji se nalaze u Čikagu, Tokiju i Parizu. Kako ćemo sabrati brojeve koji pokazuju količine šešira u čikagu, Tokiju i Parizu? To je trenutak kada "u igru" ulaze promenljive. U PHP-u one počinju oznakom za dolar `$`. Promenljive mogu da sadrže podatke; ako pod nazivima `$chikago`, `$tokyo` i `$paris` smestite brojeve, evo kako biste mogli da to sabirate:
+## Promenljive (varijable)
+
+![varijabla](/images/koncepti/varijabla.png)
+
+**Promenljive su skladišta podataka.** Recimo, na primer, da prodajete šešire preko weba i da želite da proverite ukupne zalihe u sva tri magacina, koji se nalaze u Čikagu, Tokiju i Parizu. Kako ćemo sabrati brojeve koji pokazuju količine šešira u čikagu, Tokiju i Parizu? To je trenutak kada "u igru" ulaze promenljive. U PHP-u one počinju oznakom za dolar `$`. Promenljive mogu da sadrže podatke; ako pod nazivima `$chikago`, `$tokyo` i `$paris` smestite brojeve, evo kako biste mogli da to sabirate:
 
 ```php
 <?php
@@ -104,7 +104,7 @@ $text = "news";
 echo "Where's the {$text}paper.";
 ```
 
-## Nepromenljive ili konstante
+## Nepromenljive (konstante)
 
 ![konstante](/images/koncepti/php-constant.png)
 

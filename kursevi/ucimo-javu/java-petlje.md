@@ -1,6 +1,6 @@
 ---
 title: Petlje u Javi
-layout: lekcija-racunarstvo
+layout: lekcija-java
 permalink: /java-petlje
 ---
 
@@ -57,7 +57,7 @@ class Count {
 }
 ```
 
-## Fibonaccijevi brojevi
+## While petlja: Fibonaccijevi brojevi
 
 {:.ulaz}
 ```java
