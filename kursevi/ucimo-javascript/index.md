@@ -3,7 +3,6 @@ layout: kurs
 title: Učimo Javaskript
 github: ucimo-javaskript
 image: /images/kursevi/js-logo.png
-kurs: javascript
 ---
 
 ![Javascript programiranje za početnike]({{page.image}})

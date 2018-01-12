@@ -1,7 +1,7 @@
 ---
 title: Komunikacija potprograma
-layout: post
-tags: [inzenjerstvo, arhitektura, moduli]
+layout: lekcija-racunarstvo
+permalink: /komunikacija-potprograma
 ---
 
 ![moduli](/images/koncepti/moduli.png)
@@ -28,7 +28,7 @@ Pozvana procedura dobiva pristup lokalnim varijablama iz pozivajuće procedure. 
 
 ![](//www.sitesbay.com/cpp/images/function/callbyvalue-callbyreference.png)
 
-## Doseg i trajanje varijabli
+## Opseg i trajanje varijabli
 
 Pojmovi dosega i trajanja varijabli važni su za razumijevanje prijenosa podataka (vrijednosti varijabli) između potprograma. Trajanje varijable je važno ako želimo zadržati vrijednost lokalne varijable pri ponovnom pozivu potprograma – u tom slučaju lokalnu varijablu treba deklarirati kao "statičku", ali tu mogućnost nemaju svi jezici.
 

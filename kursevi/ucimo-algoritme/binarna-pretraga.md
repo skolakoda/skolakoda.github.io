@@ -28,7 +28,7 @@ Da li je zamišljeni broj veći od 11 ? ne
 
 Na osnovu dobijenih odgovora, drugi igrač može da zaključi da je zamišljeni broj 11. Broj pitanja potrebnih za određivanje intervala pretrage je O(log k), gde je k širina polaznog intervala.
 
-## Primer: pogađanje broja bez intervala
+## Primer: pogađanje broja bez ograničenja
 
 Ukoliko u prethodnoj igri nije zadata gornja granica intervala, najpre treba odrediti jedan broj koji je veći od zamišljenog broja i onda primeniti binarno pretraživanje. Ako pretpostavimo da je prvi igrač zamislio broj 11, onda igra može da se odvija na sledeći način:
 

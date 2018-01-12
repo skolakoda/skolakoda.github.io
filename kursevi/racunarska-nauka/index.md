@@ -106,11 +106,13 @@ kurs: uvod
 - [Petlje u Javi](/java-petlje)
 
 ### Funkcije
+- [Funkcije i procedure](/funkcije-i-procedure)
 - opseg
 - ulazni parametri
 - vraćanje rezultata funkcije
 - čiste i nečiste funkcije (procedure)
 - bočni efekti funkcije
+- [Komunikacija potprograma](/komunikacija-potprograma)
 
 ### Naredbe i izrazi
 - izraz (vrednost koja se evaluira)
@@ -166,30 +168,16 @@ kurs: uvod
 - Jednosmerno šifriranje
 - [Heš funkcije i čuvanje lozinki](https://learncryptography.com/hash-functions/what-are-hash-functions)
 
-### Algoritmi [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/ucimo-algoritme/)
+### Algoritmi [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/ucimo-algoritme/)
 
 - [Uvod u algoritme](/algoritmi-uvod)
-- [Šta je rekurzija?](/rekurzija)
 - Algoritmi računanja
-  - Egipatsko množenje
-  - Euklidov algoritam (najveći zajednički delilac)
-  - Fibonačijev niz (rekurzivno i iterativno)
-  - Faktorijel funkcija (rekurzivno i iterativno)
 - [Algoritmi pretrage](/algoritmi-pretrazivanja)
   - [Linearna pretraga](/linearna-pretraga) (redom)
   - [Binarna pretraga](/binarna-pretraga) (podelom)
 - [Algoritmi sortiranja](/algoritmi-sortiranja)
-  - Ređanje izborom (selection sort)
-  - Ređanje umetanjem (insertion sort)
-  - Ređanje mehurom (bubble sort)
-  - Ređanje spajanjem (merge sort)
-  - Brzo ređanje (quicksort)
 - [Efikasnost algoritama](/efikasnost-algoritama)
-  - Konstantna složenost: O(1)
-  - Podlinearna složenost: O(log n), O(√n)
-  - Linearna složenost: O(n)
-  - Kvadratna složenost: O(n^2)
-  - Eksponencijalna složenost: O(x^n)
+- [Šta je rekurzija?](/rekurzija)
 - Vežba: nalaženje najvećeg broja u nizu
 - Vežba: nalaženje osobe u telefonskom imeniku
 - Vežba: [rekurzivna palindrom funkcija](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/p/challenge-is-a-string-a-palindrome) (jel reč ista odnapred i odpozadi)

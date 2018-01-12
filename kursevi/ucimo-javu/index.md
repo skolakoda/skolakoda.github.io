@@ -1,19 +1,25 @@
 ---
+layout: kurs
+title: Učimo Javu
+github: ucimo-javu
 ---
 
-# Uvod u Java programiranje
+## Učimo Javu
+# Uvod u objektno orjentisano programiranje
 
-### Getting Started with Java
+**Nauči Javu, popularni jezik za razvoj velikih poslovnih sistema. Savladaj objektno orjentisan pristup razvoja softvera.**
+
+### Upoznavanje sa Javom
 
 - What is Java?
 - How to Get Java
-- A First Java Program
+- [Prvi Java Program](/zdravo-java)
 - Compiling and Interpreting Applications
 - The JSDK Directory Structure
+- [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
 
 ### Eclipse
 
-- Introduction to Eclipse
 - Installing Eclipse
 - Running Eclipse for the First Time
 - Editors, Views, and Perspectives
@@ -21,31 +27,36 @@
 - Creating a New Java Application
 - Running a Java Application
 - Debugging a Java Application
-- Importing Existing Java Code into Eclipse
 
-### Language Fundamentals
+### Osnove jezika
 
 - A Java Program
 - If Statements
 - Switch Statements
-- Loop Statements
+- [Petlje u Javi](/java-petlje)
 - Syntax Details
-- Primitive Datatypes
+- [Tipovi podataka u Javi](/java-tipovi-podataka)
 - Variables
 - Expressions in Java
 - Strings
-- Arrays
+- [Polja (*arrays*)](/java-polja)
 - Enhanced for Loop
 
-### Objects and Classes
+### Klase i objekti
 
-- Defining a Class
-- Creating an Object
-- Instance Data and Class Data
-- Methods
-- Constructors
+- [Klase i objekti u Javi](/java-klase-i-objekti)
+  - Defining a Class
+  - [Pravljenje objekata](/java-objekti)
+  - Instance Data and Class Data
+- [Metode](/java-metode)
+  - [Konstruktori](/java-konstruktori)
+  - [Geter i seter metode](/java-geteri-i-seteri)
+  - [Vraćanje vrijednosti iz metoda](/java-vracanje-vrednosti)
+  - [Ista imena varijabli i metoda](/ista-imena-varijabli-i-metoda)
 - Access Modifiers
+- [Statičke varijable](/java-staticke-varijable)
 - Encapsulation
+- [Ključna riječ this](/java-this)
 
 ### Using Java Objects
 
@@ -62,7 +73,7 @@
 
 ### Inheritance in Java
 
-- Inheritance
+- [Nasleđivanje klasa](/nasledjivanje-klasa)
 - Inheritance in Java
 - Casting
 - Method Overriding
@@ -121,22 +132,6 @@
 - The Map Interface
 - Map Implementation Classes
 
-### Appendix A – Collection Sorting and Tuning
+### Dodaci
 
-- Sorting with Comparable
-- Sorting with Comparator
-- Sorting Lists and Arrays
-- Collections Utility Methods
-- Tuning ArrayList
-- Tuning HashMap and HashSet
-
-### Appendix B – Java EE Overview
-
-- Introduction to Java EE
-- Java SE Building Blocks
-- Web Applications
-- Web Services
-- Enterprise JavaBeans
-- Additional J2EE APIs
-- POJO, Dependency Injection, and Annotations
-- The Java EE Platform
+- [Argumenti komandne linije](/java-argumenti-komandne-linije)
