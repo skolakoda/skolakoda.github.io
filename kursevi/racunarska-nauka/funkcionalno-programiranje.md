@@ -1,10 +1,8 @@
 ---
 title: Funkcionalno programiranje
-layout: post
-tags: [programiranje, paradigme]
+layout: lekcija-racunarstvo
+permalink: /funkcionalno-programiranje
 ---
-
-![](https://www.gitbook.com/cover/book/aravind/functional-programming-notes.jpg)
 
 **Funkcionalno programiranje tretira programe kao funkcije, koje se zadaju korišćenjem kompozicije funkcija i rekurzije.** Zbog toga se u funkcionalnim jezicima funkcije mogu koristiti mnogo fleskibilnije, a implementacije ovih jezika posvećuju veliku pažnju optimizaciji rada sa funkcijama da bi programi napisani u ovom stilu bili što efikasniji.
 
@@ -26,7 +24,7 @@ Konačno, najmoderniji pravac u oblasti razvoja funkcionalnih jezika je započeo
 
 ![haskell](https://cdn-images-1.medium.com/max/800/1*CG-y4web1vxARdTakH-k9Q.png)
 
-## Upotreba
+## Upotreba u praksi
 
 **Funkcionalni programski jezici se i dalje znatno manje koriste u praksi nego imperativni.** Ovo se delom može pripisati tome što na popularnost nekog jezika utiče čitav niz okolnosti koje nisu direktno vezani za kvalitet programskog jezika, već su istorijskog ili ekonomskog karaktera. Treba, med̄utim, priznati da funkcionalni jezici još nisu dostigli performanse koje pružaju imperativni jezici. Osim toga, sofisticirani sistemi tipova funkcionalnih programskih jezika su teško razumljivi prosečnom programeru, iako je njihov potencijal u poboljšanju softvera veliki.
 

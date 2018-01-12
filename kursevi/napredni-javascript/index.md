@@ -19,7 +19,6 @@ kurs: napredni-js
 ### Objektno orijentisani Javascript [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
 
 - [Objektno orjentisan pristup](/objektno-orijentisano-programiranje)
-  - [Uvod u objektno orijentisano programiranje](https://www.slideshare.net/DamjanPavlica/uvod-u-objektno-orijentisano-programiranje-i-c)
 - Modelovanje klase
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
   - Apstrakcija i neponavljanje koda

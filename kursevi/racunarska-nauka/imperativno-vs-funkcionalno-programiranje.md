@@ -1,6 +1,6 @@
 ---
 title: Imperativno vs. funkcionalno programiranje
-layout: lekcija-napredni-js
+layout: lekcija-racunarstvo
 permalink: /imperativno-vs-funkcionalno-programiranje
 ---
 

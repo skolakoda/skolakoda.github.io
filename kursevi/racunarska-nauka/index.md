@@ -144,10 +144,15 @@ kurs: uvod
 - `map`, `filter`, `reduce`
 
 ### Objekti, klase i nasleđivanje
-- [Uvod u objektno orijentisano programiranje](https://www.slideshare.net/DamjanPavlica/uvod-u-objektno-orijentisano-programiranje-i-c)
 - [Klase i objekti u Javi](/java-klase-i-objekti)
 - privatne i javne metode
 - statičke metode
+
+### Paradigme programiranja
+
+- [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
+- [Funkcionalno programiranje](/funkcionalno-programiranje)
+- [Imperativno vs. funkcionalno programiranje](/imperativno-vs-funkcionalno-programiranje)
 
 ### Mrežna komunikacija
 
