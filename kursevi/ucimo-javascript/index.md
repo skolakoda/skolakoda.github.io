@@ -20,13 +20,13 @@ image: /images/kursevi/js-logo.png
 ### Čemu služi JS?
 
 - [Je li teško naučiti programiranje?](/programiranje-je-tesko)
-- [Čemu služi Javascript?](https://youtu.be/BFc_YPAxQcg) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja">
-- [Kratka istorija jezika](https://youtu.be/E1c1wXOheFk) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja">
+- [Čemu služi Javascript?](https://youtu.be/BFc_YPAxQcg)
+- [Kratka istorija jezika](https://youtu.be/E1c1wXOheFk)
 - Razlika između programiranja u pregledaču i na fajl sistemu
 
 ### Instalacija i pokretanje
 
-- [Instalacija i pokretanje programa](https://youtu.be/GxHEdXGu62g) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja">
+- [Instalacija i pokretanje programa](https://youtu.be/GxHEdXGu62g)
 - Instalacija editora ([Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
   - Instalacija dodataka (Emmet, linter, beautifier)
 - Instalacija [NodeJS](https://nodejs.org/)-a
@@ -37,17 +37,17 @@ image: /images/kursevi/js-logo.png
 ### Promenljive i nepromenljive
 
 - [Šta su varijable?](/c-varijable)
-- [Promenljive i nepromenljive u Javaskriptu](/promenljive-i-nepromenljive-u-javaskriptu) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja">
+- [Promenljive i nepromenljive u Javaskriptu](/promenljive-i-nepromenljive-u-javaskriptu)
 - Identifikatori i pravila imenovanja
 - Dodela vrednosti (`=`)
 - [Opseg važenja](/promenljive-i-nepromenljive-u-javaskriptu#opseg-važenja)
-- [Menjanje nepromenljivih u Javaskriptu](https://youtu.be/iQ62GxboWgY) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja">
+- [Menjanje nepromenljivih u Javaskriptu](https://youtu.be/iQ62GxboWgY)
 
 ### Tipovi podataka
 
 - [Beleženje podataka](/kako-racunar-belezi-podatke) i [binarni zapis](/binarni-brojevi)
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
-- [Tipovi podataka u Javaskriptu](https://youtu.be/T0VLAWelSUA) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja">
+- [Tipovi podataka u Javaskriptu](https://youtu.be/T0VLAWelSUA)
   - Logičke vrednosti (`true` i `false`)
   - Brojevi
   - Strune (tekst)
@@ -85,7 +85,7 @@ image: /images/kursevi/js-logo.png
 
 ### Uslovi i grananje
 
-- [Logički tok programa](/programska-logika) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play">
+- [Logički tok programa](/programska-logika)
 - [Operatori poređenja](/programska-logika#operatori-poređenja-manje-veće-jednako) (veće, manje, jednako, nejednako)
 - [Logički operatori](/programska-logika#logički-operatori-i-ili-ne) (i, ili, ne)
 - [Uslovi](/programska-logika#uslovi)
@@ -99,20 +99,20 @@ image: /images/kursevi/js-logo.png
 ### Petlje i ponavljanje
 
 - [Petlje u jeziku C](/c-petlje)
-- [Petlje u Javaskriptu](https://youtu.be/qjdBoVHmIQA) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play">
+- [Petlje u Javaskriptu](https://youtu.be/qjdBoVHmIQA)
 - Vrste petlji
   - `while` petlja
   - `do while` petlja
   - `for` petlja
-- [Zaustavljanje petlje i preskakanje kruga](https://youtu.be/8o-NvzDtwHU) (`break` i `continue`) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play">
+- [Zaustavljanje petlje i preskakanje kruga](https://youtu.be/8o-NvzDtwHU) (`break` i `continue`)
 - Uloga zastavice
 
 ### Funkcije
 
-- [Šta su funkcije?](https://youtu.be/MO9WKt7CRI8) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play">
+- [Šta su funkcije?](https://youtu.be/MO9WKt7CRI8)
 - Različiti načini pisanja funkcije
 - Ulazni parametri
-  - [Podrazumevani parametri](https://youtu.be/ElXcmfi0-Lg) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play">
+  - [Podrazumevani parametri](https://youtu.be/ElXcmfi0-Lg)
 - Vraćanje rezultata funkcije
 - Pozivanje funkcije
   - Prosleđivanje rezultata funkcije

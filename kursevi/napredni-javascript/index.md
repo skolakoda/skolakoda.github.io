@@ -96,7 +96,7 @@ kurs: napredni-js
 - Asinhrono učitavanje resursa
 - Gneždenje povratnih funkcija
 - Pakao povratnih funkcija (*callback hell*)
-- Obećanja (`Promise`, `.then()`, `Promise.all()`)
+- [Obećanja](/obecanja)
 - Asinhrone funkcije (`async/await`)
 - AJAX zahtev: uvođenje `fetch()` umesto `new XMLHttpRequest()`
 - Vežba: izvršenje povratne funkcije po učitanju svih slika
