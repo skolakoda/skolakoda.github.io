@@ -10,7 +10,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 ## Učimo Javu
 # Uvod u objektno orjentisano programiranje
 
-**Nauči Javu, popularni jezik za razvoj velikih poslovnih sistema. Savladaj objektno orjentisan pristup razvoja softvera.**
+**Nauči Javu, popularni jezik za razvoj velikih poslovnih sistema. Savladaj objektno orjentisani pristup razvoju softvera.**
 
 ### Upoznavanje sa Javom
 

@@ -27,8 +27,9 @@ function proveriGresku(ulaz, izlaz) {
 }
 
 function izvrsi(ulaz, izlaz) {
-  const originalConsoleLog = console.log
-  console.log = (...args) => {  // https://stackoverflow.com/questions/30935336
+  // const originalConsoleLog = console.log
+  // https://stackoverflow.com/questions/30935336
+  console.log = (...args) => {
     args.map((arg, i) => izlaz.innerHTML += arg + (args[i + 1] ? ' ' : '<br>'))
   }
   try {
@@ -36,7 +37,7 @@ function izvrsi(ulaz, izlaz) {
   } catch (e) {
     console.log(e.message)
   }
-  console.log = originalConsoleLog
+  // console.log = originalConsoleLog
 }
 
 /* INIT */
