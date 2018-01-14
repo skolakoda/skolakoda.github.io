@@ -4,24 +4,27 @@ layout: lekcija-html
 permalink: /ucimo-html/atributi
 ---
 
-**HTML elementi mogu imati atribute.**
+**HTML elementi mogu imati atribute. Atributi pružaju dodatne informacije o HTML elementu.**
 
-- Atributi pružaju dodatne informacije o HTML elementu.
-- Atributi obično imaju neku vrednost, u formatu `naziv="vrednost"`
+Atributi obično imaju naziv i vrednost, u formatu `naziv="vrednost"`. Između naziva i vrednosti atributa uvek ide `=` (operator dodele). Na primer, ako pasusu želimo dodati klasu "lead", pišemo:
+
+```html
+<p class="lead">Dobrodošli</p>
+```
 
 **Neki elemenati su neupotrebljivi bez atributa.** Na primer link (`a`) mora imati putanju (`href`) kuda vodi, a slika (`img`) mora imati izvor (`src`) odakle vuče sliku.
 
 **Za druge elemente atributi su opcioni.** Na primer titlovi (`title`) se pojavljuju kada nadnesemo miš nad neki element, kao dodatna informacija.
 
-## Vežba
+Specifikacija jezika propisuje imena atributa, i koji tag može imati koje atribute. U jednom tagu može biti više atributa. Spisak atributa po pripadnosti tagovima možete naći [ovde](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes).
 
-Dodaj vrednosti atributima:
+## Vežba: Dodaj atribute tagovima
+
+Svi tagovi imaju prazne atribute. Dodaj sledeće vrednosti atributima:
 
 - `href` atributu dodaj vrednost `https://skolakoda.org`
 - `title` atributu dodaj vrednost `O Školi koda`
 - `src` atributu dodaj vrednost `http://lorempixel.com/400/200/`
-
-Pokušaj da zaključiš čemu koji atribut služi. Probaj da ukloniš navodnike i vidiš hoće li raditi bez njih.
 
 {:.ulaz}
 ```html
@@ -32,22 +35,7 @@ Pokušaj da zaključiš čemu koji atribut služi. Probaj da ukloniš navodnike 
 <img src="">
 ```
 
+Pokušaj da zaključiš čemu koji atribut služi. Probaj da ukloniš navodnike i vidiš hoće li raditi bez njih.
+
+{:.uokvireno.ideja}
 Nadnesi miš iznad pasusa da bi se pojavio titl.
-
-## Uvek koristi navodnike
-
-Vrednost atributa nekad radi i bez navodnika, kao u slučaju:
-
-```html
-<a href=https://skolakoda.org>
-```
-
-Međutim, navodnici su neophodni ukoliko vrednost sadrži praznine:
-
-```html
-<p title=O Školi koda>
-```
-
-Stoga, World Wide Web Konzorcijum (W3C) preporučuje upotrebu navodnika u HTML standardu. Takođe, navodnici su neopodni za striktnije tipove dokumenata, kao XHTML.
-
-Upotreba navodnika je dobra praksa. U Školi koda uvek stavljamo vrednost atributa u navodnike.

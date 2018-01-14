@@ -1,13 +1,18 @@
 ---
+title: Gneždenje HTML elemenata
 layout: lekcija-html
 permalink: /ucimo-html/gnezdenje
 ---
 
-# Gneždenje HTML elemenata
+**HTML elementi koji imaju otvarajući i zatvarajući tag mogu sadržati druge elemente unutar sebe.**
 
-HTML elementi koji imaju dva taga (početni i završni) mogu sadržati druge elemente unutar sebe. Elementi koji nemaju završni tag ne mogu sadržati druge elemente.
+Svaki tag deluje na sadržaj unutar sebe. Sadržaj može biti tekst, ali i drugi tag. Kada je sadržaj drugi tag, imamo ugnježdene elemente, i tada više tagova deluje na sadržaj. Tekst na koji deluje više ugnježdenih tagova se podvrgava uticaju svih njih.
 
-U sledećem primeru, neki od HTML elemenata su ugnježdeni jedni unutar drugih. Ugnježdene elemente uvek poravnavamo pomoću `tab`a ili razmaka.
+Kod ugnježdenih oznaka se prvo zatvara poslednje otvorena. Tako na primer, ako pored oznake `i`, želimo da deluje i `b`, pišemo `<i><b>Pera</b></i>`, što pregledač prikazuje kao ***Pera***.
+
+## Primer: ugnježdeni elementi
+
+U sledećem primeru, neki elementi su ugnježdeni unutar drugih. Ugnježdene elemente uvek uvlačimo pomoću `tab`a ili razmaka.
 
 {:.ulaz}
 ```html
@@ -30,4 +35,5 @@ U sledećem primeru, neki od HTML elemenata su ugnježdeni jedni unutar drugih. 
 </section>
 ```
 
+{:.uokvireno.ideja}
 Ne prepoznaješ sve tagove? Slobodno koristi pretragu da saznaš čemu služe.

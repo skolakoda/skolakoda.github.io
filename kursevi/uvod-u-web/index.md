@@ -26,11 +26,12 @@ redirect_from:
 - [Čemu služe HTML, CSS i Javascript?](https://youtu.be/BFc_YPAxQcg) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play-video">
   - [Čemu služi HTML?](/uvod-u-web/uvod-html)
   - [Čemu služi CSS?](/uvod-u-web/uvod-css)
+- [Kratka istorija HTML-a](/html-kratka-istorija)
 - Razdvajanje briga i nastanak CSS-a
 - Konvencija imenovanja fajlova i foldera
 - Služenje stranica i HTTP protokol
 
-### Upoznavanje alata
+### Instalacija alata
 
 - Instalacija editora (Notepad++, [Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
 - Instalacija dodataka za:
@@ -42,10 +43,11 @@ redirect_from:
 ### Moja prva stranica
 
 - [Šta su HTML oznake?](/ucimo-html/elementi)
-- [Osnovne HTML oznake](/ucimo-html/formatiranje-teksta) (`h1`, `p`, `img`, `a`)
+  - [Osnovne HTML oznake](/ucimo-html/formatiranje-teksta) (`h1`, `p`, `img`, `a`)
   - Razlikovanje `block` i `inline` elemenata
-- [Gneždenje elemenata](/ucimo-html/gnezdenje)
+  - [Gneždenje elemenata](/ucimo-html/gnezdenje)
 - [Čemu služe atributi?](/ucimo-html/atributi) (`src`, `href`)
+  - [Upotreba navodnika](/ucimo-html/navodnici)
 - Vežba: Napravi stranicu koja ima naslov, tekst, sliku i link
 - Vežba: postavi stranicu na Github
 

@@ -32,6 +32,8 @@ for (let i = 0; i < brojUlaza; i++) {
 
   const editorWrapper = editor.getWrapperElement()
   editorWrapper.parentNode.insertBefore(tabletWrapper, editorWrapper.nextSibling) // append after
-  editorWrapper.on('keyup', izlaz.srcdoc = editor.getValue())
   izlaz.srcdoc = editor.getValue()
+
+  /* EVENTS */
+  editorWrapper.on('keyup', () => izlaz.srcdoc = editor.getValue())
 }
