@@ -28,6 +28,7 @@ bundle exec jekyll serve --limit_posts 1
 
 ## TODO
 
+- zvati ivicu da saznam vise!
 sadrzaj:
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - zen mudrosti

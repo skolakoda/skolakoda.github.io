@@ -7,7 +7,9 @@ image: http://www.wikihow.com/images/d/d5/Convert-Binary-to-Octal-Number-Step-11
 
 ![]({{page.image}})
 
-Binarni brojni sistem koristi samo dve cifre: 0 i 1. Binarni sistem je pogodan za računare zbog tehnologije njihove izrade i Bulove algebre na kojoj se zasnivaju.
+***Binarni (dvojni) brojni sistem koristi samo dve cifre: 0 i 1. Binarni sistem je pogodan za računare zbog tehnologije njihove izrade i Bulove algebre na kojoj se zasnivaju.***
+
+Naime, u računarskim sistemima postoji česta potreba za opisivanjem stanja kada „ima signala“ ili „nema signala“, neki uređaj je „uključen“ ili „isključen“, podatak je „raspoloživ“ ili „nije raspoloživ“ i slično, što se efikasno može predstaviti binarnim vrednostima 0 i 1.
 
 ## Prevođenje binarnog broja u dekadni
 
@@ -15,15 +17,15 @@ Slično kao kod običnih (dekadnih) brojeva, vrednost svake cifre zavisi od njen
 
 Na primer, cifre binarnog broja `10011` imaju sledeće vrednosti:
 
-šesnaestice | osmice | četvice | dvice | jedinice
+šesnaestice | osmice | četvorke | dvojke | jedinice
 ------------|--------|---------|-------|---------
 1 | 0 | 0 | 1 | 1
 
 Tako, binarni broj `10011` zapravo ima sledeću vrednost:
 
 ```
-1 x 2^4 + 0 x 2^3 + 0 x 2^2 + 1 x 2^1 + 1 x 2^0
-1 x 16  + 0 x 8   + 0 x 4   + 1 x 2   + 1 x 1
+1 * 2^4 + 0 * 2^3 + 0 * 2^2 + 1 * 2^1 + 1 * 2^0
+1 * 16  + 0 * 8   + 0 * 4   + 1 * 2   + 1 * 1
 = 19
 ```
 
@@ -60,4 +62,7 @@ Inače, binarni brojevi su odavno poznati mnogim kulturama. Između ostalog, nal
 
 ![](/images/koncepti/podaci/i-ching-binary.jpg)
 
-Delovi teksta su preuzeti iz skripte: dr Milan Popović, *Osnove programiranja*
+### Izvori
+
+- dr Milan Popović, *Osnove programiranja (skripta)*
+- dr Violeta Tomašević, *Osnovi računarske tehnike*, Beograd, 2009.

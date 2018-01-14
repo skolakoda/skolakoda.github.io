@@ -17,7 +17,7 @@ image: /images/hardver/hard-disk.jpg
 
 **Današnji računari su digitalni. To znači da su svi podaci zapisani kao nizovi brojeva.** Dva simbola su dovoljna za zapisivanje svih vrsta brojeva, pa samim tim i za zapisivanje svih vrsta digitalnih podataka. Tako jedan te isti podatak može imati različita značenja, u zavisnosti od interpretacije.
 
-### Tekst
+### Tekstualni format
 
 Na samom početku ere računara (1950-tih godina) napravljen je jedan šifarnik za kodiranje slova brojevima. Ovaj šifarnik poznat je kao ASCII (*American Standard Code for Information Interchange*) tabela i još uvek je u upotrebi.
 

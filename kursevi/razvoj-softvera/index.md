@@ -29,7 +29,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 - Princip isključive odgovornosti (*Single responsibility principle*)
 - Apstrakcija i neponavljanje koda
 - Nasleđivanje i polimorfizam (višeformnost)
-- Interfejsi, ekapsulacija i skrivanje informacija
+- [Ekapsulacija i skrivanje informacija](/enkapsulacija)
 - Princip otvorenosti/zatvorenosti (otvoren za proširenje, zatvoren za menjanje)
 - Princip zamenljivosti Barbare Liskov (*Liskov substitution principle*)
 - Princip podele interfejsa (*Interface segregation principle*)
