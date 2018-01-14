@@ -41,7 +41,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
   - [Uvod u objektno orijentisano programiranje](https://www.slideshare.net/DamjanPavlica/uvod-u-objektno-orijentisano-programiranje-i-c)
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
   - Apstrakcija i neponavljanje koda
-  - Nasleđivanje i polimorfizam (više vidova iste metode)
+  - [Polimorfizam](/polimorfizam)
   - Otvoren/zatvoren princip (otvoren za proširenje, zatvoren za menjanje)
   - Ograničenja nasleđivanja
 - Kompozicija vs nasleđivanje
