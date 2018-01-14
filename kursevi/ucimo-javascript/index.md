@@ -17,9 +17,10 @@ image: /images/kursevi/js-logo.png
 
 <a href="/kursevi/prijava?kurs=2" class="btn float-right">Prijavi se</a>
 
-### Čemu služi JS?
+### Uvod
 
 - [Je li teško naučiti programiranje?](/programiranje-je-tesko)
+- [Ko neće naučiti programiranje?](https://youtu.be/UsuEw2NHbtI)
 - [Čemu služi Javascript?](https://youtu.be/BFc_YPAxQcg)
 - [Kratka istorija jezika](https://youtu.be/E1c1wXOheFk)
 - Razlika između programiranja u pregledaču i na fajl sistemu
@@ -27,6 +28,7 @@ image: /images/kursevi/js-logo.png
 ### Instalacija i pokretanje
 
 - [Instalacija i pokretanje programa](https://youtu.be/GxHEdXGu62g)
+  - [Dodavanja Javascripta na stranicu](/dodavanje-javascripta)
 - Instalacija editora ([Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
   - Instalacija dodataka (Emmet, linter, beautifier)
 - Instalacija [NodeJS](https://nodejs.org/)-a
