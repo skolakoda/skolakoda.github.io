@@ -7,7 +7,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/0/09/Plc_control_panel.JPG
 
 ![]({{page.image}})
 
-**Enkapsulacija (zatvarenje je kapsulu)** je koncept povezan sa objektno-orijentisanim programiranjem, koji ukazuje da objekat enkapsulira:
+**Enkapsulacija (zatvaranje u kapsulu)** je koncept povezan sa objektno-orijentisanim programiranjem, koji ukazuje da objekat enkapsulira:
 
 - podatke (koji su uskladišteni u svojstvima)
 - načine na koje će biti iskorišćeni podaci (pomoću metoda)

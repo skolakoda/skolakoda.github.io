@@ -32,6 +32,9 @@
 
 .vrednost {
   text-align: right;
+  &::before {
+    content: "Vrednost: ";
+  }
 }
 
 .CodeMirror {

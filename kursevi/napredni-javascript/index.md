@@ -113,3 +113,7 @@ kurs: napredni-js
 - širenje (`spread `) i ostatak (`rest`)
 - neodređen broj argumenata funkcije (`Math.max(...niz)`)
 - spajanje nizova razlaganjem (`[...niz, 4, 5, 6]`)
+
+### Bonus
+
+- [Bitovski operatori u Javaskriptu](/bitovni-operatori-javaskript)

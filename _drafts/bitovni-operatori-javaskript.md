@@ -1,133 +1,194 @@
 ---
 title: Bitovski operatori u Javaskriptu
-layout: post
-tags: [bitovi, javascript, racunarska-nauka]
+layout: lekcija-napredni-js
+author: damjan
+permalink: /bitovni-operatori-javaskript
 ---
 
-## Inputting and outputting binary numbers
+*Za detaljno objašnjenje koncepta vidi članak [Bitovni operatori](/bitovni-operatori)*
 
-In the following examples, we work with binary numbers, via the following two operations:
-parseInt(str, 2) parses a string str in binary notation (base 2). For example:
+**Iako se bitovski operatori uglavnom koriste u jezicima nižeg nivoa, mogu imati par korisnih primena i u Javaskriptu. U tim slučajevima, bitovni operatori su uglavnom brža alternativa drugim operacijama.**
 
-> parseInt('110', 2)
-6
+## Prevođenje binarnih brojeva
 
-num.toString(2) converts the number num to a string in binary notation. For example:
+Da bismo radili sa bitovskim operatorima, prvo da vidimo kako prevodimo binarne brojeve u obične. Funkcija `parseInt()`, kada joj se prosledi binarni broj unutar strune i 2 kao baza, vraća dekadni broj. Na primer:
 
-> 6..toString(2)
-'110'
-
-## Check if number is even or odd:
-
+{:.izraz}
 ```js
-n & 1    // jel neparan
-
-1 & 1    // 1
-2 & 1    // 0
+parseInt('110', 2)
 ```
 
-Može i sa prvođenjem u istinosnu vrednost:
+Nasuprot tome, metoda `x.toString(2)`, kada se prosledi 2 kao baza, vraća binarni broj unutar strune. Na primer:
+
+{:.izraz}
 ```js
-!!(1 & 1)    // true
-!!(2 & 1)    // false
+6..toString(2)  // dve tačke ili zagrada oko broja
 ```
 
-The how:
+## Provera jel broj paran / neparan
+
+Provera jel broj neparan se može izvršiti pomoću bitovskog i (`&`). Na primer, ovako proveravamo jel broj 7 neparan:
+
+{:.izraz}
+```js
+7 & 1
+```
+
+Ovako proveravamo jel broj 4 neparan:
+
+{:.izraz}
+```js
+4 & 1
+```
+
+Objašnjenje:
 
 ```js
-// 1 & 1
-00000001 // 1
+// 7 & 1
+00000111 // 7
 00000001 // 1
 --------
-00000001 // 1 (odd)
+00000001 // 1 (neparan)
 
-// 2 & 1
-00000010 // 2
+// 4 & 1
+00000100 // 4
 00000001 // 1
 --------
-00000000 // 0 (even)
+00000000 // 0 (paran)
 ```
 
-## Variable swap:
+## Zamena vrednosti varijabli
 
-var a = 1,
-    b = 2;
+Pomoću ekskluzivnog ili (`^`) možemo zameniti vrednosti dve varijable, bez pomoći treće.
 
-a = a ^ b;
-b = b ^ a;
-a = a ^ b;
+{:.ulaz}
+```js
+let a = 97, b = 98
 
-// shorthand
+a = a ^ b
+b = b ^ a
+a = a ^ b
 
-a ^= b;
-b ^= a;
-a ^= b;
+console.log(a, b)
+```
 
-// b = 1, a = 2
+Može i skraćeno:
 
-The how:
+{:.ulaz}
+```js
+let a = 97, b = 98
 
-'a'.charCodeAt(0) // 97
-'b'.charCodeAt(0) // 98
+a ^= b
+b ^= a
+a ^= b
 
-(97).toString(2) // 1100001
-(98).toString(2) // 1100010
+console.log(a, b)
+```
 
-// a ^= b;
+Objašnjenje:
+
+```js
+// a = 97 (1100001)
+// b = 98 (1100010)
+
+// a ^= b
 1100001 // 97 (a)
 1100010 // 98 (b)
 -------
 0000011 // 3 (a)
 
-// b ^= a;
+// b ^= a
 1100010 // 98 (b)
 0000011 // 3 (a)
 -------
 1100001 // 97 (b)
 
-// a ^= b;
+// a ^= b
 0000011 // 3 (a)
 1100001 // 97 (b)
 -------
 1100010 // 98 (a)
+```
 
-String.fromCharCode(97); // b = 'a'
-String.fromCharCode(98); // a = 'b'
+## Zaokruživanje brojeva
 
-## Shorthand indexOf:
+Dvostruka bitovska negacija (`~~`) i bitovsko pomeranje (`>>` ili `<<`) nam mogu služiti za brzo zaokruživanja brojeva.
 
-!!~[1].indexOf(2) // false
-!!~[1].indexOf(1) // true
+### Zaokruživanje pozitivnih brojeva
 
-The how:
+Dvostruka negacija pozitivnih brojeva može zameniti `Math.floor()` funkciju:
 
-[1].indexOf(2) // -1
-[1].indexOf(1) // 0
+{:.izraz}
+```js
+~~(5.3)
+```
 
-~-1 // 0
-~0 // -1
+Zaokruživanje se može vršiti i pomoću "lažnog" bitovskog pomeranja (pomera za nula mesta ulevo ili udesno, zapravo menja samo tip):
 
-!!0 // false
-!!-1 // true
+{:.izraz}
+```js
+5.3 >> 0
+```
 
-## Fast truncation:
+{:.izraz}
+```js
+5.3 << 0
+```
 
-// for positive numbers it can be a faster substitute for Math.floor()
-~~(5.3) // 5
+### Zaokruživanje negativnih brojeva
 
-// negative truncation
-~~(-5.3) // -5
+Dvostruka bitovska negacija negativnih brojeva može zameniti `Math.ceil()`:
 
-## Brzo množenje i deljenje sa osnovom dva
+{:.izraz}
+```js
+~~(-5.3)
+```
 
-8 >> 1 // 4
-8 >> 2 // 2
+Bitovsko pomeranje takođe radi za negativne brojeve:
 
-8 << 1 // 16
-8 << 2 // 32
+{:.izraz}
+```js
+-5.3 >> 0
+```
 
-The how:
+{:.izraz}
+```js
+-5.3 << 0
+```
 
+## Množenje i deljenje sa dva
+
+Pomoću bitovnih pomeranja možemo brzo množiti i deliti brojeve sa osnovom dva. Na primer, delimo broj napola jedanput:
+
+{:.izraz}
+```js
+8 >> 1
+```
+
+Deli broj napola dva puta:
+
+{:.izraz}
+```js
+8 >> 2
+```
+
+Ili množimo broj sa dva jedanput:
+
+{:.izraz}
+```js
+8 << 1
+```
+
+Množimo broj sa dva dva puta:
+
+{:.izraz}
+```js
+8 << 2
+```
+
+Objašnjenje:
+
+```js
 // 8 >> 1
 00001000 // 8
 00000100 // 4
@@ -143,24 +204,48 @@ The how:
 // 8 << 2
 00001000 // 8
 00100000 // 32
-
-## Decimal to Integer
-
-4.12 >> 0 // 4
-4.12 << 0 // 4
-
--4.12 >> 0 // -4
--4.12 << 0 // -4
+```
 
 ## Konverzija tipa
 
-"3" | 0     // 3
-"5" >>> 0   // 5
-true >>> 0  // 1
+Pomoću bitovnih operacija možemo vršiti efikasnu konverziju prostih tipova u broj. Npr. uz pomoć disjunkcije:
 
-### Obrtanje vrednosti
+{:.izraz}
+```js
+"3" | 0
+```
 
-Bitwise XOR
+{:.izraz}
+```js
+true | 0
+```
 
-value ^= 1
-value ? "Close dropdown" : "Open dropdown";
+Ili pomoću "lažnog" pomeranja:
+
+{:.izraz}
+```js
+"5" >> 0
+```
+
+{:.izraz}
+```js
+true >> 0
+```
+
+## Obrtanje vrednosti
+
+Pomoću bitovnog isključivog ili (`^`) možemo obrtati vrednost između 0 i 1.
+
+{:.izraz}
+```js
+let stanje = 0
+stanje ^= 1
+```
+
+I obratno:
+
+{:.izraz}
+```js
+let stanje = 1
+stanje ^= 1
+```
