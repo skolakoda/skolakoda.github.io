@@ -10,11 +10,15 @@ permalink: /kratka-istorija-html-a
 
 ## HTML 1
 
-Prva verzija, označena sa HTML 1, pojavila se 1991. godine. Bila je to vrlo „siromašna“ verzija jezika sa mnogo manjkavosti. Na primer, nije se mogao definisati željeni font stranice, pozadinska boja, kreirati tabele, forme, itd.
+Prva verzija, označena sa HTML 1, pojavila se 1991. godine.
+
+Na početku je web bio samo niz naučnih publikacija u obliku statičkih HTML dokumenata koji su bili povezani hiperlinkovima. Verovali ili ne, tada nije postojao način da se slike postave na stranicu.
+
+Prva HTML verzija je bila prilično "siromašna". Na primer, nije se mogao definisati željeni font stranice, pozadinska boja, kreirati tabele, forme, itd.
 
 ## HTML 2
 
-Već 1993. godine nastaje HTML 2, koji takođe traje samo dve godine. U ovoj verziji pojavile su se „primitivne“ forme (neka polja su mogla da se kreiraju, ali nije moglo da se izvrši slanje formulara), mogla je da se podesi pozadinska boja ili slika, i mogle su da se kreiraju tabele.
+Već 1993. godine nastaje HTML 2. U ovoj verziji pojavile su se „primitivne“ forme (neka polja su mogla da se kreiraju, ali nije moglo da se vrši slanje), mogla je da se podesi pozadinska boja ili slika, i da se kreiraju tabele.
 
 Napredak koji je kreiran za te dve godine, od verzije HTML 1, smatrao se vrlo velikim.
 

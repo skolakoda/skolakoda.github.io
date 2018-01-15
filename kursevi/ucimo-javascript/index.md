@@ -22,7 +22,7 @@ image: /images/kursevi/js-logo.png
 - [Je li teško naučiti programiranje?](/programiranje-je-tesko)
 - [Ko neće naučiti programiranje?](https://youtu.be/UsuEw2NHbtI)
 - [Čemu služi Javascript?](https://youtu.be/BFc_YPAxQcg)
-- [Kratka istorija jezika](https://youtu.be/E1c1wXOheFk)
+- [Kratka istorija Javascripta](/kratka-istorija-javascripta)
 - Razlika između programiranja u pregledaču i na fajl sistemu
 
 ### Instalacija i pokretanje
@@ -211,7 +211,8 @@ image: /images/kursevi/js-logo.png
 - Vežba: uporedi `this` unutar obične i streličaste povratne funkcije
 - Vežba: spreči podrazumevano ponašanje nekog elementa
 
-### Validacija formulara
+### Validacija obrazaca
+
 - Čitanje vrednosti `input` polja
 - Validacija i slanje formulara
   - Validacija putem Javaskripta

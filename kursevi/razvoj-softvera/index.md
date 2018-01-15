@@ -42,6 +42,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
   - Apstrakcija i neponavljanje koda
   - [Polimorfizam](/polimorfizam)
+  - [Kontrola pristupa](/kontrola-pristupa)
   - Otvoren/zatvoren princip (otvoren za proširenje, zatvoren za menjanje)
   - Ograničenja nasleđivanja
 - Kompozicija vs nasleđivanje
