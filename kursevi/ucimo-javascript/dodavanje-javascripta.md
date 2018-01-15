@@ -2,7 +2,7 @@
 title: Dodavanja Javascripta na stranicu
 layout: lekcija-js
 permalink: /dodavanje-javascripta
-image: http://www.jstips.co/assets/images/jstips-animation.gif
+image: /images/jezici/moderni-js.gif
 ---
 
 ![]({{page.image}})

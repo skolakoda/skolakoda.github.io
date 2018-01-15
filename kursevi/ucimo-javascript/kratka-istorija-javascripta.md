@@ -21,7 +21,7 @@ JavaScript sadrži dva glavna dela:
 
 ## Moderni JS
 
-![](http://www.jstips.co/assets/images/jstips-animation.gif)
+![](/images/jezici/moderni-js.gif)
 
 U današnje vreme možete da koristite JavaScript za:
 
