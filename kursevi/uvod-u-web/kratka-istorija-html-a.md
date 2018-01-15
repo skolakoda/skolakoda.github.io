@@ -1,7 +1,7 @@
 ---
 title: Kratka istorija HTML-a
 layout: lekcija-html
-permalink: /html-kratka-istorija
+permalink: /kratka-istorija-html-a
 ---
 
 ***HTML je nastao kada je Tim Berners-Lee izabrao mali skup oznaka iz [SGML](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language) jezika, koji je korišćen na CERN-u za formatiranje dokumenata. Softver koji je ovo znao da protumači nazvan je HTML pregledač.***
@@ -34,6 +34,6 @@ Paralelno sa tim pojavljuje se i XHTML 1.0 kojim se omogućava razmena i prikaz 
 
 ## HTML 5
 
-Periodu od 12 godina, koliko je HTML 4 bio aktivno u upotrebi, morao je doći kraj obzirom na popularnost weba i sve veće korisničke zahteve. Tako se 2009. godine pojavljuje HTML 5 i CSS 3, koji se smatraju revolucijom u smislu uvedenih promena i načina rada.
+Periodu od 12 godina, koliko je HTML 4 bio aktivno u upotrebi, morao je doći kraj obzirom na popularnost weba i sve veće korisničke zahteve. Tako se 2009. godine pojavljuje HTML 5 i CSS 3, koji se smatraju revolucijom u smislu uvedenih promena i načina rada. HTML5 je izbacio suvišnu sintaksu i uveo mnoge korisne semantičke elemente kao što su: `<header>`, `<footer>`, `<nav>`, `<article>`, `<section>`, `<canvas>`...
 
 ![](https://js.devexpress.com/Content/Images/features/html5-css-javascript-logos.png)

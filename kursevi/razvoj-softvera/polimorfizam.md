@@ -7,7 +7,7 @@ image: /images/koncepti/oop/polimorfizam.png
 
 ![]({{page.image}})
 
-**Polimorfizam je važna osobina objektno orijentisanog jezika jer omogućuje da osnovna klasa definiše funkcije koje će biti zajedničke za sve izvedene klase, ali da izvedenim klasama ostavi slobodu da same implementiraju sve te funkcije.**
+**Polimorfizam (*"višeobličnost"*) je važna osobina objektno orijentisanog jezika jer omogućuje da osnovna klasa definiše funkcije koje će biti zajedničke za sve izvedene klase, ali da izvedenim klasama ostavi slobodu da same implementiraju sve te funkcije.**
 
 Ponekad se ideja polimorfizma objašnjava i ovako: osnovna klasa diktira opšti interfejs koji će imati sve klase izvedene iz nje, ali ostavlja izvedenim klasama da definišu kako će zaista implementirati taj interfejs. Zbog toga se polimorfizam često opisuje frazom “jedan interfejs, više metoda”. Da bi se razumeo polimorfizam, treba imati na umu da osnovna klasa i izvedene klase formiraju hijerarhiju koja se kreće od uže generalizacije ka široj (tj. od osnovne ka izvedenim klasama). Kada je pravilno projektovana, osnovna klasa ima sve elemente koje izvedene klase mogu direktno da koriste, kao i funkcije koje bi izvedene klase trebalo samostalno da implementiraju. Pošto interfejs diktira osnovna klasa, deliće ga sve izvedene klase, ali će implementacija interfejsa biti specifična za svaku od njih. Postavlja se pitanje zašto je toliko važno imati dosledan interfejs sa različitim implementacijama.
 

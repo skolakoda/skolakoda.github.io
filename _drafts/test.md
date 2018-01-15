@@ -1,4 +1,4 @@
-OOP test
+## OOP test
 
 1. Kapsuliranje je ______________ podataka.
 a) skrivanje
@@ -61,4 +61,6 @@ struktoru osnovne klase.
 a) tačno
 b) pogrešno
 
+(isti na dva mesta)
 Izvor: Irina Branović, *Objektno orijentisano programiranje: C++*, Beograd, 2011.
+Izvor: US - Osnove JAVA programiranja [zbirka].pdf

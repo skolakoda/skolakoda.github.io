@@ -26,7 +26,7 @@ redirect_from:
 - [Čemu služe HTML, CSS i Javascript?](https://youtu.be/BFc_YPAxQcg) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play-video">
   - [Čemu služi HTML?](/uvod-u-web/uvod-html)
   - [Čemu služi CSS?](/uvod-u-web/uvod-css)
-- [Kratka istorija HTML-a](/html-kratka-istorija)
+- [Kratka istorija HTML-a](/kratka-istorija-html-a)
 - Razdvajanje briga i nastanak CSS-a
 - Konvencija imenovanja fajlova i foldera
 - Služenje stranica i HTTP protokol
