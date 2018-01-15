@@ -18,7 +18,7 @@ Ideja rekurzije je uvek beskonačna, a ograničavaju je isključivo spoljnji fak
 
 ![](//68.media.tumblr.com/59f43c03ca0e9ede45b8b71f79b44268/tumblr_inline_ntx0langcg1r1aqjj_1280.jpg)
 
-![](/images/koncepti/rekurzija-strip.png)
+![](/images/fore/rekurzija-strip.png)
 
 ## Rekurzija u prirodi
 

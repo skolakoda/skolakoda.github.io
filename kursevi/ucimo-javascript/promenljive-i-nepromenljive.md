@@ -3,7 +3,7 @@ title: Promenljive i nepromenljive u Javaskriptu
 layout: lekcija-js
 author: damjan
 permalink: /promenljive-i-nepromenljive-u-javaskriptu
-image: /images/koncepti/let-vs-const.png
+image: /images/koncepti/varijable/let-vs-const.png
 ---
 
 ![]({{page.image}})

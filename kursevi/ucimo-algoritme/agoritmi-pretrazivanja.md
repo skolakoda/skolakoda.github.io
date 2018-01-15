@@ -55,7 +55,7 @@ Svi mogući potezi u nekoj igri (npr. šah ili "križić – kružić", tj. "iks
 
 Slika 22 sadrži samo mali dio ukupnog prostora mogućih stanja u igri "križić – kružić", tj. na svakoj razini nakon druge "ekspandiran" je samo jedan čvor (prikazani su sljedbenici samo jednog čvora stabla), makar i svi ostali čvorovi te razine imaju isti broj sljedbenika.
 
-![](/images/koncepti/iks-oks-stablo.png)
+![](/images/koncepti/algoritmi/iks-oks-stablo.png)
 
 U većini sličnih prostora stanja izražen je problem tzv. "kombinatoričke eksplozije", tj. sa svakim novim elementom uzetim u obzir, eksponencijalno raste broj mogućih kombinacija odnosno stanja koje treba pretraživati.
 

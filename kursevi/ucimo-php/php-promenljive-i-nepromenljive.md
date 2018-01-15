@@ -17,7 +17,7 @@ Ovim se samo prikazuje tekst i ništa više. Ako bi to bilo sve, PHP ne bi ni bi
 
 ## Promenljive (varijable)
 
-![varijabla](/images/koncepti/varijabla.png)
+![varijabla](/images/koncepti/varijable/varijabla.png)
 
 **Promenljive su skladišta podataka.** Recimo, na primer, da prodajete šešire preko weba i da želite da proverite ukupne zalihe u sva tri magacina, koji se nalaze u Čikagu, Tokiju i Parizu. Kako ćemo sabrati brojeve koji pokazuju količine šešira u čikagu, Tokiju i Parizu? To je trenutak kada "u igru" ulaze promenljive. U PHP-u one počinju oznakom za dolar `$`. Promenljive mogu da sadrže podatke; ako pod nazivima `$chikago`, `$tokyo` i `$paris` smestite brojeve, evo kako biste mogli da to sabirate:
 
@@ -106,7 +106,7 @@ echo "Where's the {$text}paper.";
 
 ## Nepromenljive (konstante)
 
-![konstante](/images/koncepti/php-constant.png)
+![konstante](/images/koncepti/varijable/php-constant.png)
 
 Ponekad nećete želeti da promenljiva može da se menja - želećete da njena vrednost bude nepromenljiva. Pretpostavimo, na primer, da imate promenljivu pod nazivom `$pi` koja sadrži vrednost broja pi. Može se desiti da se takva vrednost nenamerno promeni, što nije dobro. Rešenje je da se napravi konstanta, čija vrednost ne može da se menja.
 

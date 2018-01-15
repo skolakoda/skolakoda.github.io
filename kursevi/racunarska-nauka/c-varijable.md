@@ -2,7 +2,7 @@
 title: Šta su varijable?
 layout: lekcija-racunarstvo
 permalink: /c-varijable
-image: /images/koncepti/varijabla.png
+image: /images/koncepti/varijable/varijabla.png
 ---
 
 ![]({{page.image}})

@@ -2,7 +2,7 @@
 layout: kurs
 title: Uvod u web
 github: uvod-u-web
-image: /images/kursevi/css.png
+image: /images/koncepti/web/responsive.svg
 opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multimedijom. Nauči temelje web razvoja.
 redirect_from:
   - /kursevi/ucimo-html/
@@ -29,7 +29,7 @@ redirect_from:
 - [Kratka istorija HTML-a](/kratka-istorija-html-a)
 - Razdvajanje briga i nastanak CSS-a
 - Konvencija imenovanja fajlova i foldera
-- Služenje stranica i HTTP protokol
+- [Služenje stranica](/server) i [HTTP protokol](/http)
 
 ### Instalacija alata
 

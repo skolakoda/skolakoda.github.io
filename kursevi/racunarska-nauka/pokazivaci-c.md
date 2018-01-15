@@ -4,7 +4,7 @@ layout: lekcija-racunarstvo
 permalink: /c-pokazivaci
 redirect_from:
   - /pokazivaci-c
-image: /images/koncepti/pokazivac.png
+image: /images/koncepti/varijable/pokazivac.png
 ---
 
 ***Pokazivač je promenljiva koja sadrži memorijsku adresu. Iz tog razloga, kažemo da pokazuje na vrednost na toj memorijskoj lokaciji. Možete da koristite pokazivače na određen način da bi dobili vrednost na adresi na koju pokazuje.***
