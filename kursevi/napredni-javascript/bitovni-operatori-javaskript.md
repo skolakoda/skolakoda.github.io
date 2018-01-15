@@ -3,7 +3,10 @@ title: Bitovski operatori u Javaskriptu
 layout: lekcija-napredni-js
 author: damjan
 permalink: /bitovni-operatori-javaskript
+image: /images/fore/bitovni-operatori.svg
 ---
+
+![]({{page.image}})
 
 *Za detaljno objašnjenje koncepta vidi članak [Bitovni operatori](/bitovni-operatori)*
 
