@@ -1,5 +1,5 @@
 # Pokazivač this
 
-Već smo naučili da se metoda uvek poziva za neki objekat svoje klase (osim ako nije statička). Kada se metoda pozove, prosled̄uje joj se jedan implicitni argument: pokazivač na objekat za koji je pozvana. Pokazivač na objekat za koji je pozvana metoda zove se this.
+Već smo naučili da se metoda uvek poziva za neki objekat svoje klase (osim ako nije statička). Kada se metoda pozove, prosleđuje joj se jedan implicitni argument: pokazivač na objekat za koji je pozvana. Pokazivač na objekat za koji je pozvana metoda zove se this.
 
 Izvor: US - Objektno orijentisano programiranje - C++
