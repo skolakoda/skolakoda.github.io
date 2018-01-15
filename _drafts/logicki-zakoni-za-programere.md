@@ -1,11 +1,11 @@
 ---
 title: Logički zakoni za programere
-layout: post
+layout: refaktorisanje
 author: damjan
-tags: [logika, uslovi, racunarska-nauka]
+permalink: /logicki-zakoni-za-programere
 ---
 
-***Naravno, logika je nauka za sebe, ali postoji nekoliko logičkih zakona koji nam mogu olakšati život, prilikom pisanja složenih uslova.***
+***Logika je nauka za sebe, ali postoji nekoliko logičkih zakona koji nam mogu olakšati život, prilikom pisanja složenih uslova.***
 
 ![Formalna logika](https://www.antikvarijat-phoenix.com/pic_nas/0051249.jpg)
 
@@ -18,20 +18,27 @@ p && (q && r) === (p && q) && r
 p || (q || r) === (p || q) || r
 ```
 
-Analogiju možemo naći u matematici, gde su u operatori množenja i sabiranja takođe asocijativni (za razliku od deljenja i oduzimanja).
+Analogiju možemo naći u matematici, gde zagrade takođe nisu bitne ako imamo samo operacije množenja ili sabiranja, koje su asocijativne (za razliku od deljenja i oduzimanja).
 
-## Zakon distribucije
+## Zakoni distribucije
 
-proveriti na wiki i stack overflow!
+Zakoni distribucije definišu razlaganje složenih izraza, i mogu poslužiti razlaganju uslova. Prvi zakon distribucije izgleda ovako:
 
-Zakoni distribucije definišu razlaganje složenih izraza, i mogu poslužiti razlaganju uslova u kodu:
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/f6e44e66770303cef4cf29e118b8e6966ccd6fbf)
 
 ```
 p && (q || r) === (p && q) || (p && r)
+```
+
+Drugi zakon distribucije izgleda ovako:
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/b320f1fbd3369ea11f930908122d66148d3073f0)
+
+```
 p || (q && r) === (p || q) && (p || r)
 ```
 
-Zakon distribucije se može ilustrovati sličnim pravilom u algebri:
+Ovi zakoni se oslanjaju na svojstvo distributivnosti, koje postoji i u algebri:
 
 ```
 a * (b + c) = a * b + a * c
@@ -48,23 +55,31 @@ De Morganovi zakoni su veoma primenjivi u refaktorisanju uslovnih izraza.
 
 Oni zapravo predstavljaju, simboličkim jezikom izraženu, definiciju konjunkcije i disjunkcije:
 
-- `p && q` je lažno ako je bar jedna od promenljivih lažna;
-- `p || q` je lažno ako su obe promenljive lažne;
+- `p i q` je lažno ako je bar jedna promenljiva lažna;
+- `p ili q` je lažno ako su obe promenljive lažne;
 
-U kodu bi njihova primena izgledala otprilike ovako:
+## Primena
+
+U kodu bi primena prvog De Morganovog zakona izgledala ovako:
+
 ```js
 !(punoletan && prihvatioUslove)
 ```
+
 je identično sa:
+
 ```js
 !punoletan || !prihvatioUslove
 ```
 
-Dok drugi Morganov zakon u kodu:
+Dok drugi De Morganov zakon u kodu:
+
 ```js
 !(punoletan || prihvatioUslove)
 ```
+
 refaktorisanjem postaje:
+
 ```js
 !punoletan && !prihvatioUslove
 ```
@@ -74,4 +89,4 @@ refaktorisanjem postaje:
 Programeri su često skloni improvizaciji kada rade sa složenim uslovima, što u nekim slučajevima može biti kobno. Bolje je osloniti se na zakone logike i uštedeti posao testerskom (QA) odeljenju.
 
 
-Izvor: dr Milan Kovačević, *Formalna logika*, Novi Sad, 1980.
+Literatura: dr Milan Kovačević, *Formalna logika*, Novi Sad, 1980.

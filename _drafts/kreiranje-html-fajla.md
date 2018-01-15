@@ -1,22 +1,23 @@
-# Kreiranje HTML fajla
+# Pravljenje HTML fajla
 
-Pre nego što započnemo kreiranje primera fajla, pogledajte programski kod. On predstavlja jednostavan deo veb sadržaja – nekoliko linija HTML-a koje štampaju „Hello World! Welcome to My Web Server“ velikim, masnim slovima u dve linije centrirane u prozoru pretraživača. Naučićete više o HTML-u koje je upotrebljen unutar ovog fajla u nastavku kursa.
+### Korak 1: Otvori editor
+
+Otvori tekst editor po izboru. Nemoj koristiti procesore za obradu testa, kao što su WordPad ili Word, jer oni kreiraju drugačije fajlove od onih koji su nam potrebni.
+
+### Korak 2: Napravi fajl
+
+Otvori novi fajl i prekucaj sledeći HTML kod u njega:
 
 ```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <p>Welcome to My Web Server.</p>
-  </body>
-</html>
+<h1>Zdravo svima!</h1>
+<p>Dobrodošli na moj sajt</p>
 ```
 
-Da biste upotrebili ovaj sadržaj, otvorite editor za tekst po izboru, kao što je Notepad (na Windowsu) ili TextEdit (na Macu). Nemojte upotrebiti WordPad, Microsoft Word ili drugi potpuno opremljeni procesor reči, zato što ti programi kreiraju drugačiju vrstu fajlova od običnih tekstualnih fajlova koje koristimo za veb sadržaj.
+Kod je krajnje jednostavan, samo dodaje naslov i pasus na stranicu. Ako još uvek ne razumeš kod, bez brige.
 
-Unesite sadržaj koji vidite u programskom kodu 1.1, a zatim snimite fajl, koristeći naziv sample.html. Uverite se da editor nije promenio ekstenziju koju ste dodelili; ekstenzija .html ukazuje veb serveru da je fajl pun HTML-a. Kada su sadržaji fajla poslati u veb pretraživač koji ih zahteva, pretraživač će takođe znati da je to HTML sadržaj i renderovaće ga pravilno.
+### Korak 3: Sačuvaj fajl
 
-Sada, kada imamo primer HTML fajla za upotrebu (nadam se da imate i mesto gde ćete ga postaviti, kao što je veb hosting nalog), treba da publikujemo veb sadržaj.
+Nakon što prekucaš kod (kucanjem zapravo učimo, ne kopiranjem), sačuvaj fajl pod nazivom `index.html`. Proveri da editor nije promenio ekstenziju; neki editori to rade. Pretraživač će na osnovu `.html` ekstenzije znati da je to HTML fajl, i prikazaće ga pravilno. 
+
+{:.uokvireno.ideja}
+Sada, kada imamo HTML fajl, možemo ga objaviti na webu.
