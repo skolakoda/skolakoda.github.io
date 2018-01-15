@@ -3,7 +3,7 @@
 1. Kapsuliranje je ______________ podataka.
 a) skrivanje
 b) apstrakcija
-c) nasled̄ivanje
+c) nasleđivanje
 
 2. Uočavanje zajedničkih svojstava objekata i njihovo grupisanje u klasu naziva
 se:
@@ -51,7 +51,7 @@ b) pogrešno
 a) tačno
 b) pogrešno
 
-2. Nasled̄ivanje je vrsta ponovnog korišćenja softvera u kome nove klase obuhva-
+2. Nasleđivanje je vrsta ponovnog korišćenja softvera u kome nove klase obuhva-
 taju svojstva i ponašanje postojećih klasa i obogaćuju ih novim mogućnostima.
 a) tačno
 b) pogrešno
