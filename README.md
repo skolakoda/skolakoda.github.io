@@ -32,6 +32,7 @@ bundle exec jekyll serve --limit_posts 1
 -  na malom kompu ne radi simbol .uokvireno.ideja
 
 sadrzaj:
+- ucimo-blockchain https://startit.rs/category/blockchain/
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - zen mudrosti
   https://www.toptal.com/algorithms/computability-theory-complexity
