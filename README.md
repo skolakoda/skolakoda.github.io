@@ -30,6 +30,7 @@ bundle exec jekyll serve --limit_posts 1
 
 - poslati bilten i javiti prijavljenima za alternativu
 -  na malom kompu ne radi simbol .uokvireno.ideja
+- https://developers.google.com/web/progressive-web-apps/
 
 sadrzaj:
 - ucimo-blockchain https://startit.rs/category/blockchain/
