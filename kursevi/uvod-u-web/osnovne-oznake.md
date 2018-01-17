@@ -1,7 +1,9 @@
 ---
-title: Oznake za formatiranje teksta
+title: Osnovne HTML oznake
 layout: lekcija-html
-permalink: /ucimo-html/formatiranje-teksta
+permalink: /osnovne-html-oznake
+redirect_from:
+  - /ucimo-html/formatiranje-teksta
 ---
 
 HTML je prvobitno stvoren za formatiranje teksta, što mu je i dalje osnovna namena. Neki od osnovnih HTML tagova su:
@@ -35,11 +37,3 @@ Isprobaj neke od gornjih tagova u editoru:
 ```
 
 *Zapamti koji tagovi nisu radili, kasnije ćemo utvrditi zašto.*
-
-## Uvek koristimo mala slova
-
-Nazivi tagova su neosetljivi na velika i mala slova. Za naš pregledač, `<DIV>` je isto što i `<div>`.
-
-Ipak, World Wide Web Konzorcijum (W3C) preporučuje upotrebu malih slova u HTML standardu. Takođe, mala slova su obavezna za strože tipove dokumenata, kao XHTML.
-
-U Školi koda tagove uvek pišemo malim slovima.

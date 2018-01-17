@@ -23,11 +23,11 @@ redirect_from:
 
 ### Uvod
 
-- [Čemu služe HTML, CSS i Javascript?](https://youtu.be/BFc_YPAxQcg) <img src="/images/ui/ikonice/youtube.svg" class="ikonica-manja" alt="play-video">
+- [Čemu služe HTML, CSS i Javascript?](https://youtu.be/BFc_YPAxQcg)
   - [Čemu služi HTML?](/uvod-u-web/uvod-html)
   - [Čemu služi CSS?](/uvod-u-web/uvod-css)
-- [Kratka istorija HTML-a](/kratka-istorija-html-a)
-- Razdvajanje briga i nastanak CSS-a
+- [Kratka istorija weba](/kratka-istorija-weba)
+  - [Razdvajanje briga i razvoj CSS-a](/kratka-istorija-web-dizajna)
 - Konvencija imenovanja fajlova i foldera
 - [Služenje stranica](/server) i [HTTP protokol](/http)
 
@@ -42,11 +42,12 @@ redirect_from:
 
 ### Moja prva stranica
 
-- [Šta su HTML oznake?](/ucimo-html/elementi)
-  - [Osnovne HTML oznake](/ucimo-html/formatiranje-teksta) (`h1`, `p`, `img`, `a`)
+- [Pravljenje HTML fajla](/pravljenje-html-fajla)
+- [HTML elementi](/html-elementi)
+  - [Osnovne HTML oznake](/osnovne-html-oznake) (`h1`, `p`, `img`, `a`)
   - Razlikovanje `block` i `inline` elemenata
   - [Gneždenje elemenata](/ucimo-html/gnezdenje)
-- [Čemu služe atributi?](/ucimo-html/atributi) (`src`, `href`)
+- [HTML atributi](/html-atributi) (`src`, `href`)
   - [Upotreba navodnika](/ucimo-html/navodnici)
 - Vežba: Napravi stranicu koja ima naslov, tekst, sliku i link
 - Vežba: postavi stranicu na Github
@@ -75,9 +76,9 @@ redirect_from:
   - Proredi između redova i slova
 - Merne jedinice
   - Pikseli `px` (veličina jedne tačke)
-  - Emovi `em` (veličina jednog slova)
   - Procenti `%` (u odnosu na roditelja)
-- Vežba: izaberi vrstu i veličinu fonta za naslove i tekst
+  - [Upotreba ema za tipografiju](/em-jedinica-tipografija)
+- Vežba: izaberi porodicu i veličinu slova za naslove i tekst
 
 ### HTML birokratija
 

@@ -1,7 +1,9 @@
 ---
-title: HTML oznake i HTML elementi
+title: HTML elementi
 layout: lekcija-html
-permalink: /ucimo-html/elementi
+permalink: /html-elementi
+redirect_from:
+  - /ucimo-html/elementi
 ---
 
 **HTML stranica je sastavljena od HTML elemenata.**
@@ -28,6 +30,11 @@ HTML tagovi mogu biti upareni ili neupareni (samozatvarajući). Upareni imaju ot
 
 Neupareni imaju samo jednu oznaku, koja istovremeno i otvara i zatvara tag, na primer `<br/>` ili `<img />`.
 
-## Velika i mala slova
 
-HTML jezik nije osetljiv na velika i mala slova, što znači da se oznake mogu pisati i velikim i malim i kombinovanim veličinama slova (title = Title = tiTLe), ali **preporuka je da se koriste mala slova**.
+## Uvek koristimo mala slova
+
+Nazivi tagova su neosetljivi na velika i mala slova. Za naš pregledač, `<DIV>` je isto što i `<div>`.
+
+Ipak, World Wide Web Konzorcijum (W3C) preporučuje upotrebu malih slova u HTML standardu. Takođe, mala slova su obavezna za strože tipove dokumenata, kao XHTML.
+
+U Školi koda tagove uvek pišemo malim slovima.

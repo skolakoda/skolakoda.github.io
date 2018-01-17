@@ -39,6 +39,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 
 - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
   - [Uvod u objektno orijentisano programiranje](https://www.slideshare.net/DamjanPavlica/uvod-u-objektno-orijentisano-programiranje-i-c)
+  - [Kako je nastalo objektno orijentisano programiranje?](/nastanak-oop)
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
   - Apstrakcija i neponavljanje koda
   - [Polimorfizam](/polimorfizam)
