@@ -1,54 +1,47 @@
 # Uvod u prilagodljivi dizajn
 
-Nekada su web sajtovi kreirani sa fiksnom širinom, kao što je 960 piksela, i očekivalo se da će svi korisnici imati prilično isto iskustvo prilikom pregleda. Ova fiksna širina nije bila dovoljna za ekrane laptopa i korisnici sa monitorima visoke rezolucije imali su velike margine sa obe strane ekrana.
+Nekada su web sajtovi kreirani sa fiksnom širinom, standardno 960 piksela, i očekivalo se da će svi korisnici imati prilično isto iskustvo prilikom pregleda. Korisnici sa monitorima visoke rezolucije imali su velike margine sa obe strane ekrana.
 
-Nesporna je činjenica da sve većom brzinom raste broj ljudi koji koriste male uređaje sa malim ekranom za pregled interneta, ali je isto tako, sa druge strane, uobičajena i pojava upotrebe monitora od 27 i 30 inča. Sada je razlika izmedu najmanjih i najvećih ekrana za pretraživanje weba veća nego ikada ranije. Srećom, postoji rešenje za ovu raznolikost pretraživača i uređaja. Prilagodljiv web dizajn omogućava da web sajt funkcioniše na više različitih uređaja i ekrana.
+Činjenica je da sve većom brzinom raste broj ljudi koji koriste male uređaje za pregled interneta, ali je takođe uobičajena upotrebe monitora od 27 i 30 inča. Sada je razlika izmedu najmanjih i najvećih ekrana veća nego ikada ranije. Srećom, postoji rešenje za ovu raznolikost pretraživača i uređaja. Prilagodljiv web dizajn omogućava da web sajt funkcioniše na više različitih uređaja i ekrana.
 
 ## Da li postoje situacije kada prilagodljiv dizajn nije dobar izbor?
 
 Ukoliko budžet omogućava i situacija zahteva, prava mobilna verzija web sajta verovatno može da bude najbolja opcija. Ona bi mogla da prikaže različite sadržaje, dizajn i interakciju na osnovu uređaja, lokacije, brzine konekcije i mnogo drugih varijabli, uključujući i tehničke mogućnosti uređaja. Ova vrsta rešenja zahteva mnogo više od onoga što sam prilagodljiv dizajn može da ponudi.
 
-Međutim, ne zahteva svaki projekat taj nivo sofisticiranosti. Na primer, na većini sajtova, kada predstavljam isti sadržaj, voleo bih da
-varira način na koji je on prikazan. Na malim ekranima elemente koji nisu izuzetno vaini postavite ispod glavnog sadržaja ili, u najgorem slučaju, sakrijte ih u potpunosti. Moiete da pomerite dugmad za navigaciju tako da Više odgovaraju dodiru prstom i nemojte nuditi dugmad koja odgovaraju samo korisnicima koji upotrebljavaju miš. Tipografija bi takode trebalo da bude skalirana zbog bolje čitljivosti, omogućavajući čitanje teksta bez potrebe stalnog povlačenja prikaza sa jedne na drugu stranu. Isto tako, dok isporučujemo sadržaj za manje prikaze, ne želimo da kompromitujerno dizajn za one koji koriste standardne laptop ili desktop ekrane. Kada već uključujemo sve, zašto ne bismo dodali nekoliko poboljšanja za one koji koriste velike ekrane, široke 1.900 piksela i Više?
+Međutim, ne zahteva svaki projekat taj nivo sofisticiranosti. Na primer, na većini sajtova, kada predstavljam isti sadržaj, voleo bih da varira način na koji je on prikazan. Na malim ekranima elemente koji nisu toliko važni postavite ispod glavnog sadržaja ili, u najgorem slučaju, sakrijte u potpunosti. Možete da pomerite dugmad za navigaciju tako da više odgovaraju dodiru prstom. Tipografija bi takode trebalo da bude skalirana zbog bolje čitljivosti, omogućavajući čitanje teksta bez potrebe stalnog povlačenja prikaza sa jedne na drugu stranu. Isto tako, dok isporučujemo sadržaj za manje prikaze, ne želimo da kompromitujerno dizajn za standardne laptop ili desktop ekrane.
 
 ## Definicija prilagodljivog web dizajna
 
-Termin prilagodljivi web dizajn je smislio Ethan Marcotte. U svom [izvornom članku](https://alistapart.com/article/responsive-web-design) iz 2010. godine, Marcotte je ujedinio tri postojeće tehnike (fleksibilan grid razmeštaj, fleksibilne slike i medije i medija upite) u jedan jedinstveni pristup i nazvao ga je prilagodljivi web dizajn.
+Termin prilagodljivi web dizajn je smislio Ethan Marcotte. U svom [izvornom članku](https://alistapart.com/article/responsive-web-design) iz 2010. godine, Marcotte je ujedinio tri postojeće tehnike (fleksibilan grid razmeštaj, fleksibilne slike i medija upite) u jedan jedinstveni pristup i nazvao ga prilagodljivi web dizajn.
 
-Stvarna prilagodljiva metodologija je, u stvari, više od samog pomeranja razmeštaja sajta na osnovu veličina prikaza. Potrebno je da izokrenemo ceo naš aktuelni pristup web dizajnu. Umesto da započinjemo sa dizajnom desktop sajta fiksne širine i smanjujemo ga tako da sadržaj odgovara i manjim prikazima, trebalo bi prvo da dizajniramo sajt za manje prikaze, a zatim da postepeno poboljšavamo dizajn i sadržaj za veće prikaze.
+Stvarno prilagodljiva metodologija je, u stvari, više od pukog razmeštaja na osnovu veličina prikaza. Potrebno je da izokrenemo ceo naš aktuelni pristup web dizajnu. Umesto da započinjemo sa dizajnom desktop sajta fiksne širine i smanjujemo ga da odgovara i manjim prikazima, trebalo bi prvo da dizajniramo sajt za manje prikaze, a zatim da postepeno poboljšavamo dizajn za veće.
 
-Ukratko rečeno, prilagodljiv web dizajn je prikaz sadržaja na najprihvatljiviji način za bilo koju veličinu ekrana preko kojeg se pristupa sadržaju. Nasuprot tome, pravi mobilni web sajtje potreban kada iskustvo zahteva specifičan sadržaj i funkcionalnost na osnovu uređaja sa kojeg mu pristupate.
+Ukratko rečeno, **prilagodljiv web dizajn je prikaz sadržaja na najprihvatljiviji način za bilo koju veličinu ekrana preko kojeg se pristupa**. Nasuprot tome, pravi mobilni web sajt je potreban kada korisničko iskustvo zahteva specifičan sadržaj i funkcionalnost na osnovu uređaja.
 
 {:.uokvireno}
-**Vezani ste za piksele? Prebolite to!** Nemojte se vezivati za piksele kao jedinicu mere, zato što ćete koristiti relativne jedinice mere (obično: em ili procente) kada budete dobro savladali prilagodljiv dizajn.
+**Vezani ste za piksele? Prebolite to!** Nemojte se vezivati za piksele kao jedinicu mere, zato što ćete koristiti relativne jedinice mere (obično em ili procente) kada budete savladali prilagodljiv dizajn.
 
-## Prikaz ili veličina ekrana
+## Razlika prikaza i veličina ekrana
 
-Važno je da razumete da prikaz i veličina ekrana nisu jedno isto. Prikaz se odnosi na područje sadržaja unutar prozora pretraživača, isključujući Iinije sa alatkama, kartice i tako dalje, a veličina ekrana na fizičko područje prikaza na uređaju. Budite pailjivi, jer neke alatke za promenu veličine pretraživača prikazuju veličinu, uključujući i elemente pretraživača, kao što su linija adrese, kartice i polja za pretraživanje, a druge alatke ih ne uključuju.
+Važno je razumeti da prikaz i veličina ekrana nisu isto. Prikaz se odnosi na unutrašnjost prozora pretraživača, isključujući liniju adrese, alatke, kartice i ostalo, a veličina ekrana na čitav ekran. 
 
-## CSS3 omogućava prilagodljiv dizajn i više od toga
+## Kratka istorija
 
-Ako ste se sredinom 1990—tih godina bavili web dizajnom, sećate se da je tada svaki dizajn bio zasnovan na tabelama i bio unutar sadržaja. Cascading Style Sheets (CSS) predstavljeni su kao način razdvajanja dizajna od sadržaja. Bilo je potrebno dosta vremena za web dizajnere da prihvate novi svet dizajna zasnovanog na CSS-u, ali pojedim' sajtovi, kao sto je [CSS Zen Garden](http://www.csszengarden.com/), utrli su put, prikazujući sta se sve može postići na vizuelnom planu pomoću takvog dizajna.
+Ako ste se sredinom 1990—tih godina bavili web dizajnom, sećate se da je tada svaki dizajn bio zasnovan na tabelama, i nalazio se unutar sadržaja. Kaskadni stilovi (*Cascading Style Sheets*, **CSS**) predstavljeni su kao način razdvajanja dizajna od sadržaja. Bilo je potrebno dosta vremena da web dizajneri prihvate novi svet dizajna zasnovanog na CSS-u, ali pojedini sajtovi, kao sto je [CSS Zen Garden](http://www.csszengarden.com/), utrli su put, prikazujući sta se sve može postići.
 
 Od tada CSS je postao uobičajeni način definisanja prezentacionog razmestaja web stranice, sa aktuelnom verzijom CSS 2.1 specifikacije.
 
-## Kako CSS3 može da reši svakodnevne probleme u dizajnu?
+## Mobilni sajtovi
 
-Ja na početku obično pitarn sledeće:
-
-- Da li klijent želi da podrži najveće tržište korisnika interneta? Ako je odgovor potvrdan, prilagodljiva metodologija je odgovarajuća.
-- Da li klijent razume da iskustvo pretrage može i treba da bude malo drugačije u različitim pretraživačima? Ako je odgovor potvrdan, prilagodljiva metodologija je odgovarajuća.
-- Da li klijent zahteva da dizajn izgleda identično u svim pretraživačima, uključujući i starije verzije Internet Explorer-a? Ako je odgovor potvrdan, prilagodljiva metodologija nije odgovarajuća.
-
-Takode je važno da ponovim da će, ako budžet omogućava, možda biti prilike kada je mobilna verzija web sajta "skrojenog" po meri mnogo bolja opcija od prilagodljivog dizajna. Da bih to preciznije objasnio, rešenja fokusirana na mobilne uređaje koja pružaju različite sadržaje korisnicima takvih uređaja nazivam mobilni web sajtovi.
+Nekada je mobilna verzija sajta "skrojenog" po meri mnogo bolja opcija od prilagodljivog dizajna. Rešenja fokusirana na mobilne uređaje koja pružaju različit sadržaj korisnicima takvih uređaja nazivam mobilni web sajtovi.
 
 ## Sajtovi ne treba da izgledaju isto u svim pretraživačima
 
-Od mene se često traži da konvertujem postojeći grafički dizajn u standardne web stranice zasnovane na HTML-u/CSS-u i jQueryju. Nikada se nije desilo da grafički dizajneri imaju bilo šta druge na umu osim desktop verzije sajta fiksne širine kada kreiraju dizajn. Moj zadatak je tada da kreiram savršenu interpretaciju piksela konkretnog dizajna u svakom poznatom pretraživaču. Moj neuspeh ili uspeh u izvršenju ovog zadatka definiće uspeh u očima mog klijenta, grafičkog dizajnera. Ovaj način razmišljanja je posebno karakerističan za klijente koji su radili medijski dizajn u štampanom izdanju. Njihovo rezonovanje je jednostavno razumeti; kompoziciju dizajna potpišu klijenti, oni ga prosleduju frontend dizajneru/programeru (vama ili meni), a mi se tada trudimo da završeni kod izgleda najbolje moguće za taj dizajn u svim glavnim pretraživačima.
+Od mene se često traži da prevedem postojeći dizajn u web stranice zasnovane na HTML-u, CSS-u i JS-u. Grafički dizajneri često nemaju ništa druge na umu osim desktop verzije sajta, fiksne širine. Moj zadatak je tada da kreiram savršenu implementaciju dizajna u svakom poznatom pretraživaču.
 
-Međutim, ako ste ikada pokušali da dobijete moderni web sajt koji izgleda isto u Internet Exploreru 6 i 7 kao i u modernim, standardnim i kompatibilnim pretraživačima, kao što su Safari, Firefox ili Chrome, razumećete teškoće pri obavljanju tog zadatka. Cesto mi je potrebno 30 procenata vremena/budieta namenjenog za projekat da bih ispravio sve mane i nedostatke u ovim starijim pretraživačima. To vreme bi moglo da se utroši za kreiranje pobolj šanja i uštedu koda za veliki broj korisnika koji sajtove pregledaju u modernim pretraživačima, a me 23 "krpljenje" i hakovanje osnove koda da bi se za mali broj korisnika Internet Explorera obezbedili zaobljeni uglovi, transparentne slike, korektno poravnanje elemenata formulara i tako dalje.
+Međutim, ako ste ikada pokušali da dobijete moderni web sajt koji izgleda isto u starom Internet Exploreru kao i modernim, standardnim, kompatibilnim pretraživačima, kao što su Safari, Firefox ili Chrome, razumećete teškoće pri obavljanju tog zadatka. Često mi je potrebno 30 procenata vremena/budžeta namenjenog za projekat da bih ispravio sve mane i nedostatke u starijim pretraživačima. To vreme bi moglo da se utroši za kreiranje poboljšanja i uštedu koda za veliki broj korisnika koji sajtove pregledaju u modernim pretraživačima, a me za "krpljenje" i hakovanje osnove koda, da bi se za mali broj korisnika Internet Explorera obezbedili zaobljeni uglovi, transparentne slike, korektno poravnanje elemenata formulara i tako dalje.
 
-Klijentu je potrebno objašnjenje zbog čega zavrfieni dizajn ne treba da izgleda isto u svim prikazima i pretraživačima. Neki klijenti 66 to razumeti, neki neće - pojedinci iele da svi zaobljeni uglovi i senke izgledaju identično i 11 Internet Explorera 6! Kada pristupam novom projektu, bez obzira da li je prilagodljiv dizajn primenjiv ili ne, pokušavam da mom klijentu objasnim sledeće tačke:
+Klijentu je potrebno objašnjenje zbog čega završeni dizajn ne treba da izgleda isto u svim prikazima i pretraživačima. Neki klijenti 66 to razumeti, neki neće - pojedinci iele da svi zaobljeni uglovi i senke izgledaju identično i 11 Internet Explorera 6! Kada pristupam novom projektu, bez obzira da li je prilagodljiv dizajn primenjiv ili ne, pokušavam da mom klijentu objasnim sledeće tačke:
 
 - Omogućavajući starijim pretraživačima da prikazuju stranice malo drugačije, pokazujem da je kod Iako održiv i jeftiniji za aiuriranje u budućnosti.
 - Ako svi elementi izgledaju isto, čak i u starijim pretraZivačima (na primer, 11 Internet Exploreru 8 i starijirn verzijama) dodaje se značajan broj slika u web sajt. Zbog toga će sajt biti sporiji, skuplji za kreiranje i teži za održavanje.
