@@ -2,7 +2,7 @@
 layout: kurs
 title: Uvod u web
 github: uvod-u-web
-image: /images/koncepti/web/responsive.svg
+image: /images/kursevi/html.gif
 opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multimedijom. Nauči temelje web razvoja.
 redirect_from:
   - /kursevi/ucimo-html/
@@ -118,9 +118,11 @@ redirect_from:
 - Vežba: fleksibilno prikaži krugove
 
 ### Prilagodljivi dizajn
+
+- [Uvod u prilagodljivi dizajn](/prilagodljivi-dizajn)
 - Izvorna prilagodljivost HTML-a
 - Fiksiranje dizajna i tačke preloma (*breakpoints*)
-- CSS `@media` upiti (*queries*)
+- CSS medija upiti (*media queries*)
 - Prvo mobilni dizajn (*mobile first*)
 - Bootstrap biblioteka
 - Vežba: napravi dva prikaza navigacije, za mobilni i desktop
