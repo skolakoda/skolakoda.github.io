@@ -1,5 +1,5 @@
 ---
-title: Bitovski operatori u Javaskriptu
+title: Bitovni operatori u Javaskriptu
 layout: lekcija-napredni-js
 author: damjan
 permalink: /bitovni-operatori-javaskript
