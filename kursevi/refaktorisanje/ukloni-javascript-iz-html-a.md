@@ -3,9 +3,10 @@ title: Ukloni JavaScript iz HTML-a
 layout: refaktorisanje
 author: damjan
 permalink: /refaktorisanje/ukloni-javascript-iz-html-a
+image: /images/refaktorisanje/spaghetti-code.jpg
 ---
 
-<img src='/images/refaktorisanje/spaghetti-code.jpg' width='300'>
+<img src='{{page.image}}' width='300'>
 
 Akademska zajednica [preporučuje](//www.ece.ubc.ca/~amesbah/docs/scam13.pdf) da se u web aplikacijama potpuno odvoje `JS`, `HTML` i `CSS`. HTML služi za strukturu, CSS za stilizovanje, a JavaScript za funkcionalnost, što je princip poznat kao [razdvajanje briga](https://en.wikipedia.org/wiki/Separation_of_concerns) (ovo se ne odnosi na frejmvorke, kao što su Angular ili React, koji imaju drugačiju arhitekturu).
 

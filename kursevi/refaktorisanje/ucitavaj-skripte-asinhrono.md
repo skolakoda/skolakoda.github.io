@@ -3,9 +3,10 @@ title: Učitavaj skripte asinhrono
 layout: refaktorisanje
 author: damjan
 permalink: /refaktorisanje/ucitavaj-skripte-asinhrono
+image: /images/refaktorisanje/asinhrono-ucitavanje.png
 ---
 
-![asinhrono učitavanje modula](/images/refaktorisanje/asinhrono-ucitavanje.png 'Razlika između blokirajućeg i asinhronog učitavanja JS modula')
+![asinhrono učitavanje modula]({{page.image}} 'Razlika između blokirajućeg i asinhronog učitavanja')
 
 Asinhrono učitavanje skripti je jedino ispravno rešenje koje [Google preporučuje](https://developers.google.com/speed/docs/insights/BlockingJS), jer ne blokira učitavanje ostalih resursa. Skripte se na taj način umesto jedna za drugom, učitavaju istovremeno, ali se izvršavaju bez ikakvog reda, što može biti nezgodno ako su međuzavisne. HTML `<script>` tag ima dva atributa za asinhrono učitavanje:
 - `defer` odlaže izvršenje dok se sve skripte ne učitaju, i izvršava ih redom kojim su uključene;

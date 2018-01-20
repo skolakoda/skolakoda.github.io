@@ -3,9 +3,10 @@ title: Organizuj varijable u objekte
 layout: refaktorisanje
 author: damjan
 permalink: /refaktorisanje/organizuj-varijable-u-objekte
+image: /images/refaktorisanje/objekat.jpg
 ---
 
-<img src='/images/refaktorisanje/objekat.jpg' width='400'>
+<img src='{{page.image}}' width='400'>
 
 Ukoliko u konfiguracionom delu fajla imate letećih varijabli, struktuirajte ih u objekte. Na primer, ako imate:
 

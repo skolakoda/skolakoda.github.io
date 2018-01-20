@@ -3,6 +3,7 @@ title: Pretvori skripte u module
 layout: refaktorisanje
 author: damjan
 permalink: /refaktorisanje/pretvori-skripte-u-module
+image: /images/refaktorisanje/closure.png
 ---
 
 Kada u svakom fajlu imamo globalne varijable, to žestoko zagađuje globalni prostor. Ukoliko promenljiva istog naziva postoji u još nekom fajlu ili biblioteci koju koristimo, doćiće do kolizije i pucanja programa.

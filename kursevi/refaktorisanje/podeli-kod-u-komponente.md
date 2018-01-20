@@ -3,9 +3,10 @@ title: Podeli kod u komponente
 layout: refaktorisanje
 author: damjan
 permalink: /refaktorisanje/podeli-kod-u-komponente
+image: /images/refaktorisanje/komponente.png
 ---
 
-![celine stranice](/images/refaktorisanje/celine.png)
+![celine stranice]({{page.image}})
 
 Podelite glavni js fajl u više zasebnih fajlova, nazvanih po logičnim celinama (komponentama) za čiju funkcionalnost su nadležni (npr. `contact.js`, `header.js`, `slider.js`). Na primer, ako se funkcija za slanje formulara koristi samo na kontakt stranici, smestite je tamo. U glavnom fajlu ostavite samo zajedničku funkcionalnost. Nova struktura fajlova će izgledati otprilike ovako:
 
