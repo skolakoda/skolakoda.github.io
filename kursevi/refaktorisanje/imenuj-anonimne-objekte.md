@@ -5,6 +5,8 @@ author: damjan
 permalink: /refaktorisanje/imenuj-anonimne-objekte
 ---
 
+![](https://d5wt70d4gnm1t.cloudfront.net/media/a-s/artworks/mikkel-johnsen/29546-762012198748/mikkel-johnsen-anonymous-object-5-1-800x800.jpg)
+
 Naša skripta za slanje formulara ima jedan anonimni parametarski objekat, koji nije toliko upadljiv:
 
 ```javascript
