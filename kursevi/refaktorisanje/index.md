@@ -50,3 +50,4 @@ image: /images/apstraktno/kontrolna-soba.jpeg
 - [Odvajanje uslova u funkciju](/odvajanje-uslova-u-funkciju)
 - [Uklanjanje ugnježdenih uslova](/uklanjanje-ugnjezdenih-uslova)
 - [Refaktorisanje uslova do nestanka](/refaktorisanje-uslova-do-nestanka)
+- [Logički zakoni za programere](/logicki-zakoni-za-programere)

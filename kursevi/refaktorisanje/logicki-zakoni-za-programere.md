@@ -9,56 +9,67 @@ permalink: /logicki-zakoni-za-programere
 
 ![Formalna logika](https://www.antikvarijat-phoenix.com/pic_nas/0051249.jpg)
 
+## Oznake
+
+Logičke oznake nisu iste za sve programskej jezike. Ovo je konvencija za C-like jezike:
+
+- i (`&&`)
+- ili (`||`)
+- ne (`!`)
+
 ## Zakon asocijacije
 
-Zakon asocijacije kaže da zagrade nisu bitne, kada povezujemo logičke iskaze istim operatorom:
+Zakon asocijacije kaže da zagrade nisu bitne, kada povezujemo logičke iskaze istim operatorom. Ovo važi za konjunkciju:
 
 ```
-p && (q && r) === (p && q) && r
-p || (q || r) === (p || q) || r
+p && (q && r) == (p && q) && r
 ```
 
-Analogiju možemo naći u matematici, gde zagrade takođe nisu bitne ako imamo samo operacije množenja ili sabiranja, koje su asocijativne (za razliku od deljenja i oduzimanja).
+I za disjunkciju:
+
+```
+p || (q || r) == (p || q) || r
+```
+
+Analogiju možemo naći u matematici, kod operacija množenja ili sabiranja, koje su *asocijativne*, za razliku od deljenja i oduzimanja. Npr:
+
+```
+4 + (5 + 6) == (4 + 5) + 6
+```
 
 ## Zakoni distribucije
 
 Zakoni distribucije definišu razlaganje složenih izraza, i mogu poslužiti razlaganju uslova. Prvi zakon distribucije izgleda ovako:
 
-![](https://wikimedia.org/api/rest_v1/media/math/render/svg/f6e44e66770303cef4cf29e118b8e6966ccd6fbf)
-
 ```
-p && (q || r) === (p && q) || (p && r)
+p && (q || r) == (p && q) || (p && r)
 ```
 
 Drugi zakon distribucije izgleda ovako:
 
-![](https://wikimedia.org/api/rest_v1/media/math/render/svg/b320f1fbd3369ea11f930908122d66148d3073f0)
-
 ```
-p || (q && r) === (p || q) && (p || r)
+p || (q && r) == (p || q) && (p || r)
 ```
 
-Ovi zakoni se oslanjaju na svojstvo distributivnosti, koje postoji i u algebri:
+Ovi zakoni se oslanjaju na svojstvo *distributivnosti*, koje postoji u algebri:
 
 ```
-a * (b + c) = a * b + a * c
+a * (b + c) == (a * b) + (a * c)
 ```
 
 ## De Morganovi zakoni
 
-De Morganovi zakoni su veoma primenjivi u refaktorisanju uslovnih izraza.
+De Morganovi zakoni su veoma primenjivi u refaktorisanju uslova. Oni zapravo predstavljaju, simboličkim jezikom izraženu, definiciju konjunkcije i disjunkcije:
 
 ```
-!(p && q) === !p || !q
-!(p || q) === !p && !q
+!(p && q) == !p || !q
+!(p || q) == !p && !q
 ```
-
-Oni zapravo predstavljaju, simboličkim jezikom izraženu, definiciju konjunkcije i disjunkcije:
 
 - `p i q` je lažno ako je bar jedna promenljiva lažna;
 - `p ili q` je lažno ako su obe promenljive lažne;
 
-## Primena
+## Primena u kodu
 
 U kodu bi primena prvog De Morganovog zakona izgledala ovako:
 
