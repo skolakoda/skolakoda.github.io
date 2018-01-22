@@ -23,10 +23,8 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 
 ### Integrisano razvojno okruženje
 
-- Installing Eclipse
-- Running Eclipse for the First Time
-- Editors, Views, and Perspectives
-- Setting up a Project
+- Instalacija Eclipse-a
+- Postavljanje projekta
 - Creating a New Java Application
 - Running a Java Application
 - Debugging a Java Application
@@ -119,11 +117,10 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - [Definisanje vlastitih izuzetaka](/definisanje-izuzetaka)
 - Errors and RuntimeExceptions
 
-### Input/Output Streams
+### Ulazno-izlazni tokovi
 
-- Overview of Streams
-- Bytes vs. Characters
-- Converting Byte Streams to Character Streams
+- [Šta je *stream*?](/java-stream)
+- [Čitanje bajtova](/java-citanje-bajtova)
 - File Object
 - Binary Input and Output
 - PrintWriter Class
