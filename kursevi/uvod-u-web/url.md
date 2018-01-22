@@ -2,9 +2,10 @@
 title: URL, jedinstvena adresa dokumenta
 layout: lekcija-html
 permalink: /url
+image: /images/koncepti/web/url.png
 ---
 
-![](/images/koncepti/web/url.png)
+![]({{page.image}})
 
 URL je kratica za *uniform resource locator*. To je pokazivač na određeni resurs na nekoj lokaciji na internetu. Na primjer, [https://skolakoda.org/kursevi](https://skolakoda.org/kursevi/) ili [https://skolakoda.org/blog](https://skolakoda.org/blog/) su URL-ovi.
 URL specificira protokol za pristup poslužitelju, npr. `ftp` ili `http`, ime poslužitelja, lokaciju datoteke na poslužitelju i eventualno sekciju unutar datoteke. Opći oblik URLa je:
