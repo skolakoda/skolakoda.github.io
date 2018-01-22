@@ -190,4 +190,8 @@ CarTest8.java:16: Variable speed in class Car not accessible from class CarTest8
 
 U mnogim slučajevima atributi bit će protected ili će imati default pristup, dok su, međutim, javne varijable rijetke. Takva koncepcija omogućuje programerima promjenu implementacije klase i istovremeno zadržavanje nepromijenjenog sučelja prema vanjskom svijetu.
 
+## Primjer promjene implementacije
+
+Radi uštede memorije, brojčani atributi klase `Car` su promenenjeni iz `double` u `float`. Seter metode i dalje primaju tip podatka `double`, ali ga interno konvertuju u `float`.
+
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
