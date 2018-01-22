@@ -8,9 +8,9 @@ redirect_from:
 
 **HTML je osnovni jezik weba. Sve stranice su njime napisane.**
 
-HTML služi za formatiranje teksta i strukturu stranice. Sastoji se od tagova u uglastim zagradama, koji govore pregledaču kako da prikaže sadržaj strane (na primer `<p>` je pasus, `<h1>` naslov, a `<img>` slika).
+HTML služi za formatiranje teksta i strukturu stranice. Sastoji se od oznaka u uglastim zagradama, koji govore pregledaču kako da prikaže sadržaj strane (na primer `<p>` je pasus, `<h1>` naslov, a `<img>` slika).
 
-Tagove na svakoj stranici možeš videti klikom na desno dugme miša i `View page source`. Pažljivo pogledaj i pokušaj da prepoznaš neke od tagova.
+Oznake (tagove) na svakoj stranici možeš videti klikom na desno dugme miša i `View page source`. Pažljivo pogledaj i pokušaj da prepoznaš neke od tagova.
 
 ## Učimo putem primera
 

@@ -80,7 +80,7 @@ redirect_from:
   - [Upotreba ema za tipografiju](/em-jedinica-tipografija)
 - Vežba: izaberi porodicu i veličinu slova za naslove i tekst
 
-### HTML birokratija
+### HTML struktura
 
 - [HTML struktura stabla](/ucimo-html/stablo)
   - Glava stranice, tj. metapodaci
@@ -99,7 +99,11 @@ redirect_from:
   - pravljenje navigacije pomoću liste
   - pravljenje navigacije pomoću linkova
   - menjanje boje na hover
+
+### Linkovi i putanje
+
 - Linkovi (`a`)
+  - [URL, jedinstvena adresa dokumenta](/url)
   - Relativne i apsolutne putanje
   - Unutrašnje veze ka delu stranice
   - Otvaranje u novom prozoru (`target` atribut)
