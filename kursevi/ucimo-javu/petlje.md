@@ -4,6 +4,38 @@ layout: lekcija-java
 permalink: /java-petlje
 ---
 
+## while petlja
+
+```java
+class Hello {
+
+  public static void main (String args[]) {
+
+    int i;
+
+    System.out.print("Hello ");   // Ispis Hello
+    i = 0;                        // Inicijaliziramo brojac prolaza kroz petlju
+    while (i < args.length) {     // Testiramo i iteriramo
+      System.out.print(args[i]);  
+      System.out.print(" ");
+      i = i + 1;                  // Povecamo brojac prolaza za 1
+    }
+    System.out.println();         // Zavrsimo liniju
+  }
+
+}
+```
+
+Konzola:
+```
+% javac Hello.java
+% java Hello
+% Hello
+%
+% java Hello prvi drugi treci cetvrti
+% Hello prvi drugi treci cetvrti
+```
+
 ## For petlja
 
 {:.ulaz}

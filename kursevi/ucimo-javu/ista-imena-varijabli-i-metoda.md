@@ -4,7 +4,7 @@ layout: lekcija-java
 permalink: /ista-imena-varijabli-i-metoda
 ---
 
-Java čak dozvoljava da varijable i metode imaju ista imena tako dugo dok se razlikuju po listi argumenata i povratnom tipu. Npr. klasi `TwoDPoint`, koja sadrži attribute `x` i `y`, možemo dodati i istoimene pristupne (*accessor*) metode bez opasnosti od dvoznačnosti:
+Java čak dozvoljava da varijable i metode imaju ista imena, sve dok se razlikuju po listi argumenata i povratnom tipu. Npr. klasi `TwoDPoint`, koja sadrži attribute `x` i `y`, možemo dodati i istoimene pristupne (*accessor*) metode bez opasnosti od dvoznačnosti:
 
 ```java
 class TwoDPoint {
@@ -62,13 +62,21 @@ class OriginPrinter {
 }
 ```
 
-Još jednom:
+Još jednom uradite:
 ```
 % javac TwoDPoint.java
 % javac OriginPrinter.java
 % java OriginPrinter
 (0.0,0.0)
 ```
+
+## Što je overloading?
+
+Izraz *overloading* označava situaciju kad se ista metoda ili operator koristi na više različitih tipova podataka. Na primjer, znakom `+` se označava zbrajanje cijelih brojeva, kao i konkatenacija stringova, pri čemu se on na različitim tipovima podataka ponaša različito. Zato kažemo da je znak `+` overloaded.
+
+Metode također mogu biti overloaded. Na primjer `System.out.println()` može ispisivati podatke tipa double, float, int, long, String i tako dalje, a koristite je na potpuno isti način na svim tim tipovima podataka.
+
+Normalno jedan identifikator referencira točno jednu metodu ili konstruktor. Međutim kad jedan identifikator označava više od jedne metode ili konstruktora, to je *overloading*.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

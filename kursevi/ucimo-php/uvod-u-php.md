@@ -188,9 +188,3 @@ Koja je razlika između naredbi `echo` i `print`? Nije velika. Print je više fu
 Izvor: Steven Holzner, *PHP 5*, Beograd, 2006.
 
 *Napomena: izvorni tutorijal je redigovan je 2017. godine.*
-
-
-<script>
-  {% include js/jezici.js %}
-  {% include js/editor-api.js %}
-</script>

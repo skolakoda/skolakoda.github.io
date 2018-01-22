@@ -1,4 +1,5 @@
 // sinhronizovati kljuceve jezika sa rouge highlighterom
+// prebaciti u json
 
 const jezici = {
   'c': 1,

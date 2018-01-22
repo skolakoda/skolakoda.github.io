@@ -1,35 +1,20 @@
 ---
-title: Objekti u Javi
+title: Pravljenje objekata
 layout: lekcija-java
 permalink: /java-objekti
 ---
 
-**Objekt je primjerak (instanca) klase.**
+***Objekt je primjerak (instanca) klase. Svojstva ili atribuiti kažu što neki objekt jest. Metode kažu što neki objekt radi.***
 
-## Atributi
+Objekte možete kreirati pomoću ključne riječi `new` iza koje slijedi tzv. konstruktor klase. Sljedeći program kreira objekt tipa `TwoDPoint` i ispisuje njegove atribute:
 
-Svojstva ili atribuiti kažu što neki objekt jest. Metode kažu što neki objekt radi.
-
+{:.ulaz}
 ```java
 class TwoDPoint {
   double x;
   double y;
 }
-```
 
-Da biste kompilirali tu klasu, spremite je u datoteku `TwoDPoint.java` i otipkajte:
-
-```
-% javac TwoDPoint.java
-```
-
-Primijetite da ovo nije kompletan program. Ne možete ga, naime, izvršiti jer mu nedostaje `main()` metoda.
-
-## Pravljenje objekata
-
-Objekte možete kreirati pomoću ključne riječi `new` iza koje slijedi tzv. konstruktor klase. Sljedeći program kreira objekt tipa `TwoDPoint` i ispisuje njegove atribute:
-
-```java
 class OriginPrinter {
   public static void main(String[] args) {
     TwoDPoint origin;         // ovime smo deklarirali (ne i alocirali) objekt origin
@@ -44,21 +29,17 @@ class OriginPrinter {
 
 Tocka `.` je tzv. separator pristupa članovima. Poziv konstruktora uz ključnu riječ `new` potreban je za alociranje objekta.
 
-Stavite ovu klasu u datoteku `OriginPrinter.java` u istom direktoriju kao `TwoDPoint.java`, kompajlirajte je i izvršite (to je sada kompletan program):
-
-```
-% javac OriginPrinter.java
-% java OriginPrinter
-Ishodiste ima koordinate 0.0, 0.0
-```
-
 ## Razlikovanje objekata iste klase
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CPT-OOP-objects_and_classes.svg/800px-CPT-OOP-objects_and_classes.svg.png)
+Općenito, klase će imati više od jedne instance. Sljedeći program kreira dva različita objekta tipa `TwoDPoint` i ispisuje njihove atribute.
 
-Općenito, klase će imati više od jednog objekta. Za razlikovanje objekata unutar iste klase koriste se referentne varijable. Sljedeći program kreira dva različita objekta tipa `TwoDPoint` i ispisuje njihove atribute.
-
+{:.ulaz}
 ```java
+class TwoDPoint {
+  double x;
+  double y;
+}
+
 class TwoPointPrinter {
   public static void main(String[] args) {
     TwoDPoint origin;         // deklariramo tocku origin
@@ -85,15 +66,21 @@ Ishodiste ima koordinate 0.0, 0.0
 Tocka one ima koordinate 1.0, 0.0
 ```
 
-Variable `one` i `origin` su dvije različite referentne varijable koje pokazuju na dva različita objekta. Nije dovoljno samo identificirati varijablu kao člana klase, već treba specificirati na koji objekt u toj klasi se ona referira.
+Variable `one` i `origin` su dvije različite referentne varijable koje pokazuju na dva različita objekta.
 
 ## Višestruko referenciranje objekta
 
-Moguće je da dvije referentne varijable pokazuju na isti objekt. Kad na neki objekt ne pokazuje ni jedna referentna varijabla, on će biti označen za uklanjanje (*garbage collection*).
+Moguće je da dvije varijable pokazuju na isti objekt. Kad na neki objekt ne pokazuje ni jedna referentna varijabla, on će biti označen za uklanjanje (*garbage collection*).
 
-Sljedeći program deklarira dvije referentne varijable tipa `TwoDPoint`, kreira jedan objekt tipa `TwoDPoint` i pridružuje taj objekt objema varijablama. Te se dvije varijable smatraju jednakima.
+Sljedeći program deklarira dvije varijable tipa `TwoDPoint`, kreira jedan objekt tipa `TwoDPoint` i pridružuje taj objekt objema varijablama. Te se dvije varijable smatraju jednakima:
 
+{:.ulaz}
 ```java
+class TwoDPoint {
+  double x;
+  double y;
+}
+
 class EqualPointPrinter {
   public static void main(String[] args) {
     TwoDPoint origin1; // deklariramo tocku origin1
@@ -118,7 +105,7 @@ Tocka origin1 ima koordinate 0.0, 0.0
 Tocka origin2 ima koordinate 0.0, 0.0
 ```
 
-Primijetite da su origin1 i origin2 dvije različite referentne varijable koje referenciraju isti objekt tipa point.
+Primijetite da su origin1 i origin2 dvije različite varijable koje referenciraju isti objekt.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

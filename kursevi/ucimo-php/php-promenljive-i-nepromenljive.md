@@ -123,9 +123,3 @@ Ako probate da promenite vrednost ove konstante (na primer, `pi = 3.14;`), PHP n
 
 
 Izvor: Steven Holzner, *PHP 5*, Beograd, 2006.
-
-
-<script>
-  {% include js/jezici.js %}
-  {% include js/editor-api.js %}
-</script>

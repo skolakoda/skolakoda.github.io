@@ -10,18 +10,18 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 ## Učimo Javu
 # Uvod u objektno orjentisano programiranje
 
-**Nauči Javu, popularni jezik za razvoj velikih poslovnih sistema. Savladaj objektno orjentisani pristup razvoju softvera.**
+**Nauči Javu, popularni jezik za razvoj velikih poslovnih sistema i podrazumevani jezik razvoja android aplikacija. Savladaj objektno orjentisani pristup razvoju softvera.**
 
 ### Upoznavanje sa Javom
 
-- What is Java?
+- [Šta je Java?](/sta-je-java)
 - How to Get Java
 - [Prvi Java Program](/zdravo-java)
-- Compiling and Interpreting Applications
+- [Prevođenje i izvršavanje programa](/java-prevodjenje-i-pokretanje-programa)
 - The JSDK Directory Structure
 - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
 
-### Eclipse
+### Integrisano razvojno okruženje
 
 - Installing Eclipse
 - Running Eclipse for the First Time
@@ -34,9 +34,12 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 ### Osnove jezika
 
 - A Java Program
-- If Statements
-- Switch Statements
+- [Operatori u Javi](/java-operatori)
+  - [Logički operatori](/java-logicki-operatori)
+- [Naredba if](/java-naredba-if)
+- [Naredba switch](/java-switch)
 - [Petlje u Javi](/java-petlje)
+  - [Označene petlje](/java-oznacene-petlje)
 - Syntax Details
 - [Tipovi podataka u Javi](/java-tipovi-podataka)
 - Variables
@@ -44,72 +47,76 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - Strings
 - [Polja (*arrays*)](/java-polja)
 - Enhanced for Loop
+- [Argumenti komandne linije](/java-argumenti-komandne-linije)
 
 ### Klase i objekti
 
 - [Klase i objekti u Javi](/java-klase-i-objekti)
-  - Defining a Class
   - [Pravljenje objekata](/java-objekti)
-  - Instance Data and Class Data
+  - [Primer: klasa Kola](/primer-klasa-kola)
+  - [Ugnježdene klase](/ugnjezdene-klase)
+- [Atributi](/java-atributi)
 - [Metode](/java-metode)
   - [Konstruktori](/java-konstruktori)
   - [Geter i seter metode](/java-geteri-i-seteri)
   - [Vraćanje vrijednosti iz metoda](/java-vracanje-vrednosti)
-  - [Ista imena varijabli i metoda](/ista-imena-varijabli-i-metoda)
-- Access Modifiers
-- [Statičke varijable](/java-staticke-varijable)
-- Encapsulation
+  - [Ista imena varijabli i metoda](/ista-imena-varijabli-i-metoda) (*overloading*)
+- [Kontrola pristupa](/kontrola-pristupa)
+  - [Zaštita pristupa u Javi](/java-zastita-pristupa)
+- [Statičke varijable i metode](/java-static)
+- [Enkapsulacija](/enkapsulacija)
 - [Ključna riječ this](/java-this)
+- [Ključna riječ final](/java-final)
 
 ### Using Java Objects
 
-- Printing to the Console
+- [Ispis u konzoli](/java-ispis-u-konzoli)
 - printf Format Strings
 - StringBuilder and StringBuffer
 - Methods and Messages
-- toString
+- [toString() metoda](/java-to-string-metoda)
 - Parameter Passing
-- Comparing and Identifying Objects
+- [Ispitivanje jednakosti objekata](/java-jednakost-objekata)
 - Destroying Objects
 - The Primitive-Type Wrapper Classes
 - Enumerated Types
 
-### Inheritance in Java
+### Nasleđivanje u Javi
 
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
-- Inheritance in Java
-- Casting
-- Method Overriding
-- Polymorphism
+- [Nasljeđivanje u Javi](/java-nasledjivanje)
+- [Automatsko pretvaranje tipova (*casting*)](/java-casting)
+- [Prekrivanje metoda](/java-prekrivanje-metoda)
+- [Polimorfizam](/polimorfizam)
 - super
 - The Object Class
 
-### Advanced Inheritance and Generics
+### Napredno nasleđivanje
 
-- Abstract Classes
-- Interfaces
-- Using Interfaces
+- [Apstraktne metode i klase](/java-abstract)
+- [Sučelja (interfejsi)](/java-interface)
+- [Implementacija interfejsa](/implementacija-interfejsa)
 - Collections
 - Generics
 - Comparable
 
-### Packages
+### Paketi
 
-- Packages
-- The import Statement
+- [Java biblioteka klasa](/java-biblioteka-klasa) (Java paketi)
+- [import naredba](/java-import-naredba)
 - Static Imports
 - CLASSPATH and Import
-- Defining Packages
+- [Pisanje vlastitih paketa](/pisanje-vlastitih-paketa)
 - Package Scope
 
-### Exception Handling
+### Rukovanje izuzecima
 
-- Exceptions Overview
-- Catching Exceptions
-- The finally Block
-- Exception Methods
-- Declaring Exceptions
-- Defining and Throwing Exceptions
+- [Izuzeci](/java-iznimke) (*exceptions*)
+- [Hvatanje izuzetaka](/hvatanje-izuzetaka) (`try-catch`)
+- [Finalni blok](/java-finalni-blok)
+- [Exception metode](/exception-metode)
+- [Izbacivanje izuzetaka](/izbacivanje-izuzetaka)
+- [Definisanje vlastitih izuzetaka](/definisanje-izuzetaka)
 - Errors and RuntimeExceptions
 
 ### Input/Output Streams
@@ -135,6 +142,6 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - The Map Interface
 - Map Implementation Classes
 
-### Dodaci
+### Dodatno
 
-- [Argumenti komandne linije](/java-argumenti-komandne-linije)
+- [Pretvaranje strune u broj](/java-pretvaranje-strune-u-broj)
