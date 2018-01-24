@@ -1,7 +1,7 @@
 ---
-title: Čitanje bajtova
+title: Čitanje ulaznog toka
 layout: lekcija-java
-permalink: /java-citanje-bajtova
+permalink: /java-citanje-ulaznog-toka
 ---
 
 Osnovna metoda `read()` iz klase [`InputStream`](https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html) čita pojedinačni neoznačeni bajt podataka i vraća njegovu `int` vrijednost. To je broj između 0 i 255. Kad se naiđe na kraj toka, vraća se -1, i to možete koristiti kao flag pomoću kojeg ćete ustanoviti da ste došli do kraja toka.

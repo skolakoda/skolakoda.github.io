@@ -1,5 +1,5 @@
 ---
-title: Izbacivanje izuzetaka (Throwing exceptions)
+title: "Izbacivanje izuzetaka (<i>Throwing exceptions</i>)"
 layout: lekcija-java
 permalink: /izbacivanje-izuzetaka
 ---

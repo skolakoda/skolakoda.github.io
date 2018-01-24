@@ -119,13 +119,16 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 
 ### Ulazno-izlazni tokovi
 
-- [Šta je *stream*?](/java-stream)
-- [Čitanje bajtova](/java-citanje-bajtova)
-- File Object
-- Binary Input and Output
-- PrintWriter Class
-- Reading and Writing Objects
-- Closing Streams
+- [Šta je tok (*stream*)?](/java-stream)
+  - [Čitanje ulaznog toka](/java-citanje-ulaznog-toka)
+  - [Izlazni tok](/java-izlazni-tok)
+  - [Prevod binarnog toka](/java-prevod-binarnog-toka)
+- [Klasa Fajl](/java-klasa-fajl)
+  - [Čitanje iz datoteke](/java-citanje-iz-datoteke)
+  - [Pisanje u datoteku](/java-pisanje-u-datoteku)
+- [Filtriranje tokova](/java-filtriranje-tokova)
+- [Taloženi tokovi](/java-buffered-stream)
+- [Zatvaranje toka](/java-zatvaranje-toka)
 
 ### Core Collection Classes
 

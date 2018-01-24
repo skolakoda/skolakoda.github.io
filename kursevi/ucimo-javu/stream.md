@@ -1,16 +1,16 @@
 ---
-title: Šta je stream?
+title: Šta je tok (<i>stream</i>)?
 layout: lekcija-java
 permalink: /java-stream
 ---
 
 ![](https://i.stack.imgur.com/5WrVE.png)
 
-**Struja ili tok (*stream*) je niz podataka koji ima neodređenu dužinu. Naziv je odabran jer struktura nalikuje struji vode koja neprekidno teče i nema definiranog kraja.**
+**Tok (*stream*) je niz podataka koji ima neodređenu dužinu. Naziv je odabran jer struktura nalikuje struji vode koja neprekidno teče i nema definiranog kraja.**
 
-U Javi se stream sastoji od niza diskretnih bajtova. Oni mogu predstavljati znakove ili neke druge vrste podataka. Mogu dolaziti brže nego što ih je moguće obraditi ili pak process može čekati dok ne dođe sljedeći za obradu. Ključ obrade streama je while petlja koja obrađuje svaki pojedini element streama dok ne učita znak za kraj streama ili dok se ne pojavi neki drugi uvjet.
+U Javi se tok sastoji od niza diskretnih bajtova. Oni mogu predstavljati znakove ili neke druge vrste podataka. Mogu dolaziti brže nego što ih je moguće obraditi ili pak process može čekati dok ne dođe sljedeći za obradu. Ključ obrade toka je while petlja koja obrađuje svaki pojedini element toka dok ne učita znak za kraj toka ili dok se ne pojavi neki drugi uvjet.
 
-Na Unixu je `<Ctrl-D>` znak za završetak streama. Windows za tu svrhu koristi `<Ctrl-Z>`.
+Na Unixu je `<Ctrl-D>` znak za završetak toka. Windows za tu svrhu koristi `<Ctrl-Z>`.
 
 ## Klase tokova
 
@@ -46,9 +46,9 @@ Mrežne konekcije obično daju tokove. Kad se povežete na neki web ili `ftp` il
 
 Java programi i sami proizvode tokove. Na primjer, `ByteArrayInputStream`, `ByteArrayOutputStream`, `StringBufferInputStream`, `PipedInputStream`, i `PipedOutputStream` se koriste za prijenos podataka iz jednog dijela programa u drugi.
 
-## Klasa `InputStream`
+## Klasa: Ulazni tok (`InputStream`)
 
-Klasa `java.io.InputStream` je apstraktna klasa koja sadrži osnovne metode za čitanje čistih bajtova podataka iz streama. Iako je to apstraktna klasa, mnoge metode u biblioteci vraćaju objekt tipa `InputStream`, tako da ćete često trebati raditi direktno s nekom od metoda deklariranih u toj klasi.
+Klasa `java.io.InputStream` je apstraktna klasa koja sadrži osnovne metode za čitanje čistih bajtova podataka iz toka. Iako je to apstraktna klasa, mnoge metode u biblioteci vraćaju objekt tipa `InputStream`, tako da ćete često trebati raditi direktno s nekom od metoda deklariranih u toj klasi.
 
 ```java
 public abstract int read() throws IOException
