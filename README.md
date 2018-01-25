@@ -28,13 +28,23 @@ bundle exec jekyll serve --limit_posts 1
 
 ## TODO
 
-- poslati bilten i javiti prijavljenima za alternativu
--  na malom kompu ne radi simbol .uokvireno.ideja
+- na malom kompu ne radi simbol .uokvireno.ideja
 - https://developers.google.com/web/progressive-web-apps/
 
 sadrzaj:
 - https://www.invisionapp.com/
-- ucimo-blockchain https://startit.rs/category/blockchain/
+
+- ucimo-blockchain
+https://startit.rs/category/blockchain/
+https://startit.rs/sve-sto-bi-trebalo-da-znate-o-bitkoinu/
+
+- masinsko ucenje
+http://alas.matf.bg.ac.rs/~mi15145/Andelka_Milovanovic_Masinsko_ucenjeTNP.pdf
+https://startit.rs/masinsko-ucenje-je-zabavno/
+https://startit.rs/sta-je-masinsko-ucenje-i-kako-menja-poslovne-softvere/
+http://predmet.singidunum.ac.rs/course/view.php?id=778
+http://infoteh.etf.unssa.rs.ba/zbornik/2014/radovi/RSS-7/RSS-7-3.pdf
+http://poincare.matf.bg.ac.rs/~nikolic/ml.html
 - php na srpskom: https://phpsrbija.github.io/php-the-right-way/
 - zen mudrosti
   https://www.toptal.com/algorithms/computability-theory-complexity
