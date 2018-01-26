@@ -50,6 +50,7 @@ https://www.ucionica.net/wp-content/uploads/2017/05/2-1024x662.png
 https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 https://bitfalls.com/hr/2017/11/26/whats-bitcoin-node-mining-vs-validation/
 https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
+http://hackeducation.com/2016/04/07/blockchain-education-guide
 
 - masinsko ucenje
 http://alas.matf.bg.ac.rs/~mi15145/Andelka_Milovanovic_Masinsko_ucenjeTNP.pdf
