@@ -4,8 +4,7 @@ title: Učimo blockchain
 image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 ---
 
-<!-- https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhLTE1ODctNDA2MC04OGEzLTU5NzM0OGZiZjdiMA.jpg -->
-<!-- https://www.digimarc.com/public_images/blockchain-1500x600.jpg -->
+![]({{page.image}})
 
 ## Učimo blockchain
 # Uvod u distribuirane mreže
@@ -14,12 +13,15 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 
 ### Uvod u bloklanac
 
+- [Uvod u Blockchain](/blockchain-uvod)
 - Blockchain origins
 - Blockchain objectves
 - Blockchain adoption
 
-### Bitcoin
+### Bitkoin revolucija
 
+- [Nastanak bitkoina](/nastanak-bitkoina)
+- [Blokovi i rudarenje](/rudarenje)
 - Bitcoin Protocol and Consensus: A High Level Overview
 - Bitcoin and Blockchain History: From the Cypherpunk Movement to JPMorgan Chase
 - Bitcoin Mechanics and Optimizations: A Technical Overview
@@ -27,6 +29,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 
 ### Bloklanac tehnologija
 
+- [Problem vizantijskih generala](/problem-vizantijskih-generala)
 - Bitcoin/Blockchain data structures and identifiers
 - Keys as Idententity
 - Digital Signatures
@@ -43,7 +46,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - The bitcoin Minning Process
 - Minning Developments
 
-### Emerging Trends in Blockchain
+### Novi trendovi u blockčeinu
 
 - Transaction limitations
 - Additional blockchains
@@ -53,7 +56,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - Blockchain and cloud computing
 - Cloud -Based Blockchains
 
-### Ethereum and Smart Contracts
+### Ethereum i pametni ugovori
 
 - Ethereum and Smart Contracts: Enabling a Decentralized Future
 - Game Theory and Network Attacks: How to Destroy Bitcoin
@@ -67,7 +70,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - Anonymity: Mixing and Altcoins
 - Side Contracts
 
-### Blockchain and Entrepreneurship
+### Blockchain i preduzetništvo
 
 - Blockchain Innovation and Entrepreneurship
 - Innovation theory
@@ -76,7 +79,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - Blockchain startup innovation
 - Data Provanence
 
-### Blockchain and Public Policy
+### Blockchain i javna politika
 
 - Blockchain and Public Policy
 - Elite opinion
@@ -86,6 +89,6 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - Public policy response
 - Politicians get on the bandwagon
 
-### Praksa
+### Bonus
 
 - [Learn Blockchains by Building One](https://hackernoon.com/learn-blockchains-by-building-one--f46)

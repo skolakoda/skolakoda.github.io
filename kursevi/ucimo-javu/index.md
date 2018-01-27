@@ -130,6 +130,14 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - [Taloženi tokovi](/java-buffered-stream)
 - [Zatvaranje toka](/java-zatvaranje-toka)
 
+### Višenitni rad (*multithreading*)
+
+- [Šta je višenitni rad?](/java-visenitnost)
+- [Rad sa nitima u Javi](/java-rad-sa-nitima)
+- [Imenovanje niti](/java-imenovanje-niti)
+- [Prioriteti niti](/java-prioriteti-niti)
+- [Sinhronizacija niti](/java-sinhronizacija-niti)
+
 ### Core Collection Classes
 
 - The Collections Framework
