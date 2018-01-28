@@ -35,8 +35,6 @@ sadrzaj:
 - https://www.invisionapp.com/
 
 - ucimo-blockchain
-https://startit.rs/uvod-u-blockchain/
-https://startit.rs/uvod-u-blockchain-kako-se-postize-konsenzus-u-decentralizovanom-sistemu/
 https://startit.rs/uvod-u-blockchain-ethereum-i-pametni-ugovori/
 https://startit.rs/uvod-u-blockchain-kriptovalute-trendovi-i-hajp/
 https://startit.rs/kako-izgleda-prakticna-primena-blockchaina-i-koji-su-najbolji-resursi-za-ucenje-o-ovoj-tehnologiji/
