@@ -36,7 +36,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - Hashes
 - Hashes as Addresses
 - Hash Pointers and Data Structures
-- Blockchain transactions
+- [Blockchain transakcije](/blockchain-transakcije)
 - Blockchain block structure
 
 ### Stvaranje vrednosti
