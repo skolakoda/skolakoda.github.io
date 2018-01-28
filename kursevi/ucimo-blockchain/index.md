@@ -9,7 +9,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 ## Učimo blockchain
 # Uvod u distribuirane mreže
 
-**Učimo blockchain (bloklanac), tehnologiju distribuiranih mreža.**
+**Učimo blockchain (lanac blokova), tehnologiju distribuiranih mreža.**
 
 ### Uvod u bloklanac
 
@@ -21,8 +21,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 ### Bitkoin revolucija
 
 - [Nastanak bitkoina](/nastanak-bitkoina)
-- [Blokovi i rudarenje](/rudarenje)
-- Bitcoin Protocol and Consensus: A High Level Overview
+- [Konsenzus u mreži bloklanaca](/konsenzus-u-blockchainu)
 - Bitcoin and Blockchain History: From the Cypherpunk Movement to JPMorgan Chase
 - Bitcoin Mechanics and Optimizations: A Technical Overview
 - Bitcoin IRL: Wallets, Mining, and More
@@ -30,6 +29,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 ### Bloklanac tehnologija
 
 - [Problem vizantijskih generala](/problem-vizantijskih-generala)
+  - [Otpornost na vizantijsku manu](/byzantine-fault-tolerance)
 - Bitcoin/Blockchain data structures and identifiers
 - Keys as Idententity
 - Digital Signatures
@@ -38,10 +38,15 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - Hash Pointers and Data Structures
 - [Blockchain transakcije](/blockchain-transakcije)
 - Blockchain block structure
+- [Blockchain vs. klasična baza podataka](/blockchain-vs-baza-podataka)
 
 ### Stvaranje vrednosti
 
-- Mining explained
+- [Rudarenje](/rudarenje)
+- [Dokaz o radu](/dokaz-o-radu)
+- [Dokaz o ulogu](/dokaz-o-ulogu)
+  - [Delegirani dokaz o ulogu](/delegirani-dokaz-o-ulogu)
+  - [Dokaz o važnosti](/dokaz-o-vaznosti)
 - The bitcoin network
 - The bitcoin Minning Process
 - Minning Developments
@@ -58,9 +63,9 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 
 ### Ethereum i pametni ugovori
 
+- [Uvod u Ethereum](/ethereum)
 - Ethereum and Smart Contracts: Enabling a Decentralized Future
 - Game Theory and Network Attacks: How to Destroy Bitcoin
-- Cryptoeconomics and Proof-of-State
 
 ### Distributed Systems and Alternative Consensus
 
