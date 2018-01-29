@@ -21,7 +21,6 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 ### Bitkoin
 
 - [Šta je Bitkoin?](/sta-je-bitkoin)
-- [Sajferpank pokret](/sajferpank-pokret)
 - [Nastanak bitkoina](/nastanak-bitkoina)
 - [Konsenzus u lancu blokova](/konsenzus-u-blockchainu)
 - [Hijerarhijsko i horizontalno umrežavanje](/hijerarhijsko-i-horizontalno-umrezavanje)

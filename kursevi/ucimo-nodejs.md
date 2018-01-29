@@ -70,10 +70,12 @@ kurs: nodejs
 - Čuvamo podatke
 
 ### Server i služenje podataka
+
+- [Portovi](/portovi)
 - Pokrećemo server
 - Služimo stranice
-- Ciklus zahteva i odgovora (`request` i `response`)
-- URL parametri (*query string*)
+- Zahtev i odgovor (`request` i `response`)
+- [URL parametri](/URL) (*query string*)
 - Vežba: [pravimo bekend kao REST API servis](https://stormpath.com/blog/tutorial-build-rest-api-mobile-apps-using-node-js)
 
 ### Striming (tečenje) podataka

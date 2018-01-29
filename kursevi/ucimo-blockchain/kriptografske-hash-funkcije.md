@@ -4,7 +4,7 @@ layout: lekcija-blockchain
 permalink: /kriptografske-hash-funkcije
 ---
 
-*Soft skill*-ovi su mrtvi, pripremi se na vreme za svet u kome caruje matematika. Doba disidenata pisaca, novinara, pesnika i glumaca je prošlo. Svako može da shvati, treba samo malo napora i želje. Sama srž ove tehnologije leži u zakonima brojeva. Koliko je koren iz 4? Dva? “Sedi jedan”, rekao bi na to srednjoškolski profesor. Tačan odgovor je +/-2, jer parna stepena funkcija gubi informaciju o znaku.
+Sama srž ove tehnologije leži u zakonima brojeva. Koliko je koren iz 4? Dva? “*Sedi jedan*”, rekao bi na to srednjoškolski profesor. Tačan odgovor je +/-2, jer parna stepena funkcija gubi informaciju o znaku.
 
 Koren je čudna funkcija. Problem kvadriranja dvojke ne možeš tek tako da rešiš unazad (inverzno). Možda sam ja krenuo od -2? Moraš da znaš neki dodatni uslov da bi izabrao pravu granu korena (pozitivnu ili negativnu) ili da probaš obe. Na kompjuteru ne bi mnogo potrajalo da zaista probaš obe grane. Ali! Postoji čitav jedan skup algoritama koji se zovu “kriptografske heš funkcije” (H). Pođimo od apsurdno velikog broja P (na primer od 55 cifara), stavimo ga u takav algoritam H i neka je rešenje broj J = H(P). Ovi algoritmi imaju čudesnu osobinu ireverzibilnosti. To znači da, imao li čak i najjači mogući sekvencijalni kompjuter, ne najjači postojeći, nego najjači koji termodinamika dozvoljava, u nameri da rešiš ovaj problem unazad, znajući J, a želeći da otkriješ P od koga smo krenuli ( P = H^-1(J) ) trebalo bi ti otprilike onoliko vremena koliko je Svemiru ostalo do njegove konačne termodinamičke smrti.
 

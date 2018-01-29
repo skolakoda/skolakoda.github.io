@@ -158,9 +158,10 @@ kurs: uvod
 
 ### Mrežna komunikacija
 
-- `http` (protokol za transfer teksta)
-- čitanje resursa preko mreže
-- slanje resursa preko mreže
+- [Portovi](/portovi)
+- [`http`](/http) (protokol za transfer teksta)
+- GET (čitanje resursa preko mreže)
+- POST (slanje resursa preko mreže)
 
 ### Kriptografija
 

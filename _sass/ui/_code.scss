@@ -3,7 +3,6 @@
 code {
   background-color: $wild-sand;
   display: inline-block;
-  font-size: 90%;
 }
 
 pre {
@@ -15,6 +14,7 @@ pre {
   padding: 16px;
 
   code {
+    font-size: 90%;
     width: 100%;
   }
 }
