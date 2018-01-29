@@ -29,6 +29,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 
 ### Blockchain tehnologija
 
+- [Problemi sa posrednicima](/problemi-sa-posrednicima)
 - [Problem vizantijskih generala](/problem-vizantijskih-generala)
   - [Otpornost na vizantijsku manu](/byzantine-fault-tolerance)
 - Bitcoin/Blockchain data structures and identifiers
