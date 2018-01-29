@@ -10,6 +10,8 @@ Određen broj ljudi koji održava mrežu može da odluči da promeni nešto u sv
 
 ## Problem
 
+![](https://www.mojafirma.rs/wp-content/uploads/2017/12/napad.jpg)
+
 **Zamislimo veliku srednjevekonu vojsku koja je opkolila grad, sa mnogo divizija i generala na čelu tih divizija.** Oni moraju da postignu konsenzus kada da izvedu koordinisani napad na grad. Nijedan od generala ne može da vidi ostale, niti glavnog generala. Mogu da komuniciraju samo preko glasnika, što nas dovodi do problema razmene informacija.
 
 Pritom, nisu svi generali lojalni vojsci. Neki od generala su izdajnici plaćeni od neprijateljske strane i ne žele da se konsenzus između lojalnih postigne. Lojalni generali žele da napadnu grad, ali potrebna im je istovremena većina. Dakle, potreban je način da svi lojalni generali odluče na isti način o napadu, a da manji broj izdajica ne natera lojalne da uvaže loš plan. Lojalni generali će postupiti kako se očekuje u skladu sa algoritomom, dok će izdajnici postupiti kako god oni žele.
