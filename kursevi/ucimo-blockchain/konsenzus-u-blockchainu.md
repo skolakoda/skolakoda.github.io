@@ -1,5 +1,5 @@
 ---
-title: Konsenzus u mreži bloklanaca
+title: Konsenzus u lancu blokova
 layout: lekcija-blockchain
 permalink: /konsenzus-u-blockchainu
 ---

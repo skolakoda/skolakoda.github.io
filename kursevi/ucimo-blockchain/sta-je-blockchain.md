@@ -1,7 +1,7 @@
 ---
-title: Uvod u Blockchain
+title: Šta je Blockchain?
 layout: lekcija-blockchain
-permalink: /blockchain-uvod
+permalink: /sta-je-blockchain
 ---
 
 ![](https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhLTE1ODctNDA2MC04OGEzLTU5NzM0OGZiZjdiMA.jpg)
@@ -37,22 +37,5 @@ ometati. Blockchain je sastavljen od blokova međusobno povezanih u lanac. Svaki
 blok sadrži niz zapisa. Blokovi se povezuju algoritmom koji koristi kriptografsku hash funkciju. Veza između blokova se ne može krivotvoriti osim ako napadač ima
 ogromne računalne resurse na raspolaganju.
 
-## Lokalna baza vs. lanac blokova
-
-U dosadašnjem poslovanju svaka zainteresirana strana u postupku održava lokalne
-baze podataka s različitim informacijama, bilo da se radi o centraliziranoj ustanovi
-poput banke ili nekoj organizaciji u sustavu poslovanja. Podaci se dijele između
-stranaka samo kada ima potrebe za tim. Integritet podataka u lokalnim bazama organizacije
-pod svaku cijenu žele zaštititi, no napadi na takve digitalne podatke sve
-su češći. Napad na izoliranu lokalnu bazu podataka može imati katastrofalne posljedice.
-Tada postoji mogućnost rekreiranja baze iz backupa pri čemu dolazi do gubitka
-dijela informacija. Nepotpunost podataka može uzrokovati i značajne financijske gubitke.
-Ako napad nije odmah otkriven u budućnosti podaci neće biti konzistentni s
-podacima partnera u poslovanju. To će narušiti međusobno povjerenje, a otklanjanje
-problema uzrokovanih napadom će biti dug i mukotrpan proces. Blockchain tehnologija
-nam omogućava da podaci postanu korisniji ne samo jednoj organizaciji, nego
-svim partnerima u mreži. S druge strane, podacima kao i ostalim procesima između
-partnera se upravlja na kontroliran način uz visoku razinu sigurnosti i povjerenja.
-
-
+ 
 Izvor: Domina Hozjan, *Blockchain (diplomski rad)*, Prirodoslovno–matematički fakultet, Zagreb, 2017.

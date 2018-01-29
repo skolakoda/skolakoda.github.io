@@ -1,5 +1,5 @@
 ---
-title: Blockchain vs. klasična baza podataka
+title: Blockchain vs. baza podataka
 layout: lekcija-blockchain
 permalink: /blockchain-vs-baza-podataka
 ---

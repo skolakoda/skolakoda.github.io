@@ -35,11 +35,6 @@ sadrzaj:
 - https://www.invisionapp.com/
 
 - ucimo-blockchain
-https://startit.rs/uvod-u-blockchain-ethereum-i-pametni-ugovori/
-https://startit.rs/uvod-u-blockchain-kriptovalute-trendovi-i-hajp/
-https://startit.rs/kako-izgleda-prakticna-primena-blockchaina-i-koji-su-najbolji-resursi-za-ucenje-o-ovoj-tehnologiji/
-https://startit.rs/sve-sto-bi-trebalo-da-znate-o-bitkoinu/
-https://www.nezavisne.com/ekonomija/analize/Sta-je-blockchain/454526
 https://www.mojafirma.rs/magazin/sta-je-to-blokcein-blockchain-i-kako-radi/
 http://pcchip.hr/ostalo/tech/uvod-u-blockchain-tehnologiju/
 http://www.sk.rs/2017/07/skin01.html
