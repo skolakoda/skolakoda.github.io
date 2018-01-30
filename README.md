@@ -35,7 +35,6 @@ sadrzaj:
 - https://www.invisionapp.com/
 
 - ucimo-blockchain
-https://www.mojafirma.rs/magazin/sta-je-to-blokcein-blockchain-i-kako-radi/
 http://pcchip.hr/ostalo/tech/uvod-u-blockchain-tehnologiju/
 http://www.sk.rs/2017/07/skin01.html
 https://www.ucionica.net/wp-content/uploads/2017/05/2-1024x662.png

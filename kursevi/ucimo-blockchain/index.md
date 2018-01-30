@@ -32,6 +32,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - [Problemi sa posrednicima](/problemi-sa-posrednicima)
 - [Problem vizantijskih generala](/problem-vizantijskih-generala)
   - [Otpornost na vizantijsku manu](/byzantine-fault-tolerance)
+- [Bitkoinov lanac blokova](/bitkoinov-blockchain)
 - Bitcoin/Blockchain data structures and identifiers
 - Keys as Idententity
 - Digital Signatures

@@ -24,4 +24,4 @@ Posrednici su veoma važni jer nam omogućuju interakciju sa ljudima sa kojima s
 - Privatnost: Ovo se nekako nadovezuje na poverenje. Posrednik često raspolaže privatnim podacima svojih klijenata. Postoji opravdan strah da bi posrednik te podatke mogao da zloupotrebi. Takođe, potencijalno može biti veliki problem ako posrednik te podatke ne čuva na dovoljno bezbedan način. U tom slučaju do njih mogu doći hakeri i zloupotrebiti ih.
 
 
-Izvor: Aleksandar Matanović, *[Šta je to blokčein (blockchain) i kako radi? ](https://www.mojafirma.rs/magazin/sta-je-to-blokcein-blockchain-i-kako-radi/)*, Mojafirma, 2017.
+Izvor: Aleksandar Matanović, *[Šta je to blokčein i kako radi? ](https://www.mojafirma.rs/magazin/sta-je-to-blokcein-blockchain-i-kako-radi/)*, Mojafirma, 2017.
