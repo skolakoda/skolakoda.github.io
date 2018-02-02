@@ -28,6 +28,7 @@ bundle exec jekyll serve --limit_posts 1
 
 ## TODO
 
+- vratiti deljenje na lekcije
 - na malom kompu ne radi simbol .uokvireno.ideja
 - https://developers.google.com/web/progressive-web-apps/
 
