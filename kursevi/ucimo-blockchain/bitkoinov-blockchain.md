@@ -4,7 +4,7 @@ layout: lekcija-blockchain
 permalink: /bitkoinov-blockchain
 ---
 
-**Priča o kriptovalutama počinje bitkoinom, pa ćemo i priču o blokčeinu početi bitkoinovim blokčeinom.**
+**Priča o kriptovalutama počinje bitkoinom i njegovim blokčeinom. Bitkoinov blockchain je zapravo mreža servera koji se ponašaju kao replicirana baza podataka.**
 
 Blokčein je registar svih transakcija koje su se ikad desile u bitkoinovom sistemu. To samo po sebi nije ništa spektakularno, jer svaki sistem u kojem se vrše neka plaćanja vodi evidenciju o tim transakcijama i čuva ih kao neku bazu podataka. Ono što je kod blokčeina velika inovacija je način na koji se informacije o transakcijama šalju i skladište.
 
@@ -13,6 +13,8 @@ Pođimo od samog imena. *Blockchain* je sastavljen od reči *block* (blok) i *ch
 ## Jednak ka jednakom
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/P2P-network.svg/464px-P2P-network.svg.png)
+
+![](http://pcchip.hr/wp-content/uploads/2017/03/blockchain-5.jpg)
 
 Kao što verovatno već znamo, bitkoin je decentralizovan, što znači da ne postoji centralni server ili bilo šta slično, na šta se korisnici povezuju. Svi korisnici bitkoina su povezani u *peer-to-peer* (jednak ka jednakom) mrežu i svaki korisnik predstavlja jedno čvorište (*node*) te mreže. Pošto je peer-to-peer mreža takva da svaki korisnik može biti direktno povezan samo sa nekoliko drugih korisnika, to znači da je sa svima ostalima povezan indirektno. Informacija kroz peer-to-peer mrežu putuje tako što svaki učesnik šalje poruku samo onima sa kojima je direktno povezan, zatim svaki od njih tu poruku dalje šalje onima sa kojima je direktno povezan i tako sve dok poruka ne dođe do svih učesnika u mreži. Dakle, ovde imamo primer slanja informacija preko velikog broj posrednika i sjajan primer problema vizantijskih generala, samo mnogo komplikovaniji primer od onog kojeg smo prethodno razmatrali.
 

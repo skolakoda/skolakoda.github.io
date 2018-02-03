@@ -6,6 +6,8 @@ permalink: /sta-je-blockchain
 
 ![](https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhLTE1ODctNDA2MC04OGEzLTU5NzM0OGZiZjdiMA.jpg)
 
+![](https://www.ucionica.net/wp-content/uploads/2017/05/2-1024x662.png)
+
 **Blockchain daleko prevazilazi tehnologiju na kojoj su zasnovane kriptovalute.**
 
 Blockchain tehnologija omogućava da se digitalna informacija distribuira između svih

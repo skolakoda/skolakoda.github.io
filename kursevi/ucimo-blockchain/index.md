@@ -26,6 +26,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - [Hijerarhijsko i horizontalno umrežavanje](/hijerarhijsko-i-horizontalno-umrezavanje)
 - Bitcoin Mechanics and Optimizations: A Technical Overview
 - Bitcoin IRL: Wallets, Mining, and More
+- [Mane bitkoina](/mane-bitkoina)
 
 ### Blockchain tehnologija
 
@@ -33,6 +34,8 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - [Problem vizantijskih generala](/problem-vizantijskih-generala)
   - [Otpornost na vizantijsku manu](/byzantine-fault-tolerance)
 - [Bitkoinov lanac blokova](/bitkoinov-blockchain)
+- [Glavna knjiga](/blockchain-ledger)
+- [Bitkoinov čvor](/bitkoinov-cvor)
 - Bitcoin/Blockchain data structures and identifiers
 - Keys as Idententity
 - Digital Signatures
@@ -75,7 +78,7 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 
 ### Uvod u kriptovalute
 
-- [Šta je kriptovaluta?](/sta-je-kriptovaluta)
+- [Šta je kriptovaluta?](/kriptovaluta)
 - [Prednosti kriptovaluta](/prednosti-kriptovaluta)
 - [Inicijalna ponuda novčića](/inicijalna-ponuda-novcica)
 - [Regulacija kriptovaluta](/regulacija-kriptovaluta)
@@ -98,8 +101,9 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - Blockchain startup innovation
 - Data Provanence
 
-### Blockchain i javna politika
+### Blockchain i javna uprava
 
+- [Blockchain i javna uprava](/blockchain-i-javna-uprava)
 - [Blockchain i politički izbori](/blockchain-i-izbori)
 - Elite opinion
 - The move to the mainstream

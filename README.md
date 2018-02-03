@@ -36,11 +36,7 @@ sadrzaj:
 - https://www.invisionapp.com/
 
 - ucimo-blockchain
-http://pcchip.hr/ostalo/tech/uvod-u-blockchain-tehnologiju/
-http://www.sk.rs/2017/07/skin01.html
-https://www.ucionica.net/wp-content/uploads/2017/05/2-1024x662.png
-https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
-https://bitfalls.com/hr/2017/11/26/whats-bitcoin-node-mining-vs-validation/
+https://bitfalls.com/hr/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/
 https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
 http://hackeducation.com/2016/04/07/blockchain-education-guide
 https://startit.rs/lekcije-za-programere-iz-druge-najvece-pljacke-u-istoriji-digitalnih-valuta/

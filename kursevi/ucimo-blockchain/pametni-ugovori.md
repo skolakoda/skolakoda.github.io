@@ -4,7 +4,7 @@ layout: lekcija-blockchain
 permalink: /pametni-ugovori
 ---
 
-**Pametni ugovori (*smart contracts*) predstavljaju najzanimljiviji koncept i ujedno možda najvažniju funkciju koju omogućavaju blockchain sistemi.**
+**Pametni ugovori (*smart contracts*) predstavljaju posebno zanimljiv aspekt blockchain tehnologije. Reč je o softveru koji se brine o realizaciji tačaka nekog ugovora. Ukoliko te tačke nisu ispunjene u celosti, sistem blokira njegovo daljnje funkcionisanje.**
 
 Legendarni kriptograf Nick Szabo je 1994. godine predložio da raspodeljene knjige mogu biti iskorišćene za pametne ugovore (mnogo pre nastanka same tehnologije). Nick Szabo i [njegovi tekstovi](http://unenumerated.blogspot.rs/) su navodno poslužili kao uzor Satoshiju.
 
