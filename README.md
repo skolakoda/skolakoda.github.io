@@ -37,7 +37,6 @@ sadrzaj:
 - https://www.invisionapp.com/
 
 - ucimo-blockchain
-https://startit.rs/lekcije-za-programere-iz-druge-najvece-pljacke-u-istoriji-digitalnih-valuta/
 https://zir.nsk.hr/islandora/object/pmf%3A779/datastream/PDF/view
 
 - masinsko ucenje

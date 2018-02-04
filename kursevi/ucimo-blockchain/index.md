@@ -1,7 +1,7 @@
 ---
 layout: kurs
 title: Učimo blockchain
-image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
+image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhLTE1ODctNDA2MC04OGEzLTU5NzM0OGZiZjdiMA.jpg
 ---
 
 ![]({{page.image}})
@@ -33,18 +33,19 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - [Problemi sa posrednicima](/problemi-sa-posrednicima)
 - [Problem vizantijskih generala](/problem-vizantijskih-generala)
   - [Otpornost na vizantijsku manu](/byzantine-fault-tolerance)
-- [Bitkoinov lanac blokova](/bitkoinov-blockchain)
+- [Bitkoinov blockchain](/bitkoinov-blockchain)
 - [Glavna knjiga](/blockchain-ledger)
 - [Bitkoinov čvor](/bitkoinov-cvor)
 - Bitcoin/Blockchain data structures and identifiers
 - Keys as Idententity
 - Digital Signatures
+- [Hash funkcija](/hash-funkcija)
 - [Kriptografske heš funkcije](/kriptografske-hash-funkcije)
-- Hashes
 - Hashes as Addresses
 - Hash Pointers and Data Structures
 - [Blockchain transakcije](/blockchain-transakcije)
-- Blockchain block structure
+- [Struktura blockchain bloka](/struktura-blockchain-bloka)
+  - [Binarno hash stablo](/binarno-hash-stablo)
 - [Blockchain vs. baza podataka](/blockchain-vs-baza-podataka)
 - [Blockchain protokol](/blockchain-protokol)
 
@@ -78,7 +79,8 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 
 ### Uvod u kriptovalute
 
-- [Šta je kriptovaluta?](/kriptovaluta)
+- [Kriptovalute](/kriptovalute)
+  - [Namecoin](/namecoin)
 - [Prednosti kriptovaluta](/prednosti-kriptovaluta)
 - [Inicijalna ponuda novčića](/inicijalna-ponuda-novcica)
 - [Regulacija kriptovaluta](/regulacija-kriptovaluta)

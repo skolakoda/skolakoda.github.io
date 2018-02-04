@@ -4,17 +4,18 @@ layout: lekcija-blockchain
 permalink: /kriptografske-hash-funkcije
 ---
 
-Sama srž ove tehnologije leži u zakonima brojeva. Koliko je koren iz 4? Dva? “*Sedi jedan*”, rekao bi na to srednjoškolski profesor. Tačan odgovor je +/-2, jer parna stepena funkcija gubi informaciju o znaku.
+**Da bismo mogli proučavati blockchain kao strukturu podataka i blockchain kao tehnologiju najprije moramo definirati što su to kriptografske hash funkcije.**
 
-Koren je čudna funkcija. Problem kvadriranja dvojke ne možeš tek tako da rešiš unazad (inverzno). Možda sam ja krenuo od -2? Moraš da znaš neki dodatni uslov da bi izabrao pravu granu korena (pozitivnu ili negativnu) ili da probaš obe. Na kompjuteru ne bi mnogo potrajalo da zaista probaš obe grane. Ali! Postoji čitav jedan skup algoritama koji se zovu “kriptografske heš funkcije” (H). Pođimo od apsurdno velikog broja P (na primer od 55 cifara), stavimo ga u takav algoritam H i neka je rešenje broj J = H(P). Ovi algoritmi imaju čudesnu osobinu ireverzibilnosti. To znači da, imao li čak i najjači mogući sekvencijalni kompjuter, ne najjači postojeći, nego najjači koji termodinamika dozvoljava, u nameri da rešiš ovaj problem unazad, znajući J, a želeći da otkriješ P od koga smo krenuli ( P = H^-1(J) ) trebalo bi ti otprilike onoliko vremena koliko je Svemiru ostalo do njegove konačne termodinamičke smrti.
+Kriptografska hash funkcija je posebna klasa hash funkcije koja ima određena svojstva koja je čine prikladnom za uporabu u kriptografiji. Općenito, hash funkcija je bilo funkcija koja za ulaz ima podatke proizvoljne veličine, a kao izlaz vraća podatke fiksne veličine. Vrijednost hash funkcije često naziva hash vrijednost ili kratko *hash* dok se ulazni podatak naziva poruka. Kriptografske hash funkcije su jednosmjerne odnosno nemaju inverz. Jedini način da se kreiraju ulazni podaci kriptografske hash funkcije iz izlaza je pokušati pretraživanje *brute-force* algoritmom, isprobavanjem svih mogućih vrijednosti ulaza kako bi se vidjelo koji od ulaza odgovara izlazu koji posjedujemo.
 
-Ovaj algoritam u Bitkoinu ima dve ključne uloge:
+Poželjno je da kriptografska hash funkcija zadovoljava sljedećih 5 svojstava:
+- Deterministička je. Vrijedi, ako su dva izlaza dobivena pomoću iste funkcije različiti, tada su i ulazi bili različiti.
+- Lako i brzo se može izračunati vrijednost funkcije za bilo koji ulaz.
+- Neisplativo je generirati ulaz za određeni izlaz, isprobavanjem svih mogućih vrijednosti ulaza.
+- Mala promjena na ulaznim podacima treba promijeniti vrijednost funkcije, tako da se ne naslućuje nikakva sličnost između stare i nove vrijednosti funkcije.
+- Postoji mogućnost kolizije, dobivanja istih vrijednosti za različite ulazne podatke, ali je neisplativo traženje dvaju takvih ulaznih podataka.
 
-- On čuva tvoju imovinu od drugih, tako da svako može da pristupi toj računovodstvenoj knjizi (zamisli da banka dozvoli da svako pristupi njenoj bazi podataka) a da opet ne može da ti je uzme. Zato Bitkoinu nisu potrebni adresa, zaposleni, direktori, obezbeđenje i revizori.
-
-- On čuva tuđu imovinu od tebe jer te sprečava da falsifikuješ transakciju i probaš dva puta da potrošiš isti novčić, kroz genijalno Satošijevo otkriće dokaza o radu (*proof-of-work* ili Nakamoto konsenzus). Novčana mreža je primer tzv. Vizantijske mreže, u kojoj se učesnici ne smatraju kooperantima nego suparnicima. Nakamoto konsenzus je rešenje kako ta mreža dolazi do zaključka šta je istina, kolika je nečija imovina, bez da se ikome predaje poverenje da za nas vodi tu knjigu evidencije imovine!
-
-Sve do bloka postanja (*genesis block*) 3. januara 2009. morali smo da imamo računovođu (banka) kome predajemo poverenje da za nas vodi računovodstvenu knjigu novca. Ako on kaže prodavcu da ti imaš dinar sa kojim kupuješ robu, prodavac će mu verovati i robu će ti dati. Sada umesto poverenja imamo zakone brojeva. Bitkoin je jedna računovodstvena knjiga za celu planetu, agnostična na državne regulative i konačno, hvala Bogu, ne zahteva računovođu.
+Kriptografske hash funkcije imaju mnogo primjena. Mogu se koristiti za implementaciju različitih struktura podataka poput tablica, lista ili stabala. Primjenjuju se za digitalno potpisivanje poruka između korisnika u nekom nesigurnom sustavu. Također pri radu s datotekama hash funkcije omogućuju stvaranje digitalnog "otiska prsta" (eng. *fingerprint*) na sadržaj datoteke. Pomoću "otiska prsta" lako je identificirati je li sadržaj datoteke promijenjen. Mnogi operacijski sustavi koriste kriptografske hash funkcije za enkripciju zaporki te su one sastavni dio mnogih mehanizama za provjeru autentičnosti. Kriptovalute takve funkcije koriste kako bi bez središnjeg autoriteta postigle siguran prijenos novca.
 
 
-Izvor: Danilo Backović, *[Sve što bi trebalo da znate o Bitkoinu ](https://medium.com/@dbacko/bitkoin-banke-i-suverenost-individue-9aeaa7177a05)*, Medium, 2017.
+Izvor: Domina Hozjan, [*Blockchain (diplomski rad)*](https://zir.nsk.hr/islandora/object/pmf%3A779/datastream/PDF/view), Prirodoslovno–matematički fakultet, Zagreb, 2017.

@@ -1,5 +1,5 @@
 ---
-title: Bitkoinov lanac blokova
+title: Bitkoinov blockchain
 layout: lekcija-blockchain
 permalink: /bitkoinov-blockchain
 ---

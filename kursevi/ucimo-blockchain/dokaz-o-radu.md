@@ -8,19 +8,19 @@ permalink: /dokaz-o-radu
 
 Kod dokaza rada, rudarski čvor (računalo ili skup računala) radi sljedeće:
 
-- s interneta preuzima nalog za odobravanje određenog skupa transakcija. Drugim riječima, od drugih minera s kojima je u kontaktu (ovisno o geografskoj blizini) dobiva podatke u kojima je zapisano tko kome šalje koliko neke kriptovalute.
+- s interneta preuzima nalog za odobravanje određenog skupa transakcija. Drugim riječima, od drugih rudara s kojima je u kontaktu (ovisno o geografskoj blizini) dobiva podatke u kojima je zapisano tko kome šalje koliko neke kriptovalute.
 
-- računalo tada gradi blok, tj. popis transakcija koje treba potvrditi. Koliko transakcija će biti u bloku ovisi o njihovoj veličini – transakcije s mnogo adresa na mnogo adresa su veće od onih koje šalju s jedne adrese na jednu-dvije.
+- gradi blok, tj. popis transakcija koje treba potvrditi. Koliko transakcija će biti u bloku ovisi o njihovoj veličini – transakcije s mnogo adresa na mnogo adresa su veće od onih koje šalju s jedne adrese na jednu-dvije.
 
-- računalo spaja sve te podatke iz svih transakcija (doslovno ih zalijepi u jednu cjelinu), doda im još neke podatke, i tada pogađa zadnji dio podataka. Traži vrijednost koja, kada se pribroji tom skupu slijepljenih podataka i hašira, daje *hash* koji odgovara nekim pravilima (npr. u Bitcoinu, hash mora imati određeni broj nula na početku). Računalo dakle doslovno radi sljedeće: “*Pokušaj zbrojiti ovo sve i broj 1. Nije točno? Ok, pokušaj zbrojiti ovo sve i broj 2. Nije točno? Ok, pokušaj…*”
+- spaja sve te podatke iz svih transakcija (doslovno ih zalijepi u jednu cjelinu), doda im još neke podatke, i tada pogađa zadnji dio podataka. Traži vrijednost koja, kada se pribroji tom skupu slijepljenih podataka i hašira, daje *hash* koji odgovara nekim pravilima (npr. u Bitcoinu, mora imati određeni broj nula na početku). Računalo dakle doslovno radi sljedeće: “*Pokušaj zbrojiti ovo sve i broj 1. Nije točno? Ok, pokušaj zbrojiti ovo sve i broj 2. Nije točno? Ok, pokušaj…*”
 
 - jačina računala ovisi o tome koliko tih pokušaja pogodaka na sekundu ono može izvesti.
 
-- nakon pogotka, računalo koje je uspjelo u zadatku dobiva nagradu za blok, koja trenutno iznosi 12.5 BTC kod bitcoin rudarenja, ili npr. 6.18 XMR ako se rudari Monero.
+- nakon pogotka, rudarski čvor koji je uspio u zadatku dobiva nagradu, koja trenutno iznosi 12.5 BTC kod bitcoin rudarenja, ili npr. 6.18 XMR ako se rudari Monero.
 
 **Što više računarske snage čvor ima, verovatnije je da će prvi rešiti matematički zadatak, i dobiti nagradu brže. Ovo je ujedno razlog zašto dolazi do velikog udruživanja rudarske bazene (*mining pool*).**
 
-Isplativost rudarenja na ovaj način varira. Proof of Work trenutno koriste gotovo sve kriptovalute.
+Dokaz o radu trenutno koriste gotovo sve kriptovalute.
 
 ## Prednosti
 
