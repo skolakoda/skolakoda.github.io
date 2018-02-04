@@ -3,11 +3,12 @@ title: Logički zakoni za programere
 layout: refaktorisanje
 author: damjan
 permalink: /logicki-zakoni-za-programere
+image: https://www.antikvarijat-phoenix.com/pic_nas/0051249.jpg
 ---
 
 ***Logika je nauka za sebe, ali postoji nekoliko logičkih zakona koji nam mogu olakšati život, prilikom pisanja složenih uslova.***
 
-![Formalna logika](https://www.antikvarijat-phoenix.com/pic_nas/0051249.jpg)
+![Formalna logika]({{page.image}})
 
 ## Oznake
 

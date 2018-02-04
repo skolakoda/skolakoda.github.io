@@ -29,6 +29,7 @@ bundle exec jekyll serve --limit_posts 1
 ## TODO
 
 - vratiti deljenje na lekcije
+- ograniciti sirinu kutijica
 - na malom kompu ne radi simbol .uokvireno.ideja
 - https://developers.google.com/web/progressive-web-apps/
 
@@ -36,9 +37,6 @@ sadrzaj:
 - https://www.invisionapp.com/
 
 - ucimo-blockchain
-https://bitfalls.com/hr/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/
-https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
-http://hackeducation.com/2016/04/07/blockchain-education-guide
 https://startit.rs/lekcije-za-programere-iz-druge-najvece-pljacke-u-istoriji-digitalnih-valuta/
 https://zir.nsk.hr/islandora/object/pmf%3A779/datastream/PDF/view
 
