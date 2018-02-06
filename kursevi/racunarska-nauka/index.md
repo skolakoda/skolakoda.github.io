@@ -158,8 +158,10 @@ kurs: uvod
 
 ### Mrežna komunikacija
 
+- [Server](/server)
+- [Sistem imena domena](/sistem-imena-domena)
 - [Portovi](/portovi)
-- [`http`](/http) (protokol za transfer teksta)
+- [HTTP protokol](/http)
 - GET (čitanje resursa preko mreže)
 - POST (slanje resursa preko mreže)
 
