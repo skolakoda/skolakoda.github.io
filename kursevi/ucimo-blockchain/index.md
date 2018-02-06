@@ -116,6 +116,6 @@ image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhL
 
 ### Razvoj blockchaina
 
-- Bitkoin novčanik
+- [Bitkoin novčanik](/bitkoin-novcanik)
 - Login aplikacija
 - [Learn Blockchains by Building One](https://hackernoon.com/learn-blockchains-by-building-one--f46)
