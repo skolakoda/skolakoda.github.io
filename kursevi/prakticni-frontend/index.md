@@ -231,7 +231,7 @@ kurs: frontend
 ### Van u divljini
 
 - Snalaženje na postojećim projektima
-  - Nađi projekat [na Školi koda](/radovi) ili Githubu
+  - Nađi projekat [na Školi koda](/projekti) ili Githubu
 - Čitanje dokumentacije (ako postoji)
 - Upoznavanje sa strukturom projekta
 - Identifikovanje tehnologija i biblioteka
