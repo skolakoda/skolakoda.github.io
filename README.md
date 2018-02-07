@@ -38,6 +38,7 @@ sadrzaj:
 
 - ucimo-blockchain
 https://zir.nsk.hr/islandora/object/pmf%3A779/datastream/PDF/view
+https://startit.rs/sta-se-krije-iz-ripple-a-kriptovalute-koja-je-zabelezila-najveci-rast-u-2017-godini/
 
 - masinsko ucenje
 http://alas.matf.bg.ac.rs/~mi15145/Andelka_Milovanovic_Masinsko_ucenjeTNP.pdf
