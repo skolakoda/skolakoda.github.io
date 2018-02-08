@@ -4,7 +4,7 @@ layout: lekcija-blockchain
 permalink: /bitkoin-novcanik
 ---
 
-**Novčanik u Bitcoin sustavu je računalni program koji služi za primanje i slanje bitcoina.** 
+**Novčanik u Bitcoin sustavu je računalni program koji služi za primanje i slanje bitcoina.**
 
 Uloga novčanika je pohrana privatnih ključeva korisnika, prikaz transakcija korištenih za slanje ili primanje bitcoina pomoću adrese korisnika, te prikaz količine bitcoina koje korisnik posjeduje. Bitcoine iz jednog novčanika u drugi prebacujemo Bitcoin transakcijama. Novčanik je moguće instalirati na računalo, pametni telefon ili tablet. Oni su također dostupni kao web aplikacije, kojima je moguće pristupiti sa svakog uređaja povezanog na internet.
 
@@ -47,7 +47,7 @@ A = H<sub>adr</sub>(jk)
 
 ### Privatni ključ
 
-**Privatni ključ** koristi se pri kreiranju transakcije. Može biti pohranjen u novčaniku u različitim formatima. WIF (*Wallet Import Format*) je jedan od najčešćih formata zapisa privatnog ključa. Pomoću privatnog ključa korisnik potvrđuje da je upravo on vlasnik određene adrese. Stoga možemo reći da bitcoini na nekoj adresi pripadaju osobi koja posjeduje privatni ključ za tu adresu. 
+**Privatni ključ** koristi se pri kreiranju transakcije. Može biti pohranjen u novčaniku u različitim formatima. WIF (*Wallet Import Format*) je jedan od najčešćih formata zapisa privatnog ključa. Pomoću privatnog ključa korisnik potvrđuje da je upravo on vlasnik određene adrese. Stoga možemo reći da bitcoini na nekoj adresi pripadaju osobi koja posjeduje privatni ključ za tu adresu.
 
 Važno je napomenuti da su operacija množenja na eliptičkoj krivulji i hash funkcije jednosmjerne odnosno nemaju inverz. Tako je u svakom trenutku lako iz privatnog ključa generirati javni i iz javnog ključa generirati adresu. No, ne postoji način da se pomoću adrese generira privatni ili javni ključ.
 
@@ -59,7 +59,7 @@ Važno je napomenuti da su operacija množenja na eliptičkoj krivulji i hash fu
 
 Implementacija novčanika u sklopu ovog rada koristi open-source projekte `bitcore` i `bitcore-explorers`. Pomoću Node.js JavaScript platforme i modula bitcore i bitcore-explorers, koriste se metode za kreiranje ključeva, stvaranje transakcija, pretraživanje blockchaina i slanje transakcija u Bitcoin mrežu. Bitcoin je za potrebe programera razvio testni sustav pod nazivom `testnet` koji funkcionira na isti način kao i stvarni Bitcoin sustav, samo što bitcoinovi na toj mreži nemaju vrijednost.
 
-Aplikacija je napravljena na modelu klijet-poslužitelj. Klijent (internet preglednik) komunicira s dva poslužitelja: Node.js poslužiteljem koji pruža metode implementirane pomoću bitcore i bitcore-explorers modula i Apache poslužiteljem na koji sprema podatke o svojim korisnicima. 
+Aplikacija je napravljena na modelu klijet-poslužitelj. Klijent (internet preglednik) komunicira s dva poslužitelja: Node.js poslužiteljem koji pruža metode implementirane pomoću bitcore i bitcore-explorers modula i Apache poslužiteljem na koji sprema podatke o svojim korisnicima.
 
 ### Generiranje novog privatnog ključa
 
@@ -67,7 +67,7 @@ Da bi se koristile usluge aplikacije korisnik se najprije mora registrirati. For
 
 ![](/images/projekti/novcanik-registracija.png)
 
-Korisnik unosi podatke za registraciju. Pritiskom na gumb `Registriraj se`, na strani klijenta obavlja se validacija podataka. Ako su podaci ispravni klijent šalje zahtjev pomoću metoda klase `XMLHttpRequest()` i traži od Node.js poslužitelja generiranje novog privatnog ključa. 
+Korisnik unosi podatke za registraciju. Pritiskom na gumb `Registriraj se`, na strani klijenta obavlja se validacija podataka. Ako su podaci ispravni klijent šalje zahtjev pomoću metoda klase `XMLHttpRequest()` i traži od Node.js poslužitelja generiranje novog privatnog ključa.
 
 Kod za generiranje novog ključa na strani Node.js poslužitelja izgleda ovako:
 
@@ -81,7 +81,7 @@ var privateKeyWif = privateKey.toWIF();
 
 ### Enkripcija javnog ključa i SHA-256 hash
 
-Po primitku novog privatnog ključa, klijent registrira novog korisnika na bazi. Podaci koji se spremaju na bazu su korisničko ime, hash korisničkog imena i lozinke dobiven SHA-256 algoritmom i kriptirani javni ključ potpisan s lozinkom pomoću AES (*Advanced Encryption Standard*), kriptografskog algoritma za zaštitu digitalnih podataka. 
+Po primitku novog privatnog ključa, klijent registrira novog korisnika na bazi. Podaci koji se spremaju na bazu su korisničko ime, hash korisničkog imena i lozinke dobiven SHA-256 algoritmom i kriptirani javni ključ potpisan s lozinkom pomoću AES (*Advanced Encryption Standard*), kriptografskog algoritma za zaštitu digitalnih podataka.
 
 Kriptirani javni ključ i *hash* dobivamo pomoću sljedećeg JavaScript koda na strani klijenta:
 
@@ -130,7 +130,7 @@ Sučelje aplikacije možemo vidjeti na slici. Korisnik može pomoću sučelja do
 
 ### Provjera stanja računa
 
-Stanje računa je u aplikaciji prikazano u satoshi jedinicama kriptovalute Bitcoin. Vrijedi 1 BTC = 100,000,000 satoshi i to je najmanja jedinica na koju se dijeli valuta. Stanje računa je jedno od svojstava svake adrese u Bitcoin sustavu i pomoću metode `address` `bitcore-explorers` modula dobivamo ga na sljedeći način:
+Stanje računa je u aplikaciji prikazano u satoshi jedinicama kriptovalute Bitcoin. Vrijedi 1 BTC = 100,000,000 satoshi i to je najmanja jedinica na koju se dijeli valuta. Stanje računa je jedno od svojstava svake adrese u Bitcoin sustavu. Pomoću metode `address` `bitcore-explorers` modula dobivamo ga na sljedeći način:
 
 ```js
 var Insight = require('bitcore-explorers').Insight;
@@ -139,6 +139,85 @@ insight.address(body.trim(), function(err, addInfo) {
   var stanjeRacuna = addInfo['balance'] + 'satoshis';
 });
 ```
+
+`Korisnik1` je novi korisnik Bitcoin testnet mreže i ne postoji ni jedna izvršena transakcija kojom bi se na njegovu adresu uplatio neki iznos. Pritiskom na gumb `Prikaži stanje računa` korisnik dobiva informaciju da stanje računa iznosi 0 satoshi, kao što možemo vidjeti na slici:
+
+(dodati sliku)
+
+### Dobivanje prvih bitcoinova
+
+Budući da je Bitcoin `testnet` mreža osmišljena za razvoj i testiranje aplikacija i da novac na toj mreži nema nikakvu vrijednost, postoje internetske stranice koje kreiraju transakciju s adresa koje posjeduju `testnet` novac, na vašu adresu. To je način da `Korisnik1` dođe do svojih prvih bitcoinova. Na slici je prikazan zahtjev za dobivanjem `testnet` bitcoinova na adresu mwVDDCAcsQ3kaf86y56gNzQFTi6NdQrv65, koja pripada korisniku `Korisnik1`:
+
+(dodati sliku)
+
+Prva transakcija na adresu korisnika `Korisnik1` je izvršena. Na slici vidimo da je broj a33e7bb68283598cb58c20294e4d7608e112af788459beb813ead420d8cd30cc id te transakcije. Pomoću tog podatka možemo korištenjem bilo kojeg `testnet` blockchain pretraživača dostupnog na internetu pronaći dodatne informacije o transakciji. Transakciju možemo pronaći gotovo istog trenutka kada je kreirana. No, prisjetimo se da je zbog proof-of-work algoritma koji koristi Bitcoin sustav potrebno neko vrijeme da transakcija bude potvrđena odnosno upisna u novi blok. Slika 5.6 prikazuje informacije o transakciji dobivenih pomoću Blocktrail `testnet` blockchain pretraživača.
+
+Primijetimo da je ukupan ulaz transakcije nešto već od ukupnog izlaza. Razlog tome je taj što se na svaku transakciju pridodaje naknada koja će kasnije biti dodijeljena rudaru koji zapisuje novi blok u blockchain. Transakcija sa slike sadrži dva izlaza i je jedan od njih uplaćen na adresu mwVDDCAcsQ3kaf86y56gNzQFTi6NdQrv65. Ako sada ponovo u našoj novčanik aplikaciji zatražimo prikaz stanja korisnik `Korisnik1` dobivamo rezultat sa slike 5.7
+
+(dodati sliku)
+
+### Kreiranje nove transakcije
+
+`Korisnik1` je sada vlasnik 203125000 testnih satoshija odnosno 2,03125 testnih
+BTC-a. Preostaje nam pokazati kako aplikacija Jednostavni novčanik kreira novu
+transakciju. Pretpostavimo da, iz nekog razloga `Korisnik1` želi uplatiti iznos od
+10000000 satoshi (0,1 BTC) na adresu n3E6TeYixEedVLjkJ3q5X4amnaEVC99DbD. On
+tada popunjava formu u aplikaciji na način na koji je prikazano na slici 5.8 i pritišće
+gumb Izvrši transakciju.
+
+(dodati sliku)
+
+### Potvrda nove transakcije
+
+Aplikacija nakon toga preusmjerava korisnika na novu formu sa slike 5.9. Od
+korisnika se traži da potvrdi svoju transakciju lozinkom. `Korisnik1` provjerava jesu li
+podaci točni, pa upisuje lozinku i pritiskom na gumb Izvrši transakciju kreira novu
+transakciju na Bitcoin `testnet` mreži.
+
+(dodati sliku)
+
+### Kreiranje nove transakcije
+
+Klijentski dio aplikacije nakon što je korisnik ponovo upisao svoju lozinku može
+dekriptirati privatni ključ korisnika i poslati zahtjev za kreiranjem nove transakcije
+Node.js poslužitelju. Podaci koje mora priložiti uz taj zahtjev su adresa pošiljatelja, adresa primatelja, iznos transakcije i privatni ključ pošiljatelja. Pogledajmo
+kako izgleda isječak koda na strani Node.js poslužitelja koji kreira transakciju i šalje
+je difuzijom (broadcast) u Bitcoin mrežu. Za izvršenje tog koda opet su potrebni
+moduli bitcore i bitcore-explorers. Svaka transakcija kako ulaz prima prijašnje
+transakcije pošiljatelja, pa je najprije potrebno pretražiti blockchain i pronaći takve
+transakcije metodom getUnspentUtxos. Nakon toga se zadaju iznos i adresa primatelja i transakcija se potpisuje privatnim ključem pošiljatelja.
+
+```js
+var bitcore = require('bitcore');
+var Insight = require('bitcore-explorers').Insight;
+var insight = new Insight('testnet');
+
+insight.getUnspentUtxos(parsedData['addPos'], function(err, trPos) {
+  var tx = bitcore.Transaction();
+  tx.from(trPos);
+  tx.to(parsedData['addPrim'], parseInt(parsedData['iznos']));
+  tx.change(parsedData['add']);
+  tx.sign(parsedData['privateKey']);
+  tx.serialize();
+
+  insight.broadcast(tx, function(err, returnedTxId) {
+  var toReturn = 'Transakcija uspjesno izvrsena . '
+    + 'Mozete je potraziti u bilo kojem blockchain exploreru : '
+    + returnedTxId;
+  });
+});
+```
+
+Ako je sve prošlo bez greške poslužitelj će klijentu vratiti poruku koja sadrži id nove
+transakcije. Klijent tu poruku ispisuje korisniku
+
+(dodati sliku)
+
+Zaista, transakcija iz naše aplikacije poslana je na Bitcoin testnet mrežu. Što dokazuje slika 5.11 i činjenica da je možemo prikazati u blockchain pretraživaču. Također,
+slika 5.12 prikazuje stanje računa korisnika `Korisnik1` umanjeno je za iznos transakcije
+i transakcijsku naknadu.
+
+(dodati sliku)
 
 
 http://sites.psu.edu/symbolcodes/codehtml/#math
