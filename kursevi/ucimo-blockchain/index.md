@@ -25,6 +25,7 @@ image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhL
 - [Konsenzus u lancu blokova](/konsenzus-u-blockchainu)
 - [Hijerarhijsko i horizontalno umrežavanje](/hijerarhijsko-i-horizontalno-umrezavanje)
 - Bitcoin Mechanics and Optimizations: A Technical Overview
+- [Bitkoin novčanik](/bitkoin-novcanik)
 - Bitcoin IRL: Wallets, Mining, and More
 - [Mane bitkoina](/mane-bitkoina)
 
@@ -116,6 +117,6 @@ image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhL
 
 ### Razvoj blockchaina
 
-- [Bitkoin novčanik](/bitkoin-novcanik)
+- [Razvoj Bitkoin novčanika](/razvoj-bitkoin-novcanika)
 - Login aplikacija
 - [Learn Blockchains by Building One](https://hackernoon.com/learn-blockchains-by-building-one--f46)
