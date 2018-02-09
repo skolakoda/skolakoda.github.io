@@ -41,6 +41,8 @@ https://zir.nsk.hr/islandora/object/pmf%3A779/datastream/PDF/view
 https://startit.rs/sta-se-krije-iz-ripple-a-kriptovalute-koja-je-zabelezila-najveci-rast-u-2017-godini/
 https://web.math.pmf.unizg.hr/~duje/kript/kriptografija.html
 https://onedrive.live.com/?cid=C1D6FA63BB0D8E00&id=C1D6FA63BB0D8E00%212725&parId=C1D6FA63BB0D8E00%212724&o=OneUp
+http://www.masina.rs/?p=5992
+http://www.bilten.org/?p=21983
 
 - masinsko ucenje
 http://alas.matf.bg.ac.rs/~mi15145/Andelka_Milovanovic_Masinsko_ucenjeTNP.pdf
