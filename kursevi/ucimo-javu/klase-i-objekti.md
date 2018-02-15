@@ -7,29 +7,24 @@ image: /images/koncepti/oop/klasa-i-objekti.jpg
 
 ![]({{page.image}})
 
-***Klasa je šablon koji se koristi za kreiranje objekta. Svi objekti kreirani korišćenjem jedne klase imaju identične funkcionalnosti.***
+***Klasa je šablon koji se koristi za kreiranje objekta, nalik nekoj vrsti šablona u gradevinarstvu ili inženjerstvu; dok ne kreirate realne objekte na osnovu šablona, ne možete ih koristiti.***
 
-U objektno orijentiranom programiranju, pomoću klase kreirate model promatranog predmeta realnog svijeta. Klasa je zamišljena kao prototip, nacrt ili ideja za svoje primjerke (instance). Klasa ima dva dijela: atribute i metode. **Atributi** (svojstva) opisuju što klasa jest. **Metode** opisuju što klasa čini.
+U objektno orijentiranom programiranju, pomoću klase kreirate **model** promatranog predmeta realnog sveta. Klasa je zamišljena kao prototip, nacrt ili ideja za svoje primerke (instance). Klasa ima dva dela: atribute i metode. **Atributi** (svojstva) opisuju što klasa jest. **Metode** opisuju šta klasa čini.
 
-Koristeći klasu, možete kreirati proizvoljan broj objekata, a svaki od njih je primjerak (instanca) klase. Različiti objekti iste klase imaju iste atribute, koji mogu imati različite vrijednosti. Npr. svi ljudi imaju neku boju očiju, ali se ona razlikuje od čovjeka do čovjeka.
+U realnom svetu, možete da kreirate veliki broj automobila na osnovu iste specifikacije. Iako su svi primerci iste klase, mogu se razlikovati u određenim svojstvima - neki su crveni, drugi žuti, neki imaju dvoja vrata, drugi četvora i tako dalje.
 
-Svaki novi objekt ima odvojen blok memorije za svoje atribute, ali memorija u kojoj su zabilježene metode zajednička je za sve objekte dane klase.
+## Instance klase
 
-## Primer: Komandni taster
+Kreiranje instance klase predstavlja kreiranje objekta u memoriji računara na osnovu definicije klase. Da biste instancirali klasu, deklarišete promenljivu odredenog tipa klase, a zatim koristite `new` operator za svaku novu instancu klase:
 
-Na primer, možete da kreirate klasu koja predstavlja sve komandne tastere koje možete da pritisnete u okviru prozora, dijaloga i drugih delova grafičkog korisničkog interfejsa. Prilikom kreiranja `CommandButton` klase, možete da definišete sledeće funkcionalnosti:
+```java
+Kola jugo;
+jugo = new Kola();
+```
 
-- tekst koji se prikazuje na tasteru
-- veličinu tastera
-- aspekte prikazivanja - na primer, da li postoje trodimenzionalne senke.
+Koristeći klasu, možete kreirati proizvoljan broj objekata, a svaki od njih je primerak klase. Svi primerci klase imaju iste atribute, koji mogu imati različite vrednosti. Npr. svi ljudi imaju neku boju očiju, ali se ona razlikuje od čoveka do čoveka.
 
-`CommandButton` klasa može da definiše i način na koji se ponaša taster, utvrđujući pri tom sledeće:
-- da li je neophodno taster pritisnuti jednom ili dva puta
-- da li treba ignorisati neprekidno pritiskanje tastera
-- šta treba uraditi nakon uspešnog pritiskanja tastera
-
-{:.uokvireno}
-Jedna od standardnih klasa programskog jezika Java javax.swing.JButton obuhvata sve funkcionalnosti hipotetičke CommandButton klase i još mnogo štošta.
+Svaka instanca ima odvojen blok memorije za svoje atribute, ali memorija u kojoj su zabeležene metode im je zajednička.
 
 
 ### Izvori

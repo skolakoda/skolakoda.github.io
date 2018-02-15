@@ -4,8 +4,6 @@ layout: lekcija-java
 permalink: /java-objekti
 ---
 
-***Objekt je primjerak (instanca) klase. Svojstva ili atribuiti kažu što neki objekt jest. Metode kažu što neki objekt radi.***
-
 Objekte možete kreirati pomoću ključne riječi `new` iza koje slijedi tzv. konstruktor klase. Sljedeći program kreira objekt tipa `TwoDPoint` i ispisuje njegove atribute:
 
 {:.ulaz}
@@ -27,7 +25,7 @@ class OriginPrinter {
 }
 ```
 
-Tocka `.` je tzv. separator pristupa članovima. Poziv konstruktora uz ključnu riječ `new` potreban je za alociranje objekta.
+Točka `.` je tzv. separator pristupa članovima. Poziv konstruktora uz ključnu riječ `new` potreban je za alociranje objekta.
 
 ## Razlikovanje objekata iste klase
 
@@ -93,8 +91,8 @@ class EqualPointPrinter {
     // print
     System.out.println("Tocka origin1 ima koordinate " + origin1.x + ", " + origin1.y);
     System.out.println("Tocka origin2 ima koordinate " + origin2.x + ", " + origin2.y);
-  }  // kraj main() metode
-} // kraj EqualPointPrinter programa (klase)
+  }
+}
 ```
 
 Obrada i izlaz:
@@ -105,7 +103,7 @@ Tocka origin1 ima koordinate 0.0, 0.0
 Tocka origin2 ima koordinate 0.0, 0.0
 ```
 
-Primijetite da su origin1 i origin2 dvije različite varijable koje referenciraju isti objekt.
+Primijetite da su `origin1` i `origin2` dvije različite varijable koje referenciraju isti objekt.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

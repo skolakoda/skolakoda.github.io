@@ -7,9 +7,11 @@ image: /images/koncepti/podaci/java-tipovi-podataka.png
 
 ![java tipovi podataka]({{page.image}})
 
+**Postoji osam osnovnih tipova podataka u Javi: četiri za celobrojne vrednosti, dva za vrednosti sa decimalnim zarezom, jedan za smeštanje pojedinačnih karaktera i jedan za logičke (bulove) podatke, koji mogu imati vrednost `true` ili `false`.**
+
 ## Primitivni tipovi
 
-U javi postoji 8 primitivnih tipova podataka:
+U Javi postoji 8 primitivnih tipova podataka:
 
 * boolean
 * byte
@@ -34,7 +36,7 @@ Međutim postoji samo 7 vrsta literala, a jedan među njima (`String`) nije prim
 
 Ne postoje literali tipa `short` ili `byte`.
 
-`String` je referentni ili objektni tip, ne primitivni. Međutim, java kompajler ima posebnu podršku za Stringove, pa može izgledati kao da je to primitivni tip.
+`String` je referentni ili objektni tip, ne primitivni. Međutim, Java kompajler ima posebnu podršku za Stringove, pa može izgledati kao da je to primitivni tip.
 
 {:.ulaz}
 ```java

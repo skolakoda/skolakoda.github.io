@@ -40,18 +40,21 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
   - [Označene petlje](/java-oznacene-petlje)
 - Syntax Details
 - [Tipovi podataka u Javi](/java-tipovi-podataka)
-- Variables
+- [Promenljive i nepromenljive](/java-promenljive-i-nepromenljive)
 - Expressions in Java
 - Strings
 - [Polja (*arrays*)](/java-polja)
 - Enhanced for Loop
 - [Argumenti komandne linije](/java-argumenti-komandne-linije)
+- [Komentari u programu](/java-komentari)
 
 ### Klase i objekti
 
 - [Klase i objekti u Javi](/java-klase-i-objekti)
   - [Pravljenje objekata](/java-objekti)
   - [Primer: klasa Kola](/primer-klasa-kola)
+  - [Primer: klasa Porez](/primer-klasa-porez)
+  - [Primer: klasa Dugme](/primer-klasa-dugme)
   - [Ugnježdene klase](/ugnjezdene-klase)
 - [Atributi](/java-atributi)
 - [Metode](/java-metode)
@@ -66,7 +69,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - [Ključna riječ this](/java-this)
 - [Ključna riječ final](/java-final)
 
-### Using Java Objects
+### Rad sa Java objektima
 
 - [Ispis u konzoli](/java-ispis-u-konzoli)
 - printf Format Strings
@@ -76,7 +79,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - Parameter Passing
 - [Ispitivanje jednakosti objekata](/java-jednakost-objekata)
 - Destroying Objects
-- The Primitive-Type Wrapper Classes
+- [Klase omotači primitivnih tipova](/java-klase-omotaci)
 - Enumerated Types
 
 ### Nasleđivanje u Javi
@@ -132,7 +135,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 
 ### Višenitni rad (*multithreading*)
 
-- [Šta je višenitni rad?](/java-visenitnost)
+- [Višenitni rad](/java-visenitnost)
 - [Rad sa nitima u Javi](/java-rad-sa-nitima)
 - [Imenovanje niti](/java-imenovanje-niti)
 - [Prioriteti niti](/java-prioriteti-niti)

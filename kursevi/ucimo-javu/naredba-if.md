@@ -4,6 +4,8 @@ layout: lekcija-java
 permalink: /java-naredba-if
 ---
 
+**Java jezik sadrži `if` naredbu koja utvrđuje da li je određeni uslov ispunjen ili nije. Na osnovu ispunjenosti uslova određuje se redosled izvršavanja programa.**
+
 Sljedeći program ispisuje prvi argument sa komandne linije, ali prvo uz pomoć varijable `args.length` provjerava ima li argumenata:
 
 ```java
