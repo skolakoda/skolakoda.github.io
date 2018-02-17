@@ -27,6 +27,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - [Naredba if](/java-naredba-if)
 - [Naredba switch](/java-switch)
 - [Petlje u Javi](/java-petlje)
+  - [break i continue](/java-break-i-continue)
   - [Označene petlje](/java-oznacene-petlje)
 - [Tipovi podataka u Javi](/java-tipovi-podataka)
 - [Promenljive i nepromenljive](/java-promenljive-i-nepromenljive)
@@ -123,7 +124,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
   - [Čitanje iz datoteke](/java-citanje-iz-datoteke)
   - [Pisanje u datoteku](/java-pisanje-u-datoteku)
 - [Filtriranje tokova](/java-filtriranje-tokova)
-- [Taloženi tokovi](/java-buffered-stream)
+- [Nataloženi tokovi](/java-buffered-stream)
 - [Zatvaranje toka](/java-zatvaranje-toka)
 
 ### Višenitni rad (*multithreading*)
