@@ -28,6 +28,8 @@ bundle exec jekyll serve --limit_posts 1
 
 ## TODO
 
+- vratiti deljenje na lekcije
+- ograniciti sirinu kutijica
 - na malom kompu ne radi simbol .uokvireno.ideja
 - https://developers.google.com/web/progressive-web-apps/
 
@@ -35,16 +37,12 @@ sadrzaj:
 - https://www.invisionapp.com/
 
 - ucimo-blockchain
-https://www.mojafirma.rs/magazin/sta-je-to-blokcein-blockchain-i-kako-radi/
-http://pcchip.hr/ostalo/tech/uvod-u-blockchain-tehnologiju/
-http://www.sk.rs/2017/07/skin01.html
-https://www.ucionica.net/wp-content/uploads/2017/05/2-1024x662.png
-https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
-https://bitfalls.com/hr/2017/11/26/whats-bitcoin-node-mining-vs-validation/
-https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
-http://hackeducation.com/2016/04/07/blockchain-education-guide
-https://startit.rs/lekcije-za-programere-iz-druge-najvece-pljacke-u-istoriji-digitalnih-valuta/
 https://zir.nsk.hr/islandora/object/pmf%3A779/datastream/PDF/view
+https://startit.rs/sta-se-krije-iz-ripple-a-kriptovalute-koja-je-zabelezila-najveci-rast-u-2017-godini/
+https://web.math.pmf.unizg.hr/~duje/kript/kriptografija.html
+https://onedrive.live.com/?cid=C1D6FA63BB0D8E00&id=C1D6FA63BB0D8E00%212725&parId=C1D6FA63BB0D8E00%212724&o=OneUp
+http://www.masina.rs/?p=5992
+http://www.bilten.org/?p=21983
 
 - masinsko ucenje
 http://alas.matf.bg.ac.rs/~mi15145/Andelka_Milovanovic_Masinsko_ucenjeTNP.pdf
@@ -74,4 +72,5 @@ https://pixabay.com/en/apple-brick-wall-computer-cup-1854101/
 https://pixabay.com/en/apple-computer-cup-electronics-1853306/
 https://pixabay.com/en/cyber-glasses-virtual-virtual-world-1938449/
 https://damjanpavlica.files.wordpress.com/2014/04/stari-programer.jpg
+https://cdn-images-1.medium.com/max/2000/1*rJr_bOm3mD5V8_C5JaPrsQ.jpeg
 -->

@@ -1,7 +1,7 @@
 ---
 layout: kurs
 title: Učimo blockchain
-image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
+image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhLTE1ODctNDA2MC04OGEzLTU5NzM0OGZiZjdiMA.jpg
 ---
 
 ![]({{page.image}})
@@ -25,22 +25,28 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - [Konsenzus u lancu blokova](/konsenzus-u-blockchainu)
 - [Hijerarhijsko i horizontalno umrežavanje](/hijerarhijsko-i-horizontalno-umrezavanje)
 - Bitcoin Mechanics and Optimizations: A Technical Overview
+- [Bitkoin novčanik](/bitkoin-novcanik)
 - Bitcoin IRL: Wallets, Mining, and More
+- [Mane bitkoina](/mane-bitkoina)
 
 ### Blockchain tehnologija
 
 - [Problemi sa posrednicima](/problemi-sa-posrednicima)
 - [Problem vizantijskih generala](/problem-vizantijskih-generala)
   - [Otpornost na vizantijsku manu](/byzantine-fault-tolerance)
+- [Bitkoinov blockchain](/bitkoinov-blockchain)
+- [Glavna knjiga](/blockchain-ledger)
+- [Bitkoinov čvor](/bitkoinov-cvor)
 - Bitcoin/Blockchain data structures and identifiers
 - Keys as Idententity
 - Digital Signatures
+- [Hash funkcija](/hash-funkcija)
 - [Kriptografske heš funkcije](/kriptografske-hash-funkcije)
-- Hashes
 - Hashes as Addresses
 - Hash Pointers and Data Structures
 - [Blockchain transakcije](/blockchain-transakcije)
-- Blockchain block structure
+- [Struktura blockchain bloka](/struktura-blockchain-bloka)
+  - [Binarno hash stablo](/binarno-hash-stablo)
 - [Blockchain vs. baza podataka](/blockchain-vs-baza-podataka)
 - [Blockchain protokol](/blockchain-protokol)
 
@@ -74,7 +80,8 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 
 ### Uvod u kriptovalute
 
-- [Šta je kriptovaluta?](/sta-je-kriptovaluta)
+- [Kriptovalute](/kriptovalute)
+  - [Namecoin](/namecoin)
 - [Prednosti kriptovaluta](/prednosti-kriptovaluta)
 - [Inicijalna ponuda novčića](/inicijalna-ponuda-novcica)
 - [Regulacija kriptovaluta](/regulacija-kriptovaluta)
@@ -97,8 +104,9 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 - Blockchain startup innovation
 - Data Provanence
 
-### Blockchain i javna politika
+### Blockchain i javna uprava
 
+- [Blockchain i javna uprava](/blockchain-i-javna-uprava)
 - [Blockchain i politički izbori](/blockchain-i-izbori)
 - Elite opinion
 - The move to the mainstream
@@ -109,4 +117,6 @@ image: https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg
 
 ### Razvoj blockchaina
 
+- [Razvoj Bitkoin novčanika](/razvoj-bitkoin-novcanika)
+- Login aplikacija
 - [Learn Blockchains by Building One](https://hackernoon.com/learn-blockchains-by-building-one--f46)

@@ -59,6 +59,12 @@ h2 {
   }
 }
 
+p {
+  @media (min-width: $screen-lg-min) {
+    text-align: justify;
+  }
+}
+
 b,
 strong {
   color: $tundora;

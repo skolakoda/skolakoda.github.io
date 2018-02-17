@@ -4,6 +4,8 @@ layout: lekcija-blockchain
 permalink: /byzantine-fault-tolerance
 ---
 
+**Blockchain je sistem visoko otporan na vizantijsku manu (*[Byzantine fault tolerant](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance)*).**
+
 Praktični *Practical Byzantine Fault Tolerance* je nazastupljeniji metod postizanja konsenzusa u tzv. industrijskim odnosno privatnim blockchain sistemima i jedno od mogućih rešenja problema vizantijskih generala.
 
 Ovim metodom svaki učesnik mreže održava svoje interno stanje. Kada dobije poruku od “glasnika” on koristi informacije iz poruke uporedo sa svojim internim stanjem i izvršava operaciju. Izvršena operacija omogućava učesniku da donese zaključak o primljenoj poruci. Nakon toga on deli svoju odluku sa ostalim učesnicima sistema i konsenzus je postignut na osnovu svih odluka koje su učesnici poslali.

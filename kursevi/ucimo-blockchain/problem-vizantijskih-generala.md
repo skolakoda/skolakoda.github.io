@@ -2,38 +2,44 @@
 title: Problem vizantijskih generala
 layout: lekcija-blockchain
 permalink: /problem-vizantijskih-generala
+image: https://www.mojafirma.rs/wp-content/uploads/2017/12/napad.jpg
 ---
 
-***Onda kada raspodelimo glavnu knjigu koja sadrži sve transakacije, nastaje još jedan problem koji je definisan u informatici i teoriji igara — alegorija po nazivom “Problem vizantijskih generala”.***
+***Najpoznatiji problem postizanja konsenzusa u distribuiranom sustavu jeste problem vizantijskih generala.***
 
-Određen broj ljudi koji održava mrežu može da odluči da promeni nešto u svoju korist. Na tom problemu su kriptografi i programeri radili tri decenije na teorijskom nivou. Istovremeno, ekonomisti možda i duže jer se on tiče dva veća problema u velikim sistemima: razmene informacija i podsticaja agenata u problemu principala i agenta.
+## Opis problema
 
-## Problem
+![]({{page.image}})
 
-![](https://www.mojafirma.rs/wp-content/uploads/2017/12/napad.jpg)
+`N` vojnih jedinica okružuje jedan dvorac i ima ga namjeru napasti. Svaku vojnu jedinicu predvodi po jedan general. Unutar dvorca nalazi se neprijateljska vojska koja brani dvorac. Cilj je postizanje dogovora između `N` generala o vremenu napada na dvorac. 
 
-**Zamislimo veliku srednjevekonu vojsku koja je opkolila grad, sa mnogo divizija i generala na čelu tih divizija.** Oni moraju da postignu konsenzus kada da izvedu koordinisani napad na grad. Nijedan od generala ne može da vidi ostale, niti glavnog generala. Mogu da komuniciraju samo preko glasnika, što nas dovodi do problema razmene informacija.
+Budući da se ovaj scenarij odvija u dobu kada nema mobitela i mogućnosti da generali nazovu jedni druge, oni dogovaraju vrijeme napada slanjem poruka koje prenosi glasnik na konju. Neki od generala su izdajice. Postoji najviše `f` od `N` generala koji su izdajnici. Ostali generali ne znaju koji su generali izdajnici i nema načina da to saznaju. Vojne jedinice lojalnih generala dovoljno su jake da preuzmu dvorac, ali uz uvjet da su njihove akcije koordinirane, da sve jedinice u isto vrijeme kreću u napad.
 
-Pritom, nisu svi generali lojalni vojsci. Neki od generala su izdajnici plaćeni od neprijateljske strane i ne žele da se konsenzus između lojalnih postigne. Lojalni generali žele da napadnu grad, ali potrebna im je istovremena većina. Dakle, potreban je način da svi lojalni generali odluče na isti način o napadu, a da manji broj izdajica ne natera lojalne da uvaže loš plan. Lojalni generali će postupiti kako se očekuje u skladu sa algoritomom, dok će izdajnici postupiti kako god oni žele.
+Neka se, na primjer, unutar dvorca nalazi 300 vojnika i neka dvorac okružuje 5 vojnih jedinica s po 100 vojnika. Jedino general koji vodi 3. vojnu jedinicu je izdajnik, nazovimo ga G3. Prema tome, generali G1, G2, G4 i G5, odnosno vođe 1., 2., 4. i 5. jedinice lojalni su kraju. Kada bi svi lojalni generali napali dvorac u isto vrijeme njihovih 400 vojnika imalo bi šanse poraziti vojsku od 300 vojnika koja brani dvorac.
 
-Problem vizantijskih generala prikazuje izazov postizanja konsenzusa u raspodeljenim, decentralizovanim sistemima u kojima:
+Cilj generala G3 je izbjeći jednako vrijeme napada svih lojalnih vojnih jedinica i
+to može lako postići. Promotrimo sljedeći niz događaja:
+1. G1 šalje poruku "Napad u 16 sati." prema G2,
+2. G2 šalje tu istu poruku "Napad u 16 sati." prema G3,
+3. G3 je izdajica, on mijenja sadržaj poruke u "Napad u 15 sati." i šalje je prema G4,
+4. G4 šalje poruku "Napad u 15 sati." prema G5.
 
-- ne postoji dobar protok informacija i
-- postoje protivnici sistema.
+Nakon razmjene poruka generali G4 i G5 napadaju dvorac s 200 vojnika u 15 sati, nadajući se da će im se ostatak vojske pridružiti. Budući da su generali G1 i G2 uvjereni da će se napad održati u 16 sati njihove vojne jedinice ne priključuju se napadu u 15 sati. 200 vojnika generala G4 i G5 u 15 sati je nema šanse protiv vojnika koji brane dvorac i oni gube bitku. Također u 16 sati 200 vojnika iz 1. i 2. vojne jedinice gubi bitku od brojčano moćnije vojske branitelja.
 
-## Bitcoin rešenje
+## Rješenje problema Bizantskih generala
 
-**Pretpostavimo sada da su generali iz alegorije učesnici raspodeljene mreže koja je bazirana na blockchainu.**
+Promatramo li distribuirani sustav koji koristi blockchain tehnologiju u terminima opisanog problema: Partneri predstavljaju generale. Digitalni podaci koje želimo upisati u blockchain su poruke među generalima. Blockchain ima ulogu pohrane dogovorenog vremena napada. Pojedini partner ne zna broj ostalih partnera kao ni koji su od partnera izdajnici. Izdajnicima je u interesu upisati u blockchain podatke koji nisu istiniti. **Algoritmi za postizanje konsenzusa** omogućuju partnerima da u ovakvim uvjetima budu sigurni da su podaci koji se upisuju u nove blokove točni te da su podaci prije zapisani u blockchain istiniti i nepromijenjeni.
 
-Glasnici su način komunikacije u okviru mreže. Cilj većine, odnosno lojalnih, jeste da odluče da li da se neka informacija unosi u raspodeljenu bazu podataka odnosno da li je tačna ili ne. Lojalni generali su učesnici sistema koji žele da mreža funkcioniše prihvatanjem samo tačnih informacija. Izdajnici su bilo koji učesnici koji žele da falsifikuju informacije ili unesu netačne infromacije u bazu podataka.
+### Rješenje: dokaz o radu
 
-Bitcoin predstavlja rešenje ovog problema jer daje podsticaj i nagrađuje dobro ponašanje i čini veoma skupim potez da se principal (mreža) napadne, za šta su uzgred nagrade male.
+Pretpostavimo da bizantski generali za dogovor oko vremena napada koriste blockchain i zapis novih informacija pomoću [*proof-of-work*](/dokaz-o-radu) algoritma. Svaki general kada prvi puta primi poruku s vremenom napada za koje još nije čuo pokrene na svom računalu izračunavanje *hash*-a koji sadrži informaciju o tom vremenu. Broj `cilj` od kojeg taj hash mora biti manji, kako bi postao zadovoljavajući za upisivanje zapisa u blockchain, je tako prilagođen da je potrebno 10 minuta da jedan general nađe rješenje.
 
-Algoritam onda mora da garantuje da bez obzira na to šta izdajnici urade, lojalni generali neće samo postići konsenzus, nego će se složiti oko najboljeg rešenja u interesu većine. Bitcoin je stoga visoko *[Byzantine fault tolerant](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance)* sistem (otporan na vizantijsku manu).
+Kada neki general nađe zadovoljavajući hash pošalje ga difuzijskom porukom ostalima u mreži, kako bi ga oni upisali u lokalnu kopiju blockchaina. Ostali generali tada počinju izračunavati novi hash koji u sebi sadrži prethodno izgenerirani hash. Na taj način generali žele izgraditi što dulji lanac s istim vremenom napada i poštuju pravilo da se u jednoj grani lanca nalaze samo *hash*-evi koji imaju u sebi zapisano jedno vrijeme napada. Ako neki general izdajnik želi upisati neko drugo vrijeme napada on mora potaknuti račvanje u blockchainu. No, budući da ima više generala odanih kralju, prema pravilu najduljeg lanca grana generala izdajnika će nakon nekog vremena biti ignorirana.
 
-Posledica ovoga je da blockchain sistemi omogućavaju razmenu bilo kog digitalnog dobra od jednog korisnika na internetu do drugog na siguran i bezbedan način, jer omogućavaju decentralizovani konsenzus. To može biti digitalni novac, ugovor, dokaz o vlasništvu nad fizičkim dobrima, hartije od vrednosti…
+Nakon 2 sata, postoji lanac, odnosno dio blockchaina s 12 hash-eva s istim vremenom napada. Svaki general sada ima dokaz da se na izgradnju tog lanca potrošila određena količina računalne snage i može vjerovati da je vrijeme napada zapisano u tom lancu dogovoreno od strane svih generala.
 
-Istovremeno, ovi sistemi mogu da predstavljaju registar jedinstvenih i trajnih podataka, kao što su na primer identiteti. Ova dobra i funkcije predstavljaju osnovne strukture svih ekonomskih, pravnih i političkih sistema i definišu odnose između individua, zajednica, organizacija i nacija.
+### Rješenje: dokaz o ulogu
 
+Kod [*proof-of-stake*](/dokaz-o-ulogu) algoritma imamo sličnu situaciju. Razlika je u tome da novo vrijeme napada neće prvi objaviti nasumično odabrani general, koji je prvi izračunao zadovoljavajući hash, već onaj kojem kralj najviše vjeruje ili onaj koji ima vlasništvo nad najviše parcela u zemlji. Takav general ima najveći ugled i hash koji on mora izračunati mora zadovoljiti slabije kriterije od *hash*-eva koje moraju izračunati ostali generali. Nakon njega ostali generali kreću u izračunavanje novog hash-a koji sadrži isto vrijeme napada kao i prethodni. U tome najveće šanse za novi blok u lancu ima sljedeći general po ugledu.
 
-Izvor: Nikola Milinković, *[Uvod u Blockchain](https://startit.rs/uvod-u-blockchain/)*, Startit, 2017.
+Izvor: Domina Hozjan, [*Blockchain (diplomski rad)*](https://zir.nsk.hr/islandora/object/pmf%3A779/datastream/PDF/view), Prirodoslovno–matematički fakultet, Zagreb, 2017.

@@ -1,5 +1,5 @@
 ---
-title: Rad sa gitom
+title: Rad sa gitom u kolektivu
 author: damjan
 layout: lekcija-frontend
 permalink: /rad-sa-gitom

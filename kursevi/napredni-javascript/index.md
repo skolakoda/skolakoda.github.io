@@ -97,6 +97,7 @@ kurs: napredni-js
 - Gneždenje povratnih funkcija
 - Pakao povratnih funkcija (*callback hell*)
 - [Obećanja](/obecanja)
+- [Observable](https://jsbin.com/pitaxuv/edit?js,console)
 - Asinhrone funkcije (`async/await`)
 - AJAX zahtev: uvođenje `fetch()` umesto `new XMLHttpRequest()`
 - Vežba: izvršenje povratne funkcije po učitanju svih slika

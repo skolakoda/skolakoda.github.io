@@ -22,6 +22,7 @@ kurs: frontend
 - [Kako postati upotrebljiv?](https://youtu.be/elOG6tINmHg)
 - Praksa kao teret IT firmama
 - Jaz između pravljenja stranica i razvoja softvera
+- [Kako doprinositi projektima?](https://skolakoda.org/kako-doprinositi/)
 
 ### Git i Github
 
@@ -230,7 +231,7 @@ kurs: frontend
 ### Van u divljini
 
 - Snalaženje na postojećim projektima
-  - Nađi projekat [na Školi koda](/radovi) ili Githubu
+  - Nađi projekat [na Školi koda](/projekti) ili Githubu
 - Čitanje dokumentacije (ako postoji)
 - Upoznavanje sa strukturom projekta
 - Identifikovanje tehnologija i biblioteka
