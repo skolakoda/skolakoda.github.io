@@ -14,44 +14,40 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 
 ### Upoznavanje sa Javom
 
-- [Šta je Java?](/sta-je-java)
-- How to Get Java
+- [Kratka istorija Jave](/kratka-istorija-Jave)
+- Instalacija Jave
 - [Prvi Java Program](/zdravo-java)
 - [Prevođenje i izvršavanje programa](/java-prevodjenje-i-pokretanje-programa)
-- The JSDK Directory Structure
 - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
-
-### Integrisano razvojno okruženje
-
-- Instalacija Eclipse-a
-- Postavljanje projekta
-- Creating a New Java Application
-- Running a Java Application
-- Debugging a Java Application
 
 ### Osnove jezika
 
-- A Java Program
 - [Operatori u Javi](/java-operatori)
   - [Logički operatori](/java-logicki-operatori)
 - [Naredba if](/java-naredba-if)
 - [Naredba switch](/java-switch)
 - [Petlje u Javi](/java-petlje)
   - [Označene petlje](/java-oznacene-petlje)
-- Syntax Details
 - [Tipovi podataka u Javi](/java-tipovi-podataka)
 - [Promenljive i nepromenljive](/java-promenljive-i-nepromenljive)
-- Expressions in Java
-- Strings
+- Naredbe vs. izrazi
+- Strune (*strings*)
 - [Polja (*arrays*)](/java-polja)
-- Enhanced for Loop
 - [Argumenti komandne linije](/java-argumenti-komandne-linije)
 - [Komentari u programu](/java-komentari)
+
+### Integrisano razvojno okruženje
+
+- Izbor i instalacija okruženje (Eclipse, NetBeans, BlueJ)
+- Postavljanje projekta
+- Creating a New Java Application
+- Running a Java Application
+- Debugging a Java Application
 
 ### Klase i objekti
 
 - [Klase i objekti u Javi](/java-klase-i-objekti)
-  - [Pravljenje objekata](/java-objekti)
+  - [Pravljenje objekata](/java-pravljenje-objekata)
   - [Primer: klasa Kola](/primer-klasa-kola)
   - [Primer: klasa Porez](/primer-klasa-porez)
   - [Primer: klasa Dugme](/primer-klasa-dugme)
@@ -66,16 +62,15 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
   - [Zaštita pristupa u Javi](/java-zastita-pristupa)
 - [Statičke varijable i metode](/java-static)
 - [Enkapsulacija](/enkapsulacija)
-- [Ključna riječ this](/java-this)
-- [Ključna riječ final](/java-final)
+- [Ključna reč `this`](/java-this)
+- [Ključna reč `final`](/java-final)
 
 ### Rad sa Java objektima
 
 - [Ispis u konzoli](/java-ispis-u-konzoli)
-- printf Format Strings
-- StringBuilder and StringBuffer
-- Methods and Messages
+- `StringBuilder` i `StringBuffer`
 - [toString() metoda](/java-to-string-metoda)
+- [Pretvaranje strune u broj](/java-pretvaranje-strune-u-broj)
 - Parameter Passing
 - [Ispitivanje jednakosti objekata](/java-jednakost-objekata)
 - Destroying Objects
@@ -89,32 +84,31 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - [Automatsko pretvaranje tipova (*casting*)](/java-casting)
 - [Prekrivanje metoda](/java-prekrivanje-metoda)
 - [Polimorfizam](/polimorfizam)
-- super
+- [Ključna reč `super`](/java-super)
 - The Object Class
 
 ### Napredno nasleđivanje
 
-- [Apstraktne metode i klase](/java-abstract)
-- [Sučelja (interfejsi)](/java-interface)
-- [Implementacija interfejsa](/implementacija-interfejsa)
+- [Apstraktne klase](/java-abstract)
+- [Interfejsi](/java-interfejs)
+  - [Implementacija interfejsa](/implementacija-interfejsa)
 - Collections
 - Generics
 - Comparable
 
 ### Paketi
 
-- [Java biblioteka klasa](/java-biblioteka-klasa) (Java paketi)
-- [import naredba](/java-import-naredba)
-- Static Imports
-- CLASSPATH and Import
-- [Pisanje vlastitih paketa](/pisanje-vlastitih-paketa)
+- [Javina biblioteka klasa](/java-biblioteka-klasa)
+- [Ključna reč `import`](/java-import)
+- [Pravljenje paketa u Javi](/java-pravljenje-paketa)
+- `CLASSPATH`
 - Package Scope
 
 ### Rukovanje izuzecima
 
 - [Izuzeci](/java-iznimke) (*exceptions*)
 - [Hvatanje izuzetaka](/hvatanje-izuzetaka) (`try-catch`)
-- [Finalni blok](/java-finalni-blok)
+- [Finalni blok](/java-finalni-blok) (`finally`)
 - [Exception metode](/exception-metode)
 - [Izbacivanje izuzetaka](/izbacivanje-izuzetaka)
 - [Definisanje vlastitih izuzetaka](/definisanje-izuzetaka)
@@ -152,7 +146,3 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - Queue Implementation Classes
 - The Map Interface
 - Map Implementation Classes
-
-### Dodatno
-
-- [Pretvaranje strune u broj](/java-pretvaranje-strune-u-broj)

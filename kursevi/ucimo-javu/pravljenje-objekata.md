@@ -1,10 +1,13 @@
 ---
 title: Pravljenje objekata
 layout: lekcija-java
-permalink: /java-objekti
+permalink: /java-pravljenje-objekata
 ---
 
-Objekte možete kreirati pomoću ključne riječi `new` iza koje slijedi tzv. konstruktor klase. Sljedeći program kreira objekt tipa `TwoDPoint` i ispisuje njegove atribute:
+**Da bismo kreirali objekat klase, moramo koristi ključnu riječ `new` za kojom
+slijedi poziv konstrukotra.**
+
+Sljedeći program kreira objekt tipa `TwoDPoint` i ispisuje njegove atribute:
 
 {:.ulaz}
 ```java

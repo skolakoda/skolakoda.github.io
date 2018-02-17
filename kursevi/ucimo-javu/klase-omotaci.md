@@ -18,9 +18,11 @@ myLotteryNumbers.add(new Integer(6));
 myLotteryNumbers.add(new Integer(15));
 ```
 
-## Automatsko konvertovanje u objekte
+## Automatsko pakovanje u objekat (*autoboxing*)
 
-Java jezik ima mogućnost automatskog konvertovanja u objekte (eng. *autoboxing*), pa se automatski kreira nova instanca za svaki osnovni tip podataka. Jednostavno, umesto:
+Java ima mogućnost automatskog konvertovanja iz primitivnog tipa u odgovarajući objekat (*autoboxing*), pa se automatski kreira nova instanca za svaki osnovni tip podataka.
+
+Jednostavno, umesto:
 
 ```java
 myLotteryNumbers.add(new Integer(6));
@@ -32,17 +34,17 @@ možete da napišete:
 myLotteryNumbers.add(6);
 ```
 
-i vrednost osnovnog tipa 6 automatski se konvertuje u instancu `Integer` klase.
+i vrednost osnovnog tipa `6` automatski se konvertuje u instancu `Integer` klase.
 
-## Automatsko konvertovanje u osnovne tipove
+## Automatsko otpakivanje vrednosti (*unboxing*)
 
-Shodno tome, i sledeća linija je validna:
+Kompajler će takođe raditi i obrnutu konverziju, iz objekta omotač klase u vrednost koju enkapsulira. Shodno tome, i sledeća linija je validna:
 
 ```java
 int luckyNumber = myLotteryNumber.get(23);
 ```
 
-Iako `get(23)` vraća vrednost 24-og elementa (brojanje u Java kolekcijama počinje od nule) kao `Integer` objekat, taj objekat se automatski konvertuje u vrednost osnovnog tipa podataka. To je označeno kao otpakivanje (eng. *unboxing*).
+Iako `get(23)` vraća vrednost 24-og elementa (index počinje od nule) kao `Integer` objekat, taj objekat se automatski konvertuje u vrednost osnovnog tipa podataka. To je označeno kao otpakivanje (*unboxing*).
 
 
 Izvor: Yakov Fain, *Java 8 programiranje* (promo lekcija), Kompjuter biblioteka, Beograd, 2015.

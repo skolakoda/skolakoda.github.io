@@ -1,70 +1,23 @@
 ---
-title: Skrivanje imena varijabli i ključna riječ this
+title: Ključna riječ this
 layout: lekcija-java
 permalink: /java-this
 ---
 
-Pomoću ključne riječi `this` moguće je čak i argumentima konstruktora (ili bilo koje druge metode) davati ista imena kao varijablama. Npr.;
+**Svaka metoda, koja nije statička, se uvek poziva za neki objekat svoje klase. Kada se metoda pozove, prosleđuje joj se jedan implicitni argument: pokazivač na objekat za koji je pozvana. Pokazivač na objekat za koji je pozvana metoda zove se `this`.**
+
+## Implicitno `this`
+
+Kada koristimo atribut objekta, možemo pisati samo naziv ili `this.naziv`. Nije dobra praksa nepotrebno opterećivati kod, ali postoje situacije kada je neophodno eksplicitno koristiti `this`.
+
+## Eksplicitno `this`
+
+Kada imamo lokalnu varijablu istog imena, ona skriva ili zasjenjuje (*hides*) varijablu članicu klase. Varijabla članica se može referencirati dodavanjem prefiksa `this`. Pomoću ključne riječi `this`, moguće je argumentima neke metode davati ista imena kao varijablama članicama. Npr:
 
 ```java
-  TwoDPoint(double x, double y) {
-    this.x = x;
-    this.y = y;    
-  }
   void setX(double x) {
     this.x = x;
   }
 ```
 
-Klasu `TwoDPoint` možemo, dakle preraditi ovako:
-
-```java
-class TwoDPoint {
-    double x;
-    double y;
-    TwoDPoint(double x, double y) { // konstruktor sa dva argumenta
-      this.x = x;
-      this.y = y;    
-    }
-    void print() {
-      System.out.println("(" + this.x + "," + this.y + ")");
-    }
-    void print(int n) {
-      for (int i = 0; i < n; i++) {
-        System.out.println("(" + this.x + "," + this.y + ")");
-      }
-    }
-    String getAsString() {
-      return "(" + this.x + "," + this.y + ")";
-    }
-    void setX(double x) {
-      this.x = x;
-    }
-    void x(double x) {
-      this.x = x;
-    }
-    void setY(double y) {
-      this.y = y;
-    }
-    void y(double y) {
-      this.y = y;
-    }
-    double getX() {
-      return this.x;
-    }
-    double x() {
-      return this.x;
-    }
-    double getY() {
-      return this.y;
-    }
-    double y() {
-      return this.y;
-    }
-}
-```
-
-Kažemo da unutar metode, deklaracija lokalne varijable ili argumenta sa istim imenom kao neka *member* varijabla skriva ili zasjenjuje (*hides*) tu varijablu. Ona se može referencirati dodavanjem prefiksa `this`.
-
-
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+`this.x` se odnosi na atribut (varijablu članicu), a `x` na parametar metoda.

@@ -4,7 +4,7 @@ layout: lekcija-java
 permalink: /java-konstruktori
 ---
 
-**Konstruktori služe za instanciranje klasa, dakle kreiranje objekata koji su instance neke klase. To su posebne metode koje imaju isto ime kao njihova klasa i ne vraćaju nikakvu vrijednost.**
+**Konstruktori su posebne metode koje imaju isto ime kao njihova klasa, i služe instanciranju klase. Pozivaju se automatski kada se kreira objekat, novi primerak klase.**
 
 Konstruktor inicijalizira potrebne varijable i obavlja sve poslove koji su potrebni da bi se klasa pripremila za uporabu. Konstruktor ima uvijek isto ime kao pripadna klasa. Na primjer:
 
@@ -12,9 +12,10 @@ Konstruktor inicijalizira potrebne varijable i obavlja sve poslove koji su potre
 Car c = new Car();
 ```
 
-Ovdje je `Car()` konstruktor klase `Car`. Konstruktor se pravi tako da se napiše metoda koja ima isto ime kao klasa. Ako klasu ne snabdijemo konstruktorom, Java osigurava generički, bez argumenata.
+Ovdje je `Car()` konstruktor klase `Car`. Konstruktor se pravi tako da se napiše metoda koja ima isto ime kao klasa. Konstruktori nemaju povratnog tipa. Oni zapravo implicitno vraćaju instancu svoje klase.
 
-Konstruktori nemaju povratnog tipa. Oni zapravo implicitno vraćaju instancu svoje klase.
+Primarna svrha konstruktora jeste da za objekat koji se kreira izvrši inicijalizaciju
+atributa. Ukoliko ne definišemo konstruktor, Java osigurava generički, bez argumenata, koji ne radi ništa.
 
 ## Konstruktor bez argumenata
 
@@ -61,7 +62,9 @@ Car(String licensePlate, double maxSpeed) {
 
 ## Više konstruktora
 
-**U jednoj klasi može biti i više konstruktora.** Svaki konstruktor zadaje po jedan način kreiranja objekata dane klase. Preradimo još jednom klasu `Car`, tako da u nju ugradimo sve ove konstruktore:
+**U jednoj klasi može biti i više konstruktora** (*overloading*). Svaki konstruktor zadaje po jedan način kreiranja objekata dane klase.
+
+Preradimo još jednom klasu `Car`, tako da u nju ugradimo sve ove konstruktore:
 
 ```java
 class Car {
