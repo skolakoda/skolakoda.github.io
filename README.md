@@ -28,14 +28,10 @@ bundle exec jekyll serve --limit_posts 1
 
 ## TODO
 
-- vratiti deljenje na lekcije
-- ograniciti sirinu kutijica
 - na malom kompu ne radi simbol .uokvireno.ideja
 - https://developers.google.com/web/progressive-web-apps/
 
 sadrzaj:
-- https://www.invisionapp.com/
-
 - ucimo-blockchain
 https://zir.nsk.hr/islandora/object/pmf%3A779/datastream/PDF/view
 https://startit.rs/sta-se-krije-iz-ripple-a-kriptovalute-koja-je-zabelezila-najveci-rast-u-2017-godini/

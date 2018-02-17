@@ -223,5 +223,5 @@ redirect_from:
 
 - Izbor zaršnog rada (ideje možete naći [ovde](https://trello.com/c/gMc2zPNn/1-ideje-za-sajtove-i-aplikacije))
 - Osmišljavanje dizajna
-- Prevođenje dizajna u kod
+- Prevođenje dizajna u kod ([InVision](https://www.invisionapp.com/))
 - Postavljanje na server
