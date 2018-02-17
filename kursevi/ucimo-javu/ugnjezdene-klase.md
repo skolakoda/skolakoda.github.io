@@ -4,7 +4,19 @@ layout: lekcija-java
 permalink: /ugnjezdene-klase
 ---
 
-U Javi možete definirati unutarnju klasu (*inner class*). To je klasa čije je tijelo definirano unutar druge klase koju tada zovemo glavnom klasom (*top-level class*). Na primjer:
+![](https://docs.oracle.com/javase/tutorial/figures/java/classes-inner.gif)
+
+**U Javi možete definirati unutarnju klasu (*inner class*). To je klasa čije je tijelo definirano unutar druge klase koju tada zovemo glavnom klasom (*top-level class*).**
+
+Unutarnje klase mogu imati svoje metode. Međutim, ne mogu imati statičke članove. Unutarnje klase koje se nalaze unutar dosega glavne klase mogu biti `public`, `private`, `protected`, `final`, `abstract`.
+
+Unutarnje klase mogu biti unutar metoda, petlji i ostalih blokova koda zatvorenih unutar vitičastih zagrada (`{}`). Takve klase nisu članovi pa ne mogu biti deklarirane kao `public`, `private`, `protected`, ili `static`.
+
+Unutarnja klasa ima pristup svim metodama i atributima svoje gornje klase, čak i privatnim.
+
+## Primjer
+
+Pogledajmo na primjeru kako funkcionira naša klasa `Queue`:
 
 ```java
 public class Queue {
@@ -46,14 +58,6 @@ public class Queue {
 
 }
 ```
-
-Unutarnje klase mogu imati svoje metode. Međutim, ne mogu imati statičke članove. Unutarnje klase koje se nalaze unutar dosega glavne klase mogu biti `public`, `private`, `protected`, `final`, `abstract`.
-
-Unutarnje klase mogu biti unutar metoda, petlji i ostalih blokova koda zatvorenih unutar vitičastih zagrada ({}). Takve klase nisu članovi pa ne mogu biti deklarirane kao `public`, `private`, `protected`, ili `static`.
-
-Unutarnja klasa ima pristup svim metodama i atributima svoje gornje klase, čak i privatnim.
-
-Pogledajmo na primjeru kako funkcionira naša klasa `Queue`:
 
 ```java
 class QueueTest {

@@ -1,10 +1,14 @@
 ---
-title: Ispis objekta pomoću toString() metoda
+title: toString() metoda za ispis objekta
 layout: lekcija-java
 permalink: /java-to-string-metoda
 ---
 
-Prilikom debugginga često je potrebno ispisati relevantne informacije o objektu. Direktan ispis atributa nije prikladan, a često ni moguć, npr. za attribute koji su private. S druge strane, svaki se objekt može ispisati pomoću metode `System.out.println()`. Međutim, za objekte koji nisu tekstovi ni brojevi taj će ispis biti uglavnom neupotrebljiv. Na primjer:
+**Prilikom debagovanja često je potrebno ispisati relevantne informacije o objektu.** Direktan ispis atributa nije prikladan, a često ni moguć, npr. za attribute koji su private.
+
+## Ugrađena `toString()` metoda
+
+Svaki se objekt može ispisati pomoću metode `System.out.println()`. Međutim, za objekte koji nisu tekstovi ni brojevi taj će ispis biti uglavnom neupotrebljiv. Na primjer:
 
 ```java
 class CarTest5 {
@@ -47,6 +51,8 @@ Car@111f71
 Car@111f71
 %
 ```
+
+## Sopstvena `toString()` metoda
 
 Umjesto takvog nerazumljivog ispisa poželjno je da klasa ponudi svoju verziju ispisa sebe same. To se radi tako da se prekrije default verzija metode `toString()` koju svaka klasa nasljeđuje od klase Object. U našem slučaju, metoda `toString()` bi mogla izgledati ovako:
 
@@ -107,6 +113,6 @@ Prilikom pisanje `toString()` metoda dobro je držati se sljedećih pravila:
 - toString() metode trebaju vraćati jednu liniju teksta koja ne sadrži koja ne sadrži `carriage return` ni `linefeed`.
 - toString() metode bi trebale ispisati ime klase te imena i vrijednosti atributa koji karakteriziraju stanje objekta.
 
-Ovakva uporaba toString() metoda je primjer polimorfizma.
+Ovakva uporaba `toString()` metoda je primjer [polimorfizma](/polimorfizam).
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

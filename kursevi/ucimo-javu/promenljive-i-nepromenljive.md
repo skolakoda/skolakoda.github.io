@@ -4,11 +4,15 @@ layout: lekcija-java
 permalink: /java-promenljive-i-nepromenljive
 ---
 
-**Odredene vrednosti koje predstavaju objekat mogu se menjati u toku izvršavanja programa (promenljive), a neke druge ostaju iste (konstante).**
+![](/images/koncepti/varijable/varijabla.png)
+
+**Odredene vrednosti mogu se menjati u toku izvršavanja programa (promenljive), a neke druge ostaju iste (konstante).**
+
+## Promenljive
 
 Java je statički tipizirani jezik: promenljiva u programu mora da bude deklarisana (da joj se dodeli naziv i tip podataka), pa se tek onda mogu dodeljivati vrednosti u vreme deklarisanja, ili kasnije, u nekom od metoda klase.
 
-## Domet promenljivih
+### Domet promenljivih
 
 Ukoliko deklarišete promenljivu unutar metoda ili bloka koda ograđenog velikim zagradama, promenljiva je lokalnog dometa. To znači da će promenljiva biti vidljiva samo u kodu unutar bloka. Lokalna promenljiva se može koristiti samo u bloku u kome je deklarisana. Na primer, promenljiva deklarisana unutar `for` petlje ne može se koristiti izvan `for` petlje, čak i u istom metodu.
 

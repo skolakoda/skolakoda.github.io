@@ -4,6 +4,8 @@ layout: lekcija-java
 permalink: /java-naredba-if
 ---
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/If-Then-Else-diagram.svg/400px-If-Then-Else-diagram.svg.png)
+
 **Java jezik sadrži `if` naredbu koja utvrđuje da li je određeni uslov ispunjen ili nije. Na osnovu ispunjenosti uslova određuje se redosled izvršavanja programa.**
 
 Sljedeći program ispisuje prvi argument sa komandne linije, ali prvo uz pomoć varijable `args.length` provjerava ima li argumenata:
@@ -38,7 +40,7 @@ Argumenti za kondicionalne naredbe kao što je `if` moraju biti bulovski, dakle 
 % Hello world!
 ```
 
-## Klauzula else
+## Klauzula `else`
 
 {:.ulaz}
 ```java
@@ -66,7 +68,7 @@ class Hello {
 % Hello world!
 ```
 
-## Klauzula else if
+## Klauzula `else if`
 
 Naredba if nije ograničena na samo dva slučaja. Kombiniranjem else i if dobije se else if kako bi se mogle ispitati sve mogućnosti. Preradimo sada Hello program tako da barata sa 4 imena s komandne linije.
 

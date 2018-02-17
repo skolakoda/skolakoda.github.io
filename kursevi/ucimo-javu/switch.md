@@ -4,6 +4,8 @@ layout: lekcija-java
 permalink: /java-switch
 ---
 
+![](https://www.tutorialspoint.com/java/images/switch_statement.jpg)
+
 `Switch-case` naredba je zapravo kratica za određene vrste `if` naredbi. Pogledajmo sljedeći niz `if` naredbi koje se sve odnose na istu veličinu:
 
 ```java

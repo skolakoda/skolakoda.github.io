@@ -4,6 +4,8 @@ layout: lekcija-java
 permalink: /java-metode
 ---
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/CPT-OOP-objects_and_classes_-_attmeth.svg/302px-CPT-OOP-objects_and_classes_-_attmeth.svg.png)
+
 **Metode kažu što neki objekt radi.** Podaci ne znače mnogo ako ne možete s njima ništa napraviti. Zbog toga postoje metode. Dok atributi kazjuju što klasa jest, metode kazuju što ona čini. Atribute i metode zajednički nazivamo članovima klase.
 
 Klase koje ste do sada upoznali imaju uglavnom samo `main()` metodu. Međutim, klase mogu imati mnogo metoda. Na primjer, klasu `Car` možemo snabdjeti metodom koja će simulirati vožnju maksimalnom brzinom:

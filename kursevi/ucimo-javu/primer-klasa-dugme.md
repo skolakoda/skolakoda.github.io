@@ -4,6 +4,8 @@ layout: lekcija-java
 permalink: /primer-klasa-dugme
 ---
 
+![](https://www.codeproject.com/KB/java/Graphics/d.JPG)
+
 Na primer, možete da kreirate klasu koja predstavlja sve komandne tastere koje možete da pritisnete u okviru prozora, dijaloga i drugih delova grafičkog korisničkog interfejsa. Prilikom kreiranja `CommandButton` klase, možete da definišete sledeće funkcionalnosti:
 
 - tekst koji se prikazuje na tasteru

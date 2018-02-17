@@ -14,7 +14,9 @@ Java je srodnik jezika C++, koji je direktan potomak jezika C. Veći dio svojih 
 
 Krajem osamdesetih i početkom devedesetih godina, objektno programiranje na jeziku C++ uzelo je maha. I zaista, za trenutak je izgledalo da su programeri konačno pronašli savršen programski jezik. Pošto C++ objedinjuje visoku efikasnost i stilske elemente C-a sa objektno orijentisanim pristupom, mogao se koristiti za pravljenje široke lepeze programa. Međutim baš kao toliko puta u prošlosti, ponovo je narasla potreba da se računarski jezici pomaknu za još jedan stepenik u svojoj evaluaciji.
 
-Javu su prvobitno 1991 godine koncepirali James Gosling, Patrick Naughton, Chris Warth, Ed Frank i Mike Sherdian, iz korporacije Sun Microsystem. Trebalo je 18 meseci rada da bi se došlo do prve radne verzije. Ovaj jezik je prvobitno dobio ime “OAK” ali je on 1995 godine promijenjen u “Java”. U periodu od prve realizacije OAK sa jeseni 1992 godine i zvaničnog najavljivana Jave 1995 godine još mnogo osoba je doprinijelo u oblikovanju i razvianju ovog jezika. Bill Joy, Arthur van Hoff, Jonathan Payne, Frank Yellin i Tim Lindholm bili su glavni saradnici na usavršavanju prvobitnog prototipa.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/James_Gosling_2008.jpg/400px-James_Gosling_2008.jpg)
+
+Javu su prvobitno 1991. godine koncepirali James Gosling, Patrick Naughton, Chris Warth, Ed Frank i Mike Sherdian, iz korporacije Sun Microsystem. Trebalo je 18 meseci rada da bi se došlo do prve radne verzije. Ovaj jezik je prvobitno dobio ime “OAK” ali je on 1995. godine promijenjen u “Java”. U periodu od prve realizacije OAK sa jeseni 1992. godine i zvaničnog najavljivana Jave 1995. godine još mnogo osoba je doprinijelo u oblikovanju i razvianju ovog jezika. Bill Joy, Arthur van Hoff, Jonathan Payne, Frank Yellin i Tim Lindholm bili su glavni saradnici na usavršavanju prvobitnog prototipa.
 
 ## Motivi za razvoj Jave
 

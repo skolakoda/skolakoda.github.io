@@ -14,11 +14,11 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 
 ### Upoznavanje sa Javom
 
-- [Kratka istorija Jave](/kratka-istorija-Jave)
+- [Kratka istorija Jave](/kratka-istorija-jave)
+- [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
 - Instalacija Jave
 - [Prvi Java Program](/zdravo-java)
 - [Prevođenje i izvršavanje programa](/java-prevodjenje-i-pokretanje-programa)
-- [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
 
 ### Osnove jezika
 
@@ -80,7 +80,6 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 ### Nasleđivanje u Javi
 
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
-- [Nasljeđivanje u Javi](/java-nasledjivanje)
 - [Automatsko pretvaranje tipova (*casting*)](/java-casting)
 - [Prekrivanje metoda](/java-prekrivanje-metoda)
 - [Polimorfizam](/polimorfizam)

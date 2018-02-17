@@ -4,6 +4,8 @@ layout: lekcija-java
 permalink: /java-klase-omotaci
 ---
 
+![](https://i0.wp.com/www.javatechblog.com/wp-content/uploads/2016/03/autoboxing-and-unboxing-in-java.png)
+
 **Svi osnovni tipovi podataka imaju odgovarajuće klase omotače (eng. *wrapper classes*), koje sadrže korisne metode za rad sa odgovarajućim tipovima podataka.**
 
 Ove klase imaju dve svrhe:

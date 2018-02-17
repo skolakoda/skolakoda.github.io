@@ -4,7 +4,9 @@ layout: lekcija-java
 permalink: /java-final
 ---
 
-**Ključna riječ `final` koristi se u različitim kontekstima označavajući da se ono na što se odnosi ne može naknadno mijenjati.**
+![](https://www.geeksforgeeks.org/wp-content/uploads/final-keyword-in-java.jpg)
+
+**Ključna riječ `final` koristi se u različitim kontekstima, označavajući da se ono na što se odnosi ne može naknadno mijenjati.**
 
 ## Finalne klase
 

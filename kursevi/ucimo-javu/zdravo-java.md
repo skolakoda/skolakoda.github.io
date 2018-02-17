@@ -2,9 +2,9 @@
 title: Program Zdravo svete
 layout: lekcija-java
 permalink: /zdravo-java
-redirect_from:
-  - /java-upoznavanje
 ---
+
+![](https://cdn-images-1.medium.com/max/1600/1*jB76MLZjiNhGSQQvxm7LSQ.gif)
 
 Napravite fajl `ZdravoSvete.java`:
 

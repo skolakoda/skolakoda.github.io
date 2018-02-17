@@ -4,7 +4,9 @@ layout: lekcija-java
 permalink: /java-petlje
 ---
 
-## while petlja
+## `while` petlja
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/While-loop-diagram.svg/379px-While-loop-diagram.svg.png)
 
 ```java
 class Hello {
@@ -36,7 +38,7 @@ Konzola:
 % Hello prvi drugi treci cetvrti
 ```
 
-## For petlja
+## `for` petlja
 
 {:.ulaz}
 ```java
@@ -89,7 +91,7 @@ class Count {
 }
 ```
 
-## While petlja: Fibonaccijevi brojevi
+## Primjer: Fibonaccijevi brojevi
 
 {:.ulaz}
 ```java

@@ -7,7 +7,9 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Las_filas_003.j
 
 ![polje]({{page.image}})
 
-Polje (*array*) je kolekcija varijabli istog tipa. Npr. `args[]` u `main()` metodi je polje objekata tipa String.
+**Polje ili niz (*array*) je kolekcija varijabli istog tipa.** Npr. `args[]` u `main()` metodi je niz objekata tipa `String`.
+
+## Primjer: `RandomTest`
 
 Zamislimo klasu koja broji pojavljivanja cifri 0-9. Pretpostavimo da želimo testirati da li je raspodjela brojeva koje generira generator slučajnih brojeva doista uniformna. Ako jest, sve znamenke (cifre) bi trebale imati približno istu frekvenciju nakon duljeg vremena.
 

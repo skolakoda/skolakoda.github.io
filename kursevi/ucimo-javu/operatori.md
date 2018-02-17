@@ -4,6 +4,8 @@ layout: lekcija-java
 permalink: /java-operatori
 ---
 
+![](http://2.bp.blogspot.com/-wPmq2WcNa_E/VKqkFu2leeI/AAAAAAAAAMM/SQq6faNHcgE/s1600/operators.png)
+
 ```
 +   Zbrajanje brojeva, konkatenacija stringova
 +=  Zbrajanje i pridruživanje brojeva, konkatenacija i pridruživanje stringova

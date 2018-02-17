@@ -4,7 +4,9 @@ layout: lekcija-java
 permalink: /java-jednakost-objekata
 ---
 
-Operatori `<`, `>`, `<=` i `>=` mogu se primijeniti jedino na brojeve i znakove. Ne mogu se koristiti sa Stringovima, booleovskim varijablama, poljima (*arrays*) kao ni s drugim neprimitivnim tipovima za koje nije definiran linearni uređaj.
+**Operatori `<`, `>`, `<=` i `>=` mogu se primijeniti jedino na brojeve i znakove. Ne mogu se koristiti sa Stringovima, booleovskim varijablama, poljima (*arrays*) kao ni s drugim neprimitivnim tipovima.**
+
+## Poređenje po referenci
 
 Za jednakost `==` vrijedi pravilo da je `true` jednako `true` i različito od `false`. Isto tako je “Jack went up the hill” različito od “Jill went up the hill”. Međutim, pokušajte izvršite sljedeći program:
 
@@ -28,13 +30,17 @@ class JackAndJill {
 }
 ```
 
-Vidjet ćete da je rezultat (neočekivano):
+Vidjet ćete da je rezultat:
 
 ```
 Stringovi nisu jednaki.
 ```
 
-To nije ono što očekujemo. Da bismo uspoređivali stringove ili objekte bilo koje druge vrste, koristimo se metodom `equals(Object o)` iz paketa `java.lang.String`. Pogledajmo ispravnu verziju programa koja će raditi onako kako očekujemo:
+To nije ono što očekujemo.
+
+## Poređenje po vrijednosti
+
+Da bismo uspoređivali strune ili objekte bilo koje druge vrste, koristimo se metodom `equals` iz paketa `java.lang.String`. Pogledajmo ispravnu verziju programa koja će raditi onako kako očekujemo:
 
 {:.ulaz}
 ```java

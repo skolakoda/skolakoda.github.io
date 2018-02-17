@@ -4,7 +4,9 @@ layout: lekcija-java
 permalink: /java-logicki-operatori
 ---
 
-Do sada uvedeni relacijski operatori (`<`, `<=`, `>`, `>=`, `!=`) dovoljni su za testiranje pojedinačnog uvjeta.Za ispitivanje višestrukih uvjeta, morali bismo koristiti više `if` naredbi:
+![](http://www.javascripttutorial.net/wp-content/uploads/2016/11/JavaScript-Logical-Operator.png)
+
+Do sada uvedeni relacijski operatori (`<`, `<=`, `>`, `>=`, `!=`) dovoljni su za testiranje pojedinačnog uvjeta. Za ispitivanje višestrukih uvjeta, morali bismo koristiti više `if` naredbi:
 
 ```java
 if (x == 2) {

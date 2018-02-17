@@ -4,6 +4,8 @@ layout: lekcija-java
 permalink: /java-atributi
 ---
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/CPT-OOP-objects_and_classes_-_attmeth.svg/302px-CPT-OOP-objects_and_classes_-_attmeth.svg.png)
+
 **Atributi ili svojstva opisuju što klasa jest.**
 
 ## Atributi i lokalne varijable
