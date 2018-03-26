@@ -124,7 +124,7 @@ redirect_from:
 ### Prilagodljivi dizajn
 
 - [Uvod u prilagodljivi dizajn](/prilagodljivi-dizajn)
-- Izvorna prilagodljivost HTML-a
+- Izvorna prilagodljivost HTML-a ([motherfuckingwebsite.com](http://motherfuckingwebsite.com/))
 - Fiksiranje dizajna i tačke preloma (*breakpoints*)
 - CSS medija upiti (*media queries*)
 - Prvo mobilni dizajn (*mobile first*)
