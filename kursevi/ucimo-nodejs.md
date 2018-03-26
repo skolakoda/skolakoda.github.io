@@ -76,6 +76,7 @@ kurs: nodejs
 - Služimo stranice
 - Zahtev i odgovor (`request` i `response`)
 - [URL parametri](/URL) (*query string*)
+- [Autentifikacija korisnika pomoću tokena](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
 - Vežba: [pravimo bekend kao REST API servis](https://stormpath.com/blog/tutorial-build-rest-api-mobile-apps-using-node-js)
 
 ### Striming (tečenje) podataka

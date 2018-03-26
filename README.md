@@ -33,6 +33,7 @@ bundle exec jekyll serve --limit_posts 1
 
 sadrzaj:
 - ucimo-blockchain
+https://startit.rs/sta-je-hyperledger-i-kako-vam-moze-pomoci-u-razvoju-blockchain-aplikacija/
 https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.9CtlOcfiVYQ.O/m=pds,pdl,pdit,m_i,pdt,t,it/am=_p6AHZK2HwgA7MwggyjNQJj9n0c-DXh7A5n__38AIAA0APgC_Jv7ADoHAAAAAAAAAAAAAAAAAAAAWig-AQ/rt=h/d=1/rs=AHGWq9D0TrCGE8Wq5NwQZVq6PmhYwoFGFA
 https://zir.nsk.hr/islandora/object/pmf%3A779/datastream/PDF/view
 https://startit.rs/sta-se-krije-iz-ripple-a-kriptovalute-koja-je-zabelezila-najveci-rast-u-2017-godini/
