@@ -1,6 +1,6 @@
 # Stilizovanje veza
 
-Skromna veza do sidra (*anchor link*) temelj je World Wide Weba. To je mehanizam koji omogućuje međusobno povezivanje web stranica, a korisnicima istraživanje i kretanje kroz njih. Podrazumijevano oblikovanje veza prilično je nenadahnuto, no s malo CSS-a možete učiniti zadivljujuće stvari.
+Prosta veza do sidra (*anchor link*) temelj je World Wide Weba. To je mehanizam koji omogućuje međusobno povezivanje stranica, a korisnicima istraživanje i kretanje kroz njih. Podrazumijevano oblikovanje veza prilično je nenadahnuto, no s malo CSS-a možete učiniti zadivljujuće stvari.
 
 ## Jednostavno oblikovanje veza
 
