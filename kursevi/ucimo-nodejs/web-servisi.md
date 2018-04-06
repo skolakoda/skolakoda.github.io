@@ -1,4 +1,8 @@
-# Web servisi
+---
+title: Šta su web servisi?
+layout: lekcija-nodejs
+permalink: /web-servisi
+---
 
 ![](http://www.cygnet-infotech.com/media/581332/rest-api.jpg)
 

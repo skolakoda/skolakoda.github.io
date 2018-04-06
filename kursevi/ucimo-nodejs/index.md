@@ -61,6 +61,7 @@ kurs: nodejs
 
 ### Server i služenje podataka
 
+- [Šta su web servisi?](/web-servisi)
 - Pokretanje servera
 - Služenje stranica
 - Zahtev i odgovor (`request` i `response`)

@@ -45,12 +45,12 @@ kurs: napredni-js
 ### Moć funkcija
 - Funkcija kao objekat (sa svojstvima i metodama)
 - Funkcija kao argument (povratna funkcija)
-- Funkcija koja vraća funkciju
+- [Funkcija koja vraća funkciju](/javascript-zatvaranje#funkcija-koja-vraća-funkciju)
 - [Funkcija koja poziva sebe (rekurzija)](/rekurzija)
 - Čiste i nečiste funkcije
 - [Višestruko vraćanje vrednosti](/visestruko-vracanje-vrednosti)
 - Deklaracija funkcije i dizanje (_hoisting_)
-- Zatvaranje (_closure_) i modularni obrazac
+- [Zatvaranje (_closure_)](/javascript-zatvaranje) i modularni obrazac
 - Samoizvršne anonimne funkcije i `void` operator
 - Podrazumevani argumenti
 - Streličaste funkcije
