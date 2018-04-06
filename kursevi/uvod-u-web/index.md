@@ -27,9 +27,8 @@ redirect_from:
   - [Čemu služi HTML?](/uvod-u-web/uvod-html)
   - [Čemu služi CSS?](/uvod-u-web/uvod-css)
 - [Kratka istorija weba](/kratka-istorija-weba)
-  - [Razdvajanje briga i razvoj CSS-a](/kratka-istorija-web-dizajna)
+- [Kratka istorija web dizajna](/kratka-istorija-web-dizajna)
 - Konvencija imenovanja fajlova i foldera
-- [Služenje stranica](/server) i [HTTP protokol](/http)
 
 ### Instalacija alata
 
@@ -202,8 +201,18 @@ redirect_from:
 - Primer: [animirani meni](https://github.com/mudroljub/animirani-meni)
 - Primer: [avionče (animacija sa rotacijom)](https://jsfiddle.net/mudroljub/x5Ljzcky/)
 
-### Optimizacija učitavanja
+### Mrežna komunikacija
 
+- [Server](/server)
+- [Portovi](/portovi)
+- [Sistem imena domena](/sistem-imena-domena)
+- [HTTP protokol](/http)
+- HTTP metode
+  - GET (čitanje resursa preko mreže)
+  - POST (slanje resursa preko mreže)
+- [URL parametri](/url)
+
+### Optimizacija brzine
 - Merenje brzine učitavanja ([PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/))
 - Optimizacija brzine učitavanja
   - Optimizacija slika

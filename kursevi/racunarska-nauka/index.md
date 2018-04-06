@@ -156,15 +156,6 @@ kurs: uvod
 - [Funkcionalno programiranje](/funkcionalno-programiranje)
 - [Imperativno vs. funkcionalno programiranje](/imperativno-vs-funkcionalno-programiranje)
 
-### Mrežna komunikacija
-
-- [Server](/server)
-- [Sistem imena domena](/sistem-imena-domena)
-- [Portovi](/portovi)
-- [HTTP protokol](/http)
-- GET (čitanje resursa preko mreže)
-- POST (slanje resursa preko mreže)
-
 ### Kriptografija
 
 - Uvod u kriptografiju

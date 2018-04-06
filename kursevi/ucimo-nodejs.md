@@ -31,21 +31,10 @@ kurs: nodejs
 - Čemu služi upravljač paketima?
 - Lična karta projekta: `package.json` fajl
 - Globalna i lokalna instalacija biblioteka
-
-### Moduli i modularnost
-- Moduli kao jedinice koda zatvorenog opsega
-- Uvoz iz modula (alternativne sintakse `import` i `require`)
-- Izvoz iz modula (`export`)
-
-### JS ekosistem
-
-- `nodemon`: automatsko restartovanje node aplikacije
-- `live-server`: automatsko osvežavanje browsera
-- `gulp`: automatizacija build procesa
-- `webpack`: upotreba modula i pakovanje koda
-- `cheerio`: jQuery na serverskoj strani
-- `electron`: [desktop softver sa Javaskriptom](/javaskript-desktop-softver)
-- linteri: statička analiza koda (prevencija greške)
+- Razvojne NodeJS alatke
+  - `nodemon`: automatsko restartovanje node aplikacije
+  - [Linter, mali pomoćnik koji ispravlja tvoj kod](/linter)
+- Uvoz i izvoz modula (alternativne sintakse `import` i `require`)
 
 ### Asinhrono programiranje
 - Događaji i povratne funkcije (*callback*)
@@ -64,18 +53,17 @@ kurs: nodejs
 
 ### Žetva podataka (*web scraping*)
 - Uvod u žetvu podataka
-- Čitamo javne stranice
-- Čitamo programski interfejs aplikacija (API)
+- Čitamo HTML stranice
+  - `cheerio`: jQuery na serverskoj strani
+- Čitamo API (programski interfejs aplikacija)
 - Filtriramo podatke
 - Čuvamo podatke
 
 ### Server i služenje podataka
 
-- [Portovi](/portovi)
-- Pokrećemo server
-- Služimo stranice
+- Pokretanje servera
+- Služenje stranica
 - Zahtev i odgovor (`request` i `response`)
-- [URL parametri](/URL) (*query string*)
 - [Autentifikacija korisnika pomoću tokena](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
 - Vežba: [pravimo bekend kao REST API servis](https://stormpath.com/blog/tutorial-build-rest-api-mobile-apps-using-node-js)
 

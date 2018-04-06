@@ -1,6 +1,6 @@
 ---
 title: Sistem imena domena
-layout: lekcija-racunarstvo
+layout: lekcija-html
 permalink: /sistem-imena-domena
 ---
 
@@ -10,11 +10,11 @@ Centralizirani sistem domenskih imena je primjer aplikacije građene prema model
 
 ![](/images/koncepti/web/dns.png)
 
-Poslužitelji na drugoj razini stabla sa slike, nazivaju se vršni poslužitelji. Tim poslužiteljima upravlja ICAAN (engl. *Internet Corporation for Assigned Names and Numbers*). Između ostalog, ICAAN-a dodjeljuje nazive domena organizacijama koje se nalaze niže u hijerarhiji. Te organizacije nazive vršnih domena opet mogu dodijeliti ili prodati ostalim niže rangiranim organizacijama. Takvim načinom dolazimo npr. do imena `math.pmf.unizg.hr`. 
+Poslužitelji na drugoj razini stabla sa slike, nazivaju se vršni poslužitelji. Tim poslužiteljima upravlja ICAAN (engl. *Internet Corporation for Assigned Names and Numbers*). Između ostalog, ICAAN-a dodjeljuje nazive domena organizacijama koje se nalaze niže u hijerarhiji. Te organizacije nazive vršnih domena opet mogu dodijeliti ili prodati ostalim niže rangiranim organizacijama. Takvim načinom dolazimo npr. do imena `math.pmf.unizg.hr`.
 
-U vršne domene spadaju tzv generičke domene `.com`, `.info`, `.edu`, `.org` ili nacionalne domene (engl. *Country Code Top-Level Domain*, ccTLD), npr. `.hr`, `.au`, `.rs`, `.it`. 
+U vršne domene spadaju tzv generičke domene `.com`, `.info`, `.edu`, `.org` ili nacionalne domene (engl. *Country Code Top-Level Domain*, ccTLD), npr. `.hr`, `.au`, `.rs`, `.it`.
 
-Prevođenje simboličkih imena kreće od lokalnog DNS poslužitelja. Ako on u svojoj bazi podataka nema zapisan podatak koji se od njega traži, taj poslužitelj postaje klijent i povezuje se vršnim poslužiteljem ili nekim od poslužitelja koji su odgovorni za pod-domene. 
+Prevođenje simboličkih imena kreće od lokalnog DNS poslužitelja. Ako on u svojoj bazi podataka nema zapisan podatak koji se od njega traži, taj poslužitelj postaje klijent i povezuje se vršnim poslužiteljem ili nekim od poslužitelja koji su odgovorni za pod-domene.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Example_of_an_iterative_DNS_resolver.svg/640px-Example_of_an_iterative_DNS_resolver.svg.png)
 

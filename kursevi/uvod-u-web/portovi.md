@@ -1,6 +1,6 @@
 ---
 title: Portovi
-layout: lekcija-racunarstvo
+layout: lekcija-html
 permalink: /portovi
 ---
 

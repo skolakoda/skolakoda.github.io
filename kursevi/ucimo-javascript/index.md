@@ -150,7 +150,7 @@ image: /images/kursevi/js-logo.png
 
 ### JSON format
 
-- JSON kao međujezički format razmene podataka
+- [Uvod u JSON](/json-format)
 - osnovne metode: `JSON.parse()`, `JSON.stringify()`
 - vežba: napravi adresar u JSON fajlu
 
