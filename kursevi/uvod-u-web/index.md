@@ -24,8 +24,8 @@ redirect_from:
 ### Uvod
 
 - [Čemu služe HTML, CSS i Javascript?](https://youtu.be/BFc_YPAxQcg)
-  - [Čemu služi HTML?](/uvod-u-web/uvod-html)
-  - [Čemu služi CSS?](/uvod-u-web/uvod-css)
+- [Uvod u HTML?](/uvod-u-web/uvod-html)
+- [Uvod u CSS?](/uvod-u-web/uvod-css)
 - [Kratka istorija weba](/kratka-istorija-weba)
 - [Kratka istorija web dizajna](/kratka-istorija-web-dizajna)
 - Konvencija imenovanja fajlova i foldera
@@ -101,11 +101,12 @@ redirect_from:
 
 ### Linkovi i putanje
 
-- Linkovi (`a`)
+- Veze (`a`)
   - [URL, jedinstvena adresa dokumenta](/url)
   - Relativne i apsolutne putanje
   - Unutrašnje veze ka delu stranice
   - Otvaranje u novom prozoru (`target` atribut)
+- [Stilizovanje veza](/stilizovanje-veza)
 - Vežba: napravi navigaciju i poveži stranice
 - Vežba: napravi prilagodljivi dizajn navigacije
 
