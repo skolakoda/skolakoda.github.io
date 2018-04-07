@@ -82,7 +82,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
 - [Automatsko pretvaranje tipova (*casting*)](/java-casting)
-- [Prekrivanje metoda](/java-prekrivanje-metoda)
+- [Prekrivanje metoda (*overriding*)](/java-prekrivanje-metoda)
 - [Polimorfizam](/polimorfizam)
 - [Ključna reč `super`](/java-super)
 - The Object Class

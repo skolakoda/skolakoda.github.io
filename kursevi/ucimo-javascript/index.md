@@ -245,8 +245,8 @@ image: /images/kursevi/js-logo.png
 - Vežba: [dinamički napravi foto galeriju](https://jsfiddle.net/mudroljub/d4zwwp70/)
 
 ### Rad sa zvukom i videom
-- učitavanje audio i video fajlova
-- puštanje fajlova
+- Učitavanje audio i video fajlova
+- Puštanje fajlova
 - Vežba: Napravi plejer i plejlistu
 - Vežba: Napravi program za pravljenje muzike
 
@@ -283,10 +283,11 @@ image: /images/kursevi/js-logo.png
 
 ### Node.js bekend servisi [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
 
-- Čemu služi Node.js?
-- Čitanje i pisanje fajlova
+- [Šta je server?](/server)
+- [Šta su web servisi?](/web-servisi)
 - Žetva podataka (*web scraping*)
-- Server i služenje podataka
+- Čitanje i pisanje fajlova
+- Služenje podataka
 - Vežba: žanji i kombinuj vesti sa raznih izvora
 
 ### Završni projekat

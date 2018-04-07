@@ -149,8 +149,8 @@ kurs: uvod
 
 ### Objekti, klase i nasleđivanje
 - [Klase i objekti u Javi](/java-klase-i-objekti)
-- privatne i javne metode
-- statičke metode
+- [Privatne i javne metode](/kontrola-pristupa)
+- [Statičke metode](/java-static)
 
 ### Paradigme programiranja
 

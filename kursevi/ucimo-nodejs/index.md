@@ -39,7 +39,7 @@ kurs: nodejs
 ### Asinhrono programiranje
 - Događaji i povratne funkcije (*callback*)
 - Gneždenje povratnih funkcija
-- Povratni pakao (*callback hell*)
+- Povratni pakao (*[callback hell](http://callbackhell.com/)*)
 - Obećanja (*promises*)
 - `async` / `await`
 - vežba: [žongliranje](https://github.com/workshopper/learnyounode/blob/master/exercises/juggling_async/problem.md) (asinhrono učitavamo podatke sa raznih servera, prikazujemo ih željenim redom)
@@ -61,9 +61,10 @@ kurs: nodejs
 
 ### Server i služenje podataka
 
+- [Šta je server?](/server)
 - [Šta su web servisi?](/web-servisi)
 - Pokretanje servera
-- Služenje stranica
+- Služenje podataka
 - Zahtev i odgovor (`request` i `response`)
 - [Autentifikacija korisnika pomoću tokena](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
 - Vežba: [pravimo bekend kao REST API servis](https://stormpath.com/blog/tutorial-build-rest-api-mobile-apps-using-node-js)

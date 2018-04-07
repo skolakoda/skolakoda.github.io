@@ -58,11 +58,11 @@ kurs: frontend
 - [Uvod u softversko inženjerstvo](https://www.slideshare.net/DamjanPavlica/uvod-u-softversko-inenjerstvo)
   - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
 - [Ideje za aplikacije](/ideje-za-aplikacije)
-- Analiza zahteva
-  - Slučajevi korišćenja (*use cases*)
+- [Analiza zahteva](/analiza-zahteva)
+  - [Slučajevi korišćenja](/slucaj-koriscenja) (*use cases*)
   - Korisničke priče (*user stories*)
   - Izrada specifikacije
-- Projektovanje modela
+- [Projektovanje modela](/projektovanje-modela)
   - Detektovanje elemenata sistema
   - [Izgrada dijagrama klasa](/dijagram-klasa)
 - [Dobre prakse pisanja programa](/dobre-prakse)

@@ -27,12 +27,9 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 - Razdvajanje briga
 - Princip isključive odgovornosti (*Single responsibility principle*)
 - Apstrakcija i neponavljanje koda
-- Nasleđivanje i polimorfizam (višeformnost)
 - [Ekapsulacija i skrivanje informacija](/enkapsulacija)
-- Princip otvorenosti/zatvorenosti (otvoren za proširenje, zatvoren za menjanje)
 - Princip zamenljivosti Barbare Liskov (*Liskov substitution principle*)
 - Princip podele interfejsa (*Interface segregation principle*)
-- Kontrola pristupa
 
 ### Objektno orijentisano programiranje
 
@@ -40,7 +37,6 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
   - [Uvod u objektno orijentisano programiranje](https://www.slideshare.net/DamjanPavlica/uvod-u-objektno-orijentisano-programiranje-i-c)
   - [Kako je nastalo objektno orijentisano programiranje?](/nastanak-oop)
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
-  - Apstrakcija i neponavljanje koda
   - [Polimorfizam](/polimorfizam)
   - [Kontrola pristupa](/kontrola-pristupa)
   - Otvoren/zatvoren princip (otvoren za proširenje, zatvoren za menjanje)
