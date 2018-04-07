@@ -44,6 +44,8 @@ kurs: uvod
 - Zdravo Javaskript
 
 ### Prevođenje i izvršavanje koda
+
+- [Izgradnja programa](/izgradnja-programa)
 - kompajliranje i interpretiranje
 - prevođenje programa u mašinski jezik
 - prevođenje novijeg koda u stariji

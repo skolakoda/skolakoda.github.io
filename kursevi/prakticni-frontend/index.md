@@ -75,7 +75,7 @@ kurs: frontend
   - Organizacija po tipu (js, css, slike...)
   - Organizacija po celinama (user, product, cart…)
 - [Izrada stilskog vodiča](/stilski-vodic)
-- Build automatizacija (`Gulp`, `Grunt`, `Webpack`)
+- [Build automatizacija](/izgradnja-programa) (`Gulp`, `Grunt`, `Webpack`)
   - Automatsko prevođenje, minifikacija i spajanje koda
   - Automatsko slanje koda na udaljeni server
   - Automatska analiza koda

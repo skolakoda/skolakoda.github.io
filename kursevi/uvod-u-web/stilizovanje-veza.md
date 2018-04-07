@@ -4,7 +4,7 @@ layout: lekcija-html
 permalink: /stilizovanje-veza
 ---
 
-**Prosta veza do sidra (*anchor link*) temelj je World Wide Weba.**
+**Skromna veza do sidra (*anchor link*) temelj je World Wide Weba.**
 
 To je mehanizam koji omogućuje međusobno povezivanje stranica, a korisnicima istraživanje i kretanje kroz njih. Podrazumijevano stilizovanje veza prilično je nenadahnuto, no s malo CSS-a možete učiniti zadivljujuće stvari.
 
@@ -208,7 +208,6 @@ li {
   margin: 5px 0;
 }
 </style>
-
 ```
 
 Svaka lokacija koju ste posjetili imat će oznaku potvrde pored imena, pružajući vrijednu informaciju da ste tamo već bili.
