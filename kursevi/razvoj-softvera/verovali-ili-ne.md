@@ -1,7 +1,7 @@
 ---
 title: Verovali ili ne
-layout: post
-tags: [softver, inzenjerstvo, zanimljivosti]
+layout: lekcija-razvoj
+permalink: /verovali-ili-ne
 image: /images/fore/bitovni-operatori.svg
 ---
 
@@ -14,6 +14,8 @@ p::first-letter {
 
 ![]({{page.image}})
 
+## Iznenađujuće činjenice
+
 Grupa Standish je 1994. godine obavila istraživanje u vezi sa ishodima više od 8000 softverskih projekata u preko 350 softverskih kompanija. Došli su do saznanja da je oko 35% projekata otkazano pre nego što je završeno, a da je samo 9% projekata isporučeno na vreme i u okviru planiranog budžeta.
 
 Boehm i Papaccio su 1988. godine sproveli istraživanje koje je pokazalo da otkrivanje i otklanjanje grešaka u zahtevima u kasnijim fazama projekta ima vrlo visoku cenu. Naime, otklanjanje iste greške u fazi projektovanja sistema košta pet puta više nego u fazi definisanja zahteva, u fazi pisanja programa deset puta više, a ako je greška otkrivena nakon isporuke softvera čak dve stotine puta više.
@@ -21,6 +23,10 @@ Boehm i Papaccio su 1988. godine sproveli istraživanje koje je pokazalo da otkr
 ![](/images/fore/panika.jpg)
 
 Easterbrook i Nuseibeh su 1996. godine dokazivali da je često bolje tolerisati nedoslednosti koje se pojave prilikom definisanja zahteva, a u nekim slučajevima ih čak i podsticati. Oni smatraju da je u ranoj fazi procesa definisanja zahteva besmisleno ulagati veliki trud u rezrešenje nadoslednosti, jer to može biti težak, skup, a ponekad i nemoguć posao. Razlog za ovakvo mišljenje je u tome što se tokom projekta kod svih učesnika akumulira znanje iz date oblasti, čime se poboljšava razumevanje problema.
+
+## Strašne softverske greške
+
+Korisna tehnologija može postati smrtonosna ako je softver projektovan ili programiran na neodgovarajući način. Na primer, medicinski krugovi bili su zaprepašteni kada je [Therac-25](https://en.wikipedia.org/wiki/Therac-25), mašina za radio terapiju i rendgen, loše funkcionisala i ubila više pacijenata. Projektanti softvera jednostavno nisu predvideli istovremenu upotrebu više tastera sa strelicama na nestandardni način. Posledica toga je bila da je softver zadržavao visoke vrednosti parametara i emitovao visoko koncentrovane doze radijacije u situacijama kada su zahtevane male doze (Leveson i Turner 1993).
 
 U Los Anđelesu je 14. septembra 2004. godine više od četiristo aviona u blizini aerodroma istovremeno izgubilo vezu sa kontrolom leta. Na sreću, zahvaljujući rezervnoj opremi unutar samih aviona, do nesreće ipak nije došlo. Uzrok gubitka veze bila je greška prekoračenja u brojaču milisekundi u okviru sistema za komunikaciju sa avionima. Da ironija bude veća, ova greška je bila ranije otkrivena, ali pošto je do otkrića došlo kada je već sistem bio isporučen i instaliran na nekoliko aerodroma, njegova jednostavna popravka i zamena nije bila moguća. Umesto toga, preporučeno je da se sistem resetuje svakih 30 dana kako do prekoračenja ne bi došlo. Procedura nije ispoštovana i greška se javila posle tačno 2<sup>32</sup> milisekundi, odnosno 49.7 dana od uključivanja sistema.
 
@@ -34,6 +40,7 @@ Kompanije Dell i Apple su tokom 2006. godine morali da korisnicima zamene više 
 
 ### Izvori
 
+- Joanne M. Atlee, Shari Lawrence Pfleeger, *Softversko inženjerstvo*, Beogad, 2006.
 - Violeta Tomašević, *Razvoj aplikativnog softvera*, Beograd, 2012.
 - Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Beograd, 2017.
 - Wikipedia, [Spisak softverskih grešaka](https://en.wikipedia.org/wiki/List_of_software_bugs)

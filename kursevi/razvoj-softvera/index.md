@@ -2,8 +2,6 @@
 title: Uvod u softversko inženjerstvo
 layout: kurs
 image: /images/kursevi/softversko-inzenjerstvo.jpg
-redirect_from:
-  - /kursevi/ucimo-arhitekturu
 desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver. Učimo da prepoznajemo obrasce i primenjujemo oprobane metode razvoja softvera.
 ---
 
@@ -18,6 +16,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 
 ### Uvod
 
+- [Verovali ili ne](/verovali-ili-ne)
 - Kako napraviti neboder od slame i pruća?
 - [Uvod u softversko inženjerstvo](https://www.slideshare.net/DamjanPavlica/uvod-u-softversko-inenjerstvo)
 - Softverska arhitektura i softverski dizajn
@@ -62,7 +61,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 ### Faza razvoja softvera
 
 - [Proces razvoja softvera](/faze-razvoja-programa)
-- [Analiza zahteva](/analiza-zahteva)
+- [Analiza problema](/analiza-zahteva)
   - [Slučajevi korišćenja](/slucaj-koriscenja) (*use cases*)
   - Korisničke priče (*user stories*)
   - Izrada specifikacije
