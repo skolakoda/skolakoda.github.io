@@ -4,6 +4,10 @@ layout: lekcija-razvoj
 permalink: /adapter
 ---
 
+![](https://gamessoon.ru/assets/264-adapterintro2646.jpg)
+
+***Adapter - strukturalni šablon koji vam omogućava da koristite klasu koja implementira potrebne funkcije, ali ima neadekvatan interfejs.***
+
 Evo nas kod drugog obrasca “Velike Četvorke” (*Gang of Four*). Ovaj obrazac, kao što i samo ime sugeriše služi da prilagodi (adaptira) postojeće funkcionalnosti (interfejs) onome što korisnik očekuje. Ovaj obrazac omogućava saradnju klasama koje inače ne bi mogle da funkcionišu zajedno zbog nekompatibilnosti, tako što pravi sopstveni interfejs – “omotač” oko već postojeće klase i na taj način omogućavaju klijentu da komunicira sa osnovnom klasom. Adapter je takođe odgovoran za pretvaranje tipa podataka u tip koji klijent očekuje kao odgovor.
 
 ## Dva vid obrasca

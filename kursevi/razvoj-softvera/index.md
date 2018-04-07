@@ -16,14 +16,15 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 
 ### Uvod
 
-- [Verovali ili ne](/verovali-ili-ne)
 - Kako napraviti neboder od slame i pruća?
 - [Uvod u softversko inženjerstvo](https://www.slideshare.net/DamjanPavlica/uvod-u-softversko-inenjerstvo)
 - Softverska arhitektura i softverski dizajn
+- [Verovali ili ne](/verovali-ili-ne)
 - [Ideje za aplikacije](/ideje-za-aplikacije)
 
 ### Temeljni principi projektovanja
 
+- [Kod koji radi nije dovoljan](/pisanje-dobrog-koda)
 - Razdvajanje briga
 - Princip isključive odgovornosti (*Single responsibility principle*)
 - Apstrakcija i neponavljanje koda
@@ -45,11 +46,11 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 
 ### Projektni obrasci
 
-- [Dobrobiti upotrebe obrazaca](/projektni-obrasci)
+- [Projektni obrasci](/projektni-obrasci)
 - [Fasada](/fasada) (*Facade*)
 - [Adapter](/adapter)
 - Observer Pattern
-- The Singleton Pattern
+- [Jedinac](/singleton) (*Singleton*)
 - Factory Pattern
 - Adapter Pattern
 - Model-View-Controller (MVC)

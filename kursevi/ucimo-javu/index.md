@@ -93,7 +93,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - [Interfejsi](/java-interfejs)
   - [Implementacija interfejsa](/implementacija-interfejsa)
 - Collections
-- Generics
+- [Generičke klase](/genericke-klase)
 - Comparable
 
 ### Paketi
