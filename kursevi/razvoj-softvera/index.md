@@ -45,11 +45,12 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 
 ### Projektni obrasci
 
-- Dobrobiti upotrebe obrazaca
+- [Dobrobiti upotrebe obrazaca](/projektni-obrasci)
+- [Fasada](/fasada) (*Facade*)
+- [Adapter](/adapter)
 - Observer Pattern
 - The Singleton Pattern
 - Factory Pattern
-- Facades
 - Adapter Pattern
 - Model-View-Controller (MVC)
 - Vežba: Implementiraj MVC obrazac

@@ -28,6 +28,7 @@ bundle exec jekyll serve --limit_posts 1
 
 ## TODO
 
+- https://senseithoughts.wordpress.com/2007/05/29/velika-cetvorka-design-patterns-bridge/
 - na malom kompu ne radi simbol .uokvireno.ideja
 - https://developers.google.com/web/progressive-web-apps/
 
