@@ -38,6 +38,7 @@ redirect_from:
   - ulepšavanje koda
   - otkrivanje grešaka u kucanju
 - Razvojni alati pregledača
+- Brisanje keša i tvrdo osveženje (*hard refresh*)
 
 ### Moja prva stranica
 
@@ -57,13 +58,14 @@ redirect_from:
   - Unutar HTML-a (`style` tag)
   - Kao poseban fajl (`link` tag)
 - Selektori
-  - `tag` (za podrazumevane stilove)
+  - `tag` (za osnovne stilove)
   - `#id` (samo za specifične slučajeve, izbegavati)
   - `.klasa` (najčešće se koristi)
 - Boje
   - Izbor osnovne palete ([primeri](https://color.adobe.com/explore/))
   - Pravljenje pomoćnih klasa za boje
   - [Heksadecimalni brojevi](/heksadecimalni-brojevi)
+- [Podrazumevani stilovi pregledača](/podrazumevani-stilovi-pregledaca)
 - Vežba: Promeni boju slova i pozadine
 - Vežba: Otkrij ko ne nasleđuje boju od roditelja?
 

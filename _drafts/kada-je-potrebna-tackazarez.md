@@ -6,7 +6,7 @@ Na primer:
 p.innerHTML = `
 <img src=${pice.slika}>
 <span>${pice.naziv}</span>: <span>${pice.cena}</span>
-`;
+`
 p.onclick = () => sto.dodaj(pice)
 ```
 

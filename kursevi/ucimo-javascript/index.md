@@ -59,6 +59,7 @@ image: /images/kursevi/js-logo.png
 - Prosti i složeni tipovi
 - Provera tipa podatka (`typeof`)
 - Promena tipa podatka
+- [Opasnost labavih tipova](/opasnost-labavih-tipova)
 
 ### Brojevi i računanje
 

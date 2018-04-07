@@ -19,7 +19,13 @@ Kao odgovor na to, određeni korisnici su razvili reset stilove, čiji je cilj d
 Najjednostavniji primer za to je ukidanje svih razmaka:
 
 ```css
-* {margin: 0; padding: 0;}
+* {
+  margin: 0;
+  padding: 0;
+}
 ```
 
 Nakon toga se razmaci moraju iznova definisati, u skladu sa dizajnom.
+
+
+Izvor: Eric Meyer, *Smashing CSS: Profesionalne tehnike za dizajn savremenih web stranica*, Beograd 2012.
