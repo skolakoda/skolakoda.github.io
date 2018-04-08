@@ -22,16 +22,6 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 - [Verovali ili ne](/verovali-ili-ne)
 - [Ideje za aplikacije](/ideje-za-aplikacije)
 
-### Temeljni principi projektovanja
-
-- [Kod koji radi nije dovoljan](/pisanje-dobrog-koda)
-- Razdvajanje briga
-- Princip isključive odgovornosti (*Single responsibility principle*)
-- Apstrakcija i neponavljanje koda
-- [Ekapsulacija i skrivanje informacija](/enkapsulacija)
-- Princip zamenljivosti Barbare Liskov (*Liskov substitution principle*)
-- Princip podele interfejsa (*Interface segregation principle*)
-
 ### Objektno orijentisano programiranje
 
 - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
@@ -40,20 +30,32 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
   - [Polimorfizam](/polimorfizam)
   - [Kontrola pristupa](/kontrola-pristupa)
-  - Otvoren/zatvoren princip (otvoren za proširenje, zatvoren za menjanje)
   - Ograničenja nasleđivanja
 - Kompozicija vs nasleđivanje
 
+### Temeljni principi projektovanja
+
+- Razdvajanje briga
+- [Princip isključive odgovornosti](/princip-iskljucive-odgovornosti)
+- Apstrakcija i neponavljanje koda
+- [Ekapsulacija i skrivanje informacija](/enkapsulacija)
+- [Otvoren/zatvoren princip](/otvoren-zatvoren-princip)
+- [Princip zamene Barbare Liskov](/liskov-princip-zamene)
+- [Princip podele interfejsa](/princip-podele-interfejsa)
+
 ### Projektni obrasci
 
+- [Ispravan kod nije dovoljan](/ispravan-kod-nije-dovoljan)
 - [Projektni obrasci](/projektni-obrasci)
-- [Fasada](/fasada) (*Facade*)
+- [Fasada](/fasada)
 - [Adapter](/adapter)
 - Observer Pattern
 - [Jedinac](/singleton) (*Singleton*)
-- Factory Pattern
-- Adapter Pattern
-- Model-View-Controller (MVC)
+- [Fabrika](/fabrika)
+- [Strategija](/strategija)
+- [Kompozicija](/kompozicija)
+- [Komanda](/komanda)
+- [Model–view–controller (MVC)](/mvc)
 - Vežba: Implementiraj MVC obrazac
 
 ### Faza razvoja softvera
@@ -80,6 +82,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 
 - Distribuirani sistemi
 - Klijent-server model
+- [Višeslojna arhitektura](/viseslojna-arhitektura)
 - [Projektovanje web aplikacija](https://www.slideshare.net/DamjanPavlica/projektovanje-web-aplikacija)
 - [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
 

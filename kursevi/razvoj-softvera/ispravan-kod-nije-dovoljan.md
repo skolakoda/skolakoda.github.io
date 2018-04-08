@@ -1,7 +1,7 @@
 ---
-title: Kod koji radi nije dovoljan
+title: Ispravan kod nije dovoljan
 layout: lekcija-razvoj
-permalink: /pisanje-dobrog-koda
+permalink: /ispravan-kod-nije-dovoljan
 ---
 
 **Jedna stvar je napisati kod koji radi. Nešto sasvim drugo je napisati dobar kod koji radi.**
@@ -14,4 +14,5 @@ Stav "pisanje dobrog koda koji radi" vodi ka vrednovanju **mogućnosti lakog odr
 
 **Nezadovoljavajući softver je uglavnom posledica lošeg dizajna.** Loš dizajn obično nastaje kao posledica dva uzroka koja nisu međusobno isključiva: nedovoljno znanje arhitekte i neprecizni ili kontradiktorni zahtevi. Kontradiktorni zahtevi uglavnom nastaju kao posledica loše komunikacije.
 
-Izvor: Zdravko Ivanković, Dejan Lacmanović, *Softversko inženjerstvo 2*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+
+Izvor: Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
