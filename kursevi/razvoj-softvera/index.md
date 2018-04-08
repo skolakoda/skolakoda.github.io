@@ -49,7 +49,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 - [Projektni obrasci](/projektni-obrasci)
 - [Fasada](/fasada)
 - [Adapter](/adapter)
-- Observer Pattern
+- [Posmatrač](/posmatrac)
 - [Jedinac](/singleton) (*Singleton*)
 - [Fabrika](/fabrika)
 - [Strategija](/strategija)
@@ -61,6 +61,8 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 ### Faza razvoja softvera
 
 - [Proces razvoja softvera](/faze-razvoja-programa)
+  - [Model vodopada](/model-vodopada)
+  - [Agilni pristup](/agilni-pristup)
 - [Analiza problema](/analiza-zahteva)
   - [Slučajevi korišćenja](/slucaj-koriscenja) (*use cases*)
   - Korisničke priče (*user stories*)
@@ -75,7 +77,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
   - [Dobre prakse pisanja programa](/dobre-prakse)
 - [Testiranje softvera](/testiranje-programa)
 - [Dokumentacija programa](/dokumentacija-programa)
-- Održavanje softvera
+- [Održavanje softvera](/odrzavanje-softvera)
   - [Starenje softvera](https://www.slideshare.net/DamjanPavlica/starenje-softvera)
 
 ### Mrežna arhitektura
@@ -83,11 +85,12 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
 - Distribuirani sistemi
 - Klijent-server model
 - [Višeslojna arhitektura](/viseslojna-arhitektura)
+- [Model ravnopravnih partnera](/model-ravnopravnih-partnera)
 - [Projektovanje web aplikacija](https://www.slideshare.net/DamjanPavlica/projektovanje-web-aplikacija)
-- [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
 
 ### Frontend arhitektura
 
+- [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
 - [Kako organizovati frontend projekat koji raste?](/kako-organizovati-frontend-projekat)
   - organizacija po nameni (model, view, controller)
   - organizacija po celinama (user, product...)

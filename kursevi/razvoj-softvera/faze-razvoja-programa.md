@@ -31,19 +31,5 @@ Na kraju sledi završno testiranje u kome se proverava da li sistem ispunjava po
 
 - **održavanje**. Ovo je dugotrajna faza u kojoj se ispravljaju greške u sistemu koje se javljaju nakon njegove isporuke. Takođe se radi i na daljem unapređenju pojedinih delova sistema u skladu sa zahtevima korisnika ili promenama u okruženju.
 
-## Metod vodopada
-
-![Vodopad model](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Waterfall_model.svg/600px-Waterfall_model.svg.png)
-
-Uvođenje planiranja u proces razvoja softvera prema zadatim fazama dovelo je do nastanka tradicionalnih metoda modelovanja, poput metoda vodopada.
-
-## Agilni pristup
-
-![Iterativni model](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Iterative_development_model.svg/800px-Iterative_development_model.svg.png)
-
-Brojne teškoće u izvođenju tradicionalnih metoda modelovanja dovele su do pojave novog pristupa procesu razvoja softvera. To je agilni pristup koji negira potrebu za velikim planiranjem i obimnom dokumentacijom, već se zalaže za fleksibilniji razvoj u kome mnogo toga zavisi od znanja i veština ljudskog faktora.
-
-**U principu, proces izrade programa je iterativan postupak, što znači da je vrlo često potrebno vratiti se na neki od prethodnih koraka i izvršiti potrebnu korekciju i modifikaciju.**
-
 
 Izvor: Violeta Tomašević, *Razvoj aplikativnog softvera*, Beograd, 2012.

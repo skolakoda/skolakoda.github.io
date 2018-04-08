@@ -4,6 +4,8 @@ layout: lekcija-razvoj
 permalink: /komanda
 ---
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Command_Center_%286109628967%29.jpg/1024px-Command_Center_%286109628967%29.jpg)
+
 Komandni obrazac (*Command pattern*) kreira distancu između klijenata koji zahtevaju operacije i objekata koji ih izvršavaju. Obrazac je izrazito višestran. On može da podrži:
 
 - slanje zahteva ka različitim objektima

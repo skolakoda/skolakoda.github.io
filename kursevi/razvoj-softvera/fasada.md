@@ -5,9 +5,11 @@ permalink: /fasada
 image: https://upload.wikimedia.org/wikipedia/en/5/57/Example_of_Facade_design_pattern_in_UML.png
 ---
 
-Erich Gamma je sistematizovao najpoznatije projektne obrasce zajedno sa jos trojicom programera, a ova grupa je poznatija pod nazivom “Gang of Four” ili kako ja volim da prevedem na srpski “Velika Četvorka” (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides). U pitanju su zasigurno najčešće korišćeni projektni obrasci koji nam pomažu prilikom rešavanja čestih i standardnih problema sa kojima se često susrećemo.
+![](https://upload.wikimedia.org/wikipedia/commons/d/d6/%27De_Calypso%27_Mauritsweg_Rotterdam2.jpg)
 
-Prvi i najjednostavniji (po meni) je *Facade design pattern*. U jednostavnom prevodu u pitanju je fasada (kao fasada kuće). Simbolično fasada je ono što posmatrač vidi spolja. Fasada skriva unutrašnjost kuće. Arhitekta koristi fasadu da prikaže posmatraču ono što on želi, odnosno ono što posmatrač treba da vidi.
+**Fasada (*facade design pattern*) je prvi i najjednostavniji projektni obrazac.**
+
+Simbolično, fasada je ono što posmatrač vidi spolja. Fasada skriva unutrašnjost kuće. Arhitekta koristi fasadu da prikaže posmatraču ono što on želi, odnosno ono što posmatrač treba da vidi.
 
 Analogno tome *Facade* projektni obrazac skriva realizaciju funkcionalnosti (klasa i/ili interfejsa) čije pojedinačne realizacije klijent ne mora da vidi i da koristi. Dakle, za klijenta kreiramo jednu klasu, koju će on da vidi i čije će metode moći da koristi. Ove metode su kreirane kombinovanjem jedne ili više metoda “skrivenih” klasa. Dakle, prema korisniku prilagođavamo nove metode (fasada kuće), koristeći postojeće (unutrašnjost kuće). Evo kako to izgleda u UML notaciji:
 

@@ -4,7 +4,11 @@ layout: lekcija-razvoj
 permalink: /strategija
 ---
 
-*Strategy pattern* uključuje uklanjanje algoritma iz klase u kojoj se nalazio i njegovo prebacivanje u posebne klase. Mogu postojati različiti algoritmi (strategije) koji se mogu primeniti za posmatrani problem. Ukoliko se algoritmi nalazu u jednom fajlu odakle se i pozivaju, dobićemo teško čitljiv kod sa dosta uslovnih iskaza. *Strategy pattern* omogućava klijentu da odabere koji algoritam želi da koristi iz familije postojećih algoritama i pruža jednostavan način da se pristupi tom algoritmu.
+![](https://upload.wikimedia.org/wikipedia/commons/2/28/H._G._Wells_Wargaming.jpg)
+
+**Strategijski obrazac (*strategy pattern*) uključuje uklanjanje algoritma iz klase u kojoj se nalazio i njegovo prebacivanje u posebne klase.**
+
+Mogu postojati različiti algoritmi (strategije) koji se mogu primeniti za posmatrani problem. Ukoliko se algoritmi nalazu u jednom fajlu odakle se i pozivaju, dobićemo teško čitljiv kod sa dosta uslovnih iskaza. *Strategy pattern* omogućava klijentu da odabere koji algoritam želi da koristi iz familije postojećih algoritama i pruža jednostavan način da se pristupi tom algoritmu.
 
 Neke od ključnih činjenica kada se radi o implementaciji strategije su:
 

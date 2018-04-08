@@ -1,9 +1,9 @@
 ---
-title: Postavljanje sistema boja na frontendu sa Sass-om
+title: Postavljanje sistema boja sa Sass-om
 author: damjan
 layout: lekcija-frontend
 permalink: /postavljanje-sistema-boja
-image: /images/bojice.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Colouring_pencils.jpg/1024px-Colouring_pencils.jpg
 ---
 <img class="full" src="{{page.image}}" alt="boje">
 
