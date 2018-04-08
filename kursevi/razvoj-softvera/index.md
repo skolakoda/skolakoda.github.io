@@ -32,6 +32,7 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
   - [Kontrola pristupa](/kontrola-pristupa)
   - Ograničenja nasleđivanja
 - Kompozicija vs nasleđivanje
+- [Komponente i njihovo korištenje](/komponente)
 
 ### Temeljni principi projektovanja
 
