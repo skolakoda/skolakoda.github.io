@@ -4,9 +4,6 @@ title: Uvod u web
 github: uvod-u-web
 image: /images/kursevi/html.gif
 opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multimedijom. Nauči temelje web razvoja.
-redirect_from:
-  - /kursevi/ucimo-html/
-  - /kursevi/ucimo-css/
 ---
 
 ![web-design]({{page.image}})
@@ -19,7 +16,7 @@ redirect_from:
 
 ***Kurs je za apsolutne početnike.***
 
-<a href="/kursevi/prijava?kurs=1" class="btn float-right">Prijavi se</a>
+<!-- <a href="/kursevi/prijava?kurs=1" class="btn float-right">Prijavi se</a> -->
 
 ### Uvod
 

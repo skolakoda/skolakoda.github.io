@@ -15,7 +15,7 @@ image: /images/kursevi/js-logo.png
 
 ***Kurs programiranja za početnike, idealno za učenje programiranje korak po korak. Podrazumeva se poznavanje HTML-a i osnovna računarska pismenost.***
 
-<a href="/kursevi/prijava?kurs=2" class="btn float-right">Prijavi se</a>
+<!-- <a href="/kursevi/prijava?kurs=2" class="btn float-right">Prijavi se</a> -->
 
 ### Uvod
 

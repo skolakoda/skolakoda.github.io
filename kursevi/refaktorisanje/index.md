@@ -8,7 +8,7 @@ redirect_from:
 image: /images/apstraktno/kontrolna-soba.jpeg
 ---
 
-<img src="{{page.image}}" class="extra-full" alt="refaktorisanje" title="refaktorisanje knjiga">
+<img src="{{page.image}}" alt="refaktorisanje" title="refaktorisanje knjiga">
 
 ## Kako preživeti jQuery?
 

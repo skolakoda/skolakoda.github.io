@@ -14,7 +14,7 @@ kurs: napredni-js
 
 ***Preporučeni preduslov za uspešno praćenje kursa je bar 2 godine programiranja.***
 
-<a href="/kursevi/prijava?kurs=5" class="btn float-right">Prijavi se</a>
+<!-- <a href="/kursevi/prijava?kurs=5" class="btn float-right">Prijavi se</a> -->
 
 ### Objektno orijentisani Javascript [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
 

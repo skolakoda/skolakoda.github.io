@@ -16,7 +16,7 @@ kurs: uvod
 
 ***Kurs programiranja za potpune početnike, kao i samouke kodere koji hoće da popune praznine. Solidan temelj za dalju profesionalnu orjentaciju.***
 
-<a href="/kursevi/prijava?kurs=10" class="btn float-right">Prijavi se</a>
+<!-- <a href="/kursevi/prijava?kurs=10" class="btn float-right">Prijavi se</a> -->
 
 ### Šta je računar?
 

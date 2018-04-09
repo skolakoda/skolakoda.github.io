@@ -16,7 +16,7 @@ kurs: nodejs
 
 ***Preduslov za ovaj kurs je osnovno znanje Javaskripta.***
 
-<a href="/kursevi/prijava?kurs=3" class="btn float-right">Prijavi se</a>
+<!-- <a href="/kursevi/prijava?kurs=3" class="btn float-right">Prijavi se</a> -->
 
 <!-- https://scotch.io/tutorials/building-and-securing-a-modern-backend-api -->
 
