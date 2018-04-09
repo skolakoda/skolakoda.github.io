@@ -4,9 +4,13 @@ layout: lekcija-blockchain
 permalink: /hash-funkcija
 ---
 
-**Hash funkcije kao argument uzimaju podatke varijabilne duljine, dok je rezultat uvijek fiksne duljine.**
+<!-- **Hash funkcije kao argument uzimaju podatke varijabilne duljine, dok je rezultat uvijek fiksne duljine.** -->
 
-Blockchain tehnologija iskorištava važna svojstva *hash*-eva, odnosno vrijednosti hash funkcija. Vrlo je lako proizvesti hash iz podataka kao što je Bitcoin blok, ali je gotovo nemoguće otkriti koji su to podatci gledajući samo hash. Vrlo lako je proizvesti hash iz velike količine podataka, ali svaki hash je jedinstven. Ako se promijeni samo jedno slovo ili brojka, hash se kompletno mijenja. 
+**Hash funkcija je bilo funkcija koja za ulaz ima podatke proizvoljne veličine, a kao izlaz vraća podatke fiksne veličine. Vrijednost hash funkcije naziva se *hash* dok se ulazni podatak naziva poruka.**
+
+Kriptografska hash funkcija je posebna klasa hash funkcije koja ima određena svojstva koja je čine prikladnom za uporabu u kriptografiji. Kriptografske hash funkcije su jednosmjerne odnosno nemaju inverz. Jedini način da se kreiraju ulazni podaci iz izlaza je pokušati pretraživanje *brute-force* algoritmom, isprobavanjem svih mogućih vrijednosti ulaza kako bi se vidjelo koji odgovara izlazu.
+
+Blockchain tehnologija iskorištava važna svojstva *hash*-eva. Vrlo je lako proizvesti hash iz podataka kao što je Bitcoin blok, ali je gotovo nemoguće otkriti koji su to podatci gledajući hash. Vrlo lako je proizvesti hash iz velike količine podataka, ali svaki hash je jedinstven. Ako se promijeni samo jedno slovo ili brojka, hash se kompletno mijenja.
 
 ## Primjer
 
