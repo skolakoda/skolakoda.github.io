@@ -30,13 +30,14 @@ image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhL
 - [Bitkoinov čvor](/bitkoinov-cvor)
 - [Hash funkcija](/hash-funkcija)
 - [Struktura blockchain bloka](/struktura-blockchain-bloka)
-  - [Binarno hash stablo](/binarno-hash-stablo)
+- [Binarno hash stablo](/binarno-hash-stablo)
 
-### Stvaranje vrednosti
+### Metodi postizanja konsenzusa
 
-- Rudarenje
 - [Dokaz o radu](/dokaz-o-radu)
 - [Dokaz o ulogu](/dokaz-o-ulogu)
+  - [Dokaz o ulogu u Peercoin-u](/dokaz-o-ulogu-peercoin)
+  - [Dokaz o ulogu u Ethereum-u](/dokaz-o-ulogu-ethereum)
   - [Delegirani dokaz o ulogu](/delegirani-dokaz-o-ulogu)
   - [Dokaz o važnosti](/dokaz-o-vaznosti)
 
@@ -53,7 +54,7 @@ image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhL
 - [Inicijalna ponuda novčića](/inicijalna-ponuda-novcica)
 - [Regulacija kriptovaluta](/regulacija-kriptovaluta)
 
-### Ostale primene
+### Primene blockchaina
 
 - [Blockchain i preduzetništvo](/blockchain-i-preduzetnistvo)
 - [Blockchain i javna uprava](/blockchain-i-javna-uprava)

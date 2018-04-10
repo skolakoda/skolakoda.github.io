@@ -37,4 +37,4 @@ Nedostaci ove metode:
 - Jer se blok nagrada postepeno smanjuje, rudari dobivaju sve manje tokena. Ujedno, kako više ljudi rudari, težina rudarenja se povećava, dakle rudarenje postaje sustavno skuplje. Kako rudarenje postaje skuplje u odnosu na zaradu, manje rudara se trudi oko te valute i izlaze iz sustava. Valuta samu sebe sabotira. Manje računalne moći među rudarima neke valute znači više šanse za 51% napad.
 
 
-Izvor: [Po čemu se razlikuju Proof of Work, Proof of Stake, i Delegated PoS metoda?](https://bitfalls.com/hr/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/)
+Izvor: [bitfalls.com](https://bitfalls.com/hr/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/)

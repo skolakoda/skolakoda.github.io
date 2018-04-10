@@ -12,9 +12,9 @@ Imovina ili valuta prenosi se u program. U trenutku izvršavanja programa, on au
 
 ## Proces kreiranja
 
-(dodati sliku)
+![](images/koncepti/pametni-ugovori.png)
 
-Slika 4.2 prikazuje proces kreiranja pametnih ugovora. Koraci su sljedeći:
+Slika prikazuje proces kreiranja pametnih ugovora. Koraci su sljedeći:
 
 1. Moguća razmjena dobara između dva (ili više) partnera zapisuje se kao programerski kod i pohranjuje na blockchain. Partneri ostaju anonimni, no sadržaj pametnog ugovora javno je dostupan svim partnerima u sustavu.
 2. Varijable poput datuma ili određene količine novca potiču izvršavanje ugovora prema pravilima definiranim u kodu.

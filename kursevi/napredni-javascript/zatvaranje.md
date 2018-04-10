@@ -2,9 +2,10 @@
 title: Zatvaranje (<i>closure</i>)
 layout: lekcija-napredni-js
 permalink: /javascript-zatvaranje
+image: https://i2.wp.com/geekstrick.com/wp-content/uploads/2017/12/Understanding-JavaScript-Closure.png
 ---
 
-![](https://i2.wp.com/geekstrick.com/wp-content/uploads/2017/12/Understanding-JavaScript-Closure.png)
+![]({{page.image}})
 
 Još jedan zanimljiv aspekt funkcije u JavaScriptu je upotreba ugniježđenih funkcija. Proučite sljedeći kod:
 
