@@ -2,7 +2,10 @@
 title: Stilizovanje veza
 layout: lekcija-html
 permalink: /stilizovanje-veza
+image: https://upload.wikimedia.org/wikipedia/commons/d/d1/Kotwica_SS_Pozna%C5%84.JPG
 ---
+
+![]({{page.image}})
 
 **Skromna veza do sidra (*anchor link*) temelj je World Wide Weba.**
 
