@@ -2,7 +2,7 @@
 title: Stilizovanje veza
 layout: lekcija-html
 permalink: /stilizovanje-veza
-image: https://upload.wikimedia.org/wikipedia/commons/d/d1/Kotwica_SS_Pozna%C5%84.JPG
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chains_%2825491126954%29.jpg/1024px-Chains_%2825491126954%29.jpg
 ---
 
 ![]({{page.image}})
