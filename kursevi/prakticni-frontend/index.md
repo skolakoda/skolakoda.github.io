@@ -1,7 +1,6 @@
 ---
 layout: kurs
 title: Praktični Frontend
-github: shank-app
 image: /images/kursevi/frontend.png
 kurs: frontend
 ---
