@@ -4,7 +4,7 @@ layout: lekcija-blockchain
 permalink: /bitkoinov-blockchain
 ---
 
-**Priča o kriptovalutama počinje bitkoinom i njegovim blokčeinom. Bitkoinov blockchain je zapravo mreža servera koji se ponašaju kao replicirana baza podataka.**
+**Bitkoinov blockchain je zapravo mreža servera koji se ponašaju kao replicirana baza podataka.**
 
 Blokčein je registar svih transakcija koje su se ikad desile u bitkoinovom sistemu. To samo po sebi nije ništa spektakularno, jer svaki sistem u kojem se vrše neka plaćanja vodi evidenciju o tim transakcijama i čuva ih kao neku bazu podataka. Ono što je kod blokčeina velika inovacija je način na koji se informacije o transakcijama šalju i skladište.
 

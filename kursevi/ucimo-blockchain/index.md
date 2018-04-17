@@ -13,26 +13,23 @@ image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhL
 
 ### Uvod
 
+- [Problem vizantijskih generala](/problem-vizantijskih-generala)
+- [Nastanak bitkoina](/nastanak-bitkoina)
+- Šta je Bitkoin?
 - [Šta je Blockchain?](/sta-je-blockchain)
 - [Blockchain vs. baza podataka](/blockchain-vs-baza-podataka)
-- Šta je Bitkoin?
-- [Nastanak bitkoina](/nastanak-bitkoina)
-- [Problemi sa posrednicima](/problemi-sa-posrednicima)
-- [Problem vizantijskih generala](/problem-vizantijskih-generala)
-- [Postizanje konsenzusa](/konsenzus-u-blockchainu)
 - [Mane bitkoina](/mane-bitkoina)
 
 ### Blockchain tehnologija
 
 - [Bitkoinov blockchain](/bitkoinov-blockchain)
-- [Glavna knjiga](/blockchain-ledger)
 - [Bitkoin novčanik](/bitkoin-novcanik)
 - [Bitkoinov čvor](/bitkoinov-cvor)
 - [Hash funkcija](/hash-funkcija)
 - [Struktura blockchain bloka](/struktura-blockchain-bloka)
 - [Binarno hash stablo](/binarno-hash-stablo)
 
-### Metodi postizanja konsenzusa
+### Algoritmi za postizanje konsenzusa
 
 - [Dokaz o radu](/dokaz-o-radu)
 - [Dokaz o ulogu](/dokaz-o-ulogu)
@@ -50,18 +47,15 @@ image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhL
 
 - [Kriptovalute](/kriptovalute)
   - [Namecoin](/namecoin)
-- [Prednosti kriptovaluta](/prednosti-kriptovaluta)
 - [Inicijalna ponuda novčića](/inicijalna-ponuda-novcica)
-- [Regulacija kriptovaluta](/regulacija-kriptovaluta)
 
 ### Primene blockchaina
 
 - [Blockchain i preduzetništvo](/blockchain-i-preduzetnistvo)
 - [Blockchain i javna uprava](/blockchain-i-javna-uprava)
 - [Blockchain i politički izbori](/blockchain-i-izbori)
-- [Blockchain trendovi i predviđanja](/blockchain-trendovi)
 
-### Razvoj blockchaina
+### Blockchain development
 
 - [Razvoj Bitkoin novčanika](/razvoj-bitkoin-novcanika)
 - Login aplikacija
