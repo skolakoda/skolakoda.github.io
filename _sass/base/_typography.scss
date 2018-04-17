@@ -59,7 +59,7 @@ h2 {
   }
 }
 
-.lekcija {
+.lekcija :not(h1) {
   @media (min-width: $screen-lg-min) {
     text-align: justify;
   }
