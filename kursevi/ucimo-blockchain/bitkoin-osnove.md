@@ -1,14 +1,14 @@
 ---
-title: Nastanak bitkoin tehnologije
+title: Osnove bitkoin tehnologije
 layout: lekcija-blockchain
-permalink: /nastanak-bitkoina
+permalink: /bitkoin-osnove
 ---
 
 ![](https://www.digimarc.com/public_images/blockchain-1500x600.jpg)
 
-**Razumevanjem problema koje blockchain rešava i glavnih koncepata na kojima se zasniva, postaje jasno zašto je ova tehnologija tako značajna.**
+**Osnovni koncepti bitkoin tehnologije su razvijeni u originalnom dokumentu Satoshi Nakamota iz 2008. pod naslovom *[Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)*.**
 
-Osnovni koncepti su razvijeni u originalnom dokumentu Satoshi Nakamota iz 2008. pod naslovom *[Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)*. Svojim radom, Satoshi je postavio osnove Bitcoina. Kombinovanjem Peer-to-Peer (P2P) mreže i raspodeljenog servera koji obeležava transakcije vremenskim žigom, nastala je baza podataka koja je autonomna i podeljena među svim učesnicima mreže. S obzirom da baza podataka nije čuvana na jednom mestu odnosno serveru, ona je decentralizovana. Umesto da svako na svetu ima svoje posebne knjige i vodi zasebnu evidenciju transakcija, glavna knjiga je jedna, sadrži sve transakcije, javna je i u vlasništvu svih.
+Kombinovanjem Peer-to-Peer (P2P) mreže i raspodeljenog servera koji obeležava transakcije vremenskim žigom, nastala je baza podataka koja je autonomna i podeljena među svim učesnicima mreže. S obzirom da baza podataka nije čuvana na jednom mestu odnosno serveru, ona je decentralizovana. Umesto da svako na svetu ima svoje posebne knjige i vodi zasebnu evidenciju transakcija, glavna knjiga je jedna, sadrži sve transakcije, javna je i u vlasništvu svih.
 
 Kada neko pošalje Bitcoin sa jedne adrese na drugu, transakcija je vremenski obeležena i zabeležena kod svakog učesnika sistema. Niko ne može da prevari sistem i pošalje nešto što nema u svom vlasništvu jer:
 

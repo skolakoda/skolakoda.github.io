@@ -1,7 +1,7 @@
 ---
 layout: kurs
 title: Učimo blockchain
-image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhLTE1ODctNDA2MC04OGEzLTU5NzM0OGZiZjdiMA.jpg
+image: https://sociable.co/wp-content/uploads/2017/08/blockchain-app.jpg
 ---
 
 ![]({{page.image}})
@@ -13,8 +13,7 @@ image: https://media.licdn.com/mpr/mpr/AAIABADGAAoAAQAAAAAAAAstAAAAJDYzMmY5NTNhL
 
 ### Uvod
 
-- [Nastanak bitkoina](/nastanak-bitkoina)
-- Šta je Bitkoin?
+- [Osnove bitkoin tehnologije](/bitkoin-osnove)
 - [Blockchain vs. baza podataka](/blockchain-vs-baza-podataka)
 - [Mane bitkoina](/mane-bitkoina)
 
