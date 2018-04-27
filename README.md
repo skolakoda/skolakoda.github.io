@@ -66,6 +66,7 @@ http://poincare.matf.bg.ac.rs/~nikolic/ml.html
 
 <!--
 slike:
+https://cdn.programiz.com/sites/tutorial2program/files/Arrays-C%2B%2B.jpg
 https://pixabay.com/en/children-win-success-video-game-593313/
 https://pixabay.com/en/apple-brick-wall-computer-cup-1854101/
 https://pixabay.com/en/apple-computer-cup-electronics-1853306/
