@@ -19,12 +19,24 @@ Nije moguće izvaditi ili umetnuti bilo koji element iz sredine prije nego se "s
 
 ![](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg)
 
-## Primjene
+## Implementacija
 
 Premda se čini da je stog vrlo restriktivna struktura podataka, on ima brojne vrlo važne primjene u računalnoj znanosti. Prikaz i manipulacija sa stogom može se realizirati statičkom strukturom podataka. U jednodimenzionalno polje zadane strukture dodaju se ili brišu pojedine stavke po principu "LastInFirstOut" (LIFO). **Pojedina operacija dodaj ili briši zahtijeva jednako vremena bez obzira na broj pohranjenih podataka.** Situacija da je stog pun može zahtijevati alociranje
 dodatne memorije i ponovno izvođenje programa. Prazan stog ne mora značiti pogrešku.
 
 Struktura stoga često se upotrebljava u situacijama kada određene korake obrade treba odgoditi do trenutka ispunjenja drugih uvjeta.
 
+## Primer
+
+Prosta implementacija stoga u Javascriptu:
+
+{:.ulaz}
+```js
+stack = []
+stack.push(2)             // stack is now [2]
+stack.push(5)             // stack is now [2, 5]
+element = stack.pop()     // stack is now [2]
+console.log(element)      // displays 5
+```
 
 Izvor: N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.

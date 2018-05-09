@@ -21,9 +21,12 @@ Zadnji čvor sadrži tzv. “null” pokazivač koji označava kraj liste. Lista
 
 Za razliku od polja (niza), svaki element liste sadrži pokazivač na slijedeći element. Pošto pokazivač sadrži adresu slijedećeg elementa u listi, sukcesivni elementi liste ne moraju biti spremljeni u sukcesivnom nizu memorijskih lokacija. Na taj način fizički redoslijed memorijskih lokacija nema nikakav utjecaj na redoslijed elemenata u listi. Za razliku od polja, vrlo jednostavno je dodavanje i brisanje elemenata iz liste.
 
-## Algoritam pristupa
+![](http://interactivepython.org/runestone/static/pythonds/_images/idea2.png)
 
-Algoritam operacije “pristupa i obrade” svih elemenata povezane liste (eng. *traversing a linked list*):
+## Algoritam pristupa i obrade
+
+Algoritam operacije “pristupa i obrade” svih elemenata povezane liste (eng. *traversing*):
+
 1. Postavi pokazivač na početak
 2. Ponavljaj korake 3 i 4 dok je pokazivač različit od “null”
 3. Pristupi elementu liste i izvrši željenu obradu

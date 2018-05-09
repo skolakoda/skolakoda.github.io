@@ -33,28 +33,19 @@ Potrebno je samo svakoj cifri binarnog broja pridužiti njenu vrednost zavisno o
 
 ## Prevođenje dekadnog broja u binarni
 
-Obrnute konverzija, iz dekadnog u binarni oblik se može izvršiti sledećim postupkom:
+Neprestano deli broj sa dva i zapisuj ostatak. Kada pročitaš ostatke s dna nagore dobićeš binarni broj.
 
-1. Broj koji se konvertuje podeliti sa 2.
-2. Rezultat deljenja zapisati ispod broja koji se konvertuje.
-3. Ostatak pri deljenju (koji može biti samo 0 ili 1) zapisati sa strane.
-4. Ponoviti korake 1 - 3 sve dok rezultat deljenja ne bude jednak 0.
-5. Ostatke pri deljenju (nule i jedinice) poredjati jedne za drugim u redosledu od poslednjeg do prvog izračunatog ostatka.
-
-Gornji postup ilustrujmo na primeru konverzije broja 213 u binarni oblik:
+Na primer, uzmimo broj 22:
 
 ```
-213 podeljeno sa 2 daje rezultat 106 i ostatak 1
-106 podeljeno sa 2 daje rezultat 53 i ostatak 0
- 53 podeljeno sa 2 daje rezultat 26 i ostatak 1
- 26 podeljeno sa 2 daje rezultat 13 i ostatak 0
- 13 podeljeno sa 2 daje rezultat 6 i ostatak 1
-  6 podeljeno sa 2 daje rezultat 3 i ostatak 0
-  3 podeljeno sa 2 daje rezultat 1 i ostatak 1
-  1 podeljeno sa 2 daje rezultat 0 i ostatak 1
+22 / 2 = 11 ostatak 0
+11 / 2 = 5  ostatak 1
+5  / 2 = 2  ostatak 1
+2  / 2 = 1  ostatak 0
+1  / 2 = 0  ostatak 1
 ```
 
-Dakle, 213 dekadno je isto što i 11010101 binarno.
+Dakle, binarni zapis je 10110.
 
 ## Malo istorije
 

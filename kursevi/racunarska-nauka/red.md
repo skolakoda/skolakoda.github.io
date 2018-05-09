@@ -15,5 +15,18 @@ image: https://upload.wikimedia.org/wikipedia/commons/f/f7/Queue_outside_a_soup_
 
 Struktura reda može se u računalu implementirati na različite načine, a najčešće se koristi jedno jednodimenzionalno polje i dvije varijable (pokazivača) koje sadrže lokacije početka i kraja reda, odnosno lokacije početnog i krajnjeg elementa u redu.
 
+## Primer
+
+Prosta implementacija reda u Javascriptu:
+
+{:.ulaz}
+```js
+queue = []
+queue.push(2)           // queue is now [2]
+queue.push(5)           // queue is now [2, 5]
+element = queue.shift() // queue is now [5]
+console.log(element)    // displays 2
+```
+
 
 Izvor: N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
