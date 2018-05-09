@@ -121,11 +121,17 @@ kurs: uvod
 
 ### Strukture podataka
 
-- [Strukture podataka](/strukture-podataka)
-- Nizovi ili polja (*array*)
+- [Uvod u strukture podataka](/strukture-podataka)
+- [Niz ili polje](/niz) (*array*)
   - Jednodimenzionalni nizovi (liste)
   - [Dvodimenzionalni nizovi (matrice)](/matrice)
   - Višedimenzionalni nizovi
+- [Povezana lista](/povezana-lista) (*linked list*)
+- [Slog ili zapis](/slog) (*record*)
+- [Stog ili plast](/stog) (*stack*)
+- [Red](/red) (*queue*)
+- [Stablo](/stablo) (*tree*)
+- [Graf](/graf)
 
 ### Rad sa nizovima
 - iteracija nizova: `forEach()`, `map()`
