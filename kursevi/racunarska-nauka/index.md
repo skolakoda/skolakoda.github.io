@@ -55,11 +55,9 @@ kurs: uvod
 
 - [Brojčani sistemi](/brojcani-sistemi)
 - [Binarni (dvojni) brojevi](/binarni-brojevi)
-- oktalni (osmični) brojevi
-- dekadni (desetični) brojevi
 - [Heksadecimalni (šesnaestični) brojevi](/heksadecimalni-brojevi)
-- primeri: skladištenje podataka u binarnom formatu
-- primeri: zapisivanje boja u heksadecimalnom
+- Vežba: skladištenje podataka u binarnom formatu
+- Vežba: zapisivanje boja u heksadecimalnom
 
 ### Uvod u podatke
 
@@ -76,7 +74,7 @@ kurs: uvod
   - nizovi i liste
   - strukture i objekti
   - logički tip podataka (`true` i `false`)
-- [Tipovi podataka u Javi](/java-tipovi-podataka)
+- [Strune u jeziku C](/c-strune)
 - tipizirani i netipizirani jezici (statički i dinamički tipovi)
 
 ### Imenovanja podataka
@@ -96,7 +94,7 @@ kurs: uvod
 - [Logički tok programa](/programska-logika)
 - operatori poređenja (`>`, `<`, `==`, `!=`)
 - logički operatori (`i`, `ili`, `ne`)
-- uslovi (`if`, `if-else`, `else-if`, `switch`)
+- uslovi (`if`, `if-else`, `switch`)
 - [Logičke kapije](/logicke-kapije)
 - [Bitovni operatori](/bitovni-operatori)
 
@@ -121,19 +119,6 @@ kurs: uvod
 - naredba (zapovest računaru da nešto uradi)
 - vežba: razlikovanje naredbi i izraza
 
-### Argumenti komandne linije
-
-- Argumenti komandne linije
-- [Argumenti komandne linije u Javi](/java-argumenti-komandne-linije)
-
-### Rad sa tekstom
-- [Strune u jeziku C](/c-strune)
-- traženje i zamena znakova
-
-### Rad sa fajlovima
-- otvaranje i čuvanje fajlova
-- pretraga i menjanje sadržaja fajla
-
 ### Strukture podataka
 
 - [Strukture podataka](/strukture-podataka)
@@ -141,7 +126,6 @@ kurs: uvod
   - Jednodimenzionalni nizovi (liste)
   - [Dvodimenzionalni nizovi (matrice)](/matrice)
   - Višedimenzionalni nizovi
-- [Polja u Javi](/java-polja)
 
 ### Rad sa nizovima
 - iteracija nizova: `forEach()`, `map()`
@@ -164,28 +148,9 @@ kurs: uvod
 - Jednosmerno šifriranje
 - [Heš funkcije i čuvanje lozinki](https://learncryptography.com/hash-functions/what-are-hash-functions)
 
-### Algoritmi [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/ucimo-algoritme/)
-
-- [Uvod u algoritme](/algoritmi-uvod)
-- Algoritmi računanja
-- [Algoritmi pretrage](/algoritmi-pretrazivanja)
-  - [Linearna pretraga](/linearna-pretraga) (redom)
-  - [Binarna pretraga](/binarna-pretraga) (podelom)
-- [Algoritmi sortiranja](/algoritmi-sortiranja)
-- [Efikasnost algoritama](/efikasnost-algoritama)
-- [Šta je rekurzija?](/rekurzija)
-- Vežba: nalaženje najvećeg broja u nizu
-- Vežba: nalaženje osobe u telefonskom imeniku
-- Vežba: [rekurzivna palindrom funkcija](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/p/challenge-is-a-string-a-palindrome) (jel reč ista odnapred i odpozadi)
-
 ### Pisanje programa [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
 
 - planiranje programa
 - pseudokod
 - kodiranje
 - [Dobre prakse pisanja programa](/dobre-prakse)
-
-### Zajednički rad i arhiviranje koda
-- Čemu služe Git i Github?
-- Osnovne git komande: `status`, `add`, `commit`, `pull`, `push`
-- Postavljanje koda na Github

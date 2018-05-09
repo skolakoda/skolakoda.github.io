@@ -66,6 +66,9 @@ http://poincare.matf.bg.ac.rs/~nikolic/ml.html
   https://profesorka.wordpress.com/2012/06/24/nizovi-2/
 - bug: covek koji se prijavio sa online, ne moze se prijaviti za uzivo
 
+- testovi za algoritme http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/AnAnagramDetectionExample.html#solution-4-count-and-compare
+- odvojiti C kurs
+
 <!--
 slike:
 https://cdn.programiz.com/sites/tutorial2program/files/Arrays-C%2B%2B.jpg
