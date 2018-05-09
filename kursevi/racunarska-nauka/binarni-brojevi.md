@@ -2,7 +2,7 @@
 title: Binarni brojevi
 layout: lekcija-racunarstvo
 permalink: /binarni-brojevi
-image: http://www.wikihow.com/images/d/d5/Convert-Binary-to-Octal-Number-Step-11.jpg
+image: https://improveyourmathfluency.files.wordpress.com/2014/09/1-plus-1.png
 ---
 
 ![]({{page.image}})
