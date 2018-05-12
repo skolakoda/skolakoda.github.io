@@ -23,7 +23,7 @@ Za razliku od polja (niza), svaki element liste sadrži pokazivač na slijedeći
 
 ![](http://interactivepython.org/runestone/static/pythonds/_images/idea2.png)
 
-## Algoritam pristupa i obrade
+## Algoritam obilaska
 
 Algoritam operacije “pristupa i obrade” svih elemenata povezane liste (eng. *traversing*):
 

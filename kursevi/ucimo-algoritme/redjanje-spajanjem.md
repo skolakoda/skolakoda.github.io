@@ -6,7 +6,7 @@ permalink: /redjanje-spajanjem
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c5/Merge_sort_animation2.gif)
 
-**Ovaj algoritam koristi strategiju “podijeli pa vladaj”. Niz se rekurzivno dijeli u segmente koji se zasebno sortiraju, a zatim se sortirani segmenti spajaju u konačno sortirani niz.**
+**Ovaj algoritam koristi strategiju “podeli pa vladaj”. Niz se rekurzivno deli u segmente koji se zasebno sortiraju, a zatim se sortirani segmenti spajaju u konačno sortirani niz.**
 
 Dva već sortirana niza se mogu objediniti u treći sortirani niz samo jednim prolaskom kroz nizove (tj. u linearnom vremenu O(m + n) gde su `m` i `n` dimenzije polaznih nizova).
 

@@ -28,6 +28,7 @@ bundle exec jekyll serve --limit_posts 1
 
 ## TODO
 
+- azurirati info na react kurs
 - na malom kompu ne radi simbol .uokvireno.ideja
 - https://developers.google.com/web/progressive-web-apps/
 
@@ -68,6 +69,8 @@ http://poincare.matf.bg.ac.rs/~nikolic/ml.html
 
 - testovi za algoritme http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/AnAnagramDetectionExample.html#solution-4-count-and-compare
 - odvojiti C kurs
+- vezbice http://www.znanje.org/knjige/computer/cpp/n/081CPP/081cpp.htm
+- vezbice http://www.its.edu.rs/reseni-primeri-iz-programskog-jezika-c-3/
 
 <!--
 slike:

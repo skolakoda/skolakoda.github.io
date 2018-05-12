@@ -21,7 +21,7 @@ Osnovni nedostaci polja su slijedeći:
 
 Zbog navedenih nedostataka polja se smatraju statičkim strukturama podataka.
 
-## Algoritam pristupa
+## Algoritam obilaska
 
 Algoritam "pristupa i obrade" (eng. *traversing*) svih elemenata polja vrlo često se koristi, npr. kod učitavanja ili ispisa elemenata polja ili kao dio drugih algoritama:
 1. postavi brojač na početnu vrijednost jednaku indeksu početnog elementa polja

@@ -2,7 +2,7 @@
 title: Binarni brojevi
 layout: lekcija-racunarstvo
 permalink: /binarni-brojevi
-image: https://improveyourmathfluency.files.wordpress.com/2014/09/1-plus-1.png
+image: /images/koncepti/podaci/1-plus-1.png
 ---
 
 ![]({{page.image}})

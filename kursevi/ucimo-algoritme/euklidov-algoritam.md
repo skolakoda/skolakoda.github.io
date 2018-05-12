@@ -4,19 +4,28 @@ layout: lekcija-algoritmi
 permalink: /euklidov-algoritam
 ---
 
+***Euklidov algoritam je efikasan način za određivanje najvećeg zajedničkog delioca (NZD) dva broja. Nazvan je po starogrčkom matematičaru Euklidu, koji ga je naveo u VII i X knjizi svojih Elemenata (oko 300. p.n.e.).***
+
+Prema rečima Donalda Knuta, „*Euklidov algoritam je deda svih algoritama, pošto je najstariji netrivijalni algoritam koji je preživeo do danas.*“
+
+## Sled koraka
+
+Euklidov algoritam otkriva najveći zajednički delilac dva broja tako što od većeg neprestano oduzmimamo manji.
+
+Na primer, imamo brojeve 48 i 18. Ukoliko od 48 oduzmemo 18 dobićemo 30, dakle, ostaju nam 30 i 18. Zatim od 30 oduzimamo 18, pa imamo 12 i 18. Ponavljamo ovaj postupak dok jedan od brojeva ne postane nula. Na kraju, jedini preostali broj (6) je najveći zajednički delilac.
+
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e2/Euclidean_algorithm_252_105_animation_flipped.gif)
 
-***Euklidov algoritam je efikasan način za određivanje najvećeg zajedničkog delioca (NZD) dva broja. Nazvan je po starogrčkom matematičaru Euklidu, koji ga je naveo u VII i X knjizi svojih Elemenata.***
+## Rekurzivna implementacija
 
-## Rekurzivna funkcija
+Najveći zajednički delilac se, pomoću Euklidovog algoritma, može izračunati narednom rekurzivnom funkcijom:
 
-Najveći zajednički delilac se, pomoću Euklidovog algoritma, može izračunati narednom rekurzivnom funkcijom (pretpostavlja se da je a ≥ b):
-
-```c
-unsigned nzd(unsigned a, unsigned b) {
-    if (b == 0)
-        return a;
-    else
-        return nzd(b, a % b);
+{:.ulaz}
+```js
+function nzd(a, b) {
+  if (a == 0) return b
+  return nzd(b % a, a)
 }
+
+console.log(nzd(48, 18))
 ```

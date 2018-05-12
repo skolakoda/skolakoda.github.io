@@ -23,7 +23,8 @@ image: /images/kursevi/algoritmi.jpg
 ### Algoritmi računanja
 
 - Egipatsko množenje
-- Euklidov algoritam (najveći zajednički delilac)
+- [Euklidov algoritam](/euklidov-algoritam) (najveći zajednički delilac)
+- [Eratostenovo sito](/eratostenovo-sito)
 - Fibonacijev niz
 
 ### Algoritmi pretrage
@@ -73,6 +74,15 @@ image: /images/kursevi/algoritmi.jpg
 - [Loše strane rekurzije](/lose-strane-rekurzije)
 - Vežba: [palindrom funkcija](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/p/challenge-is-a-string-a-palindrome) (jel reč ista odnapred i odpozadi)
 - Vežba: crtanje pomoću rekurzije
+
+### Teorija grafova
+
+- [Uvod u teoriju grafova](/teorija-grafova)
+- [Sedam mostova Kenigsberga](/problem-sedam-mostova)
+- Zapis grafa
+  - [Matrica susedstva](/matrica-susedstva)
+  - [Lista susedstva](/lista-susedstva)
+
 
 ### Ostali algoritmi
 
