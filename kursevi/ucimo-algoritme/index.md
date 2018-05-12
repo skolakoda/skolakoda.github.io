@@ -23,7 +23,7 @@ image: /images/kursevi/algoritmi.jpg
 ### Algoritmi računanja
 
 - Egipatsko množenje
-- [Euklidov algoritam](/euklidov-algoritam) (najveći zajednički delilac)
+- [Euklidov algoritam](/euklidov-algoritam)
 - [Eratostenovo sito](/eratostenovo-sito)
 - Fibonacijev niz
 

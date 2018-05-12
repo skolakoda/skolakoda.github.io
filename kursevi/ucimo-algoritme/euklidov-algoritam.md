@@ -16,6 +16,19 @@ Na primer, imamo brojeve 48 i 18. Ukoliko od 48 oduzmemo 18 dobićemo 30, dakle,
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e2/Euclidean_algorithm_252_105_animation_flipped.gif)
 
+## Iterativna implementacija
+
+{:.ulaz}
+```js
+function nzd(a, b) {
+  while (b != 0)
+    [a, b] = [b, a % b]
+  return a
+}
+
+console.log(nzd(48, 18))
+```
+
 ## Rekurzivna implementacija
 
 Najveći zajednički delilac se, pomoću Euklidovog algoritma, može izračunati narednom rekurzivnom funkcijom:
@@ -23,8 +36,8 @@ Najveći zajednički delilac se, pomoću Euklidovog algoritma, može izračunati
 {:.ulaz}
 ```js
 function nzd(a, b) {
-  if (a == 0) return b
-  return nzd(b % a, a)
+  if (b == 0) return a
+  return nzd(b, a % b)
 }
 
 console.log(nzd(48, 18))
