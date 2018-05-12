@@ -71,6 +71,7 @@ http://poincare.matf.bg.ac.rs/~nikolic/ml.html
 - odvojiti C kurs
 - vezbice http://www.znanje.org/knjige/computer/cpp/n/081CPP/081cpp.htm
 - vezbice http://www.its.edu.rs/reseni-primeri-iz-programskog-jezika-c-3/
+https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
 
 <!--
 slike:

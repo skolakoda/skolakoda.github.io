@@ -122,10 +122,10 @@ kurs: uvod
 ### Strukture podataka
 
 - [Uvod u strukture podataka](/strukture-podataka)
-- [Niz ili polje](/niz) (*array*)
+- [Niz ili polje](/nizovi) (*array*)
   - Jednodimenzionalni nizovi (liste)
   - [Dvodimenzionalni nizovi (matrice)](/matrice)
-  - Višedimenzionalni nizovi
+  - [Višedimenzionalni nizovi](/visedimenzionalni-nizovi)
 - [Povezana lista](/povezana-lista) (*linked list*)
 - [Slog ili zapis](/slog) (*record*)
 - [Stog ili plast](/stog) (*stack*)

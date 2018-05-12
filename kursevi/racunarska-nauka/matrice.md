@@ -7,57 +7,105 @@ image: /images/koncepti/podaci/matrica.png
 
 ![]({{page.image}})
 
-***Matricu možemo da zamislimo kao tabelu. Sastoji se od polja koja pripadaju redovima i kolonama, označenim indeksima.***
+***Matricu ili dvodimenzionalni niz možemo da zamislimo kao tabelu. Sastoji se od polja koja pripadaju redovima i kolonama, označenim indeksima.***
 
-Na primer, sledeća matrica smeštena u dvodimenzionalni niz
+## Zapis matrice
 
-```cpp
+U većini programskih jezika, matrice zapisujemo nizovima unutar nizova. Vrednostima pristupamo pomoću dva indeksa, od kojih prvi predstavlja red, a drugi kolonu:
+
+{:.ulaz}
+```js
+const mapa = [
+  [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+  [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 1 ],
+  [ 1, 0, 0, 2, 0, 1, 1, 1, 0, 1 ],
+  [ 1, 0, 2, 0, 0, 0, 0, 1, 0, 1 ],
+  [ 1, 0, 0, 0, 0, 1, 0, 1, 1, 1 ],
+  [ 1, 0, 1, 1, 0, 0, 0, 0, 0, 1 ],
+  [ 1, 0, 0, 1, 0, 1, 1, 1, 0, 1 ],
+  [ 1, 1, 0, 1, 0, 0, 0, 1, 1, 1 ],
+  [ 1, 0, 0, 1, 0, 1, 0, 0, 0, 3 ],
+  [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+]
+
+console.log(mapa[2][3])
+```
+
+## Alokacija memorije
+
+Na primer u jeziku C, sledeća matrica smeštena u dvodimenzionalni niz
+
+```c
 int matrica[10][15]
 ```
 
 bi rezervisala prostor za `10 * 15` odnosno 150 varijabli tipa `int`.
 
-## Kvadratna matrica
+## Prolazak kroz matricu
 
-Uzmimo sada na primjer matricu `mat[x][y]`. Ako je `x == y`, matrica je kvadratna. U takvoj matrici svi elementi za čije indekse važi `x == y` nalaze se na glavnoj dijagonali.
+Pošto za prolazak kroz niz treba jedna petlja, za prolazak kroz dvodimenzionalni niz potrebne su dve petlje, jedna unutar druge:
 
-Za elemente za čije indekse važi da su `x + y == x + 1`, odnosno `x + y == y + 1` (iz uslova `x == y`) slijedi da se nalaze se na sporednoj dijagonali.
+{:.ulaz}
+```js
+const matrica = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Las_filas_003.jpg/640px-Las_filas_003.jpg)
-
-## Zadatak
-
-Napiši program koji od korisnika prima prirodni broj `n` (između 2 i 10) te smešta `n x n` realnih brojeva u matricu. Izračunaj i ispiši zbir svakog reda matrice i proizvod svake kolone matrice.
-
-Rešenje u C++:
-
-```cpp
-#include <iostream>
-#define max 10
-
-int main ()
-{
-    int matrica[max][max], suma[max], proizvod[max];
-    int n, s = 0, p = 1;
-    std::cout << "n=";
-    std::cin >> n;
-    for (int i = 1; i <= max; i++) {
-        suma[i] = 0;
-        proizvod[i] = 1;
-    }
-    for (int i = 1; i <= n; i++)
-        for (int j = 1; j <= n; j++) {
-            std::cout << "Mat[" << i << "," << j << "]=";
-            std::cin >> matrica[i][j];
-            suma[j] += matrica[i][j];
-            proizvod[i] *= matrica[i][j];
-        }
-    for (int i = 1; i <= n; i++)
-        std::cout << "Suma[" << i << "]=" << suma[i] << std::endl;
-    for (int i = 1; i <= n; i++)
-        std::cout << "Proizvod[" << i << "]=" << proizvod[i] << std::endl;
-    return 0;
+for (let i = 0; i < matrica.length; i++) {
+  for (let j = 0; j < matrica[i].length; j++) {
+    console.log(matrica[i][j])
+  }
 }
 ```
 
-Izvor: Ivan Rajković, *C++ tutorial sa primjerima*
+## Kvadratna matrica
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Las_filas_003.jpg/640px-Las_filas_003.jpg)
+
+Matrice s istim brojem redova i kolona nazivaju se kvadratne. Kvadratne matrice imaju glavnu i sporednu dijagonalu. **Glavna dijagonala** počinje od prvog elementa prvog reda i završava se na poslednjem elementu poslednjeg reda. **Sporedna dijagonala** seče glavnu dijagonalu tako da prave slovo `X`.
+
+### Ispis glavne dijagonale
+
+Na glavnoj dijagonali kvadratne matrice nalaze se elementi za koje vredi `i == j`.
+
+{:.ulaz}
+```js
+const matrica = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+
+for (let i = 0; i < matrica.length; i++) {
+  for (let j = 0; j < matrica[i].length; j++) {
+    if (i == j) console.log(matrica[i][j])
+  }
+}
+```
+
+### Ispis sporedne dijagonale
+
+Na sporednoj dijagonali nalaze se elementi za koje vredi `i + j == n - 1` (n je dužina matrice).
+
+{:.ulaz}
+```js
+const matrica = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+
+for (let i = 0; i < matrica.length; i++) {
+  for (let j = 0; j < matrica[i].length; j++) {
+    if (i + j == matrica.length - 1) console.log(matrica[i][j])
+  }
+}
+```
+
+## Vežba: Trag matrice
+
+Trag matrice je definisan kao zbir elemenata na glavnoj dijagonali.
+
+Data je kvadratna matrica dimenzija n×n. Izračunati njen trag.
