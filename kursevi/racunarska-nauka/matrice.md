@@ -68,7 +68,7 @@ Matrice s istim brojem redova i kolona nazivaju se kvadratne. Kvadratne matrice 
 
 ### Ispis glavne dijagonale
 
-Na glavnoj dijagonali kvadratne matrice nalaze se elementi za koje vredi `i == j`.
+Na glavnoj dijagonali kvadratne matrice nalaze se elementi za koje vredi `i == j`. Naivni algoritam za ispis glavne dijagonale, sa petljom unutar petlje (`n^2`), bio bi:
 
 {:.ulaz}
 ```js
@@ -85,9 +85,7 @@ for (let i = 0; i < matrica.length; i++) {
 }
 ```
 
-### Ispis sporedne dijagonale
-
-Na sporednoj dijagonali nalaze se elementi za koje vredi `i + j == n - 1` (n je dužina matrice).
+Optimalan algoritam za ispis glavne dijagonale, sa samo jednim prolaskom (`n`), bio bi:
 
 {:.ulaz}
 ```js
@@ -97,15 +95,47 @@ const matrica = [
   [7, 8, 9]
 ]
 
-for (let i = 0; i < matrica.length; i++) {
-  for (let j = 0; j < matrica[i].length; j++) {
-    if (i + j == matrica.length - 1) console.log(matrica[i][j])
+for(let i = 0; i < matrica.length; i++)
+  console.log(matrica[i][i])
+```
+
+### Ispis sporedne dijagonale
+
+Na sporednoj dijagonali nalaze se elementi za koje vredi `i + j == n - 1` (n je dužina matrice). Skup i naivan algoritam za ispis sporedne dijagonale bio bi:
+
+{:.ulaz}
+```js
+const matrica = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+const n = matrica.length
+
+for (let i = 0; i < n; i++) {
+  for (let j = 0; j < n; j++) {
+    if (i + j == n - 1) console.log(matrica[i][j])
   }
 }
 ```
 
+Optimalan algoritam, sa samo jednim prolaskom, bio bi:
+
+{:.ulaz}
+```js
+const matrica = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+const n = matrica.length
+
+for(let i = 0; i < n; i++)
+  console.log(matrica[i][n - i - 1])
+```
+
 ## Vežba: Trag matrice
 
-Trag matrice je definisan kao zbir elemenata na glavnoj dijagonali.
+Trag matrice je definisan kao **zbir elemenata na glavnoj dijagonali**.
 
 Data je kvadratna matrica dimenzija n×n. Izračunati njen trag.
