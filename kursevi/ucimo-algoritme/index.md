@@ -68,14 +68,14 @@ image: /images/kursevi/algoritmi.jpg
 - Vežba: [palindrom funkcija](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/p/challenge-is-a-string-a-palindrome) (jel reč ista odnapred i odpozadi)
 - Vežba: crtanje pomoću rekurzije
 
-### Teorija grafova
+### Grafovski algoritmi
 
 - [Uvod u teoriju grafova](/teorija-grafova)
-- [Sedam mostova Kenigsberga](/problem-sedam-mostova)
-- Zapis grafa
+  - [Sedam mostova Kenigsberga](/problem-sedam-mostova)
   - [Matrica susedstva](/matrica-susedstva)
   - [Lista susedstva](/lista-susedstva)
-- Grafovski algoritmi
+- [Pretraga u dubinu](/pretraga-u-dubinu)
+- [Pretraga u širinu](/pretraga-u-sirinu)
 
 ### Ostali algoritmi
 
