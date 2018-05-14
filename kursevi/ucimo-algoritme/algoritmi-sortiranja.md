@@ -2,8 +2,6 @@
 title: Algoritmi sortiranja
 layout: lekcija-algoritmi
 permalink: /algoritmi-sortiranja
-redirect_from:
-  - /agoritmi-sortiranja
 image: /images/koncepti/algoritmi/sorting-algorithms.gif
 ---
 

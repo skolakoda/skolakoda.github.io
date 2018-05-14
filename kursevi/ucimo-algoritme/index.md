@@ -29,10 +29,10 @@ image: /images/kursevi/algoritmi.jpg
 
 ### Složenost algoritama
 
+- Analiza algoritama
 - [Složenost algoritama](/efikasnost-algoritama)
 - [Tablica složenosti algoritama](/tablica-slozenosti-algoritama)
 - [Zapis složenosti (asimptotska notacija)](/asimptotska-notacija)
-- Grafički prikaz složenosti algoritama
 
 ### Algoritmi pretrage
 
@@ -80,4 +80,4 @@ image: /images/kursevi/algoritmi.jpg
 ### Ostali algoritmi
 
 - PageRank algoritam
-- Vežba: [problem stabilnih parova](/problem-stabilnih-parova)
+- [Problem stabilnih parova](/problem-stabilnih-parova)

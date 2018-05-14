@@ -123,12 +123,11 @@ kurs: uvod
 
 - [Uvod u strukture podataka](/strukture-podataka)
 - [Niz](/nizovi) (*array*)
-  - Jednodimenzionalni nizovi (liste)
   - [Dvodimenzionalni nizovi (matrice)](/matrice)
   - [Višedimenzionalni nizovi](/visedimenzionalni-nizovi)
 - [Povezana lista](/povezana-lista) (*linked list*)
 - [Slog ili zapis](/slog) (*record*)
-- [Stog ili plast](/stog) (*stack*)
+- [Stog](/stog) (*stack*)
 - [Red](/red) (*queue*)
 - [Stablo](/stablo) (*tree*)
 - [Graf](/graf)

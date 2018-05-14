@@ -13,11 +13,9 @@ image: https://upload.wikimedia.org/wikipedia/commons/f/f7/Queue_outside_a_soup_
 
 ## Implementacija
 
-Struktura reda može se u računalu implementirati na različite načine, a najčešće se koristi jedno jednodimenzionalno polje i dvije varijable (pokazivača) koje sadrže lokacije početka i kraja reda, odnosno lokacije početnog i krajnjeg elementa u redu.
+Struktura reda može se u računalu implementirati na različite načine, a najčešće se koristi jedan niz i dvije varijable (pokazivača) koje sadrže lokacije početka i kraja reda, odnosno lokacije početnog i krajnjeg elementa u redu.
 
-## Primer
-
-Prosta implementacija reda u Javascriptu:
+Sledi prosta implementacija reda u Javascriptu:
 
 {:.ulaz}
 ```js
@@ -28,5 +26,16 @@ element = queue.shift() // queue is now [5]
 console.log(element)    // displays 2
 ```
 
+## Vežba
 
-Izvor: N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
+Potrebno je simulirati red u prodavnici. Mogući događaju su da nova mušterija stane na kraj reda, da naplatimo mušteriji koja je prva u redu, i da ta mušterija koja je platila ode.
+
+Analiziranjem problema možemo doći do zaključka da su nam i ovde potrebne 3 metode. Prva metoda treba da ubacuje element u skup, druga da izbacuje iz skupa element koji je prvi ubačen ukoliko posmatramo samo elemente koji se trenutno nalaze u skupu, dok treća treba da odgovara na pitanje koji je element od trenutnih u skupu prvi bio ubačen.
+
+Koristeći strukturu queue možemo rešiti ovaj problem. Primetimo da je vremenska složenost opisanih metoda O(1).
+
+
+### Izvori
+
+- N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
+- [Petlja.org](https://petlja.org/BubbleBee/r/Lectures/strukture-podataka-1), *Strukture podataka*
