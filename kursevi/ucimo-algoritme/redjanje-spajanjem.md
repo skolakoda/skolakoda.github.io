@@ -1,5 +1,5 @@
 ---
-title: Ređanje spajanjem (merge sort)
+title: Ređanje spajanjem (<i>merge sort</i>)
 layout: lekcija-algoritmi
 permalink: /redjanje-spajanjem
 ---

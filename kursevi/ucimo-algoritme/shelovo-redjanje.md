@@ -1,5 +1,5 @@
 ---
-title: Šelovo ređanje (Shell sort)
+title: Šelovo ređanje (<i>Shell sort</i>)
 layout: lekcija-algoritmi
 permalink: /shelovo-redjanje
 ---

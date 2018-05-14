@@ -2,78 +2,34 @@
 title: Uvod u algoritme
 layout: lekcija-algoritmi
 permalink: /algoritmi-uvod
-redirect_from:
-  - /agoritmi-uvod
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2010-10-30_Geeste%2C_Moormuseum_032_%285207510676%29.jpg/1024px-2010-10-30_Geeste%2C_Moormuseum_032_%285207510676%29.jpg
 ---
 
 ![]({{page.image}})
 
-***Pojam algoritma osnovni je temelj računalnog programiranja, stoga je potrebno posvetiti posebnu pažnju analizi i razumijevanju algoritama.***
+***Algoritam je efektivna procedura za rešavanje problema u konačnom broju koraka.***
 
-## Pojam algoritma
+Svrha svakog algoritma jeste rešavanje određenog problema. Svaki problem odlikuju dve karakteristike: **ulazni i izlazni podaci**. Ovi podaci jesu matematički objekti koji pripadaju nekom konačnom ili prebrojivom skupu, dok se sam problem sastoji u iznalaženju određene uzročno-posledične veze između ulaza i izlaza, metodologije kojom se ulazne veličine transformišu u željeni rezultat.
 
-U početku upotrebe pojma algoritma, tako su se nazivala samo pravila računanja s brojevima, kasnije i pravila obavljanja ostalih zadataka u matematici. U XX stoljeću, pojavom računala,
-pojam se proširuje na računalstvo, a zatim i na druga područja.
+Sa stanovišta informatike, najinteresantniji su oni problemi čije se rešavanje (transformacija ulaza u izlaz) odvija na automatizovan, ”jednoobrazan”, rutinski način. Drugim rečima, posmatramo one probleme koji se mogu rešiti primenom standardizovanih postupaka računanja, što u krajnjoj liniji omogućava da se posao rešavanja problema prepusti računskim mašinama. To znači da tragamo za klasom funkcija koje po svojim svojstvima odgovaraju kriterijumima algoritamske izračunljivosti. Te funkcije najčešće označavamo terminom **izračunljive funkcije** (eng. *computable functions*).
 
-Primjer Euklidovog algoritma za traženje najvećeg zajedničkog djelitelja dva cijela broja `m` i `n`:
-1. Odrediti ostatak od dijeljenja: podijeli m sa n, i odredi ostatak od dijeljenja r, 0 <= r < n
-2. Da li je ostatak jednak nuli? Ako jest, algoritam završava, n je traženi odgovor.
-3. Ako ostatak nije jednak nuli, napravi zamjenu: postavi m = n, n = r i vrati se na početni korak
+## Svojstava algoritma
 
-Neke od varijacija definicije algoritma:
-* Algoritam je precizan opis svih pravila i postupaka potrebnih za postizanje željenog rezultata.
-* Algoritam je konačni skup pravila koja daju redoslijed operacija za rješavanje specifičnog problema.
-* Algoritam je procedura (postupak) koji do posljednjeg detalja opisuje sve aktivnosti i njihov redoslijed, potreban da se obradom ulaznih podataka dođe do izlaznih podataka, odnosno rješenja.
+Donald E. Knuth u uvodu svoje izuzetno uticajne monografije *The Art of Computer Programming*, ističe pet ključnih svojstava intuitivnog pojma algoritma:
 
-## Značajke algoritma
+- ulaz
+- izlaz
+- konačnost
+- definitnost (određenost)
+- efektivnost
 
-Osim što mora biti skup pravila algoritam mora posjedovati i slijedeća važna svojstva:
-* konačnost – mora uvijek završiti nakon konačnog broja koraka
-* definiranost – svaki korak algoritma mora biti precizno definiran – akcije koje treba poduzeti moraju biti u svakom slučaju rigorozno i nedvosmisleno (nedvojbeno) specificirane
-* ulaz - algoritam može ali i ne mora imati ulazne veličine koje su dane inicijalno prije početka algoritma
-* izlaz – algoritam ima jednu ili više izlaznih veličina koje su u specificiranom odnosu sa ulzanim veličinama
-* efikasnost – se očekuje od svakog algoritma
+Prve dve osobine — **postojanje uzlaza i izlaza** — govore zapravo o tome da su algoritmi sredstvo za rešavanje problema. Na primer, u [Euklidovom algoritmu](/euklidov-algoritam) ulaz se sastoji od dva pozitivna cela broja, dok je izlaz njihov najveći zajednički delilac.
 
-## Učinkovitost algoritma
+U načelu, od algoritma očekujemo da bude niz intuitivno jasnih koraka. Zahtev **konačnosti** postulira da broj tih elemenatrnih koraka mora biti konačan. U tome se algoritam razlikuje od procesa: proces može biti jasno definisan, ali beskonačan niz koraka. Na primer, iterativni postupak za rešavanje neke jednačine (kao što je to Njutnov postupak) nije algoritam, već je u pitanju beskonačan proces računanja. Međutim, definisanjem margine greške, on postaje numerički algoritam za približno rešavanje posmatrane jednačine, jer konvergencija postupka garantuje da će se nakon konačno mnogo iteracija doći do zadovoljavajućeg približnog rešenja.
 
-Od algoritma se očekuje i da bude efikasan (učinkovit). To znači da sve operacije koje se obavljaju u algoritmu moraju biti dovoljno jednostavne tako da se mogu obaviti točno i u konačnom vremenu koristeći olovku i papir. Euklidov algoritam koristi samo operacije dijeljenja pozitivnih cijelih brojeva, provjere da li je broj jednak nuli, te dodjeljivanja vrijednosti jedne varijable drugoj. Navedene operacije su efikasne jer se cijeli brojevi mogu prikazati na papiru u
-konačnom obliku i jer postoji algoritam dijeljenja cijelih brojeva. Na primjer zbrajanje cijelih brojeva je učinkovito, ali zbrajanje realnih brojeva nije jer se može pojaviti broj s beskonačno mnogo znamenki.
+**Definitnost** izražava potrebu da svi pomenuti koraci algoritma budu precizno i nedvosmisleno formulisani, te da su lišeni svih oblika subjektivnosti. Između ostalog, definitnost jeste jedna od glavnih razlika između algoritma i kulinarskog recepta. Očekujemo da koraci algoritma budu do te mere egzaktno određeni da se oni bez ikakvih daljih interpretacija mogu sprovesti na računaru. Programski jezici predstavljaju tipičan primer sredstva kojim se ostvaruje zahtev za definitnošću.
 
-Algoritam koji bi izabirao potez igrača šaha tako da ispita sve moguće posljedice poteza, zahtijevao bi milijarde godina na najbržem zamislivom računalu.
-
-## Računalna procedura i računalni program
-
-Postupak koji ima sva svojstva kao i algoritam, ali ne mora završiti u konačnom broju koraka jest računalna procedura. Primjeri za proceduru su operacijski sustav računala, uređivač teksta i sl. Vrijeme izvođenja procedure mora biti "razumno".
-
-Računalni program je opis algoritma koji u nekom programskom jeziku jednoznačno određuje što računalo treba napraviti.
-Programirati znači naučiti sintaksu nekog programskog jezika i steći osnovna intuitivna znanja glede algoritmizacije problema opisanog riječima. Navesti ćemo ovdje mnogo puta citiranu izreku Niklausa Wirtha koji je koncipirao programske jezike Pascal i Modulu:
-
-> Algoritmi + strukture podataka = PROGRAMI
-
-Programiranje na neki način možemo smatrati i vještinom i to vještinom koju nije lako naučiti. Potrebno je mnogo mukotrpnog rada (učenja) i stjecanja iskustva (vježbanja) počevši od izrade jednostavnih prema kompleksnijim programima da bi se postalo "produktivnim" programerom. Nisu svi jednako talentirani u tom području, jer programiranje bi mogli okarakterizirati i kao "umjetnost razmišljanja i planiranja".
-
-Temeljni problemi programiranja su:
-* kako osmisliti algoritme
-* kako strukturirati podatke
-* kako formulirati algoritme
-* kako verificirati korektnost algoritama
-* kako analizirati algoritme
-* kako provjeriti (testirati) program
-
-Postupci izrade algoritama nisu jednoznačni te često zahtijevaju i veliku dozu kreativnosti. Ne postoje čvrsta pravila za definiranje algoritama. Od prvih programskih jezika nastoje se razviti metode i alati za formaliziranje algoritama. Napori su urodili različitim metodologijama prikaza problema i modela koji se koriste pri razvoju složenih programskih sustava.
-
-## Prikaz algoritma
-
-Razvoj i prikaz algoritma preduvjet je izrade programa. Algoritmi se mogu prikazati na različite načine:
-* opisno, rečenicama
-* grafički, dijagramom toka
-* u nekom jeziku koji je blizak čovjeku (pseudokod)
-* nekim strogo formaliziranim programskim jezikom
-
-Međutim, program koji je zaista u računalu i po kojemu se izvodi neki konkretan postupak, uvijek je samo u binarnom (strojnom) obliku.
-
-Stoga postoji potreba, da se na određeni uobičajeni način prikaže program tako da ima logičku ispravnost, ali i da je blizak i razumljiv čovjeku. Takav način prikaza je pseudokod, koji nije ovisan niti o računalu niti o programskom jeziku, a značajan je stoga jer program napisan pseudokodom predstavlja zapravo model programa i najvažniji je rezultat rada u programskom inženjerstvu.
+Najzad, očekujemo da algoritmi budu **efektivni**: koraci koji čine algoritam moraju biti dovoljno elementarni, a ceo tok algoritma (bar u načelu) lako proverljiv od strane čoveka.
 
 
-Izvor: N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi, skripta I*, Zagreb, 2005.
+Izvor: Igor Dolinka, *Kratak uvod u analizu algoritama*, Novi Sad, 2008.

@@ -1,5 +1,5 @@
 ---
-title: Ređanje hrpom (heapsort)
+title: Ređanje hrpom (<i>heapsort</i>)
 layout: lekcija-algoritmi
 permalink: /redjanje-hrpom
 ---

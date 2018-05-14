@@ -26,8 +26,6 @@ Rekurzija u prirodi je uočljiva u rastućem ponavljanju spiralnih obrazaca, kod
 
 ![](//spacecollective.org/userdata/zdP3mVy7/_cimg/1197601200.jpg)
 
-![](https://s3-us-west-2.amazonaws.com/sfmomaopenspace/wp-content/uploads/2011/07/seashells2.jpg)
-
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c4/Aloe_polyphylla_spiral.jpg)
 
 ![](https://s-media-cache-ak0.pinimg.com/564x/88/86/e1/8886e11fcba6c5be0801609f397e4068.jpg)

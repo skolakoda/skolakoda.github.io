@@ -1,16 +1,18 @@
 ---
-title: Ređanje umetanjem (insertion sort)
+title: Ređanje umetanjem (<i>insertion sort</i>)
 layout: lekcija-algoritmi
 permalink: /redjanje-umetanjem
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/25/Insertion_sort_animation.gif)
 
-***Insertion sort* algoritam sortira niz tako što jedan po jedan element niza umeće na odgovarajuće mesto u do tada sortirani deo niza.**
+***Insertion sort* algoritam sortira niz tako što jedan po jedan element niza umeće na odgovarajuće mesto, u do tada sortirani deo niza.**
 
-Koncepcijski, postoje dva niza — polazni niz iz kojeg se uklanjaju elementi i niz koji čuva rezultat i u koji se dodaju elementi. Međutim, obično implementacije koriste memorijski prostor polaznog niza za obe uloge — početni deo niza predstavlja rezultujući niz, dok krajnji deo predstavlja preostali deo polaznog niza.
+Koncepcijski, postoje dva niza — polazni niz iz kojeg se uklanjaju elementi i niz koji čuva rezultat, u koji se dodaju elementi. Međutim, obično implementacije koriste memorijski prostor polaznog niza za obe uloge — početni deo niza predstavlja rezultujući niz, dok krajnji deo predstavlja preostali deo polaznog niza.
 
-Dakle, insertion sort se može formulisati na sledeći način: „Ako niz ima više od jednog elementa, sortiraj rekurzivno sve elemente ispred poslednjeg, a zatim umetni poslednji u već sortirani prefiks.“ Ovim se dobija sledeća (rekurzivna) implementacija.
+## Implementacija
+
+Dakle, *insertion sort* se može formulisati na sledeći način: „Ako niz ima više od jednog elementa, sortiraj rekurzivno sve elemente ispred poslednjeg, a zatim umetni poslednji u već sortirani prefiks.“ Ovim se dobija sledeća (rekurzivna) implementacija.
 
 ```c
 void insertionsort(int a[], int n) {

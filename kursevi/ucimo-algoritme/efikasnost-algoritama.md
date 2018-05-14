@@ -1,5 +1,5 @@
 ---
-title: Efikasnost algoritama
+title: Složenost algoritama
 layout: lekcija-algoritmi
 permalink: /efikasnost-algoritama
 author: damjan
@@ -8,22 +8,13 @@ image: /images/koncepti/algoritmi/efikasnost-algoritama.png
 
 ![]({{page.image}})
 
-***Kada pišemo neku proceduru, veoma je bitno da smo u stanju da procenimo koliko je ona skupa, odnosno složena u smislu vremena i resursa. Složenost se meri brojem operacija koje neki algoritam izvršava. Složenost je direktno proporcionalna trajanju, a obrnuto proporcionalna efikasnosti algoritma.***
+***Kada pišemo neku proceduru, veoma je bitno da procenimo koliko je ona složena. Složenost se meri brojem operacija koje neki algoritam obavlja. Složenost je direktno proporcionalna trajanju, a obrnuto proporcionalna efikasnosti algoritma. Složeni algoritmi su spori i neefikasni. Cilj je rešiti problem u što manje koraka.***
 
-{:.full}
-Broj koraka | Složenost
---- | ---
-1 | konstantna
-log n | logaritamska
-n | linearna
-n log n | log linearna
-n<sup>2</sup> | kvadratna
-n<sup>3</sup> | kubna
-2<sup>n</sup> | eksponencijalna
-
-Kod malih unosa algoritmi se drugačije ponašaju. Tako na primer, u početku je eksponencijalni algoritam brži od drugih, ali potom naglo usporava. Tek kod veoma velikih unosa, razlika između složenosti algoritama postaje izraženija:
+Zanimljivo da je kod većine algoritama prvi utisak vara. Oni algoritmi koji krenu brže kasnije uspore, i obratno. Tek kod veoma velikih unosa, krivulja rasta postaje izraženija.
 
 ![](/images/koncepti/algoritmi/efikasnost-algoritama2.png)
+
+Glavni resursi koje algoritam zahteva su procesorsko **vreme i prostor** u memoriji. Kada govorimo o složenosti, uglavnom nas brine vremenska složenost, a prostorna samo izuzetno.
 
 ## Konstantna složenost: 1
 > ***vreme uvek isto, nezavisno od unosa***
@@ -45,7 +36,7 @@ Reč logaritam podseća na algoritam, ali nemaju nikakve veze. Logaritam je oper
 
 Logaritamski algoritmi nakon svakog koraka eliminišu polovinu preostalog skupa. Najpoznatiji primer logaritamske složenosti je binarna pretraga, koja u svakom prolasku deli sortirani niz na pola, i odbacuje jednu polovinu.
 
-Primer iz stvarnog sveta je traženje reči u rečniku. Logaritam od 1.000.000 iznosi 19,9, što znači da u ogromnom rečniku od milion reči možemo pronaći bilo koju reč u najviše 20 koraka.
+Primer iz stvarnog sveta je traženje reči u rečniku. Logaritam od 1.000.000 (milion) iznosi 19,9, što znači da u ogromnom rečniku od milion reči možemo pronaći bilo koju reč u najviše 20 koraka.
 
 U klasu podlinearnih algoritama spadaju i algoritmi korenske složenosti, koji su veoma retki.
 

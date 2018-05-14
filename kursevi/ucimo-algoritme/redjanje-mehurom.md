@@ -1,5 +1,5 @@
 ---
-title: Ređanje mehurom (bubble sort)
+title: Ređanje mehurom (<i>bubble sort</i>)
 layout: lekcija-algoritmi
 permalink: /redjanje-mehurom
 ---
