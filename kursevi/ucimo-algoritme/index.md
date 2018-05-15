@@ -30,6 +30,7 @@ image: /images/kursevi/algoritmi.jpg
 - [Stog](/stog) (*stack*)
 - [Red](/red) (*queue*)
 - [Stablo](/stablo)
+  - [Binarno stablo pretrage](/binarno-stablo-pretrage)
 - [Graf](/graf)
 - [Vežba: uparene zagrade](/vezba-uparene-zagrade)
 
