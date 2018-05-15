@@ -1,6 +1,6 @@
 ---
 title: Uvod u strukture podataka
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 permalink: /strukture-podataka
 image: /images/koncepti/podaci/kockice.jpeg
 ---

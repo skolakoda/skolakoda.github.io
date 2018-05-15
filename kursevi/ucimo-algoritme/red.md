@@ -1,6 +1,6 @@
 ---
 title: "Red (<i>queue</i>)"
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 permalink: /red
 image: https://upload.wikimedia.org/wikipedia/commons/f/f7/Queue_outside_a_soup_kitchen_at_Klostertorv_in_%C3%85lborg_1943.jpg
 ---

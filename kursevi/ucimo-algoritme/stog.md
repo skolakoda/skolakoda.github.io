@@ -1,6 +1,6 @@
 ---
 title: Stog (<i>stack</i>)
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 permalink: /stog
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Spreewald_2014_21.jpg/800px-Spreewald_2014_21.jpg
 ---

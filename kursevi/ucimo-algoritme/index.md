@@ -19,6 +19,20 @@ image: /images/kursevi/algoritmi.jpg
 - [Svakodnevni algoritmi](/svakodnevni-algoritmi)
 - Algoritmi u pseudokodu
 
+### Strukture podataka
+
+- [Uvod u strukture podataka](/strukture-podataka)
+- [Niz](/nizovi)
+  - [Dvodimenzionalni nizovi (matrice)](/matrice)
+  - [Višedimenzionalni nizovi](/visedimenzionalni-nizovi)
+- [Povezana lista](/povezana-lista)
+- [Slog ili zapis](/slog) (*record*)
+- [Stog](/stog) (*stack*)
+- [Red](/red) (*queue*)
+- [Stablo](/stablo)
+- [Graf](/graf)
+- [Vežba: uparene zagrade](/vezba-uparene-zagrade)
+
 ### Algoritmi računanja
 
 - Egipatsko množenje
@@ -61,8 +75,7 @@ image: /images/kursevi/algoritmi.jpg
   - [Faktorijel funkcija](/faktorijel)
   - [Fibonacijev niz](/fibonacijev-niz)
   - [Kule Hanoja](/kule-hanoja)
-- Rekurzivna grafika
-  - [Fraktal binarno stablo](http://jsfiddle.net/mudroljub/x1bzmq7s/)
+- [Rekurzivna grafika](/rekurzivna-grafika)
 - [Uzajamna rekurzija](/uzajamna-rekurzija)
 - [Loše strane rekurzije](/lose-strane-rekurzije)
 - Vežba: [palindrom funkcija](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/p/challenge-is-a-string-a-palindrome) (jel reč ista odnapred i odpozadi)
@@ -81,3 +94,4 @@ image: /images/kursevi/algoritmi.jpg
 
 - PageRank algoritam
 - [Problem stabilnih parova](/problem-stabilnih-parova)
+- [Algoritam uparivanja čarapa](/algoritam-carapa)

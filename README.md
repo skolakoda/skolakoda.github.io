@@ -33,7 +33,7 @@ bundle exec jekyll serve --limit_posts 1
 - https://developers.google.com/web/progressive-web-apps/
 
 sadrzaj:
-- https://www.facebook.com/notes/%C5%A1kola-koda/socks-algorithm/2035785130010008/
+- c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
 - razvoj igara
 - ucimo-blockchain
 https://startit.rs/sta-je-hyperledger-i-kako-vam-moze-pomoci-u-razvoju-blockchain-aplikacija/

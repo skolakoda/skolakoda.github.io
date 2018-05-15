@@ -4,10 +4,14 @@ layout: lekcija-algoritmi
 permalink: /faktorijel
 ---
 
-Funkcija faktorijel (za prirodni broj n, vrednost n! jednaka je proizvodu svih prirodnih brojeva od 1 do n ) može se definisati na (primitivno) rekurzivan način:
+**Faktorijel** (označava se uzvičnikom `!`) je funkcija kojom se izračunava proizvod prirodnih brojeva od 1 do n. Za prirodni broj n, vrednost `n!` jednaka je proizvodu svih prirodnih brojeva od 1 do n.
+
+## Rekurzivni algoritam
+
+Funkcija faktorijel može se definisati na (primitivno) rekurzivan način:
 
 - 0! = 1 (bazni slučaj)
-- za n > 0 važi: n! = n · (n − 1)! (rekurzivni korak)
+- n! = n · (n − 1)! (rekurzivni korak)
 
 Vrednost faktorijela se može izračunati korišćenjem petlje, ali i korišćenjem rekurzije:
 

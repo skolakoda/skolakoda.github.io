@@ -1,6 +1,6 @@
 ---
 title: Povezana lista  (<i>linked list</i>)
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 permalink: /povezana-lista
 image: /images/koncepti/podaci/povezana-lista.jpg
 ---

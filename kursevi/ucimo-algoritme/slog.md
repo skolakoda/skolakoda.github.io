@@ -1,6 +1,6 @@
 ---
 title: Slog ili zapis (<i>record</i>)
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 permalink: /slog
 image: /images/koncepti/podaci/census-record.jpg
 ---

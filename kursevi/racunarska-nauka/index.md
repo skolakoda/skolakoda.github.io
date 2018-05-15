@@ -119,19 +119,6 @@ kurs: uvod
 - naredba (zapovest računaru da nešto uradi)
 - vežba: razlikovanje naredbi i izraza
 
-### Strukture podataka
-
-- [Uvod u strukture podataka](/strukture-podataka)
-- [Niz](/nizovi) (*array*)
-  - [Dvodimenzionalni nizovi (matrice)](/matrice)
-  - [Višedimenzionalni nizovi](/visedimenzionalni-nizovi)
-- [Povezana lista](/povezana-lista) (*linked list*)
-- [Slog ili zapis](/slog) (*record*)
-- [Stog](/stog) (*stack*)
-- [Red](/red) (*queue*)
-- [Stablo](/stablo) (*tree*)
-- [Graf](/graf)
-
 ### Rad sa nizovima
 - iteracija nizova: `forEach()`, `map()`
 - `map`, `filter`, `reduce`

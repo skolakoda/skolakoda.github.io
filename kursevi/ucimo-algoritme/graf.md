@@ -1,6 +1,6 @@
 ---
 title: Graf
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 permalink: /graf
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Gabriel_graph.svg/600px-Gabriel_graph.svg.png
 ---

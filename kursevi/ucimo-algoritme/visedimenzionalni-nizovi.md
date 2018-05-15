@@ -1,6 +1,6 @@
 ---
 title: Višedimenzionalni nizovi
-layout: lekcija-racunarstvo
+layout: lekcija-algoritmi
 permalink: /visedimenzionalni-nizovi
 image: /images/koncepti/trodimenzionalni-niz.gif
 ---
