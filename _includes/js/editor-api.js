@@ -1,5 +1,4 @@
 /* global jezici */
-// https://codecompilerun.herokuapp.com/
 
 const ulazi = document.querySelectorAll('.ulaz')
 const brojUlaza = ulazi.length || 0

@@ -69,11 +69,10 @@ Sledeći program dodeljuje vrednosti elementima niza pomoću petlje. Za obradu n
 #include <stdio.h>
 
 int main () {
-   int niz[10]; /* deklarisemo niz od 10 integera */
+   int niz[10]; // deklarisemo niz od 10 integera
    int i,j;
-   /* inicijalizacija vrednosti elemenata niza */
    for (i = 0; i < 10; i++) {
-      niz[i] = i + 100; /* dodela vrednosti i-tom elementu*/
+      niz[i] = i + 100; // dodela vrednosti i-tom elementu
    }
    return 0;
 }

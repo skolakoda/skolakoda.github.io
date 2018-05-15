@@ -28,11 +28,6 @@ bundle exec jekyll serve --limit_posts 1
 
 ## TODO
 
-- azurirati info na react kurs
-- na malom kompu ne radi simbol .uokvireno.ideja
-- https://developers.google.com/web/progressive-web-apps/
-- dodati izvršenje svih programa za algoritme
-
 sadrzaj:
 - c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
 - razvoj igara
@@ -74,6 +69,9 @@ http://poincare.matf.bg.ac.rs/~nikolic/ml.html
 - vezbice http://www.znanje.org/knjige/computer/cpp/n/081CPP/081cpp.htm
 - vezbice http://www.its.edu.rs/reseni-primeri-iz-programskog-jezika-c-3/
 https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
+
+- dodati https://codecompilerun.herokuapp.com/
+- dodati simulator konzole sa starog sajta
 
 <!--
 slike:

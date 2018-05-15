@@ -29,7 +29,7 @@ Slijedeće strukture podataka i operacije na njima temelji su računalne znanost
 * **[Stablo](/stablo), binarno stablo** (eng. *binary tree*) – hijerarhijska struktura u kojoj svaki element može imati samo jednog prethodnika
 * **[Graf](/graf)** (eng. *graph*) – općenita struktura u kojoj svaki element može biti povezan sa više drugih elemenata
 
-### Linearne i nelinearne strukture
+## Linearne i nelinearne strukture
 
 ![](/images/koncepti/podaci/data-structures.jpg)
 
@@ -38,6 +38,14 @@ Strukture podataka dijele se na linearne i nelinearne. Struktura je linearna ako
 * linearna veza između elemenata ostvarena pokazivačima – karakteristično za povezane liste
 
 Nelinearne strukture su stabla i grafovi.
+
+## Statičke i dinamičke strukture
+
+**Strukture podataka možemo podeliti na statičke i dinamičke.** Statičke strukture podataka su fiksne veličine i ta veličina se određuje u fazi kompajliranja programa. U ove strukture podataka spadaju na primer **nizovi**, jer njihovu veličinu zadajemo prilikom deklaracije. Nasuprot statičkim strukturama postoje i dinamičke strukture podataka čija veličina može da se menja u toku izvršavanja programa.
+
+Statičke strukture se u programima brže obrađuju, ali je njihova mana što mogu zauzimati mnogo više od potrebne memorije. U tom smislu dinamičke strukture imaju prednost jer koriste tačno onoliko memorije koliko je potrebno, ali su, sa druge strane one teže za implementaciju jer je potrebno implementirati i deo koji se odnosi na upravljanje memorijom. Dinamičke strukture podataka se implementiraju korišćenjem pokazivača.
+
+Jedan primer upotrebe dinamičke strukture je predstavljanje slabo popunjene matrice (matrica čija je većina elemenata nula). Umesto da pamtimo dvodimenzionalni niz koji će biti većinom popunjen nulama i time nepotrebno zauzimamo memoriju, možemo napraviti dinamičku strukturu u kojoj ćemo pamtiti vrstu, kolonu i vrednost samo za element matrice čija je vrednost različita od nule. Primeri dinamičkih struktura podataka su **liste**, gde razlikujemo jednostruko povezane i dvostruko povezane liste, zatim **stabla, grafovi**, itd.
 
 ## Osnovne operacije
 
@@ -52,5 +60,7 @@ Nelinearne strukture su stabla i grafovi.
 
 Pored navedenih operacija pristupa i obrade, pretraživanja, dodavanja i brisanja, na linearne strukture se primjenjuju i operacije sortiranja po određenom redoslijedu i spajanja (eng. *merging*) – kombiniranja dvije liste u jednu. Izbor određene vrste linearne strukture za danu situaciju ovisi o relativnoj učestalosti primjene pojedine od navedenih operacija.
 
+### Izvori
 
-Izvor: N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
+- N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
+- *Uvod u programiranje - Računarski fakultet*, [Dinamičke strukture podataka](https://petlja.org/BubbleBee/r/lekcije/uvod-u-programiranje/nedelja_11)

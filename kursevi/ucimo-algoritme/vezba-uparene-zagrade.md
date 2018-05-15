@@ -1,6 +1,6 @@
 ---
 title: "Vežba: uparene zagrade"
-layout: lekcija-algoritmi
+layout: lekcija-algoritmi-api
 permalink: /vezba-uparene-zagrade
 ---
 
@@ -22,6 +22,7 @@ Kretaćemo se kroz početni niz od prvog karaktera ka poslednjem. Ukoliko je tre
 
 Sledi rešenje u Python-u koje koristi strukturu stoga:
 
+{:.ulaz}
 ```python
 class Stack:
     def __init__(self):

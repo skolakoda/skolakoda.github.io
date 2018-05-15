@@ -15,13 +15,14 @@ Funkcija faktorijel može se definisati na (primitivno) rekurzivan način:
 
 Vrednost faktorijela se može izračunati korišćenjem petlje, ali i korišćenjem rekurzije:
 
-```c
-unsigned faktorijel(unsigned n) {
-    if (n == 0)
-        return 1;
-    else
-        return n*faktorijel(n-1);
+{:.ulaz}
+```js
+function faktorijel(n) {
+  if (n == 0) return 1
+  return n * faktorijel(n-1)
 }
+
+console.log(faktorijel(5))
 ```
 
 Ukoliko je argument funkcije, na primer, vrednost 5, onda se funkcija f poziva najpre za tu vrednost, a onda, rekurzivno, za vrednosti 4, 3, 2, 1, 0.

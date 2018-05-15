@@ -5,9 +5,8 @@ Editor izvršava JS na dva načina
 */
 
 const izrazi = document.querySelectorAll('.izraz')
-const brojIzraza = izrazi.length || 0
-
 const ulazi = document.querySelectorAll('.ulaz')
+const brojIzraza = izrazi.length || 0
 const brojUlaza = ulazi.length || 0
 
 /* FUNCTIONS */
@@ -27,7 +26,6 @@ function proveriGresku(ulaz, izlaz) {
 }
 
 function izvrsi(ulaz, izlaz) {
-  // const originalConsoleLog = console.log
   // https://stackoverflow.com/questions/30935336
   console.log = (...args) => {
     args.map((arg, i) => izlaz.innerHTML += arg + (args[i + 1] ? ' ' : '<br>'))
@@ -37,7 +35,6 @@ function izvrsi(ulaz, izlaz) {
   } catch (e) {
     console.log(e.message)
   }
-  // console.log = originalConsoleLog
 }
 
 /* INIT */
