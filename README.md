@@ -35,7 +35,6 @@ bundle exec jekyll serve --drafts --incremental
   https://www.toptal.com/algorithms/computability-theory-complexity
   https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
   https://profesorka.wordpress.com/2012/06/24/nizovi-2/
-- bug: covek koji se prijavio sa online, ne moze se prijaviti za uzivo
 
 - testovi za algoritme http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/AnAnagramDetectionExample.html#solution-4-count-and-compare
 - odvojiti C kurs
