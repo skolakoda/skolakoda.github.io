@@ -7,11 +7,15 @@ image: /images/koncepti/podaci/matrica.png
 
 ![]({{page.image}})
 
-***Matricu ili dvodimenzionalni niz možemo da zamislimo kao tabelu. Sastoji se od polja koja pripadaju redovima i kolonama, označenim indeksima.***
+**Matrica ili dvodimenzionalni niz je niz čiji su elementi jednodimenzionalni nizovi.**
+
+Matricu možemo predstaviti kao tabelu koja ima `m` redova i `n` kolona, sa ćelijama označenim indeksima. Na primer, matricu veličine a[3][4] bi tabelarno predstavili na sledeći način:
+
+![](https://petljamedia.blob.core.windows.net/root/Media/Default/Kursevi/uvod-u-programiranje/nedelja_08/matrica.png)
 
 ## Zapis matrice
 
-U većini programskih jezika, matrice zapisujemo nizovima unutar nizova. Vrednostima pristupamo pomoću dva indeksa, od kojih prvi predstavlja red, a drugi kolonu:
+U većini programskih jezika, matrice zapisujemo nizovima unutar niza. Vrednostima pristupamo pomoću dva indeksa, od kojih prvi predstavlja red, a drugi kolonu:
 
 {:.ulaz}
 ```js
@@ -30,6 +34,18 @@ const mapa = [
 
 console.log(mapa[2][3])
 ```
+
+U jeziku C, dvodimenzionalni nizovi se mogu inicijalizovati slično kao jednodimenzionalni, dodelom vrednosti svim elementima na sledeći način:
+
+```c
+int matrica[3][4] = {
+    {0, 1, 2, 3} ,    /*  inicijalizacija reda sa indeksom 0 */
+    {4, 5, 6, 7} ,    /*  inicijalizacija reda sa indeksom 1 */
+    {8, 9, 10, 11}    /*  inicijalizacija reda sa indeksom 2 */
+};
+```
+
+Pošto su elementi niza opet nizovi, imamo ugnježdene vitičaste zagrade.
 
 ## Alokacija memorije
 

@@ -31,6 +31,7 @@ bundle exec jekyll serve --limit_posts 1
 - azurirati info na react kurs
 - na malom kompu ne radi simbol .uokvireno.ideja
 - https://developers.google.com/web/progressive-web-apps/
+- dodati izvršenje svih programa za algoritme
 
 sadrzaj:
 - c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje

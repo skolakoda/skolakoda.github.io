@@ -7,7 +7,9 @@ image: /images/koncepti/algoritmi/uzajamna-rekurzija.gif
 
 ![]({{page.image}})
 
-***Rekurzivne funkcije obično pozivaju same sebe. Postoji i mogućnost da se funkcije međusobno pozivaju i tako stvaraju uzajamnu rekurziju.***
+***Rekurzivne funkcije obično pozivaju same sebe. Pored klasične rekurzije, postoji i mogućnost da se funkcije međusobno pozivaju i tako stvaraju uzajamnu rekurziju.***
+
+Na ovaj način fukcija ne poziva samu sebe direktno, nego posredno preko druge funkcije.
 
 ## Primer: paran ili neparan broj
 
@@ -28,4 +30,4 @@ function jelNeparan(n) {
 console.log(jelParan(5))
 ```
 
-Funkcija `jelParan` rešava problem za vrednost `n` kada je `n > 0` primenom funkcije `jelNeparan` za vrednost `n − 1`. Funkcija `jelNeparan` za vrednost parametra `n` kada je `n > 0` poziva funkciju `jelParan` za vrednost `n − 1`.
+Ovde primenjena logika je sledeća: broj je paran ako je broj-1 neparan. I ovde imamo trivijalni slučaj za broj=0, koja će u funkciji `jelParan` vratiti tačno (jer je 0 paran broj), a u funkciji `jelNeparan` netačno.
