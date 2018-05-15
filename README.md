@@ -18,39 +18,12 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Mogući parametri:
+Ili sa parametrima:
 ```
-bundle exec jekyll serve --incremental
 bundle exec jekyll serve --drafts --incremental
-bundle exec jekyll serve --drafts
-bundle exec jekyll serve --limit_posts 1
 ```
 
 ## TODO
-
-sadrzaj:
-- c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
-- razvoj igara
-- ucimo-blockchain
-https://startit.rs/sta-je-hyperledger-i-kako-vam-moze-pomoci-u-razvoju-blockchain-aplikacija/
-https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.9CtlOcfiVYQ.O/m=pds,pdl,pdit,m_i,pdt,t,it/am=_p6AHZK2HwgA7MwggyjNQJj9n0c-DXh7A5n__38AIAA0APgC_Jv7ADoHAAAAAAAAAAAAAAAAAAAAWig-AQ/rt=h/d=1/rs=AHGWq9D0TrCGE8Wq5NwQZVq6PmhYwoFGFA
-https://zir.nsk.hr/islandora/object/pmf%3A779/datastream/PDF/view
-https://startit.rs/sta-se-krije-iz-ripple-a-kriptovalute-koja-je-zabelezila-najveci-rast-u-2017-godini/
-https://web.math.pmf.unizg.hr/~duje/kript/kriptografija.html
-https://onedrive.live.com/?cid=C1D6FA63BB0D8E00&id=C1D6FA63BB0D8E00%212725&parId=C1D6FA63BB0D8E00%212724&o=OneUp
-http://www.masina.rs/?p=5992
-http://www.bilten.org/?p=21983
-
-http://poincare.matf.bg.ac.rs/~jelenagr/2d/MalaSkolaPokazivaca.pdf
-
-- masinsko ucenje
-http://alas.matf.bg.ac.rs/~mi15145/Andelka_Milovanovic_Masinsko_ucenjeTNP.pdf
-https://startit.rs/masinsko-ucenje-je-zabavno/
-https://startit.rs/sta-je-masinsko-ucenje-i-kako-menja-poslovne-softvere/
-http://predmet.singidunum.ac.rs/course/view.php?id=778
-http://infoteh.etf.unssa.rs.ba/zbornik/2014/radovi/RSS-7/RSS-7-3.pdf
-http://poincare.matf.bg.ac.rs/~nikolic/ml.html
-
 - data nauka
 - https://startit.rs/data-science-u-praksi/
 - https://startit.rs/uvod-u-r-za-data-science/
@@ -72,6 +45,9 @@ https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
 
 - dodati https://codecompilerun.herokuapp.com/
 - dodati simulator konzole sa starog sajta
+- c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
+- razvoj igara
+- dodati male kutijice za three.js, redux, sql i ostalo
 
 <!--
 slike:

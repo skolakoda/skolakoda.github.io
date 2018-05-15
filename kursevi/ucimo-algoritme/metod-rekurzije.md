@@ -1,6 +1,6 @@
 ---
 title: Metod rekurzije
-layout: lekcija-algoritmi
+layout: lekcija-algoritmi-api
 permalink: /metod-rekurzije
 ---
 
@@ -79,6 +79,7 @@ int suma(int n){
 
 Da bismo izbegli beskonačnu petlju u rekurzivnom pozivu, moramo uvesti trivijalni slučaj koji predstavlja izlaz iz rekurzije. U primeru sabiranja prvih `n` prirodnih brojeva, slučaj n=1 ne zahteva sabiranje već odmah možemo vratiti 1. U funkciji `suma` dodajemo trivijalni slučaj za n=1, koji ne ulazi u rekurziju već samo vraća vrednost, čime se rekurzivna petlja zaustavlja:
 
+{:.ulaz}
 ```c
 #include <stdio.h>
 #include <stdlib.h>

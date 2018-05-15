@@ -19,6 +19,20 @@ image: /images/kursevi/algoritmi.jpg
 - [Svakodnevni algoritmi](/svakodnevni-algoritmi)
 - Algoritmi u pseudokodu
 
+### Algoritmi računanja
+
+- [Euklidov algoritam](/euklidov-algoritam)
+- [Eratostenovo sito](/eratostenovo-sito)
+- [Rusko seljačko množenje](/rusko-mnozenje)
+- [Cena računskih operacija](/cena-racunskih-operacija)
+
+### Složenost algoritama
+
+- Analiza algoritama
+- [Složenost algoritama](/efikasnost-algoritama)
+- [Tablica složenosti algoritama](/tablica-slozenosti-algoritama)
+- [Zapis složenosti (asimptotska notacija)](/asimptotska-notacija)
+
 ### Strukture podataka
 
 - [Uvod u strukture podataka](/strukture-podataka)
@@ -33,21 +47,6 @@ image: /images/kursevi/algoritmi.jpg
   - [Binarno stablo pretrage](/binarno-stablo-pretrage)
 - [Graf](/graf)
 - [Vežba: uparene zagrade](/vezba-uparene-zagrade)
-
-### Algoritmi računanja
-
-- Egipatsko množenje
-- [Euklidov algoritam](/euklidov-algoritam)
-- [Eratostenovo sito](/eratostenovo-sito)
-- Fibonacijev niz
-- [Cena računskih operacija](/cena-racunskih-operacija)
-
-### Složenost algoritama
-
-- Analiza algoritama
-- [Složenost algoritama](/efikasnost-algoritama)
-- [Tablica složenosti algoritama](/tablica-slozenosti-algoritama)
-- [Zapis složenosti (asimptotska notacija)](/asimptotska-notacija)
 
 ### Algoritmi pretrage
 

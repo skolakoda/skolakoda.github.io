@@ -1,6 +1,6 @@
 ---
 title: Eratostenovo sito
-layout: lekcija-algoritmi
+layout: lekcija-algoritmi-api
 permalink: /eratostenovo-sito
 ---
 
@@ -46,6 +46,7 @@ Primjećujemo da su u nizu ostali samo prosti brojevi i da se algoritam može za
 
 Implementacija algoritma Eratostenovo sito u Pythonu:
 
+{:.ulaz}
 ```python
 def nadji_proste_brojeve(n):
     prosti = set()

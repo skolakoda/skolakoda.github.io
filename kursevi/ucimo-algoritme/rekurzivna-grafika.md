@@ -6,6 +6,8 @@ permalink: /rekurzivna-grafika
 image: https://upload.wikimedia.org/wikipedia/commons/3/30/Cuncha_GFDL_Galicia4.jpg
 ---
 
+**Računarska grafika je jedna od najzanimljivijih oblasti primene rekurzije.** Pomoću nekoliko prostih funkcija, možete slikati najrazličitije obrasce koji se u nedogled ponavljaju.
+
 ## Fraktali
 
 Najpoznatiji vid rekurzije u računarskoj grafici su fraktali. Poput svih rekurzija, sastoje se od obrazaca koji u nedogled ponavljaju sebe, a mogu se predstaviti relativno prostom rekurzivnom definicijom.
@@ -19,3 +21,5 @@ Kod beskonačno smanjujućih fraktala, samoslični obrasci se ne mogu izbrojati 
 Jedan od prostijih fraktala u grafici je binarno stablo. Sastoji se od osnovnog obrasca, stabla, koji iz sebe reprodukuje dva umanjena. Ispod možete videti implementaciju binarnog stabla u kodu:
 
 <iframe width="100%" height="600" src="//jsfiddle.net/mudroljub/x1bzmq7s/embedded/js,result/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<iframe width="100%" height="600" src="//jsfiddle.net/mudroljub/x1bzmq7s/embedded/result,js/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>

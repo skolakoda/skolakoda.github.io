@@ -4,7 +4,10 @@
 ## Učimo mašinsko učenje
 # Rađanje veštačke inteligencije
 
-<!-- http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning -->
+<!-- http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning
+https://startit.rs/masinsko-ucenje-je-zabavno/
+http://predmet.singidunum.ac.rs/course/view.php?id=778
+ -->
 
 ### Uvod
 
