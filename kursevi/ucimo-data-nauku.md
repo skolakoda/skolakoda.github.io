@@ -1,6 +1,11 @@
 ---
 ---
 
+<!--
+  http://www.datascience.rs/pande-za-manipulaciju-tabelama-prvi-deo/
+  http://www.datascience.rs/kako-naci-posao/
+ -->
+
 ## Učimo data nauku
 
 ### Preduslovi

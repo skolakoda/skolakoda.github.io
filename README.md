@@ -24,29 +24,17 @@ bundle exec jekyll serve --drafts --incremental
 ```
 
 ## TODO
-- data nauka
-- https://startit.rs/data-science-u-praksi/
-- https://startit.rs/uvod-u-r-za-data-science/
-- http://www.datascience.rs/pande-za-manipulaciju-tabelama-prvi-deo/
-- http://www.datascience.rs/kako-naci-posao/
 
-- php na srpskom: https://phpsrbija.github.io/php-the-right-way/
-- zen mudrosti
-  https://www.toptal.com/algorithms/computability-theory-complexity
-  https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
-  https://profesorka.wordpress.com/2012/06/24/nizovi-2/
-
-- testovi za algoritme http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/AnAnagramDetectionExample.html#solution-4-count-and-compare
-- odvojiti C kurs
-- vezbice http://www.znanje.org/knjige/computer/cpp/n/081CPP/081cpp.htm
 - vezbice http://www.its.edu.rs/reseni-primeri-iz-programskog-jezika-c-3/
-https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
-
-- dodati https://codecompilerun.herokuapp.com/
 - dodati simulator konzole sa starog sajta
-- c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
+- dodati https://codecompilerun.herokuapp.com/
 - razvoj igara
 - dodati male kutijice za three.js, redux, sql i ostalo
+https://www.toptal.com/algorithms/computability-theory-complexity
+https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
+https://libre.lugons.org/index.php/2013/05/10-pravila-zen-programera/
+- testovi za algoritme (na dnu strane) http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/AnAnagramDetectionExample.html#solution-4-count-and-compare
+- odvojiti C kurs
 
 <!--
 slike:

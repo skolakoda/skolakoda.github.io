@@ -16,8 +16,6 @@ kurs: uvod
 
 ***Kurs programiranja za potpune početnike, kao i samouke kodere koji hoće da popune praznine. Solidan temelj za dalju profesionalnu orjentaciju.***
 
-<!-- <a href="/kursevi/prijava?kurs=10" class="btn float-right">Prijavi se</a> -->
-
 ### Šta je računar?
 
 - [Rana istorija računara](/rana-istorija-racunara)
@@ -37,6 +35,7 @@ kurs: uvod
 - Instalacija dodatnih alata
 
 ### Prvi program
+
 - [Zdravo C](/zdravo-c)
 - [Zdravo Java](/zdravo-java)
 - [Zdravo PHP](/uvod-u-php)
@@ -104,6 +103,7 @@ kurs: uvod
   - vrste petlji (`while`, `do-while`, `for`, `for-each`)
   - izlazak iz petlje (`break` i `continue`)
 - [Petlje u Javi](/java-petlje)
+- [Vežbe sa petljama](/vezbe-sa-petljama)
 
 ### Funkcije
 - [Funkcije i procedure](/funkcije-i-procedure)
@@ -122,6 +122,7 @@ kurs: uvod
 ### Rad sa nizovima
 - iteracija nizova: `forEach()`, `map()`
 - `map`, `filter`, `reduce`
+- [Vežbe sa nizovima](/vezbe-sa-nizovima)
 
 ### Objekti, klase i nasleđivanje
 - [Klase i objekti u Javi](/java-klase-i-objekti)

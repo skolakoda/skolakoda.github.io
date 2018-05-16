@@ -1,6 +1,12 @@
 ---
 ---
 
+<!--
+  c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
+  https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
+  https://profesorka.wordpress.com/2012/06/24/nizovi-2/
+ -->
+
 # Učimo C
 
 ### Getting Ready
