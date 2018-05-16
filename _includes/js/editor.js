@@ -1,66 +1,71 @@
+/* global jezici */
 /*
-Editor izvršava JS na dva načina
-- evaluira izraze $('.izraz')
-- preusmerava console.log u HTML $('.ulaz')
+Editor izvršava kod na dva načina
+  - ako je JS izvrsava i loguje u HTML
+  - ostale jezike salje na server da se izvrse
 */
+{
+  const ulazi = document.querySelectorAll('.ulaz')
+  const brojUlaza = ulazi.length || 0
+  const target = 'https://www.hackerrank.com/api/shiv/submission'
+  const proxy = 'https://proxy-requests.herokuapp.com/'
+  const url = proxy + target
+  const api_key = 'hackerrank|192673-2110|7220543fdb59d6d1bf59d84a1d33913e63ef41be'
+  const testcases = '["1"]' // mora bar jedan
 
-const izrazi = document.querySelectorAll('.izraz')
-const ulazi = document.querySelectorAll('.ulaz')
-const brojIzraza = izrazi.length || 0
-const brojUlaza = ulazi.length || 0
+  /* FUNCTIONS */
 
-/* FUNCTIONS */
-
-function vrednuj(ulaz, izlaz) {
-  try {
-    izlaz.innerHTML = eval(ulaz.innerText)
-  } catch (e) {}
-}
-
-function proveriGresku(ulaz, izlaz) {
-  try {
-    eval(ulaz.innerText)
-  } catch (e) {
-    izlaz.innerHTML = e
+  function izvrsiJS(ulaz, izlaz) {
+    // https://stackoverflow.com/questions/30935336
+    const originalLog = console.log
+    console.log = (...args) =>
+      args.map((arg, i) => izlaz.innerHTML += arg + (args[i + 1] ? ' ' : '<br>'))
+    try {
+      eval(ulaz.querySelector('code').innerText)
+    } catch (e) {
+      console.log(e.message)
+    }
+    console.log = originalLog
   }
-}
 
-function izvrsi(ulaz, izlaz) {
-  // https://stackoverflow.com/questions/30935336
-  console.log = (...args) => {
-    args.map((arg, i) => izlaz.innerHTML += arg + (args[i + 1] ? ' ' : '<br>'))
+  function izvrsiNaServeru(ulaz, lang, izlaz) {
+    const source = encodeURIComponent(ulaz.querySelector('code').innerText)
+    const params = `source=${source}&lang=${lang}&testcases=${testcases}&api_key=${api_key}`
+    izlaz.innerHTML = 'Izvršava se...'
+
+    const http = new XMLHttpRequest()
+    http.open('POST', url)
+    http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded')
+    http.onload = () => {
+      const rezultat = JSON.parse(JSON.parse(http.responseText).response).result
+      izlaz.innerHTML = rezultat.stdout ? rezultat.stdout[0] : rezultat.compilemessage
+    }
+    http.onerror = () => izlaz.innerHTML = 'Greška, nema odgovora sa servera.'
+    http.send(params)
   }
-  try {
-    eval(ulaz.querySelector('code').innerText)
-  } catch (e) {
-    console.log(e.message)
+
+  function izvrsi(ulaz, jezik, izlaz) {
+    if (jezik == 'js') izvrsiJS(ulaz, izlaz)
+    else izvrsiNaServeru(ulaz, jezici[jezik], izlaz)
   }
-}
 
-/* INIT */
+  /* INIT */
 
-for (let i = 0; i < brojIzraza; i++) {
-  const izlaz = document.createElement('small')
-  izlaz.classList.add('vrednost')
-  izrazi[i].parentNode.insertBefore(izlaz, izrazi[i].nextSibling) // append after
-  izrazi[i].contentEditable = true
-  izrazi[i].on('keyup', () => vrednuj(izrazi[i], izlaz))
-  izrazi[i].on('blur', () => proveriGresku(izrazi[i], izlaz))
-  vrednuj(izrazi[i], izlaz)
-}
+  for (let i = 0; i < brojUlaza; i++) {
+    const ulaz = ulazi[i]
+    const jezik = ulaz.classList[0].replace('language-', '')
+    const code = ulaz.querySelector('pre')
+    code.contentEditable = true
+    code.spellcheck = false
 
-for (let i = 0; i < brojUlaza; i++) {
-  const ulaz = ulazi[i]
-  const code = ulaz.querySelector('pre')
-  code.contentEditable = true
-  code.spellcheck = false
+    const izlaz = document.createElement('pre')
+    izlaz.classList.add('izlaz')
+    ulaz.parentNode.insertBefore(izlaz, ulaz.nextSibling)  // append after
 
-  const izlaz = document.createElement('pre')
-  izlaz.classList.add('izlaz')
-  ulaz.parentNode.insertBefore(izlaz, ulaz.nextSibling) // append after
+    const dugme = document.createElement('button')
+    dugme.innerText = 'Izvrši ⚙'
+    dugme.onclick = () => izvrsi(ulaz, jezik, izlaz)
+    ulaz.appendChild(dugme)
+  }
 
-  const dugme = document.createElement('button')
-  dugme.innerText = 'Izvrši ⚙'
-  dugme.onclick = () => izvrsi(ulaz, izlaz)
-  ulaz.appendChild(dugme)
 }

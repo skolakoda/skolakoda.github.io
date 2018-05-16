@@ -10,7 +10,7 @@ Zadaci za vežbanje sa petljama u programskom jeziku C++.
 
 Izračunati i ispisati sumu prvih 15 prirodnih brojeva. Koristiti for petlju.
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;
@@ -31,7 +31,7 @@ int main()
 
 Napisati program za izračunavanje proizvoda od 1 do n (izabrati po volji).
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;
@@ -51,7 +51,7 @@ int main()
 
 Napisati program za ispis aritmetičke sredine neparnih prirodnih brojeva do n (izabrati po volji).
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;
@@ -75,7 +75,7 @@ int main()
 
 Napisati program za prebrojavanje prirodnih brojeva djeljivih sa 3 u intevalu od 1 do n (izabrati po volji).
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;
@@ -94,7 +94,7 @@ int main()
 
 Ispis kvadratnog korijena prirodnih brojeva do n.
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 #include <cmath>
@@ -117,7 +117,7 @@ int main()
 Ispis kvadrata prirodnih brojeva do n.
 
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;

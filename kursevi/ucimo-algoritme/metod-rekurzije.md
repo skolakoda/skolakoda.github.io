@@ -1,6 +1,6 @@
 ---
 title: Metod rekurzije
-layout: lekcija-algoritmi-api
+layout: lekcija-algoritmi
 permalink: /metod-rekurzije
 ---
 

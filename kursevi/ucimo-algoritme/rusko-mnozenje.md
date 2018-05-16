@@ -1,6 +1,6 @@
 ---
 title: Rusko seljačko množenje
-layout: lekcija-algoritmi-api
+layout: lekcija-algoritmi
 permalink: /rusko-mnozenje
 ---
 

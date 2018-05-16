@@ -28,7 +28,7 @@ Svi tagovi imaju prazne atribute. Dodaj sledeće vrednosti atributima:
 - `title` atributu dodaj vrednost `O Školi koda`
 - `src` atributu dodaj vrednost `http://lorempixel.com/400/200/`
 
-{:.ulaz}
+{:.html-ulaz}
 ```html
 <a href="">Škola koda</a>
 

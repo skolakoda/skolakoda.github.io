@@ -14,7 +14,7 @@ U našem editoru možeš uživo isprobavati i menjati kod. Rezultat odmah izlazi
 
 Slobodno menjaj zadate vrednosti (npr. upiši drugi naziv boje ili veličinu slova), ništa ne možeš pokvariti:
 
-{:.ulaz}
+{:.html-ulaz}
 ```html
 <h1>Zdravo svete</h1>
 

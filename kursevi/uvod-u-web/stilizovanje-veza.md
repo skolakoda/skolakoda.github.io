@@ -172,7 +172,7 @@ Recimo da u bočnom stupcu imate popis veza prema vanjskim lokacijama:
 
 Zbog bezbednosnih razloga, menjanje pozadinske slike za posećenu vezu je ukinuto. Međutim, možete imati skrivenu pozadinsku sliku, koju ćete otkriti promenom boje pozadine, na sljedeći način:
 
-{:.ulaz}
+{:.html-ulaz}
 ```html
 <ul>
   <li><a href="http://www.andybudd.com/">Andy Budd's Blogography</a></li>

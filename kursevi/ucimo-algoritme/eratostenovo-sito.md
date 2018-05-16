@@ -1,6 +1,6 @@
 ---
 title: Eratostenovo sito
-layout: lekcija-algoritmi-api
+layout: lekcija-algoritmi
 permalink: /eratostenovo-sito
 ---
 

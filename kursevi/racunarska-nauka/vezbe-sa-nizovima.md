@@ -6,11 +6,11 @@ permalink: /vezbe-sa-nizovima
 
 Zadaci za vežbanje sa nizovima u programskom jeziku C++.
 
-### Veći od suseda
+### Članovi veći od narednog
 
 Ispisati članove niza koji su veći od narednog člana.
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;
@@ -34,7 +34,7 @@ int main()
 
 Ispisati parne članove niza (djeljive sa 2).
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;
@@ -58,7 +58,7 @@ int main()
 
 Učitati članove niza. Izračunati i ispisati sumu članova niza.
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;
@@ -81,7 +81,7 @@ int main()
 
 Ispisati članove niza u rasponu između 3 i 9 uključno.
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;
@@ -106,7 +106,7 @@ int main()
 
 Izračunati i ispisati aritmetički sredinu svih članova niza.
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;
@@ -130,7 +130,7 @@ int main()
 
 Izračunati aritmetičku sredinu i ispisati članove niza veće od aritmetičke sredine.
 
-{:.ulaz}
+{:.ulaz.resenje}
 ```cpp
 #include <iostream>
 using namespace std;

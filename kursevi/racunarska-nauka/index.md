@@ -26,7 +26,7 @@ kurs: uvod
 
 - Šta je programiranje?
 - [Kako učiti programiranje](/programiranje-je-tesko)
-- [Uvod u programske jezike](/uvod-u-programske-jezike) ([prezentacija](https://www.slideshare.net/DamjanPavlica/programski-jezici-73018599))
+- [Uvod u programske jezike](/uvod-u-programske-jezike)
 
 ### Instalacija jezika i alata
 

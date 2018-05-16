@@ -14,7 +14,7 @@ Kod ugnježdenih oznaka se prvo zatvara poslednje otvorena. Tako na primer, ako 
 
 U sledećem primeru, neki elementi su ugnježdeni unutar drugih. Ugnježdene elemente uvek uvlačimo pomoću `tab`a ili razmaka.
 
-{:.ulaz}
+{:.html-ulaz}
 ```html
 <h1>Zdravo svete</h1>
 

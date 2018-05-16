@@ -82,9 +82,3 @@ Kada konvertujete tip float, konverzija je ista kao kad je vrednost konvertovana
 
 
 Izvor: Steven Holzner, *PHP 5*, Beograd, 2006.
-
-
-<script>
-  {% include js/jezici.js %}
-  {% include js/editor-api.js %}
-</script>

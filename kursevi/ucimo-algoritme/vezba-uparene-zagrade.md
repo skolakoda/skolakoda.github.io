@@ -1,6 +1,6 @@
 ---
 title: "Vežba: uparene zagrade"
-layout: lekcija-algoritmi-api
+layout: lekcija-algoritmi
 permalink: /vezba-uparene-zagrade
 ---
 

@@ -16,7 +16,7 @@ HTML element obuhvata otvarajuću oznaku, zatvarajuću oznaku, i sadržaj izmeđ
 
 Oznake se u pregledaču ne prikazuju, samo njihov efekat. Naziv oznake, koji se nalazi unutar uglastih zagrada, određuje kako će se sadržaj prikazati. Ovako se, na primer, označava naslov:
 
-{:.ulaz}
+{:.html-ulaz}
 ```html
 <h1>Zdravo svete</h1>
 ```

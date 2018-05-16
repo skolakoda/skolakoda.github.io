@@ -25,7 +25,7 @@ Trik za pamćenje: Tagovi su često skraćenice engleskih naziva.
 
 Isprobaj neke od gornjih tagova u editoru:
 
-{:.ulaz}
+{:.html-ulaz}
 ```html
 
 

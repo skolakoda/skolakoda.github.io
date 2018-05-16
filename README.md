@@ -26,6 +26,9 @@ bundle exec jekyll serve --drafts --incremental
 ## TODO
 
 - vezbice http://www.its.edu.rs/reseni-primeri-iz-programskog-jezika-c-3/
+http://www.sabackagimnazija.edu.rs/files/materijali/webDizajn/Zbirka.htm
+https://www.mojwebdizajn.net/c-rijeseni-zadatci/c-programiranje-rijeseni-zadatci-1.aspx
+
 - dodati simulator konzole sa starog sajta
 - dodati https://codecompilerun.herokuapp.com/
 - razvoj igara

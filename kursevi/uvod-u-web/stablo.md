@@ -14,7 +14,7 @@ HTML stablo podseća na porodično, pa svakom elementu možemo utvrditi pretke i
 
 Uporedi gornju sliku stabla sa kodom u editoru. Pronađi sličnosti i razlike:
 
-{:.ulaz}
+{:.html-ulaz}
 ```html
 <!doctype html>
 <html lang="sr">

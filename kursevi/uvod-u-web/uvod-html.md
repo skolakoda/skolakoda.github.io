@@ -14,7 +14,7 @@ Oznake (tagove) na svakoj stranici možeš videti klikom na desno dugme miša i 
 
 U našem editoru uživo možeš isprobavati kod, rezultat odmah izlazi na simulatoru uređaja. Slobodno pokušaj da promeniš bilo šta, ništa ne možeš pokvariti:
 
-{:.ulaz}
+{:.html-ulaz}
 ```html
 <h1>Zdravo svete</h1>
 
