@@ -2,14 +2,7 @@
 title: Zdravo C
 layout: lekcija-racunarstvo
 permalink: /zdravo-c
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg/959px-Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg
 ---
-
-![Dennis Ritchie and Ken Thompson]({{page.image}})
-
-**Programski jezik C je napravio neki lik po imenu Dennis Ritchie 1972. godine, za korišćenje na Unix sistemima. Iako je napravljen za sistemsko programiranje, takođe se koristi i za programiranje aplikacija.**
-
-## Osnove
 
 Svaki C program MORA da sadrži 2 stvari:
 

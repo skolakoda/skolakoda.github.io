@@ -1,13 +1,14 @@
 ---
 layout: kurs
-title: Uvod u svet programiranja
+title: Računarska nauka za početnike
 image: /images/kursevi/uvod.png
+github: ucimo-c
 kurs: uvod
 ---
 
 ![]({{page.image}})
 
-### Uvod u svet programiranja
+## Učimo C i druge jezike
 # Računarska nauka za početnike
 
 **Nauči osnove računarske nauke kroz programski jezik C i druge jezike.**
@@ -25,6 +26,7 @@ kurs: uvod
 - Šta je programiranje?
 - [Kako učiti programiranje](/programiranje-je-tesko)
 - [Uvod u programske jezike](/uvod-u-programske-jezike)
+- [Uvod u programski jezik C](/c-uvod)
 
 ### Prvi program
 
@@ -32,7 +34,7 @@ kurs: uvod
 - [Zdravo C](/zdravo-c)
 - [Izgradnja programa](/izgradnja-programa)
 
-### Drugačije vrste brojeva
+### Brojčani sistemi
 
 - [Brojčani sistemi](/brojcani-sistemi)
 - [Binarni (dvojni) brojevi](/binarni-brojevi)
@@ -46,26 +48,23 @@ kurs: uvod
 - [Razlika analognog i digitalnog zapisa](/analogni-i-digitalni-zapis)
 - [Razlika između podatka i informacije](/razlika-podaci-informacije)
 
-### Tipovi podataka
+### Varijable i tipovi podataka
 
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
+  - [Tipovi podataka u jeziku C](/c-tipovi-podataka)
+- [Šta su varijable?](/varijable)
+  - [Imena varijabli](/c-imena-varijabli)
+  - [Deklaracije varijabli](/c-deklaracije-varijabli)
+- [Pokazivači u jeziku C](/c-pokazivaci)
 - [Strune u jeziku C](/c-strune)
 - [Vežbe sa strunama](/vezbe-sa-strunama)
-
-### Imenovanja podataka
-
-- [Šta su varijable?](/c-varijable)
-- identifikatori i pravila imenovanja
-- dodeljivanje vrednosti
-- promenljive i nepromenljive
-- kopiranje i pokazivanje vrednosti
-- [Pokazivači u jeziku C](/c-pokazivaci)
 
 ### Brojevi i računanje
 
 - aritmetički operatori (`+`, `-`, `*`, `/`)
 - upotreba modulo operatora (`%`)
 - nepreciznosti u računanju
+- [Primer: Farenhajt-Celzijus program](/primer-farenhajt-celzijus)
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
 ### Uslovi i grananje
@@ -83,15 +82,13 @@ kurs: uvod
 - [Petlje u C-u](/c-petlje)
   - vrste petlji (`while`, `do-while`, `for`, `for-each`)
   - izlazak iz petlje (`break` i `continue`)
-- [Petlje u Javi](/java-petlje)
 - [Vežbe sa petljama](/vezbe-sa-petljama)
 
 ### Funkcije
 
-- [Funkcije i procedure](/funkcije-i-procedure)
-- opseg
-- ulazni parametri
-- vraćanje rezultata funkcije
+- [Funkcije u jeziku C](/c-funkcije)
+  - ulazni parametri
+  - vraćanje rezultata funkcije
 - čiste i nečiste funkcije
 - [Komunikacija potprograma](/komunikacija-potprograma)
 

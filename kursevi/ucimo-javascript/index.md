@@ -38,7 +38,7 @@ image: /images/kursevi/js-logo.png
 
 ### Promenljive i nepromenljive
 
-- [Šta su varijable?](/c-varijable)
+- [Šta su varijable?](/varijable)
 - [Promenljive i nepromenljive u Javaskriptu](/promenljive-i-nepromenljive-u-javaskriptu)
 - Identifikatori i pravila imenovanja
 - Dodela vrednosti (`=`)
