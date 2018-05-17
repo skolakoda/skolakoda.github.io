@@ -16,26 +16,3 @@ layout: default
 <p>< Nazad na <a href="/kursevi/" title="online kursevi programiranja">kurseve</a></p>
 
 {{ content }}
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Course",
-  "name": "{{page.title}}",
-{% if page.opis %}
-  "description": "{{page.opis}}",
-{% endif %}
-{% if page.image %}
-  "image": "{{page.image}}",
-{% endif %}
-  "provider": {
-    "@type": "Organization",
-    "name": "Škola koda",
-    "sameAs": "https://skolakoda.org/"
-  },
-  "offers": {
-    "price": "3000",
-    "priceCurrency": "RSD"
-  }
-}
-</script>
