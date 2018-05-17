@@ -15,7 +15,7 @@ Matricu možemo predstaviti kao tabelu koja ima `m` redova i `n` kolona, sa ćel
 
 ## Zapis matrice
 
-U većini programskih jezika, matrice zapisujemo nizovima unutar niza. Vrednostima pristupamo pomoću dva indeksa, od kojih prvi predstavlja red, a drugi kolonu:
+U većini programskih jezika, matrice zapisujemo nizovima unutar niza. Vrednostima pristupamo pomoću dva indeksa, od kojih prvi predstavlja red, a drugi kolonu. Sledi zapis matrice u jeziku Javascript:
 
 {:.ulaz}
 ```js
@@ -84,7 +84,7 @@ Matrice s istim brojem redova i kolona nazivaju se kvadratne. Kvadratne matrice 
 
 ### Ispis glavne dijagonale
 
-Na glavnoj dijagonali kvadratne matrice nalaze se elementi za koje vredi `i == j`. Naivni algoritam za ispis glavne dijagonale, sa petljom unutar petlje (`n^2`), bio bi:
+Na glavnoj dijagonali kvadratne matrice nalaze se elementi za koje vredi `i == j`. Naivni algoritam za ispis glavne dijagonale, sa petljom unutar petlje (`n^2`), ovako bi izledao u Javascriptu:
 
 {:.ulaz}
 ```js
@@ -117,7 +117,7 @@ for(let i = 0; i < matrica.length; i++)
 
 ### Ispis sporedne dijagonale
 
-Na sporednoj dijagonali nalaze se elementi za koje vredi `i + j == n - 1` (n je dužina matrice). Skup i naivan algoritam za ispis sporedne dijagonale bio bi:
+Na sporednoj dijagonali nalaze se elementi za koje vredi `i + j == n - 1` (n je dužina matrice). Skup i naivan algoritam za ispis sporedne dijagonale, bi ovako izledao u Javascriptu:
 
 {:.ulaz}
 ```js
@@ -150,8 +150,27 @@ for(let i = 0; i < n; i++)
   console.log(matrica[i][n - i - 1])
 ```
 
-## Vežba: Trag matrice
+## Vežba: zbir glavne dijagonale
 
 Trag matrice je definisan kao **zbir elemenata na glavnoj dijagonali**.
 
-Data je kvadratna matrica dimenzija n×n. Izračunati njen trag.
+Data je kvadratna matrica dimenzija n × n. Izračunati njen trag. Rešenje je dato u jeziku C.
+
+{:.ulaz.resenje}
+```c
+#include <stdio.h>
+
+int matrica[3][3] = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+
+main() {
+  int i, sum = 0;
+  for (i = 0; i < 3; i++) {
+      sum += matrica[i][i];
+  }
+  printf ("Zbir elemenata na glavnoj dijagonali je %d\n", sum);
+}
+```

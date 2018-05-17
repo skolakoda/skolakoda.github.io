@@ -2,8 +2,6 @@
 layout: kurs
 title: Uvod u svet programiranja
 image: /images/kursevi/uvod.png
-redirect_from:
-  - /kursevi/uvod-u-programiranje/
 kurs: uvod
 ---
 
@@ -12,7 +10,7 @@ kurs: uvod
 ### Uvod u svet programiranja
 # Računarska nauka za početnike
 
-**Savladaj temelje računarske nauke, strukture podataka, algoritme, kriptografiju. Nauči osnovne programske obrasce kroz C, Javu, PHP, Python i Javaskript.**
+**Nauči osnove računarske nauke kroz programski jezik C i druge jezike.**
 
 ***Kurs programiranja za potpune početnike, kao i samouke kodere koji hoće da popune praznine. Solidan temelj za dalju profesionalnu orjentaciju.***
 
@@ -28,27 +26,11 @@ kurs: uvod
 - [Kako učiti programiranje](/programiranje-je-tesko)
 - [Uvod u programske jezike](/uvod-u-programske-jezike)
 
-### Instalacija jezika i alata
-
-- Instalacija jezika (C, Java, PHP, Python, NodeJS)
-- Instalacija editora (Codeblocks, NetBeans, Atom...)
-- Instalacija dodatnih alata
-
 ### Prvi program
 
+- Instalacija jezika i alata (Codeblocks)
 - [Zdravo C](/zdravo-c)
-- [Zdravo Java](/zdravo-java)
-- [Zdravo PHP](/uvod-u-php)
-- Zdravo Python
-- Zdravo Javaskript
-
-### Prevođenje i izvršavanje koda
-
 - [Izgradnja programa](/izgradnja-programa)
-- kompajliranje i interpretiranje
-- prevođenje programa u mašinski jezik
-- prevođenje novijeg koda u stariji
-- prevođenje jednog jezika u drugi
 
 ### Drugačije vrste brojeva
 
@@ -67,16 +49,11 @@ kurs: uvod
 ### Tipovi podataka
 
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
-  - brojevi (celi, decimalni..)
-  - znakovi
-  - strune
-  - nizovi i liste
-  - strukture i objekti
-  - logički tip podataka (`true` i `false`)
 - [Strune u jeziku C](/c-strune)
-- tipizirani i netipizirani jezici (statički i dinamički tipovi)
+- [Vežbe sa strunama](/vezbe-sa-strunama)
 
 ### Imenovanja podataka
+
 - [Šta su varijable?](/c-varijable)
 - identifikatori i pravila imenovanja
 - dodeljivanje vrednosti
@@ -85,17 +62,21 @@ kurs: uvod
 - [Pokazivači u jeziku C](/c-pokazivaci)
 
 ### Brojevi i računanje
+
 - aritmetički operatori (`+`, `-`, `*`, `/`)
 - upotreba modulo operatora (`%`)
 - nepreciznosti u računanju
+- [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
 ### Uslovi i grananje
+
 - [Logički tok programa](/programska-logika)
 - operatori poređenja (`>`, `<`, `==`, `!=`)
 - logički operatori (`i`, `ili`, `ne`)
 - uslovi (`if`, `if-else`, `switch`)
 - [Logičke kapije](/logicke-kapije)
 - [Bitovni operatori](/bitovni-operatori)
+- [Vežbe sa uslovima](/vezbe-uslovi)
 
 ### Petlje i ponavljanje
 
@@ -106,28 +87,25 @@ kurs: uvod
 - [Vežbe sa petljama](/vezbe-sa-petljama)
 
 ### Funkcije
+
 - [Funkcije i procedure](/funkcije-i-procedure)
 - opseg
 - ulazni parametri
 - vraćanje rezultata funkcije
-- čiste i nečiste funkcije (procedure)
-- bočni efekti funkcije
+- čiste i nečiste funkcije
 - [Komunikacija potprograma](/komunikacija-potprograma)
 
 ### Naredbe i izrazi
+
 - izraz (vrednost koja se evaluira)
 - naredba (zapovest računaru da nešto uradi)
 - vežba: razlikovanje naredbi i izraza
 
 ### Rad sa nizovima
+
 - iteracija nizova: `forEach()`, `map()`
 - `map`, `filter`, `reduce`
 - [Vežbe sa nizovima](/vezbe-sa-nizovima)
-
-### Objekti, klase i nasleđivanje
-- [Klase i objekti u Javi](/java-klase-i-objekti)
-- [Privatne i javne metode](/kontrola-pristupa)
-- [Statičke metode](/java-static)
 
 ### Paradigme programiranja
 
