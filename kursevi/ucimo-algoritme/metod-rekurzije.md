@@ -103,5 +103,7 @@ int suma(int n){
 }
 ```
 
+![](https://cdn-images-1.medium.com/max/256/1*FqUSf96rhnS-38hDNvKxZQ.png)
+
 
 Izvor: [Petlja.org](https://petlja.org/BubbleBee/r/lekcije/uvod-u-programiranje/nedelja_06)

@@ -2,8 +2,6 @@
 title: Pokazivači u jeziku C
 layout: lekcija-c
 permalink: /c-pokazivaci
-redirect_from:
-  - /pokazivaci-c
 image: /images/koncepti/varijable/pokazivac.png
 ---
 

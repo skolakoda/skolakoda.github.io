@@ -17,9 +17,9 @@ Varijable su neizostavan dio svakog programskog jezika i služe kao pomoć u sam
 
 ## Tipovi varijabli
 
-Neki tipovi varijabli su brojevne varijable (cjelobrojne, decimalne…), znakovne (slova, interpunkcijski znakovi…) i ostale strukture izvedene od osnovnih tipova. Mnogi programski jezici dozvoljavaju definiranje vlastitih tipova varijabli (C/C++, VB, Pascal).
+Neki tipovi varijabli su brojčane varijable (cjelobrojne, decimalne…), znakovne (slova, interpunkcijski znakovi…) i ostale strukture izvedene od osnovnih tipova. Mnogi programski jezici dozvoljavaju definiranje vlastitih tipova varijabli (C/C++, VB, Pascal).
 
-Deklaracije imaju popis varijabli i određuju im tip.
+Deklaracije određuju tip varijabli.
 
 ## Zapis varijable u memoriji
 

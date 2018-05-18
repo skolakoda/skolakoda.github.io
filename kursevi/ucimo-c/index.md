@@ -56,7 +56,6 @@ redirect_from:
 - [Šta su varijable?](/varijable)
   - [Imena varijabli](/c-imena-varijabli)
   - [Deklaracije varijabli](/c-deklaracije-varijabli)
-- [Pokazivači u jeziku C](/c-pokazivaci)
 - [Strune u jeziku C](/c-strune)
 - [Vežbe sa strunama](/vezbe-sa-strunama)
 
@@ -104,6 +103,16 @@ redirect_from:
 - iteracija nizova: `forEach()`, `map()`
 - `map`, `filter`, `reduce`
 - [Vežbe sa nizovima](/vezbe-sa-nizovima)
+
+### Pokazivači
+
+- [Uvod u pokazivače](/c-pokazivaci)
+- [Pokazivači i adrese](/pokazivaci-i-adrese)
+- [Pokazivači i nizovi](/pokazivaci-i-nizovi)
+- [Pokazivačka aritmetika](/pokazivacka-aritmetika)
+- [Pokazivači na funkcije](/pokazivaci-na-funkcije)
+- [Dinamička alokacija memorije](/dinamicka-alokacija-memorije)
+- [Greške u radu sa dinamičkom memorijom](/greske-u-radu-sa-dinamickom-memorijom)
 
 ### Paradigme programiranja
 
