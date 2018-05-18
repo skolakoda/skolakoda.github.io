@@ -25,9 +25,10 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-- vezbice 
-http://www.sabackagimnazija.edu.rs/files/materijali/webDizajn/Zbirka.htm
+vezbice 
+- http://www.sabackagimnazija.edu.rs/files/materijali/webDizajn/Zbirka.htm
 - https://www.mojwebdizajn.net/c-rijeseni-zadatci/c-programiranje-rijeseni-zadatci-1.aspx
+- http://www.webnstudy.com/tema.php?id=matrice-zadaci
 
 - dodati simulator konzole sa starog sajta
 - dodati https://codecompilerun.herokuapp.com/
