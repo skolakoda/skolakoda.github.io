@@ -103,12 +103,9 @@ image: /images/kursevi/js-logo.png
 
 - [Petlje u jeziku C](/c-petlje)
 - [Petlje u Javaskriptu](https://youtu.be/qjdBoVHmIQA)
-- Vrste petlji
-  - `while` petlja
-  - `do while` petlja
-  - `for` petlja
 - [Zaustavljanje petlje i preskakanje kruga](https://youtu.be/8o-NvzDtwHU) (`break` i `continue`)
 - Uloga zastavice
+- [Vežbe sa petljama](/js-vezbe-sa-petljama)
 
 ### Funkcije
 
