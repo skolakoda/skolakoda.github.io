@@ -1,7 +1,7 @@
 ---
 layout: kurs
 title: Učimo Javaskript
-github: ucimo-javaskript
+github: ucimo-javascript
 image: /images/kursevi/js-logo.png
 ---
 
@@ -50,12 +50,6 @@ image: /images/kursevi/js-logo.png
 - [Beleženje podataka](/kako-racunar-belezi-podatke) i [binarni zapis](/binarni-brojevi)
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
 - [Tipovi podataka u Javaskriptu](https://youtu.be/T0VLAWelSUA)
-  - Logičke vrednosti (`true` i `false`)
-  - Brojevi
-  - Strune (tekst)
-  - Nizovi
-  - Objekti
-  - Nepostojeće vrednosti (`null` i `undefined`)
 - Prosti i složeni tipovi
 - Provera tipa podatka (`typeof`)
 - Promena tipa podatka
@@ -66,8 +60,6 @@ image: /images/kursevi/js-logo.png
 - Osnovne računske operacije (`+`, `-`, `*`, `/`)
 - Upotreba modulo operatora (`%`)
 - Nepreciznosti u računanju
-  - decimalni problem
-  - oktalni problem
 - Napredne `Math` metode
 - Konverzije
   - Promena strune u broj (`Number()`, `parseInt()`)
@@ -76,6 +68,7 @@ image: /images/kursevi/js-logo.png
 - Vežba: izračunaj koliko moraš učiti ovim tempom da bi postao ekspert
 - Vežba: izračunaj koliko dana si živ
 - Vežba: postavi model poslovanja
+- [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
 ### Rad sa tekstom
 
@@ -85,6 +78,7 @@ image: /images/kursevi/js-logo.png
 - Vežba: promeni veličinu slova
 - Vežba: nađi svoje ime u tekstu
 - Vežba: napiši cenzor funkciju koja menja ružne reči zvezdicama
+- [Vežbe sa strunama](/vezbe-sa-strunama)
 
 ### Uslovi i grananje
 
@@ -105,7 +99,7 @@ image: /images/kursevi/js-logo.png
 - [Petlje u Javaskriptu](https://youtu.be/qjdBoVHmIQA)
 - [Zaustavljanje petlje i preskakanje kruga](https://youtu.be/8o-NvzDtwHU) (`break` i `continue`)
 - Uloga zastavice
-- [Vežbe sa petljama](/js-vezbe-sa-petljama)
+- [Vežbe sa petljama](/vezbe-sa-petljama)
 
 ### Funkcije
 

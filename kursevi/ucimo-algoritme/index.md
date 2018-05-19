@@ -40,6 +40,7 @@ image: /images/kursevi/algoritmi.jpg
 - [Niz](/nizovi)
   - [Dvodimenzionalni nizovi (matrice)](/matrice)
   - [Višedimenzionalni nizovi](/visedimenzionalni-nizovi)
+  - [Vežbe sa matricama](/vezbe-sa-matricama)
 - [Povezana lista](/povezana-lista)
 - [Slog ili zapis](/slog) (*record*)
 - [Stog](/stog) (*stack*)

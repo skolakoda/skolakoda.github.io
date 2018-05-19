@@ -7,6 +7,16 @@
   pre {
     margin-bottom: 8px;
   }
+  code {
+    outline: none;
+  }
+  .jezik {
+    color: $citron;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    width: auto;
+  }
   button {
     bottom: 0;
     position: absolute;

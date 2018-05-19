@@ -25,20 +25,14 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-vezbice 
-- http://www.sabackagimnazija.edu.rs/files/materijali/webDizajn/Zbirka.htm
-- https://www.mojwebdizajn.net/c-rijeseni-zadatci/c-programiranje-rijeseni-zadatci-1.aspx
-- http://www.webnstudy.com/tema.php?id=matrice-zadaci
-
+vezbice
+https://www.toptal.com/algorithms/computability-theory-complexity
 - dodati simulator konzole sa starog sajta
 - dodati https://codecompilerun.herokuapp.com/
 - razvoj igara
 - dodati male kutijice za three.js, redux, sql i ostalo
-https://www.toptal.com/algorithms/computability-theory-complexity
 https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
-https://libre.lugons.org/index.php/2013/05/10-pravila-zen-programera/
 - testovi za algoritme (na dnu strane) http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/AnAnagramDetectionExample.html#solution-4-count-and-compare
-- odvojiti C kurs
 
 <!--
 slike:

@@ -149,28 +149,3 @@ const n = matrica.length
 for(let i = 0; i < n; i++)
   console.log(matrica[i][n - i - 1])
 ```
-
-## Vežba: zbir glavne dijagonale
-
-Trag matrice je definisan kao **zbir elemenata na glavnoj dijagonali**.
-
-Data je kvadratna matrica dimenzija n × n. Izračunati njen trag. Rešenje je dato u jeziku C.
-
-{:.ulaz.resenje}
-```c
-#include <stdio.h>
-
-int matrica[3][3] = {
-    {1, 2, 3},
-    {4, 5, 6},
-    {7, 8, 9}
-};
-
-main() {
-  int i, sum = 0;
-  for (i = 0; i < 3; i++) {
-      sum += matrica[i][i];
-  }
-  printf ("Zbir elemenata na glavnoj dijagonali je %d\n", sum);
-}
-```

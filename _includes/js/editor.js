@@ -16,6 +16,7 @@ Editor izvršava kod na dva načina
   /* FUNCTIONS */
 
   function izvrsiJS(ulaz, izlaz) {
+    izlaz.innerHTML = ''
     // https://stackoverflow.com/questions/30935336
     const originalLog = console.log
     console.log = (...args) =>
@@ -38,7 +39,7 @@ Editor izvršava kod na dva načina
     http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded')
     http.onload = () => {
       const rezultat = JSON.parse(JSON.parse(http.responseText).response).result
-      izlaz.innerHTML = rezultat.stdout ? rezultat.stdout[0] : rezultat.compilemessage
+      izlaz.innerHTML = rezultat.stdout ? rezultat.stdout[0] : rezultat.compilemessage.replace(/â/g, '')
     }
     http.onerror = () => izlaz.innerHTML = 'Greška, nema odgovora sa servera.'
     http.send(params)
@@ -54,9 +55,14 @@ Editor izvršava kod na dva načina
   for (let i = 0; i < brojUlaza; i++) {
     const ulaz = ulazi[i]
     const jezik = ulaz.classList[0].replace('language-', '')
-    const code = ulaz.querySelector('pre')
+    const code = ulaz.querySelector('code')
     code.contentEditable = true
     code.spellcheck = false
+
+    const jezikInfo = document.createElement('span')
+    jezikInfo.innerText = jezik
+    jezikInfo.classList.add('jezik')
+    ulaz.appendChild(jezikInfo)
 
     const izlaz = document.createElement('pre')
     izlaz.classList.add('izlaz')

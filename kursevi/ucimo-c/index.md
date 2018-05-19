@@ -1,6 +1,6 @@
 ---
 layout: kurs
-title: Računarska nauka za početnike
+title: Uvod u svet programiranja
 github: ucimo-c
 image: /images/kursevi/uvod.png
 redirect_from:
@@ -9,8 +9,17 @@ redirect_from:
 
 ![]({{page.image}})
 
+<!--
+  c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
+  https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
+  https://profesorka.wordpress.com/2012/06/24/nizovi-2/
+
+  ucimo-cpp:
+  https://biljanaivanovic.wordpress.com/category/dev-c/zadaci-za-vezbanje/
+ -->
+
 ## Učimo C
-# Računarska nauka za početnike
+# Uvod u svet programiranja
 
 **Nauči osnove računarske nauke kroz programski jezik C, latinski jezik programiranja.**
 
@@ -57,7 +66,6 @@ redirect_from:
   - [Imena varijabli](/c-imena-varijabli)
   - [Deklaracije varijabli](/c-deklaracije-varijabli)
 - [Strune u jeziku C](/c-strune)
-- [Vežbe sa strunama](/vezbe-sa-strunama)
 
 ### Brojevi i računanje
 
@@ -75,7 +83,7 @@ redirect_from:
 - uslovi (`if`, `if-else`, `switch`)
 - [Logičke kapije](/logicke-kapije)
 - [Bitovni operatori](/bitovni-operatori)
-- [Vežbe sa uslovima](/vezbe-uslovi)
+- [Vežbe sa uslovima](/vezbe-sa-uslovima)
 
 ### Petlje i ponavljanje
 
@@ -86,6 +94,7 @@ redirect_from:
 
 ### Funkcije
 
+- [Šta je funkcija?](/funkcije)
 - [Funkcije u jeziku C](/c-funkcije)
   - ulazni parametri
   - vraćanje rezultata funkcije
@@ -103,6 +112,7 @@ redirect_from:
 - iteracija nizova: `forEach()`, `map()`
 - `map`, `filter`, `reduce`
 - [Vežbe sa nizovima](/vezbe-sa-nizovima)
+- [Vežbe sa strunama](/vezbe-sa-strunama)
 
 ### Pokazivači
 
@@ -113,6 +123,7 @@ redirect_from:
 - [Pokazivači na funkcije](/pokazivaci-na-funkcije)
 - [Dinamička alokacija memorije](/dinamicka-alokacija-memorije)
 - [Greške u radu sa dinamičkom memorijom](/greske-u-radu-sa-dinamickom-memorijom)
+- [Vežbe sa pokazivacima](/vezbe-sa-pokazivacima)
 
 ### Paradigme programiranja
 
