@@ -73,7 +73,7 @@ redirect_from:
 
 - [Logički tok programa](/programska-logika)
 - [Relacijski i logički operatori](/c-relacijski-i-logicki-operatori)
-- uslovi (`if`, `if-else`, `switch`)
+- Uslovi (`if`, `if-else`, `switch`)
 - [Logičke kapije](/logicke-kapije)
 - [Bitovni operatori](/bitovni-operatori)
 - [Vežbe sa uslovima](/vezbe-sa-uslovima)
@@ -102,8 +102,7 @@ redirect_from:
 
 ### Rad sa nizovima
 
-- iteracija nizova: `forEach()`, `map()`
-- `map`, `filter`, `reduce`
+- [Nizovi u jeziku C](/c-nizovi)
 - [Vežbe sa nizovima](/vezbe-sa-nizovima)
 - [Vežbe sa strunama](/vezbe-sa-strunama)
 
