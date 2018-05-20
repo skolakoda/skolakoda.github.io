@@ -4,9 +4,9 @@ layout: lekcija-c
 permalink: /funkcije
 ---
 
-**U programiranju, funkcija je parče koda čije izvršenje odlažemo za kasnije.**
+**Najprostije, funkcija je parče koda čije izvršenje odlažemo za kasnije.** Možemo reći da funkcije pomažu u raščlanjenju programa na manje programske celine, koje su primenjive i za druge, kasnije pisane programe.
 
-Funkcije koje imaju ulaz i izlaz (*vraćaju vrednost*) smatramo funkcijama u užem smislu, dok one koje obavljaju niz radnji bez vraćanja vrednosti nazivamo procedurama.
+Funkcije koje imaju ulaz i izlaz (*vraćaju vrednost*) nazivamo **funkcije u užem smislu**, dok one koje obavljaju niz radnji bez vraćanja vrednosti nazivamo **procedure**.
 
 ![](/images/koncepti/funkcija.png)
 
@@ -22,4 +22,5 @@ Osnovna karakteristika funkcije je da za jednu ulaznu vrednost dobija najviše j
 
 ### Izvori
 
+- Brian Kernighan i Dennis Ritchie, *Programski jezik C*
 - [An Introduction to Computability Theory and Complexity](https://www.toptal.com/algorithms/computability-theory-complexity)

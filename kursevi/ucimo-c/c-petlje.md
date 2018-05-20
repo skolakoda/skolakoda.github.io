@@ -39,9 +39,6 @@ int main()
 }
 ```
 
-{:.uokvireno.ideja}
-Za izvršenje programa pritisni dugme izvrši.
-
 For petlja se sastoji od tri dela unutar svojih zagrada, koji su odvojeni znakom tačka-zarez.
 
 Prvi deo inicijalizuje promenljivu petlje. Ta promenljiva kontroliše i broji koliko puta smo prošli kroz petlju. U primeru, promenljiva petlje se zove `i` i inicijalizovana je vrednošću 1.
@@ -103,51 +100,5 @@ int main()
 }
 ```
 
-## Break i continue
-
-Možete izaći iz petlje u bilo kom trenutku, koristeći ključnu reč `break`. Ovo je korisno kada želite da petlja prestane da se vrti, jer je ispunjen neki drugi uslov koji nije uslov izlaska iz petlje.
-
-{:.ulaz}
-```c
-#include <stdio.h>
-int main()
-{
-  int i;
-  while (i < 10)
-  {
-    i++;
-    printf("%d\n", i);
-    if (i == 5) break;
-  }
-  return 0;
-}
-```
-
-Možete koristiti i ključnu reč `continue`, da bi preskočili ostatak trenutnog prolaska kroz petlju i počeli novi prolaz. Sledeći primer nikada neće ispisati „Zdravo“ zbog ključne reči `continue`:
-
-{:.ulaz}
-```c
-#include <stdio.h>
-int main()
-{
-  int i;
-  while (i < 10)
-  {
-    i++;
-    continue;
-    printf("Zdravo\n");
-  }
-  return 0;
-}
-```
-
-## Zadaci za vežbanje
-
-1. Napišite program koji učitava 10 brojeva i računa njihov prosek.
-2. Napišite program koji učitava 10 brojeva i računa njihov maksimum.
-3. Napišite program koji učitava 10 brojeva i računa njihov minimum.
-4. Napišite program koji ispisuje sve parne brojeve između dva uneta broja.
-5. Napišite program koji učitava tri broja, koji predstavljaju količinu novca na štednom računu, kamatnu stopu i broj godina. Izračunajte godišnju kamatu i ukupan iznos štednje posle svake godine.
-6. Napišite program koji broji samoglasnike u rečenici koja se unosi sa tastature. Čitajte tekst slovo po slovo dok ne dođete do tačke. Onda ispišite broj pojavljivanja svakog samoglasnika u tekstu, ukupan broj slova i procentualno pojavljivanje svakog od samoglasnika u tekstu.
 
 Izvor: [profesorka.wordpress.com](https://profesorka.wordpress.com/)

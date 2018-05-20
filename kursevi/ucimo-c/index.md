@@ -57,6 +57,7 @@ redirect_from:
   - [Imena varijabli](/c-imena-varijabli)
   - [Deklaracije varijabli](/c-deklaracije-varijabli)
 - [Strune u jeziku C](/c-strune)
+- [Strukture u jeziku C](/c-strukture)
 
 ### Brojevi i računanje
 
@@ -64,7 +65,7 @@ redirect_from:
 - upotreba modulo operatora (`%`)
 - nepreciznosti u računanju
 - [Konverzije tipova](/c-konverzije-tipova)
-- [Operatori uvećavanja i umanjivanja (inkrement i dekrement)](/c-inkrement-i-dekrement-operator)
+- [Operatori uvećanja i umanjenja](/c-inkrement-i-dekrement-operator)
 - [Primer: Farenhajt-Celzijus program](/primer-farenhajt-celzijus)
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
@@ -80,8 +81,7 @@ redirect_from:
 ### Petlje i ponavljanje
 
 - [Petlje u C-u](/c-petlje)
-  - vrste petlji (`while`, `do-while`, `for`, `for-each`)
-  - izlazak iz petlje (`break` i `continue`)
+- [break i continue](/break-i-continue)
 - [Vežbe sa petljama](/vezbe-sa-petljama)
 
 ### Funkcije
@@ -92,6 +92,7 @@ redirect_from:
   - vraćanje rezultata funkcije
 - čiste i nečiste funkcije
 - [Komunikacija potprograma](/komunikacija-potprograma)
+- [Strukture i funkcije](/c-strukture-i-funkcije)
 
 ### Naredbe i izrazi
 
