@@ -68,7 +68,7 @@ d=c>='0'&&c<='9'
 
 postavlja `d` na vrijednost 1 ako je c broj, a na 0 ako nije. Bilo kako bilo, funkcije poput `isdigit` mogu vratiti bilo koju vrijednost različitu od nule, kao signal da je ulazni znak broj. U provjeri kod `if`, `while` i `for` naredbi točan izraz isto ima vrijednost koja nije nula.
 
-## Pravila pretvorbe
+## Pravila konverzije
 
 Ako operator kao što je `+` ili `*` koji traži dva operanda (binarni operator) dobije operande različitih tipova, niži tip se promovira u viši prije početka same operacije. Rezultat je viši tip. Da nema `unsigned` operanada, slijedeći skup pravila bi bio dovoljan:
 
@@ -97,7 +97,7 @@ Ako je `x` tipa `float` i `i` tipa `int`, tada i za `x=i` i za `i=x` dolazi do p
 
 Kada je argument poziva neke funkcije izraz, pretvorba se događa kad argument pripadne funkciji. Ako funkcije nema tip, `char` i `short` postaju `int`, a `float` postaje `double`. To je razlog zašto prijavljujemo argumente funkcija kao int i `double` čak i kad se funkcija poziva `char` i `float` tipovima.
 
-## *cast* operator
+## Operator za promenu tipa (*cast* operator)
 
 U krajnjem slučaju, eksplicitna pretvorba tipa se može ostvariti u bilo kom izrazu, unarnim operatorom koji se zove *cast*. U konstrukciji:
 
@@ -105,13 +105,15 @@ U krajnjem slučaju, eksplicitna pretvorba tipa se može ostvariti u bilo kom iz
 (tip) izraz
 ```
 
-izraz se pretvara u navedeni tip pravilima pretvorbe o kojima je već bilo riječi. Pravo značenje *cast* operatora vidi se kad se izraz dodjeli varijabli određenog tipa, pa se ona rabi mjesto cijele konstrukcije. Npr., funkcija iz biblioteke `sqrt` očekuje `double` kao argument, pa ukoliko argument nije tog tipa rezultat nije moguće predvidjeti (`sqrt` je deklarirana u `<math.h>`). Ukoliko je `n` cijeli broj, možemo koristiti:
+izraz se pretvara u navedeni tip pravilima pretvorbe o kojima je bilo riječi. Pravo značenje *cast* operatora vidi se kad se izraz dodjeli varijabli određenog tipa, pa se ona rabi mjesto cijele konstrukcije. Npr., funkcija iz biblioteke `sqrt` očekuje `double` kao argument, pa ukoliko argument nije tog tipa rezultat nije moguće predvidjeti (`sqrt` je deklarirana u `<math.h>`). Ukoliko je `n` cijeli broj, možemo koristiti:
 
 ```c
 sqrt((double) n)
 ```
 
-za pretvorbu vrijednosti `n` u `double` prije negoli se nad njim obavi `sqrt`. Pripomenimo da *cast* prevodi vrijednost n u navedeni tip pri čemu se `n` ne mijenja. Cast operator ima visoki prioritet kao i drugi unarni operatori, što ćemo pokazati tablicom na kraju ovog poglavlja.
+za pretvorbu vrijednosti `n` u `double` prije negoli se nad njim obavi `sqrt`. Pripomenimo da *cast* prevodi vrijednost n u navedeni tip pri čemu se `n` ne mijenja. Cast operator ima visoki prioritet kao i drugi unarni operatori.
+
+## Automatsko pretvaranje argumenata
 
 Ako su argumenti deklarirani funkcijskim prototipom kako se i očekuje, deklariranje pokreće automatsku pretvorbu svih argumenata prilikom poziva funkcije. Tako, dani model funkcije za `sqrt`:
 

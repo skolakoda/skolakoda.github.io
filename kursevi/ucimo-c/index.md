@@ -64,6 +64,7 @@ redirect_from:
 - upotreba modulo operatora (`%`)
 - nepreciznosti u računanju
 - [Konverzije tipova](/c-konverzije-tipova)
+- [Operatori uvećavanja i umanjivanja (inkrement i dekrement)](/c-inkrement-i-dekrement-operator)
 - [Primer: Farenhajt-Celzijus program](/primer-farenhajt-celzijus)
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
