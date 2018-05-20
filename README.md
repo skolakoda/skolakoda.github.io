@@ -25,14 +25,14 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-vezbice
-https://www.toptal.com/algorithms/computability-theory-complexity
 - dodati simulator konzole sa starog sajta
 - dodati https://codecompilerun.herokuapp.com/
-- razvoj igara
 - dodati male kutijice za three.js, redux, sql i ostalo
 https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
-- testovi za algoritme (na dnu strane) http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/AnAnagramDetectionExample.html#solution-4-count-and-compare
+- c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
+- https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
+- https://profesorka.wordpress.com/2012/06/24/nizovi-2/
+- razvoj igara
 
 <!--
 slike:

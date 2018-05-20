@@ -9,15 +9,6 @@ redirect_from:
 
 ![]({{page.image}})
 
-<!--
-  c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
-  https://profesorka.wordpress.com/2012/06/11/pokazivaci-3/
-  https://profesorka.wordpress.com/2012/06/24/nizovi-2/
-
-  ucimo-cpp:
-  https://biljanaivanovic.wordpress.com/category/dev-c/zadaci-za-vezbanje/
- -->
-
 ## Učimo C
 # Uvod u svet programiranja
 
@@ -69,17 +60,17 @@ redirect_from:
 
 ### Brojevi i računanje
 
-- aritmetički operatori (`+`, `-`, `*`, `/`)
+- [Aritmetički operatori](/c-aritmeticki-operatori)
 - upotreba modulo operatora (`%`)
 - nepreciznosti u računanju
+- [Konverzije tipova](/c-konverzije-tipova)
 - [Primer: Farenhajt-Celzijus program](/primer-farenhajt-celzijus)
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
 ### Uslovi i grananje
 
 - [Logički tok programa](/programska-logika)
-- operatori poređenja (`>`, `<`, `==`, `!=`)
-- logički operatori (`i`, `ili`, `ne`)
+- [Relacijski i logički operatori](/c-relacijski-i-logicki-operatori)
 - uslovi (`if`, `if-else`, `switch`)
 - [Logičke kapije](/logicke-kapije)
 - [Bitovni operatori](/bitovni-operatori)
