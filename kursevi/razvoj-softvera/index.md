@@ -73,9 +73,8 @@ desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver
   - UML notacija
   - [Izgrada dijagrama klasa](/dijagram-klasa)
   - [Izrada dijagrama toka](/dijagram-toka)
-- Kodiranje programa
+- Pisanje programa
   - Prevođenje koncepata u softverske klase
-  - [Dobre prakse pisanja programa](/dobre-prakse)
 - [Testiranje softvera](/testiranje-programa)
 - [Dokumentacija programa](/dokumentacija-programa)
 - [Održavanje softvera](/odrzavanje-softvera)

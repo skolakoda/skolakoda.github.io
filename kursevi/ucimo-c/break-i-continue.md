@@ -1,5 +1,5 @@
 ---
-title: Break i continue
+title: Naredbe break i continue
 layout: lekcija-c
 permalink: /break-i-continue
 ---

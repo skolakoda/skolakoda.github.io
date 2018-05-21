@@ -54,6 +54,7 @@ redirect_from:
 
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
   - [Tipovi podataka u jeziku C](/c-tipovi-podataka)
+  - [sizeof operator](/sizeof-operator)
 - [Šta su varijable?](/varijable)
   - [Imena varijabli](/c-imena-varijabli)
   - [Deklaracije varijabli](/c-deklaracije-varijabli)
@@ -82,7 +83,7 @@ redirect_from:
 ### Petlje i ponavljanje
 
 - [Petlje u C-u](/c-petlje)
-- [break i continue](/break-i-continue)
+- [Naredbe break i continue](/break-i-continue)
 - [Vežbe sa petljama](/vezbe-sa-petljama)
 
 ### Funkcije
@@ -94,12 +95,6 @@ redirect_from:
 - čiste i nečiste funkcije
 - [Komunikacija potprograma](/komunikacija-potprograma)
 - [Strukture i funkcije](/c-strukture-i-funkcije)
-
-### Naredbe i izrazi
-
-- izraz (vrednost koja se evaluira)
-- naredba (zapovest računaru da nešto uradi)
-- vežba: razlikovanje naredbi i izraza
 
 ### Rad sa nizovima
 
@@ -118,21 +113,23 @@ redirect_from:
 - [Greške u radu sa dinamičkom memorijom](/greske-u-radu-sa-dinamickom-memorijom)
 - [Vežbe sa pokazivacima](/vezbe-sa-pokazivacima)
 
+### C sa klasama: Uvod u C++
+
+
+
 ### Paradigme programiranja
 
+- [Naredbe i izrazi](/naredbe-i-izrazi)
+- [Imperativno vs. funkcionalno programiranje](/imperativno-vs-funkcionalno-programiranje)
 - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
 - [Funkcionalno programiranje](/funkcionalno-programiranje)
-- [Imperativno vs. funkcionalno programiranje](/imperativno-vs-funkcionalno-programiranje)
 
-### Kriptografija
+### Dobre prakse
 
-- Uvod u kriptografiju
-- Jednosmerno šifriranje
-- [Heš funkcije i čuvanje lozinki](https://learncryptography.com/hash-functions/what-are-hash-functions)
-
-### Pisanje programa [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
-
-- planiranje programa
-- pseudokod
-- kodiranje
 - [Dobre prakse pisanja programa](/dobre-prakse)
+  - [Imenovanje promenljivih](/imenovanje-promenljivih)
+  - [Pisanje razumljivih izraza](/pisanje-izraza)
+  - [Upotreba ustaljenih izraza (idioma)](/upotreba-idioma)
+  - [Upotreba konstanti umesto magičnih brojeva](/upotreba-konstanti)
+  - [Pisanje komentara](/pisanje-komentara)
+  - [Modularnost programa](/modularnost-programa)
