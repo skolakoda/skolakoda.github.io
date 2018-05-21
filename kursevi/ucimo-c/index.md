@@ -33,6 +33,7 @@ redirect_from:
 
 - Instalacija jezika i alata (Codeblocks)
 - [Zdravo C](/zdravo-c)
+- [Prevođenje programa](/c-kompajliranje)
 - [Izgradnja programa](/izgradnja-programa)
 
 ### Brojčani sistemi
