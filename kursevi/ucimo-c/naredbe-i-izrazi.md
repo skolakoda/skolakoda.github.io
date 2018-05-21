@@ -11,7 +11,7 @@ Postoje prosti i složeni izrazi. Prosti izrazi se sastoje od samo jednog člana
 
 ## Primeri izraza
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg/320px-Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg/600px-Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg)
 
 Svaki od navedenih redova koda je validan izraz u mnogim programskim jezicima:
 
@@ -31,7 +31,7 @@ Neki navedeni izrazi daju aritmetičku, neki logičku, a neki tekstualnu vrednos
 
 ## Primeri naredbi
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/USMC-090804-M-4453-001.jpg/320px-USMC-090804-M-4453-001.jpg)
+![](https://cdn-images-1.medium.com/max/600/1*MTUk6ZzoBT6dLREixC6cKA.png)
 
 Svaki od navedenih redova je naredba, koja menja stanje sveta:
 
