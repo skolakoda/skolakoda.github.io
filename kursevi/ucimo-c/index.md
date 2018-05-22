@@ -9,10 +9,10 @@ redirect_from:
 
 ![]({{page.image}})
 
-## Učimo C
+## Učimo C i C++
 # Uvod u svet programiranja
 
-**Nauči osnove računarske nauke kroz programski jezik C, latinski jezik programiranja.**
+**Učimo osnove računarske nauke kroz programski jezik C, latinski jezik programiranja, i izvedene jezike.**
 
 ***Kurs programiranja za potpune početnike, kao i samouke kodere koji hoće da popune praznine. Solidan temelj za dalju profesionalnu orjentaciju.***
 
@@ -113,9 +113,12 @@ redirect_from:
 - [Greške u radu sa dinamičkom memorijom](/greske-u-radu-sa-dinamickom-memorijom)
 - [Vežbe sa pokazivacima](/vezbe-sa-pokazivacima)
 
-### C sa klasama: Uvod u C++
+### C sa klasama: Kratki uvod u C++ [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-cpp)
 
-
+- [Uvod u programski jezik C++](/uvod-u-cpp)
+- [Zdravo C++](/zdravo-cpp)
+- [Klase u jeziku C++](/cpp-klase)
+- [Nasleđivanje klasa u C++](/cpp-nasledjivanje-klasa)
 
 ### Paradigme programiranja
 
