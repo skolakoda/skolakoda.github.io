@@ -24,8 +24,8 @@ redirect_from:
 
 ### Šta je programiranje?
 
-- Šta je programiranje?
-- [Kako učiti programiranje](/programiranje-je-tesko)
+- [Zašto je programiranje zabavno?](/programiranje-je-zabavno)
+- [Da li je programiranje teško?](/programiranje-je-tesko)
 - [Uvod u programske jezike](/uvod-u-programske-jezike)
 - [Uvod u programski jezik C](/c-uvod)
 
