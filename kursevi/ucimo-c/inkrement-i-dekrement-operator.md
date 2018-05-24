@@ -1,12 +1,12 @@
 ---
 title: Operatori uvećavanja i umanjivanja (inkrement i dekrement)
 layout: lekcija-c
-permalink: /c-inkrement-i-dekrement-operator
+permalink: /inkrement-i-dekrement-operator
 ---
 
 ![](https://i.ytimg.com/vi/aQPbbCpx1RA/maxresdefault.jpg)
 
-**C ima dva neuobičajena operatora za uvećavanje i smanjivanje varijabli za jedan. Operator inkrementiranja `++` dodaje 1 svom operandu, dok operator dekrementiranja oduzima 1.** 
+**C je uveo dva neuobičajena operatora za uvećavanje i smanjivanje varijabli za jedan. Operator inkrementiranja `++` dodaje 1 svom operandu, dok operator dekrementiranja oduzima 1.** 
 
 Često ćemo koristiti `++` za uvećavanje varijabli kao u:
 

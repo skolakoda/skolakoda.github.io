@@ -25,12 +25,14 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
+- pregledati primere na githubu za c kurs
 - c https://petlja.org/BubbleBee/r/kursevi/uvod-u-programiranje
 - dodati simulator konzole sa starog sajta
 - dodati https://codecompilerun.herokuapp.com/
 - dodati male kutijice za three.js, redux, sql i ostalo
 https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - razvoj igara
+- dodati react native
 
 <!--
 slike:

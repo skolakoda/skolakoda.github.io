@@ -4,14 +4,16 @@ layout: lekcija-c
 permalink: /c-relacijski-i-logicki-operatori
 ---
 
-**Relacijski operatori** su `>`, `>=`, `<`, `<=`. Svi imaju isti prioritet. Odmah ispod njih po prioritetu su operatori jednakosti `==` i `!=`. Relacijski operatori imaju niži prioritet od aritmetičkih operatora, pa izraz `i<lim-1` se tretira kao i i<(lim-1), što je prirodno.
+**Relacijski operatori** su `>`, `>=`, `<`, `<=`. Svi imaju isti prioritet. Odmah ispod njih po prioritetu su operatori jednakosti `==` i `!=`. 
+
+Relacijski operatori imaju niži prioritet od aritmetičkih operatora, pa izraz `i<lim-1` se tretira kao i i<(lim-1), što je prirodno.
 
 ### Logički operatori `&&` i `||`
 
 Mnogo zanimljiviji su logički operatori `&&` i `||`. Izrazi povezani ovim operatorima računaju se slijeva udesno, računanje se prekida čim se ustanovi točnost ili netočnost rezultata. Mnogi C programi napisani su s jakim osloncem u ovim pravilima. Npr. evo petlje ulazne funkcije `getline`:
 
 ```c
-for(i=0; i<lim-1&&(c=getchar())!='\n'&&c!=EOF; ++i)
+for(i=0; i<lim-1 && (c=getchar()) != '\n' && c != EOF; ++i)
     s[i]=c;
 ```
 
@@ -20,13 +22,13 @@ Prije čitanja novog znaka treba obavezno provjeriti ima li za njega mjesta u zn
 Prioritet `&&` je viši od `||`, a oba su operatora nižeg ranga od relacijskih i operatora jednakosti, pa zato u slijedećem izrazu nije potrebno dodavati zagrade:
 
 ```c
-i<lim-1&&(c=getchar())!='\n'&&c!=EOF
+i < lim-1 && (c=getchar()) != '\n' && c != EOF
 ```
 
 No, kako je prioritet `!=` viši od operatora dodjele, zagrade su obavezne u izrazu što slijedi:
 
 ```c
-(c=getchar())!='\n'
+(c=getchar()) != '\n'
 ```
 
 da bi se osigurala dodjela varijabli `c`, a potom i usporedba sa '\n'.

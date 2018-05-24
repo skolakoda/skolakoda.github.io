@@ -12,9 +12,9 @@ redirect_from:
 ## Učimo C i C++
 # Uvod u svet programiranja
 
-**Učimo osnove računarske nauke kroz programski jezik C, latinski jezik programiranja, i izvedene jezike.**
+**Učimo osnove računarske nauke kroz programski jezik C, latinski jezik programiranja.**
 
-***Kurs programiranja za potpune početnike, kao i samouke kodere koji hoće da popune praznine. Solidan temelj za dalju profesionalnu orjentaciju.***
+***Kurs programiranja za potpune početnike, kao i samouke kodere koji hoće da popune praznine. Solidan temelj za učenje drugih jezika, i dalju profesionalnu orjentaciju.***
 
 ### Šta je računar?
 
@@ -41,33 +41,32 @@ redirect_from:
 - [Brojčani sistemi](/brojcani-sistemi)
 - [Binarni (dvojni) brojevi](/binarni-brojevi)
 - [Heksadecimalni (šesnaestični) brojevi](/heksadecimalni-brojevi)
-- Vežba: skladištenje podataka u binarnom formatu
-- Vežba: zapisivanje boja u heksadecimalnom
+- Vežba: zapisivanje podataka u binarnom formatu
 
 ### Uvod u podatke
 
-- [Kako računar beleži podatke?](/kako-racunar-belezi-podatke)
+- [Uvod u podatke](/uvod-u-podatke)
 - [Razlika analognog i digitalnog zapisa](/analogni-i-digitalni-zapis)
 - [Razlika između podatka i informacije](/razlika-podaci-informacije)
-
-### Varijable i tipovi podataka
-
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
-  - [Tipovi podataka u jeziku C](/c-tipovi-podataka)
-  - [sizeof operator](/sizeof-operator)
+- [Tipovi podataka u jeziku C](/c-tipovi-podataka)
+
+### Varijable
+
 - [Šta su varijable?](/varijable)
   - [Imena varijabli](/c-imena-varijabli)
   - [Deklaracije varijabli](/c-deklaracije-varijabli)
-- [Strune u jeziku C](/c-strune)
+  - [Opseg varijabli](/c-opseg-varijabli)
+  - [Trajanje varijabli](/c-trajanje-varijabli)
 - [Strukture u jeziku C](/c-strukture)
+- [sizeof operator](/sizeof-operator)
 
 ### Brojevi i računanje
 
-- [Aritmetički operatori](/c-aritmeticki-operatori)
-- upotreba modulo operatora (`%`)
-- nepreciznosti u računanju
+- [Aritmetički operatori](/aritmeticki-operatori)
+- Nepreciznosti u računanju
 - [Konverzije tipova](/c-konverzije-tipova)
-- [Operatori uvećanja i umanjenja](/c-inkrement-i-dekrement-operator)
+- [Operatori uvećanja i umanjenja](/inkrement-i-dekrement-operator)
 - [Primer: Farenhajt-Celzijus program](/primer-farenhajt-celzijus)
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
@@ -75,7 +74,6 @@ redirect_from:
 
 - [Logički tok programa](/programska-logika)
 - [Relacijski i logički operatori](/c-relacijski-i-logicki-operatori)
-- Uslovi (`if`, `if-else`, `switch`)
 - [Logičke kapije](/logicke-kapije)
 - [Bitovni operatori](/bitovni-operatori)
 - [Vežbe sa uslovima](/vezbe-sa-uslovima)
@@ -90,17 +88,24 @@ redirect_from:
 
 - [Šta je funkcija?](/funkcije)
 - [Funkcije u jeziku C](/c-funkcije)
-  - ulazni parametri
-  - vraćanje rezultata funkcije
-- čiste i nečiste funkcije
+- [Prenos argumenata funkcije](/prenos-argumenata)
+- Čiste i nečiste funkcije
 - [Komunikacija potprograma](/komunikacija-potprograma)
 - [Strukture i funkcije](/c-strukture-i-funkcije)
 
 ### Rad sa nizovima
 
 - [Nizovi u jeziku C](/c-nizovi)
+- [Strune u jeziku C](/c-strune)
 - [Vežbe sa nizovima](/vezbe-sa-nizovima)
 - [Vežbe sa strunama](/vezbe-sa-strunama)
+
+### Rad sa fajlovima
+
+- [Vrste fajlova](/vrste-fajlova)
+- [Otvaranje i zatvaranje datoteke](/c-otvaranje-i-zatvaranje-fajla)
+- [Funkcije za čitanje i pisanje](/c-funkcije-za-citanje-i-pisanje)
+- [Argumenti komandne linije](/c-argumenti-komandne-linije)
 
 ### Pokazivači
 
@@ -113,7 +118,13 @@ redirect_from:
 - [Greške u radu sa dinamičkom memorijom](/greske-u-radu-sa-dinamickom-memorijom)
 - [Vežbe sa pokazivacima](/vezbe-sa-pokazivacima)
 
-### C sa klasama: Kratki uvod u C++ [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-cpp)
+### Preprocesorske naredbe
+
+- [Preprocesorske naredbe include i define](/preprocesorske-naredbe)
+- [Uslovno uključivanje](/c-uslovno-ukljucenje)
+- [Predefinirani makroi](/c-predefinisani-makroi)
+
+### C sa klasama: Kratak uvod u C++ [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-cpp)
 
 - [Uvod u programski jezik C++](/uvod-u-cpp)
 - [Zdravo C++](/zdravo-cpp)
@@ -130,9 +141,9 @@ redirect_from:
 ### Dobre prakse
 
 - [Dobre prakse pisanja programa](/dobre-prakse)
-  - [Imenovanje promenljivih](/imenovanje-promenljivih)
-  - [Pisanje razumljivih izraza](/pisanje-izraza)
-  - [Upotreba ustaljenih izraza (idioma)](/upotreba-idioma)
-  - [Upotreba konstanti umesto magičnih brojeva](/upotreba-konstanti)
-  - [Pisanje komentara](/pisanje-komentara)
-  - [Modularnost programa](/modularnost-programa)
+- [Imenovanje promenljivih](/imenovanje-promenljivih)
+- [Pisanje razumljivih izraza](/pisanje-izraza)
+- [Upotreba ustaljenih izraza (idioma)](/upotreba-idioma)
+- [Upotreba konstanti umesto magičnih brojeva](/upotreba-konstanti)
+- [Pisanje komentara](/pisanje-komentara)
+- [Modularnost programa](/modularnost-programa)

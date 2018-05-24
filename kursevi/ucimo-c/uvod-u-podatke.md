@@ -1,15 +1,13 @@
 ---
-title: Kako računar beleži podatke?
+title: Uvod u podatke
 layout: lekcija-c
-permalink: /kako-racunar-belezi-podatke
+permalink: /uvod-u-podatke
 redirect_from:
-  - /uvod-u-podatke
-image: /images/hardver/hard-disk.jpg
+  - /kako-racunar-belezi-podatke
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wikipedia_favicon_hexdump.svg/800px-Wikipedia_favicon_hexdump.svg.png
 ---
 
 ![]({{page.image}})
-
-> Jeste li se ikada pitali kako računar beleži naše podatke?
 
 **Uobičajene forme podataka su slova, brojevi, zvuk, slika i video zapis.** Čovek prima čulima i druge podatke kao što su dodir, miris, ukus, temperatura. A u prirodi postoje i druge forme podataka kao što su električni i magnetni signali, bio-energetski signali, itd.
 
@@ -17,7 +15,7 @@ image: /images/hardver/hard-disk.jpg
 
 **Današnji računari su digitalni. To znači da su svi podaci zapisani kao nizovi brojeva.** Dva simbola su dovoljna za zapisivanje svih vrsta brojeva, pa samim tim i za zapisivanje svih vrsta digitalnih podataka. Tako jedan te isti podatak može imati različita značenja, u zavisnosti od interpretacije.
 
-### Tekstualni format
+## Slova
 
 Na samom početku ere računara (1950-tih godina) napravljen je jedan šifarnik za kodiranje slova brojevima. Ovaj šifarnik poznat je kao ASCII (*American Standard Code for Information Interchange*) tabela i još uvek je u upotrebi.
 
@@ -28,7 +26,7 @@ Tako recimo veliko slovo A ima šifru 65 u dekadnom brojnom sistemu (ili 1000001
 U poslednje vreme koristi se novi tzv. UNICODE.
 Ovaj kod se pojavljuje u više varijanti, a UTF-16 je 16-bitna varijanta koja pokriva 30-tak sistema za pisanje teksta na raznim jezicima.
 
-### Zvuk
+## Zvuk
 
 Zvuk nastaje vibracijom vazduha, pa kada se vibracija prenese do naše bubne opne, ona vibrira u istom ritmu i proizvodi signal, koji naš mozak interpretira kao zvuk. Pošto je zvuk vibracija vazduha, ta se vibracija u mikrofonu (slično kao u bubnoj opni) pretvara u električni signal. U komjuteru se zvuk takođe pamti pomoću brojeva.
 
@@ -40,7 +38,7 @@ Zvučni podaci se mogu takođe obrađivati. I kod njih postoji skup osnovnih ope
 
 Postoji više načina digitalizacije i zapisivanja zvučnih podataka. Fajlovi u kojima se nalazi zvuk mogu imati razne ekstenzije kao što su wav, mp3, aud, midi...
 
-### Grafika (slika i video)
+## Grafika (slika i video)
 
 Sledeća slika ilustruje proces digitalizacije crno-bele fotografije:
 
@@ -62,7 +60,7 @@ Grafiku je takođe moguće obrađivati, promenom karakteristika piksela (boje, o
 
 ## Čuvanje podataka
 
-Videli smo da nam je za čuvanje bilo koje vrste podataka potrebno da čuvamo samo nizove 0 i 1, od kojih se sve vrste podataka sastoje. Osnovna memorijska ćelija naziva je bit. Naziv dolazi otuda što se u njoj pamti jedna binarna cifra (**bi**nary digi**t**).
+Videli smo da nam je za čuvanje bilo koje vrste podataka potrebno da čuvamo samo nizove 0 i 1, od kojih se svi podaci sastoje. Osnovna memorijska ćelija se zove bit. Naziv dolazi otuda što se u njoj pamti jedna binarna cifra (**bi**nary digi**t**).
 
 Ako 8 bitova povežemo u jednu celinu dobićemo tzv. bajt kao pokazuje sledeća slika.
 
@@ -72,7 +70,7 @@ U jedan bajt možemo smestiti jednu od 256 mogućih kombinacija 0 i 1. Na primer
 
 ## Računarska memorija
 
-Ima više načina da se tehnološki realizuje računarska memorija – poluprovodnici, magnetni materijali, optički materijali. Od poluprovodnika se najčešće prave RAM i ROM memorije, od magnetnih materijala hard diskovi a od optičkih CD i DVD diskovi.
+Ima više načina da se tehnološki realizuje računarska memorija – poluprovodnici, magnetni materijali, optički materijali. Od poluprovodnika se najčešće prave RAM i ROM memorije, od magnetnih materijala hard diskovi, a od optičkih CD i DVD diskovi.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/MT4C1024-HD.jpg/640px-MT4C1024-HD.jpg)
 
@@ -82,7 +80,7 @@ Kod kompjutera razlikujemo dve osnovne vrste memorije:
 
 Kod diskova je uobičajna podela memorijskog prostora na foldere (direktorijume), uređene u hijerarhiju. Osnovni sadržač podataka na diskovima je fajl (datoteka). Obzirom da su fajlovi veoma dugački nizovi bajtova, pojedinačnim bajtovima se ne pristupa direktno, već se fajl čita deo po deo, pa se onda u učitanom delu pronalaze podaci koje treba koristiti ili menjati.
 
-**Izvori**:
+### Izvori
 
 * Milan Popović, *Osnove programiranja (skripta)*
 * Filip Marić, Predrag Janičić, *Programiranje 1: Osnove programiranja kroz programski jezik C*, Beograd, 2015.
