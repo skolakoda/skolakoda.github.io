@@ -27,8 +27,9 @@ int main()
 
 ## Dodela adrese pokazivaču
 
-Možete dodeliti adresu neke celobrojne promenljive pokazivaču na celobrojnu promenljivu, koristeći operator `&` da biste dobili adresu tog celog broja:
+Možete dodeliti adresu neke celobrojne promenljive pokazivaču na celobrojnu promenljivu, koristeći operator `&` da biste dobili adresu tog broja:
 
+{:.ulaz}
 ```c
 int main()
 {
@@ -37,13 +38,14 @@ int main()
     i = 5;
     p = &i;
 
+    printf("Varijabla 'i' zivi na sledecoj memorijskog adresi: %d\n", &i);
     return 0;
 }
 ```
 
 ## Menjanje vrednosti na koju pokazuje pokazivač
 
-Možete pristupiti vrednosti celobrojne promenljive na koju se pokazuje, koristeći pokazivač. Za to koristimo znak `*`. Menjanje vrednosti na koju pokazuje pokazivač na celobrojnu promenljivu, će promeniti vrednost te celobrojne promenljive.
+Možete pristupiti vrednosti promenljive na koju se pokazuje, koristeći pokazivač. Za to koristimo znak `*`. Menjanje vrednosti na koju pokazuje pokazivač, će promeniti vrednost te promenljive.
 
 {:.ulaz}
 ```c
@@ -58,9 +60,8 @@ int main()
     p = &i;
     j = *p;
     *p = 7;
-    printf("i = %d, j = %d\n", i, j);
-    system("Pause");
 
+    printf("i = %d, j = %d\n", i, j);
     return 0;
 }
 ```
@@ -73,11 +74,12 @@ Inače, gornji program daje sledeći izlaz:
 i = 7, j = 5
 ```
 
-## Zadatak za vežbanje
+## Vežba
 
 Napišite program koji učitava tri broja i, koristeći pokazivače, rotira njihove vrednosti. Na primer:
 
     Ulaz: a=1, b=2, c=3
     Izlaz: a=3, b=1, c=2
+
 
 Izvor: [profesorka.wordpress.com](https://profesorka.wordpress.com/)

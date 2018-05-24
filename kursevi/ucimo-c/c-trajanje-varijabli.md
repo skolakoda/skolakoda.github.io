@@ -16,13 +16,13 @@ Svaka varijabla kreirana unutar nekog bloka, koja nije deklarisana s ključnom r
 void f(double x)
 {
     double y = 2.71;
-    static double z;
+    static double z = 3.14;
 }
 ```
 
 varijable `x` i `y` su automatske dok `z` nije, jer je deklarisana s ključnom riječi `static`.
 
-Automatske varijable mogu se inicijalizirati, kao što je to slučaj s varijablom `y`. Inicijalizacija se vrši pri svakom novom ulazu u blok u kome je varijabla definisana. Tako će varijabla `y` biti ponovo kreirana i inicijalizirana pri svakom novom pozivu funkcije `f()`. Osim konstantnom vrijednošću izrazom, inicijalizaciju automatske varijable moguće je izvršiti i izrazom koji nije konstantan, kao u ovom slučaju:
+Kod automatske varijable inicijalizacija se vrši pri svakom novom ulazu u blok u kome je definisana. Tako će varijabla `y` biti ponovo kreirana pri svakom novom pozivu funkcije `f()`. Za razliku od statičke, inicijalizaciju automatske varijable moguće je izvršiti i izrazom koji nije konstantan, kao u ovom slučaju:
 
 ```c
 void f(double x, int n)
@@ -44,45 +44,29 @@ int f(int j)
 }
 ```
 
-### Statičke lokalne varijable
-
 Statička lokalna varijabla je lokalna varijabla deklarisana s identifikatorom `static`. Ona postoji za cijelo vrijeme izvršavanja programa, ali se može dohvatiti samo iz bloka u kojem je definisana. Statička varijabla inicijalizira se samo jednom, i to pri prvom ulazu u blok. Pogledajmo kako se to svojstvo koristi u jednom primjeru.
 
-Želimo napisati program koji ispisuje prvih 20 Fibonaccijevih brojeva. To su brojevi definisani rekurzijom:
-
-```
-F i = F i−1 + F i−2 , (i = 3, 4, . . .) F 1 = F 2 = 1.
-```
-
-Dakle, treba nam funkcija koja će za svaki `i` iz glavnog programa izračunati `F i`, uz uvjet da se brojevi računaju redom od `F 1` do `F 20`. Tu će nam pomoći statičke varijable:
+### Primer
 
 {:.ulaz}
 ```c
 #include <stdio.h>
 
-long fibonacci(int);
-
-int main(void)
-{
-    int i;
-    for (i = 1; i <= 20; i++)
-        printf("\n i= %d, F= %ld", i, fibonacci(i));
-    return 0;
+void foo() {
+    int a = 10;             /* svaki put se inicijalizuje (resetuje) */
+    static int sa = 10;     /* inicijalizuje se samo jednom */
+    a = a + 5;
+    sa = sa + 5;
+    printf("a = %d, sa = %d\n", a, sa);
 }
 
-long fibonacci(int i)
-{
-    static long f1 = 1, f2 = 1;
-    long f;
-
-    f = (i < 3) ? 1 : f1 + f2;
-    f2 = f1;
-    f1 = f;
-    return f;
+int main() {
+    int i;
+    for (i = 0; i < 10; i++) {
+        foo();
+    }
 }
 ```
-
-Statičke varijable `f1` i `f2` bit će inicijalizirane jedinicama samo pri prvom pozivu funkcije `fibonacci`. Izmedu svaka dva poziva funkciji `fibonacci` one zadržavaju svoju vrijednost i stoga pri `i`-tom pozivu funkcije imamo `f1 = F i−1` i `f2 = F i−2`.
 
 {:.uokvireno}
 **Upozorenje**. Ključna riječ `static` ispred varijable definisane izvan svih blokova ne označava statičku varijablu već reducira njen doseg.

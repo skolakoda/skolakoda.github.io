@@ -35,6 +35,7 @@ redirect_from:
 - [Zdravo C](/zdravo-c)
 - [Prevođenje programa](/c-kompajliranje)
 - [Izgradnja programa](/izgradnja-programa)
+- [Greške u programu](/greske-u-programu)
 
 ### Brojčani sistemi
 
@@ -56,8 +57,8 @@ redirect_from:
 - [Šta su varijable?](/varijable)
   - [Imena varijabli](/c-imena-varijabli)
   - [Deklaracije varijabli](/c-deklaracije-varijabli)
-  - [Opseg varijabli](/c-opseg-varijabli)
-  - [Trajanje varijabli](/c-trajanje-varijabli)
+  - [Opseg varijabli (lokalni i globalni)](/c-opseg-varijabli)
+  - [Trajanje varijabli (automatske i statičke)](/c-trajanje-varijabli)
 - [Strukture u jeziku C](/c-strukture)
 - [sizeof operator](/sizeof-operator)
 

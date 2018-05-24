@@ -72,5 +72,25 @@ Broj znakova u varijabli tekst =10
 
 Operator `sizeof` vraća cjelobrojnu vrijednost bez predznaka koja ovisi o implementaciji. Taj je tip definiran u datoteci zaglavlja `<stddef.h>` i zove se `size_t`.
 
+## Primer: veličina tipova podataka
+
+Naredni primer je u C++:
+
+{:.ulaz}
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "char: " << sizeof(char) << " byte" << endl;
+    cout << "int: " << sizeof(int) << " bytes" << endl;
+    cout << "float: " << sizeof(float) << " bytes" << endl;
+    cout << "double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
+}
+```
+
 
 Izvor: M. Jurak, *Programski jezik C*, predavanja 2003/04.

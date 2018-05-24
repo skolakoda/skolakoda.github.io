@@ -32,5 +32,26 @@ Standardna zaglavlja `<limits.h>` i `<float.h>` sadrže simboličke konstante za
 
 **Vježba 2-1.** Napišite program za određivanje opsega varijabli tipa `char`, `short`, `int` i `long`, kad su kvalificirani kao `signed` i `unsigned`, ispisujući odgovarajuće vrijednosti sa standardnih zaglavlja direktnim izračunavanjem. Odredite opsege različitih tipova realnih brojeva.
 
+## Primer: ASCII vrednosti
+
+Svaki broj u narednom primeru se može prikazati kao broj ili slovo, zavisno od tumačenja:
+
+{:.ulaz}
+```c
+#include <stdio.h>
+
+int main ()
+{
+    int ch;
+
+    for (ch = 75; ch <= 100; ch++)
+    {
+        printf("ASCII vrednost = %d, karakter = %c\n", ch, ch);
+    }
+
+    return(0);
+}
+```
+
 
 Izvor: Brian Kernighan i Dennis Ritchie, *Programski jezik C*

@@ -32,7 +32,7 @@ Editor izvršava kod na dva načina
   function izvrsiNaServeru(ulaz, lang, izlaz) {
     const source = encodeURIComponent(ulaz.querySelector('code').innerText)
     const params = `source=${source}&lang=${lang}&testcases=${testcases}&api_key=${api_key}`
-    izlaz.innerHTML = 'Izvršava se na serveru...'
+    izlaz.innerHTML = 'Izvršava se...'
 
     const http = new XMLHttpRequest()
     http.open('POST', url)
