@@ -25,8 +25,10 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-- dodati simulator konzole sa starog sajta
-- dodati https://codecompilerun.herokuapp.com/
+- usluge i naslovna
+- usluge sa starog sajta
+- dodati https://skolakoda.org/editor/
+- dodati js-terminal
 - dodati male kutijice za three.js, redux, sql i ostalo
 https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - razvoj igara
