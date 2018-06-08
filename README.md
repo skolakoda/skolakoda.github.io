@@ -25,14 +25,29 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
+- srediti tekstove usluga
+- jezike na naslovnu
+- poziv na akciju, dugme za naručivanje usluge
+- jasniju prijavu za bilten
+- futer https://dafed.org/
+- postaviti banere
 - usluge i naslovna
-- usluge sa starog sajta
+    - igorovi radovi http://zdravstvenanegaeliksir.rs/
+    - joxini radovi
+    - developeri + joxa
 - dodati https://skolakoda.org/editor/
-- dodati js-terminal
+- 3D slova na naslovnoj
 - dodati male kutijice za three.js, redux, sql i ostalo
 https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - razvoj igara
+    - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
+    - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
 - dodati react native
+- dodati stilizovanje linkova
+
+- pukle strane:
+    - https://skolakoda.org/uvod-u-web/uvod-html
+    - https://skolakoda.org/uvod-u-web/uvod-css
 
 <!--
 slike:

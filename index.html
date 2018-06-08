@@ -1,72 +1,221 @@
----
-layout: naslovna
-opis: Škola programiranja, posvećena prekvalifikaciji omladine i nezaposlenih u IT sektor.
----
+<link rel="stylesheet" href="style.css">
 
-<main class="upper">
-  <!-- <a href="/raspored" class="raspored"><img src="/images/ui/ikonice/kalendar-plavi.png" alt="raspored" title="raspored"></a> -->
-  <!-- <div class="poziv">
-    <p>Prva nedelja je besplatna.</p>
-    <a class="btn" href="/kursevi/prijava" title="IT prekvalifikacija">Prijavi se</a>
-  </div> -->
+<h1>Škola koda</h1>
 
-  <aside class="blog-novo">
-    <h2><a href="/blog/">Blog</a></h2>
-    {% for post in site.posts limit:5 %}
-      <a href="{{post.url | relative_url}}" class="novi-naslovi">{{post.title | escape}}</a>
-    {% endfor %}
-  </aside>
-</main>
+<section class="donja-crta-crvena">
+    <div class="container flex">
+        <div class="pola">
+            <h2>Započni učenje programiranja interaktivno, besplatno.</h2>
+            <p>Možeš odmah isprobati osnovne računske operacije u interaktivnoj JavaScript konzoli, prateći uputstvo iznad crnog prozora.</p>
+        </div>
+        <div class="pola terminal-wrapper">
+            <p id="ideja">Osnovna namena računara je da računaju. Na primer, unesi: (323+456) / 2 i pritisni enter.</p>
+            <div class="terminal">
+                <div><span class="blink">> </span><input class="unos"></div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<nav class="navigation">
-  <input type="checkbox" class="hide" id="check1" />
-  <label class="nav-box nav-onama" for="check1">
-    <section>
-      <h2 class="nav-naslov"><a href="/o-nama">O nama</a></h2>
-      <img alt="damjan-tabla" src="/images/skola/damjan-tabla.jpg" class="nav-slika slika-onama">
-      <p class="toggle-hover info-text">Saznaj kako funkcioniše obuka</p>
-      <div class="toggle-checked">
-        {% include stranice/o-nama.html %}
-    </section>
-  </label>
+<section class="siva-pozadina donja-crta-zelena">
+  <div class="container">
+    <h1>Besplatni tutorijali</h1>
+    <h2>Uvod u web i web dizajn</h2>
+    <h2>Uvod u programiranje kroz C</h2>
+    <h2>Uvod u programiranje kroz Javascript</h2>
+    <h2>Uvod u objektno orjentisano programiranje kroz Javu</h2>
+    <h2>Softversko inženjerstvo za početnike</h2>
+    <h2>Algoritmi za početnike</h2>
+    <p>Vidi još materijala u pripremi</p>
+  </div>
+</section>
 
-  <input type="checkbox" class="hide" id="check2" />
-  <label class="nav-box nav-kursevi" for="check2">
-    <section>
-      <h2 class="nav-naslov"><a href="/kursevi/">Kursevi</a></h2>
-      {% include knjige/polica.html %}
-      <p class="toggle-hover info-text">Izaberi svoje buduće zanimanje</p>
-      <div class="toggle-checked">
-        {% include stranice/kursevi.html %}
-      </div>
-    </section>
-  </label>
+<section class="donja-crta-zelena">
+  <div class="container">
+    <h1>Želiš da pratiš novosti iz Škole koda?</h1>
+    <p>Pretplati se na nove besplatne lekcije i obaveštenja o novim kursevima</p>
+    <div>
+        <input type="text" name="" placeholder="unesi email">
+        <button type="button" name="button">Prijavi se</button>
+    </div>
+  </div>
+</section>
 
-  <input type="checkbox" class="hide" id="check3" />
-  <label class="nav-box nav-radovi" for="check3">
-    <section>
-      <h2 class="nav-naslov"><a href="/projekti">Projekti</a></h2>
-      <img src="/images/ui/projekti.png" alt="projekti" class="nav-slika hide-checked">
-      <p class="toggle-hover info-text">Pogledaj aplikacije koje pravimo</p>
-      <div class="toggle-checked">
-        {% include stranice/projekti.html %}
-      </div>
-    </section>
-  </label>
+<section class="donja-crta-crvena">
+    <div class="container">
+        <h1>Edukacijske usluge</h1>
+        <div class="flex">
+            <div class="usluga">
+                <img src="/images/ui/simboli/gift.svg" alt="">
+                <h2>Besplatni tutorijali</h2>
+                <p>Proizvodnja besplatnih tutorijala je osnovna delatnost Škole koda. Naša
+                    misija je da omogućimo besplatno savremeno računarsko obrazovanje na srpskom jeziku. Sve
+                    ostale usluge koje pružamo pomažu nam da nastavimo sa objavljivanjem novih materijala.</p>
+                <p>Ukoliko želite da pomognete, možete poslati lekciju za koju vidite da nam nedostaje. Lekciju možete
+                    napisati sami ili poslati uz saglasnost autora ili izdavača (npr. promo poglavlje knjige). Uvek navodimo izvor, što služi kao dodatna reklama za autora.</p>
+            </div>
+            <div class="usluga">
+                <img src="/images/ui/simboli/diploma.svg" alt="">
+                <h2>Kursevi programiranja</h2>
+                <p>Organizujemo kurseve programiranja, za prekvalifikaciju ljudi svih uzrasta u IT sektor. Naši kursevi su posebno
+                    prilagođeni osobama bez prethodnog tehničkog ili matematičkog obrazovanja.</p>
+                <p>Kurseve držimo dva puta godišnje, u saradnji sa <a href="http://ecmm.rs/">Edukativnim centrom Milutin Milanković</a>, gde možete videti ponudu i prijaviti se. Pružamo garanciju u vidu besplatnog pohađanja narednog kruga kursa, ukoliko ne savladate iz prve. Cene se kreću od 400 do 800 evra, zavisno od trajanja i tehnologije.</p>
+            </div>
+            <div class="usluga">
+                <img src="/images/ui/simboli/classroom.svg" alt="">
+                <h2>Kompanijska obuka</h2>
+                <p>Novo u ponudi, obuka zaposlenih po IT firmama. Sad se više ne morate prijavljivati za naše kurseve, dovoljno je organizovati se sa kolegama iz firme i mi dolazimo.</p>
 
-  <input type="checkbox" class="hide" id="check4" />
-  <label class="nav-box nav-kontakt" for="check4">
-    <section>
-      <h2 class="nav-naslov"><a href="/kontakt">Kontakt</a></h2>
-      <img src="/images/ui/robot.png" class="nav-slika" alt="slicica-robot">
-      <p class="toggle-hover info-text">Piši, zovi ili samo dođi.</p>
-      <div class="toggle-checked">
-        {% include stranice/kontakt.html %}
-      </div>
-    </section>
-  </label>
-</nav>
+                <p>Obuka zaposlenih za novu tehnologiju podiže vrednost čitavog tima. Usluga podrazumeva dolazak u prostorije firme i organizovanje radionica za do desetak polaznika. Cena dvočasa, sa dolaskom na vašu adresu, iznosi 50 eura u dinarskoj protivrednosti. Popularni React kurs od 8 dvočasa iznosi 400 eura.</p>
+            </div>
+            <div class="usluga">
+                <img src="/images/ui/simboli/teacher.svg" alt="">
+                <h2>Individualno mentorstvo</h2>
+                <p>Pružamo uslugu ličnog mentorstva, preko Skype-a i uživo. Cena sata individualne obuke je 20 eura.</p>
+                <p>Individualno mentorstvo podrazumeva kontinuiranu i plansku obuku od strane profesionalaca, čime se razlikuje
+                    od
+                    <i>ad hoc</i> časova programiranja. Najmanji sertifikovani paket individualne obuke je 8 časova.
+                </p>
+                <p>Nakon uspešnog završetka lične obuke, što uključuje završni ispit, polaznik stiče
+                    pravo na sertifikat.</p>
+            </div>
+            <div class="usluga">
+                <img src="/images/ui/simboli/blackboard.svg" alt="">
+                <h2>Organizacija kurseva u saradnji sa vašom školom</h2>
+                <p>Organizujemo kurseve, seminare i radionice u saradnji sa vašom školom ili organizacijom. Ukoliko želite da organizujete
+                    programersku obuku u vašoj režiji, Škola koda vam obezbeđuje savremen plan i program, predavače, nastavne
+                    materijale i sve što je potrebno.</p>
+                <p>Cena ove usluge je po dogovoru.</p>
+            </div>
+            <div class="usluga">
+                <img src="/images/ui/simboli/group-of-men-running.svg" alt="">
+                <h2>Časovi programiranja za osnovce</h2>
+                <p>Časovi Python programiranja za osnovce. Pokrivamo program
+                    <a href="https://petlja.org/Home/OsnovnaSkola">programiranja u Pajtonu</a> za šesti razred, koji je izradila fondacija Petlja, uz podršku Ministarstva prosvete.
+                    Cena jednog Skype časa je 8.5 evra, u dinarskoj protivrednosti.</p>
+                <p>Dogovorno, moguće je uzimati časove iz drugih jezika i tehnologija koje pokrivamo na sajtu (cena važi samo za
+                    osnovce i srednjoškolce).</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-<script>
-  {% include js/naslovna.js %}
-</script>
+
+<section class="siva-pozadina">
+    <h1>Programerske usluge</h1>
+
+    <div class="container flex">
+        <div class="usluga">
+            <img src="/images/ui/simboli/coding.svg" alt="">
+            <h2>Izgrada sajtova</h2>
+            <p>Budite vidljivi u celom svetu i to na najbolji način. Osnovni paket sajta podrazumeva: besplatan hosting, prilagodljivi dizajn i optimizaciju za pretragu.</p>
+            <p>Napredni paketi uključuju jedinstvenu URL adresu, kontakt formu, blog i drugo.</p>
+            <p>Cena: od 150 eura.</p>
+        </div>
+        <div class="usluga">
+            <img src="/images/ui/simboli/puzzle(1).svg" alt="">
+            <h2>Izgrada web aplikacija</h2>
+            <p>Ponekad običan sajt nije dovoljan, već je potrebno razviti sopstvenu web aplikaciju.</p>
+            <p>Neki od primera prostih web aplikacija su kvizovi, četbotovi, pretrage recepata, dečje bojanke, interaktivne
+                mape i slično.</p>
+            <p>Cena: Od 500 eura.</p>
+        </div>
+        <div class="usluga">
+            <img src="/images/ui/simboli/online-shopping-cart.svg" alt="">
+            <h2>Izgrada online prodavnica</h2>
+            <p>Izgrada online prodavnice podrazumeva postavljanje sistema prodaje, preko koga možete samostalno
+                dodavati proizvode, upravljati cenama i slično.</p>
+            <p>Masovni unos proizvoda, obuka zaposlenih i druge usluge se posebno naplaćuju.</p>
+            <p>Cena: Od 800 eura.</p>
+        </div>
+        <div class="usluga">
+            <img src="/images/ui/simboli/smartphone.svg" alt="">
+            <h2>Izrada mobilnih aplikacija (Android i iOS)</h2>
+            <p>Industrija mobilnih aplikacija trenutno prolazi kroz neku vrstu zlatne groznice. Da bi ostali relevantni i uspešni, sve što posao zahteva je da imate odličnu mobilnu aplikaciju povezanu sa vašim brendom.</p>
+
+            <p>Cena: Od 500 eura.</p>
+        </div>
+        <div class="usluga">
+            <img src="/images/ui/simboli/console.svg" alt="">
+            <h2>Razvoj igara</h2>
+            <p>Zanimljiva igrica može zadržati posetioce na vašem sajtu i pomoći vam da doprete do mlađe populacije.</p>
+            <p>Nudimo izradu manjih igara i interaktivnih animacija za vaš brend. Igre se izrađuju po vašoj ideji ili ideji naših developera. Razvijamo igre za web, desktop računare, tablete, mobilne telefone i druge platforme.</p>
+            <p>Cena: od 800 eura.</p>
+        </div>
+        <div class="usluga">
+            <img src="/images/ui/simboli/business-people-meeting.svg" alt="">
+            <h2>Izrada poslovnih rešenja po meri</h2>
+            <p>Razvijamo programe za vođenje poslovanja, upravljanje ljudskim resursima, magacinsko poslovanje, evidenciju prometa i slično.</p>
+            <p>Imate neku ideju za koju niste sigurni da li je moguće ostvariti? Kontaktirajte nas.</p>
+            <p>Cena: po dogovoru.</p>
+        </div>
+        <!-- Pametne kuće i automatizacija -->
+    </div>
+</section>
+
+
+<section class="relative no-padding">
+    <img src="/images/skola/damjan-pavlica-predavanje.jpeg" alt="Damjan Pavlica predavanje" class="full">
+
+    <div class="tekst-o-nama">
+        <h2>Dobrodošli u Školu koda</h2>
+
+        <p>Škola koda je neprofitna organizacija, posvećena učenju programerskih veština na razumljiv i pristupačan način.</p>
+
+        <p>Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni. Organizujemo kurseve prekvalifikacije u IT sektor, prilagođene osobama bez prethodnog tehničkog obrazovanja. Organizujemo stručno usavršavanje i obuku zaposlenih po IT firmama.</p>
+
+        <p>Poznati smo po praktičnom radu u malim grupama i entuzijazmu naših predavača.</p>
+
+        <p>U saradnji sa našim najboljim polaznicima, pružamo širok spektar usluga iz oblasti web dizajna i programiranja.</p>
+    </div>
+</section>
+
+
+<section class="donja-crta-crvena">
+    <h1>Naš tim</h1>
+    <div class="flex">
+        <div class="developer">
+            <img src="/images/skola/tim/damjan-pavlica.jpg" alt="">
+            <h2>Damjan Pavlica</h2>
+            <p>Full Stack developer i osnivač Škole koda. Omiljeni jezici: C, Javascript i Python.</p>
+        </div>
+        <div class="developer">
+            <img src="/images/skola/tim/dragan-nikolic-kica.jpeg" alt="">
+            <h2>Dragan Nikolić Kića</h2>
+            <p>Predavač Škole koda i Javascript developer specijalizovan za React/Redux ekosistem.</p>
+        </div>
+        <div class="developer">
+            <img src="/images/ui/simboli/user(1).svg" alt="">
+            <h2>Vladimir Joksimović</h2>
+            <p>3D modelar i game developer. Osnovni alati: Maya, Construct, Unreal i Unity3D.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="donja-crta-zelena">
+    <h1>Svedočanstva</h1>
+</section>
+
+
+<section class="container flex">
+    <div class="pola">
+        <h2 id="naruci">Kako možemo da pomognemo?</h2>
+        <p class='podnaslov'>Ukoliko želiš da nešto naručiš, predložiš, pitaš, ne ustručavaj se.</p>
+        <p>Odgovaramo na svaku poruku.</p>
+    </div>
+
+    <div class="pola">
+        <form method="post" action="salje-mejl.php">
+            <label>Izrazi svoju želju</label>
+            <textarea name="poruka" id="poruka"></textarea>
+
+            <label>Ostavi svoj kontakt</label>
+            <input name="kontakt" id="kontakt">
+
+            <input id="potvrdi" name="potvrdi" type="submit" value="Pošalji">
+        </form>
+    </div>
+</section>
+
+<script src="terminal.js"></script>

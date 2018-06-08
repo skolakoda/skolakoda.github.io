@@ -8,4 +8,53 @@ image: /images/skola/damjan-predavanje-tabla.jpg
 
 ![Damjan Pavlica škola programiranja]({{page.image}})
 
-{% include stranice/o-nama.html %}
+<p><b>Škola koda</b> je škola programiranja sa sedištem u Rakovici, posvećena prekvalifikaciji omladine i nezaposlenih u IT sektor. Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni.</p>
+
+<p>Organizujemo kvalitetnu programersku obuku u malim grupama, uz individualno mentorstvo. Mentor prati svačiji napredak i nalazi svakom odgovarajuće vežbe, kako bi držao nivo obuke intenzivnim.</p>
+
+<p>Naši <a href="/kursevi/"></a>kursevi u proseku traju između 4 i 6 meseci. Tempo rada je četiri časa nedeljno. Ako napredujete brže od ostalih, možete završiti ranije ili preći u naprednu grupu, ako napredujete sporije, možete ostati duže. Bitno je da niko ne ostane uskraćen za veštine koje je došao da nauči.</p>
+
+<p>Školu koda pokrenuo je Damjan Pavlica, politikolog koji je uspešno promenio struku i postao programer. To takođe možeš i ti, potrebno je samo početi!</p>
+
+<h2>Utisci</h2>
+
+<div class="utisci flex onama-utisci">
+  {% include utisci/milos.html %}
+  {% include utisci/mirjana.html %}
+  {% include utisci/peja.html %}
+  {% include utisci/marijana.html %}
+</div>
+
+<a href="/utisci">Vidi još utisaka</a>
+
+{% include o-predavacu.html %}
+
+<p>Drugi o nama: <a href="http://www.nsz.gov.rs/live/info/vesti/u_imo_narod_programiranju.cid39637?page=2" target="_blank">članak Nacionalne službe za zapošljavanje o Školi koda</a></p>
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "EducationalOrganization",
+	"legalName": "Škola koda",
+	"url": "https://skolakoda.org/",
+	"contactPoint": [{
+		"@type": "ContactPoint",
+		"telephone": "+381659777253",
+		"contactType": "customer service"
+	}],
+	"logo": "{{site.logo}}",
+  "foundingDate": "2014",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Beograd",
+    "postalCode": "11000",
+    "addressCountry": "RS"
+  },
+	"sameAs": ["https://www.facebook.com/skolakoda/",
+		"https://twitter.com/skolakoda",
+		"https://www.youtube.com/channel/UCxtuC8KZxqkh4WhNgiH_JTg",
+		"https://www.linkedin.com/company/%C5%A1kola-koda"
+	]
+}
+</script>
+
