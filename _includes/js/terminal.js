@@ -4,7 +4,7 @@ const ideje = [
   'Da bi saznao koji je danas datum, unesi: new Date() i pritisni enter.',
   'Računar ti može reći preciznu vrednost broja PI. Unesi: Math.PI i pritisni enter.',
   'Računar ti može dati nasumičan broj između jedan i deset. Unesi: Math.floor(Math.random() * 11) i pritisni enter.',
-  'Da bi izračunao koren nekog broja, na primer broja 49, unesi: Math.sqrt(49) i pritisni enter.'
+  'Da bi izračunao koren nekog broja, na primer 49, unesi: Math.sqrt(49) i pritisni enter.'
 ]
 
 document.getElementById('ideja').innerText = ideje[Math.floor(Math.random() * ideje.length)]

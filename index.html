@@ -1,15 +1,15 @@
-<link rel="stylesheet" href="style.css">
-
-<h1>Škola koda</h1>
+---
+layout: naslovna
+---
 
 <section class="donja-crta-crvena">
-    <div class="container flex">
+    <div class="wrapper flex">
         <div class="pola">
-            <h2>Započni učenje programiranja interaktivno, besplatno.</h2>
+            <h1>Započni učenje programiranja interaktivno, besplatno.</h1>
             <p>Možeš odmah isprobati osnovne računske operacije u interaktivnoj JavaScript konzoli, prateći uputstvo iznad crnog prozora.</p>
         </div>
         <div class="pola terminal-wrapper">
-            <p id="ideja">Osnovna namena računara je da računaju. Na primer, unesi: (323+456) / 2 i pritisni enter.</p>
+            <p><small id="ideja">Osnovna namena računara je da računaju. Na primer, unesi: (323+456) / 2 i pritisni enter.</small></p>
             <div class="terminal">
                 <div><span class="blink">> </span><input class="unos"></div>
             </div>
@@ -18,31 +18,32 @@
 </section>
 
 <section class="siva-pozadina donja-crta-zelena">
-  <div class="container">
+  <div class="wrapper">
     <h1>Besplatni tutorijali</h1>
-    <h2>Uvod u web i web dizajn</h2>
-    <h2>Uvod u programiranje kroz C</h2>
-    <h2>Uvod u programiranje kroz Javascript</h2>
-    <h2>Uvod u objektno orjentisano programiranje kroz Javu</h2>
-    <h2>Softversko inženjerstvo za početnike</h2>
-    <h2>Algoritmi za početnike</h2>
+    <div class="boxes">
+        {% include kutijice/c.html %}
+        {% include kutijice/web.html %}
+        {% include kutijice/js.html %}
+        {% include kutijice/java.html %}
+        {% include kutijice/algoritmi.html %}
+        {% include kutijice/inzenjerstvo.html %}
+    </div>
+    
     <p>Vidi još materijala u pripremi</p>
   </div>
 </section>
 
 <section class="donja-crta-zelena">
-  <div class="container">
-    <h1>Želiš da pratiš novosti iz Škole koda?</h1>
-    <p>Pretplati se na nove besplatne lekcije i obaveštenja o novim kursevima</p>
-    <div>
-        <input type="text" name="" placeholder="unesi email">
-        <button type="button" name="button">Prijavi se</button>
-    </div>
+  <div class="wrapper">
+    <h1>Želiš da budeš u toku?</h1>
+    <p>Pretplati se na besplatne lekcije i obaveštenja o novim kursevima Škole koda.</p>
+    
+    {% include bilten.html %}
   </div>
 </section>
 
 <section class="donja-crta-crvena">
-    <div class="container">
+    <div class="wrapper">
         <h1>Edukacijske usluge</h1>
         <div class="flex">
             <div class="usluga">
@@ -104,7 +105,7 @@
 <section class="siva-pozadina">
     <h1>Programerske usluge</h1>
 
-    <div class="container flex">
+    <div class="wrapper flex">
         <div class="usluga">
             <img src="/images/ui/simboli/coding.svg" alt="">
             <h2>Izgrada sajtova</h2>
@@ -138,7 +139,7 @@
         <div class="usluga">
             <img src="/images/ui/simboli/console.svg" alt="">
             <h2>Razvoj igara</h2>
-            <p>Zanimljiva igrica može zadržati posetioce na vašem sajtu i pomoći vam da doprete do mlađe populacije.</p>
+            <p>Zanimljiva igrica može zadržati posetioce na vašem sajtu i pomoći da doprete do mlađe populacije.</p>
             <p>Nudimo izradu manjih igara i interaktivnih animacija za vaš brend. Igre se izrađuju po vašoj ideji ili ideji naših developera. Razvijamo igre za web, desktop računare, tablete, mobilne telefone i druge platforme.</p>
             <p>Cena: od 800 eura.</p>
         </div>
@@ -173,11 +174,11 @@
 
 <section class="donja-crta-crvena">
     <h1>Naš tim</h1>
-    <div class="flex">
+    <div class="flex wrapper">
         <div class="developer">
             <img src="/images/skola/tim/damjan-pavlica.jpg" alt="">
             <h2>Damjan Pavlica</h2>
-            <p>Full Stack developer i osnivač Škole koda. Omiljeni jezici: C, Javascript i Python.</p>
+            <p>Full Stack developer i osnivač Škole koda. Glavni jezici: C, Javascript i Python.</p>
         </div>
         <div class="developer">
             <img src="/images/skola/tim/dragan-nikolic-kica.jpeg" alt="">
@@ -185,9 +186,19 @@
             <p>Predavač Škole koda i Javascript developer specijalizovan za React/Redux ekosistem.</p>
         </div>
         <div class="developer">
-            <img src="/images/ui/simboli/user(1).svg" alt="">
+            <img src="/images/skola/tim/vladimir-joksimovic.png" alt="">
             <h2>Vladimir Joksimović</h2>
             <p>3D modelar i game developer. Osnovni alati: Maya, Construct, Unreal i Unity3D.</p>
+        </div>
+        <div class="developer">
+            <img src="/images/skola/tim/igor-milatovic.jpg" alt="">
+            <h2>Igor Milatović</h2>
+            <p>Front-end developer, posvećen prilagodljivom web dizajnu i korisničkom iskustvu.</p>
+        </div>
+        <div class="developer">
+            <img src="/images/skola/tim/nemanja-djorovic.jpg" alt="">
+            <h2>Nemanja Đorović</h2>
+            <p>Javascript developer, okrenut programskoj logici na web stranicama.</p>
         </div>
     </div>
 </section>
@@ -198,7 +209,7 @@
 </section>
 
 
-<section class="container flex">
+<section class="wrapper flex">
     <div class="pola">
         <h2 id="naruci">Kako možemo da pomognemo?</h2>
         <p class='podnaslov'>Ukoliko želiš da nešto naručiš, predložiš, pitaš, ne ustručavaj se.</p>
@@ -217,5 +228,3 @@
         </form>
     </div>
 </section>
-
-<script src="terminal.js"></script>

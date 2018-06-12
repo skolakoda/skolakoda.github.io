@@ -3,8 +3,14 @@
 {% include head.html %}
 
 <body class="naslovna">
+  {% include header.html %}
 
   {{content}}
 
+  {% include footer.html %}
+
+  <script>
+    {% include js/terminal.js %}
+  </script>
 </body>
 </html>

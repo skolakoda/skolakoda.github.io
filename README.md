@@ -25,7 +25,6 @@ bundle exec jekyll serve --drafts --incremental
 
 ## TODO
 
-- srediti tekstove usluga
 - jezike na naslovnu
 - poziv na akciju, dugme za naručivanje usluge
 - jasniju prijavu za bilten

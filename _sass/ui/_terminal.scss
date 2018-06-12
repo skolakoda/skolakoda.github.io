@@ -1,0 +1,25 @@
+.terminal-wrapper {
+  overflow-x: hidden;
+
+  .terminal {
+    width: 800px;
+    height: 400px;
+    background: #151223;
+    color: #e5e5e5;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .blink {
+    margin-left: 5px;
+  }
+  .unos {
+    color: inherit;
+    background-color: inherit;
+    border: 0;
+    width: 772px;
+  }
+  .error {
+    color: #d00;
+  }
+  
+}

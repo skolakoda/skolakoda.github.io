@@ -4,7 +4,8 @@ $wrapper-width-md: 80%;
 $wrapper-width-lg: 68%;
 
 .wrapper {
-  padding: 0 $wrapper-padding;
+  // padding: 0 $wrapper-padding;
+  margin: auto;
 
   form {
     button,
@@ -18,56 +19,5 @@ $wrapper-width-lg: 68%;
   }
   @media (min-width: $screen-lg-min) {
     width: $wrapper-width-lg;
-  }
-}
-
-footer,
-header {
-  .wrapper {
-    margin: auto;
-  }
-}
-
-.main {
-  @media (min-width: $screen-lg-min) {
-    display: flex;
-    justify-content: center;
-  }
-
-  .wrapper {
-    @media (max-width: $screen-md-max) {
-      margin: auto;
-    }
-  }
-}
-
-.side {
-  text-align: center;
-
-  @media (min-width: $screen-lg-min) {
-    width: (100 - $wrapper-width-lg - 2) / 2;
-  }
-}
-
-.podrzi {
-  display: inline-block;
-
-  .podrzi-paypal {
-    max-height: 100%;
-    padding: 4px;
-  }
-
-  .podrzi-slika {
-    height: 200px;
-    margin-top: 44px;
-  }
-}
-
-.side-right {
-  @media (max-width: $screen-md-max) {
-    margin-top: 20px;
-    form {
-      display: none;
-    }
   }
 }
