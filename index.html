@@ -6,7 +6,7 @@ layout: naslovna
     <div class="wrapper flex">
         <div class="pola">
             <h1>Započni učenje programiranja interaktivno, besplatno.</h1>
-            <p>Možeš odmah isprobati osnovne računske operacije u interaktivnoj JavaScript konzoli, prateći uputstvo iznad crnog prozora.</p>
+            <p>Možeš odmah isprobati osnovne komande u interaktivnoj JavaScript konzoli, prateći uputstvo iznad crnog prozora.</p>
         </div>
         <div class="pola terminal-wrapper">
             <p><small id="ideja">Osnovna namena računara je da računaju. Na primer, unesi: (323+456) / 2 i pritisni enter.</small></p>
@@ -29,14 +29,14 @@ layout: naslovna
         {% include kutijice/inzenjerstvo.html %}
     </div>
     
-    <p>Vidi još materijala u pripremi</p>
+    <a href="/kursevi/">Vidi još materijala u pripremi</a>
   </div>
 </section>
 
 <section class="donja-crta-zelena">
   <div class="wrapper">
     <h1>Želiš da budeš u toku?</h1>
-    <p>Pretplati se na besplatne lekcije i obaveštenja o novim kursevima Škole koda.</p>
+    <p>Prijavi se na besplatne lekcije i obaveštenja o kursevima Škole koda.</p>
     
     {% include bilten.html %}
   </div>
@@ -59,7 +59,7 @@ layout: naslovna
                 <img src="/images/ui/simboli/diploma.svg" alt="">
                 <h2>Kursevi programiranja</h2>
                 <p>Organizujemo kurseve programiranja, za prekvalifikaciju ljudi svih uzrasta u IT sektor. Naši kursevi su posebno
-                    prilagođeni osobama bez prethodnog tehničkog ili matematičkog obrazovanja.</p>
+                    prilagođeni osobama bez prethodnog tehničkog obrazovanja.</p>
                 <p>Kurseve držimo dva puta godišnje, u saradnji sa <a href="http://ecmm.rs/">Edukativnim centrom Milutin Milanković</a>, gde možete videti ponudu i prijaviti se. Pružamo garanciju u vidu besplatnog pohađanja narednog kruga kursa, ukoliko ne savladate iz prve. Cene se kreću od 400 do 800 evra, zavisno od trajanja i tehnologije.</p>
             </div>
             <div class="usluga">
@@ -140,7 +140,7 @@ layout: naslovna
             <img src="/images/ui/simboli/console.svg" alt="">
             <h2>Razvoj igara</h2>
             <p>Zanimljiva igrica može zadržati posetioce na vašem sajtu i pomoći da doprete do mlađe populacije.</p>
-            <p>Nudimo izradu manjih igara i interaktivnih animacija za vaš brend. Igre se izrađuju po vašoj ideji ili ideji naših developera. Razvijamo igre za web, desktop računare, tablete, mobilne telefone i druge platforme.</p>
+            <p>Nudimo izradu igara i interaktivnih animacija za vaš brend. Igre izrađujemo po vašoj ideji ili ideji naših developera. Razvijamo igre za web, desktop, tablete, mobilne i druge platforme.</p>
             <p>Cena: od 800 eura.</p>
         </div>
         <div class="usluga">
@@ -190,7 +190,7 @@ layout: naslovna
             <h2>Vladimir Joksimović</h2>
             <p>3D modelar i game developer. Osnovni alati: Maya, Construct, Unreal i Unity3D.</p>
         </div>
-        <div class="developer">
+        <!-- <div class="developer">
             <img src="/images/skola/tim/igor-milatovic.jpg" alt="">
             <h2>Igor Milatović</h2>
             <p>Front-end developer, posvećen prilagodljivom web dizajnu i korisničkom iskustvu.</p>
@@ -199,13 +199,24 @@ layout: naslovna
             <img src="/images/skola/tim/nemanja-djorovic.jpg" alt="">
             <h2>Nemanja Đorović</h2>
             <p>Javascript developer, okrenut programskoj logici na web stranicama.</p>
-        </div>
+        </div> -->
+        <a href="/tim">Upoznaj ostale članove</a>
     </div>
 </section>
 
 
 <section class="donja-crta-zelena">
-    <h1>Svedočanstva</h1>
+    <div class="wrapper">
+        <h1>Svedočanstva</h1>
+        <div class="flex utisci onama-utisci">
+            {% include utisci/milos.html %}
+            {% include utisci/mirjana.html %}
+            {% include utisci/peja.html %}
+            {% include utisci/marijana.html %}
+        </div>
+
+        <a href="/utisci">Vidi još utisaka</a>
+    </div>
 </section>
 
 

@@ -20,20 +20,19 @@ bundle exec jekyll serve
 
 Ili sa parametrima:
 ```
-bundle exec jekyll serve --drafts --incremental
+bundle exec jekyll serve --incremental --drafts
 ```
 
 ## TODO
 
-- jezike na naslovnu
+- zajednicku sliku na naslovnu
+- svg na hover
 - poziv na akciju, dugme za naručivanje usluge
-- jasniju prijavu za bilten
 - futer https://dafed.org/
 - postaviti banere
 - usluge i naslovna
     - igorovi radovi http://zdravstvenanegaeliksir.rs/
     - joxini radovi
-    - developeri + joxa
 - dodati https://skolakoda.org/editor/
 - 3D slova na naslovnoj
 - dodati male kutijice za three.js, redux, sql i ostalo

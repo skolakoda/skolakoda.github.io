@@ -11,8 +11,8 @@ body {
   text-rendering: optimizeLegibility;
   word-wrap: break-word;
   @media (min-width: $screen-md-min) {
-    font-size: 1.25rem;
-    line-height: 1.5;
+    font-size: 1.2rem;
+    line-height: 1.4;
   }
 }
 
@@ -38,24 +38,12 @@ h3 {
 }
 
 h1 {
-  font-size: $h2-full-size;
-}
-
-h2 {
-  font-size: $h3-full-size;
+  font-size: $h1-md;
 }
 
 @media (min-width: $screen-lg-min) {
   h1 {
-    font-size: $h1-full-size;
-  }
-
-  h2 {
-    font-size: $h2-full-size;
-  }
-
-  h3 {
-    font-size: $h3-full-size;
+    font-size: $h1-lg;
   }
 }
 
