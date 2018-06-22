@@ -27,7 +27,7 @@
 
   .pola {
       width: 100%;
-      @media (min-width: 1200px) {
+      @media (min-width: $screen-lg-min) {
         width: 49%;
       }
   }
@@ -36,15 +36,21 @@
     background-color: #F2F1ED;
   }
 
+  .njuzleter-wrapper {
+    @media (min-width: $screen-md-min) {
+      padding-bottom: 60px;
+    }
+  }
+
   .usluga,
   .developer {
     text-align: center;
     margin-bottom: 40px;
 
-    @media (min-width: 800px) {
+    @media (min-width: $screen-md-min) {
       width: 300px;
     }
-    @media (min-width: 1600px) {
+    @media (min-width: $screen-xl-min) {
       width: 30%;
     }
   }
@@ -71,14 +77,13 @@
     margin-bottom: 4%;
     margin-top: 4%;
     padding: 40px;
-    @media (min-width: 800px) {
+    @media (min-width: $screen-md-min) {
       width: 50%;
     }
   }
 
   .grupna {
     border-radius: 383px;
-    border-radius: 380px 380px 40px 380px;
   }
 
   .no-padding {
