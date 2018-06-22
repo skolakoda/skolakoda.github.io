@@ -5,11 +5,11 @@ layout: lekcija-frontend
 permalink: /svg-na-webu
 ---
 
-Poslednjih par godina, slike u vektorskom formatu su postale [opšte podržane](//caniuse.com/#feat=svg) na webu i redovno se koriste za ikonice, logoe i druge odgovarajuće namene. Kao što verovatno znate, SVG ne gubi kvalitet prilikom skaliranja, ali je pogodan uglavnom za geometriju (ne može zameniti fotografije).
+Poslednjih godina, slike u vektorskom formatu su postale [opšte podržane](//caniuse.com/#feat=svg) na webu i redovno se koriste za ikonice, logoe i druge odgovarajuće namene. Kao što verovatno znate, SVG ne gubi kvalitet prilikom skaliranja, ali je pogodan uglavnom za geometriju (ne može zameniti fotografije).
 
 SVG na stranici možemo tretirati kao sliku, ali ga takođe možemo tretirati kao bilo koji drugi HTML element, jer su SVG i HTML zapravo dva člana iste jezičke porodice.
 
-![](//www.icons-land.com/images/products/Metro-SVG-Zodiac-Icons.png)
+![](http://quickleft.com/wp-content/uploads/687474703a2f2f662e636c2e6c792f6974656d732f31613139317a314d3273316b32523041303932542f7261737465722d76732d766563746f722e706e67.png)
 
 ## SVG kao slika
 

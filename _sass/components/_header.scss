@@ -2,7 +2,7 @@
 
 header {
   background: $mine-shaft;
-  background: linear-gradient(to right, $mine-shaft 0%, #222 100%);
+  background: linear-gradient(to left, $mine-shaft 0%, $bleached-cedar-dark 100%);
   color: $white;
 
   .header-wrapper {

@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 .terminal-wrapper {
   overflow-x: hidden;
   input {
@@ -7,8 +9,8 @@
   .terminal {
     width: 800px;
     height: 200px;
-    background: #151223;
-    color: #e5e5e5;
+    background: $bleached-cedar-dark;
+    color: $mercury;
     overflow-y: auto;
     overflow-x: hidden;
     @media (min-width: $screen-sm-min) {
@@ -18,6 +20,7 @@
   .blink {
     margin-left: 5px;
   }
+  /* klasa potrebna za js */
   .unos {
     color: inherit;
     background-color: inherit;
@@ -27,5 +30,4 @@
   .error {
     color: #d00;
   }
-
 }
