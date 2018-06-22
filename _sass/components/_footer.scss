@@ -7,6 +7,12 @@ footer {
   margin-top: 40px;
   padding: $xs-spacing 0;
 
+  .youtube,
+  .slogan,
+  .social {
+    display: block;
+  }
+
   img {
     margin-right: 4px;
     vertical-align: middle;
@@ -21,6 +27,7 @@ footer {
   }
 
   .social {
+    white-space: nowrap;
     a {
       margin-left: 8px;
       @media (min-width: $screen-md-min) {
@@ -34,14 +41,6 @@ footer {
     transform: matrix(-1, 0, 0, 1, 0, 0);
   }
 
-  .wrapper {
-    @media (min-width: $screen-md-min) {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-  }
-
   @media (max-width: $screen-sm-max) {
     text-align: center;
   }
@@ -51,5 +50,13 @@ footer {
   text-align: center;
   @media (min-width: $screen-md-min) {
     width: 50%;
+  }
+}
+
+.footer-wrapper {
+  @media (min-width: $screen-md-min) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }

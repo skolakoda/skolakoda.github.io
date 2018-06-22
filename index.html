@@ -28,16 +28,16 @@ layout: naslovna
         {% include kutijice/algoritmi.html %}
         {% include kutijice/inzenjerstvo.html %}
     </div>
-    
-    <a href="/kursevi/">Vidi još materijala u pripremi</a>
+
+    <a href="/kursevi/">Vidi tutorijale u pripremi</a>
   </div>
 </section>
 
 <section class="donja-crta-zelena">
   <div class="wrapper">
     <h1>Želiš da budeš u toku?</h1>
-    <p>Prijavi se na besplatne lekcije i obaveštenja o kursevima Škole koda.</p>
-    
+    <p>Prijavi se na besplatne lekcije i obaveštenja o novim kursevima Škole koda.</p>
+
     {% include bilten.html %}
   </div>
 </section>
@@ -150,56 +150,57 @@ layout: naslovna
             <p>Imate neku ideju za koju niste sigurni da li je moguće ostvariti? Kontaktirajte nas.</p>
             <p>Cena: po dogovoru.</p>
         </div>
-        <!-- Pametne kuće i automatizacija -->
     </div>
 </section>
 
 
-<section class="relative no-padding">
-    <img src="/images/skola/damjan-pavlica-predavanje.jpeg" alt="Damjan Pavlica predavanje" class="full">
+<section class="bg-image relative no-padding">
+    <div class="wrapper">
+      <div class="tekst-o-nama">
+          <h2>Dobrodošli u Školu koda</h2>
 
-    <div class="tekst-o-nama">
-        <h2>Dobrodošli u Školu koda</h2>
+          <p>Škola koda je neprofitna organizacija, posvećena učenju programerskih veština na razumljiv i pristupačan način.</p>
 
-        <p>Škola koda je neprofitna organizacija, posvećena učenju programerskih veština na razumljiv i pristupačan način.</p>
+          <p>Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni. Organizujemo kurseve prekvalifikacije u IT sektor, prilagođene osobama bez prethodnog tehničkog obrazovanja. Organizujemo stručno usavršavanje i obuku zaposlenih po IT firmama.</p>
 
-        <p>Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni. Organizujemo kurseve prekvalifikacije u IT sektor, prilagođene osobama bez prethodnog tehničkog obrazovanja. Organizujemo stručno usavršavanje i obuku zaposlenih po IT firmama.</p>
+          <p>Poznati smo po praktičnom radu u malim grupama i entuzijazmu naših predavača.</p>
 
-        <p>Poznati smo po praktičnom radu u malim grupama i entuzijazmu naših predavača.</p>
-
-        <p>U saradnji sa našim najboljim polaznicima, pružamo širok spektar usluga iz oblasti web dizajna i programiranja.</p>
+          <p>U saradnji sa našim najboljim polaznicima, pružamo širok spektar usluga iz oblasti web dizajna i programiranja.</p>
+      </div>
     </div>
 </section>
 
 
 <section class="donja-crta-crvena">
-    <h1>Naš tim</h1>
-    <div class="flex wrapper">
-        <div class="developer">
-            <img src="/images/skola/tim/damjan-pavlica.jpg" alt="">
-            <h2>Damjan Pavlica</h2>
-            <p>Full Stack developer i osnivač Škole koda. Glavni jezici: C, Javascript i Python.</p>
+    <div class="wrapper">
+        <h1>Naš tim</h1>
+        <div class="flex">
+            <div class="developer">
+                <img src="/images/skola/tim/damjan-pavlica.jpg" alt="">
+                <h2>Damjan Pavlica</h2>
+                <p>Full Stack developer i osnivač Škole koda. Glavni jezici: C, Javascript i Python.</p>
+            </div>
+            <div class="developer">
+                <img src="/images/skola/tim/dragan-nikolic-kica.jpeg" alt="">
+                <h2>Dragan Nikolić Kića</h2>
+                <p>Predavač Škole koda i Javascript developer specijalizovan za React/Redux ekosistem.</p>
+            </div>
+            <div class="developer">
+                <img src="/images/skola/tim/vladimir-joksimovic.png" alt="">
+                <h2>Vladimir Joksimović</h2>
+                <p>3D modelar i game developer. Osnovni alati: Maya, Construct, Unreal i Unity3D.</p>
+            </div>
+            <!-- <div class="developer">
+                <img src="/images/skola/tim/igor-milatovic.jpg" alt="">
+                <h2>Igor Milatović</h2>
+                <p>Front-end developer, posvećen prilagodljivom web dizajnu i korisničkom iskustvu.</p>
+            </div>
+            <div class="developer">
+                <img src="/images/skola/tim/nemanja-djorovic.jpg" alt="">
+                <h2>Nemanja Đorović</h2>
+                <p>Javascript developer, okrenut programskoj logici na web stranicama.</p>
+            </div> -->
         </div>
-        <div class="developer">
-            <img src="/images/skola/tim/dragan-nikolic-kica.jpeg" alt="">
-            <h2>Dragan Nikolić Kića</h2>
-            <p>Predavač Škole koda i Javascript developer specijalizovan za React/Redux ekosistem.</p>
-        </div>
-        <div class="developer">
-            <img src="/images/skola/tim/vladimir-joksimovic.png" alt="">
-            <h2>Vladimir Joksimović</h2>
-            <p>3D modelar i game developer. Osnovni alati: Maya, Construct, Unreal i Unity3D.</p>
-        </div>
-        <!-- <div class="developer">
-            <img src="/images/skola/tim/igor-milatovic.jpg" alt="">
-            <h2>Igor Milatović</h2>
-            <p>Front-end developer, posvećen prilagodljivom web dizajnu i korisničkom iskustvu.</p>
-        </div>
-        <div class="developer">
-            <img src="/images/skola/tim/nemanja-djorovic.jpg" alt="">
-            <h2>Nemanja Đorović</h2>
-            <p>Javascript developer, okrenut programskoj logici na web stranicama.</p>
-        </div> -->
         <a href="/tim">Upoznaj ostale članove</a>
     </div>
 </section>
@@ -228,14 +229,14 @@ layout: naslovna
     </div>
 
     <div class="pola">
-        <form method="post" action="salje-mejl.php">
+        <form method="post" action="">
             <label>Izrazi svoju želju</label>
             <textarea name="poruka" id="poruka"></textarea>
 
             <label>Ostavi svoj kontakt</label>
-            <input name="kontakt" id="kontakt">
+            <input name="kontakt">
 
-            <input id="potvrdi" name="potvrdi" type="submit" value="Pošalji">
+            <button type="submit">Pošalji</button>
         </form>
     </div>
 </section>

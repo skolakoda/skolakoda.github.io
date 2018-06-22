@@ -25,6 +25,7 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
+- srediti da dugme sa naslovne salje mejl
 - zajednicku sliku na naslovnu
 - svg na hover
 - poziv na akciju, dugme za naručivanje usluge
