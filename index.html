@@ -229,14 +229,12 @@ layout: naslovna
     </div>
 
     <div class="pola">
-        <form method="post" action="">
-            <label>Izrazi svoju želju</label>
-            <textarea name="poruka" id="poruka"></textarea>
-
-            <label>Ostavi svoj kontakt</label>
-            <input name="kontakt">
-
-            <button type="submit">Pošalji</button>
+        <form action="https://formspree.io/info@skolakoda.org" method="POST">
+          <label for="poruka">Izrazi svoju želju</label><br>
+          <textarea placeholder="poruka" name="poruka" id="poruka" required></textarea><br>
+          <label for="email">Ostavi svoj kontakt</label><br>
+          <input type="email" placeholder="email" name="email" id="email" required><br>
+          <button type="submit">Pošalji</button>
         </form>
     </div>
 </section>
