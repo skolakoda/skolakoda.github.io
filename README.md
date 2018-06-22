@@ -31,6 +31,7 @@ bundle exec jekyll serve --incremental --drafts
 - igorovi radovi http://zdravstvenanegaeliksir.rs/
 - joxini radovi
 - nadji developera
+- animacija partizani
 - dodati https://skolakoda.org/editor/
 - dodati male kutijice za three.js, redux, sql i ostalo
 - dodati react native kurs
