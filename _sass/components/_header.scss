@@ -11,6 +11,7 @@ header {
       padding-right: 0;
     }
     @media (min-width: $screen-md-min) {
+      align-items: center;
       display: flex;
       justify-content: space-between;
     }
@@ -30,6 +31,7 @@ header {
 
     .logo {
       font-family: courier, monospace;
+      font-weight: bold;
     }
   }
 
@@ -68,7 +70,7 @@ header {
 .newslatter-form {
   margin-top: 20px;
   @media (max-width: $screen-sm-max) {
-    padding: 0 $wrapper-padding;
+    padding: 0 $md-spacing;
   }
   @media (min-width: $screen-md-min) {
     margin-top: 60px;
@@ -90,7 +92,7 @@ header {
     a {
       border-top: 1px solid $tundora;
       display: block;
-      padding: 0 $wrapper-padding;
+      padding: 0 $md-spacing;
     }
   }
 }

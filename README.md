@@ -25,7 +25,6 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
-- obrisati sistem paddinga i margina
 - svg na hover
 - poziv na akciju, dugme za naručivanje usluge
 - futer https://dafed.org/
@@ -33,19 +32,18 @@ bundle exec jekyll serve --incremental --drafts
 - joxini radovi
 - nadji developera
 - dodati https://skolakoda.org/editor/
-- 3D slova na naslovnoj
 - dodati male kutijice za three.js, redux, sql i ostalo
-https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
+- dodati react native kurs
 - razvoj igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
     - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
-- dodati react native kurs
 - dodati stilizovanje linkova
-- bekend i glasanje za projekte
-
 - pukle strane:
     - https://skolakoda.org/uvod-u-web/uvod-html
     - https://skolakoda.org/uvod-u-web/uvod-css
+- https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
+- 3D slova na naslovnoj
+- bekend i glasanje za projekte
 
 <!--
 slike:

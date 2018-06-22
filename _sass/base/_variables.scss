@@ -47,21 +47,8 @@ $md-spacing: 16px;
 $lg-spacing: 32px;
 $xl-spacing: 64px;
 
-$spacings: (
-  xs: $xs-spacing,
-  sm: $sm-spacing,
-  md: $md-spacing,
-  lg: $lg-spacing,
-  xl: $xl-spacing
-);
-
 /* TYPOGRAPHY */
 
 $h1-md: 2em;
 $h1-lg: 2.5em;
-
 $font-lg: 120%;
-
-/* VARIOUS */
-
-$wrapper-padding: $md-spacing;
