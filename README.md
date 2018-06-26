@@ -25,8 +25,6 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
-- svg na hover
-- poziv na akciju, dugme za naručivanje usluge
 - futer https://dafed.org/
 - igorovi radovi http://zdravstvenanegaeliksir.rs/
 - joxini radovi

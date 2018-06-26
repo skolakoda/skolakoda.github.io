@@ -23,7 +23,7 @@ opis: Slobodno nas kontaktiraj u vezi sa bilo čim.
   <textarea name="poruka" id="poruka" required></textarea><br>
   <label for="email">Email</label><br>
   <input type="email" name="email" id="email" required><br>
-  <button class="btn-primary btn-big" type="submit">Pošalji</button>
+  <button class="full" type="submit">Pošalji</button>
 </form>
 
 
