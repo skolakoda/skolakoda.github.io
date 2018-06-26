@@ -55,8 +55,25 @@
     }
   }
 
-  .usluga img {
-    width: 120px;
+  .usluga {
+    svg {
+      fill: $mine-shaft;
+      transition-timing-function: ease-in;
+      transition: fill 0.6s;
+      width: 120px;
+    }
+    &:nth-child(4n+1) svg:hover {
+      fill: $citron;
+    }
+    &:nth-child(4n+2) svg:hover {
+      fill: $disco;
+    }
+    &:nth-child(4n+3) svg:hover {
+      fill: $valencia;
+    }
+    &:nth-child(4n+4) svg:hover {
+      fill: $carrot-orange;
+    }
   }
 
   .developer img {
