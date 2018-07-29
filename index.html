@@ -2,20 +2,22 @@
 layout: naslovna
 ---
 
-<section class="donja-crta-crvena">
-    <div class="wrapper flex">
-        <div class="pola">
-            <h1>Započni učenje programiranja interaktivno, besplatno.</h1>
-            <p>Možeš odmah isprobati osnovne komande u interaktivnoj JavaScript konzoli, prateći uputstvo iznad crnog prozora.</p>
-        </div>
-        <div class="pola terminal-wrapper">
-            <p><small id="ideja">Osnovna namena računara je da računaju. Na primer, unesi: (323+456) / 2 i pritisni enter.</small></p>
-            <div class="terminal">
-                <div><span class="blink">> </span><input class="unos"></div>
-            </div>
-        </div>
+<section class="pozadinska-slika relative no-padding">
+    <div class="wrapper">
+      <div class="tekst-o-nama">
+          <h2>Dobrodošli u Školu koda</h2>
+
+          <p>Škola koda je neprofitna organizacija, posvećena učenju programerskih veština na razumljiv i pristupačan način.</p>
+
+          <p>Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni. Organizujemo kurseve prekvalifikacije u IT sektor, prilagođene osobama bez prethodnog tehničkog obrazovanja. Organizujemo stručno usavršavanje i obuku zaposlenih po IT firmama.</p>
+
+          <p>Poznati smo po praktičnom radu u malim grupama i entuzijazmu naših predavača.</p>
+
+          <p>U saradnji sa našim najboljim polaznicima, pružamo širok spektar usluga iz oblasti web dizajna i programiranja.</p>
+      </div>
     </div>
 </section>
+
 
 <section class="siva-pozadina donja-crta-zelena">
   <div class="wrapper">
@@ -33,14 +35,6 @@ layout: naslovna
   </div>
 </section>
 
-<section class="donja-crta-zelena">
-  <div class="wrapper njuzleter-wrapper">
-    <h1>Želiš da budeš u toku?</h1>
-    <p>Prijavi se na besplatne lekcije i obaveštenja o novim kursevima Škole koda.</p>
-
-    {% include bilten.html %}
-  </div>
-</section>
 
 <section class="donja-crta-crvena">
     <div class="wrapper">
@@ -102,7 +96,7 @@ layout: naslovna
 </section>
 
 
-<section class="siva-pozadina">
+<section class="siva-pozadina donja-crta-crvena">
     <h1>Programerske usluge</h1>
     <div class="wrapper">
       <div class="flex">
@@ -156,22 +150,15 @@ layout: naslovna
 </section>
 
 
-<section class="pozadinska-slika relative no-padding">
-    <div class="wrapper">
-      <div class="tekst-o-nama">
-          <h2>Dobrodošli u Školu koda</h2>
-
-          <p>Škola koda je neprofitna organizacija, posvećena učenju programerskih veština na razumljiv i pristupačan način.</p>
-
-          <p>Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni. Organizujemo kurseve prekvalifikacije u IT sektor, prilagođene osobama bez prethodnog tehničkog obrazovanja. Organizujemo stručno usavršavanje i obuku zaposlenih po IT firmama.</p>
-
-          <p>Poznati smo po praktičnom radu u malim grupama i entuzijazmu naših predavača.</p>
-
-          <p>U saradnji sa našim najboljim polaznicima, pružamo širok spektar usluga iz oblasti web dizajna i programiranja.</p>
-      </div>
+<section class="donja-crta-zelena">
+    <div class="wrapper njuzleter-wrapper">
+      <h1>Želiš da budeš u toku?</h1>
+      <p>Prijavi se na obaveštenja o novim lekcijama i kursevima Škole koda.</p>
+  
+      {% include bilten.html %}
     </div>
 </section>
-
+  
 
 <section class="donja-crta-crvena">
     <div class="wrapper">
@@ -192,16 +179,6 @@ layout: naslovna
                 <h2>Vladimir Joksimović</h2>
                 <p>3D modelar i game developer. Osnovni alati: Maya, Construct, Unreal i Unity3D.</p>
             </div>
-            <!-- <div class="developer">
-                <img src="/images/skola/clanovi/igor-milatovic.jpg" alt="">
-                <h2>Igor Milatović</h2>
-                <p>Front-end developer, posvećen prilagodljivom web dizajnu i korisničkom iskustvu.</p>
-            </div>
-            <div class="developer">
-                <img src="/images/skola/clanovi/nemanja-djorovic.jpg" alt="">
-                <h2>Nemanja Đorović</h2>
-                <p>Javascript developer, okrenut programskoj logici na web stranicama.</p>
-            </div> -->
         </div>
         <img src="/images/skola/grupne/skola-koda-grupna-odozgo.jpg" class="full grupna" alt="">
         <a href="#">Upoznaj ostale članove</a>
