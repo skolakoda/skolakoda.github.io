@@ -3,60 +3,28 @@
 footer {
   background: #222;
   color: #ececec;
-  overflow: auto;
   margin-top: 40px;
-  padding: $xs-spacing 0;
-
-  .youtube,
-  .slogan,
-  .social {
-    display: block;
-  }
+  overflow: auto;
+  padding: 8px 0 40px 0;
+  text-align: center;
 
   img {
     margin-right: 4px;
     vertical-align: middle;
-    width: 24px;
+    width: 64px;
   }
 
   a {
     color: inherit;
-    display: inline-block;
-    margin: $sm-spacing 0;
     text-decoration: none;
   }
 
   .social {
-    white-space: nowrap;
     a {
       margin-left: 8px;
       @media (min-width: $screen-md-min) {
         margin-left: 16px;
       }
     }
-  }
-
-  .copyleft {
-    display: inline-block;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-  }
-
-  @media (max-width: $screen-sm-max) {
-    text-align: center;
-  }
-}
-
-.slogan {
-  text-align: center;
-  @media (min-width: $screen-md-min) {
-    width: 50%;
-  }
-}
-
-.footer-wrapper {
-  @media (min-width: $screen-md-min) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
 }

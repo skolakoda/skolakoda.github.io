@@ -23,6 +23,8 @@ Ili sa parametrima:
 bundle exec jekyll serve --incremental --drafts
 ```
 
+Ako neće, probati sa `sudo`.
+
 ## TODO
 
 - futer https://dafed.org/
