@@ -1,9 +1,13 @@
 ---
+layout: kurs
+title: Učimo Redux
+github: ucimo-redux
 ---
 
-# Učimo Redux
+![](https://cdn-images-1.medium.com/max/919/1*EdiFUfbTNmk_IxFDNqokqg.png)
 
-## Predvidivi čuvar stanja aplikacije
+## Učimo Redux
+# Predvidljivi čuvar stanja aplikacije
 
 ### Stanje (`state`)
 
@@ -27,7 +31,3 @@
 - Stanje se čuva u skladištu, a dobija se metodom `getState()`
 - Skladište ima `dispatch` metod, koji inicira promenu stanja sa opisom promene
 - Skladište prijavljuje (`subscribe`) niz povratnih funkcija koje okida nakon svake promene stanja (render i sl)
-
-## Materijali
-
-https://github.com/skolakoda/ucimo-redux

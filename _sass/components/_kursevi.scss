@@ -23,6 +23,17 @@ $razmak: 30px;
   }
 }
 
+.boxes.small-boxes {
+  a {
+    @media (min-width: $screen-sm-min) {
+      width: 250px;
+    }
+  }
+  p {
+    display: none;
+  }
+}
+
 .ikonica-manja,
 .ikonica-veca,
 .ikonica-velika {

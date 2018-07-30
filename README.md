@@ -27,8 +27,8 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- dodati react native kurs
-- dodati male kutijice za three.js, redux, sql i ostalo
+- dodati male kutijice za ucimo-git-i-github, ucimo-animacije i ostalo
+
 - pukle strane:
     - https://skolakoda.org/uvod-u-web/uvod-html
     - https://skolakoda.org/uvod-u-web/uvod-css

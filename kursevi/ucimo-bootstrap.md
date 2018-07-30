@@ -57,11 +57,3 @@
 ## Materijali
 
 * [Šta je Bootstrap?](//www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
-
-## Kuda dalje?
-
-Nakon ovoga možeš:
-* raditi sam
-* ići na praksu u neku firmu
-* raditi kao **Web dizajner** ili **Junior Front-end developer**
-* nastaviti učenje novih veština
