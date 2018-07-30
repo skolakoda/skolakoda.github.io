@@ -27,10 +27,7 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- futer https://dafed.org/
-- igorovi radovi http://zdravstvenanegaeliksir.rs/
 - joxini radovi
-- nadji developera
 - animacija partizani
 - dodati https://skolakoda.org/editor/
 - dodati js konzolu
