@@ -27,16 +27,16 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- dodati js konzolu
-- dodati male kutijice za three.js, redux, sql i ostalo
 - dodati react native kurs
+- dodati male kutijice za three.js, redux, sql i ostalo
+- pukle strane:
+    - https://skolakoda.org/uvod-u-web/uvod-html
+    - https://skolakoda.org/uvod-u-web/uvod-css
+- srediti java kurs
 - razvoj igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
     - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
 - dodati stilizovanje linkova
-- pukle strane:
-    - https://skolakoda.org/uvod-u-web/uvod-html
-    - https://skolakoda.org/uvod-u-web/uvod-css
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - 3D slova na naslovnoj
 - bekend i glasanje za projekte

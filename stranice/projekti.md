@@ -8,7 +8,7 @@ redirect_from:
 
 # {{page.title}}
 
-<p>Ovo su neki od projekata koje razvijamo, za potrebe učenja i za klijente. Ako želiš da se uključiš kao developer, <a href="https://skolakoda.org/kako-doprinositi/">pročitaj smernice</a>.</p>
+<p>Ovo su neki od projekata koje razvijamo, za potrebe učenja i za klijente. Ako želiš da se uključiš u razvoj, <a href="https://skolakoda.org/kako-doprinositi/">pročitaj smernice</a>.</p>
 
 <h2>Sajtovi i portali</h2>
 
@@ -26,22 +26,23 @@ redirect_from:
 {% include radovi/editor.html %}
 {% include radovi/bojanka.html %}
 {% include radovi/power-wiki-search.html %}
+{% include radovi/js-konzola.html %}
 {% include radovi/alkometar.html %}
 </div>
 
 <h2>Igre i animacije</h2>
 
 <div class="radovi">
+{% include radovi/binarne-karte.html %}
 {% include radovi/tenkici.html %}
 {% include radovi/1943.html %}
 {% include radovi/monster.html %}
 {% include radovi/mini-frp.html %}
 {% include radovi/pucacina.html %}
-{% include radovi/partizani-animacija.html %}
-{% include radovi/igrica-politicari.html %}
 {% include radovi/kucaca-masina.html %}
 {% include radovi/matrix.html %}
+{% include radovi/partizani-animacija.html %}
 </div>
 
-<p>Softver proizveden u Školi koda objavljen je pod MIT licencom za slobodni softver.</p>
+<p>Sav softver Škole koda objavljen je pod slobodnom licencom.</p>
 
