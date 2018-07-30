@@ -33,9 +33,11 @@ redirect_from:
 <div class="radovi">
 {% include radovi/tenkici.html %}
 {% include radovi/1943.html %}
+{% include radovi/monster.html %}
 {% include radovi/mini-frp.html %}
-{% include radovi/igrica-politicari.html %}
 {% include radovi/pucacina.html %}
+{% include radovi/partizani-animacija.html %}
+{% include radovi/igrica-politicari.html %}
 {% include radovi/kucaca-masina.html %}
 {% include radovi/matrix.html %}
 </div>

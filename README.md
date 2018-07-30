@@ -27,8 +27,6 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- joxini radovi
-- animacija partizani
 - dodati https://skolakoda.org/editor/
 - dodati js konzolu
 - dodati male kutijice za three.js, redux, sql i ostalo
