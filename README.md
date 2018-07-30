@@ -27,7 +27,6 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- dodati https://skolakoda.org/editor/
 - dodati js konzolu
 - dodati male kutijice za three.js, redux, sql i ostalo
 - dodati react native kurs

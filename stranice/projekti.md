@@ -23,6 +23,7 @@ redirect_from:
 {% include radovi/citati.html %}
 {% include radovi/spomenici.html %}
 {% include radovi/nadji-developera.html %}
+{% include radovi/editor.html %}
 {% include radovi/bojanka.html %}
 {% include radovi/power-wiki-search.html %}
 {% include radovi/alkometar.html %}
