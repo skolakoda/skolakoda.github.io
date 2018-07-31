@@ -27,8 +27,7 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- dodati male kutijice za ucimo-git-i-github, ucimo-animacije i ostalo
-
+- stilizovanje kutijica redno
 - pukle strane:
     - https://skolakoda.org/uvod-u-web/uvod-html
     - https://skolakoda.org/uvod-u-web/uvod-css
@@ -40,14 +39,3 @@ Ako neće, probati sa `sudo`.
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - 3D slova na naslovnoj
 - bekend i glasanje za projekte
-
-<!--
-slike:
-https://cdn.programiz.com/sites/tutorial2program/files/Arrays-C%2B%2B.jpg
-https://pixabay.com/en/children-win-success-video-game-593313/
-https://pixabay.com/en/apple-brick-wall-computer-cup-1854101/
-https://pixabay.com/en/apple-computer-cup-electronics-1853306/
-https://pixabay.com/en/cyber-glasses-virtual-virtual-world-1938449/
-https://damjanpavlica.files.wordpress.com/2014/04/stari-programer.jpg
-https://cdn-images-1.medium.com/max/2000/1*rJr_bOm3mD5V8_C5JaPrsQ.jpeg
--->

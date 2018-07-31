@@ -1,4 +1,7 @@
 ---
+layout: kurs
+title: Učimo animacije
+github: ucimo-animacije
 ---
 
 ## Učimo animacije

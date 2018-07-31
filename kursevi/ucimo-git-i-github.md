@@ -1,8 +1,10 @@
 ---
+layout: kurs
+title: Učimo Git i Github
 ---
-## Zajednički rad i kontrola verzija koda
 
-# Učimo Git
+## Učimo Git i Github
+# Kontrola verzija koda i zajednički rad
 
 ### Uvod u kontrolu verzija
   - Šta je kontrola verzija koda
@@ -32,7 +34,8 @@
   - Conflict Resolution
   - git alatke
 
-### Rad na daljinu
+### Zajednički rad
+  - [Rad sa gitom u kolektivu](/rad-sa-gitom)
   - Rad sa udaljenim repozitorijima
   - Kloniranje
   - Pushing i Pulling

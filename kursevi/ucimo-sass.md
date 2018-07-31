@@ -1,9 +1,11 @@
 ---
+layout: kurs
+title: Učimo Sass
+github: ucimo-sass
 ---
 
-# Učimo Sass
-
-## Programiranje CSS-a za velike projekte
+## Učimo Sass
+# CSS na steroidima
 
 ### Uvod u Sass
 
@@ -66,7 +68,3 @@
 - Definisanje tačaka preloma (`breakpoints`)
 - Rad sa medijskim upitima (`media queries`)
 - Vežba: Kako napraviti responsive grid sistem?
-
-## Materijali
-
-- [Učimo Sass](https://github.com/skolakoda/ucimo-sass)
