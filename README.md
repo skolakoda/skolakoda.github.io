@@ -27,7 +27,6 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- dodati sass, python i ostalo
 - pukle strane:
     - https://skolakoda.org/uvod-u-web/uvod-html
     - https://skolakoda.org/uvod-u-web/uvod-css

@@ -8,13 +8,13 @@ image: /images/skola/damjan-predavanje-tabla.jpg
 
 ![Damjan Pavlica škola programiranja]({{page.image}})
 
-<p><b>Škola koda</b> je škola programiranja sa sedištem u Rakovici, posvećena prekvalifikaciji omladine i nezaposlenih u IT sektor. Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni.</p>
+**Škola koda** je neprofitna organizacija, posvećena podučavanju programerskih veština na razumljiv i pristupačan način.
 
-<p>Organizujemo kvalitetnu programersku obuku u malim grupama, uz individualno mentorstvo. Mentor prati svačiji napredak i nalazi svakom odgovarajuće vežbe, kako bi držao nivo obuke intenzivnim.</p>
+Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni. Organizujemo kurseve prekvalifikacije u IT sektor, prilagođene osobama bez prethodnog tehničkog obrazovanja. Organizujemo stručno usavršavanje i obuku zaposlenih po IT firmama.
 
-<p>Naši <a href="/kursevi/"></a>kursevi u proseku traju između 4 i 6 meseci. Tempo rada je četiri časa nedeljno. Ako napredujete brže od ostalih, možete završiti ranije ili preći u naprednu grupu, ako napredujete sporije, možete ostati duže. Bitno je da niko ne ostane uskraćen za veštine koje je došao da nauči.</p>
+Poznati smo po praktičnom radu u malim grupama i entuzijazmu naših predavača.
 
-<p>Školu koda pokrenuo je Damjan Pavlica, politikolog koji je uspešno promenio struku i postao programer. To takođe možeš i ti, potrebno je samo početi!</p>
+Takođe, pružamo širok spektar usluga iz oblasti web dizajna i programiranja.
 
 <h2>Utisci</h2>
 
