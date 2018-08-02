@@ -1,7 +1,9 @@
 ---
 title: Uvod u HTML
 layout: lekcija-html
-permalink: /uvod-u-web/uvod-html
+permalink: /uvod-html
+redirect_from:
+  - /uvod-u-web/uvod-html
 ---
 
 **HTML je osnovni jezik weba. Sve stranice su njime napisane.**

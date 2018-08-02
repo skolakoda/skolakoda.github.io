@@ -21,8 +21,8 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 ### Uvod
 
 - [Čemu služe HTML, CSS i Javascript?](https://youtu.be/BFc_YPAxQcg)
-- [Uvod u HTML?](/uvod-u-web/uvod-html)
-- [Uvod u CSS?](/uvod-u-web/uvod-css)
+- [Uvod u HTML?](/uvod-html)
+- [Uvod u CSS?](/uvod-css)
 - [Kratka istorija weba](/kratka-istorija-weba)
 - [Kratka istorija web dizajna](/kratka-istorija-web-dizajna)
 - Konvencija imenovanja fajlova i foldera

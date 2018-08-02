@@ -27,9 +27,6 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- pukle strane:
-    - https://skolakoda.org/uvod-u-web/uvod-html
-    - https://skolakoda.org/uvod-u-web/uvod-css
 - srediti java kurs
 - razvoj igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
