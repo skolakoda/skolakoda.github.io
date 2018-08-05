@@ -4,9 +4,7 @@ layout: lekcija-java
 permalink: /zdravo-java
 ---
 
-![](https://cdn-images-1.medium.com/max/1600/1*jB76MLZjiNhGSQQvxm7LSQ.gif)
-
-Napravite fajl `ZdravoSvete.java`:
+Napravi fajl `ZdravoSvete.java`, sledeće sadržine:
 
 {:.ulaz}
 ```java
@@ -17,7 +15,32 @@ class ZdravoSvete {
 }
 ```
 
+Konvencija je da naziv fajla bude isti kao naziv klase u njemu.
+
+## Prevođenje i pokretanje programa
+
+Da bi računar izvršio ovaj kod, potrebna su dva koraka:
+
+- prevođenje (kompajliranje) izvornog koda
+- pokretanje prevedenog koda
+
+Prvo, java fajl kompajliramo komandom `javac` (skraćeno od *Java compiler*) iz komandne linije:
+
+```
+javac ZdravoSvete.java
+```
+
+Kao rezultat dobijamo kompajlirani fajl `ZdravoSvete.class`, koji pokrećemo komandom `java`, bez navođenja ekstenzije fajla:
+
+```
+java ZdravoSvete
+```
+
+Primetite upotrebu `.java` ekstenzije kod kompiliranja, ali ne i `.class` ekstenzije kod izvršenja.
+
 ## Tumačenje
+
+Ovaj program je mali, ali ima puno delova koje je potrebno razumeti:
 
 - `public` – znači da je metod globalno dostupan
 - `static` – metod je dostupan i kada ne postoji instanca
@@ -62,4 +85,7 @@ Ukoliko kompilacija ne prođe, česti uzroci mogu biti:
 - `()`, `{}`, `[]`, uvijek dolaze u paru i ne prepliću se.
 
 
-Izvor: *Programski jezik Java*, Bilješke sa predavanja Muzafera Saračevića, Novi Pazar, 2015.
+### Izvori
+
+- Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+- *Programski jezik Java*, Bilješke sa predavanja Muzafera Saračevića, Novi Pazar, 2015.

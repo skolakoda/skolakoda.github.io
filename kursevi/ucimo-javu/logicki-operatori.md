@@ -6,7 +6,7 @@ permalink: /java-logicki-operatori
 
 ![](http://www.javascripttutorial.net/wp-content/uploads/2016/11/JavaScript-Logical-Operator.png)
 
-Do sada uvedeni relacijski operatori (`<`, `<=`, `>`, `>=`, `!=`) dovoljni su za testiranje pojedinačnog uvjeta. Za ispitivanje višestrukih uvjeta, morali bismo koristiti više `if` naredbi:
+Relacijski operatori (`<`, `<=`, `>`, `>=`, `!=`) su dovoljni za testiranje pojedinačnog uvjeta. Za ispitivanje višestrukih uvjeta, morali bismo koristiti više `if` naredbi:
 
 ```java
 if (x == 2) {
@@ -18,7 +18,7 @@ if (x == 2) {
 
 To, međutim, može biti nepregledno, a taj nedostatak rješava se uporabom logičkih operatora.
 
-## Konjukcija
+## Konjukcija (i)
 
 Operator `&&` je logički *i* koji za dvije booleovske vrijednosti i vraća true ako i samo ako su oba operanda true. Npr.
 
@@ -28,7 +28,7 @@ b = 3 > 2 && 5 < 7; // b je true
 b = 2 > 3 && 5 < 7; // b je sada false
 ```
 
-## Disjunkcija
+## Disjunkcija (ili)
 
 Operator `||` je logički *ili* koji za dvije booleovske vrijednosti vraća true ako je bar jedan operand true. Npr.
 
@@ -39,7 +39,7 @@ b = 2 > 3 || 5 < 7; // b je i dalje true
 b = 2 > 3 || 5 > 7; // now b je false
 ```
 
-## Negacija
+## Negacija (ne)
 
 Operator `!` je logička negacija koja za booleovsku vrijednost vraća true ako je operand false i obrunuto. Npr.
 
@@ -80,7 +80,7 @@ boolean b = (n != 0) && (m/n > 0);
 
 Čak ako je `n` jednako nuli, neće se dogoditi dijeljenje s nulom jer se lijeva strana prva izračunava, a ako je istinita, onda se desna neće ni računati. No svejedno, moguće je eksplicitno specificirati računanje oba operanda, tj. izbjeći skraćivanje.
 
-Ako želite izračunavati vrijednosti booleovskih izraza bez obzira na istinosnu vrijednost možete se koristiti bitovskim operatorima `&` i `|` umjesto `&&` i `||`. Međutim, pazite da operandi budu zaista booleovski jer ovi operatori imaju svoj smisao i za numeričke tipove, a značenje im je posve drugačije.
+Ako želite izračunavati vrijednosti booleovskih izraza bez obzira na istinosnu vrijednost možete se koristiti [bitovskim operatorima](/bitovni-operatori) `&` i `|` umjesto `&&` i `||`. Međutim, pazite da operandi budu zaista bulovski, jer bitovski operatori imaju svoj smisao i za numeričke tipove, a značenje im je posve drugačije.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

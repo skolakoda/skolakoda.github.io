@@ -40,7 +40,7 @@ permalink: /java-operatori
 &&  Booleovski AND
 ||  Booleovski OR
 ==  Booleovska jednakost
-=   Pridruživanje
+=   Pridruživanje (dodela)
 ~   Bitovski NOT
 ?:  Uvjet
 instanceof  Provjera tipa

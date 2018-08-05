@@ -10,15 +10,14 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 ## Učimo Javu
 # Uvod u objektno orjentisano programiranje
 
-**Nauči Javu, popularni jezik za razvoj velikih poslovnih sistema i podrazumevani jezik razvoja android aplikacija. Savladaj objektno orjentisani pristup razvoju softvera.**
+**Učimo Javu, popularni jezik za razvoj poslovnih sistema i podrazumevani jezik razvoja android aplikacija. Savladaj objektno orjentisani pristup razvoju softvera.**
 
 ### Upoznavanje sa Javom
 
 - [Kratka istorija Jave](/kratka-istorija-jave)
 - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
 - Instalacija Jave
-- [Prvi Java Program](/zdravo-java)
-- [Prevođenje i izvršavanje programa](/java-prevodjenje-i-pokretanje-programa)
+- [Program Zdravo svete](/zdravo-java)
 
 ### Osnove jezika
 
@@ -31,7 +30,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
   - [Označene petlje](/java-oznacene-petlje)
 - [Tipovi podataka u Javi](/java-tipovi-podataka)
 - [Promenljive i nepromenljive](/java-promenljive-i-nepromenljive)
-- Naredbe vs. izrazi
+- [Naredbe vs. izrazi](/naredbe-i-izrazi)
 - Strune (*strings*)
 - [Polja (*arrays*)](/java-polja)
 - [Argumenti komandne linije](/java-argumenti-komandne-linije)
@@ -134,15 +133,3 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - [Imenovanje niti](/java-imenovanje-niti)
 - [Prioriteti niti](/java-prioriteti-niti)
 - [Sinhronizacija niti](/java-sinhronizacija-niti)
-
-### Core Collection Classes
-
-- The Collections Framework
-- The Set Interface
-- Set Implementation Classes
-- The List Interface
-- List Implementation Classes
-- The Queue Interface
-- Queue Implementation Classes
-- The Map Interface
-- Map Implementation Classes

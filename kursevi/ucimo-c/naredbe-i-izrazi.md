@@ -5,15 +5,15 @@ author: damjan
 permalink: /naredbe-i-izrazi
 ---
 
-**Izraz (en. *expression*) je vrednost koja se evaluira. Naredba (en. *statement* - izjava) je instrukcija računaru da nešto uradi. Razlikovanje naredbi i izraza je fundamentalno u računarskoj nauci.**
+**Izraz (en. *expression*) je vrednost koja se evaluira. Naredba (en. *statement*, doslovno izjava) je instrukcija računaru da nešto uradi. Razlikovanje naredbi i izraza je fundamentalno u računarskoj nauci.**
 
-Postoje prosti i složeni izrazi. Prosti izrazi se sastoje od samo jednog člana, a složeni iz dva ili više, povezanih operatorima. Za razliku od izraza, koji samo konstatuju vrednost, naredbe menjaju stanje sveta. Naredbe u C jeziku se uvek završavaju tačka-zarezom`;` Dve ili više naredbi mogu biti smeštene u blok unutar viličastih zagrada.
+Postoje prosti i složeni izrazi. Prosti se sastoje od jednog, a složeni od više članova, povezanih operatorima. Za razliku od izraza, koji samo nose vrednost, naredbe menjaju stanje sveta. Naredbe u C-u i sličnim jezicima se uvek završavaju tačka-zarezom`;` Dve ili više naredbi mogu biti smeštene u blok unutar viličastih zagrada.
 
 ## Primeri izraza
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg/600px-Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg)
 
-Svaki od navedenih redova koda je validan izraz u mnogim programskim jezicima:
+Svaki od navedenih redova koda je validan izraz u Javascriptu i mnogim drugim programskim jezicima:
 
 ```js
 2 + 2           // aritmeticki izraz
@@ -27,7 +27,12 @@ Math.min(2, 22)
 Math.PI
 ```
 
-Neki navedeni izrazi daju aritmetičku, neki logičku, a neki tekstualnu vrednost.
+Neki navedeni izrazi daju aritmetičku, neki logičku, a neki tekstualnu vrednost. Npr, sledeći izraz daje logičku vrednost:
+
+{:.izraz}
+```js
+2 + 2 == 5
+```
 
 ## Primeri naredbi
 
@@ -35,7 +40,6 @@ Neki navedeni izrazi daju aritmetičku, neki logičku, a neki tekstualnu vrednos
 
 Svaki od navedenih redova je naredba, koja menja stanje sveta:
 
-{:ulaz}
 ```js
 x = 5                           // naredba dodele
 zbir = 2 + 2                    // naredba dodele vrednosti izraza
@@ -45,14 +49,13 @@ i++                             // naredba dodele
 return 0;                       // naredba okoncanja funkcije i vracanja vrednosti
 ```
 
-Izrazi takođe mogu biti deo naredbi, kao kod naredbe `if`, koja evaluira uslovni izraz:
+I izrazi mogu biti deo naredbi, kao kod naredbe `if`, koja evaluira uslovni izraz:
 
+{:.ulaz}
 ```js
 if (3 < 5)
     console.log('Ucini nesto')
 ```
-
-Takođe, vrednost izraza često dodeljujemo promenljivoj, pomoću naredbe dodele.
 
 ## Zamenljivost izraza i naredbi
 
@@ -71,10 +74,14 @@ console.log(x)
 
 je moguće zameniti ternarnim operatorom:
 
-{:.izraz}
+{:.ulaz}
 ```js
-4 < 5 ? 'Zdravo' : 'Dovidjenja'
+const x = 4 < 5 ? 'Zdravo' : 'Dovidjenja'
+
+console.log(x)
 ```
+
+Kao što vidimo, favorizovanje izraza umesto naredbi vodi nas upotrebi nepromenljivih umesto promenljivih u programiranju.
 
 ## Imperativno vs. funkcionalno programiranje
 

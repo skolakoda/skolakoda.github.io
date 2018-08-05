@@ -7,11 +7,11 @@ image: /images/koncepti/podaci/java-tipovi-podataka.png
 
 ![java tipovi podataka]({{page.image}})
 
-**Postoji osam osnovnih tipova podataka u Javi: četiri za celobrojne vrednosti, dva za vrednosti sa decimalnim zarezom, jedan za smeštanje pojedinačnih karaktera i jedan za logičke (bulove) podatke, koji mogu imati vrednost `true` ili `false`.**
+**Postoji osam osnovnih tipova podataka u Javi: četiri za celobrojne vrednosti, dva za decimalne, jedan za pojedinačne karaktere i jedan za logičke (bulove) podatke, koji mogu imati vrednost `true` ili `false`.**
 
 ## Primitivni tipovi
 
-U Javi postoji 8 primitivnih tipova podataka:
+Primitivni tipovi su specijalni tipovi podataka ugrađeni u jezik. U Javi postoji 8 primitivnih tipova podataka:
 
 * boolean
 * byte
@@ -24,7 +24,7 @@ U Javi postoji 8 primitivnih tipova podataka:
 
 ## Literali
 
-Međutim postoji samo 7 vrsta literala, a jedan među njima (`String`) nije primitivni tip podataka:
+Literali su eksplicitno navedeni tipovi podataka ispred naziva varijable. Međutim, postoji samo 7 vrsta literala. 
 
 * boolean: true ili false
 * int: 89, -945, 37865
@@ -34,25 +34,21 @@ Međutim postoji samo 7 vrsta literala, a jedan među njima (`String`) nije prim
 * char: 'c', '9', 't'
 * String: "Ovo je string literal"
 
-Ne postoje literali tipa `short` ili `byte`.
+Ne postoje literali tipa `short` ili `byte`, a jedan literal (`String`) nije primitivni tip podataka. `String` je objektni tip, ne primitivni. Međutim, Java kompajler ima posebnu podršku za Stringove, pa može izgledati kao da je to primitivni tip.
 
-`String` je referentni ili objektni tip, ne primitivni. Međutim, Java kompajler ima posebnu podršku za Stringove, pa može izgledati kao da je to primitivni tip.
-
-{:.ulaz}
 ```java
-class Variables {
+class Tipovi {
 
   public static void main (String args[]) {
 
     boolean b = true;
     int low = 1;
     long high = 76L;
-    long middle = 74;
     float pi = 3.1415292f;
     double e = 2.71828;
+    char c = 'a';
     String s = "Hello World!";
 
-    System.out.println(pi);
   }
 
 }

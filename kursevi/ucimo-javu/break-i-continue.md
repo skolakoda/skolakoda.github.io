@@ -1,16 +1,16 @@
 ---
-title: "<code>break</code> i <code>continue</code> u Javi"
+title: "Naredbe <code>break</code> i <code>continue</code> u Javi"
 layout: lekcija-java
 permalink: /java-break-i-continue
 ---
 
-**Nekad je potrebno da izađete iz petlje, nekad da preskočite krug. U ove svrhe se koriste naredbe `break` i `continue`.**
+**Nekad je potrebno da izađete iz petlje, nekad da preskočite krug. U te svrhe se koriste naredbe `break` i `continue`.**
 
 ## Naredba `break`
 
-**Naredba `break` uzrokuje izlazak iz petlje, prije nego što uvjet za ulazak u sljedeću iteraciju postane lažan.**
+**Naredba `break` uzrokuje trenutni izlazak iz petlje, prije nego što se iteracija završi.**
 
-Na primjer, u sljedećoj varijanti programa `CountWheat`, petlja se prekida čim nastane *overflow* pa promenljiva `grains` postane negativna:
+Na primjer, u programu `CountWheat` (vidi [Problem sa pšenicom i šahovskom tablom](https://sr.wikipedia.org/sr-el/%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC_%D1%81%D0%B0_%D0%BF%D1%88%D0%B5%D0%BD%D0%B8%D1%86%D0%BE%D0%BC_%D0%B8_%D1%88%D0%B0%D1%85%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D1%82%D0%B0%D0%B1%D0%BB%D0%BE%D0%BC)), petlja se prekida čim nastane *overflow* pa promenljiva `grains` postane negativna:
 
 {:.ulaz}
 ```java
@@ -38,49 +38,26 @@ class CountWheat  {
 }
 ```
 
-Pogledajmo obradu i izlaz:
-
-```
-% javac CountWheat.java
-% java CountWheat
-2            6           14              30
-62           126         254             510
-1022         2046        4094            8190
-16382        32766       65534           131070
-262142       524286      1048574         2097150
-4194302      8388606     16777214        33554430
-67108862     134217726   268435454       536870910
-1073741822   2147483646      Overflow: grains = -2147483648
-Gotovo!
-```
-
-Naredba `break` najčešće se koristi unutar naredbe `switch`.
-
 ## Naredba `continue`
 
-Naredba `continue` nastavlja na sljedeću iteraciju, ne izvršavajući pri tom ostatak naredbi u tijelu petlje. Ako je to `for` petlja, brojač se inkrementira.
+Naredba `continue` preskače na sljedeću iteraciju, ne izvršavajući ostatak naredbi u tijelu petlje. Ako je to `for` petlja, brojač se inkrementira.
 
-Sljedeći primjer pokazuje kako se može preskočiti obrada parnih elemenata u polju:
+Sljedeći primjer pokazuje kako se može preskočiti obrada parnih elemenata u nizu:
 
 ```java
 for (int i = 0; i < m.length; i++) {
-
   if (m[i] % 2 == 0) continue;
   // obrada neparnih elemenata...
-
 }
 ```
 
-U praksi se naredba `continue` rjeđe koristi, jer se u većini slučajeva problem može riješiti i bez nje. Prethodni primjer mogao je izgledati i ovako:
+U praksi se naredba `continue` rjeđe koristi, jer se u većini slučajeva problem može riješiti bez nje. Prethodni primjer mogao je izgledati i ovako:
 
 ```java
 for (int i = 0; i < m.length; i++) {
-
   if (m[i] % 2 != 0) {
     // obrada neparnih elemenata...
-
   }
-
 }
 ```
 

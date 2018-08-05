@@ -4,9 +4,9 @@ layout: lekcija-java
 permalink: /java-petlje
 ---
 
-## `while` petlja
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Semanggi_roundabout%2C_Sekilas_Lintas_Kepolisian_Republik_Indonesia%2C_p38.jpg/721px-Semanggi_roundabout%2C_Sekilas_Lintas_Kepolisian_Republik_Indonesia%2C_p38.jpg)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/While-loop-diagram.svg/379px-While-loop-diagram.svg.png)
+## `while` petlja
 
 ```java
 class Hello {
@@ -14,13 +14,13 @@ class Hello {
   public static void main (String args[]) {
 
     int i;
-
+    i = 0;                        // Inicijaliziramo brojac
     System.out.print("Hello ");   // Ispis Hello
-    i = 0;                        // Inicijaliziramo brojac prolaza kroz petlju
-    while (i < args.length) {     // Testiramo i iteriramo
+
+    while (i < args.length) {     // poredimo i iteriramo
       System.out.print(args[i]);  
       System.out.print(" ");
-      i = i + 1;                  // Povecamo brojac prolaza za 1
+      i = i + 1;                  // Povecamo brojac za 1
     }
     System.out.println();         // Zavrsimo liniju
   }
@@ -28,7 +28,8 @@ class Hello {
 }
 ```
 
-Konzola:
+Isprobati u konzoli:
+
 ```
 % javac Hello.java
 % java Hello
@@ -113,7 +114,7 @@ class Fibonacci {
 }
 ```
 
-Primjer pokazujue zbrajanje, while-petlju, relacije te deklaracije i pridruživanje varijabli.
+Ovaj primjer pokazujue zbrajanje, while petlju, relacije te deklaracije i pridruživanje varijabli.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
