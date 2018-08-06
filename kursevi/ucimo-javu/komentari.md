@@ -10,12 +10,19 @@ Drugi programeri će čitati i pokušavati da razumeju vaš kod. Budite predusre
 
 U Java programskom jeziku postoje tri tipa komentara:
 
+- blok komentari
+- komentari u liniji
+- komentari dokumentacije
+
 ## Blok komentari
 
 Blok komentari sadrže više od jedne linije teksta, koje se pišu izmedu simbola `/*` i `*/`. Na primer:
 
 ```java
-/* This method will calculate the cost of shipping, handling, and all applicable taxes */
+/* 
+  This method will calculate the cost of shipping, 
+  handling, and all applicable taxes 
+*/
 ```
 
 Kompajler ignoriše tekst u komentarima, tako da možete da pišete šta god želite.
@@ -32,6 +39,21 @@ int cost = calcShippingCost(); // results depends on country
 ## Komentari dokumentacije
 
 Određeni komentari pocinju sa `/**` i završavaju se sa `*/`. Njih koristi specijalni alat `javadoc` prilikom automatskog ekstrahovanja teksta iz komentara i kreiranja dokumentacije programa. Javadoc alat omogućava i korišcenje specijalne notacije (na primer, `@param`, `@return`, `@see`) koja omogućava kreiranje dokumentacije programa profesionalnog izgleda.
+
+```java
+/**
+ * Registers the text to display in a tool tip. The text 
+ * displays when the cursor lingers over the component.
+ *
+ * @param text  the string to display. If the text is null, 
+ *              the tool tip is turned off for this component.
+ *
+ * @author Daman Daman
+ */
+public void setToolTipText(String text) {
+  
+}
+```
 
 {:.uokvireno.ideja}
 Da biste saznali šta `javadoc` može da generiše, procitajte na adresi [http://goo.gl/imDMU](http://goo.gl/imDMU) tehničko uputstvo kompanije Oracle o pisanju `javadoc` komentara.

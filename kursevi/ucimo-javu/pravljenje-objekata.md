@@ -4,109 +4,108 @@ layout: lekcija-java
 permalink: /java-pravljenje-objekata
 ---
 
-**Da bismo kreirali objekat klase, moramo koristi ključnu riječ `new` za kojom
-slijedi poziv konstrukotra.**
+**Da bismo kreirali objekat klase, moramo koristi ključnu riječ `new` za kojom slijedi poziv konstruktora.**
 
-Sljedeći program kreira objekt tipa `TwoDPoint` i ispisuje njegove atribute:
+Sljedeći program kreira objekt tipa `Koordinata` i ispisuje njegove atribute:
 
 {:.ulaz}
 ```java
-class TwoDPoint {
+class Koordinata {
   double x;
   double y;
 }
 
-class OriginPrinter {
+class Stampac {
   public static void main(String[] args) {
-    TwoDPoint origin;         // ovime smo deklarirali (ne i alocirali) objekt origin
-    origin = new TwoDPoint(); // sada smo uz pomoc konstruktora alocirali (kreirali objekt)
-    origin.x = 0.0;           // Inicijaliziramo njegove atribute
-    origin.y = 0.0;
-    // Ispisujemo podatke o objektu origin
-    System.out.println("Ishodiste ima koordinate " + origin.x + ", " + origin.y);
+    Koordinata ishodiste;         // ovime smo deklarirali (ne i alocirali) objekt ishodiste
+    ishodiste = new Koordinata(); // sada smo uz pomoc konstruktora alocirali (kreirali objekt)
+    ishodiste.x = 0.0;            // Inicijaliziramo njegove atribute
+    ishodiste.y = 0.0;
+    // Ispisujemo podatke o objektu ishodiste
+    System.out.println("Ishodiste ima koordinate " + ishodiste.x + ", " + ishodiste.y);
   }
 }
 ```
 
 Točka `.` je tzv. separator pristupa članovima. Poziv konstruktora uz ključnu riječ `new` potreban je za alociranje objekta.
 
-## Razlikovanje objekata iste klase
+## Više objekata iste klase
 
-Općenito, klase će imati više od jedne instance. Sljedeći program kreira dva različita objekta tipa `TwoDPoint` i ispisuje njihove atribute.
+Uglavnom, klase će imati više od jedne instance. Sljedeći program kreira dva različita objekta tipa `Koordinata` i ispisuje njihove atribute.
 
 {:.ulaz}
 ```java
-class TwoDPoint {
+class Koordinata {
   double x;
   double y;
 }
 
-class TwoPointPrinter {
+class Stampac {
   public static void main(String[] args) {
-    TwoDPoint origin;         // deklariramo tocku origin
-    TwoDPoint one;            // deklariramo tocku one
-    origin = new TwoDPoint(); // alociramo origin pomocu konstruktora klase
-    one = new TwoDPoint();    // alociramo one pomocu konstruktora klase
+    Koordinata ishodiste;         // deklariramo objekat ishodiste
+    Koordinata jedan;             // deklariramo objekat jedan
+    ishodiste = new Koordinata(); // alociramo ishodiste pomocu konstruktora klase
+    jedan = new Koordinata();     // alociramo jedan pomocu konstruktora klase
     // postavljamo vrijednosti atributa
-    origin.x = 0.0;
-    origin.y = 0.0;
-    one.x = 1.0;
-    one.y = 0.0;
+    ishodiste.x = 0.0;
+    ishodiste.y = 0.0;
+    jedan.x = 1.0;
+    jedan.y = 0.0;
     // ispisujemo koordinate ovih dviju tocaka
-    System.out.println("Ishodiste ima koordinate " + origin.x + ", " + origin.y);
-    System.out.println("Tocka one ima koordinate " + one.x + ", " + one.y);
+    System.out.println("Ishodiste ima koordinate " + ishodiste.x + ", " + ishodiste.y);
+    System.out.println("Tocka jedan ima koordinate " + jedan.x + ", " + jedan.y);
   }
 }
 ```
 
 Obrada:
 ```
-% javac TwoPointPrinter.java
-% java TwoPointPrinter
+% javac Stampac.java
+% java Stampac
 Ishodiste ima koordinate 0.0, 0.0
-Tocka one ima koordinate 1.0, 0.0
+Tocka jedan ima koordinate 1.0, 0.0
 ```
 
-Variable `one` i `origin` su dvije različite referentne varijable koje pokazuju na dva različita objekta.
+Variable `jedan` i `ishodiste` su dvije različite referentne varijable koje pokazuju na dva različita objekta.
 
-## Višestruko referenciranje objekta
+## Više referenci na isti objekat
 
 Moguće je da dvije varijable pokazuju na isti objekt. Kad na neki objekt ne pokazuje ni jedna referentna varijabla, on će biti označen za uklanjanje (*garbage collection*).
 
-Sljedeći program deklarira dvije varijable tipa `TwoDPoint`, kreira jedan objekt tipa `TwoDPoint` i pridružuje taj objekt objema varijablama. Te se dvije varijable smatraju jednakima:
+Sljedeći program deklarira dvije varijable tipa `Koordinata`, kreira jedan objekt tipa `Koordinata` i pridružuje taj objekt objema varijablama. Te se dvije varijable smatraju jednakima:
 
 {:.ulaz}
 ```java
-class TwoDPoint {
+class Koordinata {
   double x;
   double y;
 }
 
-class EqualPointPrinter {
+class Stampac {
   public static void main(String[] args) {
-    TwoDPoint origin1; // deklariramo tocku origin1
-    TwoDPoint origin2; // deklariramo tocku origin2
-    origin1 = new TwoDPoint(); // alociramo origin1 pomocu konstruktora klase
-    origin2 = origin1;         // definiramo jos jednu referentnu varijablu za origin1
-    // Postavljamo vrijednosti atributa (samo za origin1)
-    origin1.x = 0.0;
-    origin1.y = 0.0;
+    Koordinata ishodiste1; // deklariramo objekat ishodiste1
+    Koordinata ishodiste2; // deklariramo objekat ishodiste2
+    ishodiste1 = new Koordinata(); // alociramo ishodiste1 pomocu konstruktora klase
+    ishodiste2 = ishodiste1;       // definiramo referentnu varijablu za ishodiste1
+    // Postavljamo vrijednosti atributa (samo za ishodiste1)
+    ishodiste1.x = 0.0;
+    ishodiste1.y = 0.0;
     // print
-    System.out.println("Tocka origin1 ima koordinate " + origin1.x + ", " + origin1.y);
-    System.out.println("Tocka origin2 ima koordinate " + origin2.x + ", " + origin2.y);
+    System.out.println("Tocka ishodiste1 ima koordinate " + ishodiste1.x + ", " + ishodiste1.y);
+    System.out.println("Tocka ishodiste2 ima koordinate " + ishodiste2.x + ", " + ishodiste2.y);
   }
 }
 ```
 
 Obrada i izlaz:
 ```
-% javac EqualPointPrinter.java
-% java EqualPointPrinter
-Tocka origin1 ima koordinate 0.0, 0.0
-Tocka origin2 ima koordinate 0.0, 0.0
+% javac Stampac.java
+% java Stampac
+Tocka ishodiste1 ima koordinate 0.0, 0.0
+Tocka ishodiste2 ima koordinate 0.0, 0.0
 ```
 
-Primijetite da su `origin1` i `origin2` dvije različite varijable koje referenciraju isti objekt.
+Primijetite da su `ishodiste1` i `ishodiste2` dvije različite varijable koje referenciraju isti objekt.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

@@ -38,11 +38,11 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 
 ### Integrisano razvojno okruženje
 
-- Izbor i instalacija okruženje (Eclipse, NetBeans, BlueJ)
+- Izbor i instalacija okruženja (Eclipse, NetBeans, BlueJ)
 - Postavljanje projekta
-- Creating a New Java Application
-- Running a Java Application
-- Debugging a Java Application
+- Pravljenje nove Java aplikacije
+- Pokretanje Java aplikacije
+- Debagovanje
 
 ### Klase i objekti
 
