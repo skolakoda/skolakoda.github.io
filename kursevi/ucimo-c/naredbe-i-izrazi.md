@@ -11,7 +11,7 @@ Postoje prosti i složeni izrazi. Prosti se sastoje od jednog, a složeni od vi�
 
 ## Primeri izraza
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg/600px-Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/A_laughing_face_%28left%29_and_a_face_expressing_acute_pain_%28rig_Wellcome_V0009322.jpg/640px-A_laughing_face_%28left%29_and_a_face_expressing_acute_pain_%28rig_Wellcome_V0009322.jpg)
 
 Svaki od navedenih redova koda je validan izraz u Javascriptu i mnogim drugim programskim jezicima:
 

@@ -1,5 +1,5 @@
 ---
-title: Polja u Javi
+title: Nizovi u Javi
 layout: lekcija-java
 permalink: /java-polja
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Las_filas_003.jpg/640px-Las_filas_003.jpg
@@ -7,7 +7,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Las_filas_003.j
 
 ![polje]({{page.image}})
 
-**Polje ili niz (*array*) je kolekcija varijabli istog tipa.** Npr. `args[]` u `main()` metodi je niz objekata tipa `String`.
+**Niz ili polje  (*array*) je kolekcija varijabli istog tipa.** Npr. `args[]` u `main()` metodi je niz objekata tipa `String`.
 
 ## Primjer: `RandomTest`
 
@@ -18,23 +18,29 @@ Napravit ćemo polje `ndigits` od 10 elemenata. Nulti element će pratiti broj p
 {:.ulaz}
 ```java
 import java.util.Random;
+
 class RandomTest {
   public static void main (String args[]) {
+
     int[] ndigits = new int[10];
     double x;
     int n;
     Random myRandom = new Random();
+
     for (int i = 0; i < 10; i++) {      // inicijaliziranje polja
       ndigits[i] = 0;
     }
+
     for (long i=0; i < 100000; i++) {   // testiranje generatora slucajnih brojeva
       x = myRandom.nextDouble() * 10.0; // novi slucajni broj izmedju 0 i 9
       n = (int) x;                      // pretvaranje u cijeli broj
       ndigits[n]++;                     // biljezimo pojavu dobivenog slucajnog broja
     }
+
     for (int i = 0; i < 10; i++) {      // ispis rezultata
       System.out.println(i+": " + ndigits[i]);
     }
+
   }
 }
 ```
