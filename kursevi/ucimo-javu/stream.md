@@ -65,4 +65,4 @@ public boolean markSupported()
 Primijetite da gotovo sve ove metode mogu izbaciti `IOException`. To vrijedi za uglavnom sve što se odnosi na ulaz i izlaz. Jedina iznimka od tog pravila je klasa `PrintStream` koja će progutati sve iznimke.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

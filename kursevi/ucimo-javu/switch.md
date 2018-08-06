@@ -46,4 +46,4 @@ U ovom primjeru `x` mora biti varijabla ili izraz koji se izračunava ili pretva
 Kad je podudarnost pronađena, izvršava se sve što slijedi do kraja `switch` bloka ili naredbe `break`. Uobičajeno je stavljati `break` naredbu na kraj svakog `case` bloka, kako bi se izbjegli neočekivani efekti.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

@@ -118,4 +118,4 @@ class Hello {
 
 Ipak, takav način ispitivanja brzo postaje kompliciran. Postoje i bolja rješenja, kao što pokazuju sljedeći primjeri.
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

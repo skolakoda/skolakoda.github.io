@@ -134,4 +134,4 @@ public class SychronizedCounter extends Counter {
 Međutim, sinkronizacija ima svoje nedostatke. Ona bitno smanjuje preformanse. Općenito, sinkronizirane metode su tri do deset puta sporije od ekvivalentnih nesinkroniziranih. Sinkronizacija također ne otklanja automatski sve pogreške koje proizlaze iz threadovskog načina izvršavanja.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

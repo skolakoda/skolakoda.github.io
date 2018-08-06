@@ -51,4 +51,4 @@ Primijetimo da ovdje nemamo ostale metode iz nadklase `Car`, jer su sve naslije�
 Naravno, osim prekrivanja metoda (i varijabli) iz nadklase, podklasa uvijek može dodavati i svoje vlastite metode (i varijable).
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

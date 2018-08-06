@@ -6,68 +6,67 @@ permalink: /primer-klasa-porez
 
 **Ovaj program izračunava vrednost poreza. Cilj je prikazivanje načina na koji Java klase komuniciraju, kako se pozivaju metodi i kako se mogu koristiti promenljive.**
 
-Prvo je neophodno da se opredelite koje Java klase treba da kreirate za rešavanje problema. Zatim, razmislite o atributima (promenljivim u klasama) i metodima (ponašanju) koje ove klase treba da imaju.
+Prvo je neophodno da se opredelimo koje Java klase treba da kreiramo za rešavanje problema. Zatim, razmislimo o atributima i metodima koje ove klase treba da imaju.
 
-## Deklarisanje Tax klase
+## Deklarisanje klase
 
-Pošto planirate da izračunavate vrednost poreza, nije potrebno da budete naučnik da biste utvrdili da je potrebno da kreirate klasu Tax. Počnite nazivom klase i velikim zagradama – to je najjednostavnija klasa koju možete da kreirate:
+Pošto planirate da izračunavate vrednost poreza, nije potrebno da budete naučnik da biste utvrdili da je potrebno da kreirate klasu Porez. Počnite nazivom klase i velikim zagradama – to je najjednostavnija klasa koju možete da kreirate:
 
 ```java
-class Tax {
+class Porez {
 
 }
 ```
 
-Šta je neophodno da bi ova klasa mogla da određuje vrednost poreza? Definitivno morate da znate koliki je prihod osobe kojoj određujete godišnji porez. Ukupan prihod je dobar kandidat za atribut klase. Izaberite jedan od numeričkih tipova podataka. Ukupan prihod nije uvek ceo broj, tako da možete da koristite `double` tip podataka, jer je reč o broju sa decimalama. Možete da koristite `float` umesto ovog tipa, ali korišćenje `double` tipa omogućava da budete spremni da određujete vrednost i za veće prihode.
+Šta je neophodno da bi ova klasa mogla da određuje vrednost poreza? Definitivno morate znati koliki je prihod osobe kojoj određujete godišnji porez. Ukupan prihod je dobar kandidat za atribut klase. Izaberite jedan od numeričkih tipova podataka. Ukupan prihod nije uvek ceo broj, tako da možete da koristite `double` tip podataka, jer je reč o broju sa decimalama. Možete da koristite i `float`, ali `double` omogućava da budete spremni i za veće prihode.
 
 ```java
-class Tax {
-  double grossIncome;
+class Porez {
+  double ukupanPrihod;
 }
 ```
 
-Osim toga, neophodno je da znate u kom statusu je osoba; pravila oporezivanja su različita u različitim državama SAD. Sledi nekoliko skraćenica država u SAD: NY, NJ, CT. Upotrebite `String` za skladištenje tekstualnih podataka:
+Osim toga, neophodno je da znate u kojoj državi je osoba; pravila oporezivanja su različita u različitim državama. Sledi nekoliko skraćenica država u SAD: NY, NJ, CT. Upotrebite tip `String` za čuvanje tekstualnih podataka:
 
 ```java
-class Tax {
-  double grossIncome;
-  String state;
+class Porez {
+  double ukupanPrihod;
+  String drzava;
 }
 ```
 
 Dodajte još jedan atribut za izdržavana lica, za osobu čiji porez računate. Celobrojni tip (`int`) biće odgovarajući – nije moguće da neko izdržava dva i po lica:
 
 ```java
-class Tax {
-  double grossIncome;
-  String state;
-  int dependents;
+class Porez {
+  double ukupanPrihod;
+  String drzava;
+  int izdrzavanaLica;
 }
 ```
 
-## Dodavanje metoda u Tax klasu
+## Dodavanje metoda
 
-Promenljive skladište podatke, dok metodi izvršavaju akcije. Vreme je za akcije. Prvi metod
-`calcTax()` određuje vrednost poreza na osnovu vrednosti ukupnog prohoda, broja izdržavanih lica i države:
+Promenljive skladište podatke, dok metodi izvršavaju akcije. Vreme je za akcije. Prvi metod `racunajPorez()` određuje vrednost poreza na osnovu vrednosti ukupnog prihoda, broja izdržavanih lica i države:
 
 ```java
-class Tax {
-  double grossIncome;
-  String state;
-  int dependents;
+class Porez {
+  double ukupanPrihod;
+  String drzava;
+  int izdrzavanaLica;
 
-  public double calcTax() {
+  public double racunajPorez() {
     return 234.55;
   }
 }
 ```
 
-Specifikacija `calcTax()` metoda definiše sledeće:
+Specifikacija metoda `racunajPorez()` definiše sledeće:
 - Bilo koja eksterna klasa može da pristupa ovom metodu (`public`).
 - Ovaj metod vraća vrednost tipa `double`.
-- Naziv metoda je `calcTax`.
+- Naziv metoda je `racunajPorez`.
 
-Prazne zagrade nakon naziva metoda ukazuju da metod nema argumente, ili, drugim rečima, nije neophodna ni jedna vrednost izvan `Tax` klase da bi bila izvršena izračunavanja. Zapravo, ova verzija `calcTax()` metoda ne koristi čak ni vrednosti iz promenljivih klase za izračunavanje poreza. Uvek vraća vrednost 234,55, koja je uneta u sam kod.
+Prazne zagrade nakon naziva metoda ukazuju da metod nema argumente, ili, drugim rečima, nije neophodna ni jedna vrednost izvan `Porez` klase da bi bila izvršena izračunavanja. Zapravo, ova verzija `racunajPorez()` metoda ne koristi čak ni vrednosti iz promenljivih klase za izračunavanje poreza. Uvek vraća vrednost 234,55, koja je uneta u sam kod.
 
 ### Vraćanje vrednosti
 
@@ -79,7 +78,7 @@ public void printAnnualTaxReturn() {
 }
 ```
 
-Koristeći `return` naredbu, metod može da vrati programu iz koga se poziva podatke koji se nalaze u promenljivoj - na primer:
+Koristeći naredbu `return`, metod može da vrati programu iz koga se poziva podatke koji se nalaze u promenljivoj - na primer:
 
 ```java
 return calculatedTax;
@@ -87,68 +86,68 @@ return calculatedTax;
 
 Ako deklarišete povratni tip u specifikaciji metoda, ali zaboravite da ukucate `return` naredbu u telu metoda, Java kompajler prijavljuje grešku.
 
-## Deklarisanje druge klase TestTax
+## Deklarisanje glavne klase
 
-`Tax` klasa omogućava određivanje načina na koji se računa porez, ali u realnim aplikacijama imaćete brojne klase koje predstavljaju različite tokove podataka u ovom procesu. Zavisno od tipa zaposlenja ili prihoda, računovođe koriste brojne druge različite forme za određivanje poreza.
+`Porez` klasa omogućava određivanje načina na koji se računa porez, ali u realnim aplikacijama imaćete brojne klase koje predstavljaju različite tokove podataka u ovom procesu. Zavisno od tipa zaposlenja ili prihoda, računovođe koriste brojne druge različite forme za određivanje poreza.
 
-Svaka od ovih klasa predstavlja određeni entitet, ali ni jedna nije izvršni program; to znači da ni jedna neće sadržati `main()` metod. Neophodno je da kreirate još jednu klasu za startovanje aplikacije i kreiranje instanci drugih klasa. Nju ćemo nazvati `TestTax`.
+Svaka od ovih klasa predstavlja određeni entitet, ali ni jedna nije izvršni program; to znači da ni jedna neće sadržati `main()` metod. Neophodno je da kreirate još jednu klasu za startovanje aplikacije i kreiranje instanci drugih klasa. Nju ćemo nazvati `TestPorez`.
 
-Klasa `TestTax` treba da ima mogućnost izvršavanja sledećih akcija:
-- Kreiranje instance `Tax` klase
-- Dodeljivanje podataka korisnika (ukupan prihod, država, izdržavana lica) promenljivim klase `Tax`.
-- Izvršavanje metoda `calcTax()`
-- Prikazivanje rezultata izvršavanja na ekranu Klasa `TestTax` je smeštena u posebnu datoteku pod nazivom `TestTax.java`.
+Klasa `TestPorez` treba da ima mogućnost izvršavanja sledećih akcija:
+- Kreiranje instance `Porez` klase
+- Dodeljivanje podataka korisnika (ukupan prihod, država, izdržavana lica) promenljivim klase `Porez`.
+- Izvršavanje metoda `racunajPorez()`
+- Prikazivanje rezultata izvršavanja na ekranu Klasa `TestPorez` je smeštena u posebnu datoteku pod nazivom `TestPorez.java`.
 
 ```java
-class TestTax {
+class TestPorez {
   public static void main(String[] args){
-    Tax t = new Tax(); // kreranje instance
+    Porez p = new Porez(); // kreranje instance
 
     // dodeljivanje vrednosti članovima klase
-    t.grossIncome= 50000;
-    t.dependents= 2;
-    t.state= "NJ";
+    p.ukupanPrihod= 50000;
+    p.izdrzavanaLica= 2;
+    p.drzava= "NJ";
 
-    double yourTax = t.calcTax(); //određivanje poreza
+    double vasPorez = p.racunajPorez(); //određivanje poreza
 
     // Prikazivanje rezultata
-    System.out.println("Your tax is " + yourTax);
+    System.out.println("Vas porez je " + vasPorez);
   }
 }
 ```
 
-U prethodnom kodu deklarisali smo promenljivu `t` tipa `Tax`. Metod `main()` je početna tačka programa za izračunavanje poreza. Ovaj metod kreira instancu klase `Tax`, a promenljiva `t` ukazuje na mesto u memoriji vašeg računara gde je kreiran `Tax` objekat. Od tog trenutka, ukoliko želite da referencirate ovaj objekat, koristite promenljivu `t`.
+U prethodnom kodu deklarisali smo promenljivu `p` tipa `Porez`. Metod `main()` je početna tačka programa za izračunavanje poreza. Ovaj metod kreira instancu klase `Porez`, a promenljiva `p` ukazuje na mesto u memoriji vašeg računara gde je kreiran `Porez` objekat. Od tog trenutka, ukoliko želite da referencirate ovaj objekat, koristite promenljivu `p`.
 
-Sledeće tri linije omogućavaju dodeljivanje vrednosti poljima `Tax` objekta:
+Sledeće tri linije omogućavaju dodeljivanje vrednosti poljima `Porez` objekta:
 
 ```java
-t.grossIncome= 50000;
-t.dependents= 2;
-t.state= "NJ";
+p.ukupanPrihod= 50000;
+p.izdrzavanaLica= 2;
+p.drzava= "NJ";
 ```
 
-Nakon toga, možete da izračunate porez za objekat `t` izvršavanjem metoda `calcTax()`, a rezultat izvršavanja ovog metoda biće dodeljen promenljivoj `yourTax`. Metod `calcTax()` i dalje vraća vrednost definisanu u kodu, ali to ćete promeniti sami. Poslednja linija služi za prikazivanje rezultata u sistemskoj konzoli.
+Nakon toga, možete da izračunate porez za objekat `p` izvršavanjem metoda `racunajPorez()`, a rezultat izvršavanja ovog metoda biće dodeljen promenljivoj `vasPorez`. Metod `racunajPorez()` i dalje vraća vrednost definisanu u kodu, ali to ćete promeniti sami. Poslednja linija služi za prikazivanje rezultata u sistemskoj konzoli.
 
-U ovom trenutku imate dve klase koje međusobno komuniciraju - `TestTax` i `Tax`. Klasa `TextTax` kreira instancu `Tax` klase, inicijalizuje njene promenljive, a zatim izvršava njen metod `calcTax()`, koji vraća vrednost klasi `TextTax`.
+U ovom trenutku imate dve klase koje međusobno komuniciraju - `TestPorez` i `Porez`. Klasa `TestPorez` kreira instancu `Porez` klase, inicijalizuje njene promenljive, a zatim izvršava njen metod `racunajPorez()`, koji vraća vrednost klasi `TestPorez`.
 
 ## Probajte sami
 
-Kreirajte pomoću *Eclipse* alata aplikaciju za određivanje poreza opisanu u ovoj lekciji, a zatim je modifikujte tako da zamenite vrednost unetu u kodu `calcTax()` metodom sa pravim izračunavanjima. Recimo, ukoliko je ukupan prihod manji od 30.000 dolara, državni porez je 5 odsto. Ukoliko je ukupan prihod veći od 30.000 dolara, za porez se izdvaja 6 odsto:
+Kreirajte pomoću *Eclipse* alata aplikaciju za određivanje poreza opisanu u ovoj lekciji, a zatim je modifikujte tako da zamenite vrednost unetu u kodu `racunajPorez()` metodom sa pravim izračunavanjima. Recimo, ukoliko je ukupan prihod manji od 30.000 dolara, državni porez je 5 odsto. Ukoliko je ukupan prihod veći od 30.000 dolara, za porez se izdvaja 6 odsto:
 
 ```java
-public double calcTax() {
+public double racunajPorez() {
   double stateTax = 0;
-  if (grossIncome < 30000) {
-    stateTax = grossIncome * 0.05;
+  if (ukupanPrihod < 30000) {
+    stateTax = ukupanPrihod * 0.05;
   }
   else {
-    stateTax = grossIncome * 0.06;
+    stateTax = ukupanPrihod * 0.06;
   }
   return stateTax;
 }
 ```
 
-Startujte program nekoliko puta, modifikujući vrednosti promenljivih `Tax` klase. Proverite da li je u konzoli prikazana vrednost poreza ispravno određena.
+Startujte program nekoliko puta, modifikujući vrednosti promenljivih `Porez` klase. Proverite da li je u konzoli prikazana vrednost poreza ispravno određena.
 
 
 Izvor: Yakov Fain, *Java 8 programiranje* (promo lekcija), Kompjuter biblioteka, Beograd, 2015.

@@ -70,4 +70,4 @@ Stringovi su jednaki.
 Razlozi za ovo sežu prilično duboko u filozofiju Jave i prirodu objekata kakvi su npr. stringovi.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

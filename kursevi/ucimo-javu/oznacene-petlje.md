@@ -63,4 +63,4 @@ Sada bi rezultat izvršavanja bio:
 jer je `j` postao 2, a vanjska petlja je prekinuta.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

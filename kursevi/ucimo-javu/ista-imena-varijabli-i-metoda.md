@@ -79,4 +79,4 @@ Metode također mogu biti overloaded. Na primjer `System.out.println()` može is
 Normalno jedan identifikator referencira točno jednu metodu ili konstruktor. Međutim kad jedan identifikator označava više od jedne metode ili konstruktora, to je *overloading*.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

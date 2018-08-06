@@ -127,4 +127,4 @@ for (int i=0; i <= 100; i++) {
 Primijetimo da će brojevi tipa `int` kad budu spremljeni u polje postati `float`, jer je polje tako deklarirano.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

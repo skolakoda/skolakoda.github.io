@@ -30,4 +30,4 @@ class Car {
 Kada unutar metode imamo lokalne varijable, kao `excess`, on ne mogu biti referencirane izvan metode. S druge strane, varijable `licensePlate`, `speed` i `maxSpeed` pripadaju klasi `Car`. Definirane su izvan bilo koje metode, ali unutar klase i nazivaju se varijable članovice ili atributi.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

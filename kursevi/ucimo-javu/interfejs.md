@@ -53,4 +53,4 @@ Klasa prezentira prema vanjskom svijetu određenu sliku sebe, tzv. sučelje. Su�
 Za razliku od klasa, sučelje može biti pridruženo klasi koja je već podklasa neke druge klase (klasa u Javi može imati samo jednu neposrednu nadklasu). Nadalje, sučelje se može primijeniti (kao neka vrsta "tipa") na članove mnogih različitih klasa.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

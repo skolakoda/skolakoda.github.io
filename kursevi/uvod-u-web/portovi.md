@@ -16,4 +16,4 @@ Mnogi servisi rade na tzv. općepoznatim (*well-known*), portovima. To znači da
 
 Ne možete se naprosto konektirati na bilo koji port na bilo kojem hostu. Konekcija je moguća samo na one portove na kojima udaljeno računalo osluškuje dolazne konekcije.
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

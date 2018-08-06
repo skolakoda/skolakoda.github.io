@@ -90,4 +90,4 @@ Dodan objekt Motorcycle@77d134
 Uklonjen objekt [Automobil: oznaka=New York B45 636 brzina=0.0Max. brzina=120.0]
 ```
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

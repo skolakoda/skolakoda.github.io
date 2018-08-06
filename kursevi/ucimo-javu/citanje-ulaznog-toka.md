@@ -155,4 +155,4 @@ public boolean markSupported()
 Metoda `markSupported()` vraća `true` ako taj tok podržava markiranje, a `false` inače. Pod pretpostavkom da je markiranje podržano, metoda `mark()` stavlja bookmark na mjesto gdje se kasnije želite vratiti pomoću metode `reset()`. Istodobno u jednom toku može postojati samo jedan takav bookmark. Sljedeće markiranje izbrisat će prethodno. Ako markiranje nije podržano, ove će metode izbaciti `IOException`.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

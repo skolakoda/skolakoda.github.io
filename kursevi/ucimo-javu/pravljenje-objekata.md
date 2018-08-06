@@ -108,4 +108,4 @@ Tocka ishodiste2 ima koordinate 0.0, 0.0
 Primijetite da su `ishodiste1` i `ishodiste2` dvije različite varijable koje referenciraju isti objekt.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

@@ -132,4 +132,4 @@ public class HelloThere {
 Rijetko se pokušava uhvatiti generički `Error` ili `Throwable` jer za takvom općenitom iznimkom zaista je teško počistiti nered.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

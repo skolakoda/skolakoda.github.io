@@ -31,4 +31,4 @@ Kad se vrijednost pretvara u drugi tip prije pridruživanja, niz operacija se po
 Valja voditi računa o tome da prisilno pretvaranje može uzrokovati pogreške kojima će biti vrlo teško ući u trag i zato ovu mogućnost treba koristiti s oprezom.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

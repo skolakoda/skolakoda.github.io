@@ -102,4 +102,4 @@ class Car {
 U početku, zbog jasnoće, preporučljivo je uvijek eksplicitno koristiti prefiks `this`, ali kasnije se od toga može i odustati.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

@@ -29,4 +29,4 @@ Ponekad, međutim, želite dodati vlastite niti nekoj aplikaciji. Najjednostavni
 Drugi razlog za korištenje niti je ravnomjerna raspodjela mogućnosti računala između zadaća. Ako želite crtati sličice na ekranu, svejedno želite ostaviti korisniku mogućnost da komunicira. Uporabom niti omogućit ćete da korisnički unos dobije visok prioritet, a crtanje sličica nizak.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

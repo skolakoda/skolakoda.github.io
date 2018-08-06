@@ -73,4 +73,4 @@ Podklase od of `DataInputStream` i `DataOutputStream` koje mogu serijalizirati i
 Možete kreirati i svoje vlastite podklase od `java.io.FilterInputStream` i `java.io.FilterOutputStream` koje će izvoditi filtriranja prema vašim potrebama.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

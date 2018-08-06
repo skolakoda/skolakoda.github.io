@@ -102,7 +102,7 @@ Mnoge aplikacije koje ćete pisati koristit će više klasa. Uobičajeno je da s
 
 ## Inicijalne vrednosti atributa
 
-Atributi mogu, i obično trebaju, imati inicijalne vrednosti. Klasu `Kola` možemo preraditi da ima inicijalne vrednosti. Sljedeći program kreira novi automobil i ispisuje inicijalne vrednosti svojstava:
+Atributi mogu, i obično trebaju, imati inicijalne vrednosti. Klasu `Kola` možemo preraditi da ima inicijalne vrednosti atributa. Sljedeći program kreira novi automobil i ispisuje inicijalne vrednosti:
 
 {:.ulaz}
 ```java
@@ -130,4 +130,4 @@ Ukoliko pokrećete program iz komandne linije (možete odvojiti klase u zasebne 
 Neregistrovan se krece brzinom od 0.0 kilometara na sat.
 ```
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

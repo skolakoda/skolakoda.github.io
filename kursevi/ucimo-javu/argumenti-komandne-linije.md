@@ -34,4 +34,4 @@ Argumenti se s komandne linije prenose u program kao niz stringova.
 Svi argumenti komandne linije prenose se kao strune, nikad kao brojevi. Ako nam trebaju brojevi, kasnije menjamo tip podatka u broj.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

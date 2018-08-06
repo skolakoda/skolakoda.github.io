@@ -73,4 +73,4 @@ Bitno je zapamtiti da `import` statičkih članova klase nije moguć za klase ko
 Ako prilikom uvoza dođe do konflikata u imenima uvezenih i vlastitih klasa ili među samim Java klasama, što je također moguće (npr. `java.util.List` i `java.awt.List`), onda ćemo ipak morati koristiti puna imena tih klasa.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

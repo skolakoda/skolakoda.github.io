@@ -67,4 +67,4 @@ java.lang.Object
 Glavnina koda nalazi se u klasi `java.lang.Throwable`. Većina njenih podklasa samo donosi nove konstruktore koji mijenjaju poruku iznimke.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

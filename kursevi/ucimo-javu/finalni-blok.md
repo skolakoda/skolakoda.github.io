@@ -31,4 +31,4 @@ public class HelloThere {
 U slučaju da svi `catch` blokovi sadrže mnogo zajedničkih naredbi moguće je uštediti na linijama koda tako da se zajednički dijelovi stave u finalni blok.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

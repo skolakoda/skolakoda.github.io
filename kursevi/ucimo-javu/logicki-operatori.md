@@ -83,4 +83,4 @@ boolean b = (n != 0) && (m/n > 0);
 Ako želite izračunavati vrijednosti booleovskih izraza bez obzira na istinosnu vrijednost možete se koristiti [bitovskim operatorima](/bitovni-operatori) `&` i `|` umjesto `&&` i `||`. Međutim, pazite da operandi budu zaista bulovski, jer bitovski operatori imaju svoj smisao i za numeričke tipove, a značenje im je posve drugačije.
 
 
-Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
+Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.
