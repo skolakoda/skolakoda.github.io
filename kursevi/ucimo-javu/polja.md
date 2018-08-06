@@ -1,7 +1,7 @@
 ---
 title: Nizovi u Javi
 layout: lekcija-java
-permalink: /java-polja
+permalink: /java-nizovi
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Las_filas_003.jpg/640px-Las_filas_003.jpg
 ---
 
@@ -11,9 +11,9 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Las_filas_003.j
 
 ## Primjer: `RandomTest`
 
-Zamislimo klasu koja broji pojavljivanja cifri 0-9. Pretpostavimo da želimo testirati da li je raspodjela brojeva koje generira generator slučajnih brojeva doista uniformna. Ako jest, sve znamenke (cifre) bi trebale imati približno istu frekvenciju nakon duljeg vremena.
+Zamislimo klasu koja broji pojavljivanja cifri 0-9. Pretpostavimo da želimo testirati da li je raspodjela brojeva koje generira generator slučajnih brojeva doista uniformna. Ako jest, sve cifre bi trebale imati približno istu frekvenciju nakon duljeg vremena.
 
-Napravit ćemo polje `ndigits` od 10 elemenata. Nulti element će pratiti broj pojavljivanja nula, prvi element broj pojavljivanja jedinica itd. Koristit ćemo klasu `java.util.Random`. Za generiranje slučajnih brojeva koristit ćemo metodu `nextDouble()` iz te klase.
+Napravit ćemo niz `ndigits` od 10 elemenata. Nulti element će pratiti broj pojavljivanja nula, prvi element broj pojavljivanja jedinica itd. Koristit ćemo klasu `java.util.Random`. Za generiranje slučajnih brojeva koristit ćemo metodu `nextDouble()` iz te klase.
 
 {:.ulaz}
 ```java
@@ -61,11 +61,11 @@ Ispis može izgledati otprilike ovako:
 9: 10099
 ```
 
-U programu su tri `for-petlje`: jedna za inicijaliziranje polja, druga za izvođenje odgovarajućih računa i treća za ispis rezultata. To je uobičajeno u programima koji koriste polja.
+U programu su tri `for-petlje`: jedna za inicijaliziranje niza, druga za izvođenje odgovarajućih računa i treća za ispis rezultata. To je uobičajeno u programima koji koriste nizove.
 
-## Deklariracija polja
+## Deklariracija
 
-Polja moraju imati određeni tip, npr. `byte`, `int`, `String` ili `double`. Samo varijable odgovarajućeg tipa mogu biti spremljene u isto polje. Jedno polje ne može istodobno sadržavati recimo brojeve i stringove. Polja moraju kao i ostale varijable biti deklarirana. Deklariraju se dodavanjem uglatih zagrada `[]` kao sufiks tipu varijable. Na primjer:
+Nizovi moraju imati određeni tip, npr. `byte`, `int`, `String` ili `double`. Samo varijable odgovarajućeg tipa mogu biti spremljene u isti niz. Jedno polje ne može istodobno sadržavati recimo brojeve i strune. Polja moraju, kao i ostale varijable, biti deklarirana. Deklariraju se dodavanjem uglatih zagrada `[]` kao sufiks tipu varijable. Na primjer:
 
 ```java
 int[] k;
@@ -73,7 +73,7 @@ float[] yt;
 String[] names;
 ```
 
-Ovo znači da je `k` polje int-ova, `yt` polje float-a, a `names` polje String-ova. Uglate zagrade možete po vlastitom izboru dodati i varijabli umjesto tipu:
+Ovo znači da je `k` niz int-ova, `yt` niz float-ova, a `names` niz String-ova. Uglaste zagrade možete po vlastitom izboru dodati i varijabli umjesto tipu:
 
 ```java
 int k[];
@@ -89,9 +89,9 @@ float[] yt[];
 String[] names[];
 ```
 
-## Kreiranje polja
+## Kreiranje
 
-Deklarirajući polje samo smo rekli koje vrste vrijednosti će polje sadržavati. Time ga još nismo kreirali. Polja se kao i ostali objekti u Javi kreiraju pomoću ključne riječi `new`. Varijable koje smo maloprije deklarirali možemo kreirati ovako:
+Deklarirajući niz samo smo rekli koje tipove vrijednosti će sadržavati. Time ga još nismo kreirali. Nizovi se kao i ostali objekti u Javi kreiraju pomoću ključne riječi `new`. Varijable koje smo prethodno proglasili možemo kreirati ovako:
 
 ```java
 k = new int[3];
@@ -99,11 +99,11 @@ yt = new float[7];
 names = new String[50];
 ```
 
-Brojevi u uglatim zagradama specificiraju duljinu polja, tj. koliko ima komponenata koje će sadržati vrijednosti. Polje `k` može imati 3 broja tipa int, polje `yt` može sadržati 7 brojeva tipa float, a polje `names` može sadržati 50 String-ova. Ovaj se korak ponekad naziva alociranjem polja jer se njime izdvaja potrebna memorija za polje.
+Brojevi u uglatim zagradama određuju duljinu niza, tj. koliko ima članova koji će sadržati vrijednosti. Niz `k` može imati 3 broja tipa int, niz `yt` može sadržati 7 brojeva tipa float, a niz `names` može sadržati 50 String-ova. Ovaj se korak ponekad naziva **alociranjem** jer se njime izdvaja potrebna memorija za niz.
 
-## Inicijalizacija polja
+## Inicijalizacija
 
-Pojedinačne komponente polja referenciraju se imenom polja i cijelim brojem koji predstavlja poziciju komponente unutar polja. Ovi se brojevi nazivaju indeksima. Indeksi su cijeli brojevi počevši od 0 (nula). Dakle gore deklarirano polje `k` ima komponente `k[0]`, `k[1]` i `k[2]`. Budući da se počinje od nule, ne postoji `k[3]`. Pokušaj referenciranja nepostojeće komponente rezultirat će odbacivanjem iznimke [`ArrayIndexOutOfBoundsException`](https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayIndexOutOfBoundsException.html). Komponente polja mogu se upotrebljavati kao i druge varijable:
+Članovi niza referenciraju se imenom niza i cijelim brojem koji predstavlja poziciju člana. Ovi se brojevi nazivaju indeksima. Indeksi su cijeli brojevi počevši od 0 (nula). Dakle, gore deklarirano polje `k` ima komponente `k[0]`, `k[1]` i `k[2]`. Budući da se počinje od nule, ne postoji `k[3]`. Pokušaj referenciranja nepostojeće komponente rezultirat će odbacivanjem iznimke [`ArrayIndexOutOfBoundsException`](https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayIndexOutOfBoundsException.html). Članovi niza mogu se upotrebljavati kao i druge varijable:
 
 ```java
 k[0] = 2;
@@ -113,7 +113,7 @@ yt[17] = 7.5f;
 names[4] = "Fred";
 ```
 
-Ovaj se korak naziva inicijaliziranjem komponenata polja. Pod inicijaliziranjem polja obično se podrazumijeva inicijaliziranje svih komponenata polja. Naravno da za iole veća polja nećemo inicijalizirati jednu po jednu komponentu, nego ćemo se poslužiti petljom kao u sljedećem primjeru:
+Ovaj se korak naziva inicijalizacijom članova niza. Pod inicijalizacijom niza obično se podrazumijeva dodela vrednosti svim članovima. Naravno, za iole veći niz nećemo inicijalizirati jedan po jedan član, nego se poslužiti petljom kao u sljedećem primjeru:
 
 ```java
 float[] squares;
@@ -124,7 +124,7 @@ for (int i=0; i <= 100; i++) {
 }
 ```
 
-Primijetimo da će brojevi tipa `int` kad budu spremljeni u ovo polje postati `float` jer je polje tako deklarirano.
+Primijetimo da će brojevi tipa `int` kad budu spremljeni u polje postati `float`, jer je polje tako deklarirano.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.

@@ -32,7 +32,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - [Promenljive i nepromenljive](/java-promenljive-i-nepromenljive)
 - [Naredbe vs. izrazi](/naredbe-i-izrazi)
 - Strune (*strings*)
-- [Polja (*arrays*)](/java-polja)
+- [Nizovi](/java-nizovi)
 - [Argumenti komandne linije](/java-argumenti-komandne-linije)
 - [Komentari u programu](/java-komentari)
 
