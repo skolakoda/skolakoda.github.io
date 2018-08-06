@@ -17,6 +17,8 @@ U realnom svetu, možemo proizvesti veliki broj automobila na osnovu iste specif
 
 ## Instance klase
 
+Dok je klasa nacrt, objekat je otelovljenje neke klase, sa konkretnim vrednostima atributa.
+
 Kreiranje instance klase predstavlja kreiranje objekta u memoriji računara na osnovu definicije klase. Da bismo instancirali klasu, deklarišemo promenljivu tipa klase (u ovom slučaju `Kola`), a zatim koristimo `new` operator za svaku novu instancu:
 
 ```java

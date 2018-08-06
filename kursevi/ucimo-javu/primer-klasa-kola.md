@@ -7,139 +7,127 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CPT-OOP-objects
 
 ![]({{page.image}})
 
-**Pretpostavimo da želimo napisati program za simulaciju prometa koji bilježi prolazak vozila. Na svakom vozilu možemo promatrati svojstva kao što je brzina, maksimalna brzina i registarska oznaka.**
+**Pretpostavimo da želimo napisati program za simulaciju prometa. Na svakom vozilu možemo promatrati svojstva kao što su brzina, maksimalna brzina i registarska oznaka.**
 
 ## Modelovanje klase
 
 U objektno-orijentisanim jezicima koristimo klasu da bismo podatke spakovali u jedinstveni entitet:
 
 ```java
-class Car {
-
-  String licensePlate; // npr. "New York 543 A23"
-  double speed;        // u kilometrima na sat
-  double maxSpeed;     // u kilometrima na sat
-
+class Kola {
+  String tablica;     // npr. "New York 543 A23"
+  double brzina;      // u kilometrima na sat
+  double maxBrzina;   // u kilometrima na sat
 }
 ```
 
-Varijable `licensePlate`, `speed` i `maxSpeed` zovemo varijablama članovima ili atributima. Dok je klasa općenita zamisao (nacrt),  objekt je specifična instanca neke klase, sa konkretnim vrijednostima atributa.
+Varijable `tablica`, `brzina` i `maxBrzina` zovemo varijablama članovima ili atributima.
 
 ## Kreiranje novih objekata
 
-Da bismo kreirali konkretni object neke klase, odnosno instancirali klasu, koristimo ključnu riječ new iza koje slijedi poziv tzv. konstruktora klase. Pogledajmo kako bismo deklarirali i kreirali novu varijablu tipa `Car` koju ćemo nazvati `c`:
+Da bismo kreirali objekat neke klase, odnosno instancirali klasu, koristimo ključnu riječ `new` iza koje slijedi poziv konstruktora klase. Riječ `new` je operator instanciranja. Pogledajmo kako bismo deklarirali i kreirali novu varijablu tipa `Kola` koju ćemo nazvati `k`:
 
 ```java
-Car c;
-c = new Car();
+Kola k;
+k = new Kola();
 ```
 
-Prva riječ, `Car`, određuje tip varijable `c`. Klase su tipovi, dodjeljujemo ih varijablama na isti način kao `int`, `char`, `double` itd. Znak jednakosti je operator pridruživanja, a riječ `new` je operator instanciranja.
+Prva riječ, `Kola`, određuje tip varijable. Klase su tipovi, dodjeljujemo ih varijablama na isti način kao `int`, `char`, `double` itd. Međutim, na kraju pozivamo metodu `Kola()`. Zagrade naznačuju da je to metoda, a ne tip kao u prvom retku. To je konstruktor, metoda koja kreira novu instancu klase. Ako svoju klasu ne snabdijete konstruktorima, kompajler će umetnuti konstruktor bez argumenata.
 
-Na kraju, primijetimo metodu `Car()`. Zagrade naznačuju da je to metoda, a ne tip podataka kao u prvom retku. To je konstruktor, metoda koja kreira novu instancu klase. Ako svoju klasu i ne snabdijete konstruktorima, kompajler će umetnuti svoj konstruktor bez argumenata.
-
-Deklaraciju tipa i kreiranje instance obično pišemo u jednoj naredbi, npr.
+Deklaraciju tipa i kreiranje instance obično pišemo u jednoj naredbi, npr:
 
 ```java
-Car c = new Car();
+Kola k = new Kola();
 ```
 
-## Pristup članovima objekta
+## Pristup članovima
 
-Jednom kad ste kreirali novi objekt, potrebna vam je mogućnost pristupa njegovim članovima (varijablama i metodama). Za to ćete upotrijebiti separator pristupa, točku (`.`). Klasa `Car` ima tri atributa:
+Jednom kad ste kreirali novi objekt, potrebna vam je mogućnost pristupa njegovim članovima (varijablama i metodama). Za to ćete upotrijebiti separator pristupa, točku (`.`). Klasa `Kola` ima tri atributa:
 
-- `licensePlate`
-- `speed`
-- `maxSpeed`
+- `tablica`
+- `brzina`
+- `maxBrzina`
 
-Dakle, ako je `c` novi objekt tipa `Car`, on također ima tri odgovarajuće varijable:
+Dakle, ako je `k` objekat tipa `Kola`, on također ima tri odgovarajuće varijable:
 
-- `c.licensePlate`
-- `c.speed`
-- `c.maxSpeed`
+- `k.tablica`
+- `k.brzina`
+- `k.maxBrzina`
 
 Koristite ih kao što biste koristili bilo koju drugu varijablu. Na primjer:
 
 ```java
-Car c = new Car();
+Kola k = new Kola();
 
-c.licensePlate = "New York A45 636";
-c.speed = 70.0;
-c.maxSpeed = 123.45;
+k.tablica = "DYD 666";
+k.brzina = 70.0;
+k.maxBrzina = 123.45;
 
-System.out.println(c.licensePlate + " se krece brzinom od " + c.speed + "kilometara na sat.");
+System.out.println(k.tablica + " se krece brzinom od " + k.brzina + " kilometara na sat.");
 ```
 
-Separator `.` selektuje pojedinog člana (varijablu, kao u ovom primjeru, ali također i metodu) nekog objekta po njegovom imenu.
+Separator `.` selektuje pojedinog člana objekta (varijablu ili metodu) po imenu.
 
-## Upotreba objekata u različoj klasi
+## Upotreba klase u drugoj klasi
 
-Sljedeći program kreira novi primjerak automobila (objekta klase `Car`), dodjeljuje vrijednosti njegovim varijablama i ispisuje rezultat.
+Sljedeći program kreira novi primjerak automobila (klase `Kola`), dodjeljuje vrijednosti njegovim varijablama i ispisuje rezultat.
 
 ```java
-class CarTest {
-
+class TestKola {
   public static void main(String args[]) {
 
-    Car c = new Car();
+    Kola k = new Kola();
 
-    c.licensePlate = "New York A45 636";
-    c.speed = 70.0;
-    c.maxSpeed = 123.45;
+    k.tablica = "DYD 666";
+    k.brzina = 70.0;
+    k.maxBrzina = 123.45;
 
-    System.out.println(c.licensePlate + " se krece brzinom od " + c.speed +
-      "kilometara na sat.");    
+    System.out.println(k.tablica + " se krece brzinom od " + k.brzina + " kilometara na sat.");    
+
   }
-
 }
 ```
 
-Ovaj program ne zahtijeva samo klasu `CarTest` nego također i klasu `Car`. Da biste ga mogli izvršiti, stavite klasu `Car` u datoteku `Car.java`, a klasu `CarTest` u datoteku `CarTest.java`. Obje datoteke neka budu u istom direktoriju. Kompilirajte obje datoteke na uobičajeni način i na kraju izvršite `CarTest`.
+Ovaj program ne zahtijeva samo klasu `TestKola` nego i klasu `Kola`. Da biste ga mogli izvršiti, stavite klasu `Kola` u datoteku `Kola.java`, a klasu `TestKola` u datoteku `TestKola.java`. Obje datoteke neka budu u istom direktoriju. Kompilirajte program na uobičajen način:
 
 ```
-% javac Car.java
-% javac CarTest.java
-% java CarTest
-New York A45 636 se krece brzinom od 70.0 kilometara na sat.
+% javac TestKola.java
+% java TestKola
+DYD 666 se krece brzinom od 70.0 kilometara na sat.
 ```
 
-Primijetite da klasa `Car` nema `main()` metodu, dakle ne možete je “izvršiti”. Ona postoji jedino tako da je pozivaju drugi programi koji imaju `main()` metode.
+Primijetite da klasa `Kola` nema `main()` metodu, dakle ne možete je “izvršiti”. Ona postoji samo da je pozivaju drugi programi koji imaju `main()` metodu.
 
-Mnoge aplikacije koje ćete pisati koristit će više klasa. Uobičajeno je da se svaka klasa stavi u zasebnu datoteku. Uskoro ćete naučiti koristiti i pakete kako biste mogli organizirati svoje često korištene klase unutar različitih direktorija. Za sada držite sve datoteke sa izvornim programima (`*.java`) kao i one sa kompiliranim programima (`*.class`) unutar jednog direktorija. Iako smo kompilirali obje klase odvojeno, dovoljno bi bilo kompilirati samo klasu `CarTest` jer će kompajler već sam pronaći klasu `Car`.
+Mnoge aplikacije koje ćete pisati koristit će više klasa. Uobičajeno je da se svaka klasa stavi u zasebnu datoteku. Uskoro ćete naučiti koristiti i pakete kako biste mogli organizirati svoje često korištene klase unutar različitih direktorija. Za sada držite sve datoteke unutar jednog direktorija.
 
 ## Inicijalne vrednosti atributa
 
-Atributi mogu, i obično trebaju, imati inicijalne vrednosti. Klasu `Car` možemo preraditi da ima inicijalne vrednosti atributa. Sljedeći program kreira novi automobil i ispisuje inicijalne podatke (klase se pišu u odvojenim fajlovima, ali ovde ćemo ih staviti zajedno, radi lakšeg pokretanja):
+Atributi mogu, i obično trebaju, imati inicijalne vrednosti. Klasu `Kola` možemo preraditi da ima inicijalne vrednosti. Sljedeći program kreira novi automobil i ispisuje inicijalne vrednosti svojstava:
 
 {:.ulaz}
 ```java
-class Car {
-
-  String licensePlate = "";    // npr. "New York 543 A23"
-  double speed        = 0.0;   // u kilometrima na sat
-  double maxSpeed     = 120.0; // u kilometrima na sat
-
+class Kola {
+  String tablica = "Neregistrovan";
+  double brzina = 0.0;
+  double maxBrzina = 120.0;
 }
 
-class CarTest2 {
-
+class TestKola {
   public static void main(String args[]) {
 
-    Car c = new Car();
+    Kola k = new Kola();
+    System.out.println(k.tablica + " se krece brzinom od " + k.brzina + " kilometara na sat.");    
 
-    System.out.println(c.licensePlate + " se krece brzinom od " + c.speed + " kilometara na sat.");    
   }
-
 }
 ```
 
-Ukoliko pokrećete klase iz zasebnih fajlova, koraci su sledeći:
+Ukoliko pokrećete program iz komandne linije (možete odvojiti klase u zasebne fajlove), koraci su sledeći:
 
 ```
-% javac Car.java
-% javac CarTest.java
-% java CarTest
- se krece brzinom od 0.0 kilometara na sat.
+% javac TestKola.java
+% java TestKola
+Neregistrovan se krece brzinom od 0.0 kilometara na sat.
 ```
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
