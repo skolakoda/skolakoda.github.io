@@ -50,7 +50,6 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
   - [Pravljenje objekata](/java-pravljenje-objekata)
   - [Primer: klasa Kola](/primer-klasa-kola)
   - [Primer: klasa Porez](/primer-klasa-porez)
-  - [Primer: klasa Dugme](/primer-klasa-dugme)
   - [Ugnježdene klase](/ugnjezdene-klase)
 - [Atributi](/java-atributi)
 - [Metode](/java-metode)
