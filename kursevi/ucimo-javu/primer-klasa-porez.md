@@ -18,7 +18,7 @@ class Porez {
 }
 ```
 
-Šta je neophodno da bi ova klasa mogla da određuje vrednost poreza? Definitivno morate znati koliki je prihod osobe kojoj određujete godišnji porez. Ukupan prihod je dobar kandidat za atribut klase. Izaberite jedan od numeričkih tipova podataka. Ukupan prihod nije uvek ceo broj, tako da možete da koristite `double` tip podataka, jer je reč o broju sa decimalama. Možete da koristite i `float`, ali `double` omogućava da budete spremni i za veće prihode.
+Šta je neophodno da bi ova klasa mogla određivati vrednost poreza? Definitivno morate znati koliki je prihod osobe kojoj određujete godišnji porez. Ukupan prihod je dobar kandidat za atribut klase. Izaberite jedan od numeričkih tipova podataka. Ukupan prihod nije uvek ceo broj, tako da možete da koristite `double` tip podataka, jer je reč o broju sa decimalama. Možete da koristite i `float`, ali `double` omogućava da budete spremni i za veće prihode.
 
 ```java
 class Porez {
@@ -73,18 +73,18 @@ Prazne zagrade nakon naziva metoda ukazuju da metod nema argumente, ili, drugim 
 Kako da procenite da li metod treba da vrati vrednost? Ukoliko vaš metod izvršava određena izračunavanja i mora da vrati određenu vrednost u program iz koga se poziva, tada će imati povratnu vrednost. Ukoliko metod direktno modifikuje promenljive klase ili jednostavno negde prikazuje podatke (monitor, disk, server), ne mora da vraća nikakvu vrednost. Vi i dalje morate da deklarišete da "ne vraća vrednost“ u specifikaciji metoda, koristeći ključnu reč `void`:
 
 ```java
-public void printAnnualTaxReturn() {
-  //Određeni kod unosi se ovde
+public void stampajGodisnjiPorez() {
+  // Određeni kod unosi se ovde
 }
 ```
 
-Koristeći naredbu `return`, metod može da vrati programu iz koga se poziva podatke koji se nalaze u promenljivoj - na primer:
+Koristeći naredbu `return`, metod može da vrati programu iz koga se poziva podatke koji se nalaze u promenljivoj, na primer:
 
 ```java
 return calculatedTax;
 ```
 
-Ako deklarišete povratni tip u specifikaciji metoda, ali zaboravite da ukucate `return` naredbu u telu metoda, Java kompajler prijavljuje grešku.
+Ako deklarišete povratni tip u specifikaciji metoda, ali zaboravite `return` naredbu u telu metoda, Java kompajler prijavljuje grešku.
 
 ## Deklarisanje glavne klase
 
@@ -116,9 +116,9 @@ class TestPorez {
 }
 ```
 
-U prethodnom kodu deklarisali smo promenljivu `p` tipa `Porez`. Metod `main()` je početna tačka programa za izračunavanje poreza. Ovaj metod kreira instancu klase `Porez`, a promenljiva `p` ukazuje na mesto u memoriji vašeg računara gde je kreiran `Porez` objekat. Od tog trenutka, ukoliko želite da referencirate ovaj objekat, koristite promenljivu `p`.
+U prethodnom kodu deklarisali smo promenljivu `p` tipa `Porez`. Metod `main()` je početna tačka programa za izračunavanje poreza. Ovaj metod kreira instancu klase `Porez`, a promenljiva `p` ukazuje na mesto u memoriji vašeg računara gde je kreiran novi objekat. Od tog trenutka, ukoliko želite da referencirate ovaj objekat, koristite promenljivu `p`.
 
-Sledeće tri linije omogućavaju dodeljivanje vrednosti poljima `Porez` objekta:
+Sledeće tri linije omogućavaju dodeljivanje vrednosti članovima `Porez` objekta:
 
 ```java
 p.ukupanPrihod= 50000;
