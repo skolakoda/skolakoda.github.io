@@ -1,5 +1,5 @@
 ---
-title: Atributi
+title: Atributi u Javi
 layout: lekcija-java
 permalink: /java-atributi
 ---
@@ -8,26 +8,25 @@ permalink: /java-atributi
 
 **Atributi ili svojstva opisuju što klasa jest.**
 
-## Atributi i lokalne varijable
+## Atributi vs. lokalne varijable
 
 ```java
-class Car {
+class Kola {
 
-  String licensePlate = "";    // member variabla
-  double speed;       = 0.0;   // member variabla
-  double maxSpeed;    = 120.0; // member variabla
+  String tablica = "Neregistrovan";   // varijabla članica
+  double brzina = 0.0;                // varijabla članica
+  double maxBrzina = 120.0;           // varijabla članica
 
-  boolean isSpeeding() {
-    double excess;             // lokalna variabla
-    excess = this.maxSpeed - this.speed;
-    if (excess < 0) return true;
+  boolean jelPrebrzo() {
+    double razlika;                    // lokalna varijabla
+    razlika = this.maxBrzina - this.brzina;
+    if (razlika < 0) return true;
     else return false;
   }
-
 }
 ```
 
-Kada unutar metode imamo lokalne varijable, kao `excess`, on ne mogu biti referencirane izvan metode. S druge strane, varijable `licensePlate`, `speed` i `maxSpeed` pripadaju klasi `Car`. Definirane su izvan bilo koje metode, ali unutar klase i nazivaju se varijable članovice ili atributi.
+Kada u metodi imamo lokalne varijable, kao `razlika`, one ne mogu biti korištene izvan metode. S druge strane, varijable `tablica`, `brzina` i `maxBrzina` pripadaju klasi `Kola`. Definirane su izvan bilo koje metode, ali unutar klase i nazivaju se varijable članice ili atributi.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

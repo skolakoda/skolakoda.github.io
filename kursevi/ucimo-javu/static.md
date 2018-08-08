@@ -46,7 +46,7 @@ Primijetite da za ispis statičkih varijabli nije bilo potrebno kreirati konkret
 Metode kažu što neki objekt radi.
 
 ```java
-class TwoDPoint {
+class Koordinata {
     double x;
     double y;
     void print() {
@@ -55,24 +55,24 @@ class TwoDPoint {
 }
 ```
 
-Primijetite da se ključna riječ `this` koristi kako bi se iznutra referencirala varijabla koja pripada istoj klasi. Sada možemo preraditi program `OriginPrinter` ovako:
+Primijetite da se ključna riječ `this` koristi kako bi se iznutra referencirala varijabla koja pripada istoj klasi. Sada možemo preraditi program `Stampac` ovako:
 
 ```java
-class OriginPrinter {
+class Stampac {
   public static void main(String[] args) {
-    TwoDPoint origin;
-    origin = new TwoDPoint();
-    origin.x = 0.0;
-    origin.y = 0.0;
-    origin.print();
+    Koordinata ishodiste;
+    ishodiste = new Koordinata();
+    ishodiste.x = 0.0;
+    ishodiste.y = 0.0;
+    ishodiste.print();
   }
 }
 ```
 
 Obrada:
 ```
-% javac OriginPrinter.java
-% java OriginPrinter
+% javac Stampac.java
+% java Stampac
 (0.0, 0.0)
 ```
 

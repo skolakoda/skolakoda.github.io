@@ -6,26 +6,25 @@ permalink: /java-konstruktori
 
 **Konstruktori su posebne metode koje imaju isto ime kao njihova klasa, i služe instanciranju klase. Pozivaju se automatski kada se kreira objekat, novi primerak klase.**
 
-Konstruktor inicijalizira potrebne varijable i obavlja sve poslove koji su potrebni da bi se klasa pripremila za uporabu. Konstruktor ima uvijek isto ime kao pripadna klasa. Na primjer:
+Konstruktor inicijalizira potrebne varijable i obavlja sve poslove koji su potrebni da bi se klasa pripremila za upotrebu. Konstruktor ima uvijek isto ime kao pripadna klasa. Na primjer:
 
 ```java
-Car c = new Car();
+Kola k = new Kola();
 ```
 
-Ovdje je `Car()` konstruktor klase `Car`. Konstruktor se pravi tako da se napiše metoda koja ima isto ime kao klasa. Konstruktori nemaju povratnog tipa. Oni zapravo implicitno vraćaju instancu svoje klase.
+Ovdje je `Kola()` konstruktor klase `Kola`. Konstruktor se pravi tako da se napiše metoda koja ima isto ime kao klasa. Konstruktori nemaju povratnog tipa. Oni zapravo implicitno vraćaju instancu svoje klase.
 
-Primarna svrha konstruktora jeste da za objekat koji se kreira izvrši inicijalizaciju
-atributa. Ukoliko ne definišemo konstruktor, Java osigurava generički, bez argumenata, koji ne radi ništa.
+Primarna svrha konstruktora jeste da za objekat koji se kreira izvrši inicijalizaciju atributa. Ukoliko ne definišemo konstruktor, Java osigurava generički, bez argumenata, koji ne radi ništa.
 
 ## Konstruktor bez argumenata
 
-Sljedeća metoda je konstruktor koji inicijalizira registarsku pločicu (`licensePlate`) na prazan string, brzinu (`speed`) na nulu, a maksimalnu brzinu (`maxSpeed`) na 120.0 km/h:
+Sljedeća metoda je konstruktor koji inicijalizira registarsku tablicu na praznu strunu, brzinu na nulu, a maksimalnu brzinu na 120.0 km/h:
 
 ```java
-Car() {
-  this.licensePlate = "";
-  this.speed  = 0.0;
-  this.maxSpeed = 120.0;
+Kola() {
+  this.tablica = "";
+  this.brzina  = 0.0;
+  this.maxBrzina = 120.0;
 }
 ```
 
@@ -34,175 +33,155 @@ Car() {
 Još bolje, možemo napisati konstruktor koji prima tri argumenta i koristi ih za inicijaliziranje odgovarajućih varijabli:
 
 ```java
-Car(String licensePlate, double speed, double maxSpeed) {
+Kola(String tablica, double brzina, double maxBrzina) {
+  this.tablica = tablica;
+  this.brzina  = brzina;
 
-  this.licensePlate = licensePlate;
-  this.speed  = speed;
-  if (maxSpeed > 0) this.maxSpeed = maxSpeed;
-  else this.maxSpeed = 0.0;
-  if (speed > this.maxSpeed) this.speed = this.maxSpeed;
-  if (speed < 0) this.speed = 0.0;
-  else this.speed = speed;
+  if (maxBrzina > 0) this.maxBrzina = maxBrzina;
+  else this.maxBrzina = 0.0;
 
+  if (brzina > this.maxBrzina) this.brzina = this.maxBrzina;
+  if (brzina < 0) this.brzina = 0.0;
+  else this.brzina = brzina;
 }
 ```
 
 Ili možda želite da inicijalna brzina uvijek bude jedanaka nuli, a maksimalna brzina i registarska pločica specificirane argumentima:
 
 ```java
-Car(String licensePlate, double maxSpeed) {
+Kola(String tablica, double maxBrzina) {
+  this.tablica = tablica;
+  this.brzina  = 0.0;
 
-  this.licensePlate = licensePlate;
-  this.speed  = 0.0;
-  if (maxSpeed > 0) this.maxSpeed = maxSpeed;
-  else this.maxSpeed = 0.0;
-
+  if (maxBrzina > 0) this.maxBrzina = maxBrzina;
+  else this.maxBrzina = 0.0;
 }
 ```
 
-## Više konstruktora
+## Više konstruktora u klasi
 
-**U jednoj klasi može biti i više konstruktora** (*overloading*). Svaki konstruktor zadaje po jedan način kreiranja objekata dane klase.
+**U jednoj klasi može biti više konstruktora istog imena, koji se razlikuju po broju i tipu argumenata** (*overloading*). Svaki konstruktor zadaje po jedan način kreiranja objekata dane klase. 
 
-Preradimo još jednom klasu `Car`, tako da u nju ugradimo sve ove konstruktore:
+Preradimo još jednom klasu `Kola`, tako da u nju ugradimo sve ove konstruktore. Nakon toga, program `KolaProba` koristi treći od navedenih konstruktora za inicijalizaciju novih `Kola`.
 
+{:.ulaz}
 ```java
-class Car {
+class Kola {
 
-  String licensePlate;
-  double speed;
-  double maxSpeed;
+  String tablica;
+  double brzina;
+  double maxBrzina;
 
-  Car() {
-    this.licensePlate = "";
-    this.speed  = 0.0;
-    this.maxSpeed = 120.0;
+  Kola() {
+    this.tablica = "";
+    this.brzina  = 0.0;
+    this.maxBrzina = 120.0;
   }
 
-  Car(String licensePlate, double speed, double maxSpeed) {
-
-    this.licensePlate = licensePlate;
-    this.speed  = speed;
-    if (maxSpeed > 0) this.maxSpeed = maxSpeed;
-    else this.maxSpeed = 0.0;
-    if (speed > this.maxSpeed) this.speed = this.maxSpeed;
-    if (speed < 0) this.speed = 0.0;
-    else this.speed = speed;
-
+  Kola(String tablica, double brzina, double maxBrzina) {
+    this.tablica = tablica;
+    this.brzina  = brzina;
+    if (maxBrzina > 0) this.maxBrzina = maxBrzina;
+    else this.maxBrzina = 0.0;
+    if (brzina > this.maxBrzina) this.brzina = this.maxBrzina;
+    if (brzina < 0) this.brzina = 0.0;
+    else this.brzina = brzina;
   }
 
-  Car(String licensePlate, double maxSpeed) {
-
-    this.licensePlate = licensePlate;
-    this.speed  = 0.0;
-    if (maxSpeed > 0) this.maxSpeed = maxSpeed;
-    else this.maxSpeed = 0.0;
-
+  Kola(String tablica, double maxBrzina) {
+    this.tablica = tablica;
+    this.brzina  = 0.0;
+    if (maxBrzina > 0) this.maxBrzina = maxBrzina;
+    else this.maxBrzina = 0.0;
   }
 
-  // getter (accessor) metode
+  // geter i seter metode
 
-  String getLicensePlate() {
-    return this.licensePlate;
+  String getTablica() {
+    return this.tablica;
   }
 
-  double getMaxSpeed() {
-    return this.maxSpeed;
+  double getMaxBrzina() {
+    return this.maxBrzina;
   }
 
-  double getSpeed() {
-    return this.speed;
+  double getBrzina() {
+    return this.brzina;
   }
 
-  // setter metoda za atribut licensePlate
-  void setLicensePlate(String licensePlate) {
-    this.licensePlate = licensePlate;
+  void setTablica(String tablica) {
+    this.tablica = tablica;
   }
 
-  // setter metoda za atribut maxSpeed
-  void setMaximumSpeed(double maxSpeed) {
-    if (maxSpeed > 0) this.maxSpeed = maxSpeed;
-    else this.maxSpeed = 0.0;
+  void setMaxBrzina(double maxBrzina) {
+    if (maxBrzina > 0) this.maxBrzina = maxBrzina;
+    else this.maxBrzina = 0.0;
   }
 
-  void floorIt() { // ubrzanje do maksimalne brzine
-    speed = maxSpeed;  
+  void doDaske() {
+    brzina = maxBrzina;  
   }
 
-  void accelerate(double deltaV) { // ubrzanje za zadani deltaV
-
-     this.speed = this.speed + deltaV;
-     if (this.speed > this.maxSpeed) {
-       this.speed = this.maxSpeed;
+  void ubrzaj(double deltaV) { // ubrzanje za zadani deltaV
+     this.brzina = this.brzina + deltaV;
+     if (this.brzina > this.maxBrzina) {
+       this.brzina = this.maxBrzina;
      }
-     if (this.speed <  0.0) {
-       this.speed = 0.0;
-     }     
-
+     if (this.brzina <  0.0) {
+       this.brzina = 0.0;
+     }
   }
-
 }
-```
 
-## Uporaba konstruktora
-
-Sljedeći program, `CarTest7`, koristi treći od navedenih konstruktora za inicijaliziranje objekata tipa `Car`.
-
-```java
-class CarTest7 {
-
+class KolaProba {
   public static void main(String args[]) {
 
-    Car c = new Car("New York A45 636", 123.45);
-
-    System.out.println(c.getLicensePlate() + " se krece brzinom od " + c.getSpeed() + " kilometara na sat.");
+    Kola k = new Kola("New York A45 636", 123.45);
+    System.out.println(k.getTablica() + " se krece brzinom od " + k.getBrzina() + " kilometara na sat.");
 
     for (int i = 0; i < 15; i++) {
-      c.accelerate(10.0);
-      System.out.println(c.getLicensePlate() + " se krece brzinom od " + c.getSpeed() + " kilometara na sat.");
+      k.ubrzaj(10.0);
+      System.out.println(k.getTablica() + " se krece brzinom od " + k.getBrzina() + " kilometara na sat.");
     }
 
   }
-
 }
 ```
 
-Primijetite da više ne morate voditi računa o atributima `licensePlate`, `speed` i `maxSpeed`. Sve što trebate znati je kako konstruirati novi primjerak klase `Car` i kako ispisati njegove podatke.
+Primijetite da atributima `tablica` i `brzina` više ne pristupamo direktno, već preko geter metoda (`getTablica()` i `getBrzina()`).
 
-Postavlja se pitanje jesu li metode `setLicensePlate()` i `setMaximumSpeed()` zaista još potrebne kad se atributi `licensePlate` i `maxSpeed` postavljaju u konstruktorima. Odgovor ovisi o tome želimo li dopustiti njihovo mijenjanje jednom nakon što je objekt već kreiran. Klase koje ne dopuštaju promjenu atributa svojih objekata nakon što su kreirani, nazivaju se nepromjenjivima (*immutable*). String je primjer takve klase. Ne možete promijeniti njegove podatke, možete samo kreirati novi objekt tipa String.
+Postavlja se pitanje jesu li metode `setTablica()` i `setMaxBrzina()` zaista još potrebne kad se atributi `tablica` i `maxBrzina` postavljaju u konstruktorima. Odgovor ovisi o tome želimo li dopustiti njihovo mijenjanje jednom nakon što je objekt već kreiran. Klase koje ne dopuštaju promjenu atributa svojih objekata nakon što su kreirani, nazivaju se nepromjenjivima (*immutable*). `String` je primjer takve klase. Ne možete promijeniti njegove podatke, možete samo kreirati novi objekt tipa `String`.
 
 ## Ograničenja opsega vrijednosti
 
-Mogućnost implementiranja ograničenja jedan je od razloga za davanje prednosti korištenju konstruktora i *setter* metoda pred direktnim dohvaćanjem varijabli. Na primjer, u klasi `Car` važno je osigurati da brzina nikad ne bude veća od propisane maksimalne brzine i da ni jedna ne bude manja od nule. Već smo to vidjeli u primjeru metode `accelerate()` koja, na način kako je napravljena, neće pridijeliti automobilu brzinu veću od propisane maksimalne brzine:
+Mogućnost implementiranja ograničenja jedan je od razloga za davanje prednosti korištenju konstruktora i *setter* metoda pred direktnim dohvaćanjem varijabli. 
+
+Na primjer, u klasi `Kola` važno je osigurati da brzina nikad ne bude veća od propisane maksimalne brzine i da ni jedna ne bude manja od nule. Već smo vidjeli da metoda `ubrzaj()` neće dodijeliti automobilu brzinu veću od propisane maksimalne brzine:
 
 ```java
-void accelerate(double deltaV) {
-
-   this.speed = this.speed + deltaV;
-   if (this.speed > this.maxSpeed) {
-     this.speed = this.maxSpeed;
+void ubrzaj(double deltaV) {
+   this.brzina = this.brzina + deltaV;
+   if (this.brzina > this.maxBrzina) {
+     this.brzina = this.maxBrzina;
    }
-   if (this.speed < 0.0) {
-     this.speed = 0.0;
+   if (this.brzina < 0.0) {
+     this.brzina = 0.0;
    }
-
 }
 ```
 
-Takva se ograničenja mogu ugraditi i u konstruktore. Na primjer, sljedeći konstruktor (treći u nizu) klase `Car` osigurava da maksimalna brzina ne bude manja od nule.
+Takva se ograničenja mogu ugraditi i u konstruktore. Na primjer, sljedeći konstruktor (treći) klase `Kola` osigurava da maksimalna brzina ne bude manja od nule:
 
 ```java
-Car(String licensePlate, double maxSpeed) {
-
-  this.licensePlate = licensePlate;
-  this.speed  = 0.0;
-  if (maxSpeed >= 0.0) {
-    this.maxSpeed = maxSpeed;
+Kola(String tablica, double maxBrzina) {
+  this.tablica = tablica;
+  this.brzina  = 0.0;
+  if (maxBrzina >= 0.0) {
+    this.maxBrzina = maxBrzina;
   }
   else {
-    maxSpeed = 0.0;
+    maxBrzina = 0.0;
   }
-
 }
 ```
 

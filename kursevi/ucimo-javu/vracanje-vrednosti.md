@@ -1,62 +1,66 @@
 ---
-title: Vraćanje vrijednosti iz metoda
+title: Vraćanje vrednosti iz metoda
 layout: lekcija-java
 permalink: /java-vracanje-vrednosti
 ---
 
-Još jednom ćemo klasi `TwoDPoint` dodati novu metodu za ispis, `getAsString()` koja za razliku od prethodne dvije ima povratni tip (*return type*) i vraća vrijednost tipa String.
+Dodajmo klasi `Koordinata` novu metodu za ispis, `getAsString()` koja ima povratni tip (*return type*) i vraća vrijednost tipa `String`.
 
 ```java
-class TwoDPoint {
+class Koordinata {
     double x;
     double y;
-    void print() {
-      System.out.println("(" + this.x + "," + this.y + ")");
-    }
-    void print(int n) {
-      for (int i = 0; i < n; i++) {
-        System.out.println("(" + this.x + "," + this.y + ")");
-      }
-    }
+
     String getAsString() {
       return "(" + this.x + "," + this.y + ")";
     }
 }
 ```
 
-Zato sad ovu metodu možemo koristiti na svim mjestima gdje bi inače došla vrijednost tipa String, npr:
+Zato sad ovu metodu možemo koristiti na svim mjestima gdje bi inače došla vrijednost tipa `String`, npr:
 
 ```java
-String s = origin.getAsString();
+String s = ishodiste.getAsString();
 System.out.println(s);
 ```
 
 Ili, još bolje:
 
 ```java
-System.out.println(origin.getAsString());
+System.out.println(ishodiste.getAsString());
 ```
 
-Sada možemo još jednom preraditi klasu `OriginPrinter`:
+Sada možemo testirati klasu `Koordinata` pomoću klase `Stampac`:
 
+{:.ulaz}
 ```java
-class OriginPrinter {
+class Koordinata {
+    double x;
+    double y;
+
+    String getAsString() {
+      return "(" + this.x + "," + this.y + ")";
+    }
+}
+
+class Stampac {
   public static void main(String[] args) {
-    TwoDPoint origin;
-    origin = new TwoDPoint();
-    origin.x = 0.0;
-    origin.y = 0.0;
-    System.out.println(origin.getAsString());
+
+    Koordinata ishodiste;
+    ishodiste = new Koordinata();
+    ishodiste.x = 0.0;
+    ishodiste.y = 0.0;
+    System.out.println(ishodiste.getAsString());
+
   }
 }
 ```
 
-Imamo:
+Pokretanje putem komandne linije:
 
 ```
-% javac TwoDPoint.java
-% javac OriginPrinter.java
-% java OriginPrinter
+% javac Stampac.java
+% java Stampac
 (0.0,0.0)
 ```
 

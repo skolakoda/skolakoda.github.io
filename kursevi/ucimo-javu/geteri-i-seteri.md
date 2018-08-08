@@ -4,52 +4,51 @@ layout: lekcija-java
 permalink: /java-geteri-i-seteri
 ---
 
+**Geter i seter metode se koriste kako ne bismo direktno (neovlašteno) pristupali atributima nekog objekta.**
+
 ## Setter metode
 
-Setter metode, poznate i kao mutator metode, postavljaju vrijednosti varijabli (obično privatnih) unutar klase. Ove metode u pravilu primaju argumente, a vraćaju `void`. Setter metode uobičajeno koriste `this.` za referenciranje atributa i dodjeljivanje vrijednosti iz istoimenog argumenta. Na primjer:
+Setter metode, poznate i kao mutator metode, postavljaju vrijednosti varijabli (obično privatnih) unutar klase. Ove metode u pravilu primaju argumente, a vraćaju `void`. Setter metode uobičajeno koriste `this` za referenciranje atributa i dodjeljivanje vrijednosti iz istoimenog argumenta. Na primjer:
 
 {:.ulaz}
 ```java
-class Car {
+class Kola {
 
-  String licensePlate = "";
-  double speed        = 0.0;
-  double maxSpeed     = 120.0;
+  String tablica = "";
+  double brzina = 0.0;
+  double maxBrzina = 120.0;
 
-  // setter metoda za atribut licensePlate
-  void setLicensePlate(String licensePlate) {
-    this.licensePlate = licensePlate;
+  // setter (mutator) metode
+
+  void setTablica(String tablica) {
+    this.tablica = tablica;
   }
 
-  // setter metoda za atribut maxSpeed
-  void setMaximumSpeed(double maxSpeed) {
-    if (maxSpeed > 0) this.maxSpeed = maxSpeed;
-    else this.maxSpeed = 0.0;
+  void setMaxBrzina(double maxBrzina) {
+    if (maxBrzina > 0) this.maxBrzina = maxBrzina;
+    else this.maxBrzina = 0.0;
   }
 
-  void accelerate(double deltaV) {
-    this.speed = this.speed + deltaV;
-    if (this.speed > this.maxSpeed) {
-      this.speed = this.maxSpeed;
+  void ubrzaj(double deltaV) {
+    this.brzina = this.brzina + deltaV;
+    if (this.brzina > this.maxBrzina) {
+      this.brzina = this.maxBrzina;
     }
   }
-
 }
 
-/* Primjer uporabe setera */
+/* Primjer upotrebe setera */
 
-class CarTest5 {
-
+class KolaProba {
   public static void main(String args[]) {
 
-    Car c = new Car();
-    c.setLicensePlate("New York A45 636");
-    c.setMaximumSpeed(123.45);
+    Kola k = new Kola();
+    k.setTablica("New York A45 636");
+    k.setMaxBrzina(123.45);
 
-    c.accelerate(10.0);
-    System.out.println(c.licensePlate + " se krece brzinom od " + c.speed + " kilometara na sat.");
+    k.ubrzaj(10.0);
+    System.out.println(k.tablica + " se krece brzinom od " + k.brzina + " kilometara na sat.");
   }
-
 }
 ```
 
@@ -59,65 +58,62 @@ class CarTest5 {
 
 Često je korisno da metoda vraća vrijednost. To se radi pomoću naredbe `return` na završetku metode, te naznakom povratnog tipa na početku. Povratni tip mora odgovarati deklariranom tipu u potpisu.
 
-Na primjer, metoda `getLicensePlate()` vraća vrednost atributa `licensePlate` onome tko je metodu pozvao. Signatura `String` nam kaže da metoda vraća strunu (tekst) i ne traži nikakve argumente:
+Na primjer, metoda `getTablica()` vraća vrednost atributa `tablica` onome tko je metodu pozvao. Potpis `String` nam kaže da metoda vraća strunu (tekst) i ne traži nikakve argumente:
 
 {:.ulaz}
 ```java
-class Car {
+class Kola {
 
-  String licensePlate = "";
-  double speed        = 0.0;
-  double maxSpeed     = 120.0;
+  String tablica = "";
+  double brzina = 0.0;
+  double maxBrzina = 120.0;
 
-  void setLicensePlate(String licensePlate) {
-    this.licensePlate = licensePlate;
+  void setTablica(String tablica) {
+    this.tablica = tablica;
   }
 
-  void setMaximumSpeed(double maxSpeed) {
-    if (maxSpeed > 0) this.maxSpeed = maxSpeed;
-    else this.maxSpeed = 0.0;
+  void setMaxBrzina(double maxBrzina) {
+    if (maxBrzina > 0) this.maxBrzina = maxBrzina;
+    else this.maxBrzina = 0.0;
   }
 
-  // getter (accessor) metode
+  // getter (pristupne) metode
 
-  String getLicensePlate() {
-    return this.licensePlate;
+  String getTablica() {
+    return this.tablica;
   }
 
-  double getMaxSpeed() {
-    return this.maxSpeed;
+  double getMaxBrzina() {
+    return this.maxBrzina;
   }
 
-  double getSpeed() {
-    return this.speed;
+  double getBrzina() {
+    return this.brzina;
   }
 
-  void accelerate(double deltaV) {
-    this.speed = this.speed + deltaV;
-    if (this.speed > this.maxSpeed) {
-      this.speed = this.maxSpeed;
+  void ubrzaj(double deltaV) {
+    this.brzina = this.brzina + deltaV;
+    if (this.brzina > this.maxBrzina) {
+      this.brzina = this.maxBrzina;
     }
   }
-
 }
 
-/* Primjer uporabe getera */
+/* Primjer upotrebe getera */
 
-class CarTest6 {
-
+class KolaProba {
   public static void main(String args[]) {
 
-    Car c = new Car();
-    c.setLicensePlate("New York A45 636");
-    c.setMaximumSpeed(123.45);
+    Kola k = new Kola();
+    k.setTablica("New York A45 636");
+    k.setMaxBrzina(123.45);
 
     for (int i = 0; i < 15; i++) {
-      c.accelerate(10.0);     
-      System.out.println(c.getLicensePlate() + " se krece brzinom od " + c.getSpeed() + " kilometara na sat.");
+      k.ubrzaj(10.0);     
+      System.out.println(k.getTablica() + " se krece brzinom od " + k.getBrzina() + " kilometara na sat.");
     }
 
   }
-
 }
 ```
 

@@ -72,7 +72,14 @@ Separator `.` selektuje pojedinog člana objekta (varijablu ili metodu) po imenu
 
 Sljedeći program kreira novi primjerak automobila (klase `Kola`), dodjeljuje vrijednosti njegovim varijablama i ispisuje rezultat.
 
+{:.ulaz}
 ```java
+class Kola {
+  String tablica;
+  double brzina;
+  double maxBrzina;
+}
+
 class TestKola {
   public static void main(String args[]) {
 

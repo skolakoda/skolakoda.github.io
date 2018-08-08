@@ -4,45 +4,45 @@ layout: lekcija-razvoj
 permalink: /liskov-princip-zamene
 ---
 
-**Liskov princip zamene (*Liskov substitution principle*) govori da bi trebalo omogućiti korišćenje bilo koje izvedene klase na mestu klase roditelja i da bi ta klasa trebala da se ponaša na isti način bez izmena.**
+**Liskovljev princip zamene (*Liskov substitution principle*) govori da bi trebalo omogućiti korišćenje bilo koje izvedene klase na mestu klase roditelja i da bi ta klasa trebala da se ponaša na isti način bez izmena.**
 
 Ovaj princip je u skladu sa [otvoren/zatvoren principom](/otvoren-zatvoren-princip), jer osigurava da izvedena klasa ne utiče na ponašanje klase roditelja.
 
 ## Primer
 
-Dat je primer principa zamene kod koga imamo tri klase: `Vehicle`, `Car` i `ElectricBus`. Klase `Car` i `ElectricBus` su nasleđene iz klase `Vehicle`:
+Dat je primer principa zamene kod koga imamo tri klase: `Vozilo`, `Kola` i `Trolejbus`. Klase `Kola` i `Trolejbus` su nasleđene iz klase `Vozilo`:
 
 ```cs
-class Vehicle {
-  public virtual void startEngine() {
-    Console.WriteLine("Start engine");
+class Vozilo {
+  public virtual void pokreniMotor() {
+    Console.WriteLine("Pokrece motor");
   }
 
-  public virtual void accelerate() {
-    Console.WriteLine("Accelerate");
-  }
-}
-
-class Car: Vehicle {
-  public override void startEngine() {
-    engageIgnition();
-    base.startEngine();
-  }
-
-  private void engageIgnition() {
-    Console.WriteLine("Ignition procedure");
+  public virtual void ubrzaj() {
+    Console.WriteLine("Ubrzava");
   }
 }
 
-class ElectricBus: Vehicle {
-  public override void accelerate() {
-    increaseVoltage();
+class Kola: Vozilo {
+  public override void pokreniMotor() {
+    ukljuciPaljenje();
+    base.pokreniMotor();
+  }
+
+  private void ukljuciPaljenje() {
+    Console.WriteLine("Ukljucuje paljenje");
+  }
+}
+
+class Trolejbus: Vozilo {
+  public override void ubrzaj() {
+    povecajNapon();
     connectIndividualEngines();
-    base.accelerate();
+    base.ubrzaj();
   }
 
-  private void increaseVoltage() {
-    Console.WriteLine("Electric logic");
+  private void povecajNapon() {
+    Console.WriteLine("Povecava napon");
   }
 
   private void connectIndividualEngines() {
@@ -55,19 +55,19 @@ Da bi pokazali da se izvedene klase mogu upotrebiti na istom mestu gde i klasa r
 
 ```cs
 class Program {
-  static void go(Vehicle v) {
-    v.startEngine();
-    v.accelerate();
+  static void kreni(Vozilo v) {
+    v.pokreniMotor();
+    v.ubrzaj();
   }
 
   static void Main(string[] args) {
-    Vehicle v = new Vehicle();
-    Vehicle c = new Car();
-    Vehicle e = new ElectricBus();
+    Vozilo v = new Vozilo();
+    Vozilo k = new Kola();
+    Vozilo t = new Trolejbus();
 
-    go(v);
-    go(c);
-    go(e);
+    kreni(v);
+    kreni(k);
+    kreni(t);
   }
 }
 ```

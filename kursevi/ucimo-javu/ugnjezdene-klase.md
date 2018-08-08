@@ -1,5 +1,5 @@
 ---
-title: Unutarnje klase u Javi
+title: Unutrašnje klase u Javi
 layout: lekcija-java
 permalink: /ugnjezdene-klase
 ---
@@ -8,7 +8,7 @@ permalink: /ugnjezdene-klase
 
 **U Javi možete definirati unutarnju klasu (*inner class*). To je klasa definirana unutar druge klase koju zovemo glavnom klasom (*top-level class*).**
 
-Unutarnje klase mogu imati svoje metode. Međutim, ne mogu imati statičke članove. Unutarnje klase koje se nalaze unutar dosega glavne klase mogu biti `public`, `private`, `protected`, `final`, `abstract`.
+Unutrašnje klase mogu imati svoje metode. Međutim, ne mogu imati statičke članove. Unutarnje klase koje se nalaze unutar dosega glavne klase mogu biti `public`, `private`, `protected`, `final`, `abstract`.
 
 Unutarnje klase mogu biti unutar metoda, petlji i ostalih blokova koda zatvorenih unutar vitičastih zagrada (`{}`). Takve klase nisu članovi pa ne mogu biti deklarirane kao `public`, `private`, `protected`, ili `static`.
 
