@@ -43,7 +43,7 @@ class KolaProba {
   public static void main(String args[]) {
 
     Kola k = new Kola();
-    k.setTablica("New York A45 636");
+    k.setTablica("DYD 666");
     k.setMaxBrzina(123.45);
 
     k.ubrzaj(10.0);
@@ -105,7 +105,7 @@ class KolaProba {
   public static void main(String args[]) {
 
     Kola k = new Kola();
-    k.setTablica("New York A45 636");
+    k.setTablica("DYD 666");
     k.setMaxBrzina(123.45);
 
     for (int i = 0; i < 15; i++) {

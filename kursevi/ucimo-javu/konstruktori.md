@@ -136,7 +136,7 @@ class Kola {
 class KolaProba {
   public static void main(String args[]) {
 
-    Kola k = new Kola("New York A45 636", 123.45);
+    Kola k = new Kola("DYD 666", 123.45);
     System.out.println(k.getTablica() + " se krece brzinom od " + k.getBrzina() + " kilometara na sat.");
 
     for (int i = 0; i < 15; i++) {

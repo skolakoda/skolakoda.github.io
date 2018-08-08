@@ -80,7 +80,7 @@ class Kola {
   double maxBrzina;
 }
 
-class TestKola {
+class KolaProba {
   public static void main(String args[]) {
 
     Kola k = new Kola();
@@ -95,11 +95,11 @@ class TestKola {
 }
 ```
 
-Ovaj program ne zahtijeva samo klasu `TestKola` nego i klasu `Kola`. Da biste ga mogli izvršiti, stavite klasu `Kola` u datoteku `Kola.java`, a klasu `TestKola` u datoteku `TestKola.java`. Obje datoteke neka budu u istom direktoriju. Kompilirajte program na uobičajen način:
+Ovaj program ne zahtijeva samo klasu `KolaProba` nego i klasu `Kola`. Da biste ga mogli izvršiti, stavite klasu `Kola` u datoteku `Kola.java`, a klasu `KolaProba` u datoteku `KolaProba.java`. Obje datoteke neka budu u istom direktoriju. Kompilirajte program na uobičajen način:
 
 ```
-% javac TestKola.java
-% java TestKola
+% javac KolaProba.java
+% java KolaProba
 DYD 666 se krece brzinom od 70.0 kilometara na sat.
 ```
 
@@ -119,7 +119,7 @@ class Kola {
   double maxBrzina = 120.0;
 }
 
-class TestKola {
+class KolaProba {
   public static void main(String args[]) {
 
     Kola k = new Kola();
@@ -132,8 +132,8 @@ class TestKola {
 Ukoliko pokrećete program iz komandne linije (možete odvojiti klase u zasebne fajlove), koraci su sledeći:
 
 ```
-% javac TestKola.java
-% java TestKola
+% javac KolaProba.java
+% java KolaProba
 Neregistrovan se krece brzinom od 0.0 kilometara na sat.
 ```
 

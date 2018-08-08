@@ -26,7 +26,7 @@ Isto se dešava u OOP-u kada kod koristi objekat pozivanjem metoda. Bez obzira d
 
 Drugi aspekt sakrivanja informacija je vidljivost metoda i svojstava. U nekim jezicima objekat može da ima `public`, `private` i `protected` metode i svojstva. Ova kategorizacija definiše nivo pristupa koji korisnici objekta mogu imati. Na primer, samo metodi istog objekta imaju pristup metodima `private`, dok svako može pristupiti metodima `public`.
 
-U JavaScriptu svi metodi i svojstva su javni, ali videćete da postoje načini za zaštitu podataka unutar objekta i ostvarivanja privatnosti.
+Na primer, u JavaScriptu svi metodi i svojstva su javni, ali videćete da postoje načini za zaštitu podataka unutar objekta i ostvarivanja privatnosti.
 
 
 Izvor: Ved Antani, Stoyan Stefanov, *Objektno-orijentisan JavaScript*, Beograd, 2017.

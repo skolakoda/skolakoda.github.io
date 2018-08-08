@@ -35,4 +35,6 @@ Ako neće, probati sa `sudo`.
 - dodati stilizovanje linkova
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - 3D slova na naslovnoj
+- dodavati odgovarajuce citate na lekcije
 - bekend i glasanje za projekte
+

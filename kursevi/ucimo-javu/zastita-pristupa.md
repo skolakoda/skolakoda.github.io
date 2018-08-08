@@ -8,23 +8,21 @@ permalink: /java-zastita-pristupa
 
 ## Neovlašteno menjanje vrednosti
 
-Globalne varijable su klasični izvor pogrešaka u većini programskih jezika. Neka nepoznata funkcija može promijeniti vrijednost varijable tamo gdje programer ne očekuje.
+Globalne varijable su klasični izvor grešaka u većini programskih jezika. Neka nepoznata funkcija može promijeniti vrijednost varijable tamo gdje programer ne očekuje.
 
-Na primjer, u klasi `Car` željeli bismo biti sigurni da ni jedan blok programskog koda iz neke druge klase neće moći promijeniti varijablu `speed` tako da bude veća od `maxSpeed`. Želimo pronaći način da sljedeći primjer koda učinimo nelegalnim:
+Na primjer, u klasi `Kola` željeli bismo biti sigurni da ni jedan blok koda iz neke druge klase neće moći promijeniti varijablu `brzina` tako da bude veća od `maxBrzina`. Želimo pronaći način da sljedeći primjer koda učinimo nelegalnim:
 
 ```java
-Car c = new Car("New York A234 567", 100.0);
-c.speed = 150.0;
+Kola k = new Kola("New York A234 567", 100.0);
+k.brzina = 150.0;
 ```
-
-Ovaj kod narušava uvjet koji smo ranije postavili na našu klasu. Želimo omogućiti kompajleru da provede poštivanje takvih uvjeta.
 
 ## Četiri razine zaštite pristupa
 
 Bilo koja dva različita Java objekta mogu jedan prema drugom biti u jednoj od sljedećih relacija:
 
 - Oba objekta su u istoj klasi
-- Jedan objekt je u podklasi klase kojoj pripada drugi objekt
+- Jedan objekt je u podklasi klase kojoj pripada drugi
 - Oba objekta su u istom paketu
 - Ništa od navedenog (oba objekta su u nepovezanim klasama i različitim paketima)
 
@@ -32,21 +30,21 @@ Možete definirati koji će članovi klase biti dostupni drugim objektima, iz sv
 
 ### `public`
 
-Želite li da bilo koji objekt može pozvati određenu metodu ili promijeniti određeni atribut, označit ćete taj član kao `public`. Javnim članovima može se pristupiti s bilo kojeg mjesta odakle je sam objekt vidljiv. Njihov broj treba držati na minimumu i oni trebaju biti usko povezani sa ključnom funkcionalnošću klase. Osim rijetkih izuzetaka, atributi ne bi trebali biti `public`.
+Ako želite da bilo koji objekt može pozvati metodu ili promijeniti atribut, označite taj član kao `public`. Javnim članovima može se pristupiti s bilo kojeg mjesta odakle je sam objekt vidljiv. Njihov broj treba držati na minimumu i oni trebaju biti usko povezani sa ključnom funkcionalnošću klase. Osim rijetkih izuzetaka, atributi ne bi trebali biti `public`.
 
 ### `private`
 
-Želite li da samo objekti iz iste klase mogu pozvati određenu metodu ili promijeniti određeni atribut, označit ćete taj član kao `private`. Privatnim članovima može pristupiti jedino objekt sam ili drugi objekt iste klase (tzv. *sibling*).
+Želite li da samo objekti iz iste klase mogu pozvati metodu ili promijeniti atribut, označite taj član kao `private`. Privatnim članovima može pristupiti jedino objekt sam ili drugi objekt iste klase (tzv. *sibling*).
 
 ### `protected`
 
-Želite li pristup dozvoliti samo objektima koji pripadaju podklasi ili se nalaze unutar istog paketa, označit ćete ih kao `protected`.
+Želite li pristup dozvoliti samo objektima koji pripadaju podklasi ili se nalaze unutar istog paketa, označite ih kao `protected`.
 
 ### `package`
 
-Konačno, želite li pristup do određenog člana omogućiti samo objektima iz istog paketa, izostavit ćete specifikaciju pristupa. Taj default pristup naziva se `package`, ali nema svoju ključnu riječ. Po pretpostavci, sve klase koje pišete pripadaju istom paketu. Međutim, one nisu u istim paketima sa Java klasama.
+Konačno, želite li pristup do određenog člana omogućiti samo objektima iz istog paketa, izostavit ćete specifikaciju pristupa. Taj default pristup naziva se `package`, ali nema svoju ključnu riječ. Po pretpostavci, sve klase koje pišete pripadaju istom paketu.
 
-## Što treba biti public, a što private?
+## Što treba biti javno, a što privatno?
 
 - Klase su u pravilu javne.
 - Varijable su u pravilu privatne.
@@ -64,135 +62,102 @@ Korištenje mogućnosti zaštite podataka osigurava tri bitne koristi:
 2. Osigurava jednostavnije korisničko sučelje. Programeri korisnici ne moraju znati sve što se nalazi unutar klase, dovoljno im je da poznaju javne segmente.
 3. Odvaja sučelje od implementacije, čime se omogućuje da se jedno mijenja nezavisno od drugoga.
 
-## Primjer zaštite pristupa
+## Primjer: klasa Kola
 
-Evo kako bi klasa `Car` u praksi zaista izgledala. Primijetite da su svi atributi sada privatni, a može im se pristupiti jedino kroz javne metode. To je uobičajeni obrazac za pisanje klasa.
+Evo kako bi klasa `Kola` u praksi zaista izgledala. Primijetite da su svi atributi sada privatni, a može im se pristupiti jedino kroz javne metode. To je uobičajeni obrazac za pisanje klasa.
 
+Pokušajmo sada iz neke druge klase direktno pristupiti atributima klase Kola da vidimo što će se dogoditi:
+
+{:.ulaz}
 ```java
-class Car {
+class Kola {
 
-  private String licensePlate;
-  private double speed;
-  private double maxSpeed;
+  private String tablica;
+  private double brzina;
+  private double maxBrzina;
 
-  public Car() {
-    this.licensePlate = "";
-    this.speed  = 0.0;
-    this.maxSpeed = 120.0;
+  public Kola() {
+    this.tablica = "";
+    this.brzina  = 0.0;
+    this.maxBrzina = 120.0;
   }
 
-  public Car(String licensePlate, double speed, double maxSpeed) {
-    this.licensePlate = licensePlate;
-    this.speed  = speed;
-    if (maxSpeed > 0) this.maxSpeed = maxSpeed;
-    else this.maxSpeed = 0.0;
-    if (speed > this.maxSpeed) this.speed = this.maxSpeed;
-    if (speed < 0) this.speed = 0.0;
-    else this.speed = speed;
+  public Kola(String tablica, double brzina, double maxBrzina) {
+    this.tablica = tablica;
+    this.brzina  = brzina;
+    if (maxBrzina > 0) this.maxBrzina = maxBrzina;
+    else this.maxBrzina = 0.0;
+    if (brzina > this.maxBrzina) this.brzina = this.maxBrzina;
+    if (brzina < 0) this.brzina = 0.0;
+    else this.brzina = brzina;
   }
 
-  public Car(String licensePlate, double maxSpeed) {
-    this.licensePlate = licensePlate;
-    this.speed  = 0.0;
-    if (maxSpeed > 0) this.maxSpeed = maxSpeed;
-    else this.maxSpeed = 0.0;
+  public Kola(String tablica, double maxBrzina) {
+    this.tablica = tablica;
+    this.brzina  = 0.0;
+    if (maxBrzina > 0) this.maxBrzina = maxBrzina;
+    else this.maxBrzina = 0.0;
   }
 
-  public String getLicensePlate() {
-    return this.licensePlate;
+  public String getTablica() {
+    return this.tablica;
   }
 
-  public double getMaxSpeed() {
-    return this.maxSpeed;
+  public double getMaxBrzina() {
+    return this.maxBrzina;
   }
 
-  public double getSpeed() {
-    return this.speed;
+  public double getBrzina() {
+    return this.brzina;
   }
 
-  public void setLicensePlate(String licensePlate) {
-    this.licensePlate = licensePlate;
+  public void setTablica(String tablica) {
+    this.tablica = tablica;
   }
 
-  public void setMaximumSpeed(double maxSpeed) {
-    if (maxSpeed > 0) this.maxSpeed = maxSpeed;
-    else this.maxSpeed = 0.0;
+  public void setMaxBrzina(double maxBrzina) {
+    if (maxBrzina > 0) this.maxBrzina = maxBrzina;
+    else this.maxBrzina = 0.0;
   }
 
-  public void floorIt() {
-    speed = maxSpeed;  
+  public void doDaske() {
+    brzina = maxBrzina;  
   }
 
-  public void accelerate(double deltaV) {
-     this.speed = this.speed + deltaV;
-     if (this.speed > this.maxSpeed) {
-       this.speed = this.maxSpeed;
+  public void ubrzaj(double deltaV) {
+     this.brzina = this.brzina + deltaV;
+     if (this.brzina > this.maxBrzina) {
+       this.brzina = this.maxBrzina;
      }
-     if (this.speed <  0.0) {
-       this.speed = 0.0;
+     if (this.brzina <  0.0) {
+       this.brzina = 0.0;
      }
   }
-
 }
-```
 
-Pokušajmo sada iz neke druge klase direktno pristupiti atributima klase Car da vidimo što će se dogoditi:
-
-```java
-class CarTest8 {
-
+class KolaProba {
   public static void main(String args[]) {
 
-    Car c = new Car("New York A45 636", 100.0);
-    c.licensePlate = "New York A45 636";
-    c.speed = 0.0;
-    c.maxSpeed = 123.45;
+    Kola k = new Kola("DYD 666", 100.0);
+    k.tablica = "DYD 777";
+    k.brzina = 150.0;
+    k.maxBrzina = 200.0;
 
-    System.out.println(c.licensePlate + " se krece brzinom od " + c.speed + " kilometara na sat.");
-
-    c.floorIt();
-
-    System.out.println(c.licensePlate + " se krece brzinom od " + c.speed + " kilometara na sat.");
+    System.out.println(k.tablica + " se krece brzinom od " + k.brzina + " kilometara na sat.");
+    k.doDaske();
+    System.out.println(k.tablica + " se krece brzinom od " + k.brzina + " kilometara na sat.");
 
   }
-
 }
 ```
 
-Evo što bi se dogodilo ako pokušate kompilirati `CarTest8` uz revidiranu klasu Car:
+Ukoliko pokušate kompilirati gornje dve klase, dobićete gomilu grešaka, koje valja pažljivo čitati.
 
-```
-% javac Car.java
-% javac CarTest8.java
-CarTest8.java:7: Variable licensePlate in class Car not accessible from class CarTest8.
-    c.licensePlate = "New York A45 636";
-     ^
-CarTest8.java:8: Variable speed in class Car not accessible from class CarTest8.
-    c.speed = 0.0;
-     ^
-CarTest8.java:9: Variable maxSpeed in class Car not accessible from class CarTest8.
-    c.maxSpeed = 123.45;
-     ^
-CarTest8.java:11: Variable licensePlate in class Car not accessible from class CarTest8.
-    System.out.println(c.licensePlate + " se krece brzinom od " + c.speed +
-                        ^
-CarTest8.java:11: Variable speed in class Car not accessible from class CarTest8.
-    System.out.println(c.licensePlate + " is moving at " + c.speed +
-                                                            ^
-CarTest8.java:16: Variable licensePlate in class Car not accessible from class CarTest8.
-    System.out.println(c.licensePlate + " se krece brzinom od " + c.speed +
-                        ^
-CarTest8.java:16: Variable speed in class Car not accessible from class CarTest8.
-    System.out.println(c.licensePlate + " se krece brzinom od " + c.speed +
-                                                            ^
-7 errors
-```
+## Promena implementacije uz nepromenjen interfejs
 
-U mnogim slučajevima atributi bit će protected ili će imati default pristup, dok su, međutim, javne varijable rijetke. Takva koncepcija omogućuje programerima promjenu implementacije klase i istovremeno zadržavanje nepromijenjenog sučelja prema vanjskom svijetu.
+U mnogim slučajevima atributi bit će `protected` ili će imati default pristup, dok su, međutim, javne varijable rijetke. Takva koncepcija omogućuje programerima promjenu implementacije klase i istovremeno zadržavanje nepromijenjenog sučelja prema vanjskom svijetu.
 
-## Primjer promjene implementacije
-
-Radi uštede memorije, brojčani atributi klase `Car` su promenenjeni iz `double` u `float`. Seter metode i dalje primaju tip podatka `double`, ali ga interno konvertuju u `float`.
+Radi uštede memorije, brojčani atributi klase `Kola` su promenenjeni iz `double` u `float`. Seter metode i dalje primaju tip podatka `double`, ali ga interno konvertuju u `float`.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

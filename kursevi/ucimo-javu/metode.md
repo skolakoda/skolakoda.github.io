@@ -55,7 +55,7 @@ class ProbaKola {
 
     Kola c = new Kola();
 
-    c.tablica = "New York A45 636";
+    c.tablica = "DYD 666";
     c.maxBrzina = 123.45;
 
     System.out.println(c.tablica + " se krece brzinom od " + c.brzina + " kilometara na sat.");
@@ -71,8 +71,8 @@ class ProbaKola {
 Izlaz:
 
 ```
-New York A45 636 se krece brzinom od 0.0 kilometara na sat.
-New York A45 636 se krece brzinom od 123.45 kilometara na sat.
+DYD 666 se krece brzinom od 0.0 kilometara na sat.
+DYD 666 se krece brzinom od 123.45 kilometara na sat.
 ```
 
 Svaka metoda u Java programu mora, za razliku od C++ programa, pripadati nekoj klasi.

@@ -1,5 +1,5 @@
 ---
-title: Ključna riječ final
+title: "Ključna reč <code>final</code> u Javi"
 layout: lekcija-java
 permalink: /java-final
 ---

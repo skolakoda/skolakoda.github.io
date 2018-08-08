@@ -15,7 +15,7 @@ class CarTest5 {
 
   public static void main(String args[]) {
 
-    Car c = new Car("New York A45 636", 123.45);
+    Car c = new Car("DYD 666", 123.45);
     System.out.println(c);
 
     for (int i = 0; i < 15; i++) {
@@ -70,7 +70,7 @@ class CarTest5 {
 
   public static void main(String args[]) {
 
-    Car c = new Car("New York A45 636", 123.45);
+    Car c = new Car("DYD 666", 123.45);
     System.out.println(c);
 
     for (int i = 0; i < 15; i++) {
@@ -89,22 +89,22 @@ Ispis sada izgleda ovako:
 % javac Car.java
 % javac CarTest5.java
 % java CarTest5
-[Automobil: oznaka=New York A45 636 brzina=0.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=10.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=20.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=30.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=40.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=50.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=60.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=70.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=80.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=90.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=100.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=110.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=120.0Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=123.45Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=123.45Max. brzina=123.45]
-[Automobil: oznaka=New York A45 636 brzina=123.45Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=0.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=10.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=20.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=30.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=40.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=50.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=60.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=70.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=80.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=90.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=100.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=110.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=120.0Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=123.45Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=123.45Max. brzina=123.45]
+[Automobil: oznaka=DYD 666 brzina=123.45Max. brzina=123.45]
 %
 ```
 

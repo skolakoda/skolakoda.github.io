@@ -1,5 +1,5 @@
 ---
-title: Ključna riječ this
+title: "Ključna reč <code>this</code> u Javi"
 layout: lekcija-java
 permalink: /java-this
 ---
@@ -8,11 +8,11 @@ permalink: /java-this
 
 ## Implicitno `this`
 
-Kada koristimo atribut objekta, možemo pisati samo naziv ili `this.naziv`. Nije dobra praksa nepotrebno opterećivati kod, ali postoje situacije kada je neophodno eksplicitno koristiti `this`.
+Kada koristimo atribut objekta, možemo pisati samo `naziv` ili `this.naziv`. Nije dobra praksa nepotrebno opterećivati kod, ali postoje situacije kada je neophodno eksplicitno koristiti `this`.
 
 ## Eksplicitno `this`
 
-Kada imamo lokalnu varijablu istog imena, ona skriva ili zasjenjuje (*hides*) varijablu članicu klase. Varijabla članica se može referencirati dodavanjem prefiksa `this`. Pomoću ključne riječi `this`, moguće je argumentima neke metode davati ista imena kao varijablama članicama. Npr:
+Kada imamo lokalnu varijablu istog imena, ona skriva ili zasenjuje varijablu članicu klase. Varijabla članica se može referencirati dodavanjem prefiksa `this`. Pomoću ključne riječi `this`, moguće je argumentima neke metode davati ista imena kao varijablama članicama. Npr:
 
 ```java
   void setX(double x) {

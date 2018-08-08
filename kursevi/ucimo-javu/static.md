@@ -1,80 +1,42 @@
 ---
-title: Statičke varijable i metode
+title: "Ključna reč <code>static</code> u Javi"
 layout: lekcija-java
 permalink: /java-static
 ---
 
-**Atribut ili metoda u Java programu može biti deklarirana kao `static`. To znači da pripada klasi, a ne pojedinačnom objektu.**
+**Atribut ili metoda u Java programu može biti deklarirana kao statična (`static`). To znači da pripada klasi, a ne pojedinačnom objektu.**
 
-Kad neki objekt iz klase promijeni vrijednost statičke varijable, onda se ta vrijednost promijenila za sve objekte u klasi. Na primjer, pretpostavite da klasa `Car` class sadrži atribut `speedLimit` koji je postavljen na 112 kph. To će vrijediti za sve automobile. Ako se to promijeni za jedan automobil, promijenit će se za sve. To je tipična statička varijabla.
+Kad neki objekt iz klase promijeni vrijednost statičke varijable, onda se ta vrijednost promijenila za sve objekte u klasi. Na primjer, pretpostavite da klasa `Kola` class sadrži atribut `ogranicenjeBrzine` koji je postavljen na 120 kph. To će vrijediti za sve automobile. Ako se to promijeni za jedan automobil, promijenit će se za sve. To je tipična statička varijabla.
 
-Metode su najčešće statičke ako ne modificiraju ni jednu nestatičku varijablu (varijablu instance) niti ne poziva nestatičke metode. To je uobičajeno u računskim metodama, kao što je računanje kvadratnog korijena koja samo računa korijen iz svojih argumenata i vraća vrijednost. Jedan od načina prepoznavanja da metoda treba biti statička je ako ona ne koristi ključnu riječ `this`.
+Metode su najčešće statičke ako ne modificiraju ni jednu nestatičku varijablu (varijablu instance) i ne pozivaju nestatičke metode. To je uobičajeno u računskim metodama, kao što je računanje kvadratnog korijena koja samo računa korijen iz svojih argumenata i vraća vrijednost. Jedan od načina prepoznavanja da metoda treba biti statička je ako ne koristi ključnu riječ `this`.
 
 ## Statičke varijable
 
-Statička varijabla je varijabla klase, ona pripada klasi (samoj klasi), a ne nekom objektu (instanci klase).
+Statička varijabla je varijabla koja pripada samoj klasi, a ne nekom objektu (instanci klase). Statičke varijable se mogu koristiti bez instanciranja novog objekta.
 
 {:.ulaz}
 ```java
-class Point {
-    double x;
-    double y;
-    static double xorigin = 0.0;
-    static double yorigin = 0.0;
+class Koordinata {
+    static double x = 0.0;
+    static double y = 0.0;
 }
 
-class PointPrinter {
+class Stampac {
   public static void main (String [] args) {
-    System.out.println("Ishodiste je u tocki (" +
-      Point.xorigin + ", " + Point.yorigin + ")");
+    System.out.println("Koordinata je (" + Koordinata.x + ", " + Koordinata.y + ")");
   }
 }
 ```
 
 Pokretanje:
 ```
-% javac Point.java
-% javac PointPrinter.java
-% java PointPrinter
-Ishodiste je u tocki (0.0, 0.0)
-```
-
-Primijetite da za ispis statičkih varijabli nije bilo potrebno kreirati konkretni objekt. Varijablama klase pristupa se pomoću imena klase, a ne pomoću imena referentne varijable.
-
-## Metode
-
-Metode kažu što neki objekt radi.
-
-```java
-class Koordinata {
-    double x;
-    double y;
-    void print() {
-      System.out.println("(" + this.x + "," + this.y + ")");
-    }
-}
-```
-
-Primijetite da se ključna riječ `this` koristi kako bi se iznutra referencirala varijabla koja pripada istoj klasi. Sada možemo preraditi program `Stampac` ovako:
-
-```java
-class Stampac {
-  public static void main(String[] args) {
-    Koordinata ishodiste;
-    ishodiste = new Koordinata();
-    ishodiste.x = 0.0;
-    ishodiste.y = 0.0;
-    ishodiste.print();
-  }
-}
-```
-
-Obrada:
-```
+% javac Koordinata.java
 % javac Stampac.java
 % java Stampac
-(0.0, 0.0)
+Koordinata je (0.0, 0.0)
 ```
+
+Primijetite da za ispis statičkih varijabli nije potrebno kreirati konkretni objekt. Varijablama klase pristupa se pomoću imena klase.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

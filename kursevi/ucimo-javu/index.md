@@ -59,10 +59,10 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
   - [Preopterećenje metoda](/preopterecenje-metoda) (*overloading*)
 - [Kontrola pristupa](/kontrola-pristupa)
   - [Zaštita pristupa u Javi](/java-zastita-pristupa)
-- [Statičke varijable i metode](/java-static)
-- [Enkapsulacija](/enkapsulacija)
-- [Ključna reč `this`](/java-this)
+  - [Enkapsulacija](/enkapsulacija)
+- [Ključna reč `static`](/java-static)
 - [Ključna reč `final`](/java-final)
+- [Ključna reč `this`](/java-this)
 
 ### Rad sa Java objektima
 
