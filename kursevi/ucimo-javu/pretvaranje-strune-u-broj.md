@@ -4,13 +4,17 @@ layout: lekcija-java
 permalink: /java-pretvaranje-strune-u-broj
 ---
 
-Prilikom obrade korisničkog inputa često je potrebno neki `String` pretvoriti u `int`. To se radi uz pomoć statičke metode `Integer.valueOf(String s)` u kombinaciji s (nestatičkom) metodom `intValue()` koje pripadaju klasi `java.lang.Integer`. Npr. strunu "22" pretvorili bismo u int 22 na sljedeći način:
+Prilikom obrade korisničkog inputa često je potrebno neki `String` pretvoriti u `int`. To se radi uz pomoć statičke metode `Integer.valueOf(String s)` u kombinaciji s (nestatičkom) metodom `intValue()` koje pripadaju klasi `java.lang.Integer`. 
+
+Npr. strunu "22" pretvorili bismo u celi broj (`int`) 22 na sljedeći način:
 
 ```java
 int i = Integer.valueOf("22").intValue();
 ```
 
-S tipovima `double`, `float` i `long` postupamo slično, koristeći statičke metode `Double.valueOf(String s)`, `Float.valueOf(String s)` i `Long.valueOf(String s)` u kombinaciji s odgovarajućim metodama `doubleValue()`, `floatValue()` i `longValue()` koje pripadaju, respektivno, klasama `java.lang.Double`, `java.lang.Float` i `java.lang.Long`. Strunu "22" pretvorili bismo u `long` 22 ovako:
+S tipovima `double`, `float` i `long` postupamo slično, koristeći statičke metode `Double.valueOf(String s)`, `Float.valueOf(String s)` i `Long.valueOf(String s)` u kombinaciji s odgovarajućim metodama `doubleValue()`, `floatValue()` i `longValue()` koje pripadaju klasama `java.lang.Double`, `java.lang.Float` i `java.lang.Long`. 
+
+Strunu "22" pretvorili bismo u `long` 22 ovako:
 
 ```java
 long l = Long.valueOf("22").longValue();
@@ -23,9 +27,11 @@ double x = Double.valueOf("22.5").doubleValue();
 float y = Float.valueOf("22.5").floatValue();
 ```
 
-Različite `valueOf()` metode relativno su inteligentne i mogu prepoznati znakove plus i minus, eksponente i ostale uobičajene brojčane formate. Međutim, ako kao argument dobiju nešto potpuno ne-numeričko, npr. "Hello World",  vjerojatno će izbaciti `NumberFormatException`. Za sad još niste učili kako baratati s iznimakama pa u svojim programima izbjegavajte takve situacije.
+Različite `valueOf()` metode relativno su inteligentne i mogu prepoznati znakove plus i minus, eksponente i ostale uobičajene brojčane formate. Međutim, ako kao argument dobiju nešto potpuno ne-numeričko, npr. "Hello World",  vjerojatno će izbaciti `NumberFormatException`.
 
-Preradit ćemo sada program E = mc2 tako da o masi u kilogramima bude prihvaćen kao korisnički input sa komandne linije. Ovaj postupak tipičan je za mnoge programe.
+## Primer
+
+Dat je program E = mc2, tako da masa u kilogramima bude prihvaćena kao korisnički unos sa komandne linije. Ovaj postupak tipičan je za mnoge programe.
 
 ```java
 class mc2 {
@@ -42,7 +48,7 @@ class mc2 {
 }
 ```
 
-Obrada i rezultati:
+Ovaj program morate pokrenuti iz konzole i proslediti mu argument na sledeći način:
 
 ```
 % javac mc2.java
