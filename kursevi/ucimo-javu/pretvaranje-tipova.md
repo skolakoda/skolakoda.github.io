@@ -1,10 +1,12 @@
 ---
 title: Automatsko pretvaranje tipova u Javi
 layout: lekcija-java
-permalink: /java-casting
+permalink: /java-pretvaranje-tipova
+redirect_from:
+  - /java-casting
 ---
 
-Ako `int` podijelimo sa `int` dobijemo `int`. Ako `double` podijelimo sa `double` dobijemo `double`. Ako `int` podijelimo sa `double` ili `double` sa `double`, dobijemo `double` jer u slučaju nejednakosti tipova Java teži dodjeljivanju što šireg tipa kako se spriječilo gubljenje informacija.
+Ako `int` podijelimo sa `int` dobijemo `int`. Ako `double` podijelimo sa `double` dobijemo `double`. Ako `int` podijelimo sa `double` ili `double` sa `double`, dobijemo `double`, jer u **slučaju nejednakosti tipova Java teži dodjeljivanju što šireg tipa kako se spriječilo gubljenje informacija**.
 
 ## Pravila pretvaranja
 
@@ -28,7 +30,7 @@ int i = (int) 9.0/4.0;
 
 Kad se vrijednost pretvara u drugi tip prije pridruživanja, niz operacija se poduzima da bi se desna strana “skratila” na pravu veličinu. Za konverziju između realnih (*floating point*) i cijelih brojeva (npr. int ili long), razlomljeni dio se odbacuje (zaokružuje na nulu). To će proizvesti cijeli broj. Ako je on dovoljno mali da stane u lijevu stranu, pridruživanje je završeno. U suprotnom, ako je prevelik, bit će mu pridružena najveća, a ako je premali, najmanja moguća vrijednost za odgovarajući tip.
 
-Valja voditi računa o tome da prisilno pretvaranje može uzrokovati pogreške kojima će biti vrlo teško ući u trag i zato ovu mogućnost treba koristiti s oprezom.
+**Valja voditi računa o tome da prisilno pretvaranje može uzrokovati pogreške kojima će biti vrlo teško ući u trag i zato ovu mogućnost treba koristiti s oprezom.**
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

@@ -4,27 +4,27 @@ layout: lekcija-java
 permalink: /java-jednakost-objekata
 ---
 
-**Operatori `<`, `>`, `<=` i `>=` mogu se primijeniti jedino na brojeve i znakove. Ne mogu se koristiti sa Stringovima, booleovskim varijablama, poljima (*arrays*) kao ni s drugim neprimitivnim tipovima.**
+**Operatori `<`, `>`, `<=` i `>=` mogu se primijeniti jedino na brojeve i znakove. Ne mogu se koristiti sa drugim tipovima.**
 
 ## Poređenje po referenci
 
-Za jednakost `==` vrijedi pravilo da je `true` jednako `true` i različito od `false`. Isto tako je “Jack went up the hill” različito od “Jill went up the hill”. Međutim, pokušajte izvršite sljedeći program:
+Ako pokušate da poredite dva identična teksta pomoću jednakosti `==`, rezultat neće biti ono što očekujete:
+
 
 {:.ulaz}
 ```java
-class JackAndJill {
+class JaCitam {
 
   public static void main(String args[]) {
 
-    String s1 = new String("Jack went up the hill.");
-    String s2 = new String("Jack went up the hill.");
+    String s1 = new String("Ja čitam.");
+    String s2 = new String("Ja čitam.");
 
-    if ( s1 == s2 ) {
-      System.out.println("Stringovi su jednaki.");
+    if (s1 == s2) {
+      System.out.println("Strune su jednake.");
     }
-
-    else if ( s1 != s2 ) {
-      System.out.println("Stringovi nisu jednaki.");
+    else if (s1 != s2) {
+      System.out.println("Strune nisu jednake.");
     }
   }
 }
@@ -33,10 +33,8 @@ class JackAndJill {
 Vidjet ćete da je rezultat:
 
 ```
-Stringovi nisu jednaki.
+Strune nisu jednake.
 ```
-
-To nije ono što očekujemo.
 
 ## Poređenje po vrijednosti
 
@@ -44,30 +42,32 @@ Da bismo uspoređivali strune ili objekte bilo koje druge vrste, koristimo se me
 
 {:.ulaz}
 ```java
-class JackAndJill {
+class JaCitam {
 
   public static void main(String args[]) {
 
-    String s1 = new String("Jack went up the hill.");
-    String s2 = new String("Jack went up the hill.");
+    String s1 = new String("Ja čitam.");
+    String s2 = new String("Ja čitam.");
 
-    if ( s1.equals(s2) ) {
-      System.out.println("Stringovi su jednaki.");
+    if (s1.equals(s2)) {
+      System.out.println("Strune su jednake.");
     }
     else {
-      System.out.println("Stringovi nisu jednaki.");
+      System.out.println("Strune nisu jednake.");
     }
   }
 }
 ```
 
+U konzoli:
+
 ```
-% javac JackAndJill.java
-% java JackAndJill
-Stringovi su jednaki.
+% javac JaCitam.java
+% java JaCitam
+Strune su jednake.
 ```
 
-Razlozi za ovo sežu prilično duboko u filozofiju Jave i prirodu objekata kakvi su npr. stringovi.
+Razlozi za ovo sežu prilično duboko u filozofiju Jave i prirodu objekata, ali ukratko, u pitanju su dve različite fizičke kopije, koje imaju isti sadržaj. Prvi način ispituje jel isti primerak objekta u pitanju, a drugi jel isti sadržaj.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

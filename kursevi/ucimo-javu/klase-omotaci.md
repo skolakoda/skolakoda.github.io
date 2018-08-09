@@ -6,18 +6,18 @@ permalink: /java-klase-omotaci
 
 ![](https://i0.wp.com/www.javatechblog.com/wp-content/uploads/2016/03/autoboxing-and-unboxing-in-java.png)
 
-**Svi osnovni tipovi podataka imaju odgovarajuće klase omotače (eng. *wrapper classes*), koje sadrže korisne metode za rad sa odgovarajućim tipovima podataka.**
+**Svi osnovni tipovi podataka imaju odgovarajuće klase omotače (*wrapper classes*), koje sadrže korisne metode za rad sa odgovarajućim tipovima podataka.**
 
-Ove klase imaju dve svrhe:
+Klase omotači imaju dve svrhe:
 
-1. Sadrže odredeni broj korisnih funkcija za rad sa osnovnim tipovima podataka. Na primer, klasa `Integer` sadrži korisne metode, kao što su konverzija `String` tipa u `int` vrednost, pretvaranje `int` vrednosti u `float` i druge. `Integer` klasa omogućava i da definišete minimalne i maksimalne vrednosti odredenog tipa.
+1. Sadrže odredeni broj korisnih funkcija za rad sa osnovnim tipovima podataka. Na primer, klasa `Integer` sadrži metode kao što su konverzija `String` tipa u `int`, pretvaranje `int` u `float` i druge. `Integer` klasa omogućava i da definišete minimalne i maksimalne vrednosti odredenog tipa.
 
 2. Neke Java kolekcije ne mogu da skladište vrednosti osnovnih tipova podataka (kao što je `ArrayList`), tako da osnovni tipovi moraju da budu prevedeni u objekte - na primer:
 
 ```java
-ArrayList myLotteryNumbers = new ArrayList();
-myLotteryNumbers.add(new Integer(6));
-myLotteryNumbers.add(new Integer(15));
+ArrayList mojiBrojevi = new ArrayList();
+mojiBrojevi.add(new Integer(6));
+mojiBrojevi.add(new Integer(15));
 ```
 
 ## Automatsko pakovanje u objekat (*autoboxing*)
@@ -27,20 +27,20 @@ Java ima mogućnost automatskog konvertovanja iz primitivnog tipa u odgovarajuć
 Jednostavno, umesto:
 
 ```java
-myLotteryNumbers.add(new Integer(6));
+mojiBrojevi.add(new Integer(6));
 ```
 
 možete da napišete:
 
 ```java
-myLotteryNumbers.add(6);
+mojiBrojevi.add(6);
 ```
 
 i vrednost osnovnog tipa `6` automatski se konvertuje u instancu `Integer` klase.
 
 ## Automatsko otpakivanje vrednosti (*unboxing*)
 
-Kompajler će takođe raditi i obrnutu konverziju, iz objekta omotač klase u vrednost koju enkapsulira. Shodno tome, i sledeća linija je validna:
+Kompajler će raditi i obrnutu konverziju, iz objekta omotač klase u vrednost koju enkapsulira. Shodno tome, i sledeća linija je validna:
 
 ```java
 int luckyNumber = myLotteryNumber.get(23);
