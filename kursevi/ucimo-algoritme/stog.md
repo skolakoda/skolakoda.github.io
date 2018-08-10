@@ -37,11 +37,36 @@ Sledi prosta implementacija stoga u Javascriptu:
 
 {:.ulaz}
 ```js
-stack = []
-stack.push(2)             // stack is now [2]
-stack.push(5)             // stack is now [2, 5]
-element = stack.pop()     // stack is now [2]
-console.log(element)      // displays 5
+stog = []
+stog.push(2)             // stog je sada [2]
+stog.push(5)             // stog je sada [2, 5]
+element = stog.pop()     // stog je sada [2]
+console.log(element)     // stampa 5
+```
+
+Malo naprednija implementacija, sa klasom omotačem, izgledala bi otprilike ovako:
+
+{:.ulaz}
+```js
+class Stog {
+    constructor() {
+      this.niz = []
+    }
+
+    dodaj(el) {
+        this.niz.push(el)
+    }
+
+    ukloni(){
+        return this.niz.pop()
+    }
+}
+
+stog = new Stog
+stog.dodaj(2)             // stog je sada [2]
+stog.dodaj(5)             // stog je sada [2, 5]
+element = stog.ukloni()   // stog je sada [2]
+console.log(element)      // stampa 5
 ```
 
 ## Vežba

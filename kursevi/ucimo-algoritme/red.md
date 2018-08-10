@@ -1,5 +1,5 @@
 ---
-title: "Red (<i>queue</i>)"
+title: "Red (<i>red</i>)"
 layout: lekcija-algoritmi
 permalink: /red
 image: https://upload.wikimedia.org/wikipedia/commons/f/f7/Queue_outside_a_soup_kitchen_at_Klostertorv_in_%C3%85lborg_1943.jpg
@@ -19,11 +19,36 @@ Sledi prosta implementacija reda u Javascriptu:
 
 {:.ulaz}
 ```js
-queue = []
-queue.push(2)           // queue is now [2]
-queue.push(5)           // queue is now [2, 5]
-element = queue.shift() // queue is now [5]
-console.log(element)    // displays 2
+red = []
+red.push(2)           // red je sada [2]
+red.push(5)           // red je sada [2, 5]
+element = red.shift() // red je sada [5]
+console.log(element)  // stampa 2
+```
+
+Malo naprednija implementacija, sa klasom omotačem, izgledala bi otprilike ovako:
+
+{:.ulaz}
+```js
+class Red {
+    constructor() {
+      this.niz = []
+    }
+
+    dodaj(el) {
+        this.niz.push(el)
+    }
+
+    ukloni() {
+        return this.niz.shift()
+    }
+}
+
+red = new Red()
+red.dodaj(2)           // red je sada [2]
+red.dodaj(5)           // red je sada [2, 5]
+element = red.ukloni() // red je sada [5]
+console.log(element)   // stampa 2
 ```
 
 ## Vežba
@@ -32,7 +57,7 @@ Potrebno je simulirati red u prodavnici. Mogući događaju su da nova mušterija
 
 Analiziranjem problema možemo doći do zaključka da su nam i ovde potrebne 3 metode. Prva metoda treba da ubacuje element u skup, druga da izbacuje iz skupa element koji je prvi ubačen ukoliko posmatramo samo elemente koji se trenutno nalaze u skupu, dok treća treba da odgovara na pitanje koji je element od trenutnih u skupu prvi bio ubačen.
 
-Koristeći strukturu queue možemo rešiti ovaj problem. Primetimo da je vremenska složenost opisanih metoda O(1).
+Koristeći strukturu *queue* možemo rešiti ovaj problem. Primetimo da je vremenska složenost opisanih metoda O(1).
 
 
 ### Izvori
