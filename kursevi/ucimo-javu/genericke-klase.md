@@ -4,19 +4,19 @@ layout: lekcija-java
 permalink: /genericke-klase
 ---
 
-Generičke klase omogućavaju kreiranje klasa i metoda koje se razlikuju u specifikaciji jednog ili više tipova, dok se klasa ili metoda ne deklarišu i instanciraju u okviru klijentskog koda. Pomoću njih opisujemo opšti slučaj bez upotrebe konkretnih tipova.
+Pomoću generičkih klasa opisujemo opšti slučaj bez upotrebe konkretnih tipova. Ovo nam omogućava kreiranje klasa i metoda koje se razlikuju u specifikaciji jednog ili više tipova, dok se ne deklarišu i instanciraju u okviru klijentskog koda.
 
 ## Primer
 
-U sledećem primeru kreiramo klasu `MyGenricArray` koja predstavlja generički niz. Ovaj niz može da sadrži elemente bilo kog tipa. U okviru klase dodajemo konstruktor i metode `getItem` i `setItem`. Metoda `main` će tokom izvršavanja kreirati dva niza pri čemu jedan sadrži celobrojne vrednosti, a drugi karaktere.
+U sledećem primeru kreiramo klasu `MojGenerickiNiz` koja predstavlja generički niz. Ovaj niz može da sadrži elemente bilo kog tipa. U okviru klase dodajemo konstruktor i metode `getItem` i `setItem`. Metoda `main` će tokom izvršavanja kreirati dva niza pri čemu jedan sadrži celobrojne vrednosti, a drugi znakove.
 
 Primer je dat u C# programskom jeziku:
 
 ```cs
-public class MyGenericArray<T> {
+public class MojGenerickiNiz<T> {
   T[] array;
 
-  public MyGenericArray(int size) {
+  public MojGenerickiNiz(int size) {
     array = new T[size + 1];
   }
 
@@ -31,7 +31,7 @@ public class MyGenericArray<T> {
 
 class Program {
   static void Main(string[] args) {
-    MyGenericArray<int> intArray = new MyGenericArray<int>(5);
+    MojGenerickiNiz<int> intArray = new MojGenerickiNiz<int>(5);
     for (int i = 0; i < 5; i++) {
       intArray.SetItem(i, i * 5);
     }
@@ -41,7 +41,7 @@ class Program {
 
     Console.WriteLine();
 
-    MyGenericArray<char> charArray = new MyGenericArray<char>(5);
+    MojGenerickiNiz<char> charArray = new MojGenerickiNiz<char>(5);
     for (int i = 0; i < 5; i++) {
       charArray.SetItem(i, (char)(i + 97));
     }

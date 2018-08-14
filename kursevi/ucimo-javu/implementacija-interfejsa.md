@@ -4,80 +4,34 @@ layout: lekcija-java
 permalink: /implementacija-interfejsa
 ---
 
-Proširit ćemo klasu `Car` tako da ona implementira sučelje `Import`. Moramo joj dakle dodati metodu `calculateTariff()`. Također ćemo joj dodati atribut `price` i odgovarajuće getter i setter metode.
+Proširit ćemo klasu `Kola` tako da ona implementira sučelje `Uvoz`. Moramo joj dakle dodati metodu `izracunajCarinu()`. Također ćemo joj dodati atribut `cena` i odgovarajuće getter i setter metode.
 
 ```java
-public class Car extends MotorVehicle implements Import {
+public class Kola implements Uvoz {
 
-  protected int numberWheels = 4;  
-  protected int numberDoors;
-  protected double price;
+  protected double cena;
 
-  // konstruktori
-
-  public Car() {
-    this("", 0.0, 120.0, "", "", 2001, 4,4);
+  public double izracunajCarinu() {
+    return this.cena * 0.1;
   }
 
-  public Car(String licensePlate, double maxSpeed) {
-    this(licensePlate, 0.0, maxSpeed, "", "", 2001, 4,4);
+  public double getCena(){
+    return this.cena;
   }
 
-  public Car(String licensePlate, double maxSpeed,
-   String make, String model, int year, int numberOfPassengers,
-   int numberOfDoors) {
-    this(licensePlate, 0.0, maxSpeed, make, model, year, numberOfPassengers,
-     numberOfDoors);    
-  }
-
-  public Car(String licensePlate, double speed, double maxSpeed,
-   String make, String model, int year, int numberOfPassengers) {
-    this(licensePlate, speed, maxSpeed, make, model, year,
-     numberOfPassengers, 4);    
-  }
-
-  public Car(String licensePlate, double speed, double maxSpeed,
-   String make, String model, int year, int numberOfPassengers,
-   int numberOfDoors) {
-    super(licensePlate, speed, maxSpeed, make, model,
-     year, numberOfPassengers);
-    this.numberDoors = numberOfDoors;
-  }
-  public double calculateTariff() {
-    return this.price * 0.1;
-  }
-
-
-  public int getNumberOfWheels() {
-    return this.numberWheels;
-  }
-
-  public int getNumberOfDoors() {
-    return this.numberDoors;
-  }
-
-  public double getPrice(){
-    return this.price;
-  }
-
-  public void setPrice(double price){
-    this.price=price;
-  }
-
-  public String toString() { // ispis podataka o automobilu
-    return ("[Automobil: oznaka=" + this.licensePlate
-     + " brzina=" + this.speed +  "Max. brzina=" + this.maxSpeed +"]");
+  public void setCena(double cena){
+    this.cena = cena;
   }
 
 }
 ```
 
-Jedna od prednosti uporabe sučelja sastoji se u tome da pojedina klasa može implementirati više od jednog sučelja (dok, s druge strane, ne može biti podklasa više od jedne klase). Na primjer, klasa `Car` može osim sučelja `Import` implementirati i sučelja [Serializable](https://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html) i [Cloneable](https://docs.oracle.com/javase/7/docs/api/java/lang/Cloneable.html). Ova dva sučelja iz biblioteke klasa dodaju samo "tip", ali ne traže implementiranje dodatnih metoda:
+Jedna od prednosti uporabe sučelja sastoji se u tome da pojedina klasa može implementirati više od jednog sučelja (dok, s druge strane, ne može biti podklasa više od jedne klase). Na primjer, klasa `Kola` može osim sučelja `Uvoz` implementirati i sučelja [Serializable](https://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html) i [Cloneable](https://docs.oracle.com/javase/7/docs/api/java/lang/Cloneable.html). Ova dva sučelja iz biblioteke klasa dodaju samo "tip", ali ne traže implementiranje dodatnih metoda:
 
 ```java
 import java.io.*;
 
-public class Car extends MotorVehicle implements Import, Serializable, Cloneable {
+public class Kola extends Vozilo implements Uvoz, Serializable, Cloneable {
 
   // telo klase
 
@@ -88,10 +42,10 @@ public class Car extends MotorVehicle implements Import, Serializable, Cloneable
 
 Klasa [java.lang.Object](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html) sadrži metodu [clone()](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#clone()) koja vraća kopiju (bit po bit) promatranog objekta. Nije sve objekte moguće klonirati. To je moguće učiniti samo s onima koji implementiraju sučelje Cloneable. Pokušamo li klonirati neki drugi objekt, dobit ćemo iznimku [CloneNotSupportedException](https://docs.oracle.com/javase/7/docs/api/java/lang/CloneNotSupportedException.html).
 
-Na primjer, da bismo klasu `Car` učinili klonabilnom, deklariramo da ona implementira sučelje `Cloneable`, a kako je ono samo deklarativno (tzv. *marker interface*) nije potrebno dodavati nikakve posebne metode.
+Na primjer, da bismo klasu `Kola` učinili klonabilnom, deklariramo da ona implementira sučelje `Cloneable`, a kako je ono samo deklarativno (tzv. *marker interface*) nije potrebno dodavati nikakve posebne metode.
 
 ```java
-public class Car extends MotorVehicle implements Cloneable {
+public class Kola extends Vozilo implements Cloneable {
 
   // ...
 
@@ -101,8 +55,8 @@ public class Car extends MotorVehicle implements Cloneable {
 Tada bismo mogli pisati:
 
 ```java
-Car c1 = new Car("New York A12 345", 150.0);
-Car c2 = c1.clone();
+Kola c1 = new Kola("New York A12 345", 150.0);
+Kola c2 = c1.clone();
 ```
 
 Većina klasa iz biblioteke klasa ne implementira `Cloneable` pa njihove instance ne možemo klonirati.

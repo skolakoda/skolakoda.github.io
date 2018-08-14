@@ -4,7 +4,7 @@ layout: lekcija-java
 permalink: /java-interfejs
 ---
 
-**Interfejs ili sučelje je nešto poput klase, ali sadrži samo apstraktne metode i konstantne atribute. U sučelju možete deklarirati po volji mnogo različitih metoda, bez njihove implementacije.**
+**Interfejs ili sučelje je nešto poput klase, ali sadrži samo apstraktne metode i konstantne atribute. U sučelju možete proglasiti po volji mnogo različitih metoda, bez njihove implementacije.**
 
 Interfejs definiše samo prototip metoda. U klasama koje implementiraju interfejs definiše se tijelo metode. Interfejs se definiše kao klasa, jedino se umjesto ključne riječi `class` koristi `interface`.
 

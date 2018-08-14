@@ -11,24 +11,24 @@ permalink: /java-abstract
 Apstraktna klase se definira dodavanjem ključne riječi `abstract` nakon specifikatora pristupa, npr.:
 
 ```java
-public abstract class MotorVehicle {}
+public abstract class Vozilo {}
 ```
 
-Apstraktne klase se ne mogu instancirati. Pokušaj instanciranja:
+Apstraktne klase se ne mogu instancirati. Pokušaj instanciranja`:
 
 ```java
-MotorVehicle m = new MotorVehicle();
+Vozilo m = new Vozilo();
 ```
 
 dat će pogrešku kod kompilacije:
 
 ```
-MotorVehicleTest.java:5: MotorVehicle is abstract; cannot be instantiated
-    MotorVehicle m = new MotorVehicle();
+VoziloProba.java:5: Vozilo is abstract; cannot be instantiated
+    Vozilo m = new Vozilo();
                      ^
 ```
 
-Klasa `MotorVehicle` je zapravo tipičan primjer klase koja treba biti apstraktna. Ideja generičkog vozila nije realna. Realno je raditi s automobilima, kamionima, motociklima i ostalim objektima raznih podklasa od `MotorVehicle`, ali ne i sa objektima apstraktne klase.
+Klasa `Vozilo` je zapravo tipičan primjer klase koja treba biti apstraktna. Ideja generičkog vozila nije realna. Realno je raditi s automobilima, kamionima, motociklima i ostalim objektima raznih podklasa od `Vozilo`, ali ne i sa objektima apstraktne klase.
 
 Apstraktne klase imaju apstraktne metode.
 
@@ -40,17 +40,17 @@ Apstraktna metoda može postojati jedino unutar apstraktne klase ili interfejsa.
 
 ## Implementacija
 
-Npr. apstraktna klasa `MotorVehicle` mogla bi imati apstraktnu metodu `fuel()`:
+Npr. apstraktna klasa `Vozilo` mogla bi imati apstraktnu metodu `gorivo()`:
 
 ```java
-public abstract class MotorVehicle {
+public abstract class Vozilo {
 
-  public abstract void fuel();
+  public abstract void gorivo();
 
 }
 ```
 
-Potklase izvedene iz apstraktne klase, da bi mogle imati svojih instanci, moraju implementirati svaku deklarisanu metodu. Primjerice, klasa `Car` bi metodu `fuel()` mogla implementirati punjenjem spremnika benzinom. Klasa `EighteenWheelerTruck` mogla bi je implementirati punjenjem spremnika diesel gorivom. Klasa `ElectricCar` bi je implementirati punjenjem električnom strujom.
+Potklase izvedene iz apstraktne klase, da bi mogle imati svojih instanci, moraju implementirati svaku deklarisanu metodu. Primjerice, klasa `Kola` bi metodu `gorivo()` mogla implementirati punjenjem spremnika benzinom. Klasa `Kamion` mogla bi je implementirati punjenjem spremnika diesel gorivom. Klasa `ElektricnaKola` bi je implementirati punjenjem električnom strujom.
 
 ### Izvori
 - Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
