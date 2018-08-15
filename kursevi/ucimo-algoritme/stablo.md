@@ -27,6 +27,10 @@ Gomila je vrsta strukture stabla koja se koristi u jednom od algoritama sortiran
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Max-Heap.svg/500px-Max-Heap.svg.png)
 
+### Vidi još
+
+- [Binarno stablo pretrage](/binarno-stablo-pretrage)
+
 ### Izvori
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
