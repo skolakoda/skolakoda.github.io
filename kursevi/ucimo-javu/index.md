@@ -96,7 +96,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 
 ### Paketi
 
-- [Javina biblioteka klasa](/java-biblioteka-klasa)
+- [Biblioteka Java klasa](/java-biblioteka-klasa)
 - [Ključna reč `import`](/java-import)
 - [Pravljenje paketa u Javi](/java-pravljenje-paketa)
 - `CLASSPATH`

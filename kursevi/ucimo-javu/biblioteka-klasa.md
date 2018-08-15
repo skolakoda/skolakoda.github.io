@@ -1,5 +1,5 @@
 ---
-title: Javina biblioteka klasa
+title: Biblioteka Java klasa
 layout: lekcija-java
 permalink: /java-biblioteka-klasa
 ---
@@ -102,10 +102,10 @@ public class URLSplitter {
 }
 ```
 
-Izlaz:
+Upotreba iz konzole:
 
 ```
-% javac SplitURL.java
+% javac URLSplitter.java
 % java URLSplitter http://student.math.hr:80/~vedris/index.html#top
 Protocol: http
 Host: student.math.hr

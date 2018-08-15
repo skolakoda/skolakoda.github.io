@@ -21,8 +21,8 @@ Ako želimo da klasa bude dostupna izvan paketa, potrebno je deklarisati klasu k
 Paketi se pišu jednako kao i bilo koji Java program, no pri tome se treba držati sljedećih pravila:
 
 - Ne smije biti više od jedne `public` klase po fajlu.
-- Svi fajlovi u paketu moraju se zvati `imeKlase.java`, gdje je imeKlase ime javne klase u fajlu.
-- Na početku svakog fajla u paketu mora ići naredba `package imePaketa;`
+- Svi fajlovi u paketu moraju se zvati `ImeKlase.java`, gdje je imeKlase ime javne klase u fajlu.
+- Na početku svakog fajla u paketu mora ići naredba `package ime.paketa;`
 
 ## Pravila imenovanja
 

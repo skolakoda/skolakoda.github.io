@@ -1,33 +1,31 @@
 ---
-title: import u Javi
+title: "<code>import</code> u Javi"
 layout: lekcija-java
 permalink: /java-import
 ---
 
-## Uvoz klasa u program
-
 Da bismo koristili klase bez navođenja njihovog punog imena (koje uključuje ime paketa i ime klase, npr. `java.net.URL`), uvozimo ih naredbom `import` na početku programa:
 
+{:.ulaz}
 ```java
 import java.net.URL;
 import java.net.MalformedURLException;
 
 public class URLSplitter {
-
   public static void main(String[] args) {
 
-    for (int i = 0; i < args.length; i++) {
-      try {
-        URL u = new URL(args[i]);
-        System.out.println("Protocol: " + u.getProtocol());
-        System.out.println("Host: " + u.getHost());
-        System.out.println("Port: " + u.getPort());
-        System.out.println("File: " + u.getFile());
-        System.out.println("Ref: " + u.getRef());
-      }
-      catch (MalformedURLException e) {
-        System.err.println(args[i] + " nije valjani URL ");
-      }
+    String struna = "http://student.math.hr:80/~vedris/index.html#top";
+
+    try {
+      URL u = new URL(struna);
+      System.out.println("Protocol: " + u.getProtocol());
+      System.out.println("Host: " + u.getHost());
+      System.out.println("Port: " + u.getPort());
+      System.out.println("File: " + u.getFile());
+      System.out.println("Ref: " + u.getRef());
+    }
+    catch (MalformedURLException e) {
+      System.err.println(struna);
     }
 
   }
