@@ -1,30 +1,30 @@
 ---
-title: Iznimke (exceptions)
+title: "Izuzeci (<i>exceptions</i>)"
 layout: lekcija-java
-permalink: /java-iznimke
+permalink: /java-izuzeci
 ---
 
-Tradicionalni programski jezici se služe postavljanjem različitih flagova i specifičnim povratnim vrijednostima, npr. `–1` da bi naznačili neki problem koji je nastao tokom izvršavanja programa. Java se služi konceptom izbacivanja iznimki (*exception throwing*). Prednosti ovog pristupa su:
+Tradicionalni programski jezici se služe postavljanjem zastavica i specifičnim povratnim vrijednostima (npr. -1) da bi naznačili neki problem nastao tokom izvršavanja programa. Java se služi konceptom **izbacivanja izuzetaka** (*exception throwing*). 
 
-- Prisiljava programera na provjeru pogrešaka (iznimku, za razliku od flaga, nije moguće ignorirati).
-- Program je pregledniji jer je kod za obradu pogrešaka jasno odvojen od ostalog koda (tako algoritam nije zagađen mnoštvom `if-else` blokova koji provjeravaju flagove i povratne vrijednosti).
+Prednosti ovog pristupa su:
+
+- Prisiljava programera na provjeru pogrešaka (iznimku, za razliku od zastavice, nije moguće ignorirati).
+- Program je pregledniji jer je kod za obradu pogrešaka jasno odvojen od ostalog koda (tako algoritam nije zagađen mnoštvom `if-else` blokova koji provjeravaju zastavice i povratne vrijednosti).
 - Algoritam je moguće implementirati efikasnije.
 
 Pogledajmo sljedeći program:
 
 ```java
 public class HelloThere {
-
   public static void main(String[] args) {
 
     System.out.println("Hello " + args[0]);
 
   }
-
 }
 ```
 
-Pretpostavimo da ga izvršimo bez argumenata, dakle ne postoji args[0]. Java runtime system bi izbacio iznimku ArrayIndexOutOfBoundsException i završio program.
+Pretpostavimo da ga izvršimo bez argumenata, dakle ne postoji args[0]. Java runtime system bi izbacio iznimku `ArrayIndexOutOfBoundsException` i završio program.
 
 ```
 % javac HelloThere.java
@@ -33,9 +33,9 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
         at HelloThere.main(HelloThere.java:5)
 ```
 
-## Razne vrste iznimaka
+## Vrste izuzetaka
 
-Iznimke su objekti neke podklase klase [java.lang.Throwable](https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html). Mogu biti:
+Iznimke ili uzuzeci su objekti neke podklase klase [java.lang.Throwable](https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html). Mogu biti:
 - Provjerene iznimke (*Checked Exceptions*)
 - Pogreške (*Errors*)
 - Izvršne iznimke (*Runtime Exceptions*)

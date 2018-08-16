@@ -104,7 +104,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 
 ### Rukovanje izuzecima
 
-- [Izuzeci](/java-iznimke) (*exceptions*)
+- [Izuzeci](/java-izuzeci) (*exceptions*)
 - [Hvatanje izuzetaka](/hvatanje-izuzetaka) (`try-catch`)
 - [Finalni blok](/java-finalni-blok) (`finally`)
 - [Exception metode](/exception-metode)

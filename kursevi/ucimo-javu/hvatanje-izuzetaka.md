@@ -7,12 +7,11 @@ permalink: /hvatanje-izuzetaka
 
 ## `try-catch` blok
 
-Pri odbacivanju iznimke ne dolazi do pucanja programa. Odbacivanje iznimke je upozorenje na problem za koji se treba pobrinuti. Možemo to učiniti tako da naredbu koja odbacuje iznimku zatvorimo unutar `try-catch` bloka.
+Pri izbacivanju izuzetka (*exception throwing*) ne dolazi do pucanja programa. Izbacivanja izuzetka je upozorenje na problem za koji se treba pobrinuti. Možemo to učiniti tako da naredbu koja odbacuje iznimku zatvorimo unutar `try-catch` bloka.
 
 {:.ulaz}
 ```java
 public class HelloThere {
-
   public static void main(String[] args) {
 
     try {
@@ -23,11 +22,10 @@ public class HelloThere {
     }
 
   }
-
 }
 ```
 
-Sada bismo imali:
+Ukoliko pokrenemo program bez argumenata, imaćemo:
 
 ```
 % javac HelloThere.java
@@ -35,9 +33,9 @@ Sada bismo imali:
 Hello Whoever you are.
 ```
 
-## Rukovanje iznimkama
+## Rukovanje izuzecima
 
-Što možemo učiniti s uhvaćenom iznimkom?
+Što možemo učiniti s uhvaćenom iznimkom (izuzetkom)?
 
 - Riješiti problem i pokušati ponovo.
 - Izvesti neki drugi blok koda.
@@ -50,12 +48,12 @@ Hello Whoever you are.
 
 Napomenimo da samo ispisivanje poruke o pogreški općenito nije prihvatljiv odgovor na pojavu iznimke.
 
-## Hvatanje višestrukih iznimaka
+## Hvatanje višestrukih izuzetaka
 
-{:.ulaz}
+Primer:
+
 ```java
-public class HelloThere {
-
+public class ViseIzuzetaka {
   public static void main(String[] args) {
 
     int repeat;
@@ -69,67 +67,20 @@ public class HelloThere {
     }
     catch (NumberFormatException e) {
       // ispisujemo poruku o pogreski
-      System.err.println("Pozivanje: java HelloThere broj_ponavljanja" );
-      System.err.println("npr. java HelloThere 5" );
+      System.err.println("Pokretanje: java ViseIzuzetaka broj" );
+      System.err.println("npr. java ViseIzuzetaka 5" );
       return;
     }
 
     for (int i = 0; i < repeat; i++) {
-      System.out.println("Hello");
+      System.out.println("Zdravo");
     }
 
   }
-
 }
 ```
 
-Ako se pojavi iznimka čiji je tip naveden u nekom od catch blokova, ona će biti uhvaćena. Ako više catch blokova prepozna tip iznimke, obradit će ga prvi po redu.
-
-{:.ulaz}
-```java
-public class HelloThere {
-
-  public static void main(String[] args) {
-
-    int repeat;
-
-    try {
-      // mogucnost pojave NumberFormatException i ArrayIndexOutOfBoundsException
-      repeat = Integer.parseInt(args[0]);
-
-      // mogucnost pojave ArithmeticException
-      int n = 2/repeat;
-
-      // mogucnost pojave StringIndexOutOfBoundsException
-      String s = args[0].substring(5);
-    }
-    catch (ArrayIndexOutOfBoundsException e) {
-      //odabiremo default vrijednost
-      repeat = 1;
-    }
-    catch (NumberFormatException e) {
-      // ispisujemo poruku o pogreski
-      System.err.println("Pozivanje: java HelloThere broj_ponavljanja" );
-      System.err.println("npr. java HelloThere 5" );
-      return;
-    }
-    catch (Exception e) {
-      // ispisujemo poruku o pogreski i izlazimo
-      System.err.println("Neocekivana iznimka");
-      e.printStackTrace();
-      return;
-    }
-
-    for (int i = 0; i < repeat; i++) {
-      System.out.println("Hello");
-    }
-
-  }
-
-}
-```
-
-Rijetko se pokušava uhvatiti generički `Error` ili `Throwable` jer za takvom općenitom iznimkom zaista je teško počistiti nered.
+Ako se pojavi iznimka čiji je tip naveden u nekom od `catch` blokova, ona će biti uhvaćena. Ako više `catch` blokova prepozna tip iznimke, obradit će ga prvi po redu. Rijetko se pokušava uhvatiti generički `Error` ili `Throwable` jer za takvom općenitom iznimkom je teško počistiti nered.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.
