@@ -107,7 +107,7 @@ image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/jav
 - [Izuzeci](/java-izuzeci) (*exceptions*)
 - [Hvatanje izuzetaka](/hvatanje-izuzetaka) (`try-catch`)
 - [Finalni blok](/java-finalni-blok) (`finally`)
-- [Exception metode](/exception-metode)
+- [Metode klase `Exception`](/exception-metode)
 - [Izbacivanje izuzetaka](/izbacivanje-izuzetaka)
 - [Definisanje vlastitih izuzetaka](/definisanje-izuzetaka)
 - Errors and RuntimeExceptions

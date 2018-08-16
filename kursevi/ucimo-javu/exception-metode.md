@@ -1,14 +1,14 @@
 ---
-title: Exception metode
+title: "Metode klase <code>Exception</code>"
 layout: lekcija-java
 permalink: /exception-metode
 ---
 
-Iznimke uglavnom služe kao signali. U pravilu nemaju mnogo vlastitih metoda i one se rijetko pozivaju izravno.
+Iznimke ili izuzeci (*exceptions*) uglavnom služe kao signali. U pravilu nemaju mnogo vlastitih metoda i rijetko se pozivaju izravno.
 
 Evo nekoliko metoda klase `Exception`:
 
-```
+```java
 public String getMessage()
 public String getLocalizedMessage()
 public String toString()

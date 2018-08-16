@@ -9,7 +9,6 @@ Nakon `try` bloka može slijediti polji mnogo `catch` blokova. Nakon njih može 
 {:.ulaz}
 ```java
 public class HelloThere {
-
   public static void main(String[] args) {
 
     try {
@@ -24,11 +23,10 @@ public class HelloThere {
 
 
   }
-
 }
 ```
 
-U slučaju da svi `catch` blokovi sadrže mnogo zajedničkih naredbi moguće je uštediti na linijama koda tako da se zajednički dijelovi stave u finalni blok.
+Finalni blok će uvek biti izvršen. U slučaju da svi `catch` blokovi sadrže mnogo zajedničkih naredbi moguće je uštediti na linijama koda tako da se zajednički dijelovi stave u `finally`.
 
 
 Izvor: Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.

@@ -4,9 +4,9 @@ layout: lekcija-java
 permalink: /definisanje-izuzetaka
 ---
 
-**Većina klasa iznimki nasljeđuje veći dio funkcionalnosti od svoje nadklase.** 
+**Većina klasa izuzetaka nasljeđuje veći dio funkcionalnosti od svoje nadklase.** Svaka podklasa služi kao označitelj za različite vrste izuzetaka. Međutim, ona rijetko donosi nove metode ili atribute. 
 
-Svaka podklasa služi kao označitelj za različite vrste iznimaka. Međutim, ona rijetko donosi nove metode ili atribute. Uglavnom jedine metode koje trebate implementirati su konstruktori. Uvijek mora biti jedan konstruktor bez argumenata i jedan koji uzima poruku tipa `String` za argument. Oni će uglavnom pozivati odgovarajuće konstruktore iz nadklase.
+Uglavnom, kada pravite sopstvene klase izuzetaka, jedine metode koje treba implementirati su konstruktori. Uvijek mora biti jedan konstruktor bez argumenata i jedan koji uzima poruku tipa `String`. Oni će uglavnom pozivati odgovarajuće konstruktore iz nadklase, na sledeći način:
 
 ```java
 public class ClockException extends Exception {
