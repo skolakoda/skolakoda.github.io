@@ -4,16 +4,18 @@ layout: lekcija-java
 permalink: /java-prevod-binarnog-toka
 ---
 
-## Klasa `InputStreamReader`
+**Java ima ugrađene klase koje olakšavaju za rad sa tokom binarnih podataka.**
 
-Klasa [`InputStreamReader`](https://docs.oracle.com/javase/7/docs/api/java/io/InputStreamReader.html) (Čitač ulaznog toka) služi kao most između tokova bajtova i tokova znakova. Čita bajtove s ulaznog toka i prevodi ih u znakove, u skladu sa zadanim znakovnim sustavom. Znakovni sustav (*encoding*) može se zadati u konstruktoru ili prihvatiti podrazumevani s računala.
+## Klasa `InputStreamReader` (čitač ulaznog toka)
+
+Klasa [`InputStreamReader`](https://docs.oracle.com/javase/7/docs/api/java/io/InputStreamReader.html) služi kao most između toka bajtova i toka znakova. Čita bajtove s ulaznog toka i prevodi ih u znakove, u skladu sa zadanim znakovnim sustavom. Znakovni sustav (*encoding*) može se zadati u konstruktoru ili prihvatiti podrazumevani s računala.
 
 ```java
 public InputStreamReader(InputStream in)
 public InputStreamReader(InputStream in, String encoding) throws UnsupportedEncodingException
 ```
 
-Na primjer, da biste priključili `InputStreamReader` na `System.in` sa pretpostavljenim znakovnim sustavom, stavili biste:
+Na primjer, da biste priključili `InputStreamReader` na `System.in` sa podrazumevanim znakovnim sustavom, stavili biste:
 
 ```java
 InputStreamReader isr = new InputStreamReader(System.in);
@@ -26,7 +28,7 @@ FileInputStream fis = new FileInputStream("symbol.txt");
 InputStreamReader isr = new InputStreamReader(fis, "MacSymbol");
 ```
 
-Metoda `getEncoding()` vraća strunu koji sadrži ime znakovnog sustava koji se trenutno koristi:
+Metoda `getEncoding()` vraća ime znakovnog sustava koji se trenutno koristi:
 
 ```java
 public String getEncoding()
@@ -41,9 +43,9 @@ public boolean ready() throws IOException
 public void close() throws IOException
 ```
 
-## Klasa `OutputStreamWriter`
+## Klasa `OutputStreamWriter` (pisač izlaznog toka)
 
-Klasa [`OutputStreamWriter`](https://docs.oracle.com/javase/7/docs/api/java/io/OutputStreamWriter.html) (Pisač izlaznog toka) povezuje izlazne tokove bajtova i tokove znakova. Ispisuje bajtove na pripadni izlazni tok nakon prevođenja znakova u skladu sa zadanim znakovnim sustavom.
+Klasa [`OutputStreamWriter`](https://docs.oracle.com/javase/7/docs/api/java/io/OutputStreamWriter.html) povezuje izlazni tok bajtova i tok znakova. Ispisuje bajtove na pripadni izlazni tok, nakon prevođenja znakova u skladu sa zadanim znakovnim sustavom.
 
 Znakovni sustav može se zadati u konstruktoru ili prihvatiti podrazumevani sustav sa platforme:
 
