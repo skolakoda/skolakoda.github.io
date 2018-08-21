@@ -2,12 +2,13 @@
 title: Binarno stablo pretrage
 layout: lekcija-algoritmi
 permalink: /binarno-stablo-pretrage
+author: damjan
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/400px-Binary_search_tree.svg.png
 ---
 
 ![Binarno stablo pretrage]({{page.image}})
 
-**Binarno stablo pretrage (en. *binary search tree*) je jedna od najvažnijih struktura podataka u računarstvu.** To je uređeno binarno stablo za koje važi da su vrednosti svih elemenata u levom podstablu manje od vrednosti čvora, a svih elemenata u desnom podstablu veće od vrednosti čvora.
+**Binarno stablo pretrage (en. *binary search tree*) je jedna od najvažnijih struktura podataka u računarstvu.** To je uređeno binarno stablo za koje važi da su vrednosti svih elemenata u levom podstablu manje od vrednosti čvora, a svih elemenata u desnom podstablu veće.
 
 Ovakva struktura podataka ima veliku primenu u računarstvu jer se u njoj brže pronalaze podaci nego u listi ili u nizu.
 
@@ -27,63 +28,167 @@ Većina ovih operacija implementira se korišćenjem rekurzije.
 
 ## Implementacija
 
-U C-u se uređeno binarno stablo može implementirati korićenjem strukture i pokazivača na sledeći način:
+Da bismo implementirali binarno stablo koje se sastoji od više čvorova, potrebno je prvo napraviti jedan čvor. 
 
-```c
-typedef struct Cvor {
-  int podatak;
-  Cvor *levi, *desni;
-} Cvor;
+### Čvor
+
+U Javascriptu klasu čvor možemo implementirati na sledeći način:
+
+```js
+class Cvor {
+  constructor(vrednost) {
+    this.vrednost = vrednost
+    this.levo = null
+    this.desno = null
+  }
+}
 ```
 
-Ovom strukturom opisan je jedan čvor u binarnom stablu, koji sadrži podatak i pokazivače na levo i desno podstablo. Binarno stablo se deklariše kao pokazivač na koren:
+Ovom klasom opisan je jedan čvor koji sadrži sopstvenu vrednost i pokazivače na levo i desno podstablo. Sada, na primer, možemo instancirati čvor i dodeliti mu vrednost:
 
-```c
-Cvor *koren = NULL;  // kreiranje praznog binarnog stabla
+```js
+const cvor = new Cvor(5)
+```
+
+Jedan čvor još uvek nije stablo, ali ako napravimo tri čvora i povežemo ih, na pravom smo putu:
+
+{:.ulaz}
+```js
+class Cvor {
+  constructor(vrednost) {
+    this.vrednost = vrednost
+    this.levo = null
+    this.desno = null
+  }
+}
+
+const koren = new Cvor(5)
+koren.levo = new Cvor(3)
+koren.desno = new Cvor(7)
+
+console.log(JSON.stringify(koren, null, 4))
+```
+
+Primetite da smo manju vrednost dodali sa leve, a veću sa desne strane. Sada otprilike imamo ovakvu strukturu:
+
+```
+             5
+           /   \
+          3     7
+```
+
+### Stablo
+
+Sada napravimo još jednu klasu, `Stablo`, koja će voditi računa o kreiranju čvorova i dodavanju na pravo mesto. Za sada, neka samo napravi jedan čvor i postavi ga za svoj koren:
+
+{:.ulaz}
+```js
+class Cvor {
+  constructor(vrednost) {
+    this.vrednost = vrednost
+    this.levo = null
+    this.desno = null
+  }
+}
+
+class Stablo {
+  constructor(vrednost) {
+    this.koren = new Cvor(vrednost)
+  }
+}
+
+const stablo = new Stablo(5)
+
+console.log(JSON.stringify(stablo, null, 4))
 ```
 
 ### Dodavanje elementa
 
-Sledeća funkcija ubacuje novi element u binarno stablo. Argumenti su pokazivač na koren stabla u koji se ubacuje element i element koji se ubacuje, a povratna vrednost je pokazivač na koren izmenjenog stabla:
+Da ne bismo ručno dodavali čvorove, potrebno je implementirati metodu koja to radi:
 
-```c
-Cvor* ubaciCvor(Cvor *koren, int podatak) {
-    if (koren == NULL) {
-        Cvor *novi = (Cvor *) malloc(sizeof(Cvor));
-        novi->podatak = podatak;
-        novi->levi = NULL;
-        novi->desni = NULL;
-        return novi;
-    } else {
-        if (podatak < koren->podatak) {
-            koren->levi = ubaciCvor(koren->levi, podatak);
-        } else {
-            koren->desni = ubaciCvor(koren->desni, podatak);
-        }
-        return koren;
-    }
-}
+```js
+  dodaj(vrednost, cvor = this.koren) {
+    if (vrednost === cvor.vrednost) return
+    const strana = vrednost > cvor.vrednost ? 'desno' : 'levo'
+    if (!cvor[strana]) cvor[strana] = new Cvor(vrednost)
+    else this.dodaj(vrednost, cvor[strana])
+  }
 ```
 
-Ubacivanje elementa implementirano je korišćenjem rekurzije. Slučaj za izlaz iz rekurzije je kada imamo prazno stablo u koje dodajemo element (koren==NULL). Tada kreiramo novi čvor kome će levo i desno podstablo biti prazna stabla, a podatak jednak argumentu funkcije. Ukoliko stablo nije prazno potrebno je da pronađemo mesto za novi element. Ako je podatak manji od vrednosti korena, novi čvor se ubacuje u levo podstablo (inače u desno), tako što se za vrednost podstabla postavlja vrednost koje se dobija rekurzivnim pozivom funkcije `ubaciCvor` za odgovarajuće podstablo. Rekurzija se ponavlja dok se novi podatak ne ubaci kao list na odgovarajuće mesto u binarnom stablu.
+Ubacivanje elementa implementirano je korišćenjem rekurzije. Rekurzija se ponavlja dok se nova vrednost ne ubaci kao čvor na odgovarajuće mesto u binarnom stablu.
+
+{:.uokvireno}
+**Tumačenje**: Metoda prima dva argumena, `vrednost` i `cvor`. Vrednost je broj koji dodajemo, a `cvor` element sa čije leve ili desne strane kačimo novi čvor (podrazumevani argument je `this.koren`). Na početku imamo rani `return` ako je vrednost jednaka vrednosti cvora (mora biti manja ili veća). Nakon toga odlučujemo na koju stranu dodati novu vrednost, poredeći je sa vrednošću čvora. Potom proveravamo da li je željena strana čvora prazna. Ako jeste, dodajemo novi čvor na tu stranu i završili smo. Ako nije, [rekurzivno](/rekurzija) pozivamo metodu sa jednim nivom niže (npr. proveravali smo `koren`, sad proveravamo `koren.levo`).
 
 ### Ispis elemenata
 
-Sledeća funkcija ispisuje elemente binarnog stabla, redom po veličini. Prvo se rekurzivno ispiše levo podstablo (elementni manji od korena), zatim koren, a zatim rekurzivno desno podstablo (elementi veći od korena).
+Sledeća metoda ispisuje vrednosti čvorova, redom po veličini. Prvo rekurzivno ispiše levo podstablo (elementi manji od korena), zatim koren, a zatim desno (elementi veći od korena):
 
-```c
-void ispisi(Cvor *koren) {
-    if (koren != NULL) {
-        ispisi(koren->levi);
-        printf("%d\n", koren->podatak);
-        ispisi(koren->desni);
-    }
-}
+```js
+ ispisi(koren = this.koren) {
+    if (!koren) return
+    this.ispisi(koren.levo)
+    console.log(koren.vrednost)
+    this.ispisi(koren.desno)
+  }
 ```
 
-## Primer koda
+## Primer u Javascriptu
 
-Kompletan primer binarnog stabla pretrage u C/C++:
+Binarno stablo pretraživanja smo implementirali u Javascriptu na sledeći način:
+
+{:.ulaz}
+```js
+class Cvor {
+  constructor(vrednost) {
+    this.vrednost = vrednost
+    this.levo = null
+    this.desno = null
+  }
+}
+
+class Stablo {
+  constructor(vrednost) {
+    this.koren = new Cvor(vrednost)
+  }
+
+  dodaj(vrednost, cvor = this.koren) {
+    if (vrednost === cvor.vrednost) return
+    const strana = vrednost > cvor.vrednost ? 'desno' : 'levo'
+    if (!cvor[strana]) cvor[strana] = new Cvor(vrednost)
+    else this.dodaj(vrednost, cvor[strana])
+  }
+
+  ispisi(cvor = this.koren) {
+    if (!cvor) return
+    this.ispisi(cvor.levo)
+    console.log(cvor.vrednost)
+    this.ispisi(cvor.desno)
+  }
+}
+
+const stablo = new Stablo(5)
+stablo.dodaj(3)
+stablo.dodaj(7)
+stablo.dodaj(4)
+stablo.dodaj(2)
+
+stablo.ispisi()
+```
+
+Stablo koje smo napravili ima sledeću strukturu:
+
+```
+        5
+       / \
+      3   7
+     / \
+    2   4
+```
+
+## Primer u C/C++
+
+Binarno stablo traženja možemo implementirati u C/C++ na sledeći način:
 
 {:.ulaz}
 ```cpp
@@ -151,13 +256,6 @@ int main()
   
     return 0;
 }
-```
-
-Pokretanje iz konzole:
-
-```
-gcc binarno-stablo.cpp
-./a.out
 ```
 
 ### Izvori
