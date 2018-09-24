@@ -82,13 +82,16 @@ fieldset {
   width: auto;
 }
 
-.dropdown {
-  // nestaje strelica na firefoxu
-  // background: #fff;
-  // border-color: #ccc;
-  padding: 8px 4px;
-  @media (min-width: $screen-lg-min) {
-    padding: 10px;
-    font-size: 120%;
+.newslatter-form {
+  background: #eee;
+  border: 1px solid $silver;
+  margin-top: 20px;
+  padding: 20px;
+
+  @media (max-width: $screen-sm-max) {
+    padding: 0 $md-spacing;
+  }
+  @media (min-width: $screen-md-min) {
+    margin-top: 40px;
   }
 }

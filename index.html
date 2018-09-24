@@ -7,6 +7,10 @@ layout: naslovna
 <section class="siva-pozadina donja-crta-zelena">
   <div class="wrapper">
     <h1>Besplatni tutorijali</h1>
+    <p>Proizvodnja besplatnih tutorijala je osnovna delatnost Škole koda. Naša
+        misija je da omogućimo besplatno računarsko obrazovanje na srpskom jeziku. Sve
+        ostale usluge koje pružamo pomažu nam da nastavimo sa objavljivanjem novih lekcija.
+    </p>
     <div class="boxes">
         {% include kutijice/c.html %}
         {% include kutijice/web.html %}
@@ -26,30 +30,25 @@ layout: naslovna
         <h1>Edukacijske usluge</h1>
         <div class="flex">
             <div class="usluga">
-                {% include svg/gift.svg %}
-                <h2>Besplatni tutorijali</h2>
-                <p>Proizvodnja besplatnih tutorijala je osnovna delatnost Škole koda. Naša
-                    misija je da omogućimo besplatno savremeno računarsko obrazovanje na srpskom jeziku. Sve
-                    ostale usluge koje pružamo pomažu nam da nastavimo sa objavljivanjem novih materijala.</p>
-                <p>Ukoliko želite da pomognete, možete poslati lekciju za koju vidite da nam nedostaje. Lekciju možete
-                    napisati sami ili poslati uz saglasnost autora ili izdavača (npr. promo poglavlje knjige). Uvek navodimo izvor, što služi kao dodatna reklama za autora.</p>
-            </div>
-            <div class="usluga">
                 {% include svg/diploma.svg %}
                 <h2>Kursevi programiranja</h2>
-                <p>Organizujemo kurseve programiranja, za prekvalifikaciju ljudi svih uzrasta u IT sektor. Naši kursevi su posebno
-                    prilagođeni osobama bez prethodnog tehničkog obrazovanja.</p>
-                <p>Kurseve držimo dva puta godišnje, u saradnji sa <a href="http://ecmm.rs/">Edukativnim centrom Milutin Milanković</a>, gde možete videti ponudu i prijaviti se. Pružamo garanciju u vidu besplatnog pohađanja narednog kruga kursa, ukoliko ne savladate iz prve. Cene se kreću od 400 do 800 evra, zavisno od trajanja i tehnologije.</p>
-            </div>
-            <div class="usluga">
-                {% include svg/classroom.svg %}
-                <h2>Kompanijska obuka</h2>
-                <p>Novo u ponudi, obuka zaposlenih po IT firmama. Sad se više ne morate prijavljivati za naše kurseve, dovoljno je organizovati se sa kolegama iz firme i mi dolazimo.</p>
+                <p>Organizujemo kurseve programiranja za prekvalifikaciju u IT sektor. Pristup je posebno prilagođen osobama bez prethodnog tehničkog obrazovanja.</p>
 
-                <p>Obuka zaposlenih za novu tehnologiju podiže vrednost čitavog tima. Usluga podrazumeva dolazak u prostorije firme i organizovanje radionica za do desetak polaznika. Cena dvočasa, sa dolaskom na vašu adresu, iznosi 50 eura u dinarskoj protivrednosti. Popularni React kurs od 8 dvočasa iznosi 400 eura.</p>
+                <p>Radimo u malim grupama, pa je na upis obično potrebno čekati. Najbolje je <a href="#njuzleter">prijaviti se</a> na listu kako biste blagovremeno bili obavešteni o novim terminima.</p>
+
+                <p>Cene se kreću od 50 do 100 evra mesečno.</p>
             </div>
             <div class="usluga">
-                {% include svg/teacher.svg %}
+                {% include svg/obuka-zaposlenih.svg %}
+                <h2>Obuka zaposlenih</h2>
+                <p>Novo u ponudi, obuka zaposlenih po IT firmama. Dovoljno je organizovati se sa kolegama iz firme i mi dolazimo.</p>
+
+                <p>Kompanijska obuka za nove tehnologije podiže vrednost čitavog tima. Usluga podrazumeva dolazak u prostorije firme i organizovanje radionica za do desetak polaznika.</p>
+
+                <p>Cena dvočasa iznosi 50 eura u dinarskoj protivrednosti. Popularni React kurs od 8 dvočasa iznosi 400 eura.</p>
+            </div>
+            <div class="usluga">
+                {% include svg/mentor.svg %}
                 <h2>Individualno mentorstvo</h2>
                 <p>Pružamo uslugu ličnog mentorstva, preko Skype-a i uživo.</p>
                 <p>Individualno mentorstvo podrazumeva kontinuiranu i plansku obuku od strane profesionalaca, čime se razlikuje
@@ -57,23 +56,6 @@ layout: naslovna
                     <i>ad hoc</i> časova programiranja. Nakon uspešnog završetka programa, što uključuje završni ispit, polaznik stiče
                     pravo na sertifikat.</p>
                 <p>Cena sata individualne obuke je 20 eura.</p>
-            </div>
-            <div class="usluga">
-                {% include svg/blackboard.svg %}
-                <h2>Organizacija kurseva u saradnji sa vašom školom</h2>
-                <p>Organizujemo kurseve, seminare i radionice u saradnji sa vašom školom ili organizacijom. Ukoliko želite da organizujete
-                    programersku obuku u vašoj režiji, Škola koda vam obezbeđuje savremen plan i program, predavače, nastavne
-                    materijale i sve što je potrebno.</p>
-                <p>Cena ove usluge je po dogovoru.</p>
-            </div>
-            <div class="usluga">
-                {% include svg/group-of-men-running.svg %}
-                <h2>Časovi programiranja za osnovce</h2>
-                <p>Časovi Python programiranja za osnovce. Pokrivamo program
-                    <a href="https://petlja.org/Home/OsnovnaSkola">programiranja u Pajtonu</a> za šesti razred, koji je izradila fondacija Petlja, uz podršku Ministarstva prosvete.
-                    Cena jednog Skype časa je 8.5 evra, u dinarskoj protivrednosti.</p>
-                <p>Dogovorno, moguće je uzimati časove iz drugih jezika i tehnologija koje pokrivamo na sajtu (cena važi samo za
-                    osnovce i srednjoškolce).</p>
             </div>
         </div>
         <a class="btn" href="/kontakt">Naruči</a>
@@ -86,44 +68,22 @@ layout: naslovna
     <div class="wrapper">
       <div class="flex">
           <div class="usluga">
-              {% include svg/coding.svg %}
+              {% include svg/responsive.svg %}
               <h2>Izgrada sajtova</h2>
-              <p>Budite vidljivi u celom svetu i to na najbolji način. Osnovni paket sajta podrazumeva: besplatan hosting, prilagodljivi dizajn i optimizaciju za pretragu.</p>
+              <p>Budite vidljivi u celom svetu na najbolji način. Osnovni paket sajta podrazumeva: besplatan hosting, prilagodljivi dizajn i SEO optimizaciju.</p>
               <p>Napredni paketi uključuju jedinstvenu URL adresu, kontakt formu, blog i drugo.</p>
               <p>Cena: od 150 eura.</p>
           </div>
           <div class="usluga">
-              {% include svg/settings-gears.svg %}
-              <h2>Izgrada web aplikacija</h2>
-              <p>Ponekad običan sajt nije dovoljan, već je potrebno razviti sopstvenu web aplikaciju.</p>
-              <p>Neki od primera prostih web aplikacija su kvizovi, četbotovi, pretrage recepata, dečje bojanke, interaktivne
-                  mape i slično.</p>
-              <p>Cena: Od 600 eura.</p>
-          </div>
-          <div class="usluga">
-              {% include svg/online-shopping-cart.svg %}
-              <h2>Izgrada online prodavnica</h2>
-              <p>Izgrada online prodavnice podrazumeva postavljanje sistema prodaje, preko koga možete samostalno
-                  dodavati proizvode, upravljati cenama i slično.</p>
-              <p>Masovni unos proizvoda, obuka zaposlenih i druge usluge se posebno naplaćuju.</p>
-              <p>Cena: Od 800 eura.</p>
-          </div>
-          <div class="usluga">
-              {% include svg/smartphone.svg %}
-              <h2>Izrada mobilnih aplikacija (Android i iOS)</h2>
-              <p>Industrija mobilnih aplikacija trenutno prolazi kroz neku vrstu zlatne groznice. Da bi ostali relevantni i uspešni, sve što posao zahteva je da imate odličnu mobilnu aplikaciju povezanu sa vašim brendom.</p>
+              {% include svg/aplikacije.svg %}
+              <h2>Izgrada aplikacija</h2>
+              <p>Izgrada web, mobilnih i desktop aplikacija za vaš biznis.</p>
+              <p>Industrija mobilnih aplikacija prolazi kroz neku vrstu zlatne groznice. Da bi ostali relevantni i uspešni, sve što posao zahteva je da imate odličnu mobilnu aplikaciju povezanu sa vašim brendom.</p>
 
               <p>Cena: Od 600 eura.</p>
           </div>
           <div class="usluga">
-              {% include svg/console.svg %}
-              <h2>Razvoj igara</h2>
-              <p>Zanimljiva igrica može zadržati posetioce na vašem sajtu i pomoći da doprete do mlađe populacije.</p>
-              <p>Nudimo izradu igara i interaktivnih animacija za vaš brend. Igre izrađujemo po vašoj ideji ili ideji naših developera. Razvijamo igre za web, desktop, tablete, mobilne i druge platforme.</p>
-              <p>Cena: od 800 eura.</p>
-          </div>
-          <div class="usluga">
-              {% include svg/business-people-meeting.svg %}
+              {% include svg/sastanak.svg %}
               <h2>Izrada poslovnih rešenja po meri</h2>
               <p>Razvijamo programe za vođenje poslovanja, upravljanje ljudskim resursima, magacinsko poslovanje, evidenciju prometa i slično.</p>
               <p>Imate neku ideju za koju niste sigurni da li je moguće ostvariti? Kontaktirajte nas.</p>
@@ -135,12 +95,18 @@ layout: naslovna
 </section>
 
 
-<section class="donja-crta-zelena">
+<section id="njuzleter" class="donja-crta-zelena">
     <div class="wrapper njuzleter-wrapper">
       <h1>Želiš da budeš u toku?</h1>
-      <p>Prijavi se na obaveštenja o novim lekcijama i kursevima Škole koda.</p>
+      <p>Prijavi se da dobijaš obaveštenja o novim lekcijama i kursevima Škole koda.</p>
   
-      {% include bilten.html %}
+      <form class="newslatter-form" action="https://skolakoda-api.herokuapp.com/bilten" method="POST">
+        <small><i>Unesi svoj email</i></small>
+        <div class="input-small-wrapper">
+          <input placeholder="Email" type="email" name="email" required>
+          <button>OK</button>
+        </div>
+      </form>
     </div>
 </section>
   

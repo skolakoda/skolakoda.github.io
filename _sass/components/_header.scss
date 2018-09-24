@@ -67,16 +67,6 @@ header {
   }
 }
 
-.newslatter-form {
-  margin-top: 20px;
-  @media (max-width: $screen-sm-max) {
-    padding: 0 $md-spacing;
-  }
-  @media (min-width: $screen-md-min) {
-    margin-top: 60px;
-  }
-}
-
 .burger-wrapper {
   left: $md-spacing;
   position: absolute;

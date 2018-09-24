@@ -27,6 +27,8 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
+- napraviti usluge na fejsu
+- napraviti usluge na mapama
 - srediti java kurs
 - povezati .ulaz sa editorom
 - razvoj igara

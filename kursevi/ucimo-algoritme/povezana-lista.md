@@ -7,7 +7,7 @@ image: /images/koncepti/podaci/povezana-lista.jpg
 
 ![]({{page.image}})
 
-**Lista ili povezana lista (en. *linked list*) je linearna struktura elemenata u kojoj je redoslijed određen pokazivačima.**
+**Lista ili vezana lista (en. *linked list*) je linearna struktura elemenata u kojoj je redoslijed određen pokazivačima.**
 
 Svaki element liste sadrži neki podatak i pokazivač na sledeći element. Poseban značaj ima pokazivač na prvi element liste, koji se često zove i glava liste. Poslednji element sadrži tzv. `NULL` pokazivač koji označava kraj liste.
 
