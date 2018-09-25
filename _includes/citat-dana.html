@@ -1,0 +1,8 @@
+<div class="citat">
+  <h3>Citat dana</h3>
+  {% assign random = site.time | date: "%s%N" | modulo: site.data.quotes.size %}
+  <blockquote>
+    <i> {{site.data.quotes[random].tekst}} </i><br>
+    <small class="tiny margin-sm-top"> — {{ site.data.quotes[random].autor }} </small>
+  </blockquote>
+</div>
