@@ -2,7 +2,6 @@
 layout: post
 title: Rad sa git submodulima
 author: damjan
-tags: [git, arhitektura]
 ---
 
 ***Ako ti u jednom git projektu trebaju stvari iz drugog projekta, potreban ti je git submodule. Ako želiš da koristiš deo jednog git projekta u drugom projektu, vreme je za submodule.***

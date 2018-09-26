@@ -7,8 +7,7 @@ image: /images/kursevi/js-logo.png
 
 ![Javascript programiranje za početnike]({{page.image}})
 
-## Učimo Javaskript <a href="https://www.youtube.com/playlist?list=PLrd-JzTjtZUVJDD7cK43JIzVBDpHnfrUW"><img src="/images/ui/ikonice/youtube.svg" class="ikonica-veca" alt="play-video"></a> [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-javaskript)
-
+## Učimo Javaskript
 # Uvod u programiranje
 
 **Nauči da programiraš kroz popularni jezik JavaScript. Nauči da oživljavaš stranice pomoću interakcije. Nauči da praviš web aplikacije.**

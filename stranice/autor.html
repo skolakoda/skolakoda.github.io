@@ -34,11 +34,6 @@ opis: Damjan Pavlica, diplomirani politikolog koji je uspešno promenio struku i
     <article class="post uokvireno">
       <h2><a href="{{post.url | relative_url}}">{{ post.title | escape }}</a></h2>
       <time>{{ page.date | date: "%d. %m. %Y." | downcase }}</time>
-      <div class="post-tags">
-        {% for tag in post.tags %}
-          <a href="{{site.baseurl}}/teme/#{{tag|slugize}}">{{tag}}</a>&nbsp;
-        {% endfor %}
-      </div>
 
       <p class="post-summary">
         {% if post.opis %}

@@ -2,7 +2,6 @@
 title: Učila bih programiranje ali ne znam matematiku
 layout: post
 author: damjan
-tags: [ucenje, motivacija]
 image: /images/ljudi/zenska-kompujter.jpg
 ---
 

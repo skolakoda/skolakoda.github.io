@@ -10,11 +10,6 @@ opis: Blog Škole koda, novosti o kursevima, besplatni tutorijali i autorski čl
     <article class="post uokvireno" itemscope itemType="http://schema.org/BlogPosting">
       <h2 itemprop="headline"><a href="{{post.url | relative_url}}" itemprop="url">{{ post.title | escape }}</a></h2>
       <time datetime="{{post.date | date: "%Y-%m-%d"}}" itemprop="datePublished">{{ post.date | date: "%d. %m. %Y." | downcase }}</time>
-      <div class="post-tags">
-        {% for tag in post.tags %}
-          <a href="{{site.baseurl}}/teme/#{{tag|slugize}}" rel="tag" itemprop="keywords">{{tag}}</a>&nbsp;
-        {% endfor %}
-      </div>
 
       {% assign author = site.data.authors[post.author] %}
       {% if author %}

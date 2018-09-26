@@ -2,7 +2,6 @@
 title: Vektori za game developere
 layout: post
 author: damjan
-tags: [gamedev, matematika]
 permalink: /vektori
 ---
 

@@ -27,12 +27,6 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="post-tags">Teme:
-    {% for tag in page.tags %}
-      <a href="{{site.baseurl}}/teme/#{{tag|slugize}}" rel="tag"><span itemprop="keywords">{{tag}}</span></a>&nbsp;
-    {% endfor %}
-  </div>
-
   <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
     <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
       <meta itemprop="url" content="{{site.logo}}">
