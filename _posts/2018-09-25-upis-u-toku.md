@@ -14,13 +14,17 @@ Uvodni Javascript kurs je za potpune početnike, koji tek žele da nauče progra
 
 React i Redux kurs je za programere koji žele da usavrše svoje veštine i povećaju svoju zaradu.
 
+## Početak kursa
+
+Kursevi će krenuti od ponedeljka 8. oktobra ili kad se skupi dovoljno polaznika. 
+
 ## Fond časova
 
-Radionice se održavaju dva puta sedmično, po 4 časa (8 časova sedmično). Obuka traje tri meseca, što izađe na oko 108 časova.
+Tempo rada je 8 časova sedmično (2 puta po četiri časa). Obuka traje tri meseca, što izađe na oko 108 časova.
+
+Radionice će se održavati dva puta sedmično, radnim danima od 18h do 21:15h. U slučaju pauza ili raspusta, termini će biti pomereni. Za vreme državnih praznika, nastava se ne održava.
 
 ## Način rada
-
-Kursevi će krenuti od ponedeljka 8. oktobra (ili kad se skupi dovoljno polaznika), a održavaće se radnim danima od 18h do 21:15h. U slučaju pauza ili raspusta, termini će biti pomereni. Za vreme državnih praznika, nastava se ne održava.
 
 Grupa će brojati namanje 5, a najviše 10 članova, kako bi svakom polazniku bila posvećena pažnja i kako bi svačiji napredak bio praćen. Polaznici imaju obavezu da redovno prate nastavu i rade zadate vežbe, kako se ne bi remetila grupna dinamika. 
 
