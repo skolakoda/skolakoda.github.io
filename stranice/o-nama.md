@@ -10,7 +10,7 @@ image: /images/skola/damjan-predavanje-tabla.jpg
 
 **Škola koda** je neprofitna organizacija, posvećena podučavanju programerskih veština na razumljiv i pristupačan način.
 
-Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni. Organizujemo kurseve prekvalifikacije u IT sektor, prilagođene osobama bez prethodnog tehničkog obrazovanja. Organizujemo stručno usavršavanje i obuku zaposlenih po IT firmama.
+Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni. Organizujemo kurseve programiranja, za prekvalifikaciju u IT sektor, prilagođene osobama bez prethodnog tehničkog obrazovanja. Organizujemo stručno usavršavanje i obuku zaposlenih po IT firmama.
 
 Poznati smo po praktičnom radu u malim grupama i entuzijazmu naših predavača.
 

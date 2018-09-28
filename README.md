@@ -27,8 +27,8 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- napraviti usluge na fejsu
-- napraviti usluge na mapama
+- poslati njuzleter
+- reklamirati obuku zaposlenih na linkedinu (premium nalog)
 - srediti java kurs
 - povezati .ulaz sa editorom
 - razvoj igara

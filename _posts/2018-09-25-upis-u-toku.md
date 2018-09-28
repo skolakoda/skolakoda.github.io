@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Upis nove generacije u toku
+title: Upis u toku
 ---
 
 <img src="/images/skola/damjan-pavlica-predavanje.jpeg" alt="damjan pavlica predavanje" width="800">
@@ -14,7 +14,7 @@ Uvodni Javascript kurs je za potpune početnike, koji tek žele da nauče progra
 
 React i Redux kurs je za programere koji žele da usavrše svoje veštine i povećaju svoju zaradu.
 
-## Početak kursa
+## Početak
 
 Kursevi će krenuti od ponedeljka 8. oktobra ili kad se skupi dovoljno polaznika. 
 
