@@ -1,16 +1,9 @@
 ---
 layout: kurs
-title: Učimo PHP
+title: Uvod u serversko programiranje kroz PHP
 github: ucimo-php
 image: /images/kursevi/php.jpg
 ---
-
-![php]({{page.image}})
-
-<!-- https://phpsrbija.github.io/php-the-right-way/ -->
-
-## Učimo PHP
-# Backend programiranje
 
 **Nauči PHP programiranje. Nauči da praviš serverske web aplikacije kao što su CMS sistemi i internet prodavnice. Savladaj programski jezik PHP.**
 

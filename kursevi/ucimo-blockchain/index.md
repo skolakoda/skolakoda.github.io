@@ -1,13 +1,8 @@
 ---
 layout: kurs
-title: Učimo blockchain
+title: Uvod u blockchain
 image: https://sociable.co/wp-content/uploads/2017/08/blockchain-app.jpg
 ---
-
-![]({{page.image}})
-
-## Učimo blockchain
-# Uvod u distribuirane mreže
 
 **Učimo lanac blokova, tehnologiju distribuiranih mreža koja pokreće Bitkoin i druge kriptovalute.**
 

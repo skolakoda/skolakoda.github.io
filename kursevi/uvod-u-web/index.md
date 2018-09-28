@@ -1,16 +1,10 @@
 ---
 layout: kurs
-title: Uvod u web
+title: Uvod u web i web dizajn
 github: uvod-u-web
 image: /images/kursevi/html.gif
 opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multimedijom. Nauči temelje web razvoja.
 ---
-
-![web-design]({{page.image}})
-
-## Učimo HTML i CSS [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/{{page.github}})
-
-# Uvod u web
 
 **Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multimedijom. Nauči da ulepšavaš stranice, koristeći prilagodljivi dizajn, tipografiju, boje i animacije. Nauči temelje web razvoja.**
 

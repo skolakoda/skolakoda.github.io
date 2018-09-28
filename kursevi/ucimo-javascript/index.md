@@ -1,14 +1,9 @@
 ---
 layout: kurs
-title: Učimo Javaskript
+title: Uvod u programiranje kroz Javascript
 github: ucimo-javascript
 image: /images/kursevi/js-logo.png
 ---
-
-![Javascript programiranje za početnike]({{page.image}})
-
-## Učimo Javaskript
-# Uvod u programiranje
 
 **Nauči da programiraš kroz popularni jezik JavaScript. Nauči da oživljavaš stranice pomoću interakcije. Nauči da praviš web aplikacije.**
 

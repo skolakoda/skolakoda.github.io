@@ -1,10 +1,9 @@
 ---
 layout: kurs
-title: Učimo Git i Github
+title: Uvod u Git i Github
 ---
 
-## Učimo Git i Github
-# Kontrola verzija koda i zajednički rad
+**Kontrola verzija koda i zajednički rad**
 
 ### Uvod u kontrolu verzija
   - Šta je kontrola verzija koda

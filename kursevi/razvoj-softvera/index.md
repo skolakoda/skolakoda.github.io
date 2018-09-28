@@ -2,13 +2,8 @@
 title: Uvod u softversko inženjerstvo
 layout: kurs
 image: /images/kursevi/softversko-inzenjerstvo.jpg
-desc: Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver. Učimo da prepoznajemo obrasce i primenjujemo oprobane metode razvoja softvera.
+desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenja i projektujemo softver. Učimo da prepoznajemo obrasce i primenjujemo oprobane metode razvoja softvera.
 ---
-
-![]({{page.image}})
-
-## Učimo razvoj softvera
-# Uvod u softversko inženjerstvo
 
 **{{page.desc}}**
 

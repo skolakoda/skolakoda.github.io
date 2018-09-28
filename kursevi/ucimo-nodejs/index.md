@@ -1,16 +1,10 @@
 ---
 layout: kurs
-title: Učimo Node.js
+title: Uvod u backend servise kroz Node.js
 github: ucimo-nodejs
 image: /images/kursevi/nodejs-logo.jpg
 kurs: nodejs
 ---
-
-![nodejs]({{page.image}})
-
-## Učimo Node.js [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
-
-# Bekend kao servis
 
 **Nauči Node.js i NPM ekosistem. Nauči da praviš backend API koji opslužuje Android, IOS i web aplikacije. Nauči da prikupljaš, obrađuješ i služiš podatke.**
 

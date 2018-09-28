@@ -1,13 +1,11 @@
 ---
 layout: kurs
-title: Učimo Redux
+title: Uvod u Redux
 github: ucimo-redux
+image: https://cdn-images-1.medium.com/max/919/1*EdiFUfbTNmk_IxFDNqokqg.png
 ---
 
-![](https://cdn-images-1.medium.com/max/919/1*EdiFUfbTNmk_IxFDNqokqg.png)
-
-## Učimo Redux
-# Predvidljivi čuvar stanja aplikacije
+**Učimo Redux, predvidljivi čuvar stanja aplikacije.**
 
 ### Stanje (`state`)
 

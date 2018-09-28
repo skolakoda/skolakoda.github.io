@@ -2,17 +2,16 @@
 layout: default
 ---
 
-{% if page.github %}
-  <style media="screen">
-    {% include css/github-fork.css %}
-  </style>
-  <div class="github-fork-ribbon-wrapper right">
-    <div class="github-fork-ribbon">
-      <a href="https://github.com/skolakoda/{{page.github}}">Primeri na GitHubu</a>
-    </div>
-  </div>
-{% endif %}
+{% include github-repo.html %}
 
 <p>< Nazad na <a href="/kursevi/" title="online kursevi programiranja">kurseve</a></p>
+
+<h1>{{page.title}}</h1>
+
+{% include share-buttons.html %}
+
+{% if page.image %}
+  <img src="{{page.image}}" alt="{{page.title}}">
+{% endif %}
 
 {{ content }}

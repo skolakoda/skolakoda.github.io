@@ -4,8 +4,7 @@ title: Učimo Sass
 github: ucimo-sass
 ---
 
-## Učimo Sass
-# CSS na steroidima
+**Učimo Sass, CSS na steroidima.**
 
 ### Uvod u Sass
 

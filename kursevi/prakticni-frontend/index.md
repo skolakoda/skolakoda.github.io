@@ -1,14 +1,9 @@
 ---
 layout: kurs
-title: Praktični Frontend
+title: Praktični Frontend (priprema za rad u firmama)
 image: /images/kursevi/frontend.png
 kurs: frontend
 ---
-
-![front-end]({{page.image}})
-
-## Praktični Frontend
-# Priprema za rad u firmama
 
 **Razvijamo realne aplikaciju preko Githuba, po taskovima i pod pritiskom. Koristimo Node i NPM, Webpack, Sass, Angular, React i ostale moderne frontend alatke.**
 

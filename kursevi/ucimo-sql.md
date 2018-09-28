@@ -1,20 +1,12 @@
 ---
 layout: kurs
-title: Učimo SQL
+title: Uvod u SQL i baze podataka
 image: /images/kursevi/sql.jpg
-kurs: sql
 ---
 
-![sql]({{page.image}})
-
-## Učimo SQL
-# Uvod u baze podataka
-
-**Nauči da praviš baze podataka i pretražuješ ih. Nauči da barataš velikim podacima.**
+**Nauči da projektuješ baze podataka i pretražuješ ih. Nauči da barataš velikim podacima.**
 
 ***SQL kurs je za apsolutne početnike, ali se podrazumeva osnovna računarska pismenost.***
-
-<a href="/kursevi/prijava?kurs=8" class="btn float-right">Prijavi se</a>
 
 <!-- https://www.khanacademy.org/computing/computer-programming/sql -->
 

@@ -1,22 +1,16 @@
 ---
 layout: kurs
-title: Učimo Three.js
-image: https://raw.githubusercontent.com/skolakoda/ucimo-threejs/master/ucimo-threejs.png
+title: Uvod u 3D grafiku kroz Three.js
 github: ucimo-threejs
-kurs: threejs
 ---
 
 <iframe scrolling="no" class="float-left" src="https://skolakoda.org/ucimo-threejs/40-rad-sa-modelima/90-modeli-dae/" width="100%" height="600"></iframe>
-
-## Učimo Three.js [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-threejs)
-
-# 3D grafika na webu
 
 **Učimo 3D grafiku, malo geometrije, fizičke simulacije, vizuelizacije podataka, rad sa 3D modelima, igre i animacije.**
 
 ***Preduslov za praćenje kursa je osnovni Javaskript.***
 
-<a href="/kursevi/prijava?kurs=9" class="btn float-right">Prijavi se</a>
+<!-- <a href="/kursevi/prijava?kurs=9" class="btn float-right">Prijavi se</a> -->
 
 ### Uvod
 

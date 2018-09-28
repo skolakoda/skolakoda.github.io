@@ -1,16 +1,9 @@
 ---
 layout: kurs
-title: Uvod u svet programiranja
+title: Uvod u programiranje kroz C i C++
 github: ucimo-c
 image: /images/kursevi/uvod.png
-redirect_from:
-  - /kursevi/racunarska-nauka/
 ---
-
-![]({{page.image}})
-
-## Učimo C i C++
-# Uvod u svet programiranja
 
 **Učimo osnove računarske nauke kroz programski jezik C, latinski jezik programiranja.**
 

@@ -1,16 +1,10 @@
 ---
-title: Učimo algoritme
+title: Algoritmi i strukture podataka
 layout: kurs
 github: ucimo-algoritme
 permalink: /ucimo-algoritme
 image: /images/kursevi/algoritmi.jpg
 ---
-
-![]({{page.image}})
-
-## Učimo algoritme [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-algoritme)
-
-# Nauka o sledu koraka
 
 **Nauči najefikasnije moguće procedure da se obavi neka radnja. Nauči da meriš složenost algoritama. Nauči algoritme sortiranja i pretrage, koji su presudni kod velikih podataka.**
 

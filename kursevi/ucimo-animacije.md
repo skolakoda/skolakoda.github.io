@@ -1,11 +1,8 @@
 ---
 layout: kurs
-title: Učimo animacije
+title: Uvod u web animacije
 github: ucimo-animacije
 ---
-
-## Učimo animacije
-# Oživljavanje web stranica
 
 ### Uvod u animacije
 

@@ -29,12 +29,13 @@ Ako neće, probati sa `sudo`.
 
 - srediti java kurs
 - povezati .ulaz sa editorom
+- zavrsiti draftove
+- dodati stilizovanje linkova
 - razvoj igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
     - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
-- dodati stilizovanje linkova
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - 3D slova na naslovnoj
 - dodavati odgovarajuce citate na lekcije
 - bekend i glasanje za projekte
-
+- https://phpsrbija.github.io/php-the-right-way/
