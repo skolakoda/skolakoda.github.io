@@ -8,7 +8,7 @@ image: /images/skola/damjan-predavanje-tabla.jpg
 
 ![Damjan Pavlica škola programiranja]({{page.image}})
 
-**Škola koda** je neprofitna organizacija, posvećena podučavanju programerskih veština na razumljiv i pristupačan način.
+**Škola koda** je neprofitna organizacija, posvećena učenju programerskih veština na razumljiv i pristupačan način.
 
 Proizvodimo besplatne tutorijale i nastavne materijale, koji su svima dostupni. Organizujemo kurseve programiranja, za prekvalifikaciju u IT sektor, prilagođene osobama bez prethodnog tehničkog obrazovanja. Organizujemo stručno usavršavanje i obuku zaposlenih po IT firmama.
 

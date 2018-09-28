@@ -27,8 +27,6 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- poslati njuzleter
-- reklamirati obuku zaposlenih na linkedinu (premium nalog)
 - srediti java kurs
 - povezati .ulaz sa editorom
 - razvoj igara

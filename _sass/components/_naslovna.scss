@@ -2,6 +2,32 @@
 
 .naslovna {
 
+  .o-nama {
+    bottom: 20px;
+    color: $white-lilac;
+    left: 40px;
+    right: 40px;
+    position: absolute;
+    @media (min-width: $screen-lg-min) {
+      width: 50%;
+    }
+
+    h1 {
+      text-align: left;
+      margin-bottom: 0;
+      @media (min-width: $screen-lg-min) {
+        font-size: 100px;
+      }
+    }
+    h2 {
+      margin: 0;
+      @media (min-width: $screen-lg-min) {
+        font-size: 44px;
+      }
+    }
+
+  }
+
   section {
     overflow: auto;
     padding: 40px 0;
@@ -33,7 +59,7 @@
   }
 
   .siva-pozadina {
-    background-color: #F2F1ED;
+    background-color: $cararra;
   }
 
   .njuzleter-wrapper {
