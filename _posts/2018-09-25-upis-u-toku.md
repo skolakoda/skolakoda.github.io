@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Upis u toku
+title: Upis novih grupa u toku!
 ---
 
 <img src="/images/skola/damjan-pavlica-predavanje.jpeg" alt="damjan pavlica predavanje" width="800">
@@ -10,9 +10,9 @@ U toku je upis za nove intenzivne tromesečne kurseve Škole koda:
 - **[Uvod u programiranje kroz Javascript](/kursevi/ucimo-javascript/)**
 - **[Razvoj aplikacija sa React, Redux i React Native](https://skolakoda.org/uvod-u-react/)**
 
-Uvodni Javascript kurs je za potpune početnike, koji tek žele da nauče programiranje. 
+**Uvodni Javascript kurs** je za potpune početnike, koji tek žele da nauče programiranje. 
 
-React i Redux kurs je za programere koji žele da usavrše svoje veštine i povećaju svoju zaradu.
+**React i Redux kurs** je za programere koji žele da usavrše svoje veštine i povećaju svoju zaradu.
 
 ## Početak
 
@@ -20,7 +20,7 @@ Kursevi će krenuti od ponedeljka 8. oktobra ili kad se skupi dovoljno polaznika
 
 ## Fond časova
 
-Tempo rada je 8 časova sedmično (2 puta po četiri časa). Obuka traje tri meseca, što izađe na oko 108 časova.
+Tempo rada je 8 časova sedmično (2 puta po četiri časa). Obuka **traje tri meseca**, što izađe na oko **108 časova**.
 
 Radionice će se održavati dva puta sedmično, radnim danima od 18h do 21:15h. U slučaju pauza ili raspusta, termini će biti pomereni. Za vreme državnih praznika, nastava se ne održava.
 
@@ -38,13 +38,13 @@ Za razliku od visokoškolskih ustanova, gde se nastava odvija u amfiteatru, u Š
 
 ## Mesto održavanja
 
-Radionice će se održavati u prostoru Škole koda koji se nalazi na adresi Pavla Pavlovića 2b, I sprat (Beograd, Zvezdara, Severni bulevar, kod gornjeg ulaza u Novo groblje).
+Radionice će se održavati u prostoru Škole koda koji se nalazi na adresi Pavla Pavlovića 2b, I sprat (Beograd, **Zvezdara**, Severni bulevar, kod gornjeg ulaza u Novo groblje).
 
 Linije gradskog prevoza: 65, 66, 74.
 
 ## Cena
 
-Ukupna cena kursa je 240 eura u dinarskoj protivrednosti, odnosno polaznici plaćaju mesečnu školarinu po 80 eura.
+Ukupna cena kursa je **240 eura** u dinarskoj protivrednosti, odnosno polaznici plaćaju mesečnu školarinu po 80 eura.
 
 Plaćanje školarine se vrši prve sedmice u mesecu. 
 
