@@ -10,8 +10,9 @@ Do sad smo promatrali threadove koji se izvršavaju nezavisno jedan od drugoga. 
 
 Klasični primjer je pristup datoteci. Ako jedan thread piše u datoteku u vrijeme dok je drugi thread čita, vjerojatno je da će ovaj drugi thread dobiti nekonzistentne podatke. Promotrimo, na primjer, sljedeći problem:
 
+{:.ulaz}
 ```java
-public class Counter {
+class Counter {
 
   int i = 0;
 
@@ -21,6 +22,7 @@ public class Counter {
   }
 
 }
+
 
 public class CounterThread extends Thread {
 
@@ -43,6 +45,7 @@ public class CounterThread extends Thread {
     ct2.start();
 
   }
+
 }
 ```
 
@@ -120,12 +123,40 @@ Ovo je, u stvari, još gore nego originalni primjer jer će u 99% slučajeva rad
 
 Java vam omogućuje da pod određenim uvjetima možete garantirati da neka metoda neće istodobno biti pozvana od više threadova. Ostali threadovi morat će čekati dok prvi thread ne završi. U međuvremenu oni stoje blokirani. Ovo se postiže primjenom ključne riječi `synchronized` na promatranu metodu:
 
+{:.ulaz}
 ```java
-public class SychronizedCounter extends Counter {
+class SychronizedCounter {
+
+  int i = 0;
 
   public synchronized void count() {
     int limit = i + 100;
     while (i++ != limit) System.out.println(i);
+  }
+
+}
+
+
+public class CounterThread extends Thread {
+
+  SychronizedCounter c;  
+
+  public CounterThread(SychronizedCounter c) {
+    this.c = c;
+  }
+
+  public void run() {
+    c.count();
+  }     
+
+  public static void main(String[] args) {
+
+    SychronizedCounter c = new SychronizedCounter();
+    CounterThread ct1 = new CounterThread(c);
+    CounterThread ct2 = new CounterThread(c);
+    ct1.start();
+    ct2.start();
+
   }
 
 }

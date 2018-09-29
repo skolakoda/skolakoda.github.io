@@ -1,8 +1,8 @@
 ---
 layout: kurs
-title: Uvod u objektno orjentisano programiranje kroz Javu
+title: Uvod u programiranje kroz Javu
 github: ucimo-javu
-image: https://i2.wp.com/blog.techygeekshome.info/wp-content/uploads/2017/03/java-logo.png?resize=720%2C340&ssl=1
+image: /images/kursevi/java-logo.png
 ---
 
 **Učimo Javu, popularni jezik za razvoj poslovnih sistema i podrazumevani jezik razvoja android aplikacija. Upoznajemo objektno orjentisani pristup razvoju softvera.**

@@ -27,7 +27,6 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- srediti java kurs
 - povezati .ulaz sa editorom
 - zavrsiti draftove
 - dodati stilizovanje linkova

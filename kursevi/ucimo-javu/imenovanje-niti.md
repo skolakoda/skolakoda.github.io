@@ -13,9 +13,9 @@ public Thread(String name)
 Uobičajeno ga je pozvati iz konstruktora podklase s kojom radimo, kao u sljedećem primjeru:
 
 ```java
-public class NamedBytePrinter extends Thread {
+class ImenovanStampac extends Thread {
 
-  public NamedBytePrinter(String name) {
+  public ImenovanStampac(String name) {
     super(name);
   }
 
@@ -33,26 +33,67 @@ public class NamedBytePrinter extends Thread {
 Metoda `getName()` iz klase `Thread` vratit će ime niti. Sljedeći program omogućuje razlikovanje ispisa prema threadovima koji su ih proizveli:
 
 ```java
-public class NamedThreadsTest {
+class ImenovaniStampaciProba {
 
   public static void main(String[] args) {
 
-    NamedBytePrinter frank = new NamedBytePrinter("Frank");
-    NamedBytePrinter mary = new NamedBytePrinter("Mary");
-    NamedBytePrinter chris = new NamedBytePrinter("Chris");
-    frank.start();
-    mary.start();
-    chris.start();
+    ImenovanStampac stampac1 = new ImenovanStampac("Frank");
+    ImenovanStampac stampac2 = new ImenovanStampac("Mary");
+    ImenovanStampac stampac3 = new ImenovanStampac("Chris");
+    stampac1.start();
+    stampac2.start();
+    stampac3.start();
 
   }
 
 }
 ```
 
+## Primer
+
+Celokupni program u jednom fajlu bi izgledao ovako:
+
+{:.ulaz}
+```java
+class ImenovanStampac extends Thread {
+
+  public ImenovanStampac(String name) {
+    super(name);
+  }
+
+  public void run() {
+    System.out.println(this.getName() + ": pocinjem!");
+    for (int b = -10; b < 10; b++) {
+      System.out.println(this.getName() + ": " + b);
+    }
+    System.out.println(this.getName() + ": gotovo!");
+  }
+
+}
+
+
+class ImenovaniStampaciProba {
+
+  public static void main(String[] args) {
+
+    ImenovanStampac stampac1 = new ImenovanStampac("Frank");
+    ImenovanStampac stampac2 = new ImenovanStampac("Mary");
+    ImenovanStampac stampac3 = new ImenovanStampac("Chris");
+    stampac1.start();
+    stampac2.start();
+    stampac3.start();
+
+  }
+
+}
 ```
-% javac NamedBytePrinter.java
-% javac NamedThreadsTest.java
-% java NamedThreadsTest
+
+Ovako se pokrece iz zasebnih fajlova:
+
+```
+% javac ImenovanStampac.java
+% javac ImenovaniStampaciProba.java
+% java ImenovaniStampaciProba
 Frank: pocinjem!
 Frank: -10
 . . .

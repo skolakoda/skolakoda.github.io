@@ -14,31 +14,51 @@ Prioritet threada zadajete pomoću metode setPriority():
 setPriority(int newPriority)
 ```
 
-Sljedeći program dodjeljuje nitima `frank`, `mary` i `chris` različite prioritete. Iako je `chris` pokrenut zadnji, vjerojatno će biti gotov prvi, budući da mu je dodijeljen najviši prioritet.
+Sljedeći program dodjeljuje nitima `stampac1`, `stampac2` i `stampac3` različite prioritete. Iako je `stampac3` pokrenut zadnji, vjerojatno će biti gotov prvi, budući da mu je dodijeljen najviši prioritet.
 
+{:.ulaz}
 ```java
-public class MixedPriorityTest {
+class ImenovanStampac extends Thread {
+
+  public ImenovanStampac(String name) {
+    super(name);
+  }
+
+  public void run() {
+    System.out.println(this.getName() + ": pocinjem!");
+    for (int b = -10; b < 10; b++) {
+      System.out.println(this.getName() + ": " + b);
+    }
+    System.out.println(this.getName() + ": gotovo!");
+  }
+
+}
+
+
+public class ProbaPrioriteta {
 
   public static void main(String args[]) {
 
-    NamedBytePrinter frank = new NamedBytePrinter("Frank");
-    NamedBytePrinter mary = new NamedBytePrinter("Mary");
-    NamedBytePrinter chris = new NamedBytePrinter("Chris");
-    frank.setPriority(Thread.MIN_PRIORITY);
-    mary.setPriority(Thread.NORM_PRIORITY);
-    chris.setPriority(Thread.MAX_PRIORITY);
-    frank.start();
-    mary.start();
-    chris.start();
+    ImenovanStampac stampac1 = new ImenovanStampac("Frank");
+    ImenovanStampac stampac2 = new ImenovanStampac("Mary");
+    ImenovanStampac stampac3 = new ImenovanStampac("Chris");
+    stampac1.setPriority(Thread.MIN_PRIORITY);
+    stampac2.setPriority(Thread.NORM_PRIORITY);
+    stampac3.setPriority(Thread.MAX_PRIORITY);
+    stampac1.start();
+    stampac2.start();
+    stampac3.start();
 
   }
 
 }
 ```
 
+Pokretanje iz konzole:
+
 ```
-% javac MixedPriorityTest.java
-% java MixedPriorityTest
+% javac ProbaPrioriteta.java
+% java ProbaPrioriteta
 Chris: pocinjem!
 Chris: -10
 . . .
