@@ -70,7 +70,7 @@ kurs: nodejs
 - Događaji
 - Upotreba bafera za binarne podatke
 
-### *Express* za serverske aplikacije [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-express)
+### *Express* za serverske aplikacije [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-express)
 - Odgovor na `GET` i `POST` zahteve
 - Rute
 - Šabloni (`ejs`, Jade i Hilebars)

@@ -118,7 +118,7 @@ image: /images/kursevi/uvod.png
 - [Uslovno uključivanje](/c-uslovno-ukljucenje)
 - [Predefinirani makroi](/c-predefinisani-makroi)
 
-### C sa klasama: Kratak uvod u C++ [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-cpp)
+### C sa klasama: Kratak uvod u C++ [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-cpp)
 
 - [Uvod u programski jezik C++](/uvod-u-cpp)
 - [Zdravo C++](/zdravo-cpp)

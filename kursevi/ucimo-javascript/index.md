@@ -235,7 +235,7 @@ image: /images/kursevi/js-logo.png
 - Vežba: Napravi plejer i plejlistu
 - Vežba: Napravi program za pravljenje muzike
 
-### Crtanje i animacije [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-animacije)
+### Crtanje i animacije [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-animacije)
 
 - Crtanje na platnu (`canvas`) i mrdanje DOM elemenata
 - Glavna petlja (`main loop`)
@@ -266,7 +266,7 @@ image: /images/kursevi/js-logo.png
 - Vežba: učitaj adresar iz JSON fajla
 - Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
 
-### Node.js bekend servisi [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
+### Node.js bekend servisi [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
 
 - [Šta je server?](/server)
 - [Šta su web servisi?](/web-servisi)

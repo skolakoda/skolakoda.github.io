@@ -163,7 +163,7 @@ image: /images/kursevi/php.jpg
 - Showing Different Content to Different Browsers
 - Getting IP Addresses from Visitors
 
-### Symfony Framework [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-symfony)
+### Symfony Framework [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-symfony)
 
 - MVC arhitektura
 - Symfony Framework

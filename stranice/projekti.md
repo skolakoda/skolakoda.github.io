@@ -8,16 +8,16 @@ redirect_from:
 
 # {{page.title}}
 
-<p>Ovo su neki od projekata koje razvijamo, za potrebe učenja i za klijente. Ako želiš da se uključiš u razvoj, <a href="https://skolakoda.org/kako-doprinositi/">pročitaj smernice</a>.</p>
+Ovo su neki od projekata koje razvijamo, za potrebe učenja i za klijente. Ako želiš da se uključiš u razvoj, [pročitaj smernice](https://skolakoda.org/kako-doprinositi/). Ako želiš nešto da naručiš, [kontaktiraj nas](/kontakt).
 
-<h2>Sajtovi i portali</h2>
+## Sajtovi i portali
 
 <div class="radovi">
 {% include radovi/eliksir.html %}
 {% include radovi/psiholjub.html %}
 </div>
 
-<h2>Mobilne i web aplikacije</h2>
+## Mobilne i web aplikacije
 
 <div class="radovi">
 {% include radovi/citati.html %}
@@ -30,7 +30,7 @@ redirect_from:
 {% include radovi/alkometar.html %}
 </div>
 
-<h2>Igre i animacije</h2>
+## Igre i animacije
 
 <div class="radovi">
 {% include radovi/binarne-karte.html %}
@@ -44,5 +44,4 @@ redirect_from:
 {% include radovi/partizani-animacija.html %}
 </div>
 
-<p>Sav softver Škole koda objavljen je pod slobodnom licencom.</p>
-
+Sav softver Škole koda objavljen je pod slobodnom licencom.

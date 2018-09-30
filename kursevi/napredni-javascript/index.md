@@ -11,7 +11,7 @@ kurs: napredni-js
 
 <!-- <a href="/kursevi/prijava?kurs=5" class="btn float-right">Prijavi se</a> -->
 
-### Objektno orijentisani Javascript [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
+### Objektno orijentisani Javascript [<img src="/images/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
 
 - [Objektno orjentisan pristup](/objektno-orijentisano-programiranje)
 - Modelovanje klase
@@ -61,7 +61,7 @@ kurs: napredni-js
 - Vežba: proveri `this` unutar obične i streličaste povratne funkcije (`addEventListener` i `setTimeout`)
 - Vežba: proveri `this` unutar klasa i objekata
 
-### Šablonske strune (\` \`) [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-sablonske-strune)
+### Šablonske strune (\` \`) [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-sablonske-strune)
 
 - Čemu služe šablonske strune?
   - Višelinijski tekst

@@ -34,7 +34,7 @@ kurs: frontend
   - Kodni standard i pregled koda
 - Git konfiguracija
 
-### Node.js i NPM (*Node Package Manager*) [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
+### Node.js i NPM (*Node Package Manager*) [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
 - Čemu služi Node.js?
   - Rad sa fajlovima
   - Sinhrone i asinhrone operacije
@@ -47,7 +47,7 @@ kurs: frontend
   - `localtunnel`, za isprobavanje lokalnog projekta preko neta
 - Vežba: Pročitaj fajl i ispiši njegov sadržaj
 
-### Razvoj softvera [<img src="/images/ui/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
+### Razvoj softvera [<img src="/images/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
 
 - [Uvod u softversko inženjerstvo](https://www.slideshare.net/DamjanPavlica/uvod-u-softversko-inenjerstvo)
   - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
@@ -84,7 +84,7 @@ kurs: frontend
 - Pisanje dokumentacije
   - Markdown format (`md`)
 
-### Bootstrap i prilagodljivi dizajn [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-bootstrap)
+### Bootstrap i prilagodljivi dizajn [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-bootstrap)
 
 - [Šta je Bootstrap?](https://www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
 - Prvo mobilni pristup
@@ -101,7 +101,7 @@ kurs: frontend
 - [Saveti za rad sa Bootstrapom](/rad-sa-bootstrapom)
 - [Kako tretirati uređaje iste veličine prema dodirljivosti ekrana?](/kako-tretirati-klijentske-uredjaje)
 
-### Sass [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-sass)
+### Sass [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-sass)
 
 - Instalacija Sass-a
 - Organizacija fajlova i foldera
@@ -148,7 +148,7 @@ kurs: frontend
 - Pravljenje aliasa
 - Vežba: upiši sortiran spisak `.js` fajlova u `.txt` fajl
 
-### Angular [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-angular)
+### Angular [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-angular)
 
 - Uvod u Angular
   - Moderni web i jednostranične aplikacije (*Single Page Applications*)
@@ -173,7 +173,7 @@ kurs: frontend
 - Vežba: prikaži podatke iz JSON-a
 - Vežba: napravi živu pretragu sa filterima
 
-### React [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-react)
+### React [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-react)
 
 - JSX format
 - Komponente
@@ -198,7 +198,7 @@ kurs: frontend
 - Jednosmerni tok podataka
 - Vežba: prikaži podatke iz JSON-a
 
-### Typescript [<img src="/images/ui/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-typescript)
+### Typescript [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-typescript)
 
 - Instalacija
 - Tipovi

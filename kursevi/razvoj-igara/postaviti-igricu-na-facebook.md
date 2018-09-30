@@ -2,7 +2,7 @@
 layout: post
 title: Kako postaviti igricu na fejs?
 author: damjan
-image: /images/tenkici-fb.png
+image: /images/projekti/tenkici-fb.png
 permalink: /postaviti-igricu-na-facebook
 ---
 [![]({{page.image}})](https://apps.facebook.com/igrica-tenkici/)
