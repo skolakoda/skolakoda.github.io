@@ -47,7 +47,7 @@ kurs: frontend
   - `localtunnel`, za isprobavanje lokalnog projekta preko neta
 - Vežba: Pročitaj fajl i ispiši njegov sadržaj
 
-### Razvoj softvera [<img src="/images/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
+### [Razvoj softvera](/kursevi/razvoj-softvera/)
 
 - [Uvod u softversko inženjerstvo](https://www.slideshare.net/DamjanPavlica/uvod-u-softversko-inenjerstvo)
   - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)

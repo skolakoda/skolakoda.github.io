@@ -10,12 +10,12 @@
   code {
     outline: none;
   }
-  .jezik {
-    color: $citron;
+  .editor-icon {
+    content: url(/images/ikonice/coding.svg);
     position: absolute;
-    right: 16px;
-    top: 0;
-    width: auto;
+    right: 32px;
+    top: 16px;
+    width: 50px;
   }
   button {
     bottom: 0;

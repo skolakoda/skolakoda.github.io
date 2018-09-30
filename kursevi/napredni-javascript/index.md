@@ -11,7 +11,7 @@ kurs: napredni-js
 
 <!-- <a href="/kursevi/prijava?kurs=5" class="btn float-right">Prijavi se</a> -->
 
-### Objektno orijentisani Javascript [<img src="/images/ikonice/knjiga.svg" class="ikonica-velika">](/kursevi/razvoj-softvera/)
+### Objektno orijentisani Javascript
 
 - [Objektno orjentisan pristup](/objektno-orijentisano-programiranje)
 - Modelovanje klase

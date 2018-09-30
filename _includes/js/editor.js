@@ -1,7 +1,7 @@
 /* global jezici */
 /*
 Editor izvršava kod na dva načina
-  - ako je JS izvrsava i loguje u HTML
+  - ako je JS izvrsava i ispisuje log u HTML
   - ostale jezike salje na server da se izvrse
 */
 {
@@ -15,22 +15,22 @@ Editor izvršava kod na dva načina
 
   /* FUNCTIONS */
 
-  function izvrsiJS(ulaz, izlaz) {
+  function izvrsiJS(kod, izlaz) {
     izlaz.innerHTML = ''
     // https://stackoverflow.com/questions/30935336
     const originalLog = console.log
     console.log = (...args) =>
       args.map((arg, i) => izlaz.innerHTML += arg + (args[i + 1] ? ' ' : '<br>'))
     try {
-      eval(ulaz.querySelector('code').innerText)
+      eval(kod)
     } catch (e) {
       console.log(e.message)
     }
     console.log = originalLog
   }
 
-  function izvrsiNaServeru(ulaz, lang, izlaz) {
-    const source = encodeURIComponent(ulaz.querySelector('code').innerText)
+  function izvrsiNaServeru(kod, lang, izlaz) {
+    const source = encodeURIComponent(kod)
     const params = `source=${source}&lang=${lang}&testcases=${testcases}&api_key=${api_key}`
     izlaz.innerHTML = 'Izvršava se...'
 
@@ -45,9 +45,9 @@ Editor izvršava kod na dva načina
     http.send(params)
   }
 
-  function izvrsi(ulaz, jezik, izlaz) {
-    if (jezik == 'js') izvrsiJS(ulaz, izlaz)
-    else izvrsiNaServeru(ulaz, jezici[jezik], izlaz)
+  function izvrsi(kod, jezik, izlaz) {
+    if (jezik == 'js') izvrsiJS(kod, izlaz)
+    else izvrsiNaServeru(kod, jezici[jezik], izlaz)
   }
 
   /* INIT */
@@ -55,14 +55,17 @@ Editor izvršava kod na dva načina
   for (let i = 0; i < brojUlaza; i++) {
     const ulaz = ulazi[i]
     const jezik = ulaz.classList[0].replace('language-', '')
-    const code = ulaz.querySelector('code')
-    code.contentEditable = true
-    code.spellcheck = false
+    const codeElement = ulaz.querySelector('code')
+    codeElement.contentEditable = true
+    codeElement.spellcheck = false
+    const kod = codeElement.innerText
 
-    const jezikInfo = document.createElement('span')
-    jezikInfo.innerText = jezik
-    jezikInfo.classList.add('jezik')
-    ulaz.appendChild(jezikInfo)
+    const editorIcon = document.createElement('a')
+    const params = `jezik=${jezik}&code=${encodeURIComponent(kod)}`
+    editorIcon.href = `https://skolakoda.org/editor/?${params}`
+    editorIcon.title = 'Otvori u editoru'
+    editorIcon.classList.add('editor-icon')
+    ulaz.appendChild(editorIcon)
 
     const izlaz = document.createElement('pre')
     izlaz.classList.add('izlaz')
@@ -70,7 +73,7 @@ Editor izvršava kod na dva načina
 
     const dugme = document.createElement('button')
     dugme.innerText = 'Izvrši ⚙'
-    dugme.onclick = () => izvrsi(ulaz, jezik, izlaz)
+    dugme.onclick = () => izvrsi(kod, jezik, izlaz)
     ulaz.appendChild(dugme)
   }
 

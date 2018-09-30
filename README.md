@@ -27,9 +27,9 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- povezati .ulaz sa editorom
 - zavrsiti draftove
 - dodati stilizovanje linkova
+- postaviti admin sa lozinkom
 - razvoj igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
     - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
