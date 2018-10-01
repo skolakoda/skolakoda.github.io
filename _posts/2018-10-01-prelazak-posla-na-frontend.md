@@ -2,9 +2,10 @@
 title: Prelazak posla na frontend
 author: damjan
 layout: post
+image: https://www.myamcat.com/blog/wp-content/uploads/2017/02/front-end-developer-wanted-illustration-e1487757289647.jpg
 ---
 
-![](https://www.myamcat.com/blog/wp-content/uploads/2017/02/front-end-developer-wanted-illustration-e1487757289647.jpg)
+![]({{page.image}})
 
 **Trend koji se kontinuirano nastavlja poslednjih pola decenije je prelazak poslovne logike na front-end. To znači da se na frontendu danas obavljaju mnoge stvari koje su tradicionalno bile u nadležnosti serverske strane, odnosno backend programiranja.**
 
