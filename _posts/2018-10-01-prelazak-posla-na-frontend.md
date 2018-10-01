@@ -9,7 +9,7 @@ image: https://www.myamcat.com/blog/wp-content/uploads/2017/02/front-end-develop
 
 **Trend koji se kontinuirano nastavlja poslednjih pola decenije je prelazak poslovne logike na front-end. To znači da se na frontendu danas obavljaju mnoge stvari koje su tradicionalno bile u nadležnosti serverske strane, odnosno backend programiranja.**
 
-U arhitekturi jednostraničnih aplikacija, veći deo poslovne logike je na frontendu (mrežna komunikacija, renderovanje interfejsa, rutiranje, pretraga..), dok se zadatak bekenda svodi na to da inicijalno posluži fajlove i eventualno prihvati korisničke podatke. 
+U arhitekturi jednostraničnih aplikacija, veći deo poslovne logike je na frontendu (mrežna komunikacija, renderovanje interfejsa, rutiranje, pretraga..), dok se zadatak bekenda često svodi na to da inicijalno posluži fajlove i eventualno prihvati korisničke podatke. 
 
 Ovaj trend se naravno odražava na oglase za posao u vidu rastuće potražnje za specijalizovanim JS developerima.
 
