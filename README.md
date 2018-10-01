@@ -36,5 +36,6 @@ Ako neće, probati sa `sudo`.
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - 3D slova na naslovnoj
 - dodavati odgovarajuce citate na lekcije
-- bekend i glasanje za projekte
 - https://phpsrbija.github.io/php-the-right-way/
+- postaviti sidebar sa sadrzajem kursa
+- bekend i glasanje za projekte

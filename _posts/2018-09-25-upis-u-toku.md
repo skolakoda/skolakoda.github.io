@@ -16,7 +16,7 @@ U toku je upis za nove intenzivne tromesečne kurseve Škole koda:
 
 ## Početak
 
-Kursevi će krenuti od ponedeljka 8. oktobra ili kad se skupi dovoljno polaznika. 
+Kursevi će krenuti od ponedeljka 8. oktobra 2018. ili kad se skupi dovoljno polaznika. 
 
 ## Fond časova
 
