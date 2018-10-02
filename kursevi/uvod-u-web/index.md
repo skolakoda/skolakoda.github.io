@@ -92,14 +92,17 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - pravljenje navigacije pomoću linkova
   - menjanje boje na hover
 
-### Linkovi i putanje
+### Veze i putanje
 
-- Veze (`a`)
+- Veze ili linkovi (`a`)
   - [URL, jedinstvena adresa dokumenta](/url)
   - Relativne i apsolutne putanje
   - Unutrašnje veze ka delu stranice
   - Otvaranje u novom prozoru (`target` atribut)
 - [Stilizovanje veza](/stilizovanje-veza)
+- [Podvlačenje veza](/podvlacenje-veza)
+- [Oblikovanje veze kao dugmeta](/oblikovanje-veze-kao-dugmeta)
+- [Stilovi posećenih veza](/stilovi-posecenih-veza)
 - Vežba: napravi navigaciju i poveži stranice
 - Vežba: napravi prilagodljivi dizajn navigacije
 

@@ -27,7 +27,7 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- zavrsiti draftove
+- napisati stranicu za react kurs i podeliti na grupama
 - dodati stilizovanje linkova
 - postaviti admin sa lozinkom
 - razvoj igara
