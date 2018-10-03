@@ -27,7 +27,6 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- napisati stranicu za react kurs i podeliti na grupama
 - dodati stilizovanje linkova
 - postaviti admin sa lozinkom
 - dodati dugme "prijavi se na čekanje"

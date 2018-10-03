@@ -1,12 +1,12 @@
 ---
 title: Pitanja i odgovori o Javascript kursu
 layout: lekcija-js
-permalink: /javascript-pitanja-i-odgovori
+permalink: /o-javascript-kursu
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pu-466V7H6A?rel=0&cc_load_policy=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 **Ovde su dati odgovori na neka od često postavljanih pitanja o Javascript kursu.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pu-466V7H6A?rel=0&cc_load_policy=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Za koga je kurs?
 
