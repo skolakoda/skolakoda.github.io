@@ -30,6 +30,7 @@ Ako neće, probati sa `sudo`.
 - napisati stranicu za react kurs i podeliti na grupama
 - dodati stilizovanje linkova
 - postaviti admin sa lozinkom
+- dodati dugme "prijavi se na čekanje"
 - razvoj igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
     - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
