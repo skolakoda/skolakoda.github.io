@@ -24,10 +24,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 ### Instalacija alata
 
 - Instalacija editora (Notepad++, [Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
-- Instalacija dodataka za:
-  - prepoznavanje koda
-  - ulepšavanje koda
-  - otkrivanje grešaka u kucanju
+- Instalacija dodataka za: prepoznavanje jezika, ulepšavanje koda, otkrivanje grešaka
 - Razvojni alati pregledača
 - Brisanje keša i tvrdo osveženje (*hard refresh*)
 
@@ -63,9 +60,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 ### Tipografija
 
 - [Tipografija i web development](/tipografija-i-web-development)
-  - Fontovi sa kvačicama (*serif*) i bez kvačica (*sans serif*)
-  - Poravnanje (levo, desno, centar i ravnomerno)
-  - Proredi između redova i slova
 - Merne jedinice
   - Pikseli `px` (veličina jedne tačke)
   - Procenti `%` (u odnosu na roditelja)
@@ -82,6 +76,19 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Vežba: postavi osnovnu strukturu stranice
 - Vežba: proveri [validnost stranica](https://validator.w3.org/)
 
+### Linkovi i putanje
+
+- *Anchor* element (`a`) i njegovi atributi
+- [URL, jedinstvena adresa dokumenta](/url)
+  - Relativne i apsolutne putanje
+  - Unutrašnje veze ka delu stranice
+- [Stilizovanje veza](/stilizovanje-veza)
+- [Podvlačenje veza](/podvlacenje-veza)
+- [Oblikovanje veze kao dugmeta](/oblikovanje-veze-kao-dugmeta)
+- [Stilovi posećenih veza](/stilovi-posecenih-veza)
+- Vežba: napravi navigaciju i poveži stranice
+- Vežba: napravi prilagodljivi dizajn navigacije
+
 ### Liste i navigacija
 
 - Liste (`li`)
@@ -91,20 +98,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - pravljenje navigacije pomoću liste
   - pravljenje navigacije pomoću linkova
   - menjanje boje na hover
-
-### Veze i putanje
-
-- Veze ili linkovi (`a`)
-  - [URL, jedinstvena adresa dokumenta](/url)
-  - Relativne i apsolutne putanje
-  - Unutrašnje veze ka delu stranice
-  - Otvaranje u novom prozoru (`target` atribut)
-- [Stilizovanje veza](/stilizovanje-veza)
-- [Podvlačenje veza](/podvlacenje-veza)
-- [Oblikovanje veze kao dugmeta](/oblikovanje-veze-kao-dugmeta)
-- [Stilovi posećenih veza](/stilovi-posecenih-veza)
-- Vežba: napravi navigaciju i poveži stranice
-- Vežba: napravi prilagodljivi dizajn navigacije
 
 ### Fleksibilni prikaz
 
@@ -124,7 +117,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Fiksiranje dizajna i tačke preloma (*breakpoints*)
 - CSS medija upiti (*media queries*)
 - Prvo mobilni dizajn (*mobile first*)
-- Bootstrap biblioteka
+- [Bootstrap biblioteka](https://www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
 - Vežba: napravi dva prikaza navigacije, za mobilni i desktop
 - Vežba: prilagodi prikaz stranica za razne uređaje
 
@@ -220,14 +213,13 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 - Identifikacija ključnih reči
 - Sređivanje sadržaja, naslova, linkova, titlova, meta opisa...
-- Optimizacija slika (jasni nazivi fajlova, alt i title atributi)
-- Dodavanje struktuiranih podataka (*structured data*)
-- *PageRank* algoritam: dodavanje veza ka sajtu (društvene mreže, blog, Github)
+- Sređivanje slika (jasni nazivi fajlova, alt i title atributi)
 - Čitljive URL adrese
+- *PageRank* algoritam: dodavanje veza ka sajtu (društvene mreže, blog, Github)
 
 ### Završni rad
 
-- Izbor zaršnog rada (ideje možete naći [ovde](https://trello.com/c/gMc2zPNn/1-ideje-za-sajtove-i-aplikacije))
+- Izbor zaršnog rada
 - Osmišljavanje dizajna
-- Prevođenje dizajna u kod ([InVision](https://www.invisionapp.com/))
+- Prevođenje dizajna u kod
 - Postavljanje na server

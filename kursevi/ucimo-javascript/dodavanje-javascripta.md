@@ -5,8 +5,6 @@ permalink: /dodavanje-javascripta
 image: /images/jezici/moderni-js.gif
 ---
 
-![]({{page.image}})
-
 **Osnovni način dodavanja Javascripta na web stranicu je korišćenje `<script/>` taga. Ovaj element, koji je uvela kompanija Netscape, postao je deo HTML 3.2 specifikacije.**
 
 Postoje dva načina za korišćenje `<script/>` elemenata:

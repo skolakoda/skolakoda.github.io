@@ -17,13 +17,13 @@ image: /images/kursevi/js-logo.png
 - [Ko neće naučiti programiranje?](https://youtu.be/UsuEw2NHbtI)
 - [Čemu služi Javascript?](https://youtu.be/BFc_YPAxQcg)
 - [Kratka istorija Javascripta](/kratka-istorija-javascripta)
-- Razlika između programiranja u pregledaču i na fajl sistemu
+- [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
 
 ### Instalacija i pokretanje
 
 - [Instalacija i pokretanje programa](https://youtu.be/GxHEdXGu62g)
   - [Dodavanja Javascripta na stranicu](/dodavanje-javascripta)
-- Instalacija editora ([Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
+- Instalacija editora ([Atom](https://atom.io/), [VS Code](https://code.visualstudio.com/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/)...)
   - Instalacija dodataka (Emmet, linter, beautifier)
 - Instalacija [NodeJS](https://nodejs.org/)-a
 - Prvi program Zdravo Svete
@@ -41,7 +41,6 @@ image: /images/kursevi/js-logo.png
 
 ### Tipovi podataka
 
-- [Beleženje podataka](/kako-racunar-belezi-podatke) i [binarni zapis](/binarni-brojevi)
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
 - [Tipovi podataka u Javaskriptu](https://youtu.be/T0VLAWelSUA)
 - Prosti i složeni tipovi
@@ -160,7 +159,6 @@ image: /images/kursevi/js-logo.png
 - Globalni objekti u pregledaču: `window` i `document`
   - `window` svojstva i metode: `innerHeight`, `innerWidth`, `location`, `setTimeout(), open()`
   - `document` svojstva i metode: `activeElement`, `domain`, `location`, `referrer`
-- [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
 - Vežba: predstavi strukturu HTML stranice pomoću JS objekta
 
 ### Manipulacija DOM-a
