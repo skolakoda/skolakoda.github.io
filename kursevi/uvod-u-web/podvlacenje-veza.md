@@ -24,9 +24,29 @@ a:hover, a:active {
 }
 ```
 
+Pogledaj pun primer:
+
+{:.html-ulaz}
+```html
+<style>
+a:link, a:visited {
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover, a:active {
+  text-decoration: underline;
+}
+</style>
+
+<p>Bitno je da se <a href="https://commons.wikimedia.org">veza</a> primeti u rečenici.</p>
+```
+
+
 Moguće je i manje upadljivo podvući veze zadavanjem rubova. U sljedećem je primjeru podrazumijevana crta uklonjena i zamijenjena manje upadljivom isprekidanom crtom. Kada se iznad veze postavi pokazivač miša ili kada je posjetitelj pritisne, ona se pretvori u punu crtu da bi se korisniku pružila vizualna informacija da se nešto dogodilo:
 
-```css
+{:.html-ulaz}
+```html
+<style>
 a:link, a:visited {
   text-decoration: none;
   border-bottom: 1px dotted #000;
@@ -34,6 +54,9 @@ a:link, a:visited {
 a:hover, a:active {
   border-bottom-style: solid;
 }
+</style>
+
+<p>Bitno je da se <a href="https://commons.wikimedia.org">veza</a> primeti u rečenici.</p>
 ```
 
 

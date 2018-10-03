@@ -85,6 +85,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Stilizovanje veza](/stilizovanje-veza)
 - [Podvlačenje veza](/podvlacenje-veza)
 - [Oblikovanje veze kao dugmeta](/oblikovanje-veze-kao-dugmeta)
+- [Stilizovanje različitih vrsta veza](/stilizovanje-razlicitih-vrsta-veza)
 - [Stilovi posećenih veza](/stilovi-posecenih-veza)
 - Vežba: napravi navigaciju i poveži stranice
 - Vežba: napravi prilagodljivi dizajn navigacije

@@ -1,6 +1,12 @@
 .simplesharebuttons img {
-  width: 35px;
+  filter: grayscale(.8);
   padding: 5px;
+  transition: filter .6s;
+  width: 35px;
+}
+
+.simplesharebuttons img:hover {
+  filter: grayscale(0);
 }
 
 .post-header {

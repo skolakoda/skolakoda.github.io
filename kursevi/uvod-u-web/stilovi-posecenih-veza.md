@@ -16,6 +16,7 @@ Recimo da u bočnom stupcu imamo popis veza prema vanjskim lokacijama:
   <li><a href="https://www.khanacademy.org/">Khan Academy</a></li>
   <li><a href="https://www.hackerrank.com">Hacker Rank</a></li>
   <li><a href="http://petlja.org">Petlja</a></li>
+  <li><a href="http://nepostojeci-sajt.com">Nepostojeći sajt</a></li>
 </ul>
 ```
 
@@ -29,6 +30,7 @@ Nekada je bilo uobičajeno da se osim boje, menja i pozadinska slike za posećen
   <li><a href="https://www.khanacademy.org/">Khan Academy</a></li>
   <li><a href="https://www.hackerrank.com">Hacker Rank</a></li>
   <li><a href="http://petlja.org">Petlja</a></li>
+  <li><a href="http://nepostojeci-sajt.com">Nepostojeći sajt</a></li>
 </ul>
 
 <style>
@@ -59,6 +61,9 @@ li {
 }
 </style>
 ```
+
+{:.uokvireno.ideja}
+Objašnjenje: nakon posete linku, pozadinska boja se menja u zeleno, čime beli kvadratić oko kvačice postaje vidljiv.
 
 Svaka lokacija koju ste posjetili imat će kvačicu pored imena, pružajući vrijednu informaciju da ste tamo već bili.
 
