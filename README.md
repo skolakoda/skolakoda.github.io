@@ -27,7 +27,6 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- dodati video na upis u toku
 - dodati stilizovanje linkova
 - odstampati priznanice za skolarinu (POTVRDA da je izmirena školarina za mesec ____)
 - postaviti admin sa lozinkom

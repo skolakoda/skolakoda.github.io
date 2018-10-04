@@ -10,11 +10,6 @@ a:focus {
   outline: none;
 }
 
-// a[href^="http"]:not([href*="skolakoda.org"]) {
-//   background: url(/images/ikonice/external-link.png) no-repeat right top;
-//   padding-right: .75em;
-// }
-
 a[href^="https://youtu"] {
   background: url(/images/ikonice/youtube.svg) no-repeat right top;
   padding-right: 1.6em;
