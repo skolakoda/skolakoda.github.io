@@ -31,4 +31,5 @@ U našem editoru uživo možeš isprobavati kod, rezultat odmah izlazi na simula
 <h3>Ja sam još manji podnaslov</h3>
 ```
 
-Gornji kod takođe možeš prekopirati u `.html` fajl i pokrenuti sa pravog uređaja!
+{:.uokvireno.ideja}
+Gornji kod možeš prekopirati u `.html` fajl i pokrenuti sa svog računara!

@@ -27,7 +27,6 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- dodati stilizovanje linkova
 - odstampati priznanice za skolarinu (POTVRDA da je izmirena školarina za mesec ____)
 - postaviti admin sa lozinkom
 - dodati dugme "prijavi se na čekanje"

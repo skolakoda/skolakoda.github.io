@@ -8,13 +8,13 @@ redirect_from:
 
 **CSS služi za stilizovanje HTML stranica. Ova dva jezika čine nerazdvojan par - HTML određuje strukturu, a CSS izgled stranice.**
 
-CSS pravilima možemo stilizovati bilo koji element. CSS možemo dodati HTML stranici na više načina, a mi ga ovde pišemo unutar `style` taga.
+CSS pravilima možemo stilizovati bilo koji element. CSS možemo dodati HTML stranici na više načina. Na našim lekcijama će se obično nalaziti između dva `<style>` taga.
 
 ## Učimo putem primera
 
 U našem editoru možeš uživo isprobavati i menjati kod. Rezultat odmah izlazi na ekranu.
 
-Slobodno menjaj zadate vrednosti (npr. upiši drugi naziv boje ili veličinu slova), ništa ne možeš pokvariti:
+Slobodno menjaj zadate vrednosti u CSS-u (npr. upiši drugi naziv boje ili veličinu slova), ništa ne možeš pokvariti:
 
 {:.html-ulaz}
 ```html
@@ -45,4 +45,6 @@ p {
 </style>
 ```
 
-Učini stranice lepšim kroz CSS!
+{:.uokvireno.ideja}
+Gornji kod možeš prekopirati u `.html` fajl i pokrenuti sa svog računara!
+

@@ -35,13 +35,6 @@ opis: Blog Škole koda, novosti o kursevima, besplatni tutorijali i autorski čl
           {{ post.excerpt | truncatewords:50}}
         {% endif %}
       </div>
-
-      <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-          <meta itemprop="url" content="{{site.logo}}">
-        </div>
-        <meta itemprop="name" content="Škola koda">
-      </div>
     </article>
   {% endfor %}
 </div>

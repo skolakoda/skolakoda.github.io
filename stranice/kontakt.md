@@ -29,19 +29,3 @@ Linije gradskog prevoza: 65, 66, 74.
   <input type="email" name="email" id="email" required><br>
   <button class="full" type="submit">Pošalji</button>
 </form>
-
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "Škola koda",
-  "url": "{{site.url}}",
-  "logo": "{{site.logo}}",
-  "contactPoint": [{
-    "@type": "ContactPoint",
-    "telephone": "+381-65-9777-253",
-    "contactType": "customer service"
-  }]
-}
-</script>

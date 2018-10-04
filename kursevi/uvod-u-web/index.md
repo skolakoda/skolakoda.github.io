@@ -18,7 +18,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Uvod u HTML?](/uvod-html)
 - [Uvod u CSS?](/uvod-css)
 - [Kratka istorija weba](/kratka-istorija-weba)
-- [Kratka istorija web dizajna](/kratka-istorija-web-dizajna)
 - Konvencija imenovanja fajlova i foldera
 
 ### Instalacija alata
