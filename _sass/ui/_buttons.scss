@@ -1,17 +1,5 @@
 @import "../base/variables";
 
-/* DEFAULTS */
-
-a {
-  color: $citron;
-}
-
-a:hover,
-a:active,
-a:focus {
-  outline: none;
-}
-
 button,
 .btn {
   background-color: transparent;
@@ -37,14 +25,6 @@ button,
   @media(min-width: $screen-lg-min) {
     font-size: $font-lg;
   }
-}
-
-a.btn,
-a.btn:hover {
-  border-radius: 0;
-  border-style: solid;
-  text-align: center;
-  text-decoration: none;
 }
 
 .back {

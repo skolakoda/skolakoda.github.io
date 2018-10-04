@@ -14,9 +14,15 @@ U toku je upis za nove intenzivne tromesečne kurseve Škole koda:
 
 **React i Redux kurs** je za programere koji žele da usavrše svoje veštine i povećaju svoju zaradu.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pu-466V7H6A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CrDXve3kCmk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Početak
 
-Kursevi će krenuti od ponedeljka 8. oktobra 2018. ili kad se skupi dovoljno polaznika. 
+Javascript kurs se održava ponedeljkom i sredom od 18 do 21:15h, sa početkom od ponedeljka 8. oktobra 2018.
+
+React kurs se održava utorkom i četvrtkom od 18 do 21:15h, sa početkom od utorka 9. oktobra 2018.
 
 ## Fond časova
 
