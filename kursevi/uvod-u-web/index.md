@@ -31,7 +31,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 - [Pravljenje HTML fajla](/pravljenje-html-fajla)
 - [HTML elementi](/html-elementi)
-  - [Osnovne HTML oznake](/osnovne-html-oznake) (`h1`, `p`, `img`, `a`)
   - Razlikovanje `block` i `inline` elemenata
   - [Gneždenje elemenata](/ucimo-html/gnezdenje)
 - [HTML atributi](/html-atributi) (`src`, `href`)
