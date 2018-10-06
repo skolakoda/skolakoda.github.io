@@ -13,6 +13,7 @@ Ovaj ugovor regulište međusobna prava i obaveze predavača i polaznika kurseva
 - Predavač je dužan da pruži kvalitetnu programersku obuku polaznicima, u skladu sa planom i programom Škole.
 - Predavač je dužan da pažljivo prati svačiji razvoj, mentoriše polaznike i zadaje prikladne vežbe.
 - Predavač je dužan da najmanje jednom u toku kursa organizuje dopunsku nastavu za polaznike koji su opravdano odsustvovali.
+- Predavač je dužan da opomene i eventualno udalji polaznika koji ometa rad grupe.
 - Predavač je dužan da organizuje završni ispit za polaznike koji su ispunili uslove.
 
 ### Obaveze polaznika:
