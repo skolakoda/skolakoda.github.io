@@ -23,4 +23,4 @@ Ovaj ugovor regulište međusobna prava i obaveze predavača i polaznika kurseva
 Minimum za rad grupe je 4 polaznika. Ukoliko grupa spadne ispod tog broja usled otkazivanja, bolesti i drugih razloga, obuka se može obustaviti, a polaznicima vratiti uplaćeni iznos školarine za tekući mesec.
 
 ### Garancija kvaliteta:
-Ako neki polaznik bude nezadovoljan kvalitetom obuke, biće mu vraćen iznos školarine za tekući mesec. Polaznik je dužan da do kraja tekućeg meseca pred grupom izjavi da je nezadovoljan i to obrazloži.
+Ako neki polaznik bude nezadovoljan kvalitetom obuke, biće mu vraćen iznos školarine za tekući mesec. Polaznik je dužan da pred grupom obrazloži čime je nezadovoljan, inače obaveza školarine ne prestaje.
