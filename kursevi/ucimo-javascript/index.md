@@ -1,6 +1,6 @@
 ---
 layout: kurs
-title: Uvod u programiranje kroz Javascript
+title: Učimo Javascript
 github: ucimo-javascript
 image: /images/kursevi/js-logo.png
 ---
