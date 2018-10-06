@@ -25,8 +25,10 @@ Ovaj ugovor regulište međusobna prava i obaveze predavača i polaznika kurseva
 
 Minimum za rad grupe je 4 polaznika. Ukoliko grupa spadne ispod tog broja usled otkazivanja, bolesti i drugih razloga, obuka se može obustaviti, a polaznicima vratiti uplaćeni iznos školarine za tekući mesec.
 
-### Garancija kvaliteta:
+### Povraćaj novca:
 
 Ako je neki polaznik nezadovoljan kvalitetom obuke, biće mu vraćen iznos školarine za tekući mesec. Polaznik je dužan da pred grupom obrazloži čime je nezadovoljan, inače obaveza školarine ne prestaje.
 
 Ukoliko polaznik bude isključen iz grupe usled neispunjavanja obaveza ili ometanja rada grupe, nema pravo na povraćaj novca.
+
+Ukoliko se kurs prekine ranije nego što je predviđeno, Škola koda svim polaznicima vrši povraćaj školarine za tekući mesec, kao i svaki unapred uplaćeni iznos.
