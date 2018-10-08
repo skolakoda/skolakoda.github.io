@@ -39,7 +39,9 @@ Fajl možeš nazvati kako želiš, a mi ćemo ga nazvati `main.js`.
 
 ## Uključi js fajl u HTML
 
-Pregledač ne može direktno interpretirati js fajlove, već samo html. Da bismo pokrenuli js fajl u pregledaču, potrebno je da ga prikačimo na web stranicu. U HTML fajl prekucaj sledeću liniju, odnosno `<script>` oznaku sa `src` atributom ka odgovarajućem js fajlu:
+Pregledač ne može direktno interpretirati js fajlove, već samo html. Da bismo pokrenuli js fajl u pregledaču, potrebno je da ga prikačimo na web stranicu. 
+
+U HTML fajl prekucaj sledeću liniju, odnosno `<script>` oznaku sa `src` atributom ka odgovarajućem js fajlu:
 
 ```html
 <script src="main.js"></script>
