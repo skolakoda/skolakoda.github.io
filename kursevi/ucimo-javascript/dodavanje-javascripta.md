@@ -41,7 +41,7 @@ Fajl možeš nazvati kako želiš, a mi ćemo ga nazvati `main.js`.
 
 Pregledač ne može direktno interpretirati js fajlove, već samo html. Da bismo pokrenuli js fajl u pregledaču, potrebno je da ga prikačimo na web stranicu. 
 
-U HTML fajl prekucaj sledeću liniju, odnosno `<script>` oznaku sa `src` atributom ka odgovarajućem js fajlu:
+U HTML fajl prekucaj sledeću liniju, odnosno napravi `<script>` oznaku sa `src` atributom ka odgovarajućem js fajlu:
 
 ```html
 <script src="main.js"></script>
