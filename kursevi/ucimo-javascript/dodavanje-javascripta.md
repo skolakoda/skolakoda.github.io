@@ -13,29 +13,45 @@ Postoje dva načina za korišćenje `<script/>` elemenata:
 
 U Školi koda ćemo, po pravilu, uključivati Javascript kao zaseban fajl.
 
-## Uključenje zasebnog js fajla
+## Kreiranje novog foldera
 
-Prekucajte sledeći sadržaj iz prethodnog primera (deo između `<script>` tagova) u novi fajl:
+Prvo, napravi novi folder u kome će stajati svi fajlovi koje kreiramo.
+
+## Kreiranje html fajla
+
+Napravi novi fajl, pod nazivom `index.html`. 
+
+Ekstenzija html označava da je u pitanju internet stranica. Za sada je ova stranica prazna.
+
+## Krairanje js fajla
+
+Napravi novi fajl, sa ekstenzijom `.js`. U njega prekucaj sledeću liniju koda, s tim da možeš izmeniti tekst između navodnika: 
 
 ```js
 console.log("Zdravo Svete!")
 ```
 
-Ekstenzija mora biti `.js`, a naziv nije bitan. Nakon toga, u HTML fajl dodajte `<script>` oznaku sa `src` atributom ka js fajlu, kao u sledećem primeru:
+Fajl možeš nazvati kako želiš, a mi ćemo ga nazvati `main.js`. 
+
+## Uključenje js fajla u HTML
+
+Da bismo pokrenuli js fajl u pregledaču, potrebno je da ga prikačimo na internet stranicu. U HTML fajl dodaj `<script>` oznaku sa `src` atributom ka odgovarajućem js fajlu, kao u sledećem primeru:
 
 ```html
 <script src="main.js"></script>
 ```
 
-Sada `<script/>` element referencira eksternu Javascript datoteku pod nazivom `main.js`. Isto kao u prethodnom slučaju, pregledač zaustavlja render HTML stranice kada pristupi `<script>` tagu. Tek pošto učita Javascript iz eksterne datoteke, nastavlja renderovanje.
+Sada `<script/>` element uključuje eksternu Javascript datoteku pod nazivom `main.js`. Prilikom učitavanja, pregledač zaustavlja render HTML stranice kada pristupi `<script>` tagu. Tek pošto učita Javascript iz eksterne datoteke, nastavlja renderovanje.
+
+Ako imamo više elemenata unutar HMTL stranice, veoma je važno gde se postavlja `<script/>` tag na stranici - kod se podrazumevano učitava i izvršava redosledom kojim je dodat.
+
+## Prednosti zasebnog js fajla
 
 Dobra praksa je koristiti zasebne Javascript fajlove iz nekoliko razloga:
 
 - Mnogo su jednostavniji za održavanje u odnosu na skripte čiji se kod piše u HTML-u, posebno ako imate isti kod na više stranica (prilikom ažuriranja je dovoljno promeniti samo jednu datoteku).
 
 - Zasebne skripte pregledač kešira isto kao slike i stilove. Pregledač preuzima fajl samo jednom i koristi ga na svim narednim stranicama koje ga uključuju. To povećava performanse, jer pregledač ne mora da preuzme isti kod više puta.
-
-Gde se postavljaju `<script/>` tagovi na stranici veoma je važno - kod se podrazumevano učitava i izvršava redosledom kojim je dodat.
 
 ## Atributi `<script/>` taga
 
