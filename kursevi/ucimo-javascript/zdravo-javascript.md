@@ -19,9 +19,7 @@ Javaskript fajlove možemo pokretati na dva načina:
 * u pregledaču, tako što ih prikačimo za HTML stranicu
 * putem Node.js komandne linije
 
-Za početak, napravi novi fajl, sa ekstenzijom `.js`. U njega prekopiraj gornju liniju koda, s tim da možeš izmeniti tekst između navodnika.
-
-Fajl možeš nazvati kako želiš, a mi ćemo ga nazvati `main.js`.
+Za početak, napravi novi fajl, sa ekstenzijom `.js`. U njega prekopiraj gornju liniju koda, s tim da možeš izmeniti tekst između navodnika. Fajl možeš nazvati kako želiš, a mi ćemo ga nazvati `main.js`.
 
 ### Pokretanje u pregledaču
 
