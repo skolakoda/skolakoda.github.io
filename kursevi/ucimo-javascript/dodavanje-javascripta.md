@@ -11,25 +11,27 @@ Postoje dva načina za korišćenje `<script/>` elemenata:
 - direktnim ugrađivanjem Javascripta u stranicu (*inline* kod);
 - preko `src` atributa koji definiše odgovarajuću eksternu datoteku.
 
-## Direktno ugrađivanje u stranicu
+## Pisanje Javascripta u HTML-u
 
-Da biste dodali inline kod na web stranicu, postavite kod između početnog i krajnjeg taga, što je prikazano u sledećem primeru:
+Javascript kod možete pisati u HTML-u, između početnog i završnog script taga:
 
 ```html
 <script>
-function ispisiPozdrav() {
-  const poruka = "Zdravo Svete!"
-  console.log(poruka)
-}
-ispisiPozdrav()
+console.log("Zdravo Svete!")
 </script>
 ```
 
-Pregledač zaustavlja učitavanje ostatka stranice kada pristupi `<script/>` elementu i izvršava kod pre obrade ostatka stranice.
+U Školi koda, po pravilu, nećemo pisati Javascript unutar HTML fajla, već ćemo ga uključivati kao zaseban fajl.
 
 ## Uključenje zasebnog fajla
 
-Prekucajte Javascript iz prethodnog primera (samo deo između `<script>` tagova) u novi fajl. Ekstenzija mora biti `.js`, a naziv nije bitan. Nakon toga, dodajte `src` atribut ka js fajlu, kao u sledećem primeru:
+Prekucajte sledeći sadržaj iz prethodnog primera (deo između `<script>` tagova) u novi fajl:
+
+```js
+console.log("Zdravo Svete!")
+```
+
+Ekstenzija mora biti `.js`, a naziv nije bitan. Nakon toga, u HTML fajl dodajte `<script>` oznaku sa `src` atributom ka js fajlu, kao u sledećem primeru:
 
 ```html
 <script src="main.js"></script>
