@@ -25,6 +25,8 @@ Ekstenzija html označava da je u pitanju internet stranica. Za sada je ova stra
 
 ## Krairanje js fajla
 
+Program koji ispisuje pozdrav u Javascriptu ima samo jednu liniju. Zato je Javascript veoma pogodan jezika za učenje programiranja.
+
 Napravi novi fajl, sa ekstenzijom `.js`. U njega prekucaj sledeću liniju koda, s tim da možeš izmeniti tekst između navodnika: 
 
 ```js
@@ -35,15 +37,15 @@ Fajl možeš nazvati kako želiš, a mi ćemo ga nazvati `main.js`.
 
 ## Uključenje js fajla u HTML
 
-Da bismo pokrenuli js fajl u pregledaču, potrebno je da ga prikačimo na internet stranicu. U HTML fajl dodaj `<script>` oznaku sa `src` atributom ka odgovarajućem js fajlu, kao u sledećem primeru:
+Da bismo pokrenuli js fajl u pregledaču, potrebno je da ga prikačimo na web stranicu. U HTML fajl prekucaj sledeću liniju, koja dodaje `<script>` oznaku sa `src` atributom ka odgovarajućem js fajlu:
 
 ```html
 <script src="main.js"></script>
 ```
 
-Sada `<script/>` element uključuje eksternu Javascript datoteku pod nazivom `main.js`. Prilikom učitavanja, pregledač zaustavlja render HTML stranice kada pristupi `<script>` tagu. Tek pošto učita Javascript iz eksterne datoteke, nastavlja renderovanje.
+Ova linija uključuje `main.js` fajl u `index.html` fajl. Sada naša prazna stranica ima skriptu na sebi.
 
-Ako imamo više elemenata unutar HMTL stranice, veoma je važno gde se postavlja `<script/>` tag na stranici - kod se podrazumevano učitava i izvršava redosledom kojim je dodat.
+Prilikom učitavanja, pregledač zaustavlja render HTML stranice kada pristupi `<script>` tagu. Tek pošto učita Javascript iz eksterne datoteke, nastavlja renderovanje. Ako imamo više elemenata unutar HMTL stranice, veoma je važno gde se postavlja `<script/>` tag na stranici - kod se podrazumevano učitava i izvršava redosledom kojim je dodat.
 
 ## Prednosti zasebnog js fajla
 
