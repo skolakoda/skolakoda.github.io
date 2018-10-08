@@ -8,22 +8,12 @@ image: /images/jezici/moderni-js.gif
 **Osnovni način dodavanja Javascripta na web stranicu je korišćenje `<script/>` taga. Ovaj element, koji je uvela kompanija Netscape, postao je deo HTML 3.2 specifikacije.**
 
 Postoje dva načina za korišćenje `<script/>` elemenata:
-- direktnim ugrađivanjem Javascripta u stranicu (*inline* kod);
-- preko `src` atributa koji definiše odgovarajuću eksternu datoteku.
+- direktnim pisanjem Javascripta unutar `script` taga (*inline* kod);
+- preko `src` atributa koji uključuje zasebnu datoteku.
 
-## Pisanje Javascripta u HTML-u
+U Školi koda ćemo, po pravilu, uključivati Javascript kao zaseban fajl.
 
-Javascript kod možete pisati u HTML-u, između početnog i završnog script taga:
-
-```html
-<script>
-console.log("Zdravo Svete!")
-</script>
-```
-
-U Školi koda, po pravilu, nećemo pisati Javascript unutar HTML fajla, već ćemo ga uključivati kao zaseban fajl.
-
-## Uključenje zasebnog fajla
+## Uključenje zasebnog js fajla
 
 Prekucajte sledeći sadržaj iz prethodnog primera (deo između `<script>` tagova) u novi fajl:
 
