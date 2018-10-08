@@ -13,17 +13,19 @@ Postoje dva načina za korišćenje `<script/>` elemenata:
 
 U Školi koda ćemo, po pravilu, uključivati Javascript kao zaseban fajl.
 
-## Kreiranje novog foldera
+## Kreiraj novi folder
 
-Prvo, napravi novi folder u kome će stajati svi fajlovi koje kreiramo.
+Prvo, napravi novi folder u kome će stajati svi fajlovi koje kreiramo. 
 
-## Kreiranje html fajla
+Prilikom imenovanja foldera koristi mala slova, a umesto razmaka koristi crticu, npr. `novi-sajt`. Ova konvencija je standard na webu.
+
+## Kreiraj html fajl
 
 Napravi novi fajl, pod nazivom `index.html`. 
 
 Ekstenzija html označava da je u pitanju internet stranica. Za sada je ova stranica prazna.
 
-## Krairanje js fajla
+## Kreiraj js fajl
 
 Program koji ispisuje pozdrav u Javascriptu ima samo jednu liniju. Zato je Javascript veoma pogodan jezika za učenje programiranja.
 
@@ -35,9 +37,9 @@ console.log("Zdravo Svete!")
 
 Fajl možeš nazvati kako želiš, a mi ćemo ga nazvati `main.js`. 
 
-## Uključenje js fajla u HTML
+## Uključi js fajl u HTML
 
-Da bismo pokrenuli js fajl u pregledaču, potrebno je da ga prikačimo na web stranicu. U HTML fajl prekucaj sledeću liniju, koja dodaje `<script>` oznaku sa `src` atributom ka odgovarajućem js fajlu:
+U pregledaču ne možemo direktno otvarati js fajlove, već samo html. Da bismo pokrenuli js fajl u pregledaču, potrebno je da ga prikačimo na web stranicu. U HTML fajl prekucaj sledeću liniju, odnosno `<script>` oznaku sa `src` atributom ka odgovarajućem js fajlu:
 
 ```html
 <script src="main.js"></script>
@@ -46,6 +48,14 @@ Da bismo pokrenuli js fajl u pregledaču, potrebno je da ga prikačimo na web st
 Ova linija uključuje `main.js` fajl u `index.html` fajl. Sada naša prazna stranica ima skriptu na sebi.
 
 Prilikom učitavanja, pregledač zaustavlja render HTML stranice kada pristupi `<script>` tagu. Tek pošto učita Javascript iz eksterne datoteke, nastavlja renderovanje. Ako imamo više elemenata unutar HMTL stranice, veoma je važno gde se postavlja `<script/>` tag na stranici - kod se podrazumevano učitava i izvršava redosledom kojim je dodat.
+
+## Otvori stranicu u pregledaču
+
+Otvori `index.html` stranicu u pregledaču (dovoljan je dvoklik na fajl).
+
+Otvori konzolu pregledača (desni klik -> Inspect -> Console tab). 
+
+Ukoliko vidiš ispis "Zdravo Svete", znači da je sve dobro povezano. Svaka čast. 
 
 ## Prednosti zasebnog js fajla
 
