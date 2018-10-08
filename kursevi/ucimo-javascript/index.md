@@ -21,14 +21,11 @@ image: /images/kursevi/js-logo.png
 
 ### Instalacija i pokretanje
 
+- Instalacija editora ([Atom](https://atom.io/), [VS Code](https://code.visualstudio.com/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/)...) i dodataka (Emmet, linter, beautifier)
+- Instalacija [NodeJS](https://nodejs.org/)-a
 - [Instalacija i pokretanje programa](https://youtu.be/GxHEdXGu62g)
   - [Pokretanje Javascripta u pregledaču](/dodavanje-javascripta)
-- Instalacija editora ([Atom](https://atom.io/), [VS Code](https://code.visualstudio.com/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/)...)
-  - Instalacija dodataka (Emmet, linter, beautifier)
-- Instalacija [NodeJS](https://nodejs.org/)-a
-- Prvi program Zdravo Svete
-  - Izvršenje `.js` fajla u pregledaču
-  - Izvršenje `.js` fajla preko komandne linije
+  - Pokretanje Javascripta iz komandne linije
 
 ### Promenljive i nepromenljive
 
