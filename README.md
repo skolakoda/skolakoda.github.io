@@ -27,8 +27,6 @@ Ako neće, probati sa `sudo`.
 
 ## TODO
 
-- okaciti ugovor kao uslove korišćenja?
-- odstampati priznanice za skolarinu (POTVRDA da je izmirena školarina za mesec ____)
 - dodati dugme "prijavi se na čekanje"
 - razvoj igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
