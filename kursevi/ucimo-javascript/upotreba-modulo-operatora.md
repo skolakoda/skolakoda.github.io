@@ -6,9 +6,8 @@ permalink: upotreba-modulo-operatora
 
 Modulo operator `%` se koristi za izračunavanje ostatka. 
 
-Na primer, ostatak od deljenja 5 / 2 je 1, što se računa ovako:
+Na primer, ostatak od deljenja 5 / 2 (što iznosi 1) se računa ovako:
 
-{:.vrednost}
 ```js
 5 % 2
 ```
