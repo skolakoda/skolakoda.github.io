@@ -26,4 +26,5 @@ const meseci = ostaloDana / 30
 ostaloDana = ostaloDana % 30
 
 console.log(`${ukupnoDana} dana se sastoji od ${Math.floor(godina)} godina, ${Math.floor(meseci)} meseci i ${ostaloDana} dana.`)
+
 ```
