@@ -5,7 +5,7 @@ author: damjan
 permalink: /menjanje-nepromenljivih-u-javaskriptu
 ---
 
-Nepromenljive se ne mogu iznova dodeliti (znakom `=`), ali ***složene nepromenljive vrednosti se mogu menjati***.
+Konstantama se ne može iznova dodeliti vrednost (dodela se vrši znakom `=`), ali ***složene nepromenljive vrednosti se mogu menjati***.
 
 Dakle ako imamo neki složeni tip, poput niza ili objekta, njemu možemo dodavati nove članove, odnosno svojstva. On će biti poput čoveka, koji se stalno menja (dobija nova svojstva, gubi stara), ali je neraskidivo vezan sa svojim imenom.
 

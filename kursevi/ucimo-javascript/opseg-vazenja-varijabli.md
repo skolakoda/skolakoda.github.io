@@ -5,7 +5,9 @@ author: damjan
 permalink: /opseg-vazenja-varijabli-u-javaskriptu
 ---
 
-`let` i `const` imaju svoj opseg važenja, odnosno važe samo u bloku u kom su definisane. Njihov opseg važenja je omeđen vitičastim zagradama `{ ... }`
+**Sve varijable u Javascriptu imaju svoj opseg važenja. Ukoliko njihov opseg važenja nije omeđen, podrazumevano se nalaze u globalnom imenskom prostoru.**
+
+`let` i `const` važe samo u bloku u kom su definisane. Njihov opseg važenja je omeđen vitičastim zagradama `{ ... }`
 
 Stare varijable (`var`) su bile omeđene samo opsegom funkcije, a mogle su važiti i izvan bloka u kome su definisane. Za razliku od njih, `let` i `const` ne mogu važiti izvan vitičastih zagrada.
 
