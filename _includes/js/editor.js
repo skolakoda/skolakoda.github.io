@@ -60,12 +60,13 @@ Editor izvršava kod na dva načina
     codeElement.spellcheck = false
     const kod = codeElement.innerText
 
-    const editorIcon = document.createElement('a')
+    const editIcon = document.createElement('a')
     const params = `jezik=${jezik}&code=${encodeURIComponent(kod)}`
-    editorIcon.href = `https://skolakoda.org/editor/?${params}`
-    editorIcon.title = 'Otvori u editoru'
-    editorIcon.classList.add('editor-icon')
-    ulaz.appendChild(editorIcon)
+    editIcon.href = `https://skolakoda.org/editor/?${params}`
+    editIcon.innerText = '✎'
+    editIcon.title = 'Otvori u editoru'
+    editIcon.classList.add('edit-icon')
+    ulaz.appendChild(editIcon)
 
     const izlaz = document.createElement('pre')
     izlaz.classList.add('izlaz')

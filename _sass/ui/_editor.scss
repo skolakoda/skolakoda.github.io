@@ -10,12 +10,13 @@
   code {
     outline: none;
   }
-  .editor-icon {
-    content: url(/images/ikonice/coding.svg);
+  .edit-icon {
+    display: inline-block;
     position: absolute;
     right: 16px;
+    text-decoration: none;
     top: 8px;
-    width: 50px;
+    transform: rotateZ(90deg);
   }
   button {
     bottom: 0;

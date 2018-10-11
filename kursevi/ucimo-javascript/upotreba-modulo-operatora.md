@@ -14,7 +14,7 @@ Na primer, ostatak od deljenja 5 / 2 se računa ovako:
 
 što iznosi 1.
 
-## Ispitivanje da li je broj paran ili neparan
+## Otkrivanje je li paran ili neparan broj
 
 Čest slučaj upotrebe modulo operatora je ispitivanje da li je neki broj paran ili neparan. Na primer, broj je paran ako nema ostatak kad se podeli sa dva, odnosno ako je njegov ostatak nula:
 
