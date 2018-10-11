@@ -28,11 +28,12 @@ Ako neće, probati sa `sudo`.
 ## TODO
 
 - dodati dugme "prijavi se na čekanje"
+- dodati sve primere na kurseve
+- dodavati odgovarajuce citate na lekcije
 - razvoj igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
     - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
-- dodavati odgovarajuce citate na lekcije
 - https://phpsrbija.github.io/php-the-right-way/
 - postaviti sidebar sa sadrzajem kursa
 - bekend i glasanje za projekte
