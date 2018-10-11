@@ -13,8 +13,7 @@ image: /images/kursevi/js-logo.png
 
 ### Uvod
 
-- [Je li teško naučiti programiranje?](/programiranje-je-tesko)
-- [Ko neće naučiti programiranje?](https://youtu.be/UsuEw2NHbtI)
+- [Učila bih programiranje ali ne znam matematiku](/ne-znam-matematiku)
 - [Čemu služi Javascript?](https://youtu.be/BFc_YPAxQcg)
 - [Kratka istorija Javascripta](/kratka-istorija-javascripta)
 - [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)

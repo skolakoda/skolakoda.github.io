@@ -1,7 +1,8 @@
 ---
 title: Učila bih programiranje ali ne znam matematiku
-layout: post
+layout: lekcija-js
 author: damjan
+permalink: /ne-znam-matematiku
 image: /images/ljudi/zenska-kompujter.jpg
 ---
 
