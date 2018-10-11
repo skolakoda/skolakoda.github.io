@@ -21,7 +21,7 @@ image: /images/kursevi/js-logo.png
 
 ### Instalacija i pokretanje
 
-- Instalacija editora ([Atom](https://atom.io/), [VS Code](https://code.visualstudio.com/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/)...) i dodataka (Emmet, linter, beautifier)
+- Instalacija editora ([Atom](https://atom.io/), [VS Code](https://code.visualstudio.com/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/)...) i dodataka
 - Instalacija [NodeJS](https://nodejs.org/)-a
 - [Instalacija i pokretanje programa](https://youtu.be/GxHEdXGu62g)
   - [Pokretanje Javascripta u pregledaču](/dodavanje-javascripta)
@@ -48,7 +48,7 @@ image: /images/kursevi/js-logo.png
 ### Brojevi i računanje
 
 - Osnovne računske operacije (`+`, `-`, `*`, `/`)
-- Upotreba modulo operatora (`%`)
+- [Upotreba modulo operatora](/upotreba-modulo-operatora) (`%`)
 - Nepreciznosti u računanju
 - Napredne `Math` metode
 - Konverzije
