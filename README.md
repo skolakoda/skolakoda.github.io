@@ -9,12 +9,12 @@ Prvo instaliraš [ruby](https://rubyinstaller.org/downloads/). Potom:
 ```
 gem install bundler
 gem install jekyll
+bundle install
 ```
 
 ## Razvoj
 
 ```
-bundle install
 bundle exec jekyll serve
 ```
 
