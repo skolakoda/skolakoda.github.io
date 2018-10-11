@@ -26,7 +26,7 @@ PIB: 110218433
 
 Broj računa: 160-494199-27
 
-Paypal (isključivo za donacije): <a href="https://www.paypal.me/skolakoda/10"><img src="/images/ikonice/podrzi.png" alt="paypal" class="donate-paypal"></a>
+Paypal (isključivo za donacije): <a href="https://www.paypal.me/skolakoda/10">paypal.me</a>
 
 ## Ostavi poruku
 
