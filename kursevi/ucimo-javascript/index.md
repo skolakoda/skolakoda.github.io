@@ -34,13 +34,13 @@ image: /images/kursevi/js-logo.png
 - Identifikatori i pravila imenovanja
 - Dodela vrednosti (`=`)
 - [Opseg važenja](/opseg-vazenja-varijabli-u-javaskriptu)
-- [Menjanje nepromenljivih u Javaskriptu](/menjanje-nepromenljivih-u-javaskriptu)
 
 ### Tipovi podataka
 
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
 - [Tipovi podataka u Javaskriptu](https://youtu.be/T0VLAWelSUA)
 - Prosti i složeni tipovi
+  - [Menjanje nepromenljivih u Javaskriptu](/menjanje-nepromenljivih-u-javaskriptu)
 - Provera tipa podatka (`typeof`)
 - Promena tipa podatka
 - [Opasnost labavih tipova](/opasnost-labavih-tipova)
