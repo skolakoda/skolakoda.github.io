@@ -2,8 +2,6 @@
 title: Uvod u podatke
 layout: lekcija-c
 permalink: /uvod-u-podatke
-redirect_from:
-  - /kako-racunar-belezi-podatke
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wikipedia_favicon_hexdump.svg/800px-Wikipedia_favicon_hexdump.svg.png
 ---
 

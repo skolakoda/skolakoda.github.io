@@ -2,8 +2,6 @@
 title: HTML atributi
 layout: lekcija-html
 permalink: /html-atributi
-redirect_from:
-  - /ucimo-html/atributi
 ---
 
 **HTML elementi mogu imati atribute. Atributi pružaju dodatne informacije o HTML elementu.**

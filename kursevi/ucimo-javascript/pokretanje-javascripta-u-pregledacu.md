@@ -1,7 +1,9 @@
 ---
 title: Pokretanje Javascripta u pregledaču
 layout: lekcija-js
-permalink: /dodavanje-javascripta
+permalink: /pokretanje-javascripta-u-pregledacu
+redirect_from:
+  - /dodavanje-javascripta
 ---
 
 **Osnovni način dodavanja Javascripta na web stranicu je korišćenje `<script/>` taga. Ovaj element, koji je uvela kompanija Netscape, postao je deo HTML 3.2 specifikacije.**
@@ -12,43 +14,31 @@ Postoje dva načina za korišćenje `<script/>` elemenata:
 
 U Školi koda ćemo, po pravilu, uključivati Javascript kao zaseban fajl.
 
-## Kreiraj novi folder
+## Napravi novi folder
 
-Prvo, napravi novi folder u kome će stajati svi fajlovi koje kreiramo. 
+Prvo, napravi novi folder za tvoje fajlove. Prilikom imenovanja foldera koristi mala slova, a umesto razmaka koristi srednju crtu, npr. `novi-sajt`. Ova konvencija je standard imenovanja fajlova i foldera na webu.
 
-Prilikom imenovanja foldera koristi mala slova, a umesto razmaka koristi crticu, npr. `novi-sajt`. Ova konvencija je standard na webu.
+U folder stavi `main.js` fajl [Zdravo svete](/zdravo-javascript).
 
-## Kreiraj html fajl
+## Napravi html fajl
 
-Napravi novi fajl, pod nazivom `index.html`. 
+U istom folderu gde je Javascript, napravi novi fajl pod nazivom `index.html`. 
 
 Ekstenzija html označava da je u pitanju internet stranica. Za sada je ova stranica prazna.
 
-## Kreiraj js fajl
-
-Program koji ispisuje pozdrav u Javascriptu ima samo jednu liniju. Zato je Javascript veoma pogodan jezika za učenje programiranja.
-
-Napravi novi fajl, sa ekstenzijom `.js`. U njega prekucaj sledeću liniju koda, s tim da možeš izmeniti tekst između navodnika: 
-
-```js
-console.log("Zdravo Svete!")
-```
-
-Fajl možeš nazvati kako želiš, a mi ćemo ga nazvati `main.js`. 
-
 ## Uključi js fajl u HTML
 
-Pregledač ne može direktno interpretirati js fajlove, već samo html. Da bismo pokrenuli js fajl u pregledaču, potrebno je da ga prikačimo na web stranicu. 
+Pregledač ne može direktno interpretirati js fajlove, već samo html. Da bismo pokrenuli JS u pregledaču, potrebno je da ga prikačimo na web stranicu. 
 
-U HTML fajl prekucaj sledeću liniju, odnosno napravi `<script>` oznaku sa `src` atributom ka odgovarajućem js fajlu:
+U HTML fajl prekucaj sledeću liniju:
 
 ```html
 <script src="main.js"></script>
 ```
 
-Ova linija uključuje `main.js` fajl u `index.html` fajl. Sada naša prazna stranica ima skriptu na sebi.
+Ova linija pravi `<script>` tag sa `src` atributom ka odgovarajućem js fajlu, odnosno uključuje `main.js` fajl u `index.html`. Sada naša prazna stranica ima skriptu na sebi.
 
-Prilikom učitavanja, pregledač zaustavlja render HTML stranice kada pristupi `<script>` tagu. Tek pošto učita Javascript iz eksterne datoteke, nastavlja renderovanje. Ako imamo više elemenata unutar HMTL stranice, veoma je važno gde se postavlja `<script/>` tag na stranici - kod se podrazumevano učitava i izvršava redosledom kojim je dodat.
+Prilikom učitavanja, pregledač zaustavlja render HTML stranice kada pristupi `<script>` tagu. Tek pošto učita Javascript iz eksterne datoteke, nastavlja renderovanje. Kada imamo više elemenata unutar HMTL stranice, veoma je važno gde se postavlja `<script/>` tag - kod se podrazumevano učitava i izvršava redosledom kojim je dodat.
 
 ## Otvori stranicu u pregledaču
 

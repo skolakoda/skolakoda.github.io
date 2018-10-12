@@ -2,8 +2,6 @@
 title: Uvod u CSS
 layout: lekcija-html
 permalink: /uvod-css
-redirect_from:
-  - /uvod-u-web/uvod-css
 ---
 
 **CSS služi za stilizovanje HTML stranica. Ova dva jezika čine nerazdvojan par - HTML određuje strukturu, a CSS izgled stranice.**
