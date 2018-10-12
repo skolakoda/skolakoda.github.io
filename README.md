@@ -12,6 +12,8 @@ gem install jekyll
 bundle install
 ```
 
+Ako neće, probati sa `sudo`.
+
 ## Razvoj
 
 ```
@@ -22,8 +24,6 @@ Ili sa parametrima:
 ```
 bundle exec jekyll serve --incremental --drafts
 ```
-
-Ako neće, probati sa `sudo`.
 
 ## TODO
 
