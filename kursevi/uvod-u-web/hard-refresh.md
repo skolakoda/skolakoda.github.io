@@ -14,8 +14,8 @@ Prečica za tvrdo osvežavanje stranice je `Ctrl + Shift + R`.
 
 ## Vežba
 
-Otvori *Network* tab u razvojnim alatkama pregledača. Nakon toga, više puta učitavaj stranicu sa `F5`. Videćeš da su mnogi resursi sivi, odnosno da je njihov status `304`, što znači da ih pregledač učitava iz keša, a ne sa interneta.
+Otvori *Network* tab u razvojnim alatkama pregledača. Nakon toga, više puta učitaj stranicu sa `F5`. Videćeš da su mnogi resursi sivi i da je njihov status `304`, što znači da ih pregledač učitava iz keša, a ne sa interneta.
 
-Sada uradi tvrdo osveženje sa `Ctrl + Shift + R`. Videćeš da su svi resursi u *Network* tabu ponovo učitani i da je njihov status sada `200`, odnosno da su uspešno stigli sa neta.
+Sada uradi tvrdo osveženje sa `Ctrl + Shift + R`. Videćeš da su svi resursi u *Network* tabu ponovo učitani i da je njihov status `200`, odnosno da su uspešno stigli sa neta.
 
 ![](https://i.stack.imgur.com/gCu9x.png)
