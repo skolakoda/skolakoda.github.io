@@ -6,7 +6,7 @@ permalink: /hard-refresh
 
 **Često se dešava da promenite nešto na stranici, ali kada je ponovo učitate, ona istane ista.**
 
-Postoje slučajevi kada puko osveženje stranice sa `F5` nije dovoljno, zato što pregledač kešira, odnosno pamti na hard disku mnoge fajlove sa našeg sajta, radi povećanja brzine svakog narednog učitavanja.
+Postoje slučajevi kada puko osveženje stranice sa `F5` nije dovoljno. Pregledač redovno kešira, odnosno pamti na hard disku mnoge fajlove sa našeg sajta. Potom učitava keširane fajlove, radi povećanja brzine učitavanja.
 
 Rešenje za to je *hard refresh*, odnosno tvrdo osvežavanje stranice, koje prvo briše sve keširane fajlove, a onda iznova sve učitava.
 
