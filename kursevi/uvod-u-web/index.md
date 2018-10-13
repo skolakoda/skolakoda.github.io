@@ -25,7 +25,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Instalacija editora (Notepad++, [Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
 - Instalacija dodataka za: prepoznavanje jezika, ulepšavanje koda, otkrivanje grešaka
 - Razvojni alati pregledača
-- [Brisanje keša i tvrdo osveženje (*hard refresh*)](/hard-refresh)
+- [Tvrdo osveženje (*hard refresh*)](/hard-refresh)
 
 ### Moja prva stranica
 
