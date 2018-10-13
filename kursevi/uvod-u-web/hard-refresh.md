@@ -4,7 +4,7 @@ layout: lekcija-html
 permalink: /hard-refresh
 ---
 
-**Često će se desiti da promenite nešto na vašoj stranici, ali kada je ponovo učitate, ona istane ista.**
+**Često se dešava da promenite nešto na stranici, ali kada je ponovo učitate, ona istane ista.**
 
 Postoje slučajevi kada puko osveženje stranice sa `F5` nije dovoljno, zato što pregledač kešira, odnosno pamti na hard disku mnoge fajlove sa našeg sajta, radi povećanja brzine svakog narednog učitavanja.
 
