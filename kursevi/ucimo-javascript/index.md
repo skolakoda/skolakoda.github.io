@@ -38,10 +38,9 @@ image: /images/kursevi/js-logo.png
 ### Tipovi podataka
 
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
-- [Tipovi podataka u Javaskriptu](https://youtu.be/T0VLAWelSUA)
+- [Tipovi podataka u Javaskriptu](/tipovi-podataka-u-javaskriptu)
 - Prosti i složeni tipovi
   - [Menjanje nepromenljivih u Javaskriptu](/menjanje-nepromenljivih-u-javaskriptu)
-- Provera tipa podatka (`typeof`)
 - Promena tipa podatka
 - [Opasnost labavih tipova](/opasnost-labavih-tipova)
 
