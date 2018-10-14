@@ -47,24 +47,21 @@ image: /images/kursevi/js-logo.png
 ### Brojevi i računanje
 
 - Osnovne računske operacije (`+`, `-`, `*`, `/`)
-- [Upotreba modulo operatora](/upotreba-modulo-operatora) (`%`)
+- [Upotreba modulo operatora (`%`)](/upotreba-modulo-operatora)
 - [Nepreciznosti u računanju](/nepreciznosti-u-racunanju)
 - Napredne `Math` metode
-- Konverzije
-  - Promena strune u broj (`Number()`, `parseInt()`)
-  - Čitanje binarnih (`parseInt('10100', 2)`) i heksadecimalnih brojeva (`parseInt('ffaadd', 16)`)
 - `prompt()` funkcija za korisnički unos
-- Vežba: izračunaj koliko moraš učiti ovim tempom da bi postao ekspert
+- Vežba: izračunaj koliko moraš učiti da bi postao ekspert
 - Vežba: postavi model poslovanja
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
 ### Rad sa tekstom
 
-- Navodnici (`""`) i polunavodnici (`''`)
-- Višelinijske strune (\`\`)
-- Osnovne metode: `length`, `indexOf()`, `toLowerCase()`, `toUpperCase()`, `trim()`, `substr()`
+- Upotreba navodnika (`""`) i polunavodnika (`''`)
+- [Šablonske strune](/sablonske-strune)
+- Osnovne metode: `length`, `toLowerCase()`, `toUpperCase()`, `trim()`
 - Vežba: promeni veličinu slova
-- Vežba: nađi svoje ime u tekstu
+- [Vežba: nađi ime u tekstu](/vezba-pronadji-ime-u-tekstu)
 - Vežba: napiši cenzor funkciju koja menja ružne reči zvezdicama
 - [Vežbe sa strunama](/vezbe-sa-strunama)
 
