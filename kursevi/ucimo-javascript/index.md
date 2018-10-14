@@ -41,21 +41,20 @@ image: /images/kursevi/js-logo.png
 - [Tipovi podataka u Javaskriptu](/tipovi-podataka-u-javaskriptu)
 - Prosti i složeni tipovi
   - [Menjanje nepromenljivih u Javaskriptu](/menjanje-nepromenljivih-u-javaskriptu)
-- Promena tipa podatka
+- [Promena tipa podatka](/promena-tipa-podatka-u-javaskriptu)
 - [Opasnost labavih tipova](/opasnost-labavih-tipova)
 
 ### Brojevi i računanje
 
 - Osnovne računske operacije (`+`, `-`, `*`, `/`)
 - [Upotreba modulo operatora](/upotreba-modulo-operatora) (`%`)
-- Nepreciznosti u računanju
+- [Nepreciznosti u računanju](/nepreciznosti-u-racunanju)
 - Napredne `Math` metode
 - Konverzije
   - Promena strune u broj (`Number()`, `parseInt()`)
   - Čitanje binarnih (`parseInt('10100', 2)`) i heksadecimalnih brojeva (`parseInt('ffaadd', 16)`)
 - `prompt()` funkcija za korisnički unos
 - Vežba: izračunaj koliko moraš učiti ovim tempom da bi postao ekspert
-- Vežba: izračunaj koliko dana si živ
 - Vežba: postavi model poslovanja
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
 

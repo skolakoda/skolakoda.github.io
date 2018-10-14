@@ -10,7 +10,7 @@ permalink: tipovi-podataka-u-javaskriptu
 
 U Javascriptu postoji 7 tipova podataka:
 
-- Šest prostih tipova:
+- šest prostih tipova:
   - broj (*number*)
   - struna (*string*)
   - logički tip (*boolean*)

@@ -6,13 +6,12 @@ permalink: upotreba-modulo-operatora
 
 **Modulo operator `%` se koristi za izračunavanje ostatka deljenja.**
 
-Na primer, ostatak od deljenja 5 / 2 se računa ovako:
+Na primer, ostatak od deljenja 5 sa 2 (što iznosi 1) se računa ovako:
 
+{:.izraz}
 ```js
 5 % 2
 ```
-
-što iznosi 1.
 
 ## Otkrivanje je li paran ili neparan broj
 
@@ -43,9 +42,9 @@ console.log("Da li je broj paran?")
 console.log(x % 2 == 0)
 ```
 
-## Primer: Koliko godina, meseci i dana?
+## Računanje godina, meseci i dana
 
-Imamo određen broj dana, npr. 10.000, a želeli bismo da znamo koliko je to godina, meseci i dana. Modulo operator nam može pomoći da to izračunamo:
+Recimo da imamo određen broj dana, npr. 10.000, a želeli bismo da znamo koliko je to godina, meseci i dana. Modulo operator nam može pomoći da to izračunamo:
 
 {:.ulaz}
 ```js
