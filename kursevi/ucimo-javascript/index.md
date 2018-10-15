@@ -65,12 +65,11 @@ image: /images/kursevi/js-logo.png
 - Vežba: napiši cenzor funkciju koja menja ružne reči zvezdicama
 - [Vežbe sa strunama](/vezbe-sa-strunama)
 
-### Uslovi i grananje
+### Programska logika
 
-- [Logički tok programa](/programska-logika)
-- [Operatori poređenja](/programska-logika#operatori-poređenja-manje-veće-jednako) (veće, manje, jednako, nejednako)
-- [Logički operatori](/programska-logika#logički-operatori-i-ili-ne) (i, ili, ne)
-- [Uslovi](/programska-logika#uslovi) (`if`, `else`, `switch`)
+- [Operatori poređenja](/operatori-poredjenja) (veće, manje, jednako)
+- [Logički operatori](/logicki-operatori) (i, ili, ne)
+- [Uslovi](/uslovi) (`if`, `else`, `switch`)
 - Vežba: napravi priču sa više završetaka na osnovu promenljivih
 - Vežba: napravi program za otkrivanje većeg od dva uneta broja
 
