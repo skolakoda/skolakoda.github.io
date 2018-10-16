@@ -75,9 +75,8 @@ image: /images/kursevi/js-logo.png
 
 ### Petlje i ponavljanje
 
-- [Petlje u jeziku C](/c-petlje)
-- [Petlje u Javaskriptu](https://youtu.be/qjdBoVHmIQA)
-- [Zaustavljanje petlje i preskakanje kruga](https://youtu.be/8o-NvzDtwHU) (`break` i `continue`)
+- [Petlje u Javascriptu](/petlje-u-javascriptu)
+- [Naredbe break i continue](/js-break-i-continue)
 - Uloga zastavice
 - [Vežbe sa petljama](/vezbe-sa-petljama)
 
