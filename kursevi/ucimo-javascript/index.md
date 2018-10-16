@@ -82,7 +82,7 @@ image: /images/kursevi/js-logo.png
 
 ### Funkcije
 
-- [Šta su funkcije?](https://youtu.be/MO9WKt7CRI8)
+- [Šta su funkcije?](/javascript-funkcije)
 - Različiti načini pisanja funkcije
 - Ulazni parametri
   - [Podrazumevani parametri](https://youtu.be/ElXcmfi0-Lg)
