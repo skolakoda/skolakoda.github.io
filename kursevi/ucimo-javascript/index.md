@@ -51,7 +51,7 @@ image: /images/kursevi/js-logo.png
 - [Nepreciznosti u računanju](/nepreciznosti-u-racunanju)
 - Napredne `Math` metode
 - `prompt()` funkcija za korisnički unos
-- Vežba: izračunaj koliko moraš učiti da bi postao ekspert
+- [Vežba: za koliko ću naučiti programiranje?](/za-koliko-cu-nauciti-programiranje)
 - Vežba: postavi model poslovanja
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
