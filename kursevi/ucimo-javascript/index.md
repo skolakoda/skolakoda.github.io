@@ -82,11 +82,10 @@ image: /images/kursevi/js-logo.png
 
 ### Funkcije
 
-- [Šta su funkcije?](/javascript-funkcije)
+- [Funkcije i vraćanje vrednosti](/javascript-funkcije)
 - Različiti načini pisanja funkcije
 - Ulazni parametri
   - [Podrazumevani parametri](https://youtu.be/ElXcmfi0-Lg)
-- Vraćanje rezultata funkcije
 - Pozivanje funkcije
   - Prosleđivanje rezultata funkcije
 - Opseg varijabli unutar funkcije
