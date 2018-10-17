@@ -1,5 +1,5 @@
 ---
-title: Funkcije
+title: Funkcije u Javascriptu
 layout: lekcija-js
 permalink: /javascript-funkcije
 ---
