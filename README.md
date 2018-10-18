@@ -27,6 +27,8 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
+- popraviti izvršenje koda
+- ternarni operatori
 - dodati dugme "prijavi se na čekanje"
 - dodati sve primere na kurseve
 - dodavati odgovarajuce citate na lekcije

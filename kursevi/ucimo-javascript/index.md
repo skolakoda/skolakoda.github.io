@@ -60,10 +60,20 @@ image: /images/kursevi/js-logo.png
 - Upotreba navodnika (`""`) i polunavodnika (`''`)
 - [Šablonske strune](/sablonske-strune)
 - Osnovne metode: `length`, `toLowerCase()`, `toUpperCase()`, `trim()`
-- Vežba: promeni veličinu slova
 - [Vežba: nađi ime u tekstu](/vezba-pronadji-ime-u-tekstu)
 - Vežba: napiši cenzor funkciju koja menja ružne reči zvezdicama
 - [Vežbe sa strunama](/vezbe-sa-strunama)
+
+### Funkcije
+
+- [Funkcije u Javascriptu](/javascript-funkcije)
+- [Vraćanje vrednosti (return naredba)](/return-naredba)
+- [Različiti načini pisanja funkcije](/razliciti-nacini-pisanja-funkcije)
+- [Podrazumevani parametri](/podrazumevani-parametri)
+- Opseg varijabli unutar funkcije
+- Čiste i nečiste funkcije
+- [Streličaste funkcije](/strelicaste-funkcije)
+- Vežba: napravi čiste funkcije za osnovne računske operacije
 
 ### Programska logika
 
@@ -79,20 +89,6 @@ image: /images/kursevi/js-logo.png
 - [Naredbe break i continue](/js-break-i-continue)
 - Uloga zastavice
 - [Vežbe sa petljama](/vezbe-sa-petljama)
-
-### Funkcije
-
-- [Funkcije u Javascriptu](/javascript-funkcije)
-- Različiti načini pisanja funkcije
-- Ulazni parametri
-  - [Podrazumevani parametri](https://youtu.be/ElXcmfi0-Lg)
-- Pozivanje funkcije
-  - Prosleđivanje rezultata funkcije
-- Opseg varijabli unutar funkcije
-- Čiste i nečiste funkcije
-- Streličaste funkcije
-- Anonimne funkcije
-- Vežba: napravi čiste funkcije za osnovne računske operacije
 
 ### Rad sa nizovima
 
