@@ -4,14 +4,16 @@ layout: lekcija-js
 permalink: /podrazumevani-parametri
 ---
 
-Funkcija može imati parametre koji nisu obavezni, odnosno koji imaju podrazumevanu vrednost, ukoliko im se ne prosledi.
+**Funkcije mogu imati opcione parametre, koji imaju podrazumevanu vrednost.**
 
-Na primer:
+## Primer
+
+Sledeća funkcija ima opcioni parametar `ime`, koji ima podrazumevanu vrednost `'gost'`. Dakle, možemo je pozivati sa argumentom ili bez njega:
 
 {:.ulaz}
 ```js
 function pozdrav(ime = 'gost') {
-  return 'Zdravo korisniče ' + ime
+  console.log('Zdravo korisniče ' + ime)
 }
 
 pozdrav('Ana')
