@@ -17,7 +17,6 @@ Editor izvršava kod na dva načina
 
   function izvrsiJS(kod, izlaz) {
     izlaz.innerHTML = ''
-    // https://stackoverflow.com/questions/30935336
     const originalLog = console.log
     console.log = (...args) =>
       args.map((arg, i) => izlaz.innerHTML += arg + (args[i + 1] ? ' ' : '<br>'))
@@ -58,10 +57,9 @@ Editor izvršava kod na dva načina
     const codeElement = ulaz.querySelector('code')
     codeElement.contentEditable = true
     codeElement.spellcheck = false
-    const kod = codeElement.innerText
 
     const editIcon = document.createElement('a')
-    const params = `jezik=${jezik}&code=${encodeURIComponent(kod)}`
+    const params = `jezik=${jezik}&code=${encodeURIComponent(codeElement.innerText)}`
     editIcon.href = `https://skolakoda.org/editor/?${params}`
     editIcon.innerText = '✎'
     editIcon.title = 'Otvori u editoru'
@@ -74,7 +72,7 @@ Editor izvršava kod na dva načina
 
     const dugme = document.createElement('button')
     dugme.innerText = 'Izvrši ⚙'
-    dugme.onclick = () => izvrsi(kod, jezik, izlaz)
+    dugme.onclick = () => izvrsi(codeElement.innerText, jezik, izlaz)
     ulaz.appendChild(dugme)
   }
 

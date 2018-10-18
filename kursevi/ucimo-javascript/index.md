@@ -80,6 +80,7 @@ image: /images/kursevi/js-logo.png
 - [Operatori poređenja](/operatori-poredjenja) (veće, manje, jednako)
 - [Logički operatori](/logicki-operatori) (i, ili, ne)
 - [Uslovi](/uslovi) (`if`, `else`, `switch`)
+- Ternarni operatori
 - Vežba: napravi priču sa više završetaka na osnovu promenljivih
 - Vežba: napravi program za otkrivanje većeg od dva uneta broja
 
