@@ -62,7 +62,6 @@ image: /images/kursevi/js-logo.png
 - Osnovne metode: `length`, `toLowerCase()`, `toUpperCase()`, `trim()`
 - [Vežba: nađi ime u tekstu](/vezba-pronadji-ime-u-tekstu)
 - Vežba: napiši cenzor funkciju koja menja ružne reči zvezdicama
-- [Vežbe sa strunama](/vezbe-sa-strunama)
 
 ### Funkcije
 
@@ -90,6 +89,7 @@ image: /images/kursevi/js-logo.png
 - [Naredbe break i continue](/js-break-i-continue)
 - Uloga zastavice
 - [Vežbe sa petljama](/vezbe-sa-petljama)
+- [Vežbe sa strunama](/vezbe-sa-strunama)
 
 ### Rad sa nizovima
 
@@ -97,11 +97,12 @@ image: /images/kursevi/js-logo.png
 - Dodavanje elementa: `push()`
 - Pristupanje elementu: `niz[index]`
 - Sortiranje niza: `sort()` (pažljivo, mutatorska metoda)
-- Iteracija: `for`, `forEach()`, `map()`
-  - izbegavanje bespotrebnog vrtenja
+- [Iteracija niza](/js-iteracija-niza)
 - Ostale metode: `length`, `indexOf()`, `slice()`, `splice()`, `toString()`
 - Vežba: pronađi korisnika u nizu
 - Vežba: pronađi najmanji broj
+- [Vežba: pronađi broj ponavljanja imena u nizu](/broj-ponavljanja-imena-u-nizu)
+- [Vežbe sa nizovima](/vezbe-sa-nizovima)
 
 ### Objekti
 
