@@ -9,12 +9,10 @@ image: /images/koncepti/logika/avantura.jpg
 
 **Napravi priču sa više završetaka na osnovu promenljivih.**
 
-Minimalni uslov je da postoji uvodni opis scene, i da se korisniku ponudi jedan od više izbora, nakon čega mu izlazi odgovarajuća poruka. Bonus je da postoji više krugova izbora.
-
-Za korisnički unos možeš koristiti `prompt`, a za ispisivanje poruka `alert` funkciju. Bonus je da ne koristiš `prompt` i `alert`, već HTML input tag, i da se poruke ispisuje na stranici.
+Minimalni uslov je da postoji uvodni opis scene, da se korisniku ponudi više izbora, i da mu zavisno od izbora izađe odgovarajuća poruka. Bonus je da postoji više nivoa izbora.
 
 {:.uokvireno}
-Savet: `switch` struktura (skretnica) je veoma zgodna za rešenje ovog problema. 
+Savet: Skretnica (`switch`) je veoma zgodna za rešenje ovog problema. Za korisnički unos u početku možeš koristiti `prompt`, a za prikaz poruka `alert` funkciju. 
 
 ## Rešenje
 
@@ -104,6 +102,12 @@ function idiDesno() {
 ```
 
 Kada unutar skretnice nastavimo grananje, rešenje teži da postane nepregledno. Odvajanjem grana izbora u zasebne funkcije skretnica ostaje pregledna.
+
+## Dalji rad
+
+Ugrađene funkcije za komunikaciju sa korisnikom `prompt`, `alert` i `confirm` se ne koriste u produkciji, jer se prozorčići koji iskaču smatraju napadnim. Umesto toga, za unos koristimo HTML `input` tag, a poruke ispisujemo unutar nekog elementa na stranici.
+
+Takođe je preporučljivo dodati sliku, i poraditi na bojama, kako bi igra izgledala kao gotov proizvod.
 
 {:.uokvireno.ideja}
 Tekstualne avanture su jedan od prvih žanrova igara. Sa znanjem logike i uslova koje si stekao, sada ih možeš i sam praviti.
