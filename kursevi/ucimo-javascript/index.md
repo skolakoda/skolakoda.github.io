@@ -80,7 +80,7 @@ image: /images/kursevi/js-logo.png
 - [Logički operatori](/logicki-operatori) (i, ili, ne)
 - [Uslovi](/uslovi) (`if`, `else`, `switch`)
 - Ternarni operatori
-- Vežba: napravi priču sa više završetaka na osnovu promenljivih
+- [Vežba: napravi priču sa više završetaka](/vezba-avantura)
 - Vežba: napravi program za otkrivanje većeg od dva uneta broja
 
 ### Petlje i ponavljanje
