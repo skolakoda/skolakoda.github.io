@@ -113,7 +113,7 @@ image: /images/kursevi/js-logo.png
   - [Objekat kao stablo](https://youtu.be/ppODhkAAQ3A)
 - Osnovne metode: `Object.keys()`, `Object.assign()`, `Object.freeze()`
 - Iteracija objekta: `for in` i `hasOwnProperty`
-- Vežba: pronađi koliko se koje ime ponavlja u nizu
+- [Vežba: pronađi koliko se koje ime ponavlja u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
 - Vežba: [napravi kasu za prodavnicu](https://www.codecademy.com/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
 ### JSON format
