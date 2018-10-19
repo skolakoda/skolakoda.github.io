@@ -25,5 +25,5 @@ imena.map(ime => {
   else recnik[ime] = 1
 })
 
-console.log(recnik)
+for (const ime in recnik) console.log(ime, recnik[ime])
 ```
