@@ -70,13 +70,13 @@ Ako želimo više uslova sa različitim ishodima, onda između `if` i `else` dod
 
 {:.ulaz}
 ```js
-const ime = prompt('Unesi svoje korisničko ime')
+const uloga = prompt('Unesi svoju ulogu')
 
-if (ime == 'admin')
+if (uloga == 'admin')
   console.log('Možeš pristupiti administratorskoj tabli.')
-else if (ime == 'korisnik')
+else if (uloga == 'korisnik')
   console.log('Možeš pristupiti korisničkom sajtu.')
-else if (ime == 'gost')
+else if (uloga == 'gost')
   console.log('Možeš pristupiti nekim delovima sajta.')
 else
   console.log('Nažalost, ne možeš pristupiti sajtu.')
@@ -88,9 +88,9 @@ else
 
 {:.ulaz}
 ```js
-const ime = prompt('Unesi svoje korisničko ime')
+const uloga = prompt('Unesi svoju ulogu')
 
-switch(ime) {
+switch(uloga) {
   case 'admin':
     console.log('Možeš pristupiti administratorskoj tabli.')
     break
