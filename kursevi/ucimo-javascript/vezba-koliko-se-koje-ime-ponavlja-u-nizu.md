@@ -12,6 +12,8 @@ Dat je niz imena:
 
 Pronađi koliko se koje ime ponavlja u nizu.
 
+Savet: problem se lako može rešiti pomoću rečnika kao strukture podataka.
+
 {:.ulaz.resenje}
 ```js
 const imena = ["Dajana", "Marija", "Damjan", "Mirko", "Ana", "Mirko", "Dajana", "Milena", "Darko"]
