@@ -14,7 +14,7 @@ Traži od korisnika da unese ime, i proveri da li se ono nalazi u nizu.
 
 ## Rešenje
 
-Rešenje uz pomoć zastavice:
+Prosto rešenje:
 
 {:.ulaz.resenje}
 ```js
@@ -32,4 +32,4 @@ else
   console.log("Nismo nasli ime")
 ```
 
-Bonus: optimizuj rešenje da obustavi iteraciju nakon što nađe ime.
+Bonus: optimizuj rešenje tako da obustavi iteraciju nakon što pronađe ime.

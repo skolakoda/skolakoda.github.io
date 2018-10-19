@@ -10,7 +10,7 @@ Ono od čega zavisi brzina napredovanja jeste koliko sati dnevno u proseku učim
 
 ## Zadatak
 
-Napiši program koji prima `satiUcenjaDnevno` kao unos, i na osnovu toga izračunava i ispisuje koliko nam je dana učenja potrebno da bismo postali početnik, a koliko nam je dana potrebno da bismo postali ekspert.
+Napiši program koji prima `satiUcenjaDnevno` kao unos, i na osnovu toga izračunava i ispisuje koliko nam je dana učenja potrebno da bismo postali početnik, i koliko nam je dana potrebno da bismo postali ekspert.
 
 {:.ulaz.resenje}
 ```js
