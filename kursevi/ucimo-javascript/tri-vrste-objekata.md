@@ -19,11 +19,16 @@ Objekat kao rečnik ima samo parove ključeva i vrednosti.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJ5__rBMkso" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
+{:.ulaz}
 ```js
 const recnik =
   "sunce": "Ono što nas greje.",
   "nebo": "Nebo je plavo.",
   "zemlja": "Planeta na kojoj živimo."
+}
+
+for (const kljuc in recnik) {
+  console.log(kljuc + ": " + recnik[kljuc])
 }
 ```
 
@@ -33,8 +38,9 @@ Objekat kao model pored atributa ima i metode.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wEVoMn_sX_U" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
+{:.ulaz}
 ```js
-const automobil = {
+const kola = {
   brojTockova: 4,
   vlasnik: "Pera Perić",
   maxBrzina: 200,
@@ -54,6 +60,10 @@ const automobil = {
     this.brzina = 0
   }
 }
+
+console.log(kola.brzina)
+kola.dodajGas()
+console.log(kola.brzina)
 ```
 
 ## Objekat kao stablo
