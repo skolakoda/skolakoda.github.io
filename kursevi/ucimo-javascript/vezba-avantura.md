@@ -2,7 +2,10 @@
 title: "Vežba: napravi tekstualnu avanturu"
 layout: lekcija-js
 permalink: /vezba-avantura
+image: /images/koncepti/logika/avantura.jpg
 ---
+
+![]({{page.image}})
 
 **Napravi priču sa više završetaka na osnovu promenljivih.**
 
@@ -10,6 +13,7 @@ Minimalni uslov je da postoji uvodni opis scene, i da se korisniku ponudi jedan 
 
 Za korisnički unos možeš koristiti `prompt`, a za ispisivanje poruka `alert` funkciju. Bonus je da ne koristiš `prompt` i `alert`, već HTML input tag, i da se poruke ispisuje na stranici.
 
+{:.uokvireno}
 Savet: `switch` struktura (skretnica) je veoma zgodna za rešenje ovog problema. 
 
 ## Rešenje
