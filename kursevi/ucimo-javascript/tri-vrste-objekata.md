@@ -21,7 +21,7 @@ Objekat kao rečnik ima samo parove ključeva i vrednosti.
 
 {:.ulaz}
 ```js
-const recnik =
+const recnik = {
   "sunce": "Ono što nas greje.",
   "nebo": "Nebo je plavo.",
   "zemlja": "Planeta na kojoj živimo."
