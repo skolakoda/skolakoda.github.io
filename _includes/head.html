@@ -15,9 +15,9 @@
     {% if page.image contains "/images/" %}
       {% assign slika = site.url | append: page.image %}
     {% endif %}
-    <meta property="og:image" content="{{slika}}" />
   {% endif %}
-  <link rel="canonical" href="{{site.url}}{{page.url}}" />
+  <meta property="og:image" content="{{slika}}" />
+
   <link href="/libs/jwarby-jekyll-pygments-themes/github.css" rel="stylesheet">
   <style>
     {% capture include_to_scssify %}
