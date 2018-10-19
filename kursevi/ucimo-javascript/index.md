@@ -99,8 +99,8 @@ image: /images/kursevi/js-logo.png
 - Sortiranje niza: `sort()` (pažljivo, mutatorska metoda)
 - [Iteracija niza](/js-iteracija-niza)
 - Ostale metode: `length`, `indexOf()`, `slice()`, `splice()`, `toString()`
-- Vežba: pronađi korisnika u nizu
-- Vežba: pronađi najmanji broj
+- [Vežba: pronađi ime u nizu](/vezba-pronadji-ime-u-nizu)
+- [Vežba: pronađi najmanji broj u nizu](/vezba-pronadji-najmanji-broj)
 - [Vežba: pronađi broj ponavljanja imena u nizu](/broj-ponavljanja-imena-u-nizu)
 - [Vežbe sa nizovima](/vezbe-sa-nizovima)
 

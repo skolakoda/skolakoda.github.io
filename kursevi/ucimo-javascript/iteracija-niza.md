@@ -10,7 +10,7 @@ U Javascriptu, možemo iterirati niz na više načina. Glavni način je preko na
 
 {:.ulaz}
 ```js
-const imena = ["dajana", "marija", "damjan", "mirko", "ana", "mirko", "dajana", "milena", "darko"]
+const imena = ["Dajana", "Marija", "Damjan", "Mirko", "Ana", "Mirko", "Dajana", "Milena", "Darko"]
 
 for (let i = 0; i < imena.length; i++) {
   console.log(imena[i])
@@ -22,7 +22,7 @@ for (let i = 0; i < imena.length; i++) {
 
 {:.ulaz}
 ```js
-const imena = ["dajana", "marija", "damjan", "mirko", "ana", "mirko", "dajana", "milena", "darko"]
+const imena = ["Dajana", "Marija", "Damjan", "Mirko", "Ana", "Mirko", "Dajana", "Milena", "Darko"]
 
 imena.map((ime, i) => {
   console.log(ime)
