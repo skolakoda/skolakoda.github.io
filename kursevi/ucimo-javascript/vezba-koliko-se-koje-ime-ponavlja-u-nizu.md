@@ -1,7 +1,7 @@
 ---
 title: "Vežba: koliko se koje ime ponavlja u nizu"
 layout: lekcija-js
-permalink: /vezba-koliko-se-koje-ime-ponavlja-u-nizu.md
+permalink: /vezba-koliko-se-koje-ime-ponavlja-u-nizu
 ---
 
 Dat je niz imena:
