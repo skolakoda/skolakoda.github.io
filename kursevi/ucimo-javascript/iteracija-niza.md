@@ -4,7 +4,7 @@ layout: lekcija-js
 permalink: /js-iteracija-niza
 ---
 
-U Javascriptu, možemo vršiti iteraciju niza na više načina. Glavni načini su preko naredbe `for`, kao i preko metoda `map()` i `forEach()`.
+U Javascriptu, možemo iterirati niz na više načina. Glavni način je preko naredbe `for`, ali takođe možemo koristiti metode `map()` i `forEach()`.
 
 ## Primer sa naredbom `for`
 
@@ -32,7 +32,7 @@ imena.map((ime, i) => {
 
 ## Izbegavanje bespotrebnog vrtenja
 
-Bitna razlika između različitih načina iteracije je što pomoću naredbe `for` možemo izbeći bespotrebno vrtenje, za razliku od `map` metode:
+Map metodu ne možemo samovoljno zaustaviti, jer njen posao je **mapiranje** svake vrednosti za novu vrednost, a iteracija je samo sredstvo da to uradi. Za razliku od `map` metode, pomoću naredbe `for` možemo izbeći bespotrebno vrtenje:
 
 {:.ulaz}
 ```js
@@ -44,7 +44,7 @@ console.log("Pocinje for: ")
 for (let i = 0; i < brojevi.length; i++) {
   if (brojevi[i] == trazeniBroj) {
     console.log("Nasao sam broj", trazeniBroj)
-    break
+    break // zaustavlja iteraciju
   }
   console.log(brojevi[i])
 }
