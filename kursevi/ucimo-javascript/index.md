@@ -108,9 +108,6 @@ image: /images/kursevi/js-logo.png
 
 - [Uvod u strukture podataka](/strukture-podataka)
 - [Tri vrste objekata u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
-  - [Objekat kao rečnik](https://youtu.be/ZJ5__rBMkso)
-  - [Objekat kao model](https://youtu.be/wEVoMn_sX_U)
-  - [Objekat kao stablo](https://youtu.be/ppODhkAAQ3A)
 - Osnovne metode: `Object.keys()`, `Object.assign()`, `Object.freeze()`
 - Iteracija objekta: `for in` i `hasOwnProperty`
 - [Vežba: pronađi koliko se koje ime ponavlja u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
