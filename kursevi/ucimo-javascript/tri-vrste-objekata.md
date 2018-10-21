@@ -4,7 +4,6 @@ layout: lekcija-js
 author: damjan
 permalink: /tri-vrste-objekata-u-javaskriptu
 image: /images/koncepti/oop/objekat-kao-model.png
-opis: Objekte u Javaskriptu koristimo za tri bitno različite namene
 ---
 
 **Objekte u Javaskriptu koristimo za tri bitno različite namene:**
@@ -15,9 +14,9 @@ opis: Objekte u Javaskriptu koristimo za tri bitno različite namene
 
 ## Objekat kao rečnik
 
-Objekat kao rečnik ima samo parove ključeva i vrednosti.
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJ5__rBMkso" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+Objekat kao rečnik sadrži parove ključeva i vrednosti. Ova struktura se najčešće koristi za organizovanje više srodnih varijabli zajedno, u okviru jednog objekta. 
 
 {:.ulaz}
 ```js
@@ -27,20 +26,20 @@ const recnik = {
   "zemlja": "Planeta na kojoj živimo."
 }
 
-for (const kljuc in recnik) {
-  console.log(kljuc + ": " + recnik[kljuc])
-}
+console.log(recnik["sunce"])
 ```
+
+U moderni Javascript je uvedena mapa ([Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)) kao zasebna struktura podataka, ali se objekat u ove svrhe i dalje redovno koristi.
 
 ## Objekat kao model
 
-Objekat kao model pored atributa ima i metode.
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wEVoMn_sX_U" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+Objekat se često koristi kao model predmeta stvarnog sveta. Od običnog rečnika se razlikuje što pored atributa ima i metode, odnosno dodeljene funkcije.
 
 {:.ulaz}
 ```js
-const kola = {
+const automobil = {
   brojTockova: 4,
   vlasnik: "Pera Perić",
   maxBrzina: 200,
@@ -61,24 +60,26 @@ const kola = {
   }
 }
 
-console.log(kola.brzina)
-kola.dodajGas()
-console.log(kola.brzina)
+console.log("Pocetna brzina: " + automobil.brzina)
+automobil.dodajGas()
+console.log("Brzina nakon ubrzanja: " + automobil.brzina)
 ```
+
+Objekti kao modeli predmeta se obično ne prave jednokratno, nego se instanciraju na osnovu klasa.
 
 ## Objekat kao stablo
 
-Objekat kao stablo ima više nivoa dubine i iterira se rekurzijom.
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ppODhkAAQ3A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
+Objekat kao stablo je razgranata struktura koja ima više nivoa dubine. Može služiti za predstavljanje bilo kojih ugnježdenih struktura, npr. DOM elemenata. Pojedinačnim vrednostima se može pristupati direktno (npr. `html.head.title`), a cela struktura se iterira rekurzijom.
+
+{:.ulaz}
 ```js
 const html = {
   "head": {
     "title": "Naslovna stranica",
     "description": "Ovo je moj sajt"
-  }
+  },
   "body": {
     "div": {
       "section": {
@@ -88,4 +89,16 @@ const html = {
     }
   }
 }
+
+function iteriraj(obj) {
+  for (const key in obj) {
+    if (typeof obj[key] == "object") {
+      iteriraj(obj[key])
+    } else {
+      console.log(key + ": " + obj[key])
+    }
+  }
+}
+
+iteriraj(html)
 ```

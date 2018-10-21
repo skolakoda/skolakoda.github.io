@@ -10,11 +10,11 @@ Dat je niz imena:
 ["Dajana", "Marija", "Damjan", "Mirko", "Ana", "Mirko", "Dajana", "Milena", "Darko"]
 ```
 
-Traži od korisnika da unese ime, i proveri da li se ono nalazi u nizu.
+Zatraži od korisnika da unese ime, i proveri da li se ono nalazi u nizu.
 
 ## Rešenje
 
-Prosto rešenje:
+Dato je prosto rešenje, koje nije optimizovano:
 
 {:.ulaz.resenje}
 ```js
