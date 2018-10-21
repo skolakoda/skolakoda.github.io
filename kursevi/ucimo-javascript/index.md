@@ -106,12 +106,11 @@ image: /images/kursevi/js-logo.png
 
 ### Objekti
 
-- [Uvod u strukture podataka](/strukture-podataka)
-- [Tri vrste objekata u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
-- Osnovne metode: `Object.keys()`, `Object.assign()`, `Object.freeze()`
+- Objekat kao složena struktura podataka
 - Iteracija objekta: `for in` i `hasOwnProperty`
-- [Vežba: pronađi koliko se koje ime ponavlja u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
-- Vežba: [napravi kasu za prodavnicu](https://www.codecademy.com/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
+- [Tri vrste objekata u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
+- [Vežba: koliko se koje ime ponavlja u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
+- Vežba: [napravi kasu za prodavnicu](https://web.archive.org/web/20150610053050/http://www.codecademy.com:80/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
 ### JSON format
 
@@ -134,26 +133,21 @@ image: /images/kursevi/js-logo.png
 
 ### Rad u okruženju browsera
 - Objektni model dokumenta (DOM)
-  - [Struktura stabla](/strukture-podataka#stablo-tree)
   - Razlika HTML-a i DOM-a
 - Globalni objekti u pregledaču: `window` i `document`
-  - `window` svojstva i metode: `innerHeight`, `innerWidth`, `location`, `setTimeout(), open()`
-  - `document` svojstva i metode: `activeElement`, `domain`, `location`, `referrer`
 - Vežba: predstavi strukturu HTML stranice pomoću JS objekta
 
 ### Manipulacija DOM-a
-- Selektori elemenata:
+
+- Selektori elemenata
   - `document.getElementById()`
   - `document.querySelector()`
   - `document.querySelectorAll()`
 - [Dodavanje elemenata](https://jsfiddle.net/mudroljub/rhLggx3t/) (`appendChild`, `innerHTML`, `element.insertAdjacentHTML()`)
 - Uklanjanje elemenata (`removeChild` ili `innerHTML`)
-
-### Stilizovanje Javaskriptom
-- Stilizovanje preko `style` atributa
-  - Prevođenje CSS-a u JS
-  - Stilizovanje Javaskriptom kao loša praksa
-- Stilizovanje dodavanjem CSS klasa
+- Stilizovanje Javaskriptom
+  - Stilizovanje preko `style` atributa kao loša praksa
+  - Stilizovanje dodavanjem CSS klasa
 
 ### Događaji
 - Uvod u Javaskript događaje
@@ -168,35 +162,29 @@ image: /images/kursevi/js-logo.png
   - razlika obične i streličaste povratne funkcije
   - `event` objekat i njegova svojstva
 - Sprečavanje podrazumevanog ponašanja (`event.preventDefault()`)
-  - sprečavanje slanja forme
-  - sprečavanje otvaranja linka
-- Vežba: promeni naslov kad je miš iznad
 - Vežba: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)
 - Vežba: uporedi `this` unutar obične i streličaste povratne funkcije
-- Vežba: spreči podrazumevano ponašanje nekog elementa
+- Vežba: spreči podrazumevano slanje forme
 
-### Validacija obrazaca
+### AJAX i API
+
+- Asinhroni Javaskript i HTML (AJAX)
+  - uvod u AJAX tehniku
+  - AJAX pozivi
+- Programski interfejs aplikacija (API)
+- Dinamičko renderovanje HTML-a
+- Vežba: učitaj adresar iz JSON fajla
+- Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
+
+### Validacija korisničkog unosa
 
 - Čitanje vrednosti `input` polja
 - Validacija i slanje formulara
   - Validacija putem Javaskripta
   - Prirodna validacija pregledača
-  - Slanje podataka bekendu
-- Vežba: [email validacija](https://jsfiddle.net/mudroljub/h70xtpco/)
-- Vežba: proveri dužinu unetog teksta
-- Vežba: spreči podrazumevano slanje, proveri podatke pa pošalji
-
-### Regularni izraz
-
 - [Regularni izrazi](/regularni-izraz)
-  - Početak i kraj (`^`, `$`)
-  - Broj pojavljivanja (`?`, `+`, `*`, `{}`)
-  - Posebni karakteri (`\d`, `\D`, `\w`, `\W`, `\s`, `\S`)
-  - Grupisanje (`[]`) i negacija (`^`)
-  - Podobrasci (`()`)
-  - Alternativa (`|`)
-  - Escape (`\`)
-- [JS metode za regularni izraz](/regularni-izraz#js-metode-za-regularni-izraz)
+- Vežba: [email validacija](https://jsfiddle.net/mudroljub/h70xtpco/)
+- Vežba: spreči podrazumevano slanje, proveri podatke pa pošalji
 - Vežba: [izrazi za ime i prezime, adresu i email](https://jsfiddle.net/mudroljub/6b36w613/)
 
 ### Rad sa slikama
@@ -213,36 +201,14 @@ image: /images/kursevi/js-logo.png
 - Vežba: Napravi plejer i plejlistu
 - Vežba: Napravi program za pravljenje muzike
 
-### Crtanje i animacije [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-animacije)
+### React biblioteka
 
-- Crtanje na platnu (`canvas`) i mrdanje DOM elemenata
-- Glavna petlja (`main loop`)
-- Animiranje sa `setInterval` i `requestAnimationFrame`
-  - FPS (broj kadrova po sekundi)
-  - Delta vreme
-- [Kako napraviti kružnu animaciju pomoću trigonometrije?](/trigonometrija-animacija)
-- Interaktivne animacije
-- Vežba: Napravi animaciju koja reaguje na korisnički unos
-- Vežba: Pravljenje kružne animacije pomoću trigonometrije
-
-### jQuery biblioteka
-- Dodavanje biblioteke
-- Osnovne metode: `hide()`, `show()`, `toggle()`, `append()`, `addClass()`, `removeClass()`
-- `jQuery` selektor vs `document.querySelector`
-  - Razlika između JS elementa i jQuery objekta
-- Događaji u jQuery-u
-  - `$(document).ready` vs `window.onload`
-- Vežba: sakrij/prikaži deo stranice na klik
-- Vežba: dodaj neki jQuery UI element (meni, harmoniku, kalendar...)
-- Vežba: napravi mini jQuery
-
-### AJAX i API
-- Asinhroni Javaskript i HTML
-  - uvod u AJAX tehniku
-  - čist JS i jQuery AJAX poziv
-- Programski interfejs aplikacija (API)
-- Vežba: učitaj adresar iz JSON fajla
-- Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
+- Upoznavanje alata (Webpack, Node, Npm, Babel, React Dev-Tools, pomoćne biblioteke)
+- Kreiranje aplikacije
+- React komponente
+  - JSX i evaluacija izraza
+  - `state` i `props`
+- Dinamički render sadržaja
 
 ### Node.js bekend servisi [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
 
@@ -252,6 +218,14 @@ image: /images/kursevi/js-logo.png
 - Čitanje i pisanje fajlova
 - Služenje podataka
 - Vežba: žanji i kombinuj vesti sa raznih izvora
+
+### Testiranje
+
+- Jedinični (*unit*) testovi
+  - *Jasmine* i *Mocha* biblioteke
+- Integracioni testovi
+- Ispitivanje web stranica
+  - *PhantomJS* biblioteka
 
 ### Završni projekat
 
