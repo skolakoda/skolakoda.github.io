@@ -16,7 +16,7 @@ image: /images/koncepti/oop/objekat-kao-model.png
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJ5__rBMkso" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
-Objekat kao rečnik sadrži parove ključeva i vrednosti. Ova struktura se najčešće koristi za organizovanje više srodnih varijabli zajedno, u okviru jednog objekta. 
+Rečnik (takođe mapa ili asocijativni niz) je struktura podataka koja sadrži parove ključeva i vrednosti. Možemo je, na primer, koristiti za rečnik pojmova:
 
 {:.ulaz}
 ```js
@@ -27,6 +27,21 @@ const recnik = {
 }
 
 console.log(recnik["sunce"])
+```
+
+Ova struktura je takođe zgodna za telefonski imenik:
+
+{:.ulaz}
+```js
+const imenik = {
+  "Marija Stojonović": "333-444",
+  "Darko Bjelić": "343 434334",
+  "Ana Stanić": "090945454",
+  "Marko Marić": "3453453453",
+  "No Name": "xxxxxxx"
+}
+
+console.log(imenik["Darko Bjelić"])
 ```
 
 U moderni Javascript je uvedena mapa ([Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)) kao zasebna struktura podataka, ali se objekat u ove svrhe i dalje redovno koristi.
