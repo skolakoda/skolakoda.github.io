@@ -169,8 +169,8 @@ image: /images/kursevi/js-logo.png
 ### AJAX i API
 
 - Asinhroni Javaskript i HTML (AJAX)
-  - uvod u AJAX tehniku
-  - AJAX pozivi
+  - Uvod u AJAX tehniku
+  - [AJAX pozivi](/ajax-pozivi)
 - Programski interfejs aplikacija (API)
 - Dinamičko renderovanje HTML-a
 - Vežba: učitaj adresar iz JSON fajla
