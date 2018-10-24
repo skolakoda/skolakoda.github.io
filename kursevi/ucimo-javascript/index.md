@@ -112,12 +112,6 @@ image: /images/kursevi/js-logo.png
 - [Vežba: koliko se koje ime ponavlja u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
 - Vežba: [napravi kasu za prodavnicu](https://web.archive.org/web/20150610053050/http://www.codecademy.com:80/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
-### JSON format
-
-- [Uvod u JSON](/json-format)
-- osnovne metode: `JSON.parse()`, `JSON.stringify()`
-- vežba: napravi adresar u JSON fajlu
-
 ### Klase i nasleđivanje
 - [Objektno orjentisana arhitektura](/objektno-orijentisano-programiranje)
 - `constructor`, `super` i `this`
@@ -168,10 +162,12 @@ image: /images/kursevi/js-logo.png
 
 ### AJAX i API
 
-- Asinhroni Javaskript i HTML (AJAX)
+- AJAX: Asinhroni Javaskript i HTML
   - Uvod u AJAX tehniku
   - [AJAX pozivi](/ajax-pozivi)
-- Programski interfejs aplikacija (API)
+- API: Programski interfejs aplikacija
+- [JSON format](/json-format)
+  - metode `JSON.stringify()` i `JSON.parse()`
 - Dinamičko renderovanje HTML-a
 - Vežba: učitaj adresar iz JSON fajla
 - Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
