@@ -162,9 +162,8 @@ image: /images/kursevi/js-logo.png
 
 ### AJAX i API
 
-- AJAX: Asinhroni Javaskript i HTML
-  - Uvod u AJAX tehniku
-  - [AJAX pozivi](/ajax-pozivi)
+- [Uvod u AJAX i asinhroni Javaskript](/ajax-tehnika)
+- [AJAX pozivi](/ajax-pozivi)
 - API: Programski interfejs aplikacija
 - [JSON format](/json-format)
   - metode `JSON.stringify()` i `JSON.parse()`
