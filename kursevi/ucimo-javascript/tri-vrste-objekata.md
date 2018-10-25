@@ -54,7 +54,7 @@ Objekat se često koristi kao model predmeta stvarnog sveta. Od običnog rečnik
 
 {:.ulaz}
 ```js
-const automobil = {
+const kola = {
   brojTockova: 4,
   vlasnik: "Pera Perić",
   maxBrzina: 200,
@@ -64,10 +64,10 @@ const automobil = {
     this.brzina = 10
   },
 
-  dodajGas() {
+  ubrzaj() {
     if (this.brzina >= this.maxBrzina)
       return
-    this.brzina++
+    this.brzina += 5
   },
 
   stani() {
@@ -75,9 +75,10 @@ const automobil = {
   }
 }
 
-console.log("Pocetna brzina: " + automobil.brzina)
-automobil.dodajGas()
-console.log("Brzina nakon ubrzanja: " + automobil.brzina)
+console.log("Pocetna brzina: " + kola.brzina)
+kola.kreni()
+kola.ubrzaj()
+console.log("Trenutna brzina: " + kola.brzina)
 ```
 
 Objekti kao modeli predmeta se obično ne prave jednokratno, nego se instanciraju na osnovu klasa.
@@ -105,6 +106,9 @@ const html = {
   }
 }
 
+console.log(html.head.title) // pristupanje ugnjezdenom atributu
+
+// rekurzivna iteracija
 function iteriraj(obj) {
   for (const key in obj) {
     if (typeof obj[key] == "object") {

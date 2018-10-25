@@ -28,7 +28,6 @@ bundle exec jekyll serve --incremental --drafts
 ## TODO
 
 - popravi mobilni prikaz naslovne
-- asinhroni js loguje u konzolu umesto na stranu
 - dodati dugme "prijavi se na čekanje"
 - dodati sve primere na kurseve
 - dodavati odgovarajuce citate na lekcije

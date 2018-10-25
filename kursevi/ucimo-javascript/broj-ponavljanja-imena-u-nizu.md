@@ -1,5 +1,5 @@
 ---
-title: "Vežba: pronađi broj ponavljanja imena u nizu"
+title: "Vežba: broj ponavljanja traženog imena u nizu"
 layout: lekcija-js
 permalink: /broj-ponavljanja-imena-u-nizu
 ---

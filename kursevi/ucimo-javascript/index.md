@@ -101,15 +101,17 @@ image: /images/kursevi/js-logo.png
 - Ostale metode: `length`, `indexOf()`, `slice()`, `splice()`, `toString()`
 - [Vežba: pronađi ime u nizu](/vezba-pronadji-ime-u-nizu)
 - [Vežba: pronađi najmanji broj u nizu](/vezba-pronadji-najmanji-broj)
-- [Vežba: pronađi broj ponavljanja imena u nizu](/broj-ponavljanja-imena-u-nizu)
+- [Vežba: broj ponavljanja traženog imena u nizu](/broj-ponavljanja-imena-u-nizu)
 - [Vežbe sa nizovima](/vezbe-sa-nizovima)
 
 ### Objekti
 
 - Objekat kao složena struktura podataka
-- Iteracija objekta: `for in` i `hasOwnProperty`
 - [Tri vrste objekata u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
-- [Vežba: koliko se koje ime ponavlja u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
+- Iteracija objekta: `for in` i `hasOwnProperty`
+- Interakcija objekata
+- Vežba: implementiraj prenos sredstava sa računa pomoću objekata
+- [Vežba: broj ponavljanja svakog imena u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
 - Vežba: [napravi kasu za prodavnicu](https://web.archive.org/web/20150610053050/http://www.codecademy.com:80/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
 ### Klase i nasleđivanje
