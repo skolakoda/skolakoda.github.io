@@ -109,7 +109,7 @@ image: /images/kursevi/js-logo.png
 - Objekat kao složena struktura podataka
 - [Tri vrste objekata u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
 - Iteracija objekta: `for in` i `hasOwnProperty`
-- Interakcija objekata
+- [Međusobna interakcija objekata](/interakcija-objekata)
 - Vežba: implementiraj prenos sredstava sa računa pomoću objekata
 - [Vežba: broj ponavljanja svakog imena u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
 - Vežba: [napravi kasu za prodavnicu](https://web.archive.org/web/20150610053050/http://www.codecademy.com:80/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
