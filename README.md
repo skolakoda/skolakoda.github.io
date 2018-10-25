@@ -28,6 +28,7 @@ bundle exec jekyll serve --incremental --drafts
 ## TODO
 
 - popravi mobilni prikaz naslovne
+- dodati editovanje stranica
 - dodati dugme "prijavi se na čekanje"
 - dodati sve primere na kurseve
 - dodavati odgovarajuce citate na lekcije
