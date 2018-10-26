@@ -137,10 +137,7 @@ image: /images/kursevi/js-logo.png
 
 ### Selektori
 
-- Selektori elemenata
-  - `document.getElementById()`
-  - `document.querySelector()`
-  - `document.querySelectorAll()`
+- [Selektori elemenata](/selektori-elemenata)
 - [Dodavanje elemenata](/dodavanje-elemenata)
 - Uklanjanje elemenata (`removeChild` ili `innerHTML`)
 - Stilizovanje Javaskriptom

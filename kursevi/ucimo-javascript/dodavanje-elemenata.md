@@ -11,7 +11,7 @@ permalink: /dodavanje-elemenata
 Primer dodavanja elemenata pomoću [appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) metode, na klik:
 
 {:.html-ulaz}
-```js
+```html
 <style>
   .kvadrat {
     background-color: red;
@@ -51,7 +51,7 @@ Glavna prednost ove metode je mogućnost dodavanja slušače događaja na novokr
 Primer dodavanja elemenata pomoću [insertAdjacentHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML) metode:
 
 {:.html-ulaz}
-```js
+```html
 <h2 id="naslov">Dodavanje elementa u DOM</h2>
 
 <script>
@@ -74,7 +74,7 @@ Glavna prednost ove metode je mogućnost pravljenja kompleksnih elemenata pomoć
 Primer dodavanja elemenata pomoću [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) atributa:
 
 {:.html-ulaz}
-```js
+```html
 <div id="drzac"></div>
 
 <script>
