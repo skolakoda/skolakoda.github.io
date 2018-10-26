@@ -1,0 +1,19 @@
+---
+layout: lekcija
+---
+
+<link rel="stylesheet" href="/libs/codemirror/codemirror.css">
+
+<p>Deo zbornika <a href="/kursevi/ucimo-javascript/">Učimo Javascript</a></p>
+
+<h1>{{page.title}}</h1>
+
+{% include share-buttons.html %}
+{% include autor.html %}
+
+{{ content }}
+
+<script src="/libs/codemirror/codemirror.min.js"></script>
+<script>
+  {% include js/editor-html.js %}
+</script>

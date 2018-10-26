@@ -127,23 +127,26 @@ image: /images/kursevi/js-logo.png
 
 # Front-end programiranje
 
-### Rad u okruženju browsera
-- Objektni model dokumenta (DOM)
-  - Razlika HTML-a i DOM-a
+### Objektni model dokumenta
+
+- [Objektni model dokumenta (DOM)](/objektni-model-dokumenta)
+- [Razlika HTML-a i DOM-a](/razlika-html-i-dom)
+- [DOM manipulacija](/dom-manipulacija)
 - Globalni objekti u pregledaču: `window` i `document`
 - Vežba: predstavi strukturu HTML stranice pomoću JS objekta
 
-### Manipulacija DOM-a
+### Selektori
 
 - Selektori elemenata
   - `document.getElementById()`
   - `document.querySelector()`
   - `document.querySelectorAll()`
-- [Dodavanje elemenata](https://jsfiddle.net/mudroljub/rhLggx3t/) (`appendChild`, `innerHTML`, `element.insertAdjacentHTML()`)
+- [Dodavanje elemenata](/dodavanje-elemenata)
 - Uklanjanje elemenata (`removeChild` ili `innerHTML`)
 - Stilizovanje Javaskriptom
   - Stilizovanje preko `style` atributa kao loša praksa
   - Stilizovanje dodavanjem CSS klasa
+- *jQuery* biblioteka
 
 ### Događaji
 - Uvod u Javaskript događaje

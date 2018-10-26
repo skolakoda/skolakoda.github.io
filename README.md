@@ -30,7 +30,7 @@ bundle exec jekyll serve --incremental --drafts
 - popravi mobilni prikaz naslovne
 - dodati editovanje stranica
 - dodati dugme "prijavi se na čekanje"
-- dodati sve primere na kurseve (i iz komtrejda, spojiti oop javu...)
+- dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)
 - dodavati odgovarajuce citate na lekcije
 - razvoj igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
