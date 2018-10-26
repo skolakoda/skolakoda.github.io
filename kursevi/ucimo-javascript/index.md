@@ -107,7 +107,7 @@ image: /images/kursevi/js-logo.png
 ### Objekti
 
 - Objekat kao složena struktura podataka
-- [Tri vrste objekata u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
+- [Tri namene objekta u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
 - Iteracija objekta: `for in` i `hasOwnProperty`
 - [Interakcija objekata](/interakcija-objekata)
 - Vežba: implementiraj prenos sredstava sa računa pomoću objekata
@@ -133,7 +133,7 @@ image: /images/kursevi/js-logo.png
 - [Razlika HTML-a i DOM-a](/razlika-html-i-dom)
 - [DOM manipulacija](/dom-manipulacija)
 - Globalni objekti u pregledaču: `window` i `document`
-- Vežba: predstavi strukturu HTML stranice pomoću JS objekta
+- [Vežba: predstavi HTML strukturu pomoću JS objekta](/vezba-predstavi-html-pomocu-js-objekta)
 
 ### Selektori
 

@@ -1,12 +1,12 @@
 ---
-title: Tri vrste objekata u Javaskriptu
+title: Tri namene objekta u Javaskriptu
 layout: lekcija-js
 author: damjan
 permalink: /tri-vrste-objekata-u-javaskriptu
 image: /images/koncepti/oop/objekat-kao-model.png
 ---
 
-**Objekte u Javaskriptu koristimo za tri bitno različite namene:**
+**Objekat u Javaskriptu koristimo za tri bitno različite namene:**
 
 - kao rečnik (mapa ili asocijativni niz)
 - kao model predmeta stvarnog sveta
