@@ -11,7 +11,7 @@ U Javascriptu postoje razni selektori preko kojih pristupamo nekom DOM elementu.
 - `document.querySelectorAll()`
 
 
-## Primer 1: `getElementById`
+## `document.getElementById()`
 
 Jedan od najčešće korištenih selektora je `document.getElementById()`, koji hvata element preko `id` atributa koji smo mu dodelili u HTML-u:
 
@@ -39,7 +39,7 @@ Jedan od najčešće korištenih selektora je `document.getElementById()`, koji 
 </script>
 ```
 
-## Primer 2: `querySelector`:
+## `document.querySelector()`
 
 `document.querySelector()` hvata elemente preko standardnih selektora, koje koristimo i u CSS-u. Kada pomoću njega selektujemo klasu, on hvata samo prvi element:
 
@@ -68,7 +68,7 @@ $('h3').style.color = 'purple'
 $('.prvi-pasus').style.color = 'yellow'
 ```
 
-## Primer 3: `querySelectorAll`
+## `document.querySelectorAll()`
 
 `document.querySelectorAll()` selektuje više elemenata. U narednom primeru, selektujemo više elemenata i menjamo im boju:
 
