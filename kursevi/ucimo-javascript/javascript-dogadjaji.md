@@ -6,7 +6,7 @@ permalink: /javascript-dogadjaji
 
 **Događaji (*events*) u Javascriptu su najčešće izazvani nekom akcijom korisnika (npr. klikom, mrdanjem, kucanjem, dodirom) ili učitavanjem resursa na stranicu (npr. slika ili podataka).**
 
-Program sam po sebi neće pratiti sve događaje, već samo one za koje dodamo slušač događa (*event listener*).
+Program sam po sebi neće pratiti sve događaje, već samo one za koje dodamo slušač događa (*event listener*). Na događaje možemo reagovati nekom povratnom funkcijom (*callback funkcija*).
 
 ## Događaji miša 
 
