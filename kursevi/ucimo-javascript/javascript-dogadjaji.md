@@ -1,8 +1,12 @@
 ---
-title: Uvod u Javaskript događaje
+title: Uvod u Javascript događaje
 layout: lekcija-js
 permalink: /javascript-dogadjaji
 ---
+
+**Događaji (*events*) u Javascriptu su najčešće izazvani nekom akcijom korisnika (npr. klikom, mrdanjem, kucanjem, dodirom) ili učitavanjem resursa na stranicu (npr. slika ili podataka).**
+
+Program sam po sebi neće pratiti sve događaje, već samo one za koje dodamo slušač događa (*event listener*).
 
 ## Događaji miša 
 
