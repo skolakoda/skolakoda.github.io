@@ -146,13 +146,14 @@ image: /images/kursevi/js-logo.png
 - *jQuery* biblioteka
 
 ### Događaji
+
 - Uvod u Javaskript događaje
   - događaji miša (`click`, `dblclick`, `mousemove`, `mouseenter`, `mouseleave`, `mousedown`, `mouseup`)
   - događaji tastature (`keydown`, `keyup`)
   - događaji formulara (`focus`, `blur`, `change`, `submit`)
   - globalni događaji (`DOMContentLoaded`, `load`, `resize`)
   - Razlika između `DOMContentLoaded` i `window.onload`
-- Dodavanje slušača događa
+- [Dodavanje slušača događaja](/dodavanje-slusaca-dogadjaja)
   - dodavanje preko atributa i preko metoda (`addEventListener`)
   - povratna funkcija i prosleđivanje argumenata
   - razlika obične i streličaste povratne funkcije
