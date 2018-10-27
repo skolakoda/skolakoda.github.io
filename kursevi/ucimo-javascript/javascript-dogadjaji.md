@@ -4,7 +4,7 @@ layout: lekcija-js
 permalink: /javascript-dogadjaji
 ---
 
-**Događaji (*events*) u Javascriptu su najčešće izazvani nekom akcijom korisnika (npr. klikom, mrdanjem, kucanjem, dodirom) ili učitavanjem resursa na stranicu (npr. slika ili podataka).**
+**Sa Javascriptom imamo mogućnost da učinimo stranice interaktivnim, odnosno da pozivamo određene funkcije kao odgovor na događaje (*events*), koji mogu biti akcije korisnika (npr. klik, mrdanje, kucanje, dodir) ili učitavanje resursa na stranicu (npr. slika ili podataka).**
 
 Program sam po sebi neće pratiti sve događaje, već samo one za koje dodamo slušač događa (*event listener*). Na događaje možemo reagovati nekom povratnom funkcijom (*callback funkcija*).
 
