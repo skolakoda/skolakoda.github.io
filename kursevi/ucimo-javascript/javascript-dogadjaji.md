@@ -10,6 +10,8 @@ Program sam po sebi neće pratiti sve događaje, već samo one za koje dodamo sl
 
 ## Događaji miša 
 
+Događaji miša su najčešće korišćeni događaji na desktop računarima, jer se većina interakcije sa korisnikom odvija preko miša. Neki od glavnih događaja miša su:
+
 - `click`
 - `dblclick`
 - `mousemove`
@@ -19,6 +21,8 @@ Program sam po sebi neće pratiti sve događaje, već samo one za koje dodamo sl
 - `mouseup`
 
 ## Događaji tastature 
+
+Dva glavna događaja tastature su pritiskanje i puštanje tipki:
 
 - `keydown`
 - `keyup`
@@ -48,3 +52,5 @@ document.onkeydown = e => console.log(e.keyCode)
 - `resize`
 
 ### Razlika između `DOMContentLoaded` i `window.onload`
+
+Razlika između ova dva događaja je suptilna ali veoma bitna. `DOMContentLoaded` okida kada je HTML stranica učitana, bez prikačenih resursa (slika, skripti i ostalog), a `window.onload` reaguje kada su svi prikačeni resursi učitani na stranicu.
