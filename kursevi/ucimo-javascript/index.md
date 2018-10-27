@@ -147,14 +147,8 @@ image: /images/kursevi/js-logo.png
 
 ### Događaji
 
-- Uvod u Javaskript događaje
-  - događaji miša (`click`, `dblclick`, `mousemove`, `mouseenter`, `mouseleave`, `mousedown`, `mouseup`)
-  - događaji tastature (`keydown`, `keyup`)
-  - događaji formulara (`focus`, `blur`, `change`, `submit`)
-  - globalni događaji (`DOMContentLoaded`, `load`, `resize`)
-  - Razlika između `DOMContentLoaded` i `window.onload`
+- [Uvod u Javaskript događaje](/javascript-dogadjaji)
 - [Dodavanje slušača događaja](/dodavanje-slusaca-dogadjaja)
-  - dodavanje preko atributa i preko metoda (`addEventListener`)
   - povratna funkcija i prosleđivanje argumenata
   - razlika obične i streličaste povratne funkcije
   - `event` objekat i njegova svojstva
