@@ -146,7 +146,7 @@ image: /images/kursevi/js-logo.png
 - *jQuery* biblioteka
 
 ### Događaji
-- Uvod u Javaskript događaje
+- [Uvod u Javaskript događaje](/javascript-dogadjaji)
   - događaji miša (`click`, `dblclick`, `mousemove`, `mouseenter`, `mouseleave`, `mousedown`, `mouseup`)
   - događaji tastature (`keydown`, `keyup`)
   - događaji formulara (`focus`, `blur`, `change`, `submit`)
