@@ -17,10 +17,10 @@ Za proveru korisničkog unosa možemo koristiti prirodnu (*native*) validaciju p
     <input id="ime" pattern="^\w+$" required><br><br>
 
     <p>Mora samo broj</p>
-    <input id="broj" pattern="^\d+$" required><br><br>
+    <input id="broj" type="number" required><br><br>
 
     <p>Najviše 144 karaktera</p>
-    <textarea id="poruka" required></textarea><br><br>
+    <textarea id="poruka" maxlength="144" required></textarea><br><br>
 
     <button>Pošalji</button>
 </form>
@@ -33,24 +33,24 @@ Međutim, u nekim slučajeva, usled zahteva klijenata ili dizajna, neophodno je 
 ```js
 const $ = selektor => document.querySelector(selektor)
 
-const validnoIme = ime =>
+const jeValidnoIme = ime =>
     typeof ime == 'string' && ime.length > 0
 
-const validanBroj = broj =>
+const jeValidanBroj = broj =>
     !isNaN(broj) && broj.length > 0
 
-const validnaPoruka = poruka =>
+const jeValidnaPoruka = poruka =>
     poruka.length > 0 && poruka.length <= 144
 
 
 $('form').addEventListener('submit', function(e) {
     e.preventDefault()
 
-    if (!validnoIme($('#ime').value))
+    if (!jeValidnoIme($('#ime').value))
       return console.log('nevalidno ime')
-    if (!validanBroj($('#broj').value))
+    if (!jeValidanBroj($('#broj').value))
       return console.log('nevalidan broj')
-    if (!validnaPoruka($('#poruka').value))
+    if (!jeValidnaPoruka($('#poruka').value))
       return console.log('nevalidna poruka')
 
     this.submit()
