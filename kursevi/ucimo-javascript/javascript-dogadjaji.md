@@ -4,21 +4,29 @@ layout: lekcija-js
 permalink: /javascript-dogadjaji
 ---
 
-**Sa Javascriptom imamo mogućnost da učinimo stranice interaktivnim, odnosno da pozivamo određene funkcije kao odgovor na događaje (*events*), koji mogu biti akcije korisnika (npr. klik, mrdanje, kucanje, dodir) ili učitavanje resursa na stranicu (npr. slika ili podataka).**
+**Sa Javascriptom imamo mogućnost da učinimo stranice interaktivnim, odnosno da reagujemo na događaje (*events*), koji predstavljaju akcije korisnika (npr. klik, mrdanje, kucanje, dodir) ili učitavanje resursa na stranicu (npr. slika ili podataka).**
 
-Program sam po sebi neće pratiti sve događaje, već samo one za koje dodamo slušač događa (*event listener*). Na događaje možemo reagovati nekom povratnom funkcijom (*callback funkcija*).
+Program sam po sebi neće osluškivati sve događaje, već samo one za koje dodamo slušač događa (*event listener*). Na događaje reagujemo povratnom (*callback*) funkcijom.
 
 ## Događaji miša 
 
-Događaji miša su najčešće korišćeni događaji na desktop računarima, jer se većina interakcije sa korisnikom odvija preko miša. Neki od glavnih događaja miša su:
+Događaji miša su najčešći događaji na desktop računarima, jer se većina interakcije odvija preko miša. Neki od glavnih događaja miša su:
 
 - `click`
-- `dblclick`
-- `mousemove`
-- `mouseenter`
-- `mouseleave`
-- `mousedown`
-- `mouseup`
+- `dblclick` (dvoklik)
+- `mousemove` (pomeranje miša)
+- `mouseenter` (ulazak u element)
+- `mouseleave` (napuštanje elementa)
+- `mousedown` (stisak klika)
+- `mouseup` (puštanje klika)
+
+Na primer, sledeća linija ispisuje trenutne koordinate miša prilikom svakog pomeranja:
+
+```js
+document.onmousemove = e => console.log("x: " + e.clientX, "y: " + e.clientY)
+```
+
+Možete je isprobati u konzoli.
 
 ## Događaji tastature 
 
@@ -27,30 +35,26 @@ Dva glavna događaja tastature su pritiskanje i puštanje tipki:
 - `keydown`
 - `keyup`
 
-Događaji tastature se često koriste za špijuniranje korisnika. Neke aplikacije za dopisivanje registruju svaku pritisnutu dirku i skladište te podatke, bilo da ste zaista poslali poruku ili ne. 
+Na primer, sledeća linija ispisuje brojčanu vrednost svakog pritisnutog znaka na tastaturi:
 
-### Primer
-
-Pokreni program, otvori konzolu i kucaj bilo šta. U konzoli će biti ispisane brojčane vrednosti svakog znaka.
-
-{:.ulaz}
 ```js
 document.onkeydown = e => console.log(e.keyCode)
 ```
 
+Događaji tastature se često koriste za špijuniranje korisnika. Neke aplikacije za dopisivanje registruju svaku pritisnutu dirku i skladište te podatke, bilo da ste zaista poslali poruku ili ne. 
+
 ## Događaji formulara
 
-- `focus`
-- `blur`
-- `change`
-- `submit`
+- `focus` (ulazak u input polje)
+- `blur` (napuštanje input polja)
+- `change` (promena vrednosti polja)
+- `submit` (slanje formulara)
 
 ## Globalni događaji 
 
-- `DOMContentLoaded`
-- `load`
-- `resize`
+- `DOMContentLoaded` (izgradnja DOM-a)
+- `load` (učitavanje)
+- `resize` (menjanje veličine)
 
-### Razlika između `DOMContentLoaded` i `window.onload`
-
-Razlika između ova dva događaja je suptilna ali veoma bitna. `DOMContentLoaded` okida kada je HTML stranica učitana, bez prikačenih resursa (slika, skripti i ostalog), a `window.onload` reaguje kada su svi prikačeni resursi učitani na stranicu.
+{:.uokvireno.ideja}
+Razlika između `DOMContentLoaded` i `window.onload` je veoma bitna. `DOMContentLoaded` znači da je HTML struktura učitana i pripadajući DOM objekat izgrađen, ali prikačeni resursi (slike, fontovi, skripte i ostalo) još nisu učitani, a `window.onload` reaguje kada su svi prikačeni resursi učitani.

@@ -152,7 +152,7 @@ image: /images/kursevi/js-logo.png
   - povratna funkcija i prosleđivanje argumenata
   - razlika obične i streličaste povratne funkcije
   - `event` objekat i njegova svojstva
-- Sprečavanje podrazumevanog ponašanja (`event.preventDefault()`)
+- [Sprečavanje podrazumevanog ponašanja](/sprecavanje-podrazumevanog-ponasanja)
 - Vežba: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)
 - Vežba: uporedi `this` unutar obične i streličaste povratne funkcije
 - Vežba: spreči podrazumevano slanje forme
