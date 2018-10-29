@@ -78,7 +78,7 @@ image: /images/kursevi/js-logo.png
 
 - [Operatori poređenja](/operatori-poredjenja) (veće, manje, jednako)
 - [Logički operatori](/logicki-operatori) (i, ili, ne)
-- [Uslovi](/uslovi) (`if`, `else`, `switch`)
+- [Uslovi i grananje](/uslovi) (`if`, `else`, `switch`)
 - Ternarni operatori
 - [Vežba: napravi priču sa više završetaka](/vezba-avantura)
 - Vežba: napravi program za otkrivanje većeg od dva uneta broja
@@ -171,9 +171,8 @@ image: /images/kursevi/js-logo.png
 ### Validacija korisničkog unosa
 
 - Čitanje vrednosti `input` polja
-- Validacija i slanje formulara
-  - Validacija putem Javaskripta
-  - Prirodna validacija pregledača
+- [Validacija formulara](/javascript-validacija-formulara)
+- Slanje formulara
 - [Regularni izrazi](/regularni-izraz)
 - Vežba: [email validacija](https://jsfiddle.net/mudroljub/h70xtpco/)
 - Vežba: spreči podrazumevano slanje, proveri podatke pa pošalji

@@ -1,5 +1,5 @@
 ---
-title: Uslovi
+title: Uslovi i grananje
 layout: lekcija-js
 author: damjan
 permalink: /uslovi
