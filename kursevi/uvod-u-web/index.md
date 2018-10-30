@@ -199,7 +199,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - HTTP metode
   - GET (čitanje resursa preko mreže)
   - POST (slanje resursa preko mreže)
-- [URL parametri](/url)
 
 ### Optimizacija brzine
 - Merenje brzine učitavanja ([PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/))
