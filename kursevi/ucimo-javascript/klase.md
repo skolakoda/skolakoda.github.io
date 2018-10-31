@@ -22,7 +22,7 @@ const ork = {
 }
 ```
 
-Možemo napraviti zajedničku klasu na osnovu koje ćemo praviti, odnosno instancirati neograničen broj novih objekata:
+Možemo napraviti zajedničku klasu, na osnovu koje ćemo instancirati neograničen broj novih objekata (objekti napravljeni na osnovu klase se zovu instance):
 
 {:.ulaz}
 ```js
