@@ -115,7 +115,8 @@ image: /images/kursevi/js-logo.png
 - Vežba: [napravi kasu za prodavnicu](https://web.archive.org/web/20150610053050/http://www.codecademy.com:80/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
 ### Klase i nasleđivanje
-- [Objektno orjentisana arhitektura](/objektno-orijentisano-programiranje)
+
+- [Klase u Javascriptu](/javascript-klase)
 - [Nasleđivanje klasa u Javascriptu](/javascript-nasledjivanje-klasa)
 - `constructor`, `super` i `this`
 - Vežba: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
