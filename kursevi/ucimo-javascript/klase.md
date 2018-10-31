@@ -44,3 +44,5 @@ ork.napadni(covek)
 ork.napadni(covek)
 console.log('Trenutna energija coveka: ' + covek.energija)
 ```
+
+**Objašnjenje**: u telu klase se mogu nalaziti samo metode. Ako želimo da dodamo neko svojstvo, kao što je `energija`, to moramo učiniti unutar predviđenog `constructor` metoda.
