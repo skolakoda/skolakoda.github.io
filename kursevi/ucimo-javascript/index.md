@@ -116,6 +116,7 @@ image: /images/kursevi/js-logo.png
 
 ### Klase i nasleđivanje
 - [Objektno orjentisana arhitektura](/objektno-orijentisano-programiranje)
+- [Nasleđivanje klasa u Javascriptu](/javascript-nasledjivanje-klasa)
 - `constructor`, `super` i `this`
 - Vežba: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
 - Vežba: napravi karton pacijenata (ili bazu filmova) sa pretragom
