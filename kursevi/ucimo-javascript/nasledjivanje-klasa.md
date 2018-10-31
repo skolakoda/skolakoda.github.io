@@ -4,6 +4,8 @@ layout: lekcija-js
 permalink: /javascript-nasledjivanje-klasa
 ---
 
+Ako nam je zajednička klasa previše opšta, možemo napraviti specifičnije klase koje je nasleđuju, odnosno proširuju (`extends`):
+
 {:.ulaz}
 ```js
 class Junak {
@@ -22,12 +24,14 @@ class Junak {
   }
 }
 
+// klasa Ork menja metodu pozdrav
 class Ork extends Junak {
   pozdrav() {
     console.log(`Rgaah ja ${this.ime} jesam!`)
   }
 }
 
+// klasa Covek dodaje novu metodu
 class Covek extends Junak {
   hodaj() {
     console.log('hodam')
