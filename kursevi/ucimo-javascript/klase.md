@@ -1,3 +1,4 @@
+---
 title: Klase u Javascriptu
 layout: lekcija-js
 permalink: /javascript-klase
