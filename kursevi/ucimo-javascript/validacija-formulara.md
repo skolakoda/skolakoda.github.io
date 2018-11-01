@@ -67,4 +67,4 @@ $('form').addEventListener('submit', function(e) {
 ```
 
 {:.uokvireno.ideja}
-Skriptu možete isprobati tako što je prikačite za gornji HTML kod, prekopiran u zaseban fajl. Sa input polja možete ukloniti sve atribute za validaciju, kako bi se provera vršila isključivo preko Javascripta.
+Skriptu možeš isprobati tako što je prikačiš za gornji HTML kod, prekopiran u zaseban fajl. Sa input polja možeš ukloniti sve atribute za validaciju, kako bi se provera vršila isključivo preko Javascripta.
