@@ -35,13 +35,14 @@ Dva glavna događaja tastature su pritiskanje i puštanje tipki:
 - `keydown`
 - `keyup`
 
-Na primer, sledeća linija ispisuje brojčanu vrednost svakog pritisnutog znaka na tastaturi:
+Nisu svi elementi sposobni da slušaju događaje tastature, ali globalni `document` i `input` elementi jesu. Na primer, sledeća linija ispisuje brojčanu vrednost svakog pritisnutog znaka na tastaturi:
 
 ```js
 document.onkeydown = e => console.log(e.keyCode)
 ```
 
-Događaji tastature se često koriste za špijuniranje korisnika. Neke aplikacije za dopisivanje registruju svaku pritisnutu dirku i skladište te podatke, bilo da ste zaista poslali poruku ili ne. 
+{:.uokvireno.ideja}
+Događaji tastature se često koriste za špijuniranje korisnika. Neke aplikacije za dopisivanje registruju svaku stisnutu tipku i skladište podatke, bilo da ste zaista poslali poruku ili ne. 
 
 ## Događaji formulara
 
@@ -52,9 +53,11 @@ Događaji tastature se često koriste za špijuniranje korisnika. Neke aplikacij
 
 ## Globalni događaji 
 
-- `DOMContentLoaded` (izgradnja DOM-a)
-- `load` (učitavanje)
-- `resize` (menjanje veličine)
+Globalni događaji se dodaju na `document` i `window` objekt.
+
+- `DOMContentLoaded` (izgradnja DOM-a, ide na `document`)
+- `load` (učitavanje, ide na `window` i razne elemente)
+- `resize` (menjanje veličine, ide na `window`)
 
 {:.uokvireno.ideja}
 Razlika između `DOMContentLoaded` i `window.onload` je veoma bitna. `DOMContentLoaded` znači da je HTML struktura učitana i pripadajući DOM objekat izgrađen, ali prikačeni resursi (slike, fontovi, skripte i ostalo) još nisu učitani, a `window.onload` reaguje kada su svi prikačeni resursi učitani.

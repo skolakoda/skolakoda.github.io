@@ -129,23 +129,18 @@ image: /images/kursevi/js-logo.png
 
 # Front-end programiranje
 
-### Objektni model dokumenta
+### Uvod u DOM
 
-- [Objektni model dokumenta (DOM)](/objektni-model-dokumenta)
-- [Razlika HTML-a i DOM-a](/razlika-html-i-dom)
-- [DOM manipulacija](/dom-manipulacija)
-- Globalni objekti u pregledaču: `window` i `document`
-- [Vežba: predstavi HTML strukturu pomoću JS objekta](/vezba-predstavi-html-pomocu-js-objekta)
-
-### Selektori
-
+- [Šta je DOM?](/uvod-u-dom)
 - [Selektori elemenata](/selektori-elemenata)
-- [Dodavanje elemenata](/dodavanje-elemenata)
+- [Dodavanje elemenata u DOM](/dodavanje-elemenata)
 - Uklanjanje elemenata (`removeChild` ili `innerHTML`)
 - Stilizovanje Javaskriptom
   - Stilizovanje preko `style` atributa kao loša praksa
   - Stilizovanje dodavanjem CSS klasa
 - *jQuery* biblioteka
+- Vežba: dodaj elemente u DOM pomoću petlje
+- [Vežba: predstavi HTML strukturu pomoću JS objekta](/vezba-predstavi-html-pomocu-js-objekta)
 
 ### Događaji
 
@@ -155,18 +150,18 @@ image: /images/kursevi/js-logo.png
   - razlika obične i streličaste povratne funkcije
   - `event` objekat i njegova svojstva
 - [Sprečavanje podrazumevanog ponašanja](/sprecavanje-podrazumevanog-ponasanja)
+- Vežba: napravi elemente raznih boja koji reaguju na događaje
 - Vežba: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)
 - Vežba: uporedi `this` unutar obične i streličaste povratne funkcije
-- Vežba: spreči podrazumevano slanje forme
 
 ### AJAX i API
 
 - [Uvod u AJAX i asinhroni Javaskript](/ajax-tehnika)
-- [AJAX pozivi](/ajax-pozivi)
 - API: Programski interfejs aplikacija
+- [AJAX pozivi](/ajax-pozivi)
 - [JSON format](/json-format)
   - metode `JSON.stringify()` i `JSON.parse()`
-- Dinamičko renderovanje HTML-a
+- Dinamičko renderovanje stranica
 - Vežba: učitaj adresar iz JSON fajla
 - Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
 

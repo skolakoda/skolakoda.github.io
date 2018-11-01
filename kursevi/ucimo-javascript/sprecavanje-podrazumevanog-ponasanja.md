@@ -20,7 +20,8 @@ document.querySelector('form').addEventListener('submit', function(e) {
 
 `preventDefault` se redovno koristi kada ne želimo da se refrešuje stranica prilikom slanja forme, kao i kada želimo dodatnu validaciju podataka pre slanja.
 
-**Važna napomena**: ukoliko sprečimo podrazumevano slanje forme putem HTML-a, onda podatke moramo poslati putem Javascripta.
+{:.uokvireno.ideja}
+Ukoliko sprečimo podrazumevano slanje forme putem HTML-a, onda podatke moramo poslati putem Javascripta.
 
 ## Primer: sprečavanje otvaranja linka
 

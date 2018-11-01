@@ -39,7 +39,7 @@ Svrha ove vežbe je razumevanje objektnog modela dokumenta.
 </html>
 ```
 
-Napomena: ovde nema jednoznačnog rešenja. Dato je jedno od mogućih.
+Napomena: Dato je jedno od mogućih rešenja.
 
 {:.ulaz.resenje}
 ```js
