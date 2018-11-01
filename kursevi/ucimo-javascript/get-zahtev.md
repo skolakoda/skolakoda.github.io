@@ -1,7 +1,8 @@
 ---
-title: AJAX pozivi
+title: HTTP GET zahtev u Javascriptu
 layout: lekcija-js
-permalink: /ajax-pozivi
+permalink: /javascript-get-zahtev
+redirect_from: /ajax-pozivi
 ---
 
 AJAX pozivi su standarni način asinhrone mrežne komunikacije u Javascriptu. 
