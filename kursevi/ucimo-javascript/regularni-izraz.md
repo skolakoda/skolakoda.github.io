@@ -8,15 +8,13 @@ permalink: regularni-izraz
 
 ![regex]({{page.image}})
 
-***Regularni izraz je jezik za opisivanje obrazaca. Koristi se za naprednu tekstualnu pretragu. Podržan je unutar mnogih programskih jezika. Prilično je nečitak, ali veoma koristan u radu sa znakovnim podacima.***
+**Regularni izraz** (*regular expression*, skraćeno **regex**) je jezik za opisivanje obrazaca. Koristi se za naprednu pretragu teksta. Podržan je unutar mnogih programskih jezika. Prilično je nečitak, ali veoma koristan u radu sa znakovnim podacima.
 
-Regularni izrazi (**regex**) proširuju mogućnosti manipulacije tekstom, pomoću funkcija kao što su:
+Primena regularnih izraza može varirati od jezika do jezika. U Javascriptu, regularni izrazi proširuju mogućnosti manipulacije tekstom, pomoću metoda kao što su `search()`, `match()` i `replace()`.
 
-- `match()`
-- `replace()`
-- `search()`
+## Primer
 
-Primena regularnih izraza može varirati od jezika do jezika. U Javaskriptu regularni izraz ima dva dela: izraz (oivičen kosim crtama) i opcione modifikatore:
+U Javaskriptu regularni izraz ima dva dela: sam izraz (oivičen kosim crtama) i opcione modifikatore:
 
 ```
 /izraz/modifikatori
