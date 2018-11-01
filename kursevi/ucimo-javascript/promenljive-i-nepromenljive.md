@@ -8,7 +8,7 @@ image: /images/koncepti/varijable/let-vs-const.png
 
 ![]({{page.image}})
 
-***Promenljive i nepromenljive su uvedene u moderni Javaskript 2015. godine. Veliki broj programera ih još uvek ne koristi, ali mi ćemo odmah učiti po važećem standardu.***
+***Promenljive (`let`) i nepromenljive (`const`) su uvedene u moderni Javaskript 2015. godine, kao zamena za dotadašnji identifikator `var`, čija se upotreba napušta.***
 
 ## Promenljive
 

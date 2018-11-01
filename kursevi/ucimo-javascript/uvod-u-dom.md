@@ -7,7 +7,7 @@ image: https://mdn.mozillademos.org/files/807/Using_the_W3C_DOM_Level_1_Core-doc
 
 **Objektni model dokumenta** (*Document Object Model*, skraćeno **DOM**) je programski interfejs ka HTML dokumentu. DOM predstavlja HTML stranicu putem Javascript objekta, čime se našim programima omogućava komunikacija sa web stranicom i njenim elementima.
 
-Kad otvorimo neku stranicu, pregledač učita HTML, parsira ga i izgradi model učitanog dokumenta, odnosno kreira globalni `document` objekat. `document` objekat sadrži razne metode i svojstva, između ostalog `head`, `body`, selektore i ostalo.
+Kad otvorimo neku stranicu, pregledač učita HTML, parsira ga i izgradi model učitanog dokumenta, odnosno kreira globalni `document` objekat. `document` objekat sadrži razne metode i svojstva, između ostalog `document.head`, `document.body`, selektore elemenata i ostalo.
 
 Objektni model dokumenta ima strukturu stabla.
 
