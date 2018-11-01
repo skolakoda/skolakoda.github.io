@@ -110,7 +110,7 @@ image: /images/kursevi/js-logo.png
 - [Tri namene objekta u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
 - Iteracija objekta: `for in` i `hasOwnProperty`
 - [Interakcija objekata](/interakcija-objekata)
-- Vežba: implementiraj prenos sredstava sa računa pomoću objekata
+- [Vežba: prenos sredstava sa računa](/vezba-interakcija-objekata)
 - [Vežba: broj ponavljanja svakog imena u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
 - Vežba: [napravi kasu za prodavnicu](https://web.archive.org/web/20150610053050/http://www.codecademy.com:80/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
@@ -119,8 +119,8 @@ image: /images/kursevi/js-logo.png
 - [Klase u Javascriptu](/javascript-klase)
 - [Nasleđivanje klasa u Javascriptu](/javascript-nasledjivanje-klasa)
 - `constructor`, `super` i `this`
-- Vežba: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
-- Vežba: napravi karton pacijenata (ili bazu filmova) sa pretragom
+- [Vežba: prenos sredstava sa računa pomoću klase](/vezba-interakcija-klasa)
+- Vežba: napravi bazu filmova (niz objekata) sa pretragom
 
 ### Kodni standard
 - JS Standard i Airbnb kodni stil
@@ -138,8 +138,8 @@ image: /images/kursevi/js-logo.png
 - Stilizovanje Javaskriptom
   - Stilizovanje preko `style` atributa kao loša praksa
   - Stilizovanje dodavanjem CSS klasa
-- *jQuery* biblioteka
 - Vežba: dodaj elemente u DOM pomoću petlje
+- Vežba: napravi klasu koja dodaje elemente u DOM
 - [Vežba: predstavi HTML strukturu pomoću JS objekta](/vezba-predstavi-html-pomocu-js-objekta)
 
 ### Događaji

@@ -4,6 +4,10 @@ layout: lekcija-js
 permalink: /javascript-klase
 ---
 
+**Klasa je kalup za pravljenje novih objekata.**
+
+## Ručno pravljenje objekata
+
 Umesto da imamo dva objekta, sa potpuno istim svojstvima i metodama, poput:
 
 ```js
@@ -21,6 +25,8 @@ const ork = {
   }
 }
 ```
+
+## Pravljenje objekata pomoću klase
 
 Možemo napraviti zajedničku klasu, na osnovu koje ćemo instancirati neograničen broj novih objekata (objekti napravljeni na osnovu klase se zovu instance):
 
@@ -45,4 +51,5 @@ ork.napadni(covek)
 console.log('Trenutna energija coveka: ' + covek.energija)
 ```
 
-**Objašnjenje**: u telu klase se mogu nalaziti samo metode. Ako želimo da dodamo neko svojstvo, kao što je `energija`, to moramo učiniti unutar predviđenog `constructor` metoda.
+{:.uokvireno.ideja}
+U telu klase se mogu nalaziti samo metode. Ako želimo da dodamo neko svojstvo, kao što je `energija`, to moramo učiniti unutar predviđenog `constructor` metoda.
