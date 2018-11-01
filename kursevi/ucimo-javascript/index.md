@@ -51,7 +51,7 @@ image: /images/kursevi/js-logo.png
 - [Nepreciznosti u računanju](/nepreciznosti-u-racunanju)
 - Napredne `Math` metode
 - `prompt()` funkcija za korisnički unos
-- [Vežba: za koliko ću naučiti programiranje?](/za-koliko-cu-nauciti-programiranje)
+- [Vežba: za koliko ću naučiti programiranje?](/vezba-koliko-ucenja)
 - Vežba: postavi model poslovanja
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
@@ -158,7 +158,7 @@ image: /images/kursevi/js-logo.png
 
 - [Uvod u AJAX i asinhroni Javaskript](/ajax-tehnika)
 - API: Programski interfejs aplikacija
-- [AJAX pozivi](/ajax-pozivi)
+- [GET zahtev u Javascriptu](/javascript-get-zahtev)
 - [JSON format](/json-format)
   - metode `JSON.stringify()` i `JSON.parse()`
 - Dinamičko renderovanje stranica
