@@ -12,7 +12,7 @@ permalink: regularni-izraz
 
 Primena regularnih izraza može varirati od jezika do jezika. U Javascriptu, regularni izrazi proširuju mogućnosti manipulacije tekstom, pomoću metoda kao što su `search()`, `match()` i `replace()`.
 
-## Primer
+## Modifikatori
 
 U Javaskriptu regularni izraz ima dva dela: sam izraz (oivičen kosim crtama) i opcione modifikatore:
 
