@@ -34,7 +34,7 @@ Recimo da osoba, nakon što postane junior, bude primljena na praksu ili počne 
 
 {:.ulaz.resenje}
 ```js
-let satiUcenjaDnevno = 4
+let satiUcenjaDnevno = prompt('Koliko časova dnevno u proseku učiš programiranje?')
 const satiDoPocetnika = 2000
 const satiDoEksperta = 10000
 
