@@ -38,3 +38,6 @@ const musterija2 = {
 
 musterija2.prenesiSredstva(musterija1, 3000)
 ```
+
+{:.ideja.uokvireno}
+Prikači JS kod za HTML i pokreni ga u pregledaču. Otvori konzolu i uživo prenosi sredstva sa jednog objekta na drugi.

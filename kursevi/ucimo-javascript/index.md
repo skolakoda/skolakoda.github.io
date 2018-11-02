@@ -123,9 +123,9 @@ image: /images/kursevi/js-logo.png
 - Vežba: napravi bazu filmova (niz objekata) sa pretragom
 
 ### Kodni standard
-- JS Standard i Airbnb kodni stil
+- [JS Standard](https://standardjs.com/) i [Airbnb kodni stil](https://github.com/airbnb/javascript)
 - Instalacija i podešavanje lintera (ESLint)
-- vežba: refaktorisanje po kodnom standardu
+- Vežba: refaktorisanje po kodnom standardu
 
 # Front-end programiranje
 

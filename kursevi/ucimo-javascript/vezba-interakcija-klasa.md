@@ -30,3 +30,6 @@ const musterija2 = new Musterija("Ana Stanić", 2000)
 
 musterija2.prenesiSredstva(musterija1, 3000)
 ```
+
+{:.ideja.uokvireno}
+Prikači JS kod za HTML i pokreni ga u pregledaču. Uživo možeš instancirati više objekata i vršiti transakcije između njih.
