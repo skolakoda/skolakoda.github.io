@@ -74,14 +74,14 @@ image: /images/kursevi/js-logo.png
 - [Streličaste funkcije](/strelicaste-funkcije)
 - Vežba: napravi čiste funkcije za osnovne računske operacije
 
-### Programska logika
+### Logika
 
 - [Operatori poređenja](/operatori-poredjenja) (veće, manje, jednako)
 - [Logički operatori](/logicki-operatori) (i, ili, ne)
 - [Uslovi i grananje](/uslovi) (`if`, `else`, `switch`)
 - Ternarni operatori
+- [Vežba: napravi kviz](/vezba-napravi-kviz)
 - [Vežba: napravi priču sa više završetaka](/vezba-avantura)
-- Vežba: napravi program za otkrivanje većeg od dva uneta broja
 
 ### Petlje i ponavljanje
 
@@ -110,6 +110,7 @@ image: /images/kursevi/js-logo.png
 - [Tri namene objekta u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
 - Iteracija objekta: `for in` i `hasOwnProperty`
 - [Interakcija objekata](/interakcija-objekata)
+- Vežba: prikaži nasumičan citat
 - [Vežba: prenos sredstava sa računa](/vezba-interakcija-objekata)
 - [Vežba: broj ponavljanja svakog imena u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
 - Vežba: [napravi kasu za prodavnicu](https://web.archive.org/web/20150610053050/http://www.codecademy.com:80/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
@@ -150,7 +151,8 @@ image: /images/kursevi/js-logo.png
   - razlika obične i streličaste povratne funkcije
   - `event` objekat i njegova svojstva
 - [Sprečavanje podrazumevanog ponašanja](/sprecavanje-podrazumevanog-ponasanja)
-- Vežba: napravi elemente raznih boja koji reaguju na događaje
+- Vežba: napravi raznobojne elemente koji reaguju na događaje
+- Vežba: napravi editor slike (zum, odzum i filteri)
 - Vežba: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)
 - Vežba: uporedi `this` unutar obične i streličaste povratne funkcije
 
@@ -167,7 +169,6 @@ image: /images/kursevi/js-logo.png
 
 ### Validacija korisničkog unosa
 
-- Čitanje vrednosti `input` polja
 - [Validacija formulara](/javascript-validacija-formulara)
 - Slanje formulara
 - [Regularni izrazi](/regularni-izraz)
@@ -175,15 +176,16 @@ image: /images/kursevi/js-logo.png
 - Vežba: spreči podrazumevano slanje, proveri podatke pa pošalji
 - Vežba: [izrazi za ime i prezime, adresu i email](https://jsfiddle.net/mudroljub/6b36w613/)
 
-### Rad sa slikama
-- Dodavanje i učitavanje slika
-- Menjanje veličine slike
-- Menjanje izvora slike
+### Slike i animacije
+
+- Učitavanje slika
+- Javascript animacije 
 - Vežba: promeni sliku na klik
-- Vežba: javi kada su sve slike učitane
+- Vežba: pokreni slajder kada su sve slike učitane
 - Vežba: [dinamički napravi foto galeriju](https://jsfiddle.net/mudroljub/d4zwwp70/)
 
-### Rad sa zvukom i videom
+### Audio i video
+
 - Učitavanje audio i video fajlova
 - Puštanje fajlova
 - Vežba: Napravi plejer i plejlistu
