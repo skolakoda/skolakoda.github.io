@@ -27,11 +27,9 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
-- popravi mobilni prikaz naslovne
-- dodati stil za linkove vezbe
 - dodati ikonicu za editor
-- dodati editovanje stranica
 - dodati dugme "prijavi se na čekanje"
+- dodati editovanje stranica
 - dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)
 - dodavati odgovarajuce citate na lekcije
 - razvoj igara
