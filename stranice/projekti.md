@@ -2,13 +2,11 @@
 title: Projekti
 permalink: /projekti
 opis: Ovo su neki od otvorenih projekata koje razvijamo.
-redirect_from:
-  - /radovi
 ---
 
 # {{page.title}}
 
-Ovo su neki od projekata koje razvijamo, za potrebe učenja i za klijente. Ako želiš da se uključiš u razvoj, [pročitaj smernice](https://skolakoda.org/kako-doprinositi/). Ako želiš nešto da naručiš, [kontaktiraj nas](/kontakt).
+Ovo su neki od projekata koje razvijamo, za potrebe učenja i za klijente. Ako želiš nešto da naručiš, [kontaktiraj nas](/kontakt).
 
 ## Sajtovi i portali
 

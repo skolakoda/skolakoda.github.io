@@ -41,3 +41,30 @@ button,
   padding: 8px 16px;
   width: auto;
 }
+
+.social img,
+.simplesharebuttons img {
+  filter: grayscale(.8);
+  transition: filter .6s;
+  &:hover {
+    filter: grayscale(0);
+  }
+}
+
+.simplesharebuttons img {
+  padding: 5px;
+  width: 35px;
+}
+
+.lekcija,
+.post {
+  .simplesharebuttons {
+    margin: 16px 0;
+  }
+}
+
+.editor-icon {
+  margin-left: 8px;
+  vertical-align: middle;
+  width: 50px;
+}

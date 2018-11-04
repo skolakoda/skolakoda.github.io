@@ -36,13 +36,11 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [HTML atributi](/html-atributi) (`src`, `href`)
   - [Upotreba navodnika](/ucimo-html/navodnici)
 - Vežba: Napravi stranicu koja ima naslov, tekst, sliku i link
-- Vežba: postavi stranicu na Github
+- Vežba: Postavi stranicu na Github
 
 ### Stilizovanje stranice
 
-- Dodavanje CSS-a
-  - Unutar HTML-a (`style` tag)
-  - Kao poseban fajl (`link` tag)
+- [Dodavanje CSS-a](/dodavanje-css-a)
 - Selektori
   - `tag` (za osnovne stilove)
   - `#id` (samo za specifične slučajeve, izbegavati)

@@ -98,6 +98,3 @@ Pored toga, postoji i scenario da token sačuvamo u `localStorage`-u kako bi kor
 ![](http://www.quytech.com/img/reactnativeapp.jpg)
 
 U toku poslednje decenije, došlo je do naglog povećanja obima posla na frontendu. Danas se frontend aplikacije mogu porediti sa samostalnim mobilnim aplikacijama. Jedina bitna razlika je što frontend aplikacije nemaju ovlašćenja izvan pregledača, dok mobilne aplikacije mogu pristupati raznim delovima uređaja. Usled ove sličnosti, front-end developeri se sa svojim tehnologijama mogu prilično lako prešaltati na razvoj mobilnih aplikacija, uz pomoć biblioteka kao što su React Native.
-
-{:.uokvireno.ideja}
-Ukoliko se želite prijaviti za neki od specijalizovanih frontend kurseva Škole koda, sve detalje možete saznati [ovde](/upis-u-toku).
