@@ -59,7 +59,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - Pikseli `px` (veličina jedne tačke)
   - Procenti `%` (u odnosu na roditelja)
   - [Upotreba ema za tipografiju](/em-jedinica-tipografija)
-- Vežba: izaberi porodicu i veličinu slova za naslove i tekst
+- [Vežba: Promeni porodicu i veličinu slova](/vezba-porodica-i-velicina-slova)
 
 ### HTML struktura
 

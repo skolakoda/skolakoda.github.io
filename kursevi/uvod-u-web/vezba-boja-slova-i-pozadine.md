@@ -1,5 +1,5 @@
 ---
-title: "Vežba: Boja slova i pozadine"
+title: "Vežba: Promeni boju slova i pozadine"
 layout: lekcija-html
 permalink: /vezba-boja-slova-i-pozadine
 ---
@@ -10,14 +10,14 @@ Vežba: Promeni boju naslova, slova i pozadine pomoću CSS-a.
 ```html
 <style>
 
-body {
-  background: #F6E497;
-  color: #4C1B1B;
-}
+  body {
+    background: #F6E497;
+    color: #4C1B1B;
+  }
 
-h1 {
-  color: #B9121B;
-}
+  h1 {
+    color: #B9121B;
+  }
 
 </style>
 
