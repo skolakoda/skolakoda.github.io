@@ -1,5 +1,5 @@
 ---
-title: "Tvrdo osveženje (<i>hard refresh</i>)"
+title: "Tvrdo osvežavanje (<i>hard refresh</i>)"
 layout: lekcija-html
 permalink: /hard-refresh
 ---

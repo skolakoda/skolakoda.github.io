@@ -56,6 +56,7 @@ kurs: nodejs
 ### Server i služenje podataka
 
 - [Šta je server?](/server)
+- [Šta je port?](/portovi)
 - [Šta su web servisi?](/web-servisi)
 - Pokretanje servera
 - Služenje podataka

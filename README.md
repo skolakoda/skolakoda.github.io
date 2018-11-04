@@ -27,7 +27,6 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
-- dodati ikonicu za editor
 - dodati dugme "prijavi se na čekanje"
 - dodati editovanje stranica
 - dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)

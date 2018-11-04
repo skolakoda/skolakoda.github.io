@@ -20,12 +20,12 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Kratka istorija weba](/kratka-istorija-weba)
 - Konvencija imenovanja fajlova i foldera
 
-### Instalacija alata
+### Upoznavanje alata
 
 - Instalacija editora (Notepad++, [Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
 - Instalacija dodataka za: prepoznavanje jezika, ulepšavanje koda, otkrivanje grešaka
 - Razvojni alati pregledača
-- [Tvrdo osveženje (*hard refresh*)](/hard-refresh)
+- [Tvrdo osvežavanje (*hard refresh*)](/hard-refresh)
 
 ### Moja prva stranica
 
@@ -38,7 +38,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Vežba: Napravi stranicu koja ima naslov, tekst, sliku i link
 - Vežba: Postavi stranicu na Github
 
-### Stilizovanje stranice
+### Boje
 
 - [Dodavanje CSS-a](/dodavanje-css-a)
 - Selektori
@@ -47,7 +47,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - `.klasa` (najčešće se koristi)
 - Boje
   - Izbor osnovne palete ([primeri](https://color.adobe.com/explore/))
-  - Pravljenje pomoćnih klasa za boje
   - [Heksadecimalni brojevi](/heksadecimalni-brojevi)
 - [Podrazumevani stilovi pregledača](/podrazumevani-stilovi-pregledaca)
 - Vežba: Promeni boju slova i pozadine
@@ -95,6 +94,14 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - pravljenje navigacije pomoću liste
   - pravljenje navigacije pomoću linkova
   - menjanje boje na hover
+
+### Pozicioniranje elemenata
+
+- Elementi fiksirani za ekran (`position: fixed`)
+- Apsolutno pozicionirani elementi (u odnosu na prvog relativnog roditelja)
+- Plutanje elemenata (`float`) kao loša praksa
+- Promena redosleda slojeva (`z-index`)
+- Vežba: napravi fiksirano zaglavlje
 
 ### Fleksibilni prikaz
 
@@ -156,15 +163,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Vežba: validiraj unos i odredi obavezna polja
 - Vežba: pošalji kontakt formu (koristi [formspree.io](https://formspree.io/))
 
-### Pozicioniranje elemenata
-
-- Elementi fiksirani za ekran (`position: fixed`)
-- Apsolutno pozicionirani elementi (u odnosu na prvog relativnog roditelja)
-- Plutanje elemenata (`float`) kao loša praksa
-- Promena redosleda slojeva (`z-index`)
-- Vežba: napravi fiksirano zaglavlje
-- Vežba: sredi visinu roditelja koji sadrži plutajuće elemente
-
 ### Dobre CSS prakse
 - [Dobre CSS prakse](/css-saveti)
 - Upotreba `!important` kao loša praksa
@@ -191,12 +189,11 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 ### Mrežna komunikacija
 
 - [Server](/server)
-- [Portovi](/portovi)
-- [Sistem imena domena](/sistem-imena-domena)
 - [HTTP protokol](/http)
 - HTTP metode
   - GET (čitanje resursa preko mreže)
   - POST (slanje resursa preko mreže)
+- [Sistem imena domena](/sistem-imena-domena)
 
 ### Optimizacija brzine
 - Merenje brzine učitavanja ([PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/))
@@ -212,10 +209,3 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Sređivanje slika (jasni nazivi fajlova, alt i title atributi)
 - Čitljive URL adrese
 - *PageRank* algoritam: dodavanje veza ka sajtu (društvene mreže, blog, Github)
-
-### Završni rad
-
-- Izbor zaršnog rada
-- Osmišljavanje dizajna
-- Prevođenje dizajna u kod
-- Postavljanje na server

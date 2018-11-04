@@ -76,4 +76,4 @@ Pošto imamo objedinjen dizajn na jednom mestu, možemo praviti višekratno upot
 Jedini nedostatak ovog pristupa je nešto sporije učitavanje. Zaseban fajl troši dodatni HTTP zahtev, a kada sve imamo unutar istog fajla ne trošimo više HTTP zahtev-a.
 
 {:.uokvireno.ideja}
-Problem brzine učitavanja se standardno rešava tako što tokom **faze razvoja** imamo odvojene CSS fajlove, a na kraju, **u produkciji**, sve to spojimo, minifikujemo u ubacimo u HTML fajl.
+Problem brzine učitavanja se standardno rešava tako što tokom **faze razvoja** imamo odvojene CSS fajlove, a na kraju, **u produkciji**, sve to spojimo, minifikujemo i ubacimo u HTML fajl.
