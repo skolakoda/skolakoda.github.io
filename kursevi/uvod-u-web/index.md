@@ -49,7 +49,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - Izbor osnovne palete ([primeri](https://color.adobe.com/explore/))
   - [Heksadecimalni brojevi](/heksadecimalni-brojevi)
 - [Podrazumevani stilovi pregledača](/podrazumevani-stilovi-pregledaca)
-- Vežba: Promeni boju slova i pozadine
+- [Vežba: Promeni boju slova i pozadine](/vezba-boja-slova-i-pozadine)
 - Vežba: Otkrij ko ne nasleđuje boju od roditelja?
 
 ### Tipografija

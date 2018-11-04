@@ -1,11 +1,19 @@
 /* global CodeMirror */
 {
   const ulazi = document.querySelectorAll('.html-ulaz')
-  const brojUlaza = ulazi.length || 0
+  const params = {
+    mode: 'htmlmixed',
+    theme: 'monokai',
+    lineNumbers: true,
+    lineWrapping: true,
+    matchBrackets: true,
+    autoCloseBrackets: true,
+    autoCloseTags: true
+  }
 
-  for (let i = 0; i < brojUlaza; i++) {
+  for (let i = 0; i < ulazi.length; i++) {
     const ulaz = ulazi[i]
-    const value = ulaz.textContent || ulaz.innerText
+    params.value = ulaz.textContent || ulaz.innerText
 
     // pravi tablet
     const tabletWrapper = document.createElement('div')
@@ -19,19 +27,13 @@
     kruzic.appendChild(kockica)
     tabletWrapper.appendChild(kruzic)
 
-    const editor = new CodeMirror(node => ulaz.parentNode.replaceChild(node, ulaz), {
-      value,
-      mode: 'htmlmixed',
-      theme: 'monokai',
-      lineNumbers: true,
-      lineWrapping: true,
-      matchBrackets: true,
-      autoCloseBrackets: true,
-      autoCloseTags: true
-    })
-
+    const editor = new CodeMirror(
+      node => ulaz.parentNode.replaceChild(node, ulaz), params
+    )
     const editorWrapper = editor.getWrapperElement()
-    editorWrapper.parentNode.insertBefore(tabletWrapper, editorWrapper.nextSibling) // append after
+    editorWrapper.classList.add(...ulaz.classList)
+    editorWrapper.parentNode.insertBefore(tabletWrapper, editorWrapper.nextSibling) 
+    // append after
     izlaz.srcdoc = editor.getValue()
 
     /* EVENTS */
