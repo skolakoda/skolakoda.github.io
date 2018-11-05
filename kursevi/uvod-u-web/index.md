@@ -92,16 +92,8 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - pravljenje navigacije pomoću liste
   - pravljenje navigacije pomoću linkova
   - menjanje boje na hover
-- Vežba: napravi navigaciju i poveži stranice
+- [Vežba: napravi mobilnu navigaciju](/vezba-napravi-navigaciju)
 - [Vežba: napravi jednostraničnu navigaciju](/vezba-jednostranicna-navigacija)
-
-### Pozicioniranje elemenata
-
-- Elementi fiksirani za ekran (`position: fixed`)
-- Apsolutno pozicionirani elementi (u odnosu na prvog relativnog roditelja)
-- Plutanje elemenata (`float`) kao loša praksa
-- Promena redosleda slojeva (`z-index`)
-- Vežba: napravi fiksirano zaglavlje
 
 ### Fleksibilni prikaz
 
@@ -113,6 +105,14 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Deformisanje proporcije elemenata
 - Vežba: fleksibilno prikaži navigaciju
 - Vežba: fleksibilno prikaži krugove
+
+### Pozicioniranje elemenata
+
+- Elementi fiksirani za ekran (`position: fixed`)
+- Apsolutno pozicionirani elementi (u odnosu na prvog relativnog roditelja)
+- Plutanje elemenata (`float`) kao loša praksa
+- Promena redosleda slojeva (`z-index`)
+- Vežba: napravi fiksirano zaglavlje
 
 ### Prilagodljivi dizajn
 
