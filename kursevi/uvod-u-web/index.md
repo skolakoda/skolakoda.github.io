@@ -83,7 +83,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Stilizovanje različitih vrsta veza](/stilizovanje-razlicitih-vrsta-veza)
 - [Stilovi posećenih veza](/stilovi-posecenih-veza)
 - Vežba: napravi navigaciju i poveži stranice
-- Vežba: napravi prilagodljivi dizajn navigacije
+- [Vežba: napravi jednostraničnu prezentaciju](/vezba-jednostranicna-prezentacija)
 
 ### Liste i navigacija
 
@@ -122,7 +122,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - CSS medija upiti (*media queries*)
 - Prvo mobilni dizajn (*mobile first*)
 - [Bootstrap biblioteka](https://www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
-- Vežba: napravi dva prikaza navigacije, za mobilni i desktop
+- Vežba: napravi prilagodljivu navigaciju za mobilni i desktop
 - Vežba: prilagodi prikaz stranica za razne uređaje
 
 ### Slike i fotogalerija

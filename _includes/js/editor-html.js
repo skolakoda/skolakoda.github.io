@@ -32,12 +32,13 @@
     )
     const editorWrapper = editor.getWrapperElement()
     editorWrapper.classList.add(...ulaz.classList)
-    editorWrapper.parentNode.insertBefore(tabletWrapper, editorWrapper.nextSibling) 
-    // append after
-    izlaz.srcdoc = editor.getValue()
+    editorWrapper.parentNode.insertBefore(tabletWrapper, editorWrapper.nextSibling)
+
+    const blob = new Blob([editor.getValue()], {type : 'text/html'})
+    izlaz.src = URL.createObjectURL(blob)
 
     /* EVENTS */
-    editorWrapper.on('keyup', () => izlaz.srcdoc = editor.getValue())
+    editorWrapper.on('keyup', () => izlaz.src = URL.createObjectURL(blob))
   }
 
 }
