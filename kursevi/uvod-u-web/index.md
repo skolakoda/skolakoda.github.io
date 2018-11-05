@@ -112,7 +112,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Apsolutno pozicionirani elementi (u odnosu na prvog relativnog roditelja)
 - Plutanje elemenata (`float`) kao loša praksa
 - Promena redosleda slojeva (`z-index`)
-- Vežba: napravi fiksirano zaglavlje
+- [Vežba: napravi fiksirano zaglavlje](/vezba-fiksirano-zaglavlje)
 
 ### Prilagodljivi dizajn
 
