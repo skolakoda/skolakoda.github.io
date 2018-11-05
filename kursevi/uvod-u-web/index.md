@@ -134,8 +134,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Dodavanje pozadinske slike
 - `picture` tag za istu sliku raznih veličina
 - Vežba: dodaj više veličina slike
-- Vežba: napravi fotogaleriju
-- Vežba: promeni efekat slike na hover
+- [Vežba: napravi fotogaleriju](/vezba-napravi-fotogaleriju)
 
 ### Box model
 
