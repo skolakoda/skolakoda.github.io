@@ -6,6 +6,8 @@ permalink: /dinamicko-renderovanje
 
 ## Primer: Baza filmova
 
+Sledeći primer učitava podatke u JSON formatu iz API-ja i renderuje ih na stranici. 
+
 {:.html-ulaz}
 ```html
 <style>
@@ -28,7 +30,6 @@ permalink: /dinamicko-renderovanje
 <div id="okvir" class="okvir"></div>
 
 <script>
-
   function toHtml(data) {
     return data.map(film => (`
       <div class="film">
@@ -46,6 +47,7 @@ permalink: /dinamicko-renderovanje
   fetch('https://baza-filmova.herokuapp.com/filmovi/')
     .then(response => response.json())
     .then(data => render('#root', toHtml(data)))
-
 </script>
 ```
+
+Podaci su niz objekata koji imaju atribute: `naziv`, `godina` i `slika`.
