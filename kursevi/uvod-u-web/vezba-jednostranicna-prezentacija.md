@@ -1,10 +1,10 @@
 ---
-title: "Vežba: napravi jednostraničnu prezentaciju"
+title: "Vežba: napravi jednostraničnu navigaciju"
 layout: lekcija-html
-permalink: /vezba-jednostranicna-prezentacija
+permalink: /vezba-jednostranicna-navigacija
 ---
 
-Napravi jednostraničnu prezentaciju sa navigacijom koja vodi ka delovima iste stranice.
+Napravi jednostraničnu navigaciju koja vodi ka sekcijama stranice.
 
 {:.html-ulaz.resenje}
 ```html
@@ -21,31 +21,22 @@ Napravi jednostraničnu prezentaciju sa navigacijom koja vodi ka delovima iste s
       font-size: 1.2em;
     }
 
-    h1 {
-      font-size: 66px;
-    }
-
-    div {
-      overflow:auto;
-    }
-
-    .kvadrat,
-    .kvadrat2,
-    .kvadrat3 {
+    section {
       height:100vh;
+      overflow:auto; /* sprečava margin terror */
     }
 
-    .kvadrat {
+    .sekcija1 {
       background: #432C51;
       color: #FFD464;
     }
 
-    .kvadrat2 {
+    .sekcija2 {
       color: #5A3662;
       background: #FFD464;
     }
 
-    .kvadrat3 {
+    .sekcija3 {
       color: #432C51;
       background: #FFFB85;
     }
@@ -54,28 +45,28 @@ Napravi jednostraničnu prezentaciju sa navigacijom koja vodi ka delovima iste s
 <body>
 
   <nav>
-    <a href="#kvadrat">Kvadrat 1</a>
-    <a href="#kvadrat2">Kvadrat 2</a>
-    <a href="#kvadrat3">Kvadrat 3</a>
+    <a href="#sekcija1">Sekcija 1</a>
+    <a href="#sekcija2">Sekcija 2</a>
+    <a href="#sekcija3">Sekcija 3</a>
   </nav>
 
-  <div class="kvadrat" id="kvadrat">
-    <h1>Zdravo svete</h1>
+  <section class="sekcija1" id="sekcija1">
+    <h1>Sekcija 1</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eaque, ducimus explicabo laborum incidunt ex dicta voluptatum nisi officiis voluptatibus provident quaerat dolorem ab, veniam sapiente cum error quod ad.</p>
     <p>Atque porro natus sint iure ullam voluptate aliquam nisi, nihil ut, excepturi, distinctio quo adipisci recusandae voluptates aliquid quasi? Ratione amet repudiandae veniam ipsam. Nulla nihil, a qui praesentium at?</p>
-  </div>
+  </section>
 
-  <div class="kvadrat2" id="kvadrat2">
-    <h1>Zdravo svete</h1>
+  <section class="sekcija2" id="sekcija2">
+    <h1>Sekcija 2</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eaque, ducimus explicabo laborum incidunt ex dicta voluptatum nisi officiis voluptatibus provident quaerat dolorem ab, veniam sapiente cum error quod ad.</p>
     <p>Atque porro natus sint iure ullam voluptate aliquam nisi, nihil ut, excepturi, distinctio quo adipisci recusandae voluptates aliquid quasi? Ratione amet repudiandae veniam ipsam. Nulla nihil, a qui praesentium at?</p>
-  </div>
+  </section>
 
-  <div class="kvadrat3" id="kvadrat3">
-    <h1>Zdravo svete</h1>
+  <section class="sekcija3" id="sekcija3">
+    <h1>Sekcija 3</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eaque, ducimus explicabo laborum incidunt ex dicta voluptatum nisi officiis voluptatibus provident quaerat dolorem ab, veniam sapiente cum error quod ad.</p>
     <p>Atque porro natus sint iure ullam voluptate aliquam nisi, nihil ut, excepturi, distinctio quo adipisci recusandae voluptates aliquid quasi? Ratione amet repudiandae veniam ipsam. Nulla nihil, a qui praesentium at?</p>
-  </div>
+  </section>
 </body>
 </html>
 ```

@@ -83,7 +83,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Stilizovanje različitih vrsta veza](/stilizovanje-razlicitih-vrsta-veza)
 - [Stilovi posećenih veza](/stilovi-posecenih-veza)
 - Vežba: napravi navigaciju i poveži stranice
-- [Vežba: napravi jednostraničnu prezentaciju](/vezba-jednostranicna-prezentacija)
+- [Vežba: napravi jednostraničnu navigaciju](/vezba-jednostranicna-navigacija)
 
 ### Liste i navigacija
 

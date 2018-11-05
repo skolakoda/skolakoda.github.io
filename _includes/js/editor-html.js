@@ -1,5 +1,6 @@
 /* global CodeMirror */
 {
+
   const ulazi = document.querySelectorAll('.html-ulaz')
   const params = {
     mode: 'htmlmixed',
@@ -11,21 +12,34 @@
     autoCloseTags: true
   }
 
-  for (let i = 0; i < ulazi.length; i++) {
-    const ulaz = ulazi[i]
-    params.value = ulaz.textContent || ulaz.innerText
+  /* FUNKCIJE */
 
-    // pravi tablet
+  const praviTablet = () => {
     const tabletWrapper = document.createElement('div')
     tabletWrapper.classList.add('tablet-wrapper')
-    const izlaz = document.createElement('iframe')
-    tabletWrapper.appendChild(izlaz)
     const kruzic = document.createElement('div')
     kruzic.classList.add('kruzic')
     const kockica = document.createElement('span')
     kockica.classList.add('kockica')
     kruzic.appendChild(kockica)
     tabletWrapper.appendChild(kruzic)
+    return tabletWrapper
+  }
+
+  const azuriraj = (editor, izlaz) => {
+    const blob = new Blob([editor.getValue()], {type : 'text/html'})
+    izlaz.src = URL.createObjectURL(blob)
+  }
+
+  /* LOGIKA */
+
+  for (let i = 0; i < ulazi.length; i++) {
+    const ulaz = ulazi[i]
+    const izlaz = document.createElement('iframe')
+    params.value = ulaz.textContent || ulaz.innerText
+
+    const tabletWrapper = praviTablet()
+    tabletWrapper.appendChild(izlaz)
 
     const editor = new CodeMirror(
       node => ulaz.parentNode.replaceChild(node, ulaz), params
@@ -34,11 +48,10 @@
     editorWrapper.classList.add(...ulaz.classList)
     editorWrapper.parentNode.insertBefore(tabletWrapper, editorWrapper.nextSibling)
 
-    const blob = new Blob([editor.getValue()], {type : 'text/html'})
-    izlaz.src = URL.createObjectURL(blob)
+    azuriraj(editor, izlaz)
 
     /* EVENTS */
-    editorWrapper.on('keyup', () => izlaz.src = URL.createObjectURL(blob))
+    editorWrapper.on('keyup', () => azuriraj(editor, izlaz))
   }
 
 }
