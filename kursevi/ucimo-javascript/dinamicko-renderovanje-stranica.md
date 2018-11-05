@@ -4,9 +4,11 @@ layout: lekcija-js-frontend
 permalink: /dinamicko-renderovanje
 ---
 
+Učitavanje podataka preko mreže i dinamičko iscrtavanje (*renderovanje*) HTML-a na osnovu dobijenih podataka je čest zadatak Front-end programera. To je ujedno i glavni razlog nastanka poznatih JS frejmvorka, među kojima su Angular, React i VueJS.
+
 ## Primer: Baza filmova
 
-Sledeći primer učitava podatke u JSON formatu iz API-ja i renderuje ih na stranici. 
+Prost primer učitavanja podataka u JSON formatu i dinamičkog kreiranja HTML-a:
 
 {:.html-ulaz}
 ```html
@@ -50,4 +52,4 @@ Sledeći primer učitava podatke u JSON formatu iz API-ja i renderuje ih na stra
 </script>
 ```
 
-Podaci su niz objekata koji imaju atribute: `naziv`, `godina` i `slika`.
+Dobijeni podaci su niz objekata koji imaju atribute: `naziv`, `godina` i `slika`. Za više detalja vidi [Baza filmova API](https://github.com/skolakoda/baza-filmova-api).
