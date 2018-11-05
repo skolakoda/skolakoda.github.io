@@ -78,12 +78,10 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - Relativne i apsolutne putanje
   - Unutrašnje veze ka delu stranice
 - [Stilizovanje veza](/stilizovanje-veza)
-- [Podvlačenje veza](/podvlacenje-veza)
-- [Oblikovanje veze kao dugmeta](/oblikovanje-veze-kao-dugmeta)
-- [Stilizovanje različitih vrsta veza](/stilizovanje-razlicitih-vrsta-veza)
-- [Stilovi posećenih veza](/stilovi-posecenih-veza)
-- Vežba: napravi navigaciju i poveži stranice
-- [Vežba: napravi jednostraničnu navigaciju](/vezba-jednostranicna-navigacija)
+  - [Podvlačenje linka](/podvlacenje-veza)
+  - [Link kao dugme](/link-kao-dugme)
+  - [Razlikovanje linkova po sadržaju](/razlikovanje-veza-po-sadrzaju)
+  - [Isticanje posećenih veza](/isticanje-posecenih-veza)
 
 ### Liste i navigacija
 
@@ -94,6 +92,8 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - pravljenje navigacije pomoću liste
   - pravljenje navigacije pomoću linkova
   - menjanje boje na hover
+- Vežba: napravi navigaciju i poveži stranice
+- [Vežba: napravi jednostraničnu navigaciju](/vezba-jednostranicna-navigacija)
 
 ### Pozicioniranje elemenata
 

@@ -1,11 +1,13 @@
 ---
-title: Oblikovanje veze kao dugmeta
+title: Link kao dugme
 layout: lekcija-html
-permalink: /oblikovanje-veze-kao-dugmeta
+permalink: /link-kao-dugme
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chains_%2825491126954%29.jpg/1024px-Chains_%2825491126954%29.jpg
 ---
 
-Ima slučajeva kad ćete poželjeti da veza više nalikuje dugmetu, s većim područjem za pritiskanje. To možete učiniti postavljanjem svojstva sidra `display` na `block` i nakon toga mijenjanjem `width`, `height` i ostalih svojstava, da izradite stil kakav želite.
+**Ima slučajeva kad ćete poželjeti da veza više nalikuje dugmetu, s većim područjem za pritiskanje.**
+
+To možete učiniti postavljanjem svojstva sidra `display` na `block` i nakon toga mijenjanjem `width`, `height` i ostalih svojstava, da izradite stil kakav želite.
 
 {:.html-ulaz}
 ```html

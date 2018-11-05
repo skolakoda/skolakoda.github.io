@@ -1,13 +1,13 @@
 ---
-title: Stilovi posećenih veza
+title: Isticanje posećenih veza
 layout: lekcija-html
-permalink: /stilovi-posecenih-veza
+permalink: /isticanje-posecenih-veza
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chains_%2825491126954%29.jpg/1024px-Chains_%2825491126954%29.jpg
 ---
 
-Dizajneri i programeri često zaborave na stil posjećene veze, pa posjećene oblikuju jednako kao i neposjećene. Međutim, poseban stil posjećene veze korisnicima može pomoći pri snalaženju, pokazujući im koje su lokacije već posjetili da bi izbjegli nepotrebno vraćanje na njih. Stilovi posjećenih veza posebno dolaze do izražaja kad se koriste u bočnom stupcu ili u sporednom izborniku.
+**Dizajneri i programeri često zaborave na stil posjećene veze, pa posjećene oblikuju jednako kao i neposjećene. Međutim, poseban stil posjećene veze korisnicima može pomoći pri snalaženju, pokazujući im koje su lokacije već posjetili da bi izbjegli nepotrebno vraćanje na njih.**
 
-Recimo da u bočnom stupcu imamo popis veza prema vanjskim lokacijama:
+Stilovi posjećenih veza posebno dolaze do izražaja kad se koriste u bočnom stupcu ili u sporednom izborniku. Recimo da u bočnom stupcu imamo popis veza prema vanjskim lokacijama:
 
 ```html
 <ul>
@@ -63,9 +63,9 @@ li {
 ```
 
 {:.uokvireno.ideja}
-Objašnjenje: nakon posete linku, pozadinska boja se menja u zeleno, čime beli kvadratić oko kvačice postaje vidljiv.
+Objašnjenje: nakon posete linku, pozadinska boja se menja u zeleno, pa ranije nevidljiv beli kvadratić oko kvačice postaje vidljiv.
 
-Svaka lokacija koju ste posjetili imat će kvačicu pored imena, pružajući vrijednu informaciju da ste tamo već bili.
+Svaka lokacija koju ste posjetili imaće kvačicu pored imena, pružajući vrijednu informaciju da ste tamo već bili.
 
 
 Izvor: Andy Budd, *CSS Mastery: napredna Web rješenja* ([probno poglavlje](https://www.knjizara.hr/detalji_proizvoda.515541e78407453fb5fcc12ad8e9cbb1.css-mastery-napredna-web-rjesenja.aspx)), Zagreb 2006.
