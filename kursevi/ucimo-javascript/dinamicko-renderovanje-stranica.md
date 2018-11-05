@@ -46,7 +46,7 @@ Sledeći primer učitava podatke u JSON formatu iz API-ja i renderuje ih na stra
 
   fetch('https://baza-filmova.herokuapp.com/filmovi/')
     .then(response => response.json())
-    .then(data => render('#root', toHtml(data)))
+    .then(data => render('#okvir', toHtml(data)))
 </script>
 ```
 
