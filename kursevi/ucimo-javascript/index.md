@@ -164,7 +164,7 @@ image: /images/kursevi/js-logo.png
 - [GET zahtev u Javascriptu](/javascript-get-zahtev)
 - [JSON format](/json-format)
   - metode `JSON.stringify()` i `JSON.parse()`
-- Dinamičko renderovanje stranica
+- [Dinamičko renderovanje stranica](/dinamicko-renderovanje)
 - Vežba: učitaj adresar iz JSON fajla
 - Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
 

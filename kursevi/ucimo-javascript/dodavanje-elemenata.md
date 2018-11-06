@@ -6,7 +6,27 @@ permalink: /dodavanje-elemenata
 
 **DOM elementi se mogu dinamički kreirati i dodavati na razne načine.**
 
-## Primer 1: `appendChild` metoda
+## Primer: `innerHTML` atribut
+
+Primer dodavanja elemenata pomoću [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) atributa:
+
+{:.html-ulaz}
+```html
+<div id="drzac"></div>
+
+<script>
+  const drzac = document.getElementById('drzac')
+  drzac.innerHTML = `
+    <div>
+      <h2>Zdravo Svete</h2>
+    </div>
+  `
+</script>
+```
+
+Ovo je najprostiji način dodavanja HTML-a, a glavni nedostatak je što unutrašnjim elementima ne možemo dodavati događaje.
+
+## Primer: `appendChild` metoda
 
 Primer dodavanja elemenata pomoću [appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) metode, na klik:
 
@@ -46,7 +66,7 @@ Primer dodavanja elemenata pomoću [appendChild](https://developer.mozilla.org/e
 
 Glavna prednost ove metode je mogućnost dodavanja slušače događaja na novokreirani element. 
 
-## Primer 2: `insertAdjacentHTML` metoda
+## Primer: `insertAdjacentHTML` metoda
 
 Primer dodavanja elemenata pomoću [insertAdjacentHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML) metode:
 
@@ -69,19 +89,6 @@ Primer dodavanja elemenata pomoću [insertAdjacentHTML](https://developer.mozill
 
 Glavna prednost ove metode je mogućnost pravljenja kompleksnih elemenata pomoću HTML oznaka i višelinijskih struna.
 
-## Primer 3: `innerHTML` atribut
-
-Primer dodavanja elemenata pomoću [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) atributa:
-
-{:.html-ulaz}
-```html
-<div id="drzac"></div>
-
-<script>
-  const drzac = document.getElementById('drzac')
-  drzac.innerHTML = '<h2>Zdravo Svete</h2>'
-</script>
-```
 
 {:.ideja.uokvireno}
 Bitna razlika između različitih načina dodavanja elemenata je što u nekim slučajevima možemo dodavati slušače događaja na elemente, a u nekim ne. 
