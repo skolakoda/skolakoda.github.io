@@ -95,21 +95,21 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Vežba: napravi mobilnu navigaciju](/vezba-napravi-navigaciju)
 - [Vežba: napravi jednostraničnu navigaciju](/vezba-jednostranicna-navigacija)
 
-### Fleksibilni prikaz
+### Prikaz elemenata (`display`)
 
+- Osnovni prikazi: `block`, `inline` i `inline-block`
 - Fleksibilni prikaz (`display: flex`)
-- Horizontalno poravnanje (`justify-content`)
-- Vertikalno poravnanje (`align-items`)
-- Razmak između elemenata (`space-around`, `space-between`)
-- Prelamanje u novi red (`flex-wrap`)
-- Deformisanje proporcije elemenata
+  - Prelamanje u novi red (`flex-wrap`)
+  - Horizontalno poravnanje (`justify-content`)
+  - Vertikalno poravnanje (`align-items`)
+  - Razmak između elemenata (`space-around`, `space-between`)
+  - Deformisanje proporcije elemenata
 - Vežba: fleksibilno prikaži navigaciju
 - Vežba: fleksibilno prikaži krugove
 
 ### Pozicioniranje elemenata
 
-- Elementi fiksirani za ekran (`position: fixed`)
-- Apsolutno pozicionirani elementi (u odnosu na prvog relativnog roditelja)
+- [Pozicioniranje elemenata](/pozicioniranje-elemenata)
 - Plutanje elemenata (`float`) kao loša praksa
 - Promena redosleda slojeva (`z-index`)
 - [Vežba: napravi fiksirano zaglavlje](/vezba-fiksirano-zaglavlje)
