@@ -94,11 +94,12 @@ image: /images/kursevi/js-logo.png
 ### Rad sa nizovima
 
 - Jednodimenzionalni i višedimenzionalni nizovi
-- Dodavanje elementa: `push()`
+- Dodavanje i ukljanjanje elementa (`push`, `splice` i `slice`)
 - Pristupanje elementu: `niz[index]`
-- Sortiranje niza: `sort()` (pažljivo, mutatorska metoda)
 - [Iteracija niza](/js-iteracija-niza)
-- Ostale metode: `length`, `indexOf()`, `slice()`, `splice()`, `toString()`
+- [Mapiranje niza](/mapiranje-niza)
+- [Filtriranje niza](/filtriranje-niza)
+- Sortiranje niza: `sort()` (pažljivo, mutatorska metoda)
 - [Vežba: pronađi ime u nizu](/vezba-pronadji-ime-u-nizu)
 - [Vežba: pronađi najmanji broj u nizu](/vezba-pronadji-najmanji-broj)
 - [Vežba: broj ponavljanja traženog imena u nizu](/broj-ponavljanja-imena-u-nizu)
