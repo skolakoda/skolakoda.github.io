@@ -165,7 +165,6 @@ image: /images/kursevi/js-logo.png
 - [JSON format](/json-format)
   - metode `JSON.stringify()` i `JSON.parse()`
 - [Dinamičko renderovanje stranica](/dinamicko-renderovanje)
-- Vežba: učitaj adresar iz JSON fajla
 - Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
 
 ### Validacija korisničkog unosa
