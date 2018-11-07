@@ -144,8 +144,9 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - Debljina, boja i vrsta granica
 - Vežba: promeni `box-sizing` elemenata u `border-box`, menjaj pading, uporedi razliku
 
-### Formulari i kontakt
+### Kontakt forma
 
+- [Kontakt forma](/kontakt-forma)
 - Unosna (`input`) polja
   - Tipovi unosa (`text`, `number`, `email`, `url`, `tel`)
   - Polje za više redova teksta (`textarea`)
