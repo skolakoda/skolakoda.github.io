@@ -1,28 +1,18 @@
 ---
-title: Kontakt forma
+title: Kontakt forma u HTML-u
 layout: lekcija-html
 permalink: /kontakt-forma
 ---
 
-- Unosna (`input`) polja
-  - Tipovi unosa (`text`, `number`, `email`, `url`, `tel`)
-  - Polje za više redova teksta (`textarea`)
-  - Padajući meni (`select`)
-  - `checkbox` polje i `radio` dugmad
-  - `name`, `value` i `placeholder` atributi
-- Dodavanje labele (`label`) i njena funkcija
-- Validacija formi:
-  - po tipu polja
-  - `required` (obavezno polje)
-  - `pattern` ([regularni izrazi](/regularni-izraz))
-- Slanje formulara serveru (`POST` metoda)
+**Kontakt forma (`<form>`) je standardan način da posetilac pošalje podatke vlasniku sajta. Obično se sastoji od nekoliko `input` polja, sa podacima koje korisnik unosi, i dugmeta za potvrdu slanja.**
 
+Validacija se prvenstveno vrši preko tipa polja, i `required` atributa. Postoji više tipova `<input>` polja: tekst, broj, email, url, datum i slično. Ukoliko ne navedemo tip, podrazumeva se tekst. Za unos više redova teksta, koristi se `<textarea>`.
 
-name je ono što se šalje na server
+Veoma je bitno da svako polje ima `name` atribut, preko kojeg se vrednosti šalju serveru.
 
-id je potreban da bi radila labela
+## Prost primer forme
 
-## Prost primer
+Sledeći formular ima tri polja za unos. Sva tri imaju atribut `required`, što ih čini obaveznima, i `name`, bez kojeg ne bi radila. Forma ima atribut `action`, sa adresom prihvatne stranice, i `method`, sa vrstom HTTP zahteva.
 
 {:.html-ulaz}
 ```html
@@ -32,7 +22,7 @@ id je potreban da bi radila labela
   <input name="ime" required><br>
 
   Email:<br>
-  <input type="email" name="email" required><br>
+  <input name="email" type="email" required><br>
 
   Ostavite poruku:<br>
   <textarea name="poruka" cols="30" rows="10" required></textarea><br>
@@ -41,8 +31,15 @@ id je potreban da bi radila labela
 </form>
 ```
 
-## Kompleksan primer
+{:.uokvireno.ideja}
+Ukoliko na kraju adrese u `action` atributu uneseš svoj mejl, forma će raditi.
 
+## Kompleksan primer forme
+
+- id je potreban da bi radila labela
+- `value` i `placeholder` atributi
+- Dodavanje labele (`label`) i njena funkcija
+  
 {:.html-ulaz}
 ```html
 <style>

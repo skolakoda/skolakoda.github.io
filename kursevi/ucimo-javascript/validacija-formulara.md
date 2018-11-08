@@ -13,18 +13,16 @@ Prirodna validacija pregledača može biti prilično napredna, jer prima brojne 
 {:.html-ulaz}
 ```html
 <form>
-    <h3>Sva polja su obavezna</h3>
+  <p>Mora broj između 7 i 77</p>
+  <input id="broj" type="number" min="7" max="77" required><br>
 
-    <p>Mora da bude broj</p>
-    <input id="broj" type="number" required><br><br>
+  <p>Mora da bude email</p>
+  <input id="email" pattern="\S+@\S+\.\S+" required><br>
 
-    <p>Mora da bude email</p>
-    <input id="email" pattern="\S+@\S+\.\S+" required><br><br>
+  <p>Mora najmanje 5, a najviše 144 karaktera</p>
+  <textarea id="poruka" minlength="5" maxlength="144" required></textarea><br>
 
-    <p>Mora najmanje 5, a najviše 144 karaktera</p>
-    <textarea id="poruka" minlength="5" maxlength="144" required></textarea><br><br>
-
-    <button>Pošalji</button>
+  <button>Pošalji</button>
 </form>
 ```
 
@@ -40,29 +38,24 @@ Sledeća skripta je način da uradimo validaciju iz gornjeg primera isključivo 
 ```js
 const $ = selektor => document.querySelector(selektor)
 
-const jeValidanBroj = broj =>
-    !isNaN(broj) && broj.length > 0
+const jeValidanBroj = x => typeof x == "number" && x >= 7 && x <= 77
 
-const jeValidanMejl = email =>
-    /\S+@\S+\.\S+/.test(email)
+const jeValidanMejl = email => /\S+@\S+\.\S+/.test(email)
 
-const jeValidnaPoruka = poruka =>
-    poruka.length >= 5 && poruka.length <= 144
+const jeValidnaPoruka = p => p.length >= 5 && p.length <= 144
 
 
 $('form').addEventListener('submit', function(e) {
-    e.preventDefault()
+  e.preventDefault()
 
-    if (!jeValidnoIme($('#ime').value))
-      return alert('nevalidno ime')
-    if (!jeValidanBroj($('#broj').value))
-      return alert('nevalidan broj')
-    if (!jeValidanMejl($('#email').value))
-      return alert('nevalidan email')
-    if (!jeValidnaPoruka($('#poruka').value))
-      return alert('nevalidna poruka')
+  if (!jeValidanBroj($('#broj').value))
+    return alert('nevalidan broj')
+  if (!jeValidanMejl($('#email').value))
+    return alert('nevalidan email')
+  if (!jeValidnaPoruka($('#poruka').value))
+    return alert('nevalidna poruka')
 
-    this.submit()
+  this.submit()
 })
 ```
 

@@ -4,9 +4,9 @@ layout: lekcija-js
 permalink: /javascript-dogadjaji
 ---
 
-**Sa Javascriptom imamo mogućnost da učinimo stranice interaktivnim, odnosno da reagujemo na događaje (*events*), koji predstavljaju akcije korisnika (npr. klik, mrdanje, kucanje, dodir) ili učitavanje resursa na stranicu (npr. slika ili podataka).**
+**Pomoću događaja oživljavamo stranice, odnosno činimo ih interaktivnim.**
 
-Program sam po sebi neće osluškivati sve događaje, već samo one za koje dodamo slušač događa (*event listener*). Na događaje reagujemo povratnom (*callback*) funkcijom.
+Događaje najčešće okidaju akcije korisnika (kao što su klik, mrdanje, tipkanje) ili učitavanje resursa (poput slika i podataka). Na događaje reagujemo [povratnom funkcijom](/callback-funkcije). Za svaki događaj na koji želimo da reagujemo, moramo dodati slušač događaja (*event listener*). 
 
 ## Događaji miša 
 
