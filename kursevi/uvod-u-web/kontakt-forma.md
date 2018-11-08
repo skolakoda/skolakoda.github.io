@@ -6,9 +6,20 @@ permalink: /kontakt-forma
 
 **Kontakt forma (`<form>`) je standardan način da posetilac pošalje podatke vlasniku sajta. Obično se sastoji od nekoliko `input` polja, sa podacima koje korisnik unosi, i dugmeta za potvrdu slanja.**
 
+## Osnovni elementi forme
+
 Postoji više tipova `<input>` polja: tekst, broj, email, url, datum i slično. Ukoliko ne navedemo tip, podrazumeva se tekst. Za unos više redova teksta, koristi se `<textarea>`. Validacija korisničkog unosa se uglavnom vrši preko tipa polja, i `required` atributa. 
 
 Veoma je bitno da svako polje ima `name` atribut, preko kojeg se vrednosti šalju serveru.
+
+Labela (`label`) se koristi za naziv input polja. Ona ima ugrađenu funkcionalnost: kada se dodirne prebacuje fokus u input polje. Takođe, čitači ekrana je čitaju, što omogućava pristupačnost slepima. Labela se povezuje za input tako što joj se dodeli `for` atribut, identičan `id`-u input polja:
+
+```html
+<label for="ime">Ime i prezime</label>
+<input id="ime">
+```
+
+`placeholder` atribut pomaže posetiocima da se snađu, navodeći primer formata koji treba uneti.
 
 ## Primer: Prosta forma
 
@@ -36,18 +47,7 @@ Ukoliko na kraju adrese u `action` atributu uneseš svoj mejl, forma će raditi.
 
 ## Primer: Kompleksna forma
 
-U ovom primeru koristimo daleko veći broj oznaka i atributa nego u prethodnom. 
-
-Za svako polje formulara koristimo labelu (`label`), koja ima pomoćne funkcije: kada se dodirne prebacuje fokus u input polje; takođe, čitači ekrana će je pročitati, što omogućava pristupačnost slepima. Labela se povezuje za input tako što joj se dodeli `for` atribut, identičan `id`-u input polja:
-
-```html
-<label for="ime">Ime i prezime</label>
-<input id="ime">
-```
-
-Takođe, neka polja imaju `placeholder` atribut, koji pomaže posetiocu da se snađe, navodeći primer formata koji treba uneti.
-
-Pored toga, neki elementi forme, poput padajućeg menija, imaju `value` atribut različit od teksta koji se prikazuje.
+U narednom primeru koristimo daleko veći broj oznaka i atributa. Za svako polje formulara koristimo labelu, a neka polja imaju i `placeholder` atribut.
   
 {:.html-ulaz}
 ```html
