@@ -6,11 +6,11 @@ permalink: /kontakt-forma
 
 **Kontakt forma (`<form>`) je standardan način da posetilac pošalje podatke vlasniku sajta. Obično se sastoji od nekoliko `input` polja, sa podacima koje korisnik unosi, i dugmeta za potvrdu slanja.**
 
-Validacija se prvenstveno vrši preko tipa polja, i `required` atributa. Postoji više tipova `<input>` polja: tekst, broj, email, url, datum i slično. Ukoliko ne navedemo tip, podrazumeva se tekst. Za unos više redova teksta, koristi se `<textarea>`.
+Postoji više tipova `<input>` polja: tekst, broj, email, url, datum i slično. Ukoliko ne navedemo tip, podrazumeva se tekst. Za unos više redova teksta, koristi se `<textarea>`. Validacija korisničkog unosa se uglavnom vrši preko tipa polja, i `required` atributa. 
 
 Veoma je bitno da svako polje ima `name` atribut, preko kojeg se vrednosti šalju serveru.
 
-## Prost primer forme
+## Primer: Prosta forma
 
 Sledeći formular ima tri polja za unos. Sva tri imaju atribut `required`, što ih čini obaveznima, i `name`, bez kojeg ne bi radila. Forma ima atribut `action`, sa adresom prihvatne stranice, i `method`, sa vrstom HTTP zahteva.
 
@@ -34,11 +34,20 @@ Sledeći formular ima tri polja za unos. Sva tri imaju atribut `required`, što 
 {:.uokvireno.ideja}
 Ukoliko na kraju adrese u `action` atributu uneseš svoj mejl, forma će raditi.
 
-## Kompleksan primer forme
+## Primer: Kompleksna forma
 
-- id je potreban da bi radila labela
-- `value` i `placeholder` atributi
-- Dodavanje labele (`label`) i njena funkcija
+U ovom primeru koristimo daleko veći broj oznaka i atributa nego u prethodnom. 
+
+Za svako polje formulara koristimo labelu (`label`), koja ima pomoćne funkcije: kada se dodirne prebacuje fokus u input polje; takođe, čitači ekrana će je pročitati, što omogućava pristupačnost slepima. Labela se povezuje za input tako što joj se dodeli `for` atribut, identičan `id`-u input polja:
+
+```html
+<label for="ime">Ime i prezime</label>
+<input id="ime">
+```
+
+Takođe, neka polja imaju `placeholder` atribut, koji pomaže posetiocu da se snađe, navodeći primer formata koji treba uneti.
+
+Pored toga, neki elementi forme, poput padajućeg menija, imaju `value` atribut različit od teksta koji se prikazuje.
   
 {:.html-ulaz}
 ```html
@@ -53,7 +62,7 @@ Ukoliko na kraju adrese u `action` atributu uneseš svoj mejl, forma će raditi.
 <form action="https://formspree.io/tvojmail@gmail.com" method="POST">
 
   <label for="ime">Ime i prezime *</label>
-  <input type="text" name="ime" id="ime" placeholder="Unesite ovde" required>
+  <input name="ime" id="ime" placeholder="Unesite ovde" required>
 
   <label for="email">Email *</label>
   <input type="email" name="email" id="email" required>
