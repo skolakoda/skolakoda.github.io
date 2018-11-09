@@ -6,20 +6,28 @@ permalink: /kontakt-forma
 
 **Kontakt forma (`<form>`) je standardan način da posetilac pošalje podatke vlasniku sajta. Obično se sastoji od nekoliko `input` polja, sa podacima koje korisnik unosi, i dugmeta za potvrdu slanja.**
 
-## Osnovni elementi forme
+## `input`
 
-Postoji više tipova `<input>` polja: tekst, broj, email, url, datum i slično. Ukoliko ne navedemo tip, podrazumeva se tekst. Za unos više redova teksta, koristi se `<textarea>`. Validacija korisničkog unosa se uglavnom vrši preko tipa polja, i `required` atributa. 
+Polje za unos (`<input>`) služi da korisnik unese podatke. Postoji više tipova unosa, između ostalog: 
 
-Veoma je bitno da svako polje ima `name` atribut, preko kojeg se vrednosti šalju serveru.
+- tekst (`text`)
+- broj (`number`)
+- email 
+- url
+- datum (`date`)
 
-Labela (`label`) se koristi za naziv input polja. Ona ima ugrađenu funkcionalnost: kada se dodirne prebacuje fokus u input polje. Takođe, čitači ekrana je čitaju, što omogućava pristupačnost slepima. Labela se povezuje za input tako što joj se dodeli `for` atribut, identičan `id`-u input polja:
+Ukoliko ne navedemo tip, podrazumeva se tekst. Veoma je bitno da svako polje ima **`name`** atribut, preko kojeg se vrednosti šalju serveru. Validacija se uglavnom vrši preko tipa unosa, i **`required`** atributa. 
+
+**Labela** (`label`) se koristi koristi kao pomoćna oznaka. Ona ima ugrađenu funkcionalnost: kada se dodirne prebacuje fokus u input polje. Takođe, čitači ekrana je čitaju, što omogućava pristupačnost slepima. Labela se povezuje za input tako što joj se dodeli `for` atribut, identičan `id`-u input polja:
 
 ```html
 <label for="ime">Ime i prezime</label>
 <input id="ime">
 ```
 
-`placeholder` atribut pomaže posetiocima da se snađu, navodeći primer formata koji treba uneti.
+Polje za unos može imati i **`placeholder`** atribut, koji pomaže posetiocima šta treba uneti.
+
+Za unos više redova teksta, koristi se **`<textarea>`**. 
 
 ## Primer: Prosta forma
 

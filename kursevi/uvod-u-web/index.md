@@ -147,17 +147,8 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 ### Kontakt forma
 
 - [Kontakt forma](/kontakt-forma)
-- Unosna (`input`) polja
-  - Tipovi unosa (`text`, `number`, `email`, `url`, `tel`)
-  - Polje za više redova teksta (`textarea`)
   - Padajući meni (`select`)
   - `checkbox` polje i `radio` dugmad
-  - `name`, `value` i `placeholder` atributi
-- Dodavanje labele (`label`) i njena funkcija
-- Validacija formi:
-  - po tipu polja
-  - `required` (obavezno polje)
-  - `pattern` ([regularni izrazi](/regularni-izraz))
 - Slanje formulara serveru (`POST` metoda)
 - [Kako napraviti kontakt formu bez bekenda?](/kontakt-forma-bez-bekenda)
 - Vežba: validiraj unos i odredi obavezna polja
