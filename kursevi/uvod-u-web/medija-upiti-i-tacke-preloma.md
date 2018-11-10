@@ -20,9 +20,9 @@ body {
 }
 ```
 
-## Tačke preloma (*breakpoints*)
+## Prelomne tačke (*responsive breakpoints*)
 
-Tačke preloma (*breakpoints*) su zadate veličine na kojima menjamo dizajn. Standardne tačke preloma ne postoje. Njihov broj i vrednost zavisi od biblioteke koju koristimo, kao i samog dizajna.
+Prilagodljivi web dizajn se implementira pomoću prelomnih tačaka (*breakpoints*), kojima pravimo razliku između različitih veličina uređaja. Tačke preloma su zadate veličine na kojima menjamo dizajn. Standardne tačke preloma ne postoje. Njihov broj i vrednost zavisi od biblioteke koju koristimo, kao i samog dizajna.
 
 Na primer, Bootstrap biblioteka koristi 4 tačke preloma, unutar kojih definišemo dizajn za razne uređaje:
 
