@@ -7,21 +7,23 @@ image: /images/koncepti/web/responsive.svg
 
 ![responsive web-design]({{page.image}})
 
-***Nekada su svi sajtovi pravljeni fiksne širine, između 950-1000 piksela, i očekivalo se da će svi korisnici imati prilično isto iskustvo.***
+***Nekada su svi sajtovi pravljeni fiksne širine, oko 1000 piksela, i očekivalo se da će svi korisnici imati prilično isto iskustvo.***
 
-Već godinama, neprestano raste upotreba mobilnih uređaja za pregled interneta. S druge strane, uobičajena je upotreba monitora od 27 i 30 inča. Razlika izmedu najmanjih i najvećih ekrana je veća nego ikad.
+Danas postoji mnoštvo uređaja raznih veličina, od mobilnog telefona do zidnog televizora, tako da više nije moguće imati sajt iste veličine za sve uređaje. Već godinama, neprestano raste upotreba mobilnih uređaja za pregled interneta. S druge strane, uobičajena je upotreba monitora od 27 i 30 inča. Razlika izmedu najmanjih i najvećih ekrana je veća nego ikad.
 
 Standarno rešenje je prilagodljiv web dizajn, koji prikazuje sadržaj na najprihvatljiviji način za bilo koju veličinu ekrana.
 
 ## Prvo desktop dizajn (*desktop-first*)
 
-Grafički dizajneri nekad daju samo desktop verziju sajta, fiksne širine. Zadatak front-end developera je tada da kreira savršenu implementaciju dizajna u svakom poznatom pretraživaču.
+Dizajneri su ranije dostavljali developerima samo desktop verziju sajta. Front-end developeri su, na osnovu toga, kodirali dizajn da podjednako dobro radi u svakom poznatom pretraživaču.
 
-Na malim ekranima elemente koji nisu važni postavite ispod glavnog sadržaja ili, u najgorem slučaju, sakrijte u potpunosti. Možete da prilagodite navigaciju tako da više odgovara dodiru prstom. Tipografija bi takode trebalo da bude skalirana zbog bolje čitljivosti, omogućavajući čitanje teksta bez potrebe stalnog povlačenja prikaza sa jedne na drugu stranu.
+Prikaz sajta na mobilnim telefonima je obično bio improvizacija, nešto što se radilo na osnovu desktop dizajna. Na malim ekranima se manje važni elementi obično stave ispod glavnog sadržaja ili, u najgorem slučaju, sakriju u potpunosti. Navigaciju možemo prilagoditi da više odgovara dodiru. Tipografiju bi takode trebalo skalirati zbog bolje čitljivosti, omogućavajući čitanje bez potrebe stalnog povlačenja prikaza sa jedne na drugu stranu.
 
 ## Prvo mobilni dizajn (*mobile first*)
 
-Istinski prilagodljiva metodologija je više od pukog razmeštaja na osnovu veličina prikaza. Potrebno je da izokrenemo stari pristup web dizajnu. Umesto da započinjemo sa dizajnom desktop sajta fiksne širine i smanjujemo ga da odgovara manjim prikazima, prvo dizajniramo sajt za manje prikaze, a zatim da postepeno prilagođavamo za veće.
+Kako je upotreba mobilnih telefona uzimala maha, mobilni dizajn sajtova je sve više dobijao na važnosti. 
+
+Uveden je nov pristup web dizajnu, da se sajt više ne radi prvo za desktop, već za mobilne telefone. Umesto da započinjemo sa dizajnom desktop sajta fiksne širine i smanjujemo ga da odgovara manjim prikazima, sada prvo dizajniramo sajt za manje prikaze, a zatim da postepeno prilagođavamo za veće.
 
 ## Mobilni web sajtovi
 
