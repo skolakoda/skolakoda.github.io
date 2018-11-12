@@ -1,16 +1,16 @@
 ---
-title: "Povratne <i>callback</i> funkcije"
+title: "Povratne funkcije (<i>callback</i>)"
 layout: lekcija-js
 permalink: /callback-funkcije
 ---
 
-**Povratna funkcija je obična funkcija koja se prosleđuje drugoj funkciji kao argument.**
+**Povratna funkcija je funkcija koja se prosleđuje drugoj funkciji kao argument.**
 
-Glavna funkcija, koja prima povratnu funkciju, je može izvršiti po potrebi.
+Glavna funkcija izvršava povratnu funkciju, koju prima kao parametar.
 
 Povratne funkcije su često anonimne.
 
-## Prost primer
+## Prost primer: Klasična sintaksa
 
 U narednom primeru imamo glavnu funkciju, koja prima drugu funkciju kao parametar, a potom je izvršava.
 
@@ -28,34 +28,89 @@ function y() {
   console.log("Ja sam kolbek y")
 }
 
-// pozivamo glavnu funkciju sa različitim prosledjenim funkcijama
+// pozivamo glavnu sa prosledjenim povratnim funkcijama
 glavna(x)
 glavna(y)
-glavna(function() {
-  console.log("Ja sam anonimna callback funkcija")
-})
 ```
 
-## Povratne funkcije sa parametrima
+## Prost primer: Streličasta sintaksa
 
-Ako povratna funkcija iziskuje parametre, moramo je ugnezditi u anonimnu funkciju prilikom prosleđivanja:
+Umesto klasičnih možemo koristiti streličaste funkcije:
 
 {:.ulaz}
 ```js
-function glavna(callback) {
-  callback()
-}
+const glavna = callback => callback()
 
-function sporedna (x, y) {
-  console.log("Prosledjeni su mi argumenti", x, y)
-}
+const x = () => console.log("Ja sam kolbek x")
 
-glavna(function() {
-  sporedna("zdravo", "svete") // sporedna je unutar anonimne funkcije
+const y = () => console.log("Ja sam kolbek y")
+
+glavna(x)
+glavna(y)
+```
+
+## Primeri upotrebe
+
+### Događaji
+
+Anonimne povratne funkcije se često prosleđuju događajima, na primer:
+
+{:.ulaz}
+```js
+document.body.addEventListener('click', function() {
+  document.body.style.backgroundColor = '#dedede'
 })
 ```
 
-Takođe, glavna funkcija može proslediti argumente povratnoj funkciji prilikom izvršenja:
+Anonimnu funkciju iz gornjeg primera možemo imenovati na sledeći način:
+
+{:.ulaz}
+```js
+function promeniBoju() {
+  document.body.style.backgroundColor = '#dedede'
+}
+
+document.body.addEventListener('click', promeniBoju)
+```
+
+Ukoliko povratna funkcija prima parametar, moramo je pozvati na sledeći način (ugnježdenu unutar anonimne funkcije):
+
+{:.ulaz}
+```js
+function promeniBoju(boja) {
+  document.body.style.backgroundColor = boja
+}
+
+document.body.addEventListener('click', function() {
+  promeniBoju('#ededed')
+})
+```
+
+### Filtriranje
+
+Povratne funkcije se takođe prosleđuju `filter`, `map` i sličnim metodama:
+
+{:.ulaz}
+```js
+const brojevi = [1, 4, 5, 6, 7, 8, 9, 0, 11, 2]
+const filtrirano = brojevi.filter(x => x > 5)
+console.log(filtrirano)
+```
+
+Anonimnu streličastu *callback* funkciju možemo imenovati na sledeći način:
+
+{:.ulaz}
+```js
+const brojevi = [1, 4, 5, 6, 7, 8, 9, 0, 11, 2]
+const jelVeceOdPet = x => x > 5
+
+const filtrirano = brojevi.filter(jelVeceOdPet)
+console.log(filtrirano)
+```
+
+## Prosleđivanje vrednosti povratnoj funkciji
+
+Glavna funkcija može proslediti argument povratnoj funkciji, na sledeći način:
 
 {:.ulaz}
 ```js
@@ -69,32 +124,3 @@ function sporedna(e) {
 
 glavna(sporedna)
 ```
-
-## Streličasta sintaksa
-
-Umesto klasičnih možemo koristiti streličaste funkcije:
-
-{:.ulaz}
-```js
-const glavna = callback => callback()
-
-const sporedna = (x, y) => console.log("Prosledjeni su mi argumenti", x, y)
-
-glavna(() => sporedna("zdravo", "svete"))
-```
-
-## Primeri upotrebe
-
-Čest primer upotrebe *callback* funkcija su događaji, na primer:
-
-```js
-document.onkeydown = e => console.log(e.keyCode)
-```
-
-Takođe, povratne funkcije se obavezno prosleđuju `filter`, `map` i drugim metodama, na primer:
-
-```js
-[1, 4, 5, 6, 7, 8, 9, 0, 11, 2].filter(x => x > 5)
-```
-
-P.s. Ove kratke primere možete isprobati direktno u konzoli pregledača.

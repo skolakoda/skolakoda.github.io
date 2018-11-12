@@ -148,7 +148,7 @@ image: /images/kursevi/js-logo.png
 
 - [Uvod u Javaskript događaje](/javascript-dogadjaji)
 - [Dodavanje događaja](/dodavanje-slusaca-dogadjaja)
-- [Povratne (*callback*) funkcije](/callback-funkcije)
+- [Povratne funkcije (*callback*)](/callback-funkcije)
   - razlika obične i streličaste povratne funkcije
   - `event` objekat i njegova svojstva
 - [Sprečavanje podrazumevanog ponašanja](/sprecavanje-podrazumevanog-ponasanja)
@@ -159,9 +159,10 @@ image: /images/kursevi/js-logo.png
 
 ### AJAX i API
 
-- [Uvod u AJAX i asinhroni Javaskript](/ajax-tehnika)
 - API: Programski interfejs aplikacija
-- [GET zahtev u Javascriptu](/javascript-get-zahtev)
+- [AJAX pozivi i asinhroni Javaskript](/ajax-tehnika)
+  - [GET zahtev u Javascriptu](/javascript-get-zahtev)
+  - [POST zahtev u Javascriptu](/javascript-post-zahtev)
 - [JSON format](/json-format)
   - metode `JSON.stringify()` i `JSON.parse()`
 - [Dinamičko renderovanje stranica](/dinamicko-renderovanje)
