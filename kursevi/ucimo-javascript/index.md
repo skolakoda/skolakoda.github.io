@@ -161,8 +161,9 @@ image: /images/kursevi/js-logo.png
 
 - API: Programski interfejs aplikacija
 - [AJAX pozivi i asinhroni Javaskript](/ajax-tehnika)
-  - [GET zahtev u Javascriptu](/javascript-get-zahtev)
-  - [POST zahtev u Javascriptu](/javascript-post-zahtev)
+  - [GET zahtev](/javascript-get-zahtev)
+  - [POST zahtev](/javascript-post-zahtev)
+  - [DELETE zahtev](/javascript-delete-zahtev)
 - [JSON format](/json-format)
   - metode `JSON.stringify()` i `JSON.parse()`
 - [Dinamičko renderovanje stranica](/dinamicko-renderovanje)
