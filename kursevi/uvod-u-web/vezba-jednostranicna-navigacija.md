@@ -1,10 +1,10 @@
 ---
-title: "Vežba: napravi jednostraničnu navigaciju"
+title: "Vežba: napravi unutrašnju navigaciju"
 layout: lekcija-html
-permalink: /vezba-jednostranicna-navigacija
+permalink: /vezba-unutrasnja-navigacija
 ---
 
-Napravi jednostraničnu navigaciju koja vodi ka sekcijama stranice.
+Napravi unutrašnju navigaciju koja vodi ka sekcijama stranice.
 
 {:.html-ulaz.resenje}
 ```html

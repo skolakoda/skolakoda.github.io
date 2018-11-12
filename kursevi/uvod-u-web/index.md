@@ -93,17 +93,12 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - pravljenje navigacije pomoću linkova
   - menjanje boje na hover
 - [Vežba: napravi mobilnu navigaciju](/vezba-napravi-navigaciju)
-- [Vežba: napravi jednostraničnu navigaciju](/vezba-jednostranicna-navigacija)
+- [Vežba: napravi unutrašnju navigaciju](/vezba-unutrasnja-navigacija)
 
 ### Prikaz elemenata (`display`)
 
 - Osnovni prikazi: `block`, `inline` i `inline-block`
-- Fleksibilni prikaz (`display: flex`)
-  - Prelamanje u novi red (`flex-wrap`)
-  - Horizontalno poravnanje (`justify-content`)
-  - Vertikalno poravnanje (`align-items`)
-  - Razmak između elemenata (`space-around`, `space-between`)
-  - Deformisanje proporcije elemenata
+- [Fleksibilni prikaz (display: flex)](/fleksibilni-prikaz)
 - Vežba: fleksibilno prikaži navigaciju
 - Vežba: fleksibilno prikaži krugove
 
