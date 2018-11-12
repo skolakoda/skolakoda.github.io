@@ -152,7 +152,7 @@ image: /images/kursevi/js-logo.png
   - razlika obične i streličaste povratne funkcije
   - `event` objekat i njegova svojstva
 - [Sprečavanje podrazumevanog ponašanja](/sprecavanje-podrazumevanog-ponasanja)
-- [Pravljenje alias funkcija](/pravljenje-alias-funkcija)
+- [Pravljenje alijas funkcija](/pravljenje-alijas-funkcija)
 - Vežba: napravi div elemente koji reaguju na događaje
 - Vežba: napravi editor slike (zum, odzum i filteri)
 - Vežba: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)

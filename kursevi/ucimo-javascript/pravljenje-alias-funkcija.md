@@ -1,7 +1,7 @@
 ---
-title: Pravljenje alias funkcija
+title: Pravljenje alijas funkcija
 layout: lekcija-js-frontend
-permalink: /pravljenje-alias-funkcija
+permalink: /pravljenje-alijas-funkcija
 ---
 
 Kada neke metode pozivamo veoma često, korisno je napraviti njihove aliase.
@@ -17,9 +17,9 @@ const ispis = console.log
 ispis('Zdravo svete')
 ```
 
-## Aliasi za selektore
+## Alijasi za selektore
 
-Ako metoda vraća vrednost, alias moramo kreirati preko povratne funkcije:
+Ako metoda vraća vrednost, onda *alias* moramo kreirati preko povratne funkcije:
 
 ```js
 const uzmi = id => document.getElementById(id)
@@ -28,7 +28,7 @@ const naslov = uzmi('naslov')
 console.log(naslov)
 ```
 
-Možemo napraviti aliase i za druge selektore, na primer `querySelector`:
+Možemo napraviti alijase i za druge selektore, poput `querySelector`:
 
 ```js
 const $ = selektor => document.querySelector(selektor)
@@ -37,7 +37,7 @@ const naslov = $('#naslov')
 console.log(naslov)
 ```
 
-## Alias za događaje
+## Alijas za dodavanje događaja
 
 Ako nam je predugo da stalno kucamo `addEventListener`, možemo napraviti kraći alias. No, pošto događaje dodajemo na različite elemente, pitanje je kome dodati alias metodu? Alias treba dodati zajedničkom pretku svih elemenata koji primaju događaje, što je `EventTarget` klasa. 
 
