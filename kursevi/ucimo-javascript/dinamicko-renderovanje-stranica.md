@@ -16,7 +16,7 @@ Podaci su niz objekata koji imaju svojstva: `naziv`, `godina` i `slika`.
 
 Za više detalja vidi [Baza filmova API](https://github.com/skolakoda/baza-filmova-api).
 
-### Primer sa `for` i `http`
+### Primer sa `http` i `for` petljom
 
 {:.html-ulaz}
 ```html
@@ -29,10 +29,8 @@ Za više detalja vidi [Baza filmova API](https://github.com/skolakoda/baza-filmo
 
   http.open("GET", "https://baza-filmova.herokuapp.com/filmovi/")
   http.send()
-  http.onload = () => init(http.responseText)
-
-  function init(data) {
-    const filmovi = JSON.parse(data)
+  http.onload = function() {
+    const filmovi = JSON.parse(http.responseText)
     let html = ""
     for (let i = 0; i < filmovi.length; i++) {
       html += `
@@ -49,7 +47,7 @@ Za više detalja vidi [Baza filmova API](https://github.com/skolakoda/baza-filmo
 </script>
 ```
 
-### Primer sa `map` i `fetch`
+### Primer sa `fetch` i `map` metodom
 
 {:.html-ulaz}
 ```html
