@@ -46,7 +46,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - `#id` (samo za specifične slučajeve, izbegavati)
   - `.klasa` (najčešće se koristi)
 - Boje
-  - Izbor osnovne palete ([primeri](https://color.adobe.com/explore/))
+  - [Osnovne palete boja](https://color.adobe.com/explore/) i [paleta na osnovu slike](https://www.canva.com/color-palette/)
   - [Heksadecimalni brojevi](/heksadecimalni-brojevi)
 - [Podrazumevani stilovi pregledača](/podrazumevani-stilovi-pregledaca)
 - [Vežba: Promeni boju slova i pozadine](/vezba-boja-slova-i-pozadine)

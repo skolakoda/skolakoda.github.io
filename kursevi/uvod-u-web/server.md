@@ -7,9 +7,9 @@ image: /images/koncepti/web/zahtev-odgovor.png
 
 ![]({{page.image}})
 
-**Server je specijalizovani softver koji se nalazi instaliran na nekom računaru, koga takođe žargonski zovemo server. Primarna uloga servera je da se na njemu hostuju sajtovi i aplikacije i na tako postanu dostupne na webu.**
+**Server ili poslužitelj je računar povezan na mrežu, koji prima zahteve pregledača i odgovara na njih. Server je takođe naziv za specijalizovani softver instaliran na tom računaru. Primarna uloga poslužitelja je da se na njemu hostuju stranice i fajlovi, i tako postanu dostupni na webu.**
 
-Server (ili služitelj) se instalira na računaru koji mora da ima statičku (nepromenljivu) IP adresu, da bi bio jedinstveno prepoznatljiv na internetu. Primarna karakteristika servera je da ume da prihvata http zahteve (*request*) i da generiše http odgovore (*response*). Glavna funkcionalnost servera je da po dobijanju http zahteva ispravno protumači zahtev, pronađe željeni resurs, obradi ga i pripremi za slanje u formi http odgovora. Na primer, to podrazumeva da kada pregledač zahteva sadržaj određene strane, server treba da tu stranicu pronađe, pripremi za slanje i pošalje, a nakon toga isporuči sve druge fajlove koje ta strana sadrži (npr. slike, audio fajlove i sl.), da bi korisnik u pregledaču video celokupnu web stranu.
+Server se instalira na računaru koji mora da ima statičku (nepromenljivu) IP adresu, da bi bio jedinstveno prepoznatljiv na internetu. Primarna karakteristika servera je da ume da prihvata http zahteve (*request*) i da generiše http odgovore (*response*). Glavna funkcionalnost servera je da po dobijanju http zahteva ispravno protumači zahtev, pronađe željeni resurs, obradi ga i pripremi za slanje u formi http odgovora. Na primer, to podrazumeva da kada pregledač zahteva sadržaj određene strane, server treba da tu stranicu pronađe, pripremi za slanje i pošalje, a nakon toga isporuči sve druge fajlove koje ta strana sadrži (npr. slike, audio fajlove i sl.), da bi korisnik u pregledaču video celokupnu web stranu.
 
 ## Najpopularniji web serveri
 

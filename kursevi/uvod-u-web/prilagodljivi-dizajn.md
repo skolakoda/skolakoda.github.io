@@ -1,5 +1,5 @@
 ---
-title: Uvod u prilagodljivi dizajn
+title: Prilagodljivi web dizajn
 layout: lekcija-html
 permalink: /prilagodljivi-dizajn
 image: /images/koncepti/web/responsive.svg
@@ -9,9 +9,9 @@ image: /images/koncepti/web/responsive.svg
 
 ***Nekada su svi sajtovi pravljeni fiksne širine, oko 1000 piksela, i očekivalo se da će svi korisnici imati prilično isto iskustvo.***
 
-Danas postoji mnoštvo uređaja raznih veličina, od mobilnog telefona do zidnog televizora, tako da više nije moguće imati sajt iste veličine za sve uređaje. Već godinama, neprestano raste upotreba mobilnih uređaja za pregled interneta. S druge strane, uobičajena je upotreba monitora od 27 i 30 inča. Razlika izmedu najmanjih i najvećih ekrana je veća nego ikad.
+Danas imamo mnoštvo uređaja raznih veličina, od mobilnih telefona do zidnih televizora, i više nije moguće imati isti prikaz za sve. Upotreba mobilnih za pregled interneta stalno raste. S druge strane, uobičajena je upotreba monitora od 27 i 30 inča. Razlika izmedu najmanjih i najvećih ekrana je veća nego ikad.
 
-Standarno rešenje je prilagodljiv web dizajn, koji prikazuje sadržaj na najprihvatljiviji način za bilo koju veličinu ekrana.
+Rešenje je prilagodljivi web dizajn, koji prikazuje sadržaj na prihvatljiv način za bilo koju veličinu ekrana. Cilj prilagodljivog dizajna je da imamo jedan osnovni HTML i CSS kod, koji se može prikazati na bilo kom uređaju. To znači da će ista stranica moći da se pregleda na mobilnom telefonu i veli­kom monitoru i da će biti funkcionalna na oba uređaja, premda neće izgledati identično.
 
 ## Prvo desktop dizajn (*desktop-first*)
 
