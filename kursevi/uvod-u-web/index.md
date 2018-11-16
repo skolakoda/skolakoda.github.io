@@ -45,7 +45,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - `tag` (za osnovne stilove)
   - `#id` (samo za specifične slučajeve, izbegavati)
   - `.klasa` (najčešće se koristi)
-- Boje
+- [Boje u CSS-u](/css-boje)
   - [Osnovne palete boja](https://color.adobe.com/explore/) i [paleta na osnovu slike](https://www.canva.com/color-palette/)
   - [Heksadecimalni brojevi](/heksadecimalni-brojevi)
 - [Podrazumevani stilovi pregledača](/podrazumevani-stilovi-pregledaca)
