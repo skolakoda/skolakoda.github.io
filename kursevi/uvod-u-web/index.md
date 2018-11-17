@@ -38,16 +38,12 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Vežba: Napravi stranicu koja ima naslov, tekst, sliku i link
 - Vežba: Postavi stranicu na Github
 
-### Boje
+### Dodajemo boje
 
 - [Dodavanje CSS-a](/dodavanje-css-a)
-- Selektori
-  - `tag` (za osnovne stilove)
-  - `#id` (samo za specifične slučajeve, izbegavati)
-  - `.klasa` (najčešće se koristi)
+- [Osnovni selektori](/css-selektori)
 - [Boje u CSS-u](/css-boje)
-  - [Osnovne palete boja](https://color.adobe.com/explore/) i [paleta na osnovu slike](https://www.canva.com/color-palette/)
-  - [Heksadecimalni brojevi](/heksadecimalni-brojevi)
+  - [Bonus: Heksadecimalni brojevi](/heksadecimalni-brojevi)
 - [Podrazumevani stilovi pregledača](/podrazumevani-stilovi-pregledaca)
 - [Vežba: Promeni boju slova i pozadine](/vezba-boja-slova-i-pozadine)
 - Vežba: Otkrij ko ne nasleđuje boju od roditelja?
@@ -95,7 +91,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Vežba: napravi mobilnu navigaciju](/vezba-napravi-navigaciju)
 - [Vežba: napravi unutrašnju navigaciju](/vezba-unutrasnja-navigacija)
 
-### Prikaz elemenata (`display`)
+### Prikaz elemenata
 
 - Osnovni prikazi: `block`, `inline` i `inline-block`
 - [Fleksibilni prikaz (display: flex)](/fleksibilni-prikaz)
@@ -148,14 +144,16 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Vežba: pošalji kontakt formu (koristi [formspree.io](https://formspree.io/))
 
 ### Dobre CSS prakse
-- [Dobre CSS prakse](/css-saveti)
+
+- [Dobre CSS prakse](/css-dobre-prakse)
 - Upotreba `!important` kao loša praksa
 - Skraćene direktive i opasnost od gaženja
 - Vežba: organizuj kod u logične celine
 - Vežba: podeli CSS u manje fajlove i uvezi ih u glavni fajl
 
 ### Napredni selektori
-- Naslednici (`div div`) i direktna deca (`div > div`)
+
+- [Naslednici i direktna deca](/css-naslednici-i-deca)
 - `[atribut]` selektor
 - Blizanački selektori: *adjacent sibling* (`+`) i *general sibling* (`~`)
 - n-to dete i n-ti tip

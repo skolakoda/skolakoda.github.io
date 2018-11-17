@@ -2,13 +2,19 @@
 title: Dobre CSS prakse
 layout: lekcija-html
 author: damjan
-permalink: /css-saveti
+permalink: /css-dobre-prakse
+redirect_from: /css-saveti
 image: /images/kursevi/css.png
 ---
 
 ![]({{page.image}})
 
-Ako se ozbiljno baviš frontendom, verovatno već slediš dobre CSS prakse, to jest [ne koristiš !important](https://github.com/CSSLint/csslint/wiki/Disallow-!important), [izbegavaš ID selektore](https://github.com/CSSLint/csslint/wiki/Disallow-IDs-in-selectors), [izbegavaš float](https://github.com/CSSLint/csslint/wiki/Disallow-too-many-floats) i slično. Pored tih osnovnih pravila, postoji još puno stvari na koje treba obratiti pažnju kako bi se pisao kvalitetan i održiv CSS.
+Ako se ozbiljno baviš frontendom, verovatno već slediš dobre CSS prakse, to jest:
+- [ne koristiš !important](https://github.com/CSSLint/csslint/wiki/Disallow-!important)
+- [izbegavaš ID selektore](https://github.com/CSSLint/csslint/wiki/Disallow-IDs-in-selectors)
+- [izbegavaš float](https://github.com/CSSLint/csslint/wiki/Disallow-too-many-floats) i slično
+
+Pored tih osnovnih pravila, postoji još puno stvari na koje treba obratiti pažnju kako bi se pisao kvalitetan i održiv CSS.
 
 ### Ne gazi prethodne stilove
 

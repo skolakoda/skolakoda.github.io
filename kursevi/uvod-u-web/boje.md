@@ -42,11 +42,13 @@ Kao što vidimo, crna se dobija postavljanjem tri osnovne boje na intenzitet „
 
 ## Neprozirnost (*opacity*)
 
-CSS je dodao mogućnost za providnost boja pomoću alfa kanala na RGB i HSL bojama. Podrazumevano je neprozirnost boja 100%. Međutim, ako promenite RGB ili HSL boje doda­vanjem broja od 0 do 1, možete napraviti prozirne boje. Na primer, crvena boja (rgb(255,0,0)) postaje ružičasta kada se prozirnost na beloj pozadini postavi na 50% (`rgba(255,0,0,0.5)`).
+CSS je dodao mogućnost za prozirnost boja pomoću alfa kanala na RGB i HSL bojama. Podrazumevano je neprozirnost boja 100%. Međutim, ako promenite RGB ili HSL boje doda­vanjem broja od 0 do 1, možete napraviti prozirne boje. Na primer, crvena boja (rgb(255,0,0)) postaje ružičasta kada se prozirnost na beloj pozadini postavi na 50% (`rgba(255,0,0,0.5)`).
 
-## Gde pronaći boje
+## Gde pronaći boje?
 
-Na [Adobe Color](https://color.adobe.com) možete lako da kreirate, pretražujete i ocenjujete palete boja koje su drugi napravili, što je sjajno za inspiraciju ako planirate da dodate boje na svom sajtu.
+Ukoliko "nemate oko" za boje, na [Adobe Color](https://color.adobe.com) možete naći popularne palete boja koje su drugi napravili, kako biste ih iskoristili na svom sajtu.
+
+Ako imate fotografije za sajt, ali još uvek niste izabrali boje, možete automatski generisati paletu boja na osnovu fotografije. Postoji mnoštvo online servisa koji to rade, na primer *[Color palette generator](https://www.canva.com/color-palette/)*.
 
 ### Izvori
 
