@@ -51,10 +51,8 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 ### Tipografija
 
 - [Tipografija i web development](/tipografija-i-web-development)
-- Merne jedinice
-  - Pikseli `px` (veličina jedne tačke)
-  - Procenti `%` (u odnosu na roditelja)
-  - [Upotreba ema za tipografiju](/em-jedinica-tipografija)
+- [Merne jedinice](/merne-jedinice)
+- [Upotreba ema za tipografiju](/em-jedinica-tipografija)
 - [Vežba: Promeni porodicu i veličinu slova](/vezba-porodica-i-velicina-slova)
 
 ### HTML struktura
