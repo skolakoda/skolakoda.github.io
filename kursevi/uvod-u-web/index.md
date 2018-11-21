@@ -60,7 +60,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Osnovna HTML struktura](/html-struktura)
 - [HTML kao stablo](/html-stablo)
 - [Provera validnosti stranica](/html-validacija)
-- Vežba: dodaj osnovnu strukturu na stranice
+- Vežba: postavi osnovnu strukturu stranice
 - Vežba: proveri [validnost stranica](https://validator.w3.org/)
 
 ### Linkovi i putanje
