@@ -57,12 +57,10 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 ### HTML struktura
 
-- [HTML struktura stabla](/ucimo-html/stablo)
-  - Glava stranice, tj. metapodaci
-  - Telo stranice, tj. sadržaj
-- Obavezna `<!DOCTYPE html>` oznaka
-- Opcione `html`, `head`, i `body` oznake
-- Vežba: postavi osnovnu strukturu stranice
+- [Osnovna HTML struktura](/html-struktura)
+- [HTML kao stablo](/html-stablo)
+- [Provera validnosti stranica](/html-validacija)
+- Vežba: dodaj osnovnu strukturu na stranice
 - Vežba: proveri [validnost stranica](https://validator.w3.org/)
 
 ### Linkovi i putanje

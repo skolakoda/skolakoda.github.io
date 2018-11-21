@@ -1,18 +1,19 @@
 ---
 title: HTML stablo
 layout: lekcija-html
-permalink: /ucimo-html/stablo
+permalink: /html-stablo
+redirect_from: /ucimo-html/stablo
 ---
 
-HTML elementi su ugnježdeni jedni unutar drugih (*deca* unutar *roditelja*), tvoreći strukturu stabla.
-
-![dom drvo](/images/koncepti/podaci/html-stablo.png)
+**HTML elementi su ugnježdeni jedni unutar drugih (*deca* unutar *roditelja*), tvoreći strukturu stabla.**
 
 HTML stablo podseća na porodično, pa svakom elementu možemo utvrditi pretke i naslednike. Glavna razlika je što HTML elementi imaju samo jednog roditelja.
 
 ## Vežba
 
-Uporedi gornju sliku stabla sa kodom u editoru. Pronađi sličnosti i razlike:
+![dom drvo](/images/koncepti/podaci/html-stablo.png)
+
+Uporedi sliku stabla sa kodom u editoru. Pronađi sličnosti i razlike:
 
 {:.html-ulaz}
 ```html
@@ -59,11 +60,3 @@ Uporedi gornju sliku stabla sa kodom u editoru. Pronađi sličnosti i razlike:
 ```
 
 Kao što možeš videti, sadržaj glave se ne prikazuje na ekranu, samo sadržaj tela stranice.
-
-## HTML glava i telo
-
-Dva osnovna elementa stranice, unutar kojih se svi ostali nalaze, su glava (`<head>`) i telo (`<body>`).
-
-Unutar glave smeštamo meta podatke, koji se ne prikazuju na stranici, ali su bitni za njeno funkcionisanje (npr. način kodiranja karaktera, prilagođavanje širine, opis stranice i slično).
-
-Unutar tela su naslovi, pasusi, podeoci, slike, liste i ostalo, ukratko čitav sadržaj stranice.
