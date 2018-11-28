@@ -4,7 +4,7 @@ layout: lekcija-html
 permalink: /html-atributi
 ---
 
-**HTML elementi mogu imati atribute. Atributi pružaju dodatne informacije o HTML elementu.**
+**HTML elementi mogu imati atribute ili svojstva. Atributi pružaju dodatne informacije o elementu.**
 
 Atributi obično imaju naziv i vrednost, u formatu `naziv="vrednost"`. Između naziva i vrednosti atributa uvek ide `=` (operator dodele). Na primer, ako pasusu želimo dodati klasu "lead", pišemo:
 

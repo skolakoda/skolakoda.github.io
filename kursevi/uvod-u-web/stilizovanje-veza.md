@@ -5,11 +5,9 @@ permalink: /stilizovanje-veza
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chains_%2825491126954%29.jpg/1024px-Chains_%2825491126954%29.jpg
 ---
 
-**Skromna veza do sidra (*anchor link*) temelj je World Wide Weba.**
+**Podrazumevano stilizovanje veza prilično je nenadahnuto, ali s malo CSS-a možemo učiniti zadivljujuće stvari.**
 
-To je mehanizam koji omogućuje međusobno povezivanje stranica, a korisnicima istraživanje i kretanje kroz njih. Podrazumijevano stilizovanje veza prilično je nenadahnuto, no s malo CSS-a možete učiniti zadivljujuće stvari.
-
-## Prosto stilizovanje veza
+## Prosto stilizovanje
 
 Najlakši način stilizovanja veze je upotreba selektora tipa sidra (`a`). Na primjer, ovo će pravilo sva sidra obojati crveno:
 

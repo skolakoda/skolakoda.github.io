@@ -65,7 +65,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 ### Linkovi i putanje
 
-- *Anchor* element (`a`) i njegovi atributi
+- [Linkovi](/linkovi)
 - [URL, jedinstvena adresa dokumenta](/url)
   - Relativne i apsolutne putanje
   - Unutrašnje veze ka delu stranice
