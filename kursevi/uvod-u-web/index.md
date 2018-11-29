@@ -18,7 +18,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Uvod u HTML?](/uvod-html)
 - [Uvod u CSS?](/uvod-css)
 - [Kratka istorija weba](/kratka-istorija-weba)
-- Konvencija imenovanja fajlova i foldera
 
 ### Upoznavanje alata
 
@@ -29,12 +28,13 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 ### Moja prva stranica
 
-- [Pravljenje HTML fajla](/pravljenje-html-fajla)
 - [HTML elementi](/html-elementi)
   - Razlikovanje `block` i `inline` elemenata
   - [Gneždenje elemenata](/ucimo-html/gnezdenje)
-- [HTML atributi](/html-atributi) (`src`, `href`)
+- [HTML atributi](/html-atributi)
   - [Upotreba navodnika](/ucimo-html/navodnici)
+- [Pravljenje HTML fajla](/pravljenje-html-fajla)
+- [Imenovanje fajlova i foldera](/imenovanje-fajlova-i-foldera)
 - Vežba: Napravi stranicu koja ima naslov, tekst, sliku i link
 - Vežba: Postavi stranicu na Github
 
@@ -164,7 +164,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Primer: [animirani meni](https://github.com/mudroljub/animirani-meni)
 - Primer: [avionče (animacija sa rotacijom)](https://jsfiddle.net/mudroljub/x5Ljzcky/)
 
-### Mrežna komunikacija
+### Serviranje fajlova
 
 - [Server](/server)
 - [HTTP protokol](/http)
@@ -172,6 +172,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - GET (čitanje resursa preko mreže)
   - POST (slanje resursa preko mreže)
 - [Sistem imena domena](/sistem-imena-domena)
+- [Web hosting](/hosting)
 
 ### Optimizacija brzine
 - Merenje brzine učitavanja ([PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/))
