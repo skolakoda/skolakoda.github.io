@@ -53,6 +53,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Tipografija i web development](/tipografija-i-web-development)
 - [Merne jedinice](/merne-jedinice)
 - [Upotreba ema za tipografiju](/em-jedinica-tipografija)
+- [Osobina kaskadiranja](/kaskadiranje)
 - [Vežba: Promeni porodicu i veličinu slova](/vezba-porodica-i-velicina-slova)
 
 ### HTML struktura
@@ -77,9 +78,9 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 ### Liste i navigacija
 
-- Liste (`li`)
-  - Redne liste (`ol`) i bez redosleda (`ul`)
-  - Ugnježdene liste
+- [Liste (uređene i neuređene)](/html-liste)
+  - [Liste definicija](/lista-definicija)
+  - [Ugnježdene liste](/ugnjezdene-liste)
 - Navigacija (`nav`)
   - pravljenje navigacije pomoću liste
   - pravljenje navigacije pomoću linkova

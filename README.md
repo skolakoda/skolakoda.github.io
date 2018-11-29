@@ -27,7 +27,6 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
-- prekopirati ikonice za deljenje sa simplesharebuttons.com
 - napraviti css-ulaz
 - dodati dugme "prijavi se na čekanje"
 - dodati bazu filmova i nove projekte (igor, joxa)
