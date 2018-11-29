@@ -8,16 +8,16 @@ permalink: tipovi-podataka-u-javaskriptu
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T0VLAWelSUA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-U Javascriptu postoji 7 tipova podataka:
+JavaScript ima sledeće proste tipove podataka:
 
-- šest prostih tipova:
-  - broj (*number*)
-  - struna (*string*)
-  - logički tip (*boolean*)
-  - null
-  - undefined
-  - symbol (novo u ECMAScript 6)
-- i objekat (*object*), koji označava sve složene strukture, uključujući funkciju, niz, mapu i skup.
+- broj (*number*), koji može biti ceo ili decimalni
+- struna (*string*), kao što je "Zdravo Svete"
+- logička ili Bulova vrednost (*boolean*), kao što je tačno (`true`) ili netačno (`false`)
+- `null`, koji se koristi da predstavi nepostojeću vrednost
+- `undefined`, za vrednost promenljivih koje su deklarisane ali im još nije dodeljena vrednost (i za povratnu vrednost funkcija koje ne vraćaju vrednost)
+- symbol (novo u ECMAScript 6)
+
+Pored prostih tipova, postoji složeni tip objekat (*object*), koji označava sve složene strukture, uključujući funkciju, niz, mapu i skup.
 
 ## Provera tipa podatka (`typeof`)
 
@@ -36,7 +36,7 @@ const dnevniPazar = 30000
 console.log(typeof dnevniPazar)
 
 // tekst odnosno struna
-const pozdrav = 'Dobro jutro komšija'
+const pozdrav = "Dobro jutro komšija"
 console.log(typeof pozdrav)
 
 /* SLOZENI TIPOVI */

@@ -1,23 +1,26 @@
 ---
-title: Operatori poređenja
+title: Operatori poređenja u Javascriptu
 layout: lekcija-js
 author: damjan
 permalink: /operatori-poredjenja
 ---
 
-Glavni operatori poređenja (ili relacijski operatori) su:
+Operatori poređenja ili relacijski operatori u Javascriptu, kao i mnogim drugim jezicima, su sledeći:
 
-* jel **veće** (`>`)
-* jel **manje** (`<`)
-* jel **jednako** (`==`)
-* jel **nejednako** (`!=`)
+OPERATOR | NAZIV OPERATORA | UPOTREBA | OPIS
+---|---------|--------|----------------------
+== | jednako | a == b | proverava da li je a jednako b
+!= | nejednako | a != b | proverava da li a nije jednako b
+<  | manje od | a < b | proverava da li je a manje od b
+<= | manje ili jednako | a <= b | proverava da li je a manje ili jednako b
+>  | veće od | a > b | proverava da li je a veće od b
+>= | veće ili jednako | a >= b | proverava da li je a veće ili jednako b
 
-Postoje i dva kombinovana operatora, koja takođe često koristimo:
+Svi operatori poređenja daju vrednost `true` ili `false`.
 
-* jel **veće ili jednako** (`>=`)
-* jel **manje ili jednako** (`<=`)
+## Upotreba
 
-Prosleđujemo im dve vrednosti (sa leve i desne strane), a kao rezultat dobijemo `true` ili `false`. Na primer:
+Operatorima poređenja prosleđujemo dve vrednosti (sa leve i desne strane), a kao rezultat dobijemo `true` ili `false`. Na primer:
 
 {:.izraz}
 ```js
@@ -40,10 +43,10 @@ Zbog toga što operišu nad dve vrednosti, spadaju u dvojne, odnosno binarne ope
 
 ## Jednakost i identičnost
 
-U nekim jezicima postoji razlika između jednakosti i identičnosti:
+U Javascriptu postoji razlika između jednakosti i identičnosti:
 
-* jel **jednako** (`==`), jel iste vrednosti
-* jel **identično** (`===`), jel iste vrednosti i istog tipa
+* jel **jednako** (`==`), odnosno jel iste vrednosti
+* jel **identično** (`===`), odnosno jel iste vrednosti i istog tipa
 
 Provera jednakosti i identičnosti u nekim slučajevima daje različite razultate:
 
@@ -57,4 +60,5 @@ Provera jednakosti i identičnosti u nekim slučajevima daje različite razultat
 2 === "2"
 ```
 
+{:.uokvireno.ideja}
 Sve ovo možete odmah isprobati uživo ili u konzoli pregledača.

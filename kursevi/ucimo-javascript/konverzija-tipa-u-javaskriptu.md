@@ -1,10 +1,12 @@
 ---
 title: Promena tipa podatka u Javaskriptu
 layout: lekcija-js
-permalink: promena-tipa-podatka-u-javaskriptu
+permalink: konverzija-tipa-u-javaskriptu
 ---
 
-**U Javaskriptu tipove podataka možemo menjati iz jednog u drugi, pomoću ugrađenih metoda.**
+**Neke tipove podataka možemo menjati iz jednog u drugi.**
+
+Da bismo eksplicitno konvertovali podatke iz jednog tipa u drugi, možemo da koristimo ugrađene funkcije za konverziju tipa. To su `Number()`, `Boolean()` i `String()`.
 
 ## Primer: promena strune u broj
 
@@ -23,5 +25,5 @@ Konverzija strune u broj se obavezno vrši prilikom korisničkog unosa brojeva, 
 ```js
 const voce = ['banana', 'narandza', 'jabuka', 'kruska']
 
-console.log(voce.toString())
+console.log(String(voce))
 ```

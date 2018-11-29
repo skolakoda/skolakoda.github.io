@@ -22,11 +22,13 @@ while (brojac < 5) {
 }
 ```
 
+Petlja `while` koristi samo jedan uslov. Sve dok je on tačan, naredbe unutar vitičastih zagrada nastavljaju da se izvršavaju. Sami smo odgovorni za kreiranje logike koja će na kraju prouzrokovati da se petlja završi. 
+
 Mana `while` petlje je što sami vodimo računa o uslovu izlaska iz petlje i inkrementaciji (povećanju) brojača, tako da usled nepažnje možemo završiti u beskonačnoj petlji.
 
 ## `for` petlja
 
-`for` petlja je usavršena verzija osnovne `while` petlje, koja je dizajnirana tako da moramo zadati uslov izlaska iz petlje i inkrementaciju brojača da bi radila:
+`for` petlja je usavršena verzija osnovne `while` petlje, dizajnirana tako da moramo zadati uslov izlaska i inkrementaciju brojača da bi radila. Zaglavlje `for` petlje ima tri dela. Prvi deo je deklaracija promenljive koja prati iteraciju. Drugi deo je logički izraz, na osnovu kojeg petlja radi ili prestaje sa radom. Treći deo je naredba povećavanja (ili smanjenja) brojača, tako da se na kraju zadovolji uslov za prestanak rada petlje.
 
 {:.ulaz}
 ```js
@@ -35,7 +37,7 @@ for (let brojac = 0; brojac < 5; brojac++) {
 }
 ```
 
-Pošto su samom strukturom `for` petlje propisani osnovni elementi, ona je bezbednija za korištenje i ređe završava u beskonačnom ponavljanju.
+Pošto su samom strukturom `for` petlje propisani osnovni elementi, ona je bezbednija za upotrebu i ređe završava u beskonačnom krugu.
 
 ## Petlje i logika
 
