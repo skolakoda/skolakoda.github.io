@@ -1,5 +1,5 @@
 ---
-title: "Vežba: interakcija objekata"
+title: "Vežba: prenos sredstava sa računa"
 layout: lekcija-js
 permalink: /vezba-interakcija-objekata
 ---
@@ -40,4 +40,4 @@ musterija2.prenesiSredstva(musterija1, 3000)
 ```
 
 {:.ideja.uokvireno}
-Prikači JS kod za HTML i pokreni ga u pregledaču. Otvori konzolu i uživo prenosi sredstva sa jednog objekta na drugi.
+Prikači JS kod za praznu HTML stranicu i pokreni ga u pregledaču. Otvori konzolu i uživo prenosi sredstva sa jednog objekta na drugi.

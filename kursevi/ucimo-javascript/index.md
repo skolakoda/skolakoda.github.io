@@ -121,7 +121,7 @@ image: /images/kursevi/js-logo.png
 - [Klase u Javascriptu](/javascript-klase)
 - [Nasleđivanje klasa u Javascriptu](/javascript-nasledjivanje-klasa)
 - `constructor`, `super` i `this`
-- [Vežba: prenos sredstava sa računa pomoću klase](/vezba-interakcija-klasa)
+- [Vežba: prenos sredstava pomoću klase](/vezba-interakcija-klasa)
 - Vežba: napravi bazu filmova (niz objekata) sa pretragom
 
 ### Kodni standard
