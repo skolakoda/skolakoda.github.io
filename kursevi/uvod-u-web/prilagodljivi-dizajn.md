@@ -7,9 +7,9 @@ image: /images/koncepti/web/responsive.svg
 
 ![responsive web-design]({{page.image}})
 
-**Prilagodljivi web dizajn je prikaz sadržaja na najprihvatljiviji način za bilo koju veličinu ekrana.**
+**Prilagodljivi web dizajn (*responsive web design*) je prikaz sadržaja stranice na najprihvatljiviji način za bilo koju veličinu ekrana.**
 
-*Responsive* web dizajn je važan zato što broj pregledača i uređaja koji prikazuju veb stranice stalno raste. Nekada su sajtovi pravljeni fiksne širine, oko 1000 piksela, i očekivalo se da će svi korisnici imati slično iskustvo. Danas imamo mnoštvo uređaja raznih veličina, od mobilnih telefona do zidnih televizora, i više nije moguće imati isti prikaz za sve. Razlika izmedu najmanjih i najvećih ekrana je veća nego ikad.
+Nekada su sajtovi pravljeni fiksne širine, oko 1000 piksela, i očekivalo se da će svi korisnici imati slično iskustvo. Danas imamo mnoštvo uređaja raznih veličina, od mobilnih telefona do zidnih televizora, i više nije moguće imati isti prikaz za sve. Prilagodljivi dizajn je važan zato što broj uređaja koji prikazuju web stranice stalno raste. 
 
 Cilj prilagodljivog dizajna je da imamo jedan osnovni HTML i CSS kod, koji se dobro prikazuje na svim uređajima, uključujući telefon, računar i pločicu pametnog frižidera. To znači da će ista stranica biti funkcionalna na svim uređajima, premda neće izgledati identično. 
 
