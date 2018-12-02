@@ -1,12 +1,10 @@
 ---
-title: CSS medija upiti i tačke preloma
+title: Tačke preloma
 layout: lekcija-html
-permalink: /medija-upiti-i-tacke-preloma
+permalink: /tacke-preloma
 ---
 
-**Medija upiti (*media queries*) služe da saznamo veličinu klijentskog uređaja, i tome prilagodimo stranicu. Promena dizajna na određenoj veličini naziva se tačka preloma (*breakpoint*).**
-
-Prilagodljivi web dizajn se implementira pomoću prelomnih tačaka. 
+**Responzivna tačka preloma (*responsive breakpoint*) je promena dizajna na određenoj veličini uređaja. Prilagodljivi web dizajn se implementira pomoću prelomnih tačaka.**
 
 ## Prost primer
 
@@ -24,35 +22,8 @@ body {
 }
 ```
 
-## Primer: Prilagodljiva navigacija
-
-U HTML-u imamo sledeću navigaciju:
-
-```html
-<nav>
-    <a href="">Naslovna</a>
-    <a href="">O nama</a>
-    <a href="">Usluge</a>
-    <a href="">Kontakt</a>
-</nav>
-```
-
-Pomoću CSS-a zadajemo da elementi navigacije podrazumevano imaju prikaz `block` (za male uređaje), a zatim da imaju prikaz `inline-block` za uređaje veće od `800px`:
-
-```css
-nav a {
-    display: block;
-}
-
-@media (min-width: 800px) {
-  nav a {
-      display: inline;
-  }
-}
-```
-
 {:.uokvireno.ideja}
-Ovde, kao i u ostalim primerima, primenjujemo princip *mobile first*, tj. podrazumevani stilovi su za male uređaje, a prilagođavamo ih za sve ostale.
+Ovde, kao i u ostalim primerima, primenjujemo princip *mobile first*, tj. podrazumevani stilovi su za mobilne uređaje, a prilagođavamo ih za sve ostale.
 
 ## Standardne tačke preloma (*responsive breakpoints*)
 
