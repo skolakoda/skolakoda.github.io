@@ -107,7 +107,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Uvod u prilagodljivi dizajn](/prilagodljivi-dizajn)
 - [Medija upiti](/medija-upiti)
 - [Tačke preloma](/tacke-preloma)
-- Prvo mobilni dizajn (*mobile first*)
+- [Prvo mobilni dizajn](/prvo-mobilni)
 - [Bootstrap biblioteka](https://www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
 - [Vežba: napravi prilagodljivu navigaciju](/vezba-prilagodljiva-navigacija)
 - Vežba: prilagodi prikaz stranica za razne uređaje
