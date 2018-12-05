@@ -7,7 +7,11 @@ image: /images/koncepti/web/pozicioniranje-elemenata.png
 
 ![]({{page.image}})
 
-**Pozicija elementa određuje gde će on biti prikazan na stranici.** Pozicioniranje elemenata se reguliše preko osnovnog svojstva `position` i pomoćnih svojstava `left`, `right`, `top` i `bottom`.
+**Pozicija elementa (svojstvo `position`) određuje gde će on biti prikazan na stranici.** 
+
+Postoje četiri šeme pozicioniranja, koje možemo podeliti u dve grupe: `static` i `relative` ne remete raspored, dok `absolute` i `fixed` iskaču iz normalnog toka.
+
+Za svaku poziciju osim statične možemo koristiti dodatna svojstva: `left`, `right`, `top` i `bottom`.
 
 ## Statična pozicija (`static`)
 
@@ -17,9 +21,7 @@ To znači da svaki element zauzima svoje regularno mesto na ekranu.
 
 ## Fiksna pozicija (`fixed`)
 
-Fiksna pozicija fiksira element za određeni deo ekrana. Često se koristi kada želimo da `header` i `footer` budu pričvršćeni na vrhu, odnosno dnu stranice.
-
-Primer:
+**Fiksna pozicija fiksira element za ekran.** Često se koristi kada želimo da `header` i `footer` budu prilepljeni na vrhu, odnosno dnu ekrana. Primer sintakse:
 
 ```css
 footer {
@@ -30,9 +32,7 @@ footer {
 
 ## Apsolutna pozicija (`absolute`)
 
-Apsolutna pozicija je slična fiksnoj, samo element nije fiksiran za ekran već za stranicu. Apsolutni element se pozicionira u odnosu na telo stranice (`body`) ili na prvog relativno pozicioniranog roditelja.
-
-Primer:
+**Apsolutna pozicija raspoređuje element u odnosu na telo stranice ili prvog relativno pozicioniranog roditelja.** Primer sintakse:
 
 ```css
 div {
@@ -44,15 +44,16 @@ div {
 
 ## Relativna pozicija (`relative`)
 
-Relativna pozicija je slična statičnoj, jer ostavlja element na svom uobičajenom mestu. Obično se koristi za zadavanje referentnog okvira apsolutno pozicioniranih elemenata.
-
-Za razliku od statične, relativna pozicija reaguje na promenu svojstava `left`, `right`, `top` i `bottom`.
-
-Primer:
+Relativna pozicija je slična statičnoj, jer ostavlja element na svom uobičajenom mestu. Za razliku od statične, relativna pozicija reaguje na promenu svojstava `left`, `right`, `top` i `bottom`. Na primer:
 
 ```css
 div {
   position: relative;
-  left: 30px;
+  left: 5Opx;
+  top: 5Opx;
 }
 ```
+
+Ovaj element se pozicionira relativno u odnosu na svoju poziciju u normalnom toku. U ovom slučaju, `div` će biti pomeren 50 piksela nadole i 50 piksela ulevo od svog normalnog položaja.
+
+Relativna pozicija se često koristi za zadavanje referentnog okvira ugnježdenim apsolutno pozicioniranim elementima, bez ikakvog mrdanja samog elementa. 
