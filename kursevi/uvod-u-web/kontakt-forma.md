@@ -6,7 +6,7 @@ permalink: /kontakt-forma
 
 **Kontakt forma (`<form>`) je standardan način da posetilac pošalje podatke vlasniku sajta. Obično se sastoji od nekoliko `input` polja, sa podacima koje korisnik unosi, i dugmeta za potvrdu slanja.**
 
-## `input`
+## `input` polje
 
 Polje za unos (`<input>`) služi da korisnik unese podatke. Postoji više tipova unosa, između ostalog: 
 
@@ -27,9 +27,15 @@ Ukoliko ne navedemo tip, podrazumeva se tekst. Veoma je bitno da svako polje ima
 
 Polje za unos može imati i **`placeholder`** atribut, koji pomaže posetiocima šta treba uneti.
 
+## Ostala polja
+
+Pored standardnih polja za unos, možemo koristiti polje za prihvatanje (`checkbox`) i `radio` dugmad.
+
+Za izbor jedne od više stavki koristimo padajući meni (`select`).
+
 Za unos više redova teksta, koristi se **`<textarea>`**. 
 
-## Primer: Prosta forma
+## Primer: Prost obrazac
 
 Sledeći formular ima tri polja za unos. Sva tri imaju atribut `required`, što ih čini obaveznima, i `name`, bez kojeg ne bi radila. Forma ima atribut `action`, sa adresom prihvatne stranice, i `method`, sa vrstom HTTP zahteva.
 
@@ -53,7 +59,7 @@ Sledeći formular ima tri polja za unos. Sva tri imaju atribut `required`, što 
 {:.uokvireno.ideja}
 Ukoliko na kraju adrese u `action` atributu uneseš svoj mejl, forma će raditi.
 
-## Primer: Kompleksna forma
+## Primer: Složen obrazac
 
 U narednom primeru koristimo daleko veći broj oznaka i atributa. Za svako polje formulara koristimo labelu, a neka polja imaju i `placeholder` atribut.
   

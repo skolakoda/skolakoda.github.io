@@ -8,9 +8,9 @@ permalink: /fleksibilni-prikaz
 
 Osnovne direktive za rad sa fleksom su:
 
-- Prelamanje u novi red (`flex-wrap`)
 - Horizontalno poravnanje (`justify-content`)
 - Vertikalno poravnanje (`align-items`)
+- Prelamanje u novi red (`flex-wrap`)
 
 ## Primer: Horizontalno poravnanje 
 

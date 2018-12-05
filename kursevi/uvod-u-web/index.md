@@ -67,7 +67,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 ### Linkovi i putanje
 
 - [Linkovi](/linkovi)
-- [URL, jedinstvena adresa dokumenta](/url)
+- [URL, jedinstvena adresa resursa](/url)
   - Relativne i apsolutne putanje
   - Unutrašnje veze ka delu stranice
 - [Stilizovanje veza](/stilizovanje-veza)
@@ -81,12 +81,13 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Liste (uređene i neuređene)](/html-liste)
   - [Liste definicija](/lista-definicija)
   - [Ugnježdene liste](/ugnjezdene-liste)
-- Navigacija (`nav`)
+- Navigacija
   - pravljenje navigacije pomoću liste
   - pravljenje navigacije pomoću linkova
   - menjanje boje na hover
 - [Vežba: napravi mobilnu navigaciju](/vezba-napravi-navigaciju)
 - [Vežba: napravi unutrašnju navigaciju](/vezba-unutrasnja-navigacija)
+- [Vežba: napravi padajući meni](/vezba-padajuci-meni)
 
 ### Prikaz elemenata
 
@@ -131,11 +132,10 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - Debljina, boja i vrsta granica
 - Vežba: promeni `box-sizing` elemenata u `border-box`, menjaj pading, uporedi razliku
 
-### Kontakt forma
+### Kontakt stranica
 
 - [Kontakt forma](/kontakt-forma)
-  - Padajući meni (`select`)
-  - `checkbox` polje i `radio` dugmad
+- [Umetnuti okvir](/iframe)
 - Slanje formulara serveru (`POST` metoda)
 - [Kako napraviti kontakt formu bez bekenda?](/kontakt-forma-bez-bekenda)
 - Vežba: validiraj unos i odredi obavezna polja
@@ -180,7 +180,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Merenje brzine učitavanja ([PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/))
 - Optimizacija brzine učitavanja
   - Optimizacija slika
-  - Minifikacija koda
+  - [Minifikacija koda](/minifikacija)
   - Uklanjanje ostalih prepreka
 
 ### SEO optimizacija
