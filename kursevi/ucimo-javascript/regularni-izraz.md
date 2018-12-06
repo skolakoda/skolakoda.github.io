@@ -1,5 +1,5 @@
 ---
-title: Regularni izrazi
+title: Regularni izraz
 layout: lekcija-js
 author: damjan
 image: /images/jezici/regex.jpg
@@ -33,10 +33,10 @@ U programu za pronalaženje psovki, to bi izgledalo ovako:
 const izjava = "Ti si govno!"
 const izraz = /govno/i
 
-if (izjava.match(izraz))
-  alert ("Izjava sadrži uvredljiv izraz.")
+if (izraz.test(izjava))
+  console.log("Izjava sadrži uvredljiv izraz.")
 else
-  alert ("Izjava ne sadrži uvredljiv izraz.")
+  console.log("Izjava ne sadrži uvredljiv izraz.")
 ```
 
 ## Početak i kraj (`^`, `$`)
@@ -48,10 +48,10 @@ Ako stavimo kapicu (`^`) ispred izraza koji tražimo, onda taj izraz mora biti n
 const izjava = "Ti si moj prijatelj!"
 const izraz = /^prijatelj/
 
-if (izjava.match(izraz))
-  alert ("Izjava počinje traženim izrazom.")
+if (izraz.test(izjava))
+  console.log("Izjava počinje traženim izrazom.")
 else
-  alert ("Izjava ne počinje traženim izrazom.")
+  console.log("Izjava ne počinje traženim izrazom.")
 ```
 
 Ukoliko stavimo znak dolara (`$`) iza izraza koji tražimo, onda taj izraz mora biti na samom kraju teksta.
@@ -73,8 +73,8 @@ Na primer:
 const struna = "Moje ime je Neo."
 const izraz = /[NG]eo/
 
-const ne = struna.match(izraz) ? "" : "ne "
-alert (`Obrazac se ${ne}nalazi u struni.`)
+const ne = izraz.test(struna) ? "" : "ne "
+console.log(`Obrazac se ${ne}nalazi u struni.`)
 ```
 
 ### Negacija (`[^]`)
@@ -93,8 +93,8 @@ Na primer:
 const struna = "11231"
 const izraz = /[^123]/
 
-const ne = struna.match(izraz) ? "" : "ne "
-alert (`Obrazac se ${ne} nalazi u struni.`)
+const ne = izraz.test(struna) ? "" : "ne "
+console.log(`Obrazac se ${ne}nalazi u struni.`)
 ```
 
 ### Raspon (`[-]`)
@@ -116,8 +116,8 @@ Na primer:
 const struna = "ZDRAVO SVETE 32354646"
 const izraz = /[a-z]/
 
-const ne = struna.match(izraz) ? "" : "ne "
-alert (`Obrazac se ${ne} nalazi u struni.`)
+const ne = izraz.test(struna) ? "" : "ne "
+console.log(`Obrazac se ${ne}nalazi u struni.`)
 ```
 
 Napomena: crtica izvan uglastih zagrada je samo crtica.
@@ -137,8 +137,8 @@ Na primer:
 const struna = "Vukov rečnik srpskog jezika"
 const izraz = /rj?ečnik/
 
-const ne = struna.match(izraz) ? "" : "ne "
-alert (`Obrazac se ${ne} nalazi u struni.`)
+const ne = izraz.test(struna) ? "" : "ne "
+console.log(`Obrazac se ${ne}nalazi u struni.`)
 ```
 
 Slično, zvezdica (`*`) znači da se prethodni znak javlja opciono, 0 ili više puta.
@@ -191,8 +191,8 @@ Primer:
 const struna = "Petar Petrović"
 const izraz = /(\w+)\W+(\w+)/
 
-const ne = struna.match(izraz) ? "" : "ne "
-alert (`Obrazac se ${ne} nalazi u struni.`)
+const ne = izraz.test(struna) ? "" : "ne "
+console.log(`Obrazac se ${ne}nalazi u struni.`)
 ```
 
 ## Alternativa (`|`)

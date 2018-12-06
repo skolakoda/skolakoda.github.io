@@ -174,19 +174,18 @@ image: /images/kursevi/js-logo.png
 ### Validacija korisničkog unosa
 
 - [Validacija formulara](/javascript-validacija-formulara)
+- [Regularni izraz](/regularni-izraz)
+- [Regularni izrazi za validaciju](/regularni-izrazi-za-validaciju)
 - Slanje formulara
-- [Regularni izrazi](/regularni-izraz)
-- Vežba: [email validacija](https://jsfiddle.net/mudroljub/h70xtpco/)
-- Vežba: spreči podrazumevano slanje, proveri podatke pa pošalji
-- Vežba: [izrazi za ime i prezime, adresu i email](https://jsfiddle.net/mudroljub/6b36w613/)
+- Vežba: validacija formulara (spreči podrazumevano slanje, proveri podatke pa pošalji)
 
 ### Slike i animacije
 
 - Učitavanje slika
 - Javascript animacije 
-- Vežba: promeni sliku na klik
-- Vežba: pokreni slajder kada su sve slike učitane
+- Vežba: napravi slajder (bonus: pokreni slajder kada su sve slike učitane)
 - Vežba: [dinamički napravi foto galeriju](https://jsfiddle.net/mudroljub/d4zwwp70/)
+- [Vežba: Javascript magija](/vezba-javascript-magija)
 
 ### Audio i video
 

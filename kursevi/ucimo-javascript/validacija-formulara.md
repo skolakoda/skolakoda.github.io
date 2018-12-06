@@ -36,7 +36,7 @@ Nekad je potrebno "ubiti" HTML funkcionalnost, i vršiti validaciju isključivo 
 Sledeća skripta je način da uradimo validaciju iz gornjeg primera isključivo putem Javascripta: 
 
 ```js
-const $ = selektor => document.querySelector(selektor)
+const $ = selektor => document.querySelector(selektor)  // alias funkcija
 
 const jeValidanBroj = x => typeof x == "number" && x >= 7 && x <= 77
 
