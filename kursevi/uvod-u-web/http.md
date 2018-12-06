@@ -18,3 +18,12 @@ image: /images/koncepti/web/zahtev-odgovor.png
 Kako je ova komunikacija definisana u više koraka, bazični princip rada HTTP je **zahtev/odgovor**. To znači da pregledač svaki put kada nešto traži od servera za prikaz strane (npr. sliku, CSS, zvuk... ), pravi http **zahtev** (*request*). Putem HTTP-a se ovaj zahtev isporučuje serveru, definisanom unutar URL adrese, a server nakon obavljenog posla šalje **odgovor** (*response*). Ovaj postupak se ponavlja onoliko puta koliko pregledač ima potrebe da zahteva fajlove ili podatke od servera.
 
 Razvojem HTTP-a je između ostalog koordinirao i [W3C](http://www.w3.org/) (*World Wide Web Consortium*), koji je posebno bitan za sve segmente web razvoja, obzirom da definiše veliki broj pravila i standarda web aplikacija, arhitekturu, tehnologiju, servise, pregledače i alate u domenu weba.
+
+## HTTP metode
+
+Dve glavne HTTP metode, i jedine dve koje HTML podržava, su:
+
+- GET (čitanje resursa preko mreže)
+- POST (slanje resursa preko mreže)
+
+GET metodu koristimo za dobavljanje svih resursa sa mreže (slika, skripti, fajlova), a POST za slanje korisničkog unosa serveru.

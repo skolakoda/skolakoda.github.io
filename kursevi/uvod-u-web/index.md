@@ -169,10 +169,8 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 ### Serviranje fajlova
 
 - [Server](/server)
+- [Protokoli](/protokoli)
 - [HTTP protokol](/http)
-- HTTP metode
-  - GET (čitanje resursa preko mreže)
-  - POST (slanje resursa preko mreže)
 - [Sistem imena domena](/sistem-imena-domena)
 - [Web hosting](/hosting)
 
