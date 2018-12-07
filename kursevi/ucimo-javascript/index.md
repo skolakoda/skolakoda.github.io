@@ -174,10 +174,10 @@ image: /images/kursevi/js-logo.png
 ### Validacija korisničkog unosa
 
 - [Validacija formulara](/javascript-validacija-formulara)
+- Slanje formulara
 - [Regularni izraz](/regularni-izraz)
 - [Regularni izrazi za validaciju](/regularni-izrazi-za-validaciju)
-- Slanje formulara
-- Vežba: validacija formulara (spreči podrazumevano slanje, proveri podatke pa pošalji)
+- [Vežba: validacija formulara](/vezba-js-validacija-formulara)
 
 ### Slike i animacije
 
