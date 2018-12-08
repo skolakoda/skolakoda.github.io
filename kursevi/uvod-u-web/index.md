@@ -126,10 +126,9 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 ### Box model
 
-- Box model (sadržaj, pading, granice, margine)
+- [Box model](/css-box-model)
+- [Margine i razmaci](/margine-i-razmaci)
 - Unutrašnje praznine (`padding`) i širina elementa
-- Granice (*border*) i širina elementa
-  - Debljina, boja i vrsta granica
 - Vežba: promeni `box-sizing` elemenata u `border-box`, menjaj pading, uporedi razliku
 
 ### Kontakt stranica
