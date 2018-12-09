@@ -115,12 +115,12 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 ### Slike i fotogalerija
 
-- Optimizacija slika za web
-  - formati: jpg, png, gif, svg
-- Razlika `alt` i `title` atributa
-- Uključenje spoljašnjih slika ([Wikimedia Commons](https://commons.wikimedia.org/)) i zabrana uključenja
-- Dodavanje pozadinske slike
-- `picture` tag za istu sliku raznih veličina
+- Optimizacija slika za web (formati: jpg, png, gif, svg)
+  - Razlika `alt` i `title` atributa
+  - Uključenje spoljašnjih slika ([Wikimedia Commons](https://commons.wikimedia.org/)) i zabrana uključenja
+- Pozadinska slika
+- [Mapirana slika](/mapirana-slika)
+- `picture` tag za razne rezolucije
 - Vežba: dodaj više veličina slike
 - [Vežba: napravi fotogaleriju](/vezba-napravi-fotogaleriju)
 
