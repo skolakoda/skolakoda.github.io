@@ -78,7 +78,7 @@ Kod kompjutera razlikujemo dve osnovne vrste memorije:
 
 Kod diskova je uobičajna podela memorijskog prostora na foldere (direktorijume), uređene u hijerarhiju. Osnovni sadržač podataka na diskovima je fajl (datoteka). Obzirom da su fajlovi veoma dugački nizovi bajtova, pojedinačnim bajtovima se ne pristupa direktno, već se fajl čita deo po deo, pa se onda u učitanom delu pronalaze podaci koje treba koristiti ili menjati.
 
-### Izvori
+### Literatura
 
 * Milan Popović, *Osnove programiranja (skripta)*
 * Filip Marić, Predrag Janičić, *Programiranje 1: Osnove programiranja kroz programski jezik C*, Beograd, 2015.

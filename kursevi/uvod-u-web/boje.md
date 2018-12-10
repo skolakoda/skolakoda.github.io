@@ -50,7 +50,7 @@ Ukoliko "nemate oko" za boje, na [Adobe Color](https://color.adobe.com) možete 
 
 Ako imate fotografije za sajt, ali još uvek niste izabrali boje, možete automatski generisati paletu boja na osnovu fotografije. Postoji mnoštvo online servisa koji to rade, na primer *[Color palette generator](https://www.canva.com/color-palette/)*.
 
-### Izvori
+### Literatura
 
 * Ben Frain, *HTML5 i CSS3: Prilagodljiv web dizajn*, Beograd, 2014.
 * Laura Lemay, Rafe Colburn, Jennifer Kyrnin, *HTML5, CSS3 i JavaScript za razvoj veb strana*, Beograd, 2016.

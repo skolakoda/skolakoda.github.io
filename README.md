@@ -27,8 +27,9 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
-- napraviti css-ulaz
 - dodati dugme "prijavi se na čekanje"
+- napraviti css-ulaz
+- dodati pretragu
 - dodati bazu filmova i nove projekte (igor, joxa)
 - dodati editovanje stranica
 - dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)

@@ -258,7 +258,7 @@ int main()
 }
 ```
 
-### Izvori
+### Literatura
 
 - *Uvod u programiranje - Računarski fakultet*, [Struktura podataka binarno stablo](https://petlja.org/BubbleBee/r/lekcije/uvod-u-programiranje/nedelja_12)
 - GeeksForGeeks, [Binary Search Tree (Search and Insertion)](https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/)

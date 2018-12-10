@@ -20,12 +20,6 @@ Postoji nekoliko stavki koje treba imati na umu:
 - Ograničite dužinu URL adrese. Unos dugačke URL adrese u telefonu je komplikovan, pa neki to neće raditi.
 - Testirajte sajt na što više pravih uređaja.
 
-## Šta traže mobilni posetioci?
-
-Pre­gledanje weba na mobilnim telefonima se razlikuje od pregledanja na računarima. Mobilni posetioci tačno znaju šta traže i kada to pronađu, preduzeće neku radnju. Oni koriste mobilne uređaje da bi pristupili lokalnim informaci­jama, pratili novosti ili kupili proizvode i usluge.
-
-Korisnici mobilnih uređaja su orijentisani na zadatke. Oni obično posećuju stranice zbog određenog razloga. Ako ne obave planiran zadatak, brzo će potražiti drugi sajt. Potrudite se da im obezbedite ono što žele što je moguće brže i lakše. Na primer, korisno je da sajt resto­rana odmah prikaže adresu mobilnim posetiocima, jer neko ko gleda taj sajt na telefonu verovatno traži dobro mesto za ručak.
-
 ## Neka linkovi budu dodirljivi
 
 Na mobilnim uređajima ljudi dodiruju stranice. Ako je teško dodirnuti link, to može izazvati frustracije. Korisnike će najviše frustrirati sledeće:
@@ -56,6 +50,6 @@ Kada posetilac dodirne link, otvoriće mu se aplikacija za poruke, zajedno sa te
 
 Iako ste verovatno isprobali stranicu na smanjenom pregledaču ili simulatoru, neophodno je sve proveriti i na mobilnom uređaju. Da li sajt radi? Da li je jednostavan za korišćenje? Da li možemo lako dodirnuti linkove i navigaciju? Ako radi kod nas, pitajmo još ljudi kako radi na njihovim uređajima.
 
-### Izvori
+### Literatura
 
 * Laura Lemay, Rafe Colburn, Jennifer Kyrnin, *HTML5, CSS3 i JavaScript za razvoj veb strana*, Beograd, 2016.

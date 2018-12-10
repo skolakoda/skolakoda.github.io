@@ -79,7 +79,7 @@ Analiziranjem ovog problema možemo da zaključimo da su nam dovoljne 3 metode, 
 
 Primetimo da sve pomenute metode imaju vremensku složenost O(1).
 
-### Izvori
+### Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
 - [Petlja.org](https://petlja.org/BubbleBee/r/Lectures/strukture-podataka-1), *Strukture podataka*

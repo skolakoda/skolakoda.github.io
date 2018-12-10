@@ -116,7 +116,7 @@ for (let i = 0; i < niz.length; i++) {
 
 Algoritam obilaska svih članova polja vrlo često se koristi, npr. kod učitavanja, ispisa članova ili kao deo drugih algoritama.
 
-## Izvori
+## Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
 - [*Nizovi*, petlja.org](https://petlja.org/BubbleBee/r/Lectures/osnovne-strukture-podataka)

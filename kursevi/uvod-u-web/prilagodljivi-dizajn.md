@@ -43,7 +43,7 @@ Da bismo započeli prilagodljivi dizajn neophodno je dodati sledeći tag u `head
 
 Sa porastom rezolucije na mobilnim uređajima, **piksel više nije piksel**, odnosno CSS pikseli i pikseli uređaja nisu ista stvar. Mobilni pregledači podrazumevano emuliraju veće ekrane i učitavaju sajtove za veću širinu uređaja (npr. iPhone koristi 980px piksela), da bi se neoptimizovani sajtovi videli celi na ekranu. Prilagodljivi meta tag govori pregledaču da je sajt prilagođen za sve veličine ekrana i da ne želimo lažne desktop mere.
 
-### Izvori
+### Literatura
 
 * Ben Frain, *HTML5 i CSS3: Prilagodljiv web dizajn*, Beograd, 2014.
 * Laura Lemay, Rafe Colburn, Jennifer Kyrnin, *HTML5, CSS3 i JavaScript za razvoj veb strana*, Beograd, 2016.

@@ -65,7 +65,7 @@ Sada svaku grupu prevedimo u heksadecimalnu cifru:
 
 Pa je tako 1000101010101110100100111 binarno jednako 1155D27 heksadecimalno. Lako, zar ne?
 
-### Izvori
+### Literatura
 
 - dr Milan Popović, *Osnove programiranja (skripta)*
 - dr Violeta Tomašević, *Osnovi računarske tehnike*, Beograd, 2009.

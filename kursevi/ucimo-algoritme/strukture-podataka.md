@@ -60,7 +60,7 @@ Jedan primer upotrebe dinamičke strukture je predstavljanje slabo popunjene mat
 
 Pored navedenih operacija pristupa i obrade, pretraživanja, dodavanja i brisanja, na linearne strukture se primjenjuju i operacije sortiranja po određenom redoslijedu i spajanja (eng. *merging*) – kombiniranja dvije liste u jednu. Izbor određene vrste linearne strukture za danu situaciju ovisi o relativnoj učestalosti primjene pojedine od navedenih operacija.
 
-### Izvori
+### Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
 - *Uvod u programiranje - Računarski fakultet*, [Dinamičke strukture podataka](https://petlja.org/BubbleBee/r/lekcije/uvod-u-programiranje/nedelja_11)

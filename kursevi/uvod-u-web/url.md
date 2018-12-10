@@ -112,7 +112,7 @@ Završni deo URL adrese naziva se fragment ili unutrašnji link, a sledi nakon t
 
 Unutrašnji link vodi do samog HTML elementa koji ima odgovarajući `id`. 
 
-## Izvori
+## Literatura
 
 * Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin, priredio Damjan Pavlica.
 * Laura Lemay, Rafe Colburn, Jennifer Kyrnin, *HTML5, CSS3 i JavaScript za razvoj veb strana*, Beograd, 2016.

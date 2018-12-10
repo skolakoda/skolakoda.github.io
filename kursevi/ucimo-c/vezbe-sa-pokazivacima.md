@@ -33,6 +33,6 @@ int main() {
 ```
 
 
-### Izvori
+### Literatura
 
 - [Zadaci iz Programskog jezika C](https://www.mojwebdizajn.net/c-rijeseni-zadatci/c-programiranje-zadatci-pokazivaci-i-polja.aspx)

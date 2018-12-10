@@ -75,7 +75,7 @@ public class URLSplitter {
 Opcija `–d` kaže kompajleru da kreira potrebne poddirektorije direktorija `/math/vedris/java/classes/`. U ovom primjeru, datoteka `URLSplitter.class` bila bi smještena u direktorij `/math/vedris/java/classes/hr/math/student/vedris/package1/`.
 
 
-### Izvori
+### Literatura
 
 - Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
 - *Programski jezik Java*, Bilješke sa predavanja Muzafera Saračevića, Novi Pazar, 2015.

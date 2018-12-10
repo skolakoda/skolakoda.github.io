@@ -115,6 +115,6 @@ Ref: top
 ```
 
 
-## Izvori:
+## Literatura:
 - Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
 - *Programski jezik Java*, Bilješke sa predavanja Muzafera Saračevića, Novi Pazar, 2015.

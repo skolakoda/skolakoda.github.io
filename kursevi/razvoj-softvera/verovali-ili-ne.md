@@ -38,7 +38,7 @@ Više od pet procenata penzionera i primalaca socijalne pomoći u Nemačkoj je p
 
 Kompanije Dell i Apple su tokom 2006. godine morali da korisnicima zamene više od pet miliona laptop računara zbog greške u dizajnu baterije kompanije Sony koja je uzrokovala da se nekoliko računara zapali.
 
-### Izvori
+### Literatura
 
 - Joanne M. Atlee, Shari Lawrence Pfleeger, *Softversko inženjerstvo*, Beogad, 2006.
 - Violeta Tomašević, *Razvoj aplikativnog softvera*, Beograd, 2012.

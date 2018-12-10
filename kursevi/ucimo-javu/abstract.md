@@ -52,6 +52,6 @@ public abstract class Vozilo {
 
 Potklase izvedene iz apstraktne klase, da bi mogle imati svojih instanci, moraju implementirati svaku deklarisanu metodu. Primjerice, klasa `Kola` bi metodu `gorivo()` mogla implementirati punjenjem spremnika benzinom. Klasa `Kamion` mogla bi je implementirati punjenjem spremnika diesel gorivom. Klasa `ElektricnaKola` bi je implementirati punjenjem električnom strujom.
 
-### Izvori
+### Literatura
 - Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
 - *Programski jezik Java*, Bilješke sa predavanja Muzafera Saračevića, Novi Pazar, 2015.

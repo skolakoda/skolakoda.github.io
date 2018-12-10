@@ -21,7 +21,7 @@ Kada bude potrebno, mi ćemo omogućiti promenu varijable unutar pozvane funkcij
 Kod nizova je priča nešto drugačija. Kad se ime niza koristi kao argument, vrednost koja se predaje funkciji je adresa početka niza - tu nema kopiranja elemenata niza.
 
 
-### Izvori
+### Literatura
 
 - Brian Kernighan i Dennis Ritchie, *Programski jezik C*
 - M. Jurak, *Programski jezik C*, predavanja 2003/04.

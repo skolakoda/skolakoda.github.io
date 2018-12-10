@@ -100,6 +100,6 @@ for (let i=0; i<n; i++) {
 console.log(suma)
 ```
 
-### Izvori
+### Literatura
 
 - M. Škarić, V. Radović, *Uvod u programiranje - Zbirka zadataka iz programskog jezika C*, Beograd, 2009.

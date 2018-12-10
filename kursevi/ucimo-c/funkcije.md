@@ -20,7 +20,7 @@ Osnovna karakteristika funkcije je da za jednu ulaznu vrednost dobija najviše j
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Function_color_example_3.svg/447px-Function_color_example_3.svg.png)
 
-### Izvori
+### Literatura
 
 - Brian Kernighan i Dennis Ritchie, *Programski jezik C*
 - [An Introduction to Computability Theory and Complexity](https://www.toptal.com/algorithms/computability-theory-complexity)

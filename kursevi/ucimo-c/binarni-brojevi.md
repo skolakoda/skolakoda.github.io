@@ -53,7 +53,7 @@ Inače, binarni brojevi su odavno poznati mnogim kulturama. Između ostalog, nal
 
 ![](/images/koncepti/podaci/i-ching-binary.jpg)
 
-### Izvori
+### Literatura
 
 - dr Milan Popović, *Osnove programiranja (skripta)*
 - dr Violeta Tomašević, *Osnovi računarske tehnike*, Beograd, 2009.

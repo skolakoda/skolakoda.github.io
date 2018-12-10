@@ -174,7 +174,7 @@ int power(int base, int n)
 
 Parametar `n` se koristi kao privremena varijabla, a vrednost mu se smanjuje dok ne dođe do nule. Međutim, što god uradili sa `n` unutar funkcije `power`, nema nikakvog uticaja na argument sa kojim je `power` prvobitno pozvan.
 
-## Izvori
+## Literatura
 
 - Brian Kernighan i Dennis Ritchie, *Programski jezik C*
 - M. Jurak, *Programski jezik C*, predavanja 2003/04.

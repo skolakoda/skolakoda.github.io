@@ -31,7 +31,7 @@ Gomila je vrsta strukture stabla koja se koristi u jednom od algoritama sortiran
 
 - [Binarno stablo pretrage](/binarno-stablo-pretrage)
 
-### Izvori
+### Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
 - *Uvod u programiranje - Računarski fakultet*, [Struktura podataka binarno stablo](https://petlja.org/BubbleBee/r/lekcije/uvod-u-programiranje/nedelja_12)

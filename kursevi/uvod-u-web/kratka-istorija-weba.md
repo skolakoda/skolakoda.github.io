@@ -55,7 +55,7 @@ Gotovo istovremeno, oko 2011. godine je počela da se pojavljuje verzija CSS3.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HolyGrail.svg/621px-HolyGrail.svg.png)
 
 
-### Izvori
+### Literatura
 
 - [en.wikipedia.org/wiki/HTML](https://en.wikipedia.org/wiki/HTML)
 - Ben Frain, *HTML5 i CSS3: Prilagodljiv web dizajn*, Beograd, 2014.

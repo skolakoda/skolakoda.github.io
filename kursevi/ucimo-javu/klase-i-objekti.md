@@ -30,7 +30,7 @@ Koristeći klasu, možemo kreirati proizvoljan broj objekata, a svaki od njih je
 
 Svaka instanca ima odvojen blok memorije za svoje atribute, ali memorija u kojoj su zabeležene metode im je zajednička.
 
-### Izvori
+### Literatura
 
 - Lora Limej, Rodžers Kedenhed, *Java 6 naučite za 21 dan*, Beograd, 2007.
 - Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
