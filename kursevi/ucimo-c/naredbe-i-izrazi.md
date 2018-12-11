@@ -5,7 +5,7 @@ author: damjan
 permalink: /naredbe-i-izrazi
 ---
 
-**Izraz (en. *expression*) je vrednost koja se evaluira. Naredba (en. *statement*, doslovno izjava) je instrukcija računaru da nešto uradi. Razlikovanje naredbi i izraza je fundamentalno u računarskoj nauci.**
+**Izraz (en. *expression*) je vrednost koja se evaluira. Naredba (en. *statement*, doslovno izjava ili iskaz) je instrukcija računaru da nešto uradi. Razlikovanje naredbi i izraza je fundamentalno u računarskoj nauci.**
 
 Postoje prosti i složeni izrazi. Prosti se sastoje od jednog, a složeni od više članova, povezanih operatorima. Za razliku od izraza, koji samo nose vrednost, naredbe menjaju stanje sveta. Naredbe u C-u i sličnim jezicima se uvek završavaju tačka-zarezom`;` Dve ili više naredbi mogu biti smeštene u blok unutar viličastih zagrada.
 
