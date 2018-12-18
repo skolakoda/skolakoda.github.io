@@ -35,3 +35,14 @@ Kada se minifikuje postane:
 ```js
 izlaz.innerHTML=`<h1>${this.ime}</h1><p>DUG:${this.dug}</p><ul>`for(const naziv in presek){const komada=presek[naziv]
 ```
+
+## Kockaste zagrade posle funkcije 
+
+```js
+function selectionSort(arr) {
+  for(let i = 0; i < arr.length; i++) {
+    const j = getMinIndex(arr, i)
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+}
+```

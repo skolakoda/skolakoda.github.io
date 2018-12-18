@@ -113,22 +113,23 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Vežba: napravi prilagodljivu navigaciju](/vezba-prilagodljiva-navigacija)
 - Vežba: prilagodi prikaz stranica za razne uređaje
 
-### Slike i fotogalerija
-
-- [Slike u HTML-u](/html-slike)
-- [Formati slika za web](/formati-slika-za-web)
-- [Pozadinska slika](/pozadinska-slika)
-- [Mapirana slika](/mapirana-slika)
-- `picture` tag za razne rezolucije
-- Vežba: dodaj više veličina slike
-- [Vežba: napravi fotogaleriju](/vezba-napravi-fotogaleriju)
-
 ### Box model
 
 - [Box model](/css-box-model)
 - [Margine i razmaci](/margine-i-razmaci)
 - Unutrašnje praznine (`padding`) i širina elementa
 - Vežba: promeni `box-sizing` elemenata u `border-box`, menjaj pading, uporedi razliku
+
+### Slike i multimedija
+
+- [Slike u HTML-u](/html-slike)
+  - [Formati slika za web](/formati-slika-za-web)
+  - [Pozadinska slika](/pozadinska-slika)
+  - [Mapirana slika](/mapirana-slika)
+  - `picture` tag za razne rezolucije
+- [Video u HTML-u](/html-video)
+- Vežba: dodaj više veličina slike
+- [Vežba: napravi fotogaleriju](/vezba-napravi-fotogaleriju)
 
 ### Kontakt stranica
 
