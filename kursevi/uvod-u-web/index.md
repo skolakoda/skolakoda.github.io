@@ -96,16 +96,16 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Vežba: fleksibilno prikaži navigaciju
 - Vežba: fleksibilno prikaži krugove
 
-### Pozicioniranje elemenata
+### Pozicija elemenata
 
-- [Pozicioniranje elemenata](/pozicioniranje-elemenata)
+- [Pozicija elemenata](/pozicioniranje-elemenata)
 - Plutanje elemenata (`float`) kao loša praksa
 - Promena redosleda slojeva (`z-index`)
 - [Vežba: napravi fiksirano zaglavlje](/vezba-fiksirano-zaglavlje)
 
 ### Prilagodljivi web dizajn
 
-- [Prilagodljivi dizajn](/prilagodljivi-dizajn)
+- [Prilagodljivi web dizajn](/prilagodljivi-dizajn)
 - [Upiti o mediju](/medija-upiti)
 - [Tačke preloma](/tacke-preloma)
 - [Prvo mobilni dizajn](/prvo-mobilni)
@@ -118,6 +118,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Box model](/css-box-model)
 - [Margine i razmaci](/margine-i-razmaci)
 - Unutrašnje praznine (`padding`) i širina elementa
+- [Prelivanje sadržaja](/html-overflow)
 - Vežba: promeni `box-sizing` elemenata u `border-box`, menjaj pading, uporedi razliku
 
 ### Slike i multimedija
