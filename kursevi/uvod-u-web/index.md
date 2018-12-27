@@ -156,8 +156,8 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 ### Napredni selektori
 
-- [Naslednici i direktna deca](/css-naslednici-i-deca)
-- `[atribut]` selektor
+- [Selektori naslednika i dece](/css-naslednici-i-deca)
+- [Selektori atributa](/css-selektori-atributa)
 - Blizanački selektori: *adjacent sibling* (`+`) i *general sibling* (`~`)
 - n-to dete i n-ti tip
 - Vežba: oboj svaki drugi red

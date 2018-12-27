@@ -1,5 +1,5 @@
 ---
-title: Naslednici i deca u CSS-u
+title: Selektori naslednika i dece
 layout: lekcija-html
 permalink: css-naslednici-i-deca
 ---

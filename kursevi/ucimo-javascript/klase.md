@@ -6,6 +6,8 @@ permalink: /javascript-klase
 
 **Klasa je kalup za pravljenje novih objekata.**
 
+Stil programiranja u kome se kod organizuje u klase, naziva se Objektno-orjentisano programiranje.
+
 ## Ručno pravljenje objekata
 
 Umesto da imamo dva objekta, sa potpuno istim svojstvima i metodama, poput:

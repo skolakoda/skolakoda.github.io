@@ -46,3 +46,18 @@ function selectionSort(arr) {
   }
 }
 ```
+
+## Niz posle niza
+
+```js
+arr1 = [...str1]
+;[...str2].map(a = > a)
+```
+
+Ili 
+
+```js
+[arr[i], arr[i-1]] = [arr[i-1], arr[i]]
+;[arr[i], arr[i-2]] = [arr[i-2], arr[i]]
+```
+
