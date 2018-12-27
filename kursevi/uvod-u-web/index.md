@@ -75,6 +75,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - [Link kao dugme](/link-kao-dugme)
   - [Razlikovanje linkova po sadržaju](/razlikovanje-veza-po-sadrzaju)
   - [Isticanje posećenih veza](/isticanje-posecenih-veza)
+- [Pseudo klase](/css-pseudo-klase)
 
 ### Liste i navigacija
 
