@@ -7,7 +7,7 @@ image: /images/koncepti/web/zahtev-odgovor.png
 
 ![]({{page.image}})
 
-**Da bismo objavili web stranice, potreban nam je web server.**
+**Da bismo pregledali stranice potreban nam je pregledač. Da bismo objavili web stranice, potreban nam je web server.**
 
 Server ili poslužitelj je računar povezan na mrežu, koji prima zahteve i odgovara na njih. Server je takođe naziv za specijalizovani softver instaliran na tom računaru. Primarna uloga servera je da se na njemu hostuju stranice i fajlovi, i tako postanu dostupni na webu. 
 
@@ -15,9 +15,11 @@ Server mora imati statičku (nepromenljivu) IP adresu na internetu.
 
 ## HTTP zahtev i odgovor
 
+Pregledač uspostavlja vezu sa serverom pomoću HTTP protokola. Server prihvata vezu, šalje sadržaj zahtevanih datoteka i pre­kida vezu. Tada pregledač formatira podatke koje je dobio od servera.
+
 Glavno obeležje servera je da ume da prihvati http zahtev (*request*) i da generiše http odgovor (*response*). Posao servera je da prihvati i ispravno protumači zahtev, pronađe traženi resurs, obradi ga i pripremi za slanje u formi http odgovora. Na primer, kada pregledač zahteva sadržaj određene strane, server treba tu stranicu da pronađe, pripremi za slanje i pošalje, a nakon toga isporuči sve druge fajlove koje ta strana sadrži (npr. slike, audio fajlove i sl.), da bi korisnik u pregledaču video celokupnu web stranu.
 
-Web serveri i pregledači komuniciraju pomoću protokola za prenos hiperteksta (HTTP), koji je kreiran posebno za zahtev i prenos hipertekstualnih dokumenata na webu.
+Web serveri i pregledači komuniciraju pomoću **protokola za prenos hiperteksta** (HTTP), koji je kreiran posebno za zahtev i prenos hipertekstualnih dokumenata na webu.
 
 ## Serverska obrada fajlova
 
