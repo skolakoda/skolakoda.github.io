@@ -19,9 +19,7 @@ Dinamičke pseudo klase hvataju element na osnovu njegovog trenutnog stanja. Sta
 - `:active` - selektuje element kada je aktivan. Element je aktivan u vremenu kad se klikne na njega pa sve do trenutka kad se pusti dugme na mišu.
 - `:checked` - selektuje element u čekiranom stanju. Ono se obično vezuje za input tipa `checkbox`, radi i za radio dugme i `select option`.
 
-### Primer
-
-Sledeće pravilo menja boju pozadine kada korisnik pređe mišem iznad pasusa:
+Na primer, sledeće pravilo menja boju pozadine kada korisnik pređe mišem iznad pasusa:
 
 ```css
 p:hover {
@@ -39,27 +37,11 @@ Pozicione pseudo klase hvataju element prema položaju na stranici ili u roditel
 - `:first-letter` - bira prvo slovo u elementu. 
 - `:first-line` - bira prvi red teksta u elementu.
 
-### Primer
-
-Sledeće pravilo ukrašava prvo slovo na početku svakog pasusa:
+Na primer, sledeće pravilo povećava prvo slovo svakog pasusa:
 
 ```css
 p:first-letter {
   font-size: 300%;
-  float: left;
-  font-family: sans-serif;
-  padding: 0 5px;
-}
-```
-
-Možemo izmeniti prethodni selektor da samo prvom pasusu nakon naslova ukrasi prvo slovo:
-
-```css
-h1 + p:first-letter {
-  font-size: 300%;
-  float: left;
-  font-family: sans-serif;
-  padding: 0 5px;
 }
 ```
 
@@ -67,21 +49,57 @@ h1 + p:first-letter {
 
 Možemo izmeniti sadržaj stranice pomoću CSS selektora `:before` i `:after`, koji kreiraju novi pseudo-element. Sadržaj pseudo-elementu dodajemo preko svojstva `content`.
 
-### Primer
-
-Recimo da stilski vodič zahteva da svaku skraćenicu stavimo unutar uglastih zagrada, a na sajtu imamo puno skraćenica, poput:
-
-```html
-<abbr>NSND</abbr> je regionalno okupljanje hakera.
-```
-
-Umesto da uređujemo svaku stranicu da bi dodali zagrade, koje su stilski element pre nego sadržaj, možemo ih dodati preko CSS-a na sledeći način:
+Na primer, ako na stranici imamo puno linkova koji vode ka Youtube-u, i želimo to nekako da označimo, mogli bismo da redom menjamo HTML i dodajemo ikonicu. Međutim, odgovarajući simbol mnogo lakše možemo dodati preko CSS pseudo elementa `::before`, koji je predviđen za to.
 
 ```css
-abbr:before {
-  content: "["
+a::before {
+  content: "►";
 }
-abbr:after {
-  content: "]"
+```
+
+Ukoliko želimo da pseudo element dodamo nakon sadržaja, onda koristimo `::after`. 
+
+## Primeri
+
+Primer upotrebe pseudo klasa `hover`, `first-letter` i `before`:
+
+{:.html-ulaz}
+```html
+<style>
+p:hover {
+  background-color: yellow;
 }
+
+p:first-letter {
+  color: crimson;
+  float: left;
+  font-family: sans-serif;
+  font-size: 300%;
+  padding: 0 5px;
+}
+
+a {
+  text-decoration:none;;
+}
+
+a::before {
+  content: "► ";
+  color: red;
+}
+
+</style>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
+<a href="https://youtu.be/BFc_YPAxQcg">Pogledaj video</a>
 ```
