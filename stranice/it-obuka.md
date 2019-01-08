@@ -64,7 +64,7 @@ Ako je neki polaznik nezadovoljan kvalitetom obuke, biće mu vraćen iznos škol
 
 <div class="predavac uokvireno">
   <h2>O osnivaču</h2>
-  <p><img class="author-img circle" src="/images/skola/damjan-mala.jpg" alt="Damjan Pavlica"> <a href="/autor/damjan-pavlica">Damjan Pavlica</a> je Senior Javascript Developer i osnivač Škole koda. Radio je na više desetina domaćih i stranih projekata, u IT firmama i samostalno. Uža specijalnost mu je Front End Development, ali se takođe bavi bekendom, kao i razvojem igara, mobilnih i desktop aplikacija.</p>
+  <p><img class="author-img circle" src="/images/skola/damjan-mala.jpg" alt="Damjan Pavlica"> <a href="/damjan-pavlica">Damjan Pavlica</a> je Senior Javascript Developer i osnivač Škole koda. Radio je na više desetina domaćih i stranih projekata, u IT firmama i samostalno. Uža specijalnost mu je Front End Development, ali se takođe bavi bekendom, kao i razvojem igara, mobilnih i desktop aplikacija.</p>
 
   <p>Damjan je prvenstveno posvećen prenošenju znanja i daje sve od sebe da niko sa njegovih radionica ne ode uskraćen za znanje koje je došao da stekne!</p>
 </div>

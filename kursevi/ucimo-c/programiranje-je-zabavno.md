@@ -22,4 +22,4 @@ Konačno, tu je užitak rada u tako pokornoj sredini. Programer, poput pesnika, 
 Ipak programerski kontrukti, za razliku od pesničkih, su stvarni u smislu da se kreću i rade, proizvode vidljive učinke, različite od njih samih. On štampaju rezultate, crtaju slike, proizvode zvuke, mrdaju ruke. Magija mitova i legendi se ostvarila u naše vreme. Neko utipka čarobnu reč, i prikaz na ekranu oživi, pokazujući stvari koje nikada nisu bile niti su mogle biti.
 
 
-Izvor: Frederick P. Brooks Jr., *The Mythical Man-Month*, 1975. Prevod: [Damjan Pavlica](/autor/damjan-pavlica)
+Izvor: Frederick P. Brooks Jr., *The Mythical Man-Month*, 1975. Prevod: [Damjan Pavlica](/damjan-pavlica)
