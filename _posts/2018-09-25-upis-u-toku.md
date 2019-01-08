@@ -60,7 +60,7 @@ Ako neki polaznik ne bude zadovoljan kvalitetom obuke, biće mu vraćen pun izno
 
 ## Prijava
 
-Zainteresovani se mogu prijaviti preko [stranice za prijavu](/kursevi/prijava) ili predavaču Damjanu Pavlici na telefon 065/9777-253 ili na email: info@skolakoda.org. Tom prilikom neophodno je da ostavite svoje osnovne podatke (ime, prezime i broj telefona). 
+Zainteresovani se mogu prijaviti preko [stranice za prijavu](/prijava) ili predavaču Damjanu Pavlici na telefon 065/9777-253 ili na email: info@skolakoda.org. Tom prilikom neophodno je da ostavite svoje osnovne podatke (ime, prezime i broj telefona). 
 
 Molim vas da svoju prijavu shvatite ozbiljno, i ne prijavljujete se ukoliko niste rešeni da ispratite ceo kurs. Neodgovornim rezervisanjem zauzimate nečije mesto, a naknadno otkazivanje može dovesti u pitanje početak rada grupe. 
 

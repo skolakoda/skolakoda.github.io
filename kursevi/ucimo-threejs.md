@@ -10,7 +10,7 @@ github: ucimo-threejs
 
 ***Preduslov za praćenje kursa je osnovni Javaskript.***
 
-<!-- <a href="/kursevi/prijava?kurs=9" class="btn float-right">Prijavi se</a> -->
+<!-- <a href="/prijava?kurs=9" class="btn float-right">Prijavi se</a> -->
 
 ### Uvod
 

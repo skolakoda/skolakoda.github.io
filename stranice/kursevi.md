@@ -4,11 +4,11 @@ permalink: /kursevi/
 opis: Organizujemo kurseve programiranja za prekvalifikaciju u IT sektor.
 ---
 
-<h1>Kursevi</h1>
+# Kursevi
 
-<p>Organizujemo kurseve programiranja u malim grupama. Proizvodimo besplatne nastavne materijale, koji su svima dostupni.</p>
+Proizvodimo besplatne online kurseve, koji su svima dostupni. Takođe organizujemo [mentorsku obuku](/it-obuka).
 
-<h2>Programski jezici i tehnologije</h2>
+## Programski jezici i tehnologije
 
 <div class="boxes">
   {% include kutijice/c.html %}
@@ -20,7 +20,7 @@ opis: Organizujemo kurseve programiranja za prekvalifikaciju u IT sektor.
   {% include kutijice/java.html %}
 </div>
 
-<h2>Jezički nezavisna znanja</h2>
+## Jezički nezavisna znanja
 
 <div class="boxes">
   {% include kutijice/algoritmi.html %}
@@ -30,7 +30,7 @@ opis: Organizujemo kurseve programiranja za prekvalifikaciju u IT sektor.
   {% include kutijice/bez-racunara.html %}
 </div>
 
-<h2>Materijali u pripremi</h2>
+## Materijali u pripremi
 
 <div class="boxes small-boxes">
   {% include kutijice/php.html %}

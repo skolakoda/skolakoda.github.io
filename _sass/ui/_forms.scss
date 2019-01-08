@@ -11,11 +11,12 @@ select {
 }
 
 input,
-textarea ,
+textarea,
 select {
   width: 100%;
 }
 
+[type="checkbox"],
 [type="radio"] {
   width: initial;
 }
@@ -75,11 +76,6 @@ fieldset {
       border-color: $tundora;
     }
   }
-}
-
-.podrzi input {
-  border: 0;
-  width: auto;
 }
 
 .newslatter-form {

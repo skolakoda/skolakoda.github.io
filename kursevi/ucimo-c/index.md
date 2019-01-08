@@ -1,6 +1,6 @@
 ---
 layout: kurs
-title: Uvod u programiranje kroz C i C++
+title: Uvod u programiranje kroz C
 github: ucimo-c
 image: /images/kursevi/uvod.png
 ---

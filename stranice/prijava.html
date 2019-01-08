@@ -1,0 +1,62 @@
+---
+title: Prijava
+permalink: /prijava
+redirect_from: /kursevi/prijava
+---
+
+<h1>Prijava</h1>
+
+<p><b>Prijava za <a href="/it-obuka">mentorsku obuku</a> Škole koda.</b></p>
+
+<form action="https://skolakoda-api.herokuapp.com/prijava" method="POST">
+  <label for="kurs">Izaberi kurs:</label>
+
+  <select name="kurs" required>
+    <option value=""></option>
+    <optgroup label="Osnovni kursevi">
+      <option value="1">Uvod u web i web dizajn (HTML i CSS)</option>
+      <option value="2">Uvod u programiranje kroz Javascript</option>
+      <option value="12">Uvod u programiranje kroz Python</option>
+      <option value="10">Uvod u programiranje kroz C</option>
+      <!-- <option value="7">Uvod u PHP programiranje</option> -->
+    </optgroup>
+    <optgroup label="Napredni kursevi">
+      <option value="4">Praktični Frontend</option>
+      <option value="5">Full Stack Javascript</option>
+      <option value="11">Razvoj aplikacija sa React i Redux</option>
+    </optgroup>
+    <!-- 
+      <option value="3">Node.js</option>
+      <option value="8">SQL</option>
+      <option value="9">Three.js</option>
+      <option value="6">Programiranje bez računara</option>
+    -->
+  </select>
+
+  <label for="ime">Ime i prezime:</label>
+  <input name="ime" required />
+
+  <label for="telefon">Telefon:</label>
+  <input name="telefon" required />
+
+  <label for="email">Email:</label>
+  <input name="email" type="email" required />
+
+  <ul>
+    <li>Grupa počinje kada se skupi dovoljno polaznika.</li>
+    <li>Raspored termina blagovremeno javljamo.</li>
+  </ul>
+
+  <p>
+    <input type="checkbox" id="uslovi" required />
+    <label for="uslovi">Potvrđujem da sam upoznat sa <a href="/uslovi-pohadjanja">uslovima pohađanja</a>.</label>
+  </p>
+
+  <button type="submit">Pošalji</button>
+</form>
+
+<script>
+const urlParams = new URLSearchParams(window.location.search)
+const kurs = urlParams.get('kurs')
+if (kurs) document.querySelector('select').value = kurs
+</script>

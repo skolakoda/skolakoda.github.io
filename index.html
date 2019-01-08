@@ -13,7 +13,7 @@ layout: naslovna
 
 <section class="siva-pozadina donja-crta-zelena">
   <div class="wrapper">
-    <h1>Besplatni online kursevi</h1>
+    <h1 title="Pogledaj sve online kurseve"><a href="/kursevi">Besplatni online kursevi</a></h1>
     <p>Proizvodnja besplatnih interaktivnih kurseva programiranja na srpskom jeziku je osnovna delatnost Škole koda. Sve
         ostale usluge koje pružamo pomažu nam da nastavimo sa proizvodnjom novih materijala.
     </p>
@@ -26,42 +26,40 @@ layout: naslovna
         {% include kutijice/inzenjerstvo.html %}
     </div>
 
-    <p>Primere koda možeš isprobati u našem <a href="http://skolakoda.org/editor">online editoru</a></p>
+    <p>Razne jezike možeš izvršavati u našem <a href="http://skolakoda.org/editor">online editoru</a></p>
   </div>
 </section>
 
 
 <section class="donja-crta-crvena">
     <div class="wrapper">
-        <h1>Edukacijske usluge</h1>
+        <h1>Programerske obuke</h1>
         <div class="flex">
             <div class="usluga">
-                {% include svg/diploma.svg %}
-                <h2>Kursevi programiranja</h2>
-                <p>Organizujemo kurseve programiranja za prekvalifikaciju u IT sektor. Pristup je posebno prilagođen osobama bez prethodnog tehničkog obrazovanja.</p>
+                {% include svg/team.svg %}
+                <h2 title="Saznaj više o IT obukama"><a href="/it-obuka">Grupna obuka</a></h2>
+                <p>Organizujemo mentorsku obuku u malim grupama, za prekvalifikaciju u IT sektor. Pristup je prilagođen osobama bez tehničkog obrazovanja.</p>
 
-                <p>Radimo u malim grupama, pa je na upis obično potrebno čekati. Najbolje je <a href="#njuzleter">prijaviti se</a> na listu kako biste na vreme bili obavešteni o novim terminima.</p>
+                <p>Broj mesta je ograničen, pa je potrebno <a href="/prijava">prijaviti se na čekanje</a> kako bi obezbedili mesto na vreme.</p>
 
-                <p>Cene se kreću od 50 do 100 evra mesečno.</p>
+                <p>Cena tromesečnog kursa od 100 časova je <span class="cena">240 evra</span>.</p>
+                <a class="btn" href="/prijava">Prijavi se</a>
             </div>
             <div class="usluga">
                 {% include svg/obuka-zaposlenih.svg %}
-                <h2>Obuka zaposlenih</h2>
-                <p>Novo u ponudi, obuka zaposlenih po IT firmama. Dovoljno je organizovati se sa kolegama iz firme i mi dolazimo.</p>
+                <h2>Kompanijska</h2>
+                <p>Obuka zaposlenih za nove tehnologije podiže vrednost čitavog tima. Usluga podrazumeva dolazak u prostorije firme i organizovanje radionica za do desetak polaznika.</p>
 
-                <p>Kompanijska obuka za nove tehnologije podiže vrednost čitavog tima. Usluga podrazumeva dolazak u prostorije firme i organizovanje radionica za do desetak polaznika.</p>
-
-                <p>Cena dvočasa iznosi 50 eura u dinarskoj protivrednosti. Popularni React kurs od 8 dvočasa iznosi 400 eura.</p>
+                <p>Cena dvočasa iznosi 50 eura u dinarskoj protivrednosti. Jednomesečni kurs od 8 dvočasa iznosi <span class="cena">400 eura</span>.</p>
             </div>
             <div class="usluga">
-                {% include svg/mentor.svg %}
-                <h2>Individualno mentorstvo</h2>
-                <p>Pružamo uslugu ličnog mentorstva, preko Skype-a i uživo.</p>
+                {% include svg/individualna.svg %}
+                <h2>Individualna</h2>
+                <p>Naši developeri pružaju uslugu ličnog mentorstva, preko Skype-a i uživo.</p>
                 <p>Individualno mentorstvo podrazumeva kontinuiranu i plansku obuku od strane profesionalaca, čime se razlikuje
                     od
-                    <i>ad hoc</i> časova programiranja. Nakon uspešnog završetka programa, što uključuje završni ispit, polaznik stiče
-                    pravo na sertifikat.</p>
-                <p>Cena sata individualne obuke je 20 eura.</p>
+                    <i>ad hoc</i> časova programiranja.</p>
+                <p>Cena sata individualne obuke je <span class="cena">20 eura</span>. Minimum obuke 10 časova.</p>
             </div>
         </div>
     </div>
@@ -77,7 +75,7 @@ layout: naslovna
               <h2>Izgrada sajtova</h2>
               <p>Budite vidljivi u celom svetu na najbolji način. Osnovni paket sajta podrazumeva: besplatan hosting, prilagodljivi dizajn i optimizaciju.</p>
               <p>Napredni paketi uključuju jedinstvenu URL adresu, kontakt formu, blog i ostalo.</p>
-              <p>Cena: od 150 eura.</p>
+              <p>Cena: od 200 eura.</p>
           </div>
           <div class="usluga">
               {% include svg/aplikacije.svg %}
@@ -122,7 +120,7 @@ layout: naslovna
         <div class="flex">
             <div class="developer">
                 <img src="/images/skola/clanovi/damjan-pavlica.jpg" alt="">
-                <h2>Damjan Pavlica</h2>
+                <h2><a href="/autor/damjan-pavlica">Damjan Pavlica</a></h2>
                 <p>Full Stack developer i osnivač Škole koda. Omiljeni jezici: C, Javascript i Python.</p>
             </div>
             <div class="developer">

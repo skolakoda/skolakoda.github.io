@@ -9,7 +9,7 @@ kurs: frontend
 
 ***Za kurs je neophodno predznanje HTML, CSS i JS-a.***
 
-<!-- <a href="/kursevi/prijava?kurs=4" class="btn float-right">Prijavi se</a> -->
+<!-- <a href="/prijava?kurs=4" class="btn float-right">Prijavi se</a> -->
 
 ### Uvod
 

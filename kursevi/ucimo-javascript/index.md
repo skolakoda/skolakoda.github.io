@@ -9,7 +9,7 @@ image: /images/kursevi/js-logo.png
 
 ***Kurs je za potpune početnike koji hoće da nauče programiranje i započnu prekvalifikaciju u IT sektor. Podrazumeva se osnovna računarska pismenost, a bonus je poznavanje HTML-a.*** *[Saznaj više](/o-javascript-kursu)*
 
-<!-- <a href="/kursevi/prijava?kurs=2" class="btn float-right">Prijavi se</a> -->
+<a href="/prijava?kurs=2" class="btn float-right">Mentorska obuka</a>
 
 ### Uvod
 
