@@ -1,12 +1,11 @@
 ---
-title: Damjan Pavlica biografija
+title: Damjan Pavlica
 opis: Damjan Pavlica, diplomirani politikolog koji je uspešno promenio struku i postao programer.
-layout: biografija
+layout: stranica
+klasa: biografija
 permalink: /damjan-pavlica
 redirect_from: /autor/damjan-pavlica
 ---
-
-# Damjan Pavlica
 
 <img class="author-img" src="/images/skola/damjan.jpg" alt="Damjan Pavlica IT predavač u Beogradu"> 
 

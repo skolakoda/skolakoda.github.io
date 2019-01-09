@@ -1,12 +1,10 @@
 ---
 layout: stranica
-title: Utisci
+title: Utisci polaznika
 permalink: /utisci
 opis: Svedočanstva polaznika o Školi koda
 klasa: utisci
 ---
-
-# Utisci polaznika
 
 **Utisci polaznika kurseva i radionica, koje Damjan Pavlica drži od 2014. godine.**
 
