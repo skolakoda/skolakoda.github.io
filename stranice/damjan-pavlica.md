@@ -3,11 +3,12 @@ title: Damjan Pavlica
 opis: Damjan Pavlica, diplomirani politikolog koji je uspešno promenio struku i postao programer.
 layout: stranica
 klasa: biografija
+image: /images/skola/damjan.jpg
 permalink: /damjan-pavlica
 redirect_from: /autor/damjan-pavlica
 ---
 
-<img class="author-img" src="/images/skola/damjan.jpg" alt="Damjan Pavlica IT predavač u Beogradu"> 
+![Damjan Pavlica IT predavač u Beogradu]({{page.image}})
 
 **Damjan Pavlica je Full Stack Javascript Developer i osnivač Škole koda.**
 
