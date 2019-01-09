@@ -75,7 +75,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - [Link kao dugme](/link-kao-dugme)
   - [Razlikovanje linkova po sadržaju](/razlikovanje-veza-po-sadrzaju)
   - [Isticanje posećenih veza](/isticanje-posecenih-veza)
-- [Pseudo-klase](/css-pseudo-klase)
 
 ### Liste i navigacija
 
@@ -159,6 +158,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 - [Selektori naslednika i dece](/css-naslednici-i-deca)
 - [Selektori atributa](/css-selektori-atributa)
+- [Pseudo-klase](/css-pseudo-klase)
 - Blizanački selektori: *adjacent sibling* (`+`) i *general sibling* (`~`)
 - n-to dete i n-ti tip
 - Vežba: oboj svaki drugi red

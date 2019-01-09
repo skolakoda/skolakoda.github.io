@@ -47,10 +47,6 @@ h1 {
   }
 }
 
-// p {
-//   margin: 20px 0;
-// }
-
 b,
 strong {
   color: $tundora;
@@ -66,10 +62,20 @@ footer {
   }
 }
 
-.tiny {
-  font-weight: 100;
-}
-
 .uvuceno {
   margin-left: 40px;
+}
+
+.biografija {
+  p:first-line {
+    font-weight: bold;
+    color: #444;
+  }
+  p::first-letter {
+    color: crimson;
+    font-family: sans-serif;
+    font-size: 200%;
+    padding-right: 2px;
+    font-weight: normal;
+  }
 }
