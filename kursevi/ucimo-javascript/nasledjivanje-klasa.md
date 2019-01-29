@@ -6,9 +6,40 @@ permalink: /javascript-nasledjivanje-klasa
 
 **Ako je zajednička klasa previše opšta, možemo napraviti specifičnije klase koje je nasleđuju i proširuju, pomoću ključne reči `extends`.**
 
-## Primer: dodavanje i menjanje metoda
+## Primer: dodavanje metoda
 
-U narednom primeru, imamo osnovnu klasu Junak i dve nasleđene klase Ork i Covek. Klasa Ork redefiniše metodu `pozdrav`, a klasa Covek dodaje novu metodu `hodaj`. Izvedene klase zadržavaju ista svojstva:
+U narednom primeru, imamo osnovnu klasu Junak i izvedenu klasu Covek. Klasa Covek dodaje novu metodu `povlacenje`, a pritom zadržava sva svojstva i metode osnovne klase:
+
+{:.ulaz}
+```js
+class Junak {
+  constructor(ime) {
+    this.ime = ime
+    this.energija = 100
+  }
+  
+  napadni(neprijatelj) {
+    neprijatelj.energija -= 5
+    if (neprijatelj.energija <= 0) console.log('Neprijatelj je mrtav.')
+  }
+}
+
+class Covek extends Junak {
+  povlacenje() {
+    console.log('Povlacenje!')
+  }
+}
+
+const juruk = new Junak('Juruk')
+const boromir = new Covek('Boromir')
+juruk.napadni(boromir)
+console.log("Energija je sada", boromir.energija)
+boromir.povlacenje()
+```
+
+## Primer: redefinisanje metoda
+
+U narednom primeru, imamo osnovnu klasu Junak i izvedenu klasu Ork, koja redefiniše metodu `pozdrav`:
 
 {:.ulaz}
 ```js
@@ -20,11 +51,6 @@ class Junak {
   
   pozdrav() {
     console.log(`Moje ime je ${this.ime}`)
-  }
-  
-  napadni(neprijatelj) {
-    neprijatelj.energija -= 5
-    if (neprijatelj.energija <= 0) console.log('Neprijatelj je mrtav.')
   }
 }
 
@@ -34,30 +60,19 @@ class Ork extends Junak {
   }
 }
 
-class Covek extends Junak {
-  hodaj() {
-    console.log('hodam')
-  }
-}
+const juruk = new Ork('Juruk')
+juruk.pozdrav()
 
+const grokar = new Ork('Grokar')
+grokar.pozdrav()
 
-const ork1 = new Ork('Juruk')
-ork1.pozdrav()
-
-const ork2 = new Ork('Grokar')
-ork2.pozdrav()
-
-const covek1 = new Covek('Boromir')
-covek1.pozdrav()
-covek1.hodaj()
-
-ork1.napadni(covek1)
-console.log("Energija je sada", covek1.energija)
+const boromir = new Junak('Boromir')
+boromir.pozdrav()
 ```
 
-## Primer: dodavanje novih svojstava
+## Primer: dodavanje svojstava
 
-Ukoliko želimo da dodamo nova svojstva nasleđenim klasama, to činimo unutar predviđene `constructor` metode. Pre nego što dodamo novi atribut izvedenoj klasi, moramo pozvati konstruktor osnovne klase pomoću metode `super()` i proslediti mu potrebne argumente:
+Ukoliko želimo da dodamo novo svojstvo izvedenoj klasi, to činimo unutar predviđene `constructor` metode. Pre nego što dodamo novo svojstvo, moramo pozvati konstruktor osnovne klase pomoću metode `super()`, i proslediti mu potrebne argumente:
 
 {:.ulaz}
 ```js
@@ -65,17 +80,6 @@ class Junak {
   constructor(ime) {
     this.ime = ime
     this.energija = 100
-  }
-  
-  pozdrav() {
-    console.log(`Moje ime je ${this.ime}`)
-  }
-}
-
-class Covek extends Junak {
-  constructor(ime) {
-    super(ime)
-    this.bojaKoze = "narandzasta"
   }
 }
 
@@ -86,8 +90,6 @@ class Ork extends Junak {
   }
 }
 
-const covek = new Covek("Artur")
-console.log(covek.bojaKoze)
-const ork = new Ork("Grundak")
-console.log(ork.bojaKoze)
+const grundak = new Ork("Grundak")
+console.log(grundak.bojaKoze)
 ```

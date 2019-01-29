@@ -8,13 +8,15 @@ permalink: /javascript-klase
 
 Stil programiranja u kome se kod organizuje u klase, naziva se Objektno-orjentisano programiranje.
 
-## Ručno pravljenje objekata
+## Primer: klasa Junak
 
-Umesto da imamo dva objekta, sa potpuno istim svojstvima i metodama, poput:
+U Javascriptu, možemo "ručno" praviti objekte, na sledeći način:
 
+{:.ulaz}
 ```js
 const covek = {
   energija: 100,
+
   napadni(neprijatelj) {
     neprijatelj.energija -= 20
   }
@@ -22,15 +24,19 @@ const covek = {
 
 const ork = {
   energija: 100,
+
   napadni(neprijatelj) {
     neprijatelj.energija -= 20
   }
 }
+
+console.log('Pocetna energija orka: ' + ork.energija)
+covek.napadni(ork)
+covek.napadni(ork)
+console.log('Trenutna energija orka: ' + ork.energija)
 ```
 
-## Pravljenje objekata pomoću klase
-
-Možemo napraviti zajedničku klasu, na osnovu koje ćemo instancirati neograničen broj novih objekata (objekti napravljeni na osnovu klase se zovu instance):
+Međutim, možemo napraviti zajedničku klasu, na osnovu koje ćemo instancirati nove objekte:
 
 {:.ulaz}
 ```js
@@ -53,5 +59,10 @@ ork.napadni(covek)
 console.log('Trenutna energija coveka: ' + covek.energija)
 ```
 
-{:.uokvireno.ideja}
+Objekti napravljeni na osnovu klase (pomoću ključne reči `new`) zovu se instance.
+
+## Konstruktor
+
 U telu klase se mogu nalaziti samo metode. Ako želimo da dodamo neko svojstvo, kao što je `energija`, to moramo učiniti unutar predviđenog `constructor` metoda.
+
+Konstruktor je specijalni metod koji se koristi za inicijalizaciju objekta kojeg kreiramo pomoću klase. Klasa može imati samo jedan konstruktor.

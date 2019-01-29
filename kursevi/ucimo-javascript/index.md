@@ -120,7 +120,8 @@ image: /images/kursevi/js-logo.png
 
 - [Klase u Javascriptu](/javascript-klase)
 - [Nasleđivanje klasa u Javascriptu](/javascript-nasledjivanje-klasa)
-- `constructor`, `super` i `this`
+- [Ključna reč super](/javascript-super)
+- Ključna reč `this`
 - [Vežba: prenos sredstava pomoću klase](/vezba-interakcija-klasa)
 - Vežba: napravi bazu filmova (niz objekata) sa pretragom
 
