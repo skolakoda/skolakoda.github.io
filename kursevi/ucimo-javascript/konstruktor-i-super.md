@@ -12,22 +12,56 @@ Rezervisana reč `super` se može koristiti na tri načina:
 
 ## Poziv konstruktora nadklase
 
-Da bismo u konstruktoru izvedene klase koristili rezervisanu reč `this`, moramo prethodno pozvati konstruktor nadklase pomoću `super()`. Na primer, sledeći deo koda neće biti izvršen:
+Da bismo u konstruktoru izvedene klase koristili reč `this`, moramo prethodno pozvati konstruktor nadklase pomoću metode `super()`. Na primer, sledeći deo koda neće biti izvršen:
 
+{:.ulaz}
 ```js
-class Base {}
-
-class Derive extends Base {
-  constructor(name) {
-    this.name = name // 'this' nije dozvoljeno pre super ()
+class Junak {
+  constructor(ime) {
+    this.ime = ime
+    this.energija = 100
   }
 }
+
+class Ork extends Junak {
+  constructor(ime) {
+    this.bojaKoze = "zelena"
+  }
+}
+
+const grundak = new Ork("Grundak")
 ```
 
-Za izvedene klase podrazumevani konstruktor je sledeći:
+Sledeći kod će raditi, jer pozivamo roditeljski konstruktor pomoću `super()`, pre nego što upotrebimo `this`:
+
+{:.ulaz}
+```js
+class Junak {
+  constructor(ime) {
+    this.ime = ime
+    this.energija = 100
+  }
+}
+
+class Ork extends Junak {
+  constructor(ime) {
+    super(ime)
+    this.bojaKoze = "zelena"
+  }
+}
+
+const grundak = new Ork("Grundak")
+console.log(grundak.bojaKoze)
+```
+
+## Podrazumevani konstruktor
+
+Ukoliko nemamo konstruktor u izvedenoj klasi, podrazumevani konstruktor je sledeći:
 
 ```js
 constructor(...args) {
   super(...args)
 }
 ```
+
+Zapravo, samo prosleđuje roditelju sve argumente koje primi.
