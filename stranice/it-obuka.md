@@ -46,7 +46,9 @@ Poslednji krug kurseva smo držali na Zvezdari.
 
 ## Kolika je cena?
 
-Cena kursa je **240 eura** u dinarskoj protivrednosti. Polaznici mogu platiti školarinu u tri mesečne rate po 80 eura. Plaćanje školarine se vrši prve sedmice u mesecu. 
+Tokom pohađanja kursa, polaznici plaćaju mesečnu školarinu od 80 eura (u dinarskoj protivrednosti), što izađe na **240 eura** za tri meseca.
+
+Plaćanje školarine se vrši prve sedmice u mesecu. 
 
 ## Da li se dobija sertifikat?
 
