@@ -8,9 +8,9 @@ image: /images/koncepti/oop/objekat-kao-model.png
 
 **Objekat u Javaskriptu koristimo za tri bitno različite namene:**
 
-- kao rečnik (mapa ili asocijativni niz)
-- kao model predmeta stvarnog sveta
-- za predstavljanje strukture stabla
+- objekat kao rečnik (mapa ili asocijativni niz)
+- objekat kao model predmeta stvarnog sveta
+- objekat kao struktura stabla
 
 ## Objekat kao rečnik
 
@@ -80,6 +80,12 @@ kola.kreni()
 kola.ubrzaj()
 console.log("Trenutna brzina: " + kola.brzina)
 ```
+
+Analogija sa govornim jezikom je sledeća:
+
+- Objekti su najčešće imenice, kao što su biciklo, knjiga, student i tako dalje.
+- Metodi su glagoli, na primer: čitati, trčati, voziti i tako dalje.
+- Svojstava su pridevi, na primer: crveno, električno, upaljeno.
 
 Objekti kao modeli predmeta se obično ne prave jednokratno, nego se instanciraju na osnovu klasa.
 

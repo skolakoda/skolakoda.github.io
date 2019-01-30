@@ -107,10 +107,10 @@ image: /images/kursevi/js-logo.png
 
 ### Objekti
 
-- Objekat kao složena struktura podataka
+- [Objekti u Javascriptu](/javascript-objekti)
 - [Tri namene objekta u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
 - Iteracija objekta: `for in` i `hasOwnProperty`
-- [Interakcija objekata](/interakcija-objekata)
+- [Međusobna interakcija objekata](/interakcija-objekata)
 - Vežba: prikaži nasumičan citat
 - [Vežba: prenos sredstava sa računa](/vezba-interakcija-objekata)
 - [Vežba: broj ponavljanja svakog imena u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)

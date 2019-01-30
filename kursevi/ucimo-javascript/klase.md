@@ -61,6 +61,9 @@ console.log('Trenutna energija coveka: ' + covek.energija)
 
 Objekti napravljeni na osnovu klase zovu se **instance**.
 
+{:.uokvireno.ideja}
+Po pravilu, naziv klase se piše velikim slovom, što je konvencija koje se drže razni jezici.
+
 ## `constructor` metoda
 
 U telu klase se mogu nalaziti samo metode. Ako želimo da dodamo neko svojstvo, kao što je `energija`, to moramo učiniti unutar predviđenog `constructor` metoda.

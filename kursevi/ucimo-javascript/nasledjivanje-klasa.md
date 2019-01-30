@@ -4,9 +4,11 @@ layout: lekcija-js
 permalink: /javascript-nasledjivanje-klasa
 ---
 
-**Ako je zajednička klasa previše opšta, možemo napraviti specifičnije klase koje je nasleđuju i proširuju, pomoću ključne reči `extends`.**
+**Nasleđivanje predstavlja jedan od načina za ponovnu upotrebu postojećeg koda.**
 
-## Primer: dodavanje metoda
+Ako je osnovna klasa previše opšta, možemo napraviti izvedenu klasu koja je nasleđuje čitav njen kod, i proširuju njenu funkcionalnost, pomoću ključne reči `extends`.
+
+## Dodavanje metoda
 
 U narednom primeru, imamo osnovnu klasu Junak i izvedenu klasu Covek. Klasa Covek dodaje novu metodu `povlacenje`, a pritom zadržava sva svojstva i metode osnovne klase:
 
@@ -37,7 +39,7 @@ console.log("Energija je sada", boromir.energija)
 boromir.povlacenje()
 ```
 
-## Primer: redefinisanje metoda
+## Redefinisanje metoda (polimorfizam)
 
 U narednom primeru, imamo osnovnu klasu Junak i izvedenu klasu Ork, koja redefiniše metodu `pozdrav`:
 
@@ -70,7 +72,9 @@ const boromir = new Junak('Boromir')
 boromir.pozdrav()
 ```
 
-## Primer: dodavanje svojstava
+Mogućnost pozivanja istog metoda sa različitih objekata, koji reaguju na sebi svojstven način, naziva se **polimorfizam**.
+
+## Dodavanje svojstava
 
 Ukoliko želimo da dodamo novo svojstvo izvedenoj klasi, to činimo unutar predviđene `constructor` metode. Pre nego što dodamo novo svojstvo, moramo pozvati konstruktor osnovne klase pomoću metode `super()`, i proslediti mu potrebne argumente:
 
