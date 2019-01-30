@@ -119,8 +119,9 @@ image: /images/kursevi/js-logo.png
 ### Klase i nasleđivanje
 
 - [Klase u Javascriptu](/javascript-klase)
-- [Nasleđivanje klasa u Javascriptu](/javascript-nasledjivanje-klasa)
-- [Ključna reč super](/javascript-super)
+- [Nasleđivanje klasa](/javascript-nasledjivanje-klasa)
+  - [Ključna reč super](/javascript-super)
+  - [Provera nasleđivanja](/javascript-instanceof)
 - Ključna reč `this`
 - [Vežba: prenos sredstava pomoću klase](/vezba-interakcija-klasa)
 - Vežba: napravi bazu filmova (niz objekata) sa pretragom

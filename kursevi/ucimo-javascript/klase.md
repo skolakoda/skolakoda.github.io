@@ -4,9 +4,9 @@ layout: lekcija-js
 permalink: /javascript-klase
 ---
 
-**Klasa je kalup za pravljenje novih objekata.**
+**Klasa je kalup za pravljenje novih objekata. Stil programiranja u kome se kod organizuje u klase, naziva se objektno-orjentisano programiranje.**
 
-Stil programiranja u kome se kod organizuje u klase, naziva se Objektno-orjentisano programiranje.
+Pre uvođenja klasa u Javascript, u tu svrhu su se koristile konstruktorske funkcije.
 
 ## Primer: klasa Junak
 
@@ -59,9 +59,9 @@ ork.napadni(covek)
 console.log('Trenutna energija coveka: ' + covek.energija)
 ```
 
-Objekti napravljeni na osnovu klase (pomoću ključne reči `new`) zovu se instance.
+Objekti napravljeni na osnovu klase zovu se **instance**.
 
-## Konstruktor
+## `constructor` metoda
 
 U telu klase se mogu nalaziti samo metode. Ako želimo da dodamo neko svojstvo, kao što je `energija`, to moramo učiniti unutar predviđenog `constructor` metoda.
 
