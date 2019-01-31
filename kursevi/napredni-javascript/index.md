@@ -80,7 +80,9 @@ kurs: napredni-js
 - Kopiranje nizova razlaganjem `[...items]`
 
 ### Prototipna priroda jezika
-- Prototipno nasleđivanje
+
+- [Konstruktor funkcije](/konstruktor-funkcije)
+- Prototipsko nasleđivanje
 - Korisni slučajevi upotrebe `prototype`
   - Dodavanje metoda na predefinisane objekte
   - Naknadno dodavanje metoda na klasu
