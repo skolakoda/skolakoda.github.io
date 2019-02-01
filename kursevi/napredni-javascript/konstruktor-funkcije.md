@@ -21,9 +21,9 @@ console.log(covek.zanimanje)
 
 Da bismo kreirali objekat pomoću konstruktor funkcije, koristimo `new` operator. 
 
-## Primanje parametara
+## Prihvatanje parametara
 
-Takođe, konstruktorske funkcije mogu primati parametre. Na primer, možemo dodati parametar `ime` i dodeliti ga svojstvu `ime`. Sada možemo kreirati više različitih objekata pomoću istog konstruktora:
+Konstruktorske funkcije mogu primati parametre. Na primer, možemo dodati parametar `ime` i dodeliti ga svojstvu `ime`. Na taj način možemo kreirati više različitih objekata pomoću istog konstruktora:
 
 {:.ulaz}
 ```js

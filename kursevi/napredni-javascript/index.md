@@ -86,7 +86,7 @@ kurs: napredni-js
 - [Svojstvo prototype](/svojstvo-prototype)
 - [Prototipski lanac](/prototipski-lanac)
 - [Ispitivanje prototipa](/ispitivanje-prototipa) (`isPrototypeOf`, `getPrototypeOf`)
-- Prototipsko nasleđivanje
+- [Prototipsko nasleđivanje](/prototipsko-nasledjivanje)
 - [Proširenje ugrađenih objekata](/prosirenje-ugradjenih-objekata)
 - Vežba: napraviti alias za `addEventListener`
 
