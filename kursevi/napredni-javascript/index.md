@@ -88,7 +88,7 @@ kurs: napredni-js
 - [Ispitivanje prototipa](/ispitivanje-prototipa) (`isPrototypeOf`, `getPrototypeOf`)
 - [Prototipsko nasleđivanje](/prototipsko-nasledjivanje)
 - [Proširenje ugrađenih objekata](/prosirenje-ugradjenih-objekata)
-- Vežba: napraviti alias za `addEventListener`
+- [Vežba: napraviti alias za addEventListener](/vezba-alijas-za-dodavanje-dogadjaja)
 
 ### Asinhrono programiranje
 
