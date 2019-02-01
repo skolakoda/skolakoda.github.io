@@ -87,9 +87,7 @@ kurs: napredni-js
 - [Prototipski lanac](/prototipski-lanac)
 - [Ispitivanje prototipa](/ispitivanje-prototipa) (`isPrototypeOf`, `getPrototypeOf`)
 - Prototipsko nasleđivanje
-- Korisni slučajevi upotrebe `prototype`
-  - Dodavanje metoda na predefinisane objekte
-  - Naknadno dodavanje metoda na klasu
+- [Proširenje ugrađenih objekata](/prosirenje-ugradjenih-objekata)
 - Vežba: napraviti alias za `addEventListener`
 
 ### Asinhrono programiranje
