@@ -79,9 +79,13 @@ kurs: napredni-js
 - Pretvaranje nizolikih predmeta u nizove (`Array.from()`)
 - Kopiranje nizova razlaganjem `[...items]`
 
-### Prototipna priroda jezika
+### Prototipska priroda jezika
 
-- [Konstruktor funkcije](/konstruktor-funkcije)
+- [Šta je prototip?](/javascript-prototip)
+- [Konstruktorske funkcije](/konstruktor-funkcije)
+- [Svojstvo prototype](/svojstvo-prototype)
+- [Prototipski lanac](/prototipski-lanac)
+- [Ispitivanje prototipa](/ispitivanje-prototipa) (`isPrototypeOf`, `getPrototypeOf`)
 - Prototipsko nasleđivanje
 - Korisni slučajevi upotrebe `prototype`
   - Dodavanje metoda na predefinisane objekte

@@ -1,10 +1,10 @@
 ---
-title: Konstruktor funkcije
+title: Konstruktorske funkcije
 layout: lekcija-napredni-js
 permalink: /konstruktor-funkcije
 ---
 
-**Konstruktor funkcije su, pre uvođenja klasa, dugo vremena bile jedini način za pisanje objektno-orjentisanog Javascripta.**
+**Konstruktorske funkcije su, pre uvođenja klasa, bile jedini način za pisanje objektno-orjentisanog Javascripta.**
 
 Sintaksa je sledeća:
 
