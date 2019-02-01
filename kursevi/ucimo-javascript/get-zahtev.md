@@ -4,13 +4,15 @@ layout: lekcija-js
 permalink: /javascript-get-zahtev
 ---
 
-**HTTP GET zahtev je način da dobavimo resurse preko mreže.** 
+**HTTP GET zahtev je način da učitamo resurse preko mreže.** 
 
 Podrazumevano, HTTP zahtevi u Javascriptu su asinhroni, osim ako ne podesimo da budu sinhroni.
 
-## HTTP zahtev
+## `XMLHttpRequest`
 
-Osnovni HTTP GET zahtev bi izgledao ovako:
+`XMLHttpRequest()` je objekat koji omogućava da šaljemo HTTP zahteve iz JavaScripta. Istorijski, prvo je uveden upregledač IE, a kasnije je implementiran i u drugim pregledačima.
+
+Osnovni HTTP GET zahtev za učitavanje podataka bi izgledao ovako:
 
 {:.ulaz}
 ```js
@@ -24,7 +26,7 @@ http.onload = () => console.log(http.responseText)
 
 Redosled je veoma bitan, npr. ako pozovemo `send` pre `open`, neće raditi. 
 
-`http.responseText` je objekat pretvoren u string. Ukoliko želimo da ga vratimo u objekat, potrebno je uraditi `JSON.parse(http.responseText)`.
+Format odgovora u ovom primeru je JSON string. Da bismo ga preveli u objekat, potrebno je uraditi `JSON.parse(http.responseText)`.
 
 ## Fetch metoda
 
@@ -38,7 +40,7 @@ fetch('https://api.lyrics.ovh/v1/shakira/waka-waka')
 ```
 
 Fetch funkcija pravi obećanje (*promise*), koje nakon što se razreši (kada odgovor stigne): 
-- unutar prvog `then` poziva pretvaramo u željeni format, 
+- unutar prvog `then`-a pretvaramo u željeni format, 
 - unutar drugog `then`-a možemo koristiti.
 
 Ukoliko kao odgovor očekujemo tekst, onda koristimo metodu `response.text()`.

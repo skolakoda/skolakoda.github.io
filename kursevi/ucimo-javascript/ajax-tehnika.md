@@ -1,16 +1,19 @@
 ---
-title: AJAX pozivi i asinhroni Javaskript
+title: Uvod u AJAX tehniku
 layout: lekcija-js
-permalink: /ajax-pozivi
+permalink: /ajax-tehnika
 image: images/koncepti/web/sinhroni-restoran.gif
-redirect_from: /ajax-tehnika
+redirect_from: /ajax-pozivi
 ---
 
-**Asinhroni HTTP zahtevi, poznati kao AJAX pozivi, su standarni način mrežne komunikacije u Javascriptu. Osnovni HTTP zahtevi su: GET, POST, PUT i DELETE.**
+**AJAX znači asinhroni Javaskript i XML**:
+- **asinhroni**, zato što program ne čeka odgovor HTTP zahteva, već nastavlja izvršenje dok ne stigne odgovor, koji okida događaj;
+- **JavaScript**, zato što se zahtevi kreiraju pomoću JavaScripta;
+- **XML**, zato što je ranije XML bio popularan format za razmenu podataka. Danas uglavnom koristimo [JSON](/json-format), običan tekst ili već pripremljen HTML.
 
-HTML forme podržavaju GET i POST zahteve, ali isključivo sinhrono, što zahteva ponovno učitavanje stranice. AJAX služi da putem Javascripta asinhrono dobavimo podatke i dinamički ažuriramo HTML stranicu, bez ponovnog učitavanja. To je osnovna tehnika za razvoj jednostraničnih aplikacija.
+Asinhroni HTTP zahtevi, poznati kao AJAX pozivi, su standarni način mrežne komunikacije u Javascriptu. AJAX služi da putem Javascripta dobavimo podatke i dinamički ažuriramo HTML, bez ponovnog učitavanja stranice. To je osnovna tehnika za razvoj jednostraničnih aplikacija.
 
-AJAX je skraćenica od **Asinhroni Javaskript i XML** (*Asynchronous JavaScript and XML*). **Asinhroni** znači da Javaskript nastavlja izvršenje koda ne čekajući rezultat izvršenje prethodnog reda. **XML** je bio popularan format za razmenu podataka, a danas uglavnom koristimo [JSON](/json-format).
+HTML obrasci podržavaju GET i POST zahteve, ali isključivo sinhrono, što zahteva ponovno učitavanje stranice.
 
 ## Istorijska pozadina
 

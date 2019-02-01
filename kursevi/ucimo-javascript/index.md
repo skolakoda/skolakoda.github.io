@@ -160,15 +160,14 @@ image: /images/kursevi/js-logo.png
 - Vežba: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)
 - Vežba: uporedi `this` unutar obične i streličaste povratne funkcije
 
-### AJAX i API
+### Učitavanje podataka (AJAX i API)
 
 - API: Programski interfejs aplikacija
-- [AJAX pozivi i asinhroni Javaskript](/ajax-tehnika)
+- [AJAX tehnika](/ajax-tehnika)
   - [GET zahtev](/javascript-get-zahtev)
   - [POST zahtev](/javascript-post-zahtev)
   - [DELETE zahtev](/javascript-delete-zahtev)
 - [JSON format](/json-format)
-  - metode `JSON.stringify()` i `JSON.parse()`
 - [Dinamičko renderovanje stranica](/dinamicko-renderovanje)
 - Notifikacije i WebSocket protokol
 - Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
