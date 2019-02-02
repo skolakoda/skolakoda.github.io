@@ -100,6 +100,7 @@ image: /images/kursevi/js-logo.png
 - [Mapiranje niza](/mapiranje-niza)
 - [Filtriranje niza](/filtriranje-niza)
 - Sortiranje niza: `sort()` (pažljivo, mutatorska metoda)
+- Vežba: prikaži nasumičan citat
 - [Vežba: pronađi ime u nizu](/vezba-pronadji-ime-u-nizu)
 - [Vežba: pronađi najmanji broj u nizu](/vezba-pronadji-najmanji-broj)
 - [Vežba: broj ponavljanja traženog imena u nizu](/broj-ponavljanja-imena-u-nizu)
@@ -111,7 +112,7 @@ image: /images/kursevi/js-logo.png
 - [Tri namene objekta u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
 - Iteracija objekta: `for in` i `hasOwnProperty`
 - [Međusobna interakcija objekata](/interakcija-objekata)
-- Vežba: prikaži nasumičan citat
+- [Ključna reč this](/javascript-this)
 - [Vežba: prenos sredstava sa računa](/vezba-interakcija-objekata)
 - [Vežba: broj ponavljanja svakog imena u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
 - Vežba: [napravi kasu za prodavnicu](https://web.archive.org/web/20150610053050/http://www.codecademy.com:80/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
@@ -122,7 +123,6 @@ image: /images/kursevi/js-logo.png
 - [Nasleđivanje klasa](/javascript-nasledjivanje-klasa)
   - [Ključna reč super](/javascript-super)
   - [Provera nasleđivanja](/javascript-instanceof)
-- Ključna reč `this`
 - [Vežba: prenos sredstava pomoću klase](/vezba-interakcija-klasa)
 - Vežba: napravi bazu filmova (niz objekata) sa pretragom
 
