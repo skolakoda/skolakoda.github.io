@@ -17,11 +17,11 @@ HTML obrasci podržavaju GET i POST zahteve, ali isključivo sinhrono, što zaht
 
 ## Istorijska pozadina
 
-1990-ih, dobavljanje novih podataka zahtevalo je ponovno učitavanje HTML stranice sa servera. Pred korisnikom, celokupan sadržaj stranice bi nestao i ponovo se pojavio. Zbog svake male izmene stranica bila ponovo učitana, a sav sadržaj opet poslat. Ovo je dodatno opterećivalo servere.
+1990-ih, dobavljanje novih podataka zahtevalo je ponovno učitavanje HTML stranice sa servera. Zbog svake male izmene stranica bila ponovo učitana, a sav sadržaj opet poslat. Ovo je dodatno opterećivalo servere.
 
-Početkom 2000-ih, sve više je rastao značaj pozadinskih HTTP zahteva prema serveru. Jedan od ranih primera ove tehnike su Google sugestije, koje se prikazuju istovremeno dok korisnik kuca. U pozadini, Google traži sugestiju sa servera i prikazuje listu predloga, bez čekanja ili osveženja stranice. 2005. godine, termin AJAX skovao je Džesi Džejms Garet (*Jesse James Garret*), UX dizajner i direktor kompanije Adaptive Path. 
+Početkom 2000-ih, sve više je rastao značaj pozadinskih HTTP zahteva prema serveru. Rani primer ove tehnike su Google sugestije. Dok korisnik kuca, program u pozadini dobavlja sugestije sa servera i prikazuje ih, bez osveženja stranice. 2005. godine dizajner Džesi Džejms Garet (*Jesse James Garret*) skovao je termin AJAX. AJAX je zapravo nov način primene postojećih tehnologija. 
 
-AJAX je zapravo nov način primene postojećih tehnologija. Glavni podsticaj razvoju AJAX tehnike je pomeranje težišta upotrebe aplikacija sa desktopa na web. Ovo je izazvalo porast kompleknosti web aplikacija, što se nije moglo rešavati starim tehnikama.
+Glavni podsticaj razvoju AJAX tehnike je pomeranje težišta upotrebe aplikacija sa desktopa na web. Ovo je izazvalo porast kompleknosti web aplikacija, što se nije moglo rešavati starim tehnikama.
 
 ## Sinhroni vs. asinhroni zahtevi
 
