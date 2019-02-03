@@ -88,6 +88,7 @@ image: /images/kursevi/js-logo.png
 - [Petlje u Javascriptu](/petlje-u-javascriptu)
 - [Naredbe break i continue](/js-break-i-continue)
 - Uloga zastavice
+- [Ugnježdene petlje](/ugnjezdene-petlje)
 - [Vežbe sa petljama](/vezbe-sa-petljama)
 - [Vežbe sa strunama](/vezbe-sa-strunama)
 
