@@ -92,8 +92,7 @@ kurs: napredni-js
 
 ### Asinhrono programiranje
 
-- Asinhrono učitavanje resursa
-- Gneždenje povratnih funkcija
+- [Asinhrono programiranje](/asinhrono-programiranje)
 - Pakao povratnih funkcija (*callback hell*)
 - [Obećanja](/obecanja)
 - [Observable](https://jsbin.com/pitaxuv/edit?js,console)
