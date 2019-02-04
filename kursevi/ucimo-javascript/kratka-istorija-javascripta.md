@@ -5,7 +5,7 @@ permalink: /kratka-istorija-javascripta
 image: /images/jezici/js-istorija.gif
 ---
 
-**Na početku, web je bio samo niz statičnih HTML stranica, povezanih linkovima.**
+**Na početku, web je bio samo niz statičnih HTML stranica, povezanih linkovima. Javascript je kreiran za interakciju na web stranicama i rastao je sa webom.**
 
 Danas je Javascript sveprisutan programski jezik opšte namene, u kojem možemo da pišemo aplikacije za razne platforme, uključujući web, mobilne i desktop aplikacije.
 
