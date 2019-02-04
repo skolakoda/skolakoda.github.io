@@ -1,50 +1,84 @@
 ---
 title: Obećanja u Javascriptu
 layout: lekcija-napredni-js
-author: damjan
 permalink: /obecanja
 ---
 
-**Obećanja su uvedena u Javascript sa ciljem da reše tzv. *callback* pakao, odnosno da bismo povratnim podacima upravljali bez dodatnih nivoa gnježdenja.**
+**Obećanja (*promise*) su uvedena u Javascript kao alternativa povratnim pozivima.** Povratni pozivi nisu adekvatni za upravljanje asinhronim tokom programa, usled previše nivoa gnježdenja (tzv. *callback hell*).
 
-## Novo obećanje
+Kao i povratni pozivi, obećanja se koriste za obradu rezultata asinhrone funkcije. Kao što naziv ukazuje, obećanja mogu biti ispunjena ili odbijena. Obećanja se ponašaju kao čuvari mesta za krajnji rezultat. 
 
-Novo obećanje pravimo i pozivamo na sledeći način:
+Obećanja imaju tri uzajamno isključiva stanja:
+1. **čekanje** pre nego što je rezultat spreman.
+2. **ispunjeno** kada je rezultat spreman.
+3. **odbijeno** ako ima greške.
+
+## Upotreba obećanja
+
+Svrha obećanja je da omoguće bolju sintaksu za kontinuirano prosleđivanje (*continuation-passing style*). Asinhronu funkciju koja prima *callback* koristimo na sledeći način:
+
+```js
+uradiNesto(argument, rezultat => {
+  // uporebi rezultat
+})
+```
+
+Asinhronu funkciju koja vraća obećanje koristimo na sledeći:
+
+```js
+uradiNesto(argument)
+  .then(rezultat => {
+    // uporebi rezultat
+})
+```
+
+Povratna funkcija unutar metoda `then()` se poziva kada je rezul­tat spreman. Zavisno od uspešnosti obećanja, poziva se povratna funkcija prosleđena metodu `then()` ili `catch()`:
+
+```js
+uradiNesto(argument)
+  .then(rezultat => { /* obećanje ispunjeno */ })
+  .catch(greska => { /* obećanje odbijeno */ })
+```
+
+## Ulančavanje obećanja
+
+Ako bismo hteli da nastavimo asinhronu logiku, morali bismo da ugnjezdimo još jednu povratnu funkciju unutar prethodne. 
+
+```js
+uradiNesto(argument, rezultat => {
+  uradiNestoDrugo(rezultat, (err, podatak) => {
+    // uporebi podatak
+  })
+})
+```
+
+Međutim, obećanja možemo ulančavati, ako povratna funkcija unutar `then()` vraća obećanje. Na primer:
+
+```js
+uradiNesto(argument)
+  .then(rezultatA => {
+    return uradiNestoDrugo(rezultatA)
+  })
+  .then(rezultatB => {
+    // uporebi rezultatB
+  })
+```
+
+## Primer: fetch metoda
 
 {:.ulaz}
 ```js
-const obecanje = new Promise(
-  callback => setTimeout(() => callback('ispunjeno'), 800)
-)
-
-obecanje.then(data => console.log(data))
+fetch('https://randomuser.me/api/?results=10')
+  .then(response => {
+    // vraca novo obecanje
+    return response.json()
+  })
+  .then(data => {
+    // koristimo podatak
+    data.results.map(user => console.log(user.name.first))
+  })
+  .catch(err => console.log(err))
 ```
 
-## Povezana obećanja
+Ako dođe do greške u toku mrežnog poziva, biće izvršena povratna funkcija samo unutar `catch()` metode.
 
-Kada pravimo povezana obećanja, prvo pravimo funkciju koja vraća novi [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) objekat, a potom [asinhronu funkciju](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) koja se nadovezuje na nju:
-
-{:.ulaz}
-```js
-const obecaj = () => new Promise(callback => setTimeout(() => callback('ispunjeno'), 800))
-
-const obecajOpet = async () => 'kazem opet: ' + await obecaj()
-
-obecaj().then(data => console.log(data))
-obecajOpet().then(data => console.log(data))
-```
-
-## Sva obećanja
-
-Metoda [Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) prima niz obećanja, te nakon njihovog razrešenja ima dostupan niz podataka:
-
-{:.ulaz}
-```js
-const obecanje1 = new Promise(callback => setTimeout(() => callback('ok'), 800))
-const obecanje2 = new Promise(callback => setTimeout(() => callback('vazi'), 400))
-const obecanje3 = new Promise(callback => setTimeout(() => callback('ispunjeno'), 200))
-
-Promise.all([obecanje1, obecanje2, obecanje3]).then(
-  podaci => console.log(podaci)
-)
-```

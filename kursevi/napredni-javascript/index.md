@@ -95,9 +95,10 @@ kurs: napredni-js
 - [Asinhrono programiranje](/asinhrono-programiranje)
 - Pakao povratnih funkcija (*callback hell*)
 - [Obećanja](/obecanja)
+  - [Kreiranje obećanja](/kreiranje-obecanja)
+  - [Niz obećanja](/niz-obecanja)
 - [Observable](https://jsbin.com/pitaxuv/edit?js,console)
 - Asinhrone funkcije (`async/await`)
-- AJAX zahtev: uvođenje `fetch()` umesto `new XMLHttpRequest()`
 - Vežba: izvršenje povratne funkcije po učitanju svih slika
 
 ### Strukture podataka
