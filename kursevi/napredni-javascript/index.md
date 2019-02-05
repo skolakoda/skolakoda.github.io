@@ -27,15 +27,9 @@ kurs: napredni-js
 
 ### Moduli i modularnost
 
-- Moduli kao jedinice koda zatvorenog opsega
-  - Princip jedne odgovornosti
-  - Ekapsulacija, skrivanje informacija i izlaganje interfejsa
-  - Jaka unutarnja kohezija i labava međusobna vezanost
-- Učitavanje modula (prirodno, *Babel* i *Webpack*)
-- Imenovani izvoz i uvoz (`export`, `import`)
-- Podrazumevani izvoz i uvoz
-- Izvoz funkcija, klasa, konstanti i objekata
-- Uvoz iz starih skripti koje nemaju izvoz
+- [Moduli u Javascriptu](/javascript-moduli)
+- [Imenovani izvoz i uvoz](/imenovani-izvoz-i-uvoz)
+- [Podrazumevani izvoz i uvoz](/podrazumevani-izvoz-i-uvoz)
 
 ### Moć funkcija
 - Funkcija kao objekat (sa svojstvima i metodama)
