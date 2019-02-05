@@ -80,6 +80,7 @@ image: /images/kursevi/js-logo.png
 - [Logički operatori](/logicki-operatori) (i, ili, ne)
 - [Uslovi i grananje](/uslovi) (`if`, `else`, `switch`)
 - Ternarni operatori
+- [Lenja evaluacija](/lenja-evaluacija)
 - [Vežba: napravi kviz](/vezba-napravi-kviz)
 - [Vežba: napravi priču sa više završetaka](/vezba-avantura)
 
