@@ -40,29 +40,4 @@ const stolica = {
 console.log(typeof stolica)
 ```
 
-Kao što možemo videti, operator `typeof` vraća "objekat" i za niz. 
-
-## Ispitivanje tipa objekta (napredno)
-
-Kako možemo razlikovati objekat i niz? Napredno rešenje je da upotrebimo metod `Object.prototype.toString()`. Dobićemo naziv klase koja se koristi za kreiranje određenog objekta:
-
-{:.ulaz}
-```js
-const nizBrojeva = [1, 2, 3, 4, 5]
-const stolica = {
-  brojNogu: 4,
-  nova: false,
-  opis: "Drvena stolica sa naslonom"
-}
-
-console.log(Object.prototype.toString.call(nizBrojeva)) // [object Array]
-console.log(Object.prototype.toString.call(stolica)) // [object Object]
-```
-
-Neophodno je pozvati metod prototipa `toString()`, koji je definisan u prototipu konstruk­tora `Object`. Ako pozovemo metodu niza `toString()`, dobićemo drugačiji rezultat, redefinisan za specifičnu namenu.
-
-Možemo takođe ispitati DOM elemente na isti način:
-
-```js
-Object.prototype.toString.call(document.body) // [object HTMLBodyElement]
-```
+Možemo videti da `typeof` operator vraća "objekat" i za niz. [Ispitivanje tipa objekta](/ispitivanje-tipa-objekta) deo je [naprednog Javascripta](/kursevi/napredni-javascript/).

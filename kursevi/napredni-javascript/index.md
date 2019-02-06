@@ -118,4 +118,5 @@ kurs: napredni-js
 
 ### Bonus
 
+- [Ispitivanje tipa objekta](/ispitivanje-tipa-objekta)
 - [Bitovski operatori u Javaskriptu](/bitovni-operatori-javaskript)
