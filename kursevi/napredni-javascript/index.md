@@ -21,7 +21,7 @@ kurs: napredni-js
   - Otvoren/zatvoren princip (otvoren za proširenje, zatvoren za menjanje)
 - Čemu služe `constructor` i `super`?
 - Pristupne `get` i `set` metode (geteri i seteri)
-- Statične (`static`) metode
+- [Statične metode](/javascript-staticki-metodi)
 - Provera pretka sa `instanceof`
 - Vežba: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
 

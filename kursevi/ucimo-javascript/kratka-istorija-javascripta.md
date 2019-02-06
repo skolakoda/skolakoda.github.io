@@ -23,6 +23,12 @@ JavaScript sadrži dva glavna dela:
 
 - Objektni model dokumenta (DOM) - Obezbeđuje načine za korišćenje HTML i XML dokumenata.
 
+## ES5 standard
+
+Standard ECMAScript 5 (ES5) je zvanično prihvaćen u decembru 2009. godine, i u narednom periodu je implementiran u svim većim pregledačima i serverskim okruženjima. Standard ES5 je uveo značajne sintaksne promene, dodatke standardnim bibliotekama, i nove jezičke konstrukcije. Pre svega, uveo je nove metode nizova `map`, `filter` i `reduce`, koji podržavaju paradigmu funkcionalnog programiranja.
+
+Takođe, standard ES5 je uveo neke nove objekte i svojstva, ali i strogi režim (`"use strict"`), podskup jezika koji isključuje loše prakse i zastarele funkcije.
+
 ## ES6 revolucija
 
 Bilo je potrebno dugo vremena da se ECMAScript 6 revizija završi i konačno je prihva­ćena 17. juna 2015. godine. Standard ES6 je značajno unapredio JavaScript i uveo mnoge sintaksne i jezičke promene. Uopšteno govoreći, postoje dve vrste osnovnih promena u ovoj reviziji ECMAScripta:
