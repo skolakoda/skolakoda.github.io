@@ -119,4 +119,5 @@ kurs: napredni-js
 ### Bonus
 
 - [Ispitivanje tipa objekta](/ispitivanje-tipa-objekta)
+- [Razlika null i undefined](/javascript-null-i-undefined)
 - [Bitovski operatori u Javaskriptu](/bitovni-operatori-javaskript)

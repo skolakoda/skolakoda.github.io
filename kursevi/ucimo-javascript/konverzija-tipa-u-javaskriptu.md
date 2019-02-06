@@ -43,6 +43,7 @@ Sve druge vrednosti su istinite (pretvaraju se u `true`), uključujući:
 - `"0"`
 - `" "`
 - `"false"`
+- `"undefined"`
 
 Možeš proveriti:
 
