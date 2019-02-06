@@ -8,48 +8,33 @@ permalink: tipovi-podataka-u-javaskriptu
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T0VLAWelSUA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-JavaScript ima sledeće proste tipove podataka:
+## Prosti tipovi
 
-- broj (*number*), koji može biti ceo ili decimalni
-- struna (*string*), kao što je "Zdravo Svete"
-- logička ili Bulova vrednost (*boolean*), kao što je tačno (`true`) ili netačno (`false`)
-- `null`, koji se koristi da predstavi nepostojeću vrednost
+JavaScript ima sledeće proste (primitivne) tipove podataka:
+
+- broj (*number*), može biti ceo ili decimalni
+- struna (*string*), sadrži znakove u navodnicima, npr. "Zdravo Svete"
+- logička ili Bulova vrednost (*boolean*), može biti tačno (`true`) ili netačno (`false`)
+- `null`, koristi se da predstavi nepostojeću vrednost
 - `undefined`, za vrednost promenljivih koje su deklarisane ali im još nije dodeljena vrednost (i za povratnu vrednost funkcija koje ne vraćaju vrednost)
-- symbol (novo u ECMAScript 6)
+- simbol (*symbol*) (novo u ECMAScript 6)
 
-Pored prostih tipova, postoji složeni tip objekat (*object*), koji označava sve složene strukture, uključujući funkciju, niz, mapu i skup.
+### Broj
 
-## Provera tipa podatka (`typeof`)
+Osnovni tip podataka „broj“ može da uskladišti pozitivne i negativne cele brojeve, decimalne brojeve (sa pokretnim zarezom), heksadecimalne brojeve, oktalne brojeve, eksponente i specijalne brojeve - `NaN`, `Infinity` i `-Infinity`.
 
-Tip podatka neke vrednosti možemo proveriti pomoću `typeof` operatora, na sledeći način:
+### Simbol
+
+`Symbol` je neka vrsta enumerisanog tipa, čija su najvažnija svojstva jedinstvenost i neponovljivost. Simbol se ne svodi na string od koga je napravljen, tako da ne postoje dva ista simbola:
 
 {:.ulaz}
 ```js
-/* PROSTI TIPOVI */
+const simbol1 = Symbol('burger')
+const simbol2 = Symbol('burger')
 
-// logicki (bulov) tip
-const jelOtvoreno = true
-console.log(typeof jelOtvoreno)
-
-// broj
-const dnevniPazar = 30000
-console.log(typeof dnevniPazar)
-
-// tekst odnosno struna
-const pozdrav = "Dobro jutro komšija"
-console.log(typeof pozdrav)
-
-/* SLOZENI TIPOVI */
-
-// niz
-const nizBrojeva = [1, 2, 3, 4, 5]
-console.log(typeof nizBrojeva)
-
-// objekat
-const stolica = {
-  brojNogu: 4,
-  nova: false,
-  opis: "Drvena stolica sa naslonom"
-}
-console.log(typeof stolica)
+console.log(simbol1 === simbol2)
 ```
+
+## Složeni tip objekat
+
+Pored prostih tipova, postoji složeni tip objekat (*object*), koji označava sve složene strukture, uključujući funkciju, niz, mapu i skup.

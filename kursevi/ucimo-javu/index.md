@@ -1,6 +1,6 @@
 ---
 layout: kurs
-title: Uvod u programiranje kroz Javu
+title: Uvod u objektno orjentisano programiranje kroz Javu
 github: ucimo-javu
 image: /images/kursevi/java-logo.png
 ---

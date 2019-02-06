@@ -1,10 +1,12 @@
 ---
 title: Opasnost labavih tipova
-layout: lekcija-js
+layout: lekcija-js-frontend
 permalink: /opasnost-labavih-tipova
 ---
 
-Budući da je JavaScript slabo tipiziran jezik, ista funkcija može primati različite tipove podataka. Na primer, naredna funkcija se može legitimno pozivati sa brojevima i sa znacima:
+**Budući da je JavaScript slabo tipiziran jezik, ista funkcija može primati različite tipove podataka.**
+
+Na primer, naredna funkcija se može legitimno pozivati sa brojevima i sa znacima:
 
 {:.ulaz}
 ```js
@@ -16,7 +18,9 @@ console.log(saberi('Zdravo', 'Svete'))
 
 Jedini zahtev je da operacija ima smisla za odabrani tip podataka.
 
-No, možemo dobiti i neočekivane rezultate. Ako upotrebimo funkciju za sabiranje korisničkog unosa, dobićemo neočekivani rezultat, jer JavaScript interpretira ulazne podatke kao strune te ih ulančava:
+## Meštanje struna i brojeva
+
+No, možemo dobiti i neočekivane rezultate. Ako pokušamo da saberemo brojeve koje smo dobili putem korisničkog unosa, dobićemo nadovezane strune, jer korisnički unos je uvek string:
 
 {:.ulaz}
 ```js
@@ -24,8 +28,8 @@ const saberi = (x, y) => x + y
 
 x = prompt('Unesi prvi broj') // unesi 2
 y = prompt('Unesi drugi broj') // unesi 3
-console.log(saberi(x, y))
-// rezultat je 23
+
+console.log(saberi(x, y)) // rezultat je 23
 ```
 
 Da bismo osigurali očekivani rezultat, moramo primeniti eksplicitnu konverziju tipova:
@@ -33,3 +37,16 @@ Da bismo osigurali očekivani rezultat, moramo primeniti eksplicitnu konverziju 
 ```js
 saberi(Number(x), Number(y))
 ```
+
+## Meštanje struna i bulovih vrednosti
+
+Ako vrednosti `true` ili `false` stavimo pod navodnike, postaje stringovi. Na primer:
+
+{:.ulaz}
+```js
+var bul = "true"
+
+console.log(typeof bul)
+```
+
+Ovo se može desiti kada selektujemo bulove atribute HTML elemenata, koji nam mogu doći kao string.

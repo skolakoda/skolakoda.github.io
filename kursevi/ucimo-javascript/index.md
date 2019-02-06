@@ -39,10 +39,10 @@ image: /images/kursevi/js-logo.png
 
 - [Tipovi podataka u programskim jezicima](/tipovi-podataka)
 - [Tipovi podataka u Javaskriptu](/tipovi-podataka-u-javaskriptu)
-- Prosti i složeni tipovi
-  - [Menjanje nepromenljivih u Javaskriptu](/menjanje-nepromenljivih-u-javaskriptu)
 - [Promena tipa podatka](/konverzija-tipa-u-javaskriptu)
+- [Provera tipa podatka](/javaskript-typeof)
 - [Opasnost labavih tipova](/opasnost-labavih-tipova)
+- [Menjanje nepromenljivih u Javaskriptu](/menjanje-nepromenljivih-u-javaskriptu)
 
 ### Brojevi i računanje
 

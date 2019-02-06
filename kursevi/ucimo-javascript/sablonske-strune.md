@@ -4,7 +4,11 @@ layout: lekcija-js
 permalink: /sablonske-strune
 ---
 
-Šablonske strune u Javascriptu (*template strings* ili *template literals*) su strune koje se pišu unutar gravis ili *backtick* znakova (\`), i mogu sadržati varijable:
+Šablonske strune ili šablonski literali (*template strings* ili *template literals*) su strune koje se pišu unutar posebnih *backtick* navodnika (\`).
+
+## Varijable unutar struna
+
+Šablonske strune mogu sadržati čuvare mesta za varijable, koji se označavaju znakom za dolar i vitičastim zagradama:
 
 {:.ulaz}
 ```js
@@ -15,7 +19,9 @@ const pozdrav = `Zdravo, moje ime je ${ime} i rodjen sam ${godiste} godine.`
 console.log(pozdrav)
 ```
 
-Odnosno mogu sadržati šablone u kojima se vrši evaluacija izraza:
+## Evaluacija izraza
+
+Šablonski literali takođe omogućuju evaluaciju izraza unutar struna: 
 
 {:.ulaz}
 ```js
