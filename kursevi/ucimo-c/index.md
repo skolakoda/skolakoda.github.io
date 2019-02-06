@@ -90,6 +90,7 @@ image: /images/kursevi/uvod.png
 ### Rad sa nizovima
 
 - [Nizovi u jeziku C](/c-nizovi)
+- [Višedimenzioni nizovi](/c-visedimenzioni-nizovi)
 - [Strune u jeziku C](/c-strune)
 - [Vežbe sa nizovima](/vezbe-sa-nizovima)
 - [Vežbe sa strunama](/vezbe-sa-strunama)
