@@ -1,6 +1,6 @@
 ---
 title: Naredbe i izrazi
-layout: lekcija-c
+layout: lekcija-napredni-js
 author: damjan
 permalink: /naredbe-i-izrazi
 ---

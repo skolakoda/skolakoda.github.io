@@ -7,7 +7,7 @@ permalink: /uslovi-pohadjanja
 
 Ovaj ugovor regulište međusobna prava i obaveze predavača i polaznika kurseva Škole koda.
 
-### Obaveze predavača:
+### Obaveze predavača
 
 - Predavač je dužan da održi najmanje 95% predviđenog fonda časova.
 - Predavač je dužan da pruži kvalitetnu programersku obuku polaznicima, u skladu sa planom i programom Škole.
@@ -16,18 +16,19 @@ Ovaj ugovor regulište međusobna prava i obaveze predavača i polaznika kurseva
 - Predavač je dužan da opomene i eventualno udalji polaznika koji ometa rad grupe.
 - Predavač je dužan da organizuje završni ispit za polaznike koji su ispunili uslove.
 
-### Obaveze polaznika:
+### Obaveze polaznika
 
-- Polaznik je dužan da redovno i pažljivo prati nastavu.
+- Polaznik je dužan da isprati celu obuku.
+- Polaznik je dužan da aktivno učestvuje u radionicama.
 - Polaznik je dužan da van Škole redovno radi zadate vežbe.
 - Polaznik je dužan da plati punu školarinu, bez obzira da li je iskoristio sve termine (obaveza plaćanja ne prestaje usled nedolaska).
 
-### Povraćaj novca:
+### Garancija kvaliteta
 
 Ako je neki polaznik nezadovoljan kvalitetom obuke, biće mu vraćen iznos školarine za tekući mesec. Polaznik je dužan da pred grupom obrazloži čime je nezadovoljan, inače obaveza školarine ne prestaje.
 
-Ukoliko se kurs prekine ranije nego što je predviđeno, Škola koda svim polaznicima vrši povraćaj školarine za tekući mesec, kao i svaki unapred uplaćeni iznos.
-
-### Minimum polaznika:
+### Minimum polaznika
 
 Minimum za rad grupe je 4 polaznika. Ukoliko grupa spadne ispod tog broja usled otkazivanja, bolesti i drugih razloga, obuka se može obustaviti, a polaznicima vratiti uplaćeni iznos školarine za tekući mesec.
+
+Isto važi ukoliko se kurs prekine ranije iz bilo kog drugog razloga.

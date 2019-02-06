@@ -126,13 +126,6 @@ image: /images/kursevi/uvod.png
 - [Klase u jeziku C++](/cpp-klase)
 - [Nasleđivanje klasa u C++](/cpp-nasledjivanje-klasa)
 
-### Paradigme programiranja
-
-- [Naredbe i izrazi](/naredbe-i-izrazi)
-- [Imperativno vs. funkcionalno programiranje](/imperativno-vs-funkcionalno-programiranje)
-- [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
-- [Funkcionalno programiranje](/funkcionalno-programiranje)
-
 ### Dobre prakse
 
 - [Dobre prakse pisanja programa](/dobre-prakse)

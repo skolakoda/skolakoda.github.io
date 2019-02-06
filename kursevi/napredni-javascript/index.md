@@ -13,7 +13,7 @@ kurs: napredni-js
 
 ### Objektno orijentisani Javascript
 
-- [Objektno orjentisan pristup](/objektno-orijentisano-programiranje)
+- [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
 - Modelovanje klase
 - [Nasleđivanje klasa](/nasledjivanje-klasa)
   - Apstrakcija i neponavljanje koda
@@ -31,6 +31,12 @@ kurs: napredni-js
 - [Imenovani izvoz i uvoz](/imenovani-izvoz-i-uvoz)
 - [Podrazumevani izvoz i uvoz](/podrazumevani-izvoz-i-uvoz)
 
+### Funkcionalno programiranje
+
+- [Naredbe i izrazi](/naredbe-i-izrazi)
+- [Imperativno vs. funkcionalno programiranje](/imperativno-vs-funkcionalno-programiranje)
+- [Funkcionalno programiranje](/funkcionalno-programiranje)
+
 ### Moć funkcija
 - Funkcija kao objekat (sa svojstvima i metodama)
 - Funkcija kao argument (povratna funkcija)
@@ -43,10 +49,6 @@ kurs: napredni-js
 - Samoizvršne anonimne funkcije i `void` operator
 - Podrazumevani argumenti
 - Streličaste funkcije
-- Generator funkcije (`function*`)
-  - Pauziranje generator funkcije sa `yield`
-  - Nastavak izvršenja sa `next()`
-- [Imperativno vs. funkcionalno programiranje](/imperativno-vs-funkcionalno-programiranje)
 
 ### Kontekst izvršenja (`this`)
 - Vrednost `this` i kontekst izvršenja (funkcije, metode, klase, povratne funkcije)
@@ -107,6 +109,12 @@ kurs: napredni-js
 - širenje (`spread `) i ostatak (`rest`)
 - neodređen broj argumenata funkcije (`Math.max(...niz)`)
 - spajanje nizova razlaganjem (`[...niz, 4, 5, 6]`)
+
+### Iteratori i generatori
+
+- Generator funkcije (`function*`)
+  - Pauziranje generator funkcije sa `yield`
+  - Nastavak izvršenja sa `next()`
 
 ### Bonus
 

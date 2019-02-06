@@ -79,7 +79,7 @@ image: /images/kursevi/js-logo.png
 - [Operatori poređenja](/operatori-poredjenja) (veće, manje, jednako)
 - [Logički operatori](/logicki-operatori) (i, ili, ne)
 - [Uslovi i grananje](/uslovi) (`if`, `else`, `switch`)
-- Ternarni operatori
+- [Ternarni operator](/ternarni-operator)
 - [Lenja evaluacija](/lenja-evaluacija)
 - [Vežba: napravi kviz](/vezba-napravi-kviz)
 - [Vežba: napravi priču sa više završetaka](/vezba-avantura)

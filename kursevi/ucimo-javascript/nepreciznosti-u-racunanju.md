@@ -17,6 +17,7 @@ Nekada i najprostije računske operacije sa decimalnim brojevima mogu dati neoč
 {:.ulaz}
 ```js
 const rezultat = 0.2 + 0.1
+
 console.log(rezultat)
 ```
 
@@ -25,6 +26,7 @@ Ovo nepreciznost se može rešiti zaokruživanjem:
 {:.ulaz}
 ```js
 const rezultat = 0.2 + 0.1
+
 console.log(rezultat.toFixed(1))
 ```
 
@@ -35,6 +37,7 @@ Deljenje brojeva takođe može dati neočekivane rezultate, ukoliko je rezultat 
 {:.ulaz}
 ```js
 const rezultat = 10 / 3
+
 console.log(rezultat)
 ```
 
@@ -45,6 +48,7 @@ Ukoliko broj počinje nulom, JS ga ne interpretira u dekadnom već u oktalnom br
 {:.ulaz}
 ```js
 const a = 012
+
 console.log(a) // ispisuje 10
 ```
 

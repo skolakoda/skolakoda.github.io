@@ -1,6 +1,6 @@
 ---
 title: Funkcionalno programiranje
-layout: lekcija-c
+layout: lekcija-napredni-js
 permalink: /funkcionalno-programiranje
 ---
 
