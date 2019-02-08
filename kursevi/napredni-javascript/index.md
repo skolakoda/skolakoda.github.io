@@ -97,12 +97,11 @@ kurs: napredni-js
 - Asinhrone funkcije (`async/await`)
 - Vežba: izvršenje povratne funkcije po učitanju svih slika
 
-### Strukture podataka
-- [Strukture podataka](/strukture-podataka)
-- Nove strukture podataka u Javascriptu
-  - Skupovi (`sets`)
-  - Mape (`maps`)
-  - Tipski nizovi (`typed arrays`)
+### Nove strukture podataka
+- [Uvod u strukture podataka](/strukture-podataka)
+- [Mapa](/javascript-mapa) (*Map*)
+- [Skup](/javascript-skup) (*Set*)
+- Tipski nizovi (`typed arrays`)
 
 ### Destrukturiranje
 - razlaganje (destrukturiranje) nizova i objekata

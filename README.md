@@ -27,7 +27,7 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
-- napraviti css-ulaz
+- staviti aktivne kurseve na naslovnu, dodati svakom dugme za prijavu, napisati da se biraju polaznici
 - dodati pretragu
 - dodati biografiju
 - dodati bazu filmova i nove projekte (igor, joxa)
