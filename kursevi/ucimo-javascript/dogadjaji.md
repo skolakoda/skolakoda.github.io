@@ -4,9 +4,7 @@ layout: lekcija-js
 permalink: /javascript-dogadjaji
 ---
 
-**Pomoću događaja oživljavamo stranice, odnosno činimo ih interaktivnim.**
-
-Događaje najčešće okidaju akcije korisnika (kao što su klik, mrdanje, kuckanje) ili učitavanje resursa (poput slika i podataka). Primeri događaja su sledeći:
+**Pomoću događaja oživljavamo stranice, odnosno činimo ih interaktivnim.** Događaji su najčešće akcije korisnika (klik, mrdanje, kuckanje) ili učitavanje resursa (poput slika i podataka). Primeri događaja su sledeći:
 - Posetilac pritiska dugme.
 - Posetilac unosi tekst u polje obrasca.
 - Stranica završava u čitavanje.
@@ -17,16 +15,20 @@ Pregledač neprestano emituje događaje, a mi biramo koje ćemo slušati. Možem
 
 Događaji miša su najčešći događaji na desktop računarima, jer se većina interakcije odvija preko miša. Neki od glavnih događaja miša su:
 
-- `click`
-- `dblclick` (dvoklik)
+- `click` (stisak na levo dugme miša, a zatim puštanje dugmeta)
+- `dblclick` (dvoklik, dva brza uzastopna klika)
 - `mousemove` (pomeranje miša)
-- `mouseenter` (ulazak u element)
-- `mouseleave` (napuštanje elementa)
-- `mousedown` (stisak klika)
-- `mouseup` (puštanje klika)
+- `mouseenter` (ulazak kursorom u element)
+  - `mouseleave` (napuštanje elementa)
+- `mouseover` (kursor je iznad elementa)
+  - `mouseout` (kursor je bio iznad elementa, ali više nije)
+- `mousedown` (stisak na levo dugme)
+  - `mouseup` (puštanje levog dugmeta)
+- `contextmenu` (prikazuje se kontekstni meni na desno dugme miša)
 
 Na primer, sledeća linija ispisuje trenutne koordinate miša prilikom svakog pomeranja:
 
+{:.ulaz}
 ```js
 document.onmousemove = e => console.log("x: " + e.clientX, "y: " + e.clientY)
 ```
@@ -37,17 +39,19 @@ Možete je isprobati u konzoli.
 
 Dva glavna događaja tastature su pritiskanje i puštanje tipki:
 
-- `keydown`
-- `keyup`
+- `keydown` (tipka stisnuta)
+- `keyup` (tipka puštena)
+- `keypress` (tipka stisnuta a potom puštena)
 
-Nisu svi elementi sposobni da slušaju događaje tastature, ali globalni `document` i `input` elementi jesu. Na primer, sledeća linija ispisuje brojčanu vrednost svakog pritisnutog znaka na tastaturi:
+Nisu svi elementi sposobni da slušaju događaje tastature, ali `document` i `input` elementi jesu. Na primer, sledeća linija ispisuje brojčanu vrednost svakog pritisnutog znaka na tastaturi:
 
+{:.ulaz}
 ```js
 document.onkeydown = e => console.log(e.keyCode)
 ```
 
 {:.uokvireno.ideja}
-Događaji tastature se često koriste za špijuniranje korisnika. Neke aplikacije za dopisivanje registruju svaku stisnutu tipku i skladište podatke, bilo da ste zaista poslali poruku ili ne. 
+Događaji tastature se često koriste za špijuniranje korisnika. Neke aplikacije za dopisivanje registruju svaku stisnutu tipku i skladište podatke, bilo da smo zaista poslali poruku ili ne. 
 
 ## Događaji formulara
 
