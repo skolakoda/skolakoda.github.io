@@ -104,7 +104,7 @@ kurs: napredni-js
 - Tipski nizovi (`typed arrays`)
 
 ### Destrukturiranje
-- razlaganje (destrukturiranje) nizova i objekata
+- [Destrukturiranje objekata i nizova](/javascript-destrukturiranje)
 - širenje (`spread `) i ostatak (`rest`)
 - neodređen broj argumenata funkcije (`Math.max(...niz)`)
 - spajanje nizova razlaganjem (`[...niz, 4, 5, 6]`)
