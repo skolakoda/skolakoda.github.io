@@ -4,11 +4,30 @@ layout: lekcija-js-frontend
 permalink: /dodavanje-slusaca-dogadjaja
 ---
 
-**Postoje dva načina da dodamo slušač događaja na neki element: preko atributa i preko `addEventListener` metoda. Prvi je pogrešan, a drugi ispravan.**
+**Postoji više načina da dodamo slušač događaja na neki element. Jedini ispravan način je dodavanje događaja preko `addEventListener` metoda.**
 
-## Dodavanje preko atributa (pogrešno)
+## Dodela atributa u HTML-u
 
-Otvori konzolu pregledača, klikći crveni kvadrat i vidi šta ispisuje. Zaključi koji od tri slušača događaja je zapravo dodat na element.
+Dodavanje JS koda u atribut HTML taga je najprimitivniji koncept, i najmanje održiv. Davnih 1990-ih se radilo ovako:
+
+{:.html-ulaz}
+```html
+<style>
+  div {
+    width: 200px;
+    height: 200px;
+    background: crimson;
+  }
+</style>
+
+<div onclick="alert('Jooj!')">ne klikći</div>
+```
+
+Kada neko klikne na `<div>`, aktivira se `click` događaj i izvršava se JavaScript kod, koji se nalazi unutar stringa u `onclick` atributu. Ne postoji eksplicitna funkcija koja „sluša“ događaj.
+
+## Dodela atributa u Javascriptu
+
+Još jedan način dodavanja događaja je da funkciju dodelimo `onclick` atributu DOM elementa. Na primer:
 
 {:.html-ulaz}
 ```html
@@ -24,22 +43,29 @@ Otvori konzolu pregledača, klikći crveni kvadrat i vidi šta ispisuje. Zaklju�
 
 <script>
   kutijica.onclick = function() {
-    console.log('Radi 1. dogadjaj')
+    document.write('Radi 1. dogadjaj. ')
   }
 
   kutijica.onclick = function() {
-    console.log('Radi 2. dogadjaj')
+    document.write('Radi 2. dogadjaj. ')
   }
 
   kutijica.onclick = function() {
-    console.log('Radi 3. dogadjaj')
+    document.write('Radi 3. dogadjaj. ')
   }
 </script>
 ```
 
-## Dodavanje preko metoda (ispravno)
+Ovaj način je malo bolji od prethodnog, zato što odvaja HTML od JS koda. Glavna mana je što funkciju možemo dodeliti samo jednom, a svaka sledeća dodela gazi prethodnu. Takođe, objekat događaja neće biti prosleđen povratnoj funkciji kao parametar, za razliku od predviđenog metoda.
+ 
+Klikni crveni kvadrat i vidi šta ispisuje. Zaključi koji je od tri slušača događaja zapravo dodat elementu.
 
-Isprati sve korake kao u gornjem primeru, i pokušaj da shvatiš u čemu je razlika.
+{:.uokvireno.ideja}
+Metodu `document.write` koristimo samo za isprobavanje i nikada je ne koristimo u produkciji.
+
+## `addEventListener` metoda
+
+Najbolji način za upravljanje događajima pregledača je da koristimo „slušače“ događaja, u koje možemo dodati više funkcija. Kada se događaj aktivira, sve funkcije se izvršavaju.
 
 {:.html-ulaz}
 ```html
@@ -55,18 +81,18 @@ Isprati sve korake kao u gornjem primeru, i pokušaj da shvatiš u čemu je razl
 
 <script>
   kutijica.addEventListener('click', function() {
-    console.log('Radi 1. dogadjaj')
+    document.write('Radi 1. dogadjaj. ')
   })
 
   kutijica.addEventListener('click', function() {
-    console.log('Radi 2. dogadjaj')
+    document.write('Radi 2. dogadjaj. ')
   })
 
   kutijica.addEventListener('click', function() {
-    console.log('Radi 3. dogadjaj')
+    document.write('Radi 3. dogadjaj. ')
   })
 </script>
 ```
 
 {:.uokvireno.ideja}
-U prvom slučaju, vrši se nova dodela vrednosti (znak `=`), što uvek gazi staru vrednost. U drugom slučaju, događaji se regularno dodaju preko predviđene metode.
+Objašnjenje: dodela vrednosti preko atributa (znak `=`) uvek gazi prethodnu vrednost. Preko predviđene metode, možemo dodati više događaja na isti element.

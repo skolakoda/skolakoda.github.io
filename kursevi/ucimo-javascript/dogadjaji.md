@@ -6,7 +6,12 @@ permalink: /javascript-dogadjaji
 
 **Pomoću događaja oživljavamo stranice, odnosno činimo ih interaktivnim.**
 
-Događaje najčešće okidaju akcije korisnika (kao što su klik, mrdanje, tipkanje) ili učitavanje resursa (poput slika i podataka). Na događaje reagujemo [povratnom funkcijom](/callback-funkcije). Za svaki događaj na koji želimo da reagujemo, moramo dodati slušač događaja (*event listener*). 
+Događaje najčešće okidaju akcije korisnika (kao što su klik, mrdanje, kuckanje) ili učitavanje resursa (poput slika i podataka). Primeri događaja su sledeći:
+- Posetilac pritiska dugme.
+- Posetilac unosi tekst u polje obrasca.
+- Stranica završava u čitavanje.
+
+Pregledač neprestano emituje događaje, a mi biramo koje ćemo slušati. Možemo dodati [povratnu funkciju](/callback-funkcije) kao slušač događaja (*event listener*) i pregledač će pozvati funkciju čim se događaj desi.
 
 ## Događaji miša 
 

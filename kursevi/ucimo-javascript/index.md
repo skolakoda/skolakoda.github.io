@@ -155,6 +155,7 @@ image: /images/kursevi/js-logo.png
   - razlika obične i streličaste povratne funkcije
   - `event` objekat i njegova svojstva
 - [Sprečavanje podrazumevanog ponašanja](/sprecavanje-podrazumevanog-ponasanja)
+- [Uklanjanje slušača događaja](/uklanjanje-slusaca-dogadjaja)
 - [Pravljenje alijas funkcija](/pravljenje-alijas-funkcija)
 - Vežba: napravi div elemente koji reaguju na događaje
 - Vežba: napravi editor slike (zum, odzum i filteri)
