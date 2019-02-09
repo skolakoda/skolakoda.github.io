@@ -152,8 +152,7 @@ image: /images/kursevi/js-logo.png
 - [Uvod u Javaskript događaje](/javascript-dogadjaji)
 - [Dodavanje događaja](/dodavanje-slusaca-dogadjaja)
 - [Povratne funkcije (*callback*)](/callback-funkcije)
-  - razlika obične i streličaste povratne funkcije
-  - `event` objekat i njegova svojstva
+- `event` objekat i njegova svojstva
 - [Sprečavanje podrazumevanog ponašanja](/sprecavanje-podrazumevanog-ponasanja)
 - [Uklanjanje slušača događaja](/uklanjanje-slusaca-dogadjaja)
 - [Pravljenje alijas funkcija](/pravljenje-alijas-funkcija)

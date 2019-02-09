@@ -4,9 +4,7 @@ layout: lekcija-js
 permalink: /callback-funkcije
 ---
 
-**Povratna funkcija je funkcija koja se prosleđuje drugoj funkciji kao argument.**
-
-Glavna funkcija izvršava povratnu funkciju, koju prima kao parametar.
+**Povratna funkcija ili *funkcija povratnog poziva* je funkcija koja se prosleđuje drugoj funkciji kao argument.** Glavna funkcija izvršava povratnu funkciju, koju prima kao parametar.
 
 Povratne funkcije su često anonimne.
 
@@ -48,6 +46,8 @@ const y = () => console.log("Ja sam kolbek y")
 glavna(x)
 glavna(y)
 ```
+
+Ključna razlika što [this](/javascript-this) unutar obične i streličaste povratne funkcije neće imati istu vrednost.
 
 ## Primeri upotrebe
 

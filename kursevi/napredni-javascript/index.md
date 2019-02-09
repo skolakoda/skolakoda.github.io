@@ -116,6 +116,10 @@ kurs: napredni-js
   - Pauziranje generator funkcije sa `yield`
   - Nastavak izvršenja sa `next()`
 
+### Propagacija događaja
+- [Propagacija događaja](/javascript-propagacija-dogadjaja)
+- [Zaustavljanje propagacije događaja](/zaustavljanje-propagacije)
+
 ### Bonus
 
 - [Ispitivanje tipa objekta](/ispitivanje-tipa-objekta)
