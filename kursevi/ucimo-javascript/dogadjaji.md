@@ -40,7 +40,7 @@ Možete je isprobati u konzoli.
 Dva glavna događaja tastature su pritiskanje i puštanje tipki:
 
 - `keydown` (tipka stisnuta)
-- `keyup` (tipka puštena)
+  - `keyup` (tipka puštena)
 - `keypress` (tipka stisnuta a potom puštena)
 
 Nisu svi elementi sposobni da slušaju događaje tastature, ali `document` i `input` elementi jesu. Na primer, sledeća linija ispisuje brojčanu vrednost svakog pritisnutog znaka na tastaturi:
@@ -53,20 +53,41 @@ document.onkeydown = e => console.log(e.keyCode)
 {:.uokvireno.ideja}
 Događaji tastature se često koriste za špijuniranje korisnika. Neke aplikacije za dopisivanje registruju svaku stisnutu tipku i skladište podatke, bilo da smo zaista poslali poruku ili ne. 
 
-## Događaji formulara
+## Događaji obrazaca
 
-- `focus` (ulazak u input polje)
-- `blur` (napuštanje input polja)
-- `change` (promena vrednosti polja)
-- `submit` (slanje formulara)
+- `focus` (ulazak u polje obrasca)
+- `blur` (napuštanje polja obrasca)
+- `input` (unos vrednosti u polje obrasca)
+- `change` (napuštanje polja nakon što je promenjeno)
+- `select` (selektovan tekst u polju za unos)
+- `submit` (podnošenje obrasca)
 
-## Globalni događaji 
+## Događaji prozora i učitavanja
 
-Globalni događaji se dodaju na `document` i `window` objekt.
-
-- `DOMContentLoaded` (izgradnja DOM-a, ide na `document`)
-- `load` (učitavanje, ide na `window` i razne elemente)
-- `resize` (menjanje veličine, ide na `window`)
+- `DOMContentLoaded` (izgradnja DOM-a je završena, ide na `document`)
+- `load` (učitavanje slike, skripte, resursa ili prozora je završeno),
+- `abort` (korisnik zaustavlja učitavanje)
+- `error` (greška koja se javlja kada ne može da se učita)
+- `unload` (korisnik napušta stranicu)
+- `beforeunload`
+- `resize` (veličina prozora pregledača je promenjena)
+- `scroll` (stranica je pomerena u prozoru)
 
 {:.uokvireno.ideja}
 Razlika između `DOMContentLoaded` i `window.onload` je veoma bitna. `DOMContentLoaded` znači da je HTML struktura učitana i pripadajući DOM objekat izgrađen, ali prikačeni resursi (slike, fontovi, skripte i ostalo) još nisu učitani, a `window.onload` reaguje kada su svi prikačeni resursi učitani.
+
+## Događaji vučenja
+
+- `drag`
+- `dragstart`
+  - `dragend` 
+- `drop` 
+
+## Događaji dodira
+
+Ekrani osetljivi na dodir omogućuju i događaje dodira: 
+- `touchstart`
+  - `touchend`
+- `touchenter`
+  - `touchleave`
+- `touchmove`
