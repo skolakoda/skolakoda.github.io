@@ -140,9 +140,7 @@ image: /images/kursevi/js-logo.png
 - [Selektori elemenata](/selektori-elemenata)
 - [Dodavanje elemenata u DOM](/dodavanje-elemenata)
 - Uklanjanje elemenata (`removeChild` ili `innerHTML`)
-- Stilizovanje Javaskriptom
-  - Stilizovanje preko `style` atributa kao loša praksa
-  - Stilizovanje dodavanjem CSS klasa
+- [Stilizovanje Javaskriptom](/stilizovanje-javaskriptom)
 - Vežba: dodaj elemente u DOM pomoću petlje
 - Vežba: napravi klasu koja dodaje elemente u DOM
 - [Vežba: predstavi HTML strukturu pomoću JS objekta](/vezba-predstavi-html-pomocu-js-objekta)
