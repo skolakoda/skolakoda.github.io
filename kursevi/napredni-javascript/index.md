@@ -97,11 +97,15 @@ kurs: napredni-js
 - Asinhrone funkcije (`async/await`)
 - Vežba: izvršenje povratne funkcije po učitanju svih slika
 
-### Nove strukture podataka
+### Podaci i strukture
+
 - [Uvod u strukture podataka](/strukture-podataka)
 - [Mapa](/javascript-mapa) (*Map*)
 - [Skup](/javascript-skup) (*Set*)
-- Tipski nizovi (`typed arrays`)
+- Tipski nizovi (*typed arrays*)
+- [Ispitivanje tipa objekta](/ispitivanje-tipa-objekta)
+- [Razlika null i undefined](/javascript-null-i-undefined)
+- [Bitovski operatori u Javaskriptu](/bitovni-operatori-javaskript)
 
 ### Destrukturiranje
 
@@ -117,11 +121,8 @@ kurs: napredni-js
   - Nastavak izvršenja sa `next()`
 
 ### Propagacija događaja
-- [Propagacija događaja](/javascript-propagacija-dogadjaja)
+
+- [Propagacija događaja u Javascriptu](/javascript-propagacija-dogadjaja)
+- [Propagacija događaja naniže (*capturing*)](/javascript-capturing)
+- [Propagacija događaja naviše (*bubbling*)](/javascript-bubbling)
 - [Zaustavljanje propagacije događaja](/zaustavljanje-propagacije)
-
-### Bonus
-
-- [Ispitivanje tipa objekta](/ispitivanje-tipa-objekta)
-- [Razlika null i undefined](/javascript-null-i-undefined)
-- [Bitovski operatori u Javaskriptu](/bitovni-operatori-javaskript)

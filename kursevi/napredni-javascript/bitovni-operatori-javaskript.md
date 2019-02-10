@@ -8,9 +8,10 @@ image: /images/fore/bitovni-operatori.svg
 
 ![]({{page.image}})
 
-*Za detaljno objašnjenje koncepta vidi članak [Bitovni operatori](/bitovni-operatori)*
+{:.uvuceno}
+*Za detaljno objašnjenje koncepta vidi [Bitovni operatori](/bitovni-operatori)*
 
-**Iako se bitovski operatori uglavnom koriste u jezicima nižeg nivoa, mogu imati par korisnih primena i u Javaskriptu. U tim slučajevima, bitovni operatori su uglavnom brža alternativa drugim operacijama.**
+**Iako se bitovski operatori uglavnom koriste u jezicima nižeg nivoa, mogu imati par korisnih primena u Javaskriptu. U tim slučajevima, oni su uglavnom brža alternativa drugim operacijama.**
 
 ## Prevođenje binarnih brojeva
 
@@ -37,7 +38,7 @@ Provera jel broj neparan se može izvršiti pomoću bitovskog i (`&`). Na primer
 7 & 1
 ```
 
-Ovako proveravamo jel broj 4 neparan:
+Za broj 4 dobićemo drukčiji rezultat:
 
 {:.izraz}
 ```js
