@@ -2,7 +2,10 @@
 title: Razvoj vođen testovima
 layout: lekcija-js
 permalink: /razvoj-vodjen-testovima
+image: /images/koncepti/razvoj-vodjen-testovima.png
 ---
+
+![]({{page.image}})
 
 **Razvoj vođen testovima** (*Test Driven Development*, **TDD**) je proces razvoja softvera gde se zahtevi prvo prevode u specifične test slučajeve, nakon čega pišemo softver koji će proći testove. Ovo je suprotno tome da se razvija softver koji prvo nije prošao testove.
 
