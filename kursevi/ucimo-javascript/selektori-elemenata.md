@@ -10,10 +10,11 @@ permalink: /selektori-elemenata
 - `document.querySelector()`
 - `document.querySelectorAll()`
 
+Selektori su uvedeni kao prečice za pristup čvorovima dublje u stablu, do kojih je teže stići [kretanjem](/kretanje-po-dom-stablu).
 
 ## `document.getElementById()`
 
-Jedan od najčešće korištenih selektora je `document.getElementById`, koji hvata element preko `id` atributa koji smo mu dodelili u HTML-u:
+Verovatno najčešće korišten selektor je `document.getElementById`, koji hvata element preko `id` atributa koji smo mu dodelili u HTML-u. U narednom primeru, selektovanim elementima manjamo stil i sadržaj:
 
 {:.html-ulaz}
 ```html
@@ -30,9 +31,7 @@ Jedan od najčešće korištenih selektora je `document.getElementById`, koji hv
   prazno.innerHTML = `
     <div>
         <h3>Naslov dodat u prazno polje</h3>
-        <p>Prvi pasus dodat u prazno polje.</p>
-        <p>Drugi pasus dodat u prazno polje.</p>
-        <img>
+        <p>Pasus dodat u prazno polje.</p>
     </div>
   `
 </script>
@@ -90,4 +89,39 @@ for (let i = 0; i < pasusi.length; i++) {
 ```
 
 {:.uokvireno.ideja}
-Važna napomena: `querySelectorAll` ne vraća niz već listu nodova (*[nodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)*), sa kojom ne možemo koristiti standardne metode nizova, poput `map`.
+Važna napomena: `querySelectorAll` ne vraća niz već listu čvorova (*[nodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)*), sa kojom ne možemo koristiti standardne metode nizova, poput `map`.
+
+## `document.getElementsByTagName()`
+
+Metod `getElementsByTagName()` prima naziv taga i vraća listu čvorova (kolekcija naziv nizu). Na primer, ovako dobijamo broj pasusa na stranici:
+
+```js
+document.getElementsByTagName('p').length
+```
+
+Možemo da pristupimo članu liste pomoću notacije zagrade:
+
+```js
+document.getElementsByTagName('p')[0]
+```
+
+## Kolekcije elemenata
+
+U ranim danima, pre DOM selektora, JavaScript je imao ograničen pristup HTML elementima, kojima se uglavnom pristupalo preko sledećih kolekcija:
+
+- `document.images` - kolekcija svih slika na stranici.
+- `document.forms` - kolekcija svih formi na stranici.
+- `document.links` - kolekcija svih `<a>` tagova koji imaju atribut `href`.
+- `document.anchors` - kolekcija svih `<a>` tagova sa atributom `name`.
+
+Na primer, ovako pristupamo prvoj formi na stranici:
+
+```js
+document.forms[0]
+```
+
+Ovako pristupamo vrednosti prvog polja prve forme:
+
+```js
+document.forms[0].elements[0].value
+```

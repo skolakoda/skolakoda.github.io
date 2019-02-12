@@ -34,19 +34,12 @@
   display: block;
   font-family: monospace;
   font-size: smaller;
+  padding: 0 16px;
 }
 
 .izlaz {
   background: $mine-shaft;
   color: $white;
-  padding: 0 16px;
-}
-
-.vrednost {
-  text-align: right;
-  &::before {
-    content: "Vrednost: ";
-  }
 }
 
 .CodeMirror {

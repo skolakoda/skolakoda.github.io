@@ -134,9 +134,14 @@ image: /images/kursevi/js-logo.png
 
 # Front-end programiranje
 
-### Uvod u DOM
+### Objektni model pregledača (BOM)
+
+- Globalni objekat `window`
+
+### Objektni model dokumenta (DOM)
 
 - [Šta je DOM?](/uvod-u-dom)
+- [Kretanje po DOM stablu](/kretanje-po-dom-stablu)
 - [Selektori elemenata](/selektori-elemenata)
 - [Dodavanje elemenata u DOM](/dodavanje-elemenata)
 - Uklanjanje elemenata (`removeChild` ili `innerHTML`)
@@ -214,11 +219,12 @@ image: /images/kursevi/js-logo.png
 
 ### Testiranje
 
-- Jedinični (*unit*) testovi
-  - *Jasmine* i *Mocha* biblioteke
+- [Jedinični (*unit*) testovi](/jedinicni-testovi)
+- [Razvoj vođen testovima](/razvoj-vodjen-testovima)
+- [*Jasmine* biblioteka](/jasmine-biblioteka)
+- *Mocha* biblioteka
 - Integracioni testovi
-- Ispitivanje web stranica
-  - *PhantomJS* biblioteka
+- [Vežba: testiranje sum funkcije](/vezba-testiranje-sum-funkcije)
 
 ### Završni projekat
 
