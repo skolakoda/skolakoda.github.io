@@ -54,31 +54,27 @@ Za veću kontrolu nad tačnom lokacijom postoji metod [`insertBefore()`](https:/
 
 ## Kreiranje HTML tagova unutar strune
 
-Preko svojstva `innerHTML` možemo napraviti novi element sa manje kucanja. Glavna prednost ovog načina je mogućnost pravljenja kompleksnih HTML oznaka pomoću višelinijskih struna.
+Prednost ovog pristupa je mogućnost pravljenja kompleksnih HTML oznaka pomoću višelinijskih struna, a nedostatak je što elementima ne možemo dodavati događaje.
 
 ### Dodavanje preko `innerHTML` atributa
 
-Primer dodavanja elemenata pomoću [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) atributa:
+Svojstvo [`innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) vraća ili postavlja HTML nekog elementa. 
+
+Na primer, možemo dodati HTML praznom elementu:
 
 {:.html-ulaz}
 ```html
 <div id="drzac"></div>
 
 <script>
-  const drzac = document.getElementById('drzac')
-  drzac.innerHTML = `
-    <div>
-      <h2>Zdravo Svete</h2>
-    </div>
-  `
+const drzac = document.getElementById('drzac')
+drzac.innerHTML = '<h2>Zdravo Svete</h2>'
 </script>
 ```
 
-Ovo je najprostiji način dodavanja HTML-a, a glavni nedostatak je što unutrašnjim elementima ne možemo dodavati događaje.
-
 ### Dodavanje preko `insertAdjacentHTML` metode
 
-Primer dodavanja elemenata pomoću [insertAdjacentHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML) metode:
+HTML elemente u stringu takođe možemo dodati pomoću [insertAdjacentHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML) metode:
 
 {:.html-ulaz}
 ```html
@@ -88,9 +84,9 @@ Primer dodavanja elemenata pomoću [insertAdjacentHTML](https://developer.mozill
   const naslov = document.getElementById('naslov')
   const sablon = `
     <div>
-      <h3>Slika dana</h3>
-      <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_47.JPG/320px-Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_47.JPG'>
-      <p>Wikimedia Commons je izvor besplatnih, legalnih i visokokvalitetnih slika.</p>
+      <h3>Slučajna slika</h3>
+      <img src='http://lorempixel.com/400/200/'>
+      <p>Lorem Pixel je sajt za uključenje nasumičnih slika.</p>
     </div>
   `
   naslov.insertAdjacentHTML('afterend', sablon) 
