@@ -136,7 +136,7 @@ image: /images/kursevi/js-logo.png
 
 ### Objektni model pregledača (BOM)
 
-- Globalni objekat `window`
+- [Globalni window objekat](/window-objekat)
 
 ### Objektni model dokumenta (DOM)
 
