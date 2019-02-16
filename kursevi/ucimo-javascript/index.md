@@ -50,7 +50,6 @@ image: /images/kursevi/js-logo.png
 - [Upotreba modulo operatora (`%`)](/upotreba-modulo-operatora)
 - [Nepreciznosti u računanju](/nepreciznosti-u-racunanju)
 - Napredne `Math` metode
-- `prompt()` funkcija za korisnički unos
 - [Vežba: za koliko ću naučiti programiranje?](/vezba-koliko-ucenja)
 - Vežba: postavi model poslovanja
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
@@ -141,6 +140,7 @@ image: /images/kursevi/js-logo.png
   - [`location`](/window-location)
   - [`history`](/window-history)
   - [`screen`](/window-screen)
+- [Metode `prompt`, `confirm` i `alert`](/prompt-confirm-alert)
 
 ### Objektni model dokumenta (DOM)
 
