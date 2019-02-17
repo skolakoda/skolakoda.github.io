@@ -1,64 +1,61 @@
 ---
-title: "Povratne funkcije (<i>callback</i>)"
+title: "Povratne (<i>callback</i>) funkcije"
 layout: lekcija-js
 permalink: /callback-funkcije
 ---
 
-**Povratna funkcija ili *funkcija povratnog poziva* je funkcija koja se prosleđuje drugoj funkciji kao argument.** Glavna funkcija izvršava povratnu funkciju, koju prima kao parametar.
+**Povratna funkcija, ili *funkcija povratnog poziva*, je funkcija koja se prosleđuje drugoj funkciji kao argument, nakon čega je druga funkcija izvršava.**
 
-Povratne funkcije su često anonimne.
+Povratne funkcije su obično anonimne. Prosleđeni anonimni funkcijski izraz je poznat kao **lambda funkcija**. Uobičajeni primeri upotrebe povratnih funkcija su događaji i metode nizova poput `map` i `filter`.
 
-## Prost primer: Klasična sintaksa
+## Povratne klasične funkcije
 
-U narednom primeru imamo glavnu funkciju, koja prima drugu funkciju kao parametar, a potom je izvršava.
-
-{:.ulaz}
-```js
-function glavna(callback) {
-  callback()  // izvršava prosledjenu funkciju
-}
-
-function x() {
-  console.log("Ja sam kolbek x")
-}
-
-function y() {
-  console.log("Ja sam kolbek y")
-}
-
-// pozivamo glavnu sa prosledjenim povratnim funkcijama
-glavna(x)
-glavna(y)
-```
-
-## Prost primer: Streličasta sintaksa
-
-Umesto klasičnih možemo koristiti streličaste funkcije:
+Mnoge metode nizova primaju funk­ciju kao parametar. Na primer:
 
 {:.ulaz}
 ```js
-const glavna = callback => callback()
+const brojevi = [1,2,3]
 
-const x = () => console.log("Ja sam kolbek x")
+const mapirano = brojevi.map(function(n) {
+  return n * n
+})
 
-const y = () => console.log("Ja sam kolbek y")
-
-glavna(x)
-glavna(y)
+console.log(mapirano)
 ```
 
-Ključna razlika što [this](/javascript-this) unutar obične i streličaste povratne funkcije neće imati istu vrednost.
+## Povratne streličaste funkcije
 
-## Primeri upotrebe
+Streličaste funk­cije omogućuju kraću sintaksu za pisanje lambda funkcija. Umesto klasične, `map` metodi možemo proslediti streličastu funkciju. 
 
-### Događaji
+{:.ulaz}
+```js
+const brojevi = [1,2,3]
+
+const mapirano = brojevi.map(n => n * n)
+
+console.log(mapirano)
+```
+
+*Arrow* funk­cije su uvek anonimne, ali ih možemo dodeliti nekoj konstanti i koristiti na sledeći način:
+
+{:.ulaz}
+```js
+const brojevi = [1,2,3]
+const kvadriraj = n => n * n
+
+const mapirano = brojevi.map(kvadriraj)
+
+console.log(mapirano)
+```
+
+## Povratne funkcije događaja
 
 Anonimne povratne funkcije se često prosleđuju događajima, na primer:
 
 {:.ulaz}
 ```js
-document.body.addEventListener('click', function() {
-  document.body.style.backgroundColor = '#dedede'
+document.body.addEventListener('dblclick', function() {
+  document.body.style.backgroundColor = 'lightgray'
 })
 ```
 
@@ -67,13 +64,13 @@ Anonimnu funkciju iz gornjeg primera možemo imenovati na sledeći način:
 {:.ulaz}
 ```js
 function promeniBoju() {
-  document.body.style.backgroundColor = '#dedede'
+  document.body.style.backgroundColor = 'yellow'
 }
 
-document.body.addEventListener('click', promeniBoju)
+document.body.addEventListener('dblclick', promeniBoju)
 ```
 
-Ukoliko povratna funkcija prima parametar, moramo je pozvati na sledeći način (ugnježdenu unutar anonimne funkcije):
+Ukoliko povratna funkcija prima parametre, pozivamo je u telu anonimne funkcije:
 
 {:.ulaz}
 ```js
@@ -81,46 +78,7 @@ function promeniBoju(boja) {
   document.body.style.backgroundColor = boja
 }
 
-document.body.addEventListener('click', function() {
-  promeniBoju('#ededed')
+document.body.addEventListener('dblclick', function() {
+  promeniBoju('black')
 })
-```
-
-### Filtriranje
-
-Povratne funkcije se takođe prosleđuju `filter`, `map` i sličnim metodama:
-
-{:.ulaz}
-```js
-const brojevi = [1, 4, 5, 6, 7, 8, 9, 0, 11, 2]
-const filtrirano = brojevi.filter(x => x > 5)
-console.log(filtrirano)
-```
-
-Anonimnu streličastu *callback* funkciju možemo imenovati na sledeći način:
-
-{:.ulaz}
-```js
-const brojevi = [1, 4, 5, 6, 7, 8, 9, 0, 11, 2]
-const jelVeceOdPet = x => x > 5
-
-const filtrirano = brojevi.filter(jelVeceOdPet)
-console.log(filtrirano)
-```
-
-## Prosleđivanje vrednosti povratnoj funkciji
-
-Glavna funkcija može proslediti argument povratnoj funkciji, na sledeći način:
-
-{:.ulaz}
-```js
-function glavna(callback) {
-  callback(42)
-}
-
-function sporedna(e) {
-  console.log("Prosledjena mi je vrednost", e)
-}
-
-glavna(sporedna)
 ```

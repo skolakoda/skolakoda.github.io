@@ -7,9 +7,13 @@ image: /images/koncepti/web/bom.jpg
 
 ![]({{page.image}})
 
-**Kad se JavaScript izvršava u okruženju pregledača, dostupan nam je globalni `window` objekat.** Postoji `window` za svaki tab, *iframe* i iskačući prozor.
+**Kad se JavaScript izvršava u okruženju pregledača, dostupan mu je globalni `window` objekat, koji postoji za svaki tab, *iframe* i iskačući prozor.**
 
-Osim što služi kao objekat na koji se kače globalne varijable i funkcije, `window` služi i za pristup svojstvima i metodama pregledača. Objektni model pregledača (*Browser Object Model*, **BOM**) predstavlja niz objekata ugnježdenih u `window`, kojima pristupamo pregledaču, ekranu, lokaciji i istoriji. 
+Veći deo Javascripta može da se upotrebi u različitim okruženjima, a pre­gledač je najpopularnije izvorno okruženje za Javascript programe. 
+
+## Objektni model pregledača
+
+Osim što služi kao objekat na koji se kače globalne varijable i funkcije, `window` služi i za pristup svojstvima i metodama pregledača. **Objektni model pregledača (*Browser Object Model*, BOM) predstavlja niz objekata ugnježdenih u `window`, kojima pristupamo pregledaču, ekranu, lokaciji i istoriji.**
 
 ## Globalni opseg
 
@@ -57,3 +61,7 @@ Je identično sa:
 ```js
 window.parseInt('123a456')
 ```
+
+## Literatura
+
+- Ved Antani, Stojan Stefanov, *Objektno-orjentisan JavaScript*, Beograd, 2017.

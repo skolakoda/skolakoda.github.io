@@ -41,6 +41,20 @@ U gornjem primeru, `ime` je parametar funkcije, a vrednosti `"Ana"` i `"Marko"` 
 
 ## Osnovne namene funkcije
 
+### Obrada podataka
+
+Na primer, želimo da istu operaciju primenimo na različitim ulaznim podacima:
+
+{:.ulaz}
+```js
+function dupliraj(x) {
+  return x * 2
+}
+
+console.log(dupliraj(4))
+console.log(dupliraj(16))
+```
+
 ### Odlaganje izvršenja
 
 Sledeći kod, ako je napisan direktno u fajlu, će se odmah izvršiti:
@@ -72,7 +86,6 @@ Na primer, recimo da imamo sledeću listu naredbi za ispis:
 ```js
 console.log("Zdravo Svete")
 console.log("Danas učimo Javascript")
-console.log("Radićemo samo prave primere")
 console.log("Nećemo gubiti vreme sa glupostima")
 ```
 
@@ -82,17 +95,14 @@ Ako bismo hteli da ih ispišemo više puta, mogli bismo da prekopiramo sve redov
 ```js
 console.log("Zdravo Svete")
 console.log("Danas učimo Javascript")
-console.log("Radićemo samo prave primere")
 console.log("Nećemo gubiti vreme sa glupostima")
 
 console.log("Zdravo Svete")
 console.log("Danas učimo Javascript")
-console.log("Radićemo samo prave primere")
 console.log("Nećemo gubiti vreme sa glupostima")
 
 console.log("Zdravo Svete")
 console.log("Danas učimo Javascript")
-console.log("Radićemo samo prave primere")
 console.log("Nećemo gubiti vreme sa glupostima")
 ```
 
@@ -103,7 +113,6 @@ S druge strane, pravi način da ovo rešimo je upotreba funkcije, koju možemo p
 function ispisi() {
   console.log("Zdravo Svete")
   console.log("Danas učimo Javascript")
-  console.log("Radićemo samo prave primere")
   console.log("Nećemo gubiti vreme sa glupostima")
 }
 

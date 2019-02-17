@@ -136,11 +136,12 @@ image: /images/kursevi/js-logo.png
 ### Objektni model pregledača (BOM)
 
 - [Globalni `window` objekat](/window-objekat)
-  - [`navigator`](/window-navigator)
-  - [`location`](/window-location)
-  - [`history`](/window-history)
-  - [`screen`](/window-screen)
+  - [Podaci o pregledaču (`navigator`)](/window-navigator)
+  - [Podaci o URL adresi (`location`)](/window-location)
+  - [Podaci o ekranu (`screen`)](/window-screen)
+  - [Istorija pregledanja (`history`)](/window-history)
 - [Metode `prompt`, `confirm` i `alert`](/prompt-confirm-alert)
+- [Odloženo izvršenje i ponavljanje](/odlozeno-izvrsenje-i-ponavljanje) (`setTimeout` i `setlnterval`)
 
 ### Objektni model dokumenta (DOM)
 
@@ -159,6 +160,7 @@ image: /images/kursevi/js-logo.png
 - [Uvod u Javaskript događaje](/javascript-dogadjaji)
 - [Dodavanje događaja](/dodavanje-slusaca-dogadjaja)
 - [Povratne funkcije (*callback*)](/callback-funkcije)
+- [Kako rade povratne funkcije?](/kako-rade-callback-funkcije)
 - `event` objekat i njegova svojstva
 - [Sprečavanje podrazumevanog ponašanja](/sprecavanje-podrazumevanog-ponasanja)
 - [Uklanjanje slušača događaja](/uklanjanje-slusaca-dogadjaja)
