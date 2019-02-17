@@ -4,27 +4,50 @@ layout: lekcija-js
 permalink: /javascript-funkcije
 ---
 
-**Funkcije u Javascriptu, kao i u ostalim jezicima, imaju nekoliko osnovnih namena.**
+**Najprostije, [funkcija](/funkcije) je parče koda čije izvršenje odlažemo za kasnije.** 
 
-Prvo, funkcija odlaže izvršenje koda za kasnije. Pored toga, funkcije nam pomažu da organizujemo kod u smislene celine, kao i da više puta izvršimo isti blok koda, bez kopiranja.
+Funkcije koje imaju ulaz i izlaz (*vraćaju vrednost*) nazivamo **funkcije u užem smislu**, dok one koje obavljaju niz radnji bez vraćanja vrednosti nazivamo **procedure**.
+
+Osnovna karakteristika funkcije je da za jednu ulaznu vrednost vraća najviše jednu izlaznu vrednost.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MO9WKt7CRI8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Sintaksa funkcije
+## Sintaksa
 
-Najprostija sintaksa JS funkcije je sledeća:
+Najprostija sintaksa funkcije u Javascriptu je sledeća:
 
 ```js
-function ime(parametri){
-  // telo funkcije, koje sadrži izraze ili naredbe
+function saberi(a, b){
+  return a + b
 }
 ```
 
-Dodavanje parametara funkciji je opciono. 
+Delovi funkcije su sledeći:
+- ključna reč `function`
+- naziv funkcije - u ovom slučaju `saberi`
+- parametri funkcije - u ovom slučaju `a` i `b`. Funkcija može primati neograničen broj parametara ili nijedan.
+- telo funkcije, odnosno blok koda unutra vitičastih zagrada
+- naredba `return`. Funkcija uvek vraća vrednost. Ako eksplicitno ne vratimo vrednost, funkcija implicitno vraća `undefined`.
 
-## Parametri funkcije
+Funkcija može da vrati samo jednu vrednost. Ako je potrebno da vrati više vrednosti, može da vrati niz.
+
+## Parametri vs. argumenti
 
 Svaka funkcija, po potrebi, može imati parametre, koje koristimo na sledeći način:
+
+{:.ulaz}
+```js
+function saberi(a, b){
+  return a + b
+}
+
+console.log(saberi(2, 2))
+console.log(saberi(432, 234))
+```
+
+Parametri i argumenti nisu isto, iako se često mešaju. Parametri se definišu zajedno sa funkcijom, dok se argumenti prosleđuju prilikom poziva. U prethodnom primeru, `a` i `b` parametri, a `2` i `2` argumenti.
+
+Da pogledamo još jedan primer:
 
 {:.ulaz}
 ```js
@@ -36,10 +59,15 @@ pozdrav("Ana")
 pozdrav("Marko")
 ```
 
-{:.uokvireno.ideja}
-U gornjem primeru, `ime` je parametar funkcije, a vrednosti `"Ana"` i `"Marko"` prosleđujemo kao argumente.
+U funkciji `pozdrav`, `ime` je parametar funkcije, a vrednosti `"Ana"` i `"Marko"` prosleđujemo kao argumente.
 
 ## Osnovne namene funkcije
+
+Funkcija ima nekoliko osnovnih namena. Na primer:
+- vrši obradu podataka
+- odlaže izvršenje koda za kasnije
+- pomaže da organizujemo kod u smislene celine
+- omogućuje da više puta izvršimo isti blok koda, bez kopiranja
 
 ### Obrada podataka
 
