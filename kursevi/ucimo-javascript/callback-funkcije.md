@@ -1,14 +1,14 @@
 ---
-title: "Povratne (<i>callback</i>) funkcije"
+title: "Funkcije povratnog poziva (<i>callback</i>)"
 layout: lekcija-js
 permalink: /callback-funkcije
 ---
 
-**Povratna funkcija, ili *funkcija povratnog poziva*, je funkcija koja se prosleđuje drugoj funkciji kao argument, nakon čega je druga funkcija izvršava.**
+**Kada jednu funkciju prosledimo drugoj, a zatim druga izvrši prvu, prvu nazivamo funkcijom povratnog poziva (*callback*). Ako ona nema naziv, onda je to anoni­mna funkcija povratnog poziva.**
 
-Povratne funkcije su obično anonimne. Prosleđeni anonimni funkcijski izraz je poznat kao **lambda funkcija**. Uobičajeni primeri upotrebe povratnih funkcija su događaji i metode nizova poput `map` i `filter`.
+Povratne funkcije su obično anonimne. Prosleđeni anonimni funkcijski izraz je poznat kao **lambda funkcija**. Uobičajeni primeri upotrebe povratnih funkcija su događaji i metodi nizova, poput `map` i `filter`.
 
-## Povratne klasične funkcije
+## Klasične povratne funkcije
 
 Mnoge metode nizova primaju funk­ciju kao parametar. Na primer:
 
@@ -23,7 +23,7 @@ const mapirano = brojevi.map(function(n) {
 console.log(mapirano)
 ```
 
-## Povratne streličaste funkcije
+## Streličaste povratne funkcije
 
 Streličaste funk­cije omogućuju kraću sintaksu za pisanje lambda funkcija. Umesto klasične, `map` metodi možemo proslediti streličastu funkciju. 
 

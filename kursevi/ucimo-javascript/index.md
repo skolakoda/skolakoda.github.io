@@ -160,7 +160,6 @@ image: /images/kursevi/js-logo.png
 - [Uvod u Javaskript događaje](/javascript-dogadjaji)
 - [Dodavanje događaja](/dodavanje-slusaca-dogadjaja)
 - [Povratne funkcije (*callback*)](/callback-funkcije)
-- [Kako rade povratne funkcije?](/kako-rade-callback-funkcije)
 - `event` objekat i njegova svojstva
 - [Sprečavanje podrazumevanog ponašanja](/sprecavanje-podrazumevanog-ponasanja)
 - [Uklanjanje slušača događaja](/uklanjanje-slusaca-dogadjaja)

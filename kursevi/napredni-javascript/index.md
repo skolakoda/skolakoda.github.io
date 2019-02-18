@@ -39,7 +39,7 @@ kurs: napredni-js
 
 ### Moć funkcija
 - Funkcija kao objekat (sa svojstvima i metodama)
-- Funkcija kao argument (povratna funkcija)
+- [Funkcija kao argument (povratna funkcija)](/kako-rade-callback-funkcije)
 - [Funkcija koja vraća funkciju](/javascript-zatvaranje#funkcija-koja-vraća-funkciju)
 - [Funkcija koja poziva sebe (rekurzija)](/rekurzija)
 - Čiste i nečiste funkcije
