@@ -69,7 +69,6 @@ image: /images/kursevi/js-logo.png
 - [Različiti načini pisanja funkcije](/razliciti-nacini-pisanja-funkcije)
 - [Podrazumevani parametri](/podrazumevani-parametri)
 - Opseg varijabli unutar funkcije
-- Čiste i nečiste funkcije
 - [Streličaste funkcije](/strelicaste-funkcije)
 - Vežba: napravi čiste funkcije za osnovne računske operacije
 

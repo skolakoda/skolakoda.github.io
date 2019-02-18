@@ -36,15 +36,15 @@ kurs: napredni-js
 - [Naredbe i izrazi](/naredbe-i-izrazi)
 - [Imperativno vs. funkcionalno programiranje](/imperativno-vs-funkcionalno-programiranje)
 - [Funkcionalno programiranje](/funkcionalno-programiranje)
+- [Funkcije višeg reda](/funkcije-viseg-reda)
 
 ### Moć funkcija
-- Funkcija kao objekat (sa svojstvima i metodama)
+- [Funkcija kao objekat](/javascript-funkcija-kao-objekat)
 - [Funkcija kao argument (povratna funkcija)](/kako-rade-callback-funkcije)
-- [Funkcija koja vraća funkciju](/javascript-zatvaranje#funkcija-koja-vraća-funkciju)
+- [Funkcija koja vraća funkciju](/funkcija-koja-vraca-funkciju)
 - [Funkcija koja poziva sebe (rekurzija)](/rekurzija)
 - Čiste i nečiste funkcije
 - [Višestruko vraćanje vrednosti](/visestruko-vracanje-vrednosti)
-- Deklaracija funkcije i dizanje (_hoisting_)
 - [Zatvaranje (_closure_)](/javascript-zatvaranje) i modularni obrazac
 - Samoizvršne anonimne funkcije i `void` operator
 - Podrazumevani argumenti

@@ -40,9 +40,30 @@ Stare promenljive `var` možemo zatvoriti samo u opseg funkcije, inače ignoriš
 console.log(b)  // b je dostupno
 ```
 
+## Primer: opsega važenja funkcije
+
+Za stare promneljive `var` važi samo opseg funkcije. Promenljiva koja je definisana u funkciji nije vidljiva izvan nje. Na primer:
+
+{:.ulaz}
+```js
+var a = 1
+
+function f() {
+  var b = 1
+}
+
+console.log(a)
+console.log(b)
+```
+
+Promenljiva `a` je u globalnom prostoru, dok je promenljiva `b` u opsegu važenja funkcije `f()`. Zbog toga:
+
+- Unutar funkcije `f()` vidljive su promenljive `a` i `b`.
+- Izvan funkcije `f()` vidljiva je samo promenljiva `a`.
+
 ## Primer: ponovno proglašenje promenljive unutar bloka
 
-Pokušaj da pogodiš šta će biti ispis, kada imamo dve promenljive pod istim imenom:
+Pokušaj da pogodiš šta će biti ispis, kada imamo dve promenljive pod istim imenom u dva različita opsega:
 
 {:.ulaz}
 ```js
@@ -55,7 +76,7 @@ let ime = "Vatroslav"
 console.log(ime)
 ```
 
-Dve istoimene varijable proglašene su u dva različita opsega, a čitamo onu iz spoljnjeg.
+Ovde imamo dve varijable proglašene u dva različita opsega, a čitamo onu iz spoljnjeg.
 
 ## Primer: ponovna dodela vrednosti unutar bloka
 

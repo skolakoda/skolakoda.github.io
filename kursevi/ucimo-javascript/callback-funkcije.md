@@ -10,7 +10,7 @@ Povratne funkcije su obično anonimne. Prosleđeni anonimni funkcijski izraz je 
 
 ## Klasične povratne funkcije
 
-Mnoge metode nizova primaju funk­ciju kao parametar. Na primer:
+Na primer, metoda niza `map` prima povratnu funkciju kao parametar:
 
 {:.ulaz}
 ```js
@@ -23,9 +23,11 @@ const mapirano = brojevi.map(function(n) {
 console.log(mapirano)
 ```
 
+Povratna funkcija prima trenutni član niza i vraća novu vrednost.
+
 ## Streličaste povratne funkcije
 
-Streličaste funk­cije omogućuju kraću sintaksu za pisanje lambda funkcija. Umesto klasične, `map` metodi možemo proslediti streličastu funkciju. 
+Streličasta funk­cija omogućuje pregledniju sintaksu za pisanje lambda funkcija: 
 
 {:.ulaz}
 ```js
