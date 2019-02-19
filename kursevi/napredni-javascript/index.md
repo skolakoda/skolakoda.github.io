@@ -60,7 +60,7 @@ kurs: napredni-js
 ### Projektni obrasci
 - [Projektni obrasci](/projektni-obrasci)
 - [Modul obrazac](https://skolakoda.org/refaktorisanje/pretvori-skripte-u-module) (*module pattern*)
-- Singularni obrazac
+- [Jedinac obrazac](/javascript-obrazac-singleton)
 - Factory obrazac
 - Decorator obrazac
 - Observer obrazac
