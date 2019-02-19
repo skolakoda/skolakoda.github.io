@@ -112,3 +112,7 @@ int main(int argc, char *argv[]) {
 ```
 
 Na drugom kraju spektra je Haskell, funkcionalni jezik koji se snažno oslanja na izraze. Za razliku od imperativnog programiranja, funkcionalno programiranje naglašava evaluaciju funkcijskih izraza umesto izvođenja niza naredbi.
+
+## Literatura
+
+- Dr. Axel Rauschmayer, [Expressions versus statements in JavaScript](http://2ality.com/2012/09/expressions-vs-statements.html)

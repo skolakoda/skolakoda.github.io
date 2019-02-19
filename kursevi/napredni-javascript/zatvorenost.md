@@ -80,6 +80,29 @@ console.log(getValue())
 
 Funkcije `setValue()` i `getValue()` proglašavamo kao globalne, da bi bile dostupne, dok promenljiva `zasticeno` ostaje lokalna i nepristupačna.
 
+## Primer: Iterator
+
+Možemo upotrebiti `closure` da bismo postigli funkcionalnost iteratora. Postoje slučajevi kada nije dovoljno odjednom iterirati niz, već je potrebna pauza između iteracije elemenata. Na primer, možemo pozvati funkciju `next()` svakog puta kada nam je potrebna naredna vrednost.
+
+Funkcija `napraviIterator` prima niz i definiše indeks `i`, koji pamti trenutni element u nizu:
+
+{:.ulaz}
+```js
+function napraviIterator(niz) {
+  let i = 0
+  return function() {
+    return niz[i++]
+  }
+}
+
+const next = napraviIterator(['a', 'b', 'c']) // vraca funkciju
+
+// neprekidnim pozivanjem iste funkcije dobijamo naredni element
+console.log(next())
+console.log(next())
+console.log(next())
+```
+
 ## Literatura
 
 - Ved Antani, Stojan Stefanov, *Objektno-orjentisan JavaScript*, Beograd, 2017.

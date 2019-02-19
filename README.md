@@ -29,7 +29,7 @@ bundle exec jekyll serve --incremental --drafts
 
 - staviti aktivne kurseve na naslovnu, dodati svakom dugme za prijavu, napisati da se biraju polaznici
 - dodati pretragu
-- dodati biografiju
+- pregledati refaktorisanje šta može da se iskoristi za napredni js
 - dodati bazu filmova i nove projekte (igor, joxa)
 - dodati editovanje stranica
 - dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)
