@@ -45,8 +45,8 @@ kurs: napredni-js
 - [Funkcija koja poziva sebe (rekurzija)](/rekurzija)
 - Čiste i nečiste funkcije
 - [Višestruko vraćanje vrednosti](/visestruko-vracanje-vrednosti)
-- [Zatvaranje (_closure_)](/javascript-zatvaranje) i modularni obrazac
-- Samoizvršne anonimne funkcije i `void` operator
+- [Zatvorenost (_closure_)](/javascript-zatvorenost) i modularni obrazac
+- [Samoizvršne anonimne funkcije](/samoizvrsne-anonimne-funkcije)
 - Podrazumevani argumenti
 - Streličaste funkcije
 

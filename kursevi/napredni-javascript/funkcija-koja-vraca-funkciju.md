@@ -6,6 +6,8 @@ permalink: /funkcija-koja-vraca-funkciju
 
 **U Javascriptu, funkcija može da vrati vrednost bilo kog tipa, a to može biti i funkcija.**
 
+Ova tehnika se bitno oslanja na [zatvorenost](/javascript-zatvorenost) (*closure*) funkcija.
+
 ## Funkcija unutar funkcije
 
 Poznato je da možemo ugnezditi funkciju unutar druge funkcije. Na primer:
@@ -75,6 +77,26 @@ const dodaj = x => y => y + x
 Ovde takođe imamo spoljnu funkciju koja prima argument `x` i unutrašnju funkciju `y => y + x`.
 
 Vidimo da je zbog implicitnog vraćanja vrednosti sintaksa značajno kraća i manje očigledna.
+
+## Još primera
+
+{:.ulaz}
+```js
+function napraviPozdrav(pozdrav) {
+  return function (ime) {
+    console.log(pozdrav + ' ' + ime)
+  }
+}
+
+const zdravo = napraviPozdrav('Zdravo')
+const dovidjenja = napraviPozdrav('Dovidjenja')
+
+zdravo("Ana")
+zdravo("Nikola")
+dovidjenja('Marko')
+
+napraviPozdrav('Dobar dan')('komsija')
+```
 
 ## Stvarna upotreba
 

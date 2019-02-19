@@ -1,5 +1,5 @@
 ---
-title: Naredbe i izrazi
+title: Naredbe vs. izrazi
 layout: lekcija-napredni-js
 author: damjan
 permalink: /naredbe-i-izrazi
@@ -33,6 +33,9 @@ Neki navedeni izrazi daju aritmetičku, neki logičku, a neki tekstualnu vrednos
 ```js
 2 + 2 == 5
 ```
+
+{:.uokvireno}
+Funkcije mogu biti i naredbe i izrazi, zavisno od toga da li evaluiraju vrednost ili menjaju stanje sveta. Čiste funkcije su uvek izrazi.
 
 ## Primeri naredbi
 
