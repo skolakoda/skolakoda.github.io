@@ -25,7 +25,7 @@ kurs: napredni-js
 - Provera pretka sa `instanceof`
 - Vežba: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
 
-### Moduli i modularnost
+### ES6 moduli
 
 - [Moduli u Javascriptu](/javascript-moduli)
 - [Imenovani izvoz i uvoz](/imenovani-izvoz-i-uvoz)
@@ -45,7 +45,7 @@ kurs: napredni-js
 - [Funkcija koja poziva sebe (rekurzija)](/rekurzija)
 - Čiste i nečiste funkcije
 - [Višestruko vraćanje vrednosti](/visestruko-vracanje-vrednosti)
-- [Zatvorenost (_closure_)](/javascript-zatvorenost) i modularni obrazac
+- [Zatvorenost (_closure_)](/javascript-zatvorenost)
 - [Samoizvršne anonimne funkcije](/samoizvrsne-anonimne-funkcije)
 - Podrazumevani argumenti
 - Streličaste funkcije
@@ -56,6 +56,15 @@ kurs: napredni-js
 - `this` i streličaste funkcije
 - Vežba: proveri `this` unutar obične i streličaste povratne funkcije (`addEventListener` i `setTimeout`)
 - Vežba: proveri `this` unutar klasa i objekata
+
+### Projektni obrasci
+- [Projektni obrasci](/projektni-obrasci)
+- [Modul obrazac](https://skolakoda.org/refaktorisanje/pretvori-skripte-u-module) (*module pattern*)
+- Singularni obrazac
+- Factory obrazac
+- Decorator obrazac
+- Observer obrazac
+- [Dobre prakse pisanja Javascripta](/javascript-dobre-prakse)
 
 ### Šablonske strune (\` \`) [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-sablonske-strune)
 
@@ -126,3 +135,10 @@ kurs: napredni-js
 - [Propagacija događaja naniže (*capturing*)](/javascript-capturing)
 - [Propagacija događaja naviše (*bubbling*)](/javascript-bubbling)
 - [Zaustavljanje propagacije događaja](/zaustavljanje-propagacije)
+
+### Refaktorisanje uslova
+
+- Odvajanje uslova u funkciju
+- Uklanjanje ugnježdenih uslova
+- Refaktorisanje uslova do nestanka
+- Logički zakoni za programere

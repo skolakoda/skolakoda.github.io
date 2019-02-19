@@ -1,7 +1,8 @@
 ---
 title: Fasada (projektni obrazac)
 layout: lekcija-razvoj
-permalink: /fasada
+permalink: /obrazac-fasada
+redirect_from: /fasada
 image: https://upload.wikimedia.org/wikipedia/en/5/57/Example_of_Facade_design_pattern_in_UML.png
 ---
 

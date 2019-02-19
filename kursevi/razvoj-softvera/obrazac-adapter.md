@@ -1,7 +1,8 @@
 ---
 title: Adapter (projektni obrazac)
 layout: lekcija-razvoj
-permalink: /adapter
+permalink: /obrazac-adapter
+redirect_from: /adapter
 ---
 
 ![](https://gamessoon.ru/assets/264-adapterintro2646.jpg)

@@ -63,6 +63,7 @@ kurs: frontend
 
 ### Postavljanje projekta
 
+- [Kako organizovati frontend projekat koji raste?](/kako-organizovati-frontend-projekat)
 - Izbor tehnologija i biblioteka
 - Izbor paket menadžera ([Bower](https://bower.io/), [NPM](https://www.npmjs.com/), [Yarn](https://yarnpkg.com))
 - [Organizacija foldera i fajlova](/kako-organizovati-frontend-projekat)

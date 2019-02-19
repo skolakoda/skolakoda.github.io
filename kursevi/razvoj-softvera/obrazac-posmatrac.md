@@ -1,7 +1,8 @@
 ---
 title: Posmatrač (projektni obrazac)
 layout: lekcija-razvoj
-permalink: /posmatrac
+permalink: /obrazac-posmatrac
+redirect_from: /posmatrac
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a8/Observer_w_update.svg)

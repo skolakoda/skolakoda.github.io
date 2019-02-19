@@ -1,7 +1,8 @@
 ---
 title: Fabrika (projektni obrazac)
 layout: lekcija-razvoj
-permalink: /fabrika
+permalink: /obrazac-fabrika
+redirect_from: /fabrika
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Peitz_08-13_img1_Molkerei.jpg/800px-Peitz_08-13_img1_Molkerei.jpg)

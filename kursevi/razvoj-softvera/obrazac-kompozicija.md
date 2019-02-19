@@ -1,7 +1,8 @@
 ---
 title: Kompozicija (projektni obrazac)
 layout: lekcija-razvoj
-permalink: /kompozicija
+permalink: /obrazac-kompozicija
+redirect_from: /kompozicija
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Fortaleza_de_Bam%2C_Ir%C3%A1n%2C_2016-09-23%2C_DD_09.jpg/1024px-Fortaleza_de_Bam%2C_Ir%C3%A1n%2C_2016-09-23%2C_DD_09.jpg)

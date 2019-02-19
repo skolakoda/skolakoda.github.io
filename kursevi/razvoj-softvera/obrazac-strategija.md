@@ -1,7 +1,8 @@
 ---
 title: Strategija (projektni obrazac)
 layout: lekcija-razvoj
-permalink: /strategija
+permalink: /obrazac-strategija
+redirect_from: /strategija
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/28/H._G._Wells_Wargaming.jpg)

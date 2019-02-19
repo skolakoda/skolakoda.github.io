@@ -1,7 +1,8 @@
 ---
 title: Komanda (projektni obrazac)
 layout: lekcija-razvoj
-permalink: /komanda
+permalink: /obrazac-komanda
+redirect_from: /komanda
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Command_Center_%286109628967%29.jpg/1024px-Command_Center_%286109628967%29.jpg)

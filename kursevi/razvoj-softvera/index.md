@@ -15,7 +15,6 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - [Uvod u softversko inženjerstvo](https://www.slideshare.net/DamjanPavlica/uvod-u-softversko-inenjerstvo)
 - Softverska arhitektura i softverski dizajn
 - [Verovali ili ne](/verovali-ili-ne)
-- [Ideje za aplikacije](/ideje-za-aplikacije)
 
 ### Objektno orijentisano programiranje
 
@@ -43,14 +42,14 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 
 - [Ispravan kod nije dovoljan](/ispravan-kod-nije-dovoljan)
 - [Projektni obrasci](/projektni-obrasci)
-- [Fasada](/fasada)
-- [Adapter](/adapter)
-- [Posmatrač](/posmatrac)
-- [Jedinac](/singleton) (*Singleton*)
-- [Fabrika](/fabrika)
-- [Strategija](/strategija)
-- [Kompozicija](/kompozicija)
-- [Komanda](/komanda)
+- [Fasada (*facade*)](/obrazac-fasada)
+- [Adapter (*adapter*)](/obrazac-adapter)
+- [Posmatrač (*observer*)](/obrazac-posmatrac)
+- [Jedinac (*singleton*)](/obrazac-singleton)
+- [Fabrika (*factory*)](/obrazac-fabrika)
+- [Strategija (*strategy*)](/obrazac-strategija)
+- [Kompozicija (*composite*)](/obrazac-kompozicija)
+- [Komanda (*command*)](/obrazac-komanda)
 - [Model–view–controller (MVC)](/mvc)
 - Vežba: Implementiraj MVC obrazac
 
@@ -82,12 +81,3 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - [Višeslojna arhitektura](/viseslojna-arhitektura)
 - [Model ravnopravnih partnera](/model-ravnopravnih-partnera)
 - [Projektovanje web aplikacija](https://www.slideshare.net/DamjanPavlica/projektovanje-web-aplikacija)
-
-### Frontend arhitektura
-
-- [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
-- [Kako organizovati frontend projekat koji raste?](/kako-organizovati-frontend-projekat)
-  - organizacija po nameni (model, view, controller)
-  - organizacija po celinama (user, product...)
-- jednostranične aplikacije
-- build automatizacija

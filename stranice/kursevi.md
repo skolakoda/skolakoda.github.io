@@ -28,7 +28,7 @@ Takođe organizujemo [mentorsku obuku](/it-obuka) uživo.
   {% include kutijice/algoritmi.html %}
   {% include kutijice/inzenjerstvo.html %}
   {% include kutijice/refaktorisanje.html %}
-  {% include kutijice/blockchain.html %}
+  <!-- {% include kutijice/blockchain.html %} -->
   {% include kutijice/bez-racunara.html %}
 </div>
 
