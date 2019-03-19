@@ -1,5 +1,5 @@
 ---
-title: "Fabrika (projektni obrazac) u Javascriptu"
+title: "Projektni obrazac fabrika u Javascriptu"
 layout: lekcija-napredni-js
 permalink: /javascript-obrazac-fabrika
 ---

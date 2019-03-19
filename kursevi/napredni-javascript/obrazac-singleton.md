@@ -1,5 +1,5 @@
 ---
-title: "Jedinac (projektni obrazac) u Javascriptu"
+title: "Projektni obrazac jedinac (<i>singleton</i>) u Javascriptu"
 layout: lekcija-napredni-js
 permalink: /javascript-obrazac-singleton
 ---
