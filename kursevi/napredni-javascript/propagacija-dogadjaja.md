@@ -1,6 +1,6 @@
 ---
 title: Propagacija događaja u Javascriptu
-layout: lekcija-napredni-js-frontend
+layout: lekcija-napredni-js
 permalink: /javascript-propagacija-dogadjaja
 image: /images/koncepti/web/spustanje-dizanje-dogadjaja.png
 ---

@@ -1,6 +1,6 @@
 ---
 title: Dobre prakse pisanja Javascripta
-layout: lekcija-napredni-js-frontend
+layout: lekcija-napredni-js
 permalink: /javascript-dobre-prakse
 ---
 

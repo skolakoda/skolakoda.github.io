@@ -61,9 +61,8 @@ kurs: napredni-js
 - [Projektni obrasci](/projektni-obrasci)
 - [Modul obrazac](https://skolakoda.org/refaktorisanje/pretvori-skripte-u-module) (*module pattern*)
 - [Jedinac obrazac](/javascript-obrazac-singleton)
-- Factory obrazac
-- Decorator obrazac
-- Observer obrazac
+- [Fabrika obrazac](/javascript-obrazac-fabrika)
+- [Posmatrač obrazac](/javascript-obrazac-posmatrac)
 - [Dobre prakse pisanja Javascripta](/javascript-dobre-prakse)
 
 ### Šablonske strune (\` \`) [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-sablonske-strune)
