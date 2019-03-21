@@ -28,7 +28,7 @@ bundle exec jekyll serve --incremental --drafts
 ## TODO
 
 - dodati pretragu
-- dodati bazu filmova i nove projekte (igor, joxa)
+- dodati nove projekte (igor, joxa)
 - pregledati refaktorisanje šta može da se iskoristi za napredni js
 - dodati editovanje stranica
 - dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)

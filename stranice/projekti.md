@@ -6,21 +6,14 @@ opis: Ovo su neki od otvorenih projekata koje razvijamo.
 
 # {{page.title}}
 
-Ovo su neki od projekata koje razvijamo, za potrebe učenja i za klijente. Ako želiš nešto da naručiš, [kontaktiraj nas](/kontakt).
-
-## Sajtovi i portali
-
-<div class="radovi">
-{% include radovi/eliksir.html %}
-{% include radovi/psiholjub.html %}
-</div>
+Ovo su neki od projekata koje razvijamo, za potrebe učenja i za klijente.
 
 ## Mobilne i web aplikacije
 
 <div class="radovi">
+{% include radovi/baza-filmova.html %}
 {% include radovi/citati.html %}
 {% include radovi/spomenici.html %}
-{% include radovi/nadji-developera.html %}
 {% include radovi/editor.html %}
 {% include radovi/bojanka.html %}
 {% include radovi/power-wiki-search.html %}
@@ -42,4 +35,11 @@ Ovo su neki od projekata koje razvijamo, za potrebe učenja i za klijente. Ako �
 {% include radovi/partizani-animacija.html %}
 </div>
 
-Sav softver Škole koda objavljen je pod slobodnom licencom.
+## Sajtovi i portali
+
+<div class="radovi">
+{% include radovi/eliksir.html %}
+{% include radovi/psiholjub.html %}
+</div>
+
+Sav softver Škole koda objavljen je pod slobodnom licencom, ako nije drukčije naznačeno.
