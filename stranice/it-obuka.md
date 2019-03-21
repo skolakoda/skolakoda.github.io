@@ -2,15 +2,16 @@
 title: IT obuka
 permalink: /it-obuka
 opis: Organizujemo mentorsku obuku za rešene pojedince, koji su krenuli putem prekvalifikacije u IT sektor.
+redirect_from: /o-javascript-kursu
 ---
 
 # IT obuka
 
-**U Školi koda organizujemo mentorsku obuku za rešene pojedince, koji su krenuli putem prekvalifikacije u IT sektor. Pristup je posebno prilagođen osobama bez tehničkog obrazovanja.**
+**Organizujemo mentorsku obuku za rešene pojedince, koji su krenuli putem prekvalifikacije u IT sektor. Pristup je posebno prilagođen osobama bez prethodnog tehničkog obrazovanja.**
 
-Obuka se vrši u malim grupama, pa je potrebno [prijaviti se na čekanje](/prijava) da bi rezervisali mesto na vreme. 
+Obuka se vrši u malim grupama, pa je potrebno [prijaviti se na čekanje](/prijava) da bi rezervisali mesto na vreme.
 
-Cena tromesečne obuke, od 100 časova, je 240 evra. Svi naši kursevi su iste cene.
+Mesečna članarina iznosi 80 eura. Kursevi uglavnom traju tri meseca, sa ukupnim fondom od 100 časova. 
 
 <a class="btn" href="/prijava">Prijavi se</a>
 
@@ -30,9 +31,13 @@ Tempo rada je dva četvoročasa sedmično.
 
 Obuka traje tri meseca, sa tempom rada od 8 časova sedmično, što izađe na **preko 100 časova** obuke.
 
+## Jel ima prijemni?
+
+Da, za neke kurseve postoji ulazni razgovor, na osnovu kog vršimo inicijalnu selekciju kandidata.
+
 ## Kako izgleda obuka?
 
-Za razliku od visokoškolskih ustanova, gde se nastava odvija u amfiteatru, u Školi koda radimo projekte u malim grupama, između 5 i 10 polaznika. 
+U Školi koda negujemo *bootcamp* pristup. Za razliku od visokoškolskih ustanova, gde se nastava odvija u amfiteatru, u Školi koda radimo projekte u malim grupama, između 5 i 10 polaznika.
 
 Mentor prati svačiji napredak i nalazi svakom odgovarajuće vežbe, kako bi držao nivo obuke intenzivnim. Ako neko napreduje brže od ostalih, zadaje mu napredne vežbe, ako neko zaglavi, dodatno mu pojasni.
 
@@ -40,19 +45,17 @@ Mentor prati svačiji napredak i nalazi svakom odgovarajuće vežbe, kako bi dr�
 
 ## Gde se održavaju radionice?
 
-Obuke uvek držimo u Beogradu, ali u raznim prostorima.
-
-Poslednji krug kurseva smo držali na Zvezdari.
+Trenutno obuku držimo u centru Beograda, na Terazijama, u Čumićevom sokačetu.
 
 ## Kolika je cena?
 
-Tokom pohađanja kursa, polaznici plaćaju mesečnu školarinu od 80 eura (u dinarskoj protivrednosti), što izađe na **240 eura** za tri meseca.
+Tokom pohađanja kursa, polaznici plaćaju mesečnu školarinu od **80 eura** (u dinarskoj protivrednosti).
 
 Plaćanje školarine se vrši prve sedmice u mesecu. 
 
 ## Da li se dobija sertifikat?
 
-Sertifikat se ne dobija, sertifikat se stiče. Polaznici koji uspešno isprate kurs stiču pravo na polaganje završnog ispita. U slučaju položenog ispita se izdaje sertifikat.
+Polaznici po završetku mogu dobiti potvrdu da su uspešno prošli obuku, ali u Školi koda naglasak nije na papiru, već na praktičnim veštinama koje će svako poneti sa sobom.
 
 ## Kako se prijaviti?
 
@@ -62,6 +65,6 @@ Svoju prijavu shvatite ozbiljno, i nemojte se prijavljivati ukoliko niste rešen
 
 ## Garancija kvaliteta
 
-Ako je neki polaznik nezadovoljan kvalitetom obuke, biće mu vraćen iznos školarine za tekući mesec. Za detalje, vidi [uslove pohađanja](/uslovi-pohadjanja).
+Ako je neki polaznik nezadovoljan kvalitetom obuke, biće mu vraćen iznos školarine za tekući mesec. Za detalje, videti [uslove pohađanja](/uslovi-pohadjanja).
 
 {% include o-predavacu.html %}

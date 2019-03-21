@@ -3,13 +3,14 @@ layout: kurs
 title: Učimo Javascript
 github: ucimo-javascript
 image: /images/kursevi/js-logo.png
+video: https://www.youtube.com/embed/pu-466V7H6A?rel=0&cc_load_policy=1
 ---
 
 **Nauči da programiraš kroz popularni jezik JavaScript. Nauči da oživljavaš stranice pomoću interakcije. Nauči da praviš web aplikacije.**
 
-***Kurs je za potpune početnike koji hoće da nauče programiranje i započnu prekvalifikaciju u IT sektor. Podrazumeva se osnovna računarska pismenost, a bonus je poznavanje HTML-a.*** *[Saznaj više](/o-javascript-kursu)*
+***Za uspešno praćenje kursa preporučuje se osnovno poznavanje HTML-a i CSS-a.***
 
-<a href="/prijava?kurs=2" class="btn float-right">Mentorska obuka</a>
+<a href="/prijava?kurs=2" class="btn float-right">Prijava za obuku</a>
 
 ### Uvod
 

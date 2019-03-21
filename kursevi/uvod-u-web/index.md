@@ -10,7 +10,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 
 ***Kurs je za apsolutne početnike.***
 
-<!-- <a href="/prijava?kurs=1" class="btn float-right">Prijavi se</a> -->
+<a href="/prijava?kurs=1" class="btn float-right">Prijava za obuku</a>
 
 ### Uvod
 

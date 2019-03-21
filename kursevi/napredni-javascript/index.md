@@ -7,9 +7,9 @@ kurs: napredni-js
 
 **Nauči objektno orjentisanu paradigmu, module i asinhrono programiranje. Nauči napredne koncepte jezika, strukture podataka i algoritme.**
 
-***Preporučeni preduslov za uspešno praćenje kursa je bar 2 godine programiranja.***
+***Neophodan uslov za uspešno praćenje kursa je efektivna upotreba Javascripta.***
 
-<!-- <a href="/prijava?kurs=5" class="btn float-right">Prijavi se</a> -->
+<a href="/prijava?kurs=5" class="btn float-right">Prijava za obuku</a>
 
 ### Objektno orijentisani Javascript
 
