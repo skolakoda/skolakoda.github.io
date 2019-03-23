@@ -27,8 +27,8 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
-- dodati pretragu
-- dodati nove projekte (igor, joxa)
+- dodati pretragu u header
+- dodati nove projekte (http://autorskopravo.rs/)
 - pregledati refaktorisanje šta može da se iskoristi za napredni js
 - dodati editovanje stranica
 - dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)
