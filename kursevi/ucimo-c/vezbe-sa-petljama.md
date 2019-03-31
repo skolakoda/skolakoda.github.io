@@ -195,7 +195,7 @@ function binarno(br) {
   const bin = []
 
   while (br != 0) {
-    bin.push(br % 2)
+    bin.unshift(br % 2)
     br = Math.floor(br / 2)
   }
   return bin.join('')
