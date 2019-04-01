@@ -204,15 +204,6 @@ video: https://www.youtube.com/embed/pu-466V7H6A?rel=0&cc_load_policy=1
 - Vežba: Napravi plejer i plejlistu
 - Vežba: Napravi program za pravljenje muzike
 
-### React biblioteka
-
-- Upoznavanje alata (Webpack, Node, Npm, Babel, React Dev-Tools, pomoćne biblioteke)
-- Kreiranje aplikacije
-- React komponente
-  - JSX i evaluacija izraza
-  - `state` i `props`
-- Dinamički render sadržaja
-
 ### Node.js bekend servisi [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
 
 - [Šta je server?](/server)
