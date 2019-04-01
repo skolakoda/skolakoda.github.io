@@ -69,7 +69,7 @@ kurs: frontend
 - [Organizacija foldera i fajlova](/kako-organizovati-frontend-projekat)
   - Organizacija po tipu (js, css, slike...)
   - Organizacija po celinama (user, product, cart…)
-- [Izrada stilskog vodiča](/stilski-vodic)
+- [Izrada stilskog vodiča](/stilski-vodic) (primer: https://www.landshypotek.se/styleguide)
 - [Build automatizacija](/izgradnja-programa) (`Gulp`, `Grunt`, `Webpack`)
   - Automatsko prevođenje, minifikacija i spajanje koda
   - Automatsko slanje koda na udaljeni server
