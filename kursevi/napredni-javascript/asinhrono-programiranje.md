@@ -35,6 +35,20 @@ Model asinhronog programiranja ima jednu nit kon­trole, unutar koje se zadaci p
 
 Kad je asinhroni model bolji od sinhronog? Kada god program čeka nešto - učitavanje diska, upit bazi podataka ili mrežne zahteve. Ovo su sve blokirajuće operacije. Kada program ima mnogo ulaza/izlaza iz izvora kao što su učitavanje diska ili mrežni pozivi, kašnjenje se ne može predvideti. U sinhronom programu nepredvidljivost je „recept“ za lošu performansu. Kada se asinhroni program suoči sa blokirajućim zadatkom, izvršava se naredni zadatak, bez čekanja da se blokirajuća operacija završi.
 
+## Primer
+
+Možete li pogoditi kojim redosledom će brojevi biti ispisani?
+
+{:.ulaz}
+```js
+console.log(1)
+
+fetch('https://baza-filmova.herokuapp.com/filmovi/')
+  .then(data => console.log(2))
+
+console.log(3)
+```
+
 ## Literatura
 
 - Ved Antani, Stojan Stefanov, *Objektno-orjentisan JavaScript*, Beograd, 2017.
