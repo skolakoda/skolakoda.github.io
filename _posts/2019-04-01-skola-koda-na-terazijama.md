@@ -8,7 +8,7 @@ image: /images/skola/grupne/skola-koda-grupna-odozgo.jpg
 
 **Velika novost, Škola koda, udruženje programera posvećeno držanju bootcamp obuka, se od ovog meseca nalazi u centru Beograda, u Čumićevom sokačetu na Terazijama.**
 
-Od 15. aprila 2019. nam kreće novi krug kurseva. Imamo nekoliko novih predavača, prvi put ćemo držati Python, a planiramo i besplatne Arduino radionice vikendom.
+Od 15. aprila nam kreće novi krug kurseva. Imamo nekoliko novih predavača, prvi put ćemo držati Python, a planiramo i besplatne Arduino radionice vikendom.
 
 ## Prijava za obuku
 
@@ -18,9 +18,12 @@ Od 15. aprila 2019. nam kreće novi krug kurseva. Imamo nekoliko novih predavač
 - Uvod u Python (početni)
 - [Uvod u Javascript](/kursevi/ucimo-javascript/) (početni)
 - [Praktični Frontend](/kursevi/prakticni-frontend/) (napredni)
+- [Full Stack Javascript](/kursevi/napredni-javascript/) (napredni)
 - [React i Redux](https://skolakoda.org/uvod-u-react/) (napredni)
 
 Svi kursevi su iste cene, plaća se mesečna članarina od 80e, a uglavnom traju 3 meseca. *[Saznaj više](/it-obuka)...*
+
+Od 15. aprila 2019. će krenuti četiri kursa sa najviše prijavljenih, dok će oni sa manje prijavljenih krenuti u sledećem krugu.
 
 ## Hub Škole koda
 
