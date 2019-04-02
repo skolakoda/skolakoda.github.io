@@ -24,6 +24,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/2/2c/Rock_crusher_gears.jp
 
 ### Poslovne aplikacije
 
+* **elektronsko bankarstvo** (provera stanja, plaćanje računa, prenos sredstava)
 * **internet prodavnica** (unošenje proizvoda, pretraga proizvoda, mogućnost narudžbine)
 * **sistem za rezervaciju karata** (prikazuje broj raspoloživih karata u svakom trenutku)
 * **program za šank** (vodi računa koji je sto koliko dužan i prikazuje dnevni pazar na kraju dana)
