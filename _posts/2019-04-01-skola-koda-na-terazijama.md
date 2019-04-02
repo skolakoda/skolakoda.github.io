@@ -6,7 +6,7 @@ image: /images/skola/grupne/skola-koda-grupna-odozgo.jpg
 
 ![]({{page.image}})
 
-**Velika novost, Škola koda, udruženje programera posvećeno držanju bootcamp obuka, se od ovog meseca nalazi u centru Beograda, u Čumićevom sokačetu na Terazijama.**
+**Velika novost, Škola koda, udruženje programera posvećeno držanju *bootcamp* obuka, se od ovog meseca nalazi u centru Beograda, u Čumićevom sokačetu na Terazijama.**
 
 Od 15. aprila nam kreće novi krug kurseva. Imamo nekoliko novih predavača, prvi put ćemo držati Python, a planiramo i besplatne Arduino radionice vikendom.
 
