@@ -12,7 +12,7 @@ Od 15. aprila nam kreće novi krug kurseva. Imamo nekoliko novih predavača, prv
 
 ## Prijava za obuku
 
-**U toku je [prijava](/prijava) za sledeće kurseve:**
+**Možete se [prijaviti](/prijava) za sledeće kurseve:**
 
 - [Uvod u web](/kursevi/uvod-u-web/) (početni)
 - Uvod u Python (početni)
