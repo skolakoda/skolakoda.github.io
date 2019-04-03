@@ -23,7 +23,7 @@ Od 15. aprila nam kreće novi krug kurseva. Imamo nekoliko novih predavača, prv
 
 Svi kursevi su iste cene, plaća se mesečna članarina od 80e, a uglavnom traju 3 meseca. *[Saznaj više](/it-obuka)...*
 
-Od 15. aprila 2019. će krenuti četiri kursa sa najviše prijavljenih, dok će oni sa manje prijavljenih krenuti u sledećem krugu.
+Od 15. aprila 2019. će krenuti četiri kursa sa najviše prijavljenih, dok će oni sa manje prijavljenih krenuti u sledećem krugu. Sve prijavljene ćemo nazvati da obavestimo koji kursevi kreću, i koje su alternative.
 
 ## Hub Škole koda
 
