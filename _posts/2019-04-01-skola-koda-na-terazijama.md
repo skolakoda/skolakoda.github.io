@@ -33,6 +33,6 @@ Pošto kurseve držimo predveče, prostor Škole koda će preko dana služiti ka
 
 ## Ukratko o nama
 
-Škola koda je udruženje programera posvećeno učenju i deljenju veština. Oslanjamo se na sopstvene snage, ne zavisimo od donacija. Finansiramo se preko članarine, od čega pokrivamo troškove prostora, opreme, predavača, računovođe i ostalog. Naša primarna delatnost je proizvodnja besplatnih tutorijala.
+Škola koda je udruženje programera posvećeno učenju i deljenju veština. Oslanjamo se na sopstvene snage, finansiramo se preko članarine, od čega pokrivamo troškove prostora, opreme, predavača, računovođe i ostalog. Naša primarna delatnost je proizvodnja besplatnih tutorijala.
 
 **Učimo narod programiranju!**
