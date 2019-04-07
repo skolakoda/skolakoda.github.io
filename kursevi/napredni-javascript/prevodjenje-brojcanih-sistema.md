@@ -1,7 +1,7 @@
 ---
 title: Prevođenje između brojčanih sistema u Javaskriptu
 layout: lekcija-napredni-js
-permalink: /prevodjenje-brojcanih-sistema
+permalink: /javascript-prevodjenje-brojcanih-sistema
 ---
 
 **Ponekad je potrebno prevesti brojeve iz binarnog ili heksadecimalnog formata, koji koristi računar, u dekadni, koji ljudi koriste.**

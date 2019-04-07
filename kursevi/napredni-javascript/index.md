@@ -113,7 +113,7 @@ kurs: napredni-js
 - Tipski nizovi (*typed arrays*)
 - [Ispitivanje tipa objekta](/ispitivanje-tipa-objekta)
 - [Razlika null i undefined](/javascript-null-i-undefined)
-- [Prevođenje između brojčanih sistema](/prevodjenje-brojcanih-sistema)
+- [Prevođenje između brojčanih sistema](/javascript-prevodjenje-brojcanih-sistema)
 - [Bitovski operatori u Javaskriptu](/bitovni-operatori-javaskript)
 
 ### Destrukturiranje
