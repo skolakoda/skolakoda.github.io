@@ -1,6 +1,6 @@
 ---
 title: "Ključna reč <code>this</code> u Javascriptu"
-layout: lekcija-js-frontend
+layout: lekcija-napredni-js-frontend
 permalink: /javascript-this
 ---
 

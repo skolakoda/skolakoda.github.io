@@ -1,5 +1,5 @@
 ---
-title: Prevođenje između brojčanih sistema u Javaskriptu
+title: Prevođenje brojčanih sistema u Javaskriptu
 layout: lekcija-napredni-js
 permalink: /javascript-prevodjenje-brojcanih-sistema
 ---

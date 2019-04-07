@@ -51,11 +51,10 @@ kurs: napredni-js
 - Streličaste funkcije
 
 ### Kontekst izvršenja (`this`)
-- Vrednost `this` i kontekst izvršenja (funkcije, metode, klase, povratne funkcije)
+- [Vrednost `this` i kontekst izvršenja](/javascript-this)
 - Promena konteksta sa `call`, `aply` i `bind`
 - `this` i streličaste funkcije
 - Vežba: proveri `this` unutar obične i streličaste povratne funkcije (`addEventListener` i `setTimeout`)
-- Vežba: proveri `this` unutar klasa i objekata
 
 ### Projektni obrasci
 - [Projektni obrasci](/projektni-obrasci)
@@ -113,8 +112,6 @@ kurs: napredni-js
 - Tipski nizovi (*typed arrays*)
 - [Ispitivanje tipa objekta](/ispitivanje-tipa-objekta)
 - [Razlika null i undefined](/javascript-null-i-undefined)
-- [Prevođenje između brojčanih sistema](/javascript-prevodjenje-brojcanih-sistema)
-- [Bitovski operatori u Javaskriptu](/bitovni-operatori-javaskript)
 
 ### Destrukturiranje
 
@@ -142,3 +139,9 @@ kurs: napredni-js
 - Uklanjanje ugnježdenih uslova
 - Refaktorisanje uslova do nestanka
 - Logički zakoni za programere
+
+## Razno
+
+- [Prevođenje brojčanih sistema](/javascript-prevodjenje-brojcanih-sistema)
+- [Bitovski operatori u Javaskriptu](/bitovni-operatori-javaskript)
+- [Hvatanje grešaka](/javascript-hvatanje-gresaka)
