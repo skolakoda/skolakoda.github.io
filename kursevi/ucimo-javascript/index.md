@@ -17,7 +17,6 @@ video: https://www.youtube.com/embed/pu-466V7H6A?rel=0&cc_load_policy=1
 - [Učila bih programiranje ali ne znam matematiku](/ne-znam-matematiku)
 - [Čemu služi Javascript?](https://youtu.be/BFc_YPAxQcg)
 - [Kratka istorija Javascripta](/kratka-istorija-javascripta)
-- [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
 
 ### Instalacija i pokretanje
 
@@ -133,13 +132,18 @@ video: https://www.youtube.com/embed/pu-466V7H6A?rel=0&cc_load_policy=1
 
 # Front-end programiranje
 
-### Objektni model pregledača (BOM)
+### Frontend vs. backend
 
-- [Globalni `window` objekat](/window-objekat)
-  - [Podaci o pregledaču (`navigator`)](/window-navigator)
-  - [Podaci o URL adresi (`location`)](/window-location)
-  - [Podaci o ekranu (`screen`)](/window-screen)
-  - [Istorija pregledanja (`history`)](/window-history)
+- [Razlika između frontenda i bekenda?](/razlika-izmedju-frontenda-i-bekenda)
+- [Backend vs. frontend programiranje](/backend-vs-frontend-programiranje)
+
+### Okruženje pregledača
+
+- [Globalni `window` objekat](/window-objekat) (BOM)
+  - [`navigator`](/window-navigator)
+  - [`location`](/window-location)
+  - [`screen`](/window-screen)
+  - [`history`](/window-history)
 - [Metode `prompt`, `confirm` i `alert`](/prompt-confirm-alert)
 - [Odloženo izvršenje i ponavljanje](/odlozeno-izvrsenje-i-ponavljanje) (`setTimeout` i `setlnterval`)
 
@@ -189,20 +193,15 @@ video: https://www.youtube.com/embed/pu-466V7H6A?rel=0&cc_load_policy=1
 - [Regularni izrazi za validaciju](/regularni-izrazi-za-validaciju)
 - [Vežba: validacija formulara](/vezba-js-validacija-formulara)
 
-### Slike i animacije
+### Multimedija
 
-- Učitavanje slika
-- Javascript animacije 
-- Vežba: napravi slajder (bonus: pokreni slajder kada su sve slike učitane)
+- Rad sa slikama
+- Rad sa zvukom i videom
+- Crtanje i animacije na platnu (`canvas`) 
+- Vežba: napravi slajder
 - Vežba: [dinamički napravi foto galeriju](https://jsfiddle.net/mudroljub/d4zwwp70/)
 - [Vežba: Javascript magija](/vezba-javascript-magija)
-
-### Audio i video
-
-- Učitavanje audio i video fajlova
-- Puštanje fajlova
-- Vežba: Napravi plejer i plejlistu
-- Vežba: Napravi program za pravljenje muzike
+- Vežba: Napravi audio plejer i plejlistu
 
 ### Node.js bekend servisi [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
 
