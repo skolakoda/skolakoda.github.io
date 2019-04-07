@@ -85,19 +85,14 @@ kurs: frontend
 - Pisanje dokumentacije
   - Markdown format (`md`)
 
-### Bootstrap i prilagodljivi dizajn [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-bootstrap)
+### Prilagodljivi dizajn [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-bootstrap)
 
-- [Šta je Bootstrap?](https://www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
 - Prvo mobilni pristup
-- Dodavanje biblioteke
-  - Prilagođena instalacija
 - Osnovna `container` klasa
 - Tačke preloma (*breakpoints*)
-- Sistem rešetki (*grid*)
-  - redovi (`row`) i kolone (`col-xs-`, `col-sm-`, `col-md-`, `col-lg-`)
-  - različita širina kolona za različite veličine
-  - dodavanje ofseta
-- Glif ikonice
+- Mreža ili sistem rešetki (*grid*)
+- CSS grid
+- [Bootstrap biblioteka](https://www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
 - jQuery dodaci: vrteška (*carousel*), harmonika (*accordion*), prozorče (*modal*)
 - [Saveti za rad sa Bootstrapom](/rad-sa-bootstrapom)
 - [Kako tretirati uređaje iste veličine prema dodirljivosti ekrana?](/kako-tretirati-klijentske-uredjaje)
@@ -149,55 +144,22 @@ kurs: frontend
 - Pravljenje aliasa
 - Vežba: upiši sortiran spisak `.js` fajlova u `.txt` fajl
 
-### Angular [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-angular)
+### Bitni koncepti
 
-- Uvod u Angular
-  - Moderni web i jednostranične aplikacije (*Single Page Applications*)
-  - MVC arhitektura iz Angular perspektive
-  - Dvosmerno vezivanje podataka (*two-way data binding*)
-- Kontroleri za kontrolu toka aplikacije
-  - Pravljenje bazičnog kontrolera
-  - Prosleđivanje zavisnosti (*dependency injection*)
-- Servisi za dovlačenje podataka
-  - Ugrađeni `$http` servis
-  - Pravljenje servisa
-- Prikaz u HTML-u
-  - Evaluacija vrednosti u šablonu
-  - Vezivanje prikaza za kontroler
-  - Vezivanje prikaza za model (servis)
-  - Dinamičko kreiranje listi sa `ng-repeat`
-- Filteri
-  - Built-in Filters
-  - Creating Custom Filters
-  - Tying filters together
+- Jednostranične aplikacije (*Single Page Applications*)
 - Rutiranje na frontendu
+- MVC arhitektura (Angular)
+- Dvosmerno vezivanje podataka (*two-way data binding*)
+- Jednosmerni tok podataka (React)
+- Komponente
+
+### Upotreba JS frameworka
+
+- Upotreba Angulara
+- Upotreba Reacta
+- Upotreba Vuejs-a
 - Vežba: prikaži podatke iz JSON-a
 - Vežba: napravi živu pretragu sa filterima
-
-### React [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-react)
-
-- JSX format
-- Komponente
-  - Pravljenje komponenti
-  - Nasleđivanje React.Component
-  - Render metoda
-  - Pravljenje listi sa `map`
-- Svojstva (`props`)
-  - Interakcija komponenti preko `props`
-  - Komponente koje renderuju druge komponente
-  - Prosleđivanje svojstava
-  - Prosleđivanje *handler* funkcije kao svojstva
-- Stanje (`state`)
-  - Inicijalizacija stanja
-  - Ažuriranje stanja
-  - Ažuriranje stanja roditelja
-- Stilizovanje
-  - `className` atribut
-  - Dinamičke CSS klase
-- React događaji
-- Rutiranje
-- Jednosmerni tok podataka
-- Vežba: prikaži podatke iz JSON-a
 
 ### Typescript [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-typescript)
 
@@ -207,14 +169,6 @@ kurs: frontend
 - Interfejsi
 - Vežba: prevedi `.js` fajl u `.ts`
 - Vežba: prevedi projekat u Typescript
-
-<!-- ### CSS grid
-
-- Šta je CSS grid?
-- [Learn CSS grid](//learncssgrid.com/)
-- [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-- [An Introduction to the CSS Grid Layout](https://www.sitepoint.com/introduction-css-grid-layout-module/)
-- Primer: [https://codepen.io/mor10/pen/QvmLpd](Standardna struktura sajta u gridu) -->
 
 ### Mobilne i desktop aplikacije
 

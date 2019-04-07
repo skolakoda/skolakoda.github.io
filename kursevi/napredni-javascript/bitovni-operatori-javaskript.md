@@ -13,22 +13,6 @@ image: /images/fore/bitovni-operatori.svg
 
 **Iako se bitovski operatori uglavnom koriste u jezicima nižeg nivoa, mogu imati par korisnih primena u Javaskriptu. U tim slučajevima, oni su uglavnom brža alternativa drugim operacijama.**
 
-## Prevođenje binarnih brojeva
-
-Da bismo radili sa bitovskim operatorima, prvo da vidimo kako prevodimo binarne brojeve u obične. Funkcija `parseInt()`, kada joj se prosledi binarni broj unutar strune i 2 kao baza, vraća dekadni broj. Na primer:
-
-{:.izraz}
-```js
-parseInt('110', 2)
-```
-
-Nasuprot tome, metoda `x.toString(2)`, kada se prosledi 2 kao baza, vraća binarni broj unutar strune. Na primer:
-
-{:.izraz}
-```js
-6..toString(2)  // dve tačke ili zagrada oko broja
-```
-
 ## Provera jel broj paran / neparan
 
 Provera jel broj neparan se može izvršiti pomoću bitovskog i (`&`). Na primer, ovako proveravamo jel broj 7 neparan:
