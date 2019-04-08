@@ -14,12 +14,12 @@ Od 15. aprila nam kreće novi krug kurseva. Imamo nekoliko novih predavača, prv
 
 **Možete se [prijaviti](/prijava) za sledeće kurseve:**
 
-- [Uvod u web](/kursevi/uvod-u-web/) (početni)
-- Uvod u Python (početni)
-- [Uvod u Javascript](/kursevi/ucimo-javascript/) (početni)
-- [Praktični Frontend](/kursevi/prakticni-frontend/) (napredni)
-- [Full Stack Javascript](/kursevi/napredni-javascript/) (napredni)
-- [React i Redux](https://skolakoda.org/uvod-u-react/) (napredni)
+- [Uvod u web](/kursevi/uvod-u-web/) (početni, drže Mirjana Zajić i Đorđe Stevanović)
+- Uvod u Python (početni, drži Marko Veninger)
+- [Uvod u Javascript](/kursevi/ucimo-javascript/) (početni, drže Mirjana Zajić i Đorđe Stevanović)
+- [Praktični Frontend](/kursevi/prakticni-frontend/) (napredni, drži Damjan Pavlica)
+- [Full Stack Javascript](/kursevi/napredni-javascript/) (napredni, drži Damjan Pavlica)
+- [React i Redux](https://skolakoda.org/uvod-u-react/) (napredni, drži Dragan Nikolić Kića)
 
 Svi kursevi su iste cene, plaća se mesečna članarina od 80e, a uglavnom traju 3 meseca. *[Saznaj više](/it-obuka)...*
 
