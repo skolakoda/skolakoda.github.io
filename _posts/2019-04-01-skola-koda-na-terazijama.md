@@ -15,7 +15,7 @@ Od 15. aprila nam kreće novi krug kurseva. Imamo nekoliko novih predavača, prv
 **Možete se [prijaviti](/prijava) za sledeće kurseve:**
 
 - [Uvod u web](/kursevi/uvod-u-web/) (početni, drže Mirjana Zajić i Đorđe Stevanović)
-- Uvod u Python (početni, drži Marko Veninger)
+- [Uvod u Python](/prijava?kurs=12) (početni, drži Marko Veninger)
 - [Uvod u Javascript](/kursevi/ucimo-javascript/) (početni, drže Mirjana Zajić i Đorđe Stevanović)
 - [Praktični Frontend](/kursevi/prakticni-frontend/) (napredni, drži Damjan Pavlica)
 - [Full Stack Javascript](/kursevi/napredni-javascript/) (napredni, drži Damjan Pavlica)
