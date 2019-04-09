@@ -52,7 +52,8 @@ kurs: napredni-js
 
 ### Kontekst izvršenja (`this`)
 - [Vrednost `this` i kontekst izvršenja](/javascript-this)
-- Promena konteksta sa `call`, `aply` i `bind`
+- [Pozajmljivanje metoda sa `call` i `aply`](/javascript-call-aply)
+- Vezivanje konteksta sa `bind`
 - `this` i streličaste funkcije
 - Vežba: proveri `this` unutar obične i streličaste povratne funkcije (`addEventListener` i `setTimeout`)
 
