@@ -8,7 +8,7 @@ permalink: /javascript-call-aply
 
 Ovo je lak i moćan način za ponovnu upotrebu koda. 
 
-## Objekat sa metodom
+## Primer: objekat sa metodom
 
 Na primer, objekat `ninja` ima metodu `pozdrav()`, koja koristi `this.nadimak` da se predstavi:
 
