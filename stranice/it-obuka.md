@@ -9,6 +9,8 @@ redirect_from: /o-javascript-kursu
 
 **Organizujemo mentorsku obuku za rešene pojedince, koji su krenuli putem prekvalifikacije u IT sektor. Pristup je posebno prilagođen osobama bez prethodnog tehničkog obrazovanja.**
 
+Takođe držimo i napredne grupe za ljude koji se već bave programiranjem.
+
 Obuka se vrši u malim grupama, pa je potrebno [prijaviti se na čekanje](/prijava) da bi rezervisali mesto na vreme.
 
 Mesečna članarina iznosi 80 eura. Kursevi uglavnom traju tri meseca, sa ukupnim fondom od 100 časova. 
