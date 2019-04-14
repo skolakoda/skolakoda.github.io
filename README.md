@@ -27,7 +27,7 @@ bundle exec jekyll serve --incremental --drafts
 
 ## TODO
 
-- dodati pretragu u header
+- dodati uputstvo za saradnike u README
 - dodati nove projekte (http://autorskopravo.rs/)
 - pregledati refaktorisanje šta može da se iskoristi za napredni js
 - dodati editovanje stranica

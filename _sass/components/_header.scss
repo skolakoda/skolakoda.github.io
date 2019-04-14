@@ -5,17 +5,11 @@ header {
   background: linear-gradient(to right, $mine-shaft 0%, $bleached-cedar-dark 100%);
   color: $white;
 
-  .header-wrapper {
-    @media (max-width: $screen-sm-max) {
-      padding-left: 0;
-      padding-right: 0;
-      width: 100%;
-    }
-    @media (min-width: $screen-md-min) {
-      align-items: center;
-      display: flex;
-      justify-content: space-between;
-    }
+  @media (min-width: $screen-md-min) {
+    padding: 0 16px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
   }
 
   a {
@@ -25,27 +19,17 @@ header {
     white-space: nowrap;
   }
 
-  .logo-wrapper {
-    @media (max-width: $screen-sm-max) {
-      text-align: center;
-    }
-
-    .logo {
-      font-family: courier, monospace;
-      font-weight: bold;
-    }
+  .logo {
+    display: block;
+    font-family: courier, monospace;
+    font-weight: bold;
+    text-align: center;
   }
 
   nav {
     @media (min-width: $screen-md-min) {
       display: flex;
       justify-content: space-between;
-      width: 66%;
-    }
-    @media (min-width: $screen-xl-min) {
-      display: flex;
-      justify-content: space-between;
-      width: 50%;
     }
     a {
       text-align: center;
@@ -53,7 +37,7 @@ header {
         display: none;
       }
       @media (min-width: $screen-md-min) {
-        width: 25%;
+        width: 118px;
       }
       &.active,
       &:hover {
@@ -64,6 +48,24 @@ header {
           color: initial;
         }
       }
+    }
+  }
+}
+
+.search-container {
+  display: flex;
+  input,
+  button {
+    margin: 0;
+  }
+  input {
+    color: initial;
+  }
+  button {
+    padding: 6px 10px;
+    border: 0;
+    &:hover {
+      background-color: transparent;
     }
   }
 }
