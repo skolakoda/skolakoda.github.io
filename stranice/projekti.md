@@ -38,6 +38,7 @@ Ovo su neki od projekata koje razvijamo, za potrebe učenja i za klijente.
 ## Sajtovi i portali
 
 <div class="radovi">
+{% include radovi/autorsko-pravo.html %}
 {% include radovi/eliksir.html %}
 {% include radovi/psiholjub.html %}
 </div>

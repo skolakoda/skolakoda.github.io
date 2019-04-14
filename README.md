@@ -46,7 +46,6 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
 
 ## TODO
 
-- dodati nove projekte (http://autorskopravo.rs/)
 - dodati editovanje stranica
 - pregledati refaktorisanje šta može da se iskoristi za napredni js
 - dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)
