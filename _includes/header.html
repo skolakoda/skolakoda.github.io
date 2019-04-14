@@ -15,7 +15,7 @@
     <a href="/blog/" {% if page.url contains '/blog' or page.layout == 'post' %} class="active"{% endif %} title="besplatni tutorijali">Blog</a>
     <a href="/kontakt" {% if page.url contains '/kontakt' %} class="active"{% endif %} title="škola programiranja u Beogradu">Kontakt</a>
   </nav>
-  <form action="https://www.google.com/search" class="search-container">
+  <form action="https://www.google.com/search" target="_blank" class="search-container">
     <input type="hidden" name="sitesearch" value="https://skolakoda.org" />
     <input class="search-input" type="search" placeholder="Pretraga sajta" required name="q">
     <button class="search-icon" type="submit">&#128269;</button>

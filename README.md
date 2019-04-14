@@ -2,6 +2,10 @@
 
 Vidi [skolakoda.org](https://skolakoda.org/)
 
+Sajt Škole koda je napravljen u [Jekyll-u](https://jekyllrb.com/) i postavljen na Github stranice. Umesto pisanja HTML-a za jednostavnije strane se uglavnom koristi [markdown](https://guides.github.com/features/mastering-markdown/) sintaksa (kao u README.md fajlu). Naravno, moguće je koristiti i običan html.
+
+Za početak, najbolje je isprobati Jekyll pre nego što počnete doprinositi. 
+
 ## Instalacija
 
 Prvo instaliraš [ruby](https://rubyinstaller.org/downloads/). Potom:
@@ -16,21 +20,35 @@ Ako neće, probati sa `sudo`.
 
 ## Razvoj
 
+Sledeća komanda pokreće build proces:
+
 ```
 bundle exec jekyll serve
 ```
 
-Ili sa parametrima:
+Ili ako samo menjaš html stranice (ignoriše promenu css i js):
+
 ```
-bundle exec jekyll serve --incremental --drafts
+bundle exec jekyll serve --incremental
 ```
+
+## Vodič za uređivanje
+
+Glavni folderi su:
+
+- `_includes` - tu se nalaze delovi html stranica (npr. header, footer)
+- `_posts` - ove se pišu članci za blog
+- `_sass` - tu se piše CSS u Sass-u, odnosno `scss` formatu. Sam CSS je organizovan u podfoldere.
+- `kursevi` - ovde idu lekcije za sve online kurseve koje objavljujemo.
+- `stranice` - glavne statične stranice sajta, poput O nama, Projekti, Kursevi, Kontakt i slično.
+
+Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi.
 
 ## TODO
 
-- dodati uputstvo za saradnike u README
 - dodati nove projekte (http://autorskopravo.rs/)
-- pregledati refaktorisanje šta može da se iskoristi za napredni js
 - dodati editovanje stranica
+- pregledati refaktorisanje šta može da se iskoristi za napredni js
 - dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)
 - dodavati odgovarajuce citate na lekcije
 - razvoj igara
@@ -38,5 +56,5 @@ bundle exec jekyll serve --incremental --drafts
     - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - https://phpsrbija.github.io/php-the-right-way/
-- postaviti sidebar sa sadrzajem kursa
+- postaviti sidebar sa sadrzajem kursa?
 - bekend i glasanje za projekte
