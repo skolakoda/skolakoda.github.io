@@ -123,6 +123,7 @@ kurs: napredni-js
 
 ### Iteratori i generatori
 
+- [For...of petlja](/javascript-for-of-petlja)
 - Generator funkcije (`function*`)
   - Pauziranje generator funkcije sa `yield`
   - Nastavak izvršenja sa `next()`
