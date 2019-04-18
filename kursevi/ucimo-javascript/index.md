@@ -3,7 +3,6 @@ layout: kurs
 title: Učimo Javascript
 github: ucimo-javascript
 image: /images/kursevi/js-logo.png
-video: https://www.youtube.com/embed/pu-466V7H6A?rel=0&cc_load_policy=1
 ---
 
 **Nauči da programiraš kroz popularni jezik JavaScript. Nauči da oživljavaš stranice pomoću interakcije. Nauči da praviš web aplikacije.**
