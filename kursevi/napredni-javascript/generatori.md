@@ -47,6 +47,25 @@ console.log(iterator.next().value)
 console.log(iterator.next().done)
 ```
 
+## Beskonačna petlja
+
+Ne moramo se plašiti beskonačne petlje u generator funkciji, jer se ona izvršava korak po korak:
+
+{:.ulaz}
+```js
+function* brojac() {
+  let i = 0
+  while(true) {
+    yield i++
+  }
+}
+
+const iterator = brojac()
+console.log(iterator.next().value)
+console.log(iterator.next().value)
+console.log(iterator.next().value)
+```
+
 ## Literatura
 
 - Ved Antani, Stojan Stefanov, *Objektno-orjentisan JavaScript*, Beograd, 2017.
