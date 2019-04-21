@@ -69,7 +69,6 @@ kurs: napredni-js
 
 - Čemu služe šablonske strune?
   - Višelinijski tekst
-  - Slobodna upotreba navodnika
   - Evaluacija izraza unutar strune
 - Slučajevi upotrebe
   - Evaluacija HTML-a
