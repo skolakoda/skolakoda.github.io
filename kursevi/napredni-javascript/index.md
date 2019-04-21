@@ -120,8 +120,7 @@ kurs: napredni-js
 - [For...of petlja](/javascript-for-of-petlja)
 - [Iteratori i iterable](/javascript-iteratori-i-iterable)
 - [Generator funkcije](/javascript-generatori)
-  - Pauziranje generator funkcije sa `yield`
-  - Nastavak izvršenja sa `next()`
+- [Iteracija generatora](/javascript-iteracija-generatora)
 
 ### Propagacija događaja
 

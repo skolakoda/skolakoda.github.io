@@ -4,11 +4,11 @@ layout: lekcija-napredni-js
 permalink: /javascript-generatori
 ---
 
-**Obično se funkcija izvršava liniju po liniju, i zaustavlja kada se poslednja linija izvrši. Međutim, izvršenje generator funkcije se može zaustaviti i nastaviti.**
+**Obična funkcija se izvršava liniju po liniju, i zaustavlja kada se poslednja linija izvrši. Međutim, generator funkcija se može zaustaviti i nastaviti.**
 
-Generator funkcija se može zaustaviti samo iznutra, pomoću ključne reči `yield`. Kada se zaustavi, može se ponovo pokrenuti izvana. Možemo zaustaviti i pokrenuti funkciju koliko puta želimo.
+Generator funkcija se može zaustaviti samo iznutra, pomoću ključne reči `yield`. Kada se zaustavi, može se ponovo pokrenuti izvana. Možemo zaustaviti i pokrenuti funkciju koliko puta želimo. Generator funkcije omogućavaju i dvosmerno prosleđivanje poruka. Kada zaustavimo funkciju pomoću `yield`, poruka se šalje van, a kada je ponovo pokrenemo, poruka se šalje nazad u funkciju.
 
-Generator funkcije omogućavaju i dvosmerno prosleđivanje poruka. Kada zaustavimo funkciju pomoću `yield`, poruka se šalje van, a kada je ponovo pokrenemo, poruka se šalje nazad u funkciju.
+Generatori imaju značajnu ulogu u asinhronom programiranju i mogu nam pomoći da pišemo kooperativne funkcije koje obavljaju više zadataka.
 
 ## Prost primer
 
