@@ -77,12 +77,6 @@ kurs: napredni-js
 - Prosleđivanje funkciji (*tagged template literals*)
 - Vežba: generisanje HTML-a iz JS-a
 
-### Nizovi i njihove metode
-- `map`, `filter`, `reduce`
-- `for of` (iterira nizove, objekte, strune, mape, skupove, liste dom elemenata...)
-- Pretvaranje nizolikih predmeta u nizove (`Array.from()`)
-- Kopiranje nizova razlaganjem `[...items]`
-
 ### Prototipska priroda jezika
 
 - [Šta je prototip?](/javascript-prototip)
@@ -124,7 +118,8 @@ kurs: napredni-js
 ### Iteratori i generatori
 
 - [For...of petlja](/javascript-for-of-petlja)
-- Generator funkcije (`function*`)
+- [Iteratori i iterable](/javascript-iteratori-i-iterable)
+- [Generator funkcije](/javascript-generatori)
   - Pauziranje generator funkcije sa `yield`
   - Nastavak izvršenja sa `next()`
 
