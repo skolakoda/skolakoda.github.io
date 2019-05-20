@@ -4,13 +4,13 @@ layout: lekcija-algoritmi
 permalink: /euklidov-algoritam
 ---
 
-***Euklidov algoritam je efikasan način za određivanje najvećeg zajedničkog delioca (NZD) dva broja. Nazvan je po starogrčkom matematičaru Euklidu, koji ga je naveo u VII i X knjizi svojih Elemenata (oko 300. p.n.e.).***
+***Euklidov algoritam je efikasan način za određivanje najvećeg zajedničkog delioca (NZD) dva broja.***
 
-Prema rečima Donalda Knuta, „*Euklidov algoritam je deda svih algoritama, pošto je najstariji netrivijalni algoritam koji je preživeo do danas.*“
+Algoritam je nazvan po starogrčkom matematičaru Euklidu, koji ga je naveo u VII i X knjizi svojih Elemenata (oko 300. p.n.e.). Prema rečima Donalda Knuta, „*Euklidov algoritam je deda svih algoritama, pošto je najstariji netrivijalni algoritam koji je preživeo do danas.*“
 
 ## Sled koraka
 
-Euklidov algoritam otkriva najveći zajednički delilac dva broja tako što od većeg neprestano oduzmimamo manji.
+Algoritam otkriva najveći zajednički delilac tako što od većeg broja neprestano oduzimamo manji.  Zasnovan je na principu da se najveći zajednički delilac ne menja ukoliko se manji broj oduzme od većeg, pa se potom odredi NZD novog broja i manjeg od prethodna dva.
 
 Na primer, imamo brojeve 48 i 18. Ukoliko od 48 oduzmemo 18 dobićemo 30, dakle, ostaju nam 30 i 18. Zatim od 30 oduzimamo 18, pa imamo 12 i 18. Ponavljamo ovaj postupak dok jedan od brojeva ne postane nula. Na kraju, jedini preostali broj (6) je najveći zajednički delilac.
 
