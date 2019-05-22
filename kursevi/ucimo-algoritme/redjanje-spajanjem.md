@@ -6,9 +6,15 @@ permalink: /redjanje-spajanjem
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c5/Merge_sort_animation2.gif)
 
-**Ovaj algoritam koristi strategiju “podeli pa vladaj”. Niz se rekurzivno deli u segmente koji se zasebno sortiraju, a zatim se sortirani segmenti spajaju u konačno sortirani niz.**
+***Merge sort* algoritam rekurzivno deli niz u podnizove koji se zasebno sortiraju, a zatim se spajaju u konačno sortirani niz.**
 
-Dva već sortirana niza se mogu objediniti u treći sortirani niz samo jednim prolaskom kroz nizove (tj. u linearnom vremenu O(m + n) gde su `m` i `n` dimenzije polaznih nizova).
+Algoritam koristi strategiju “podeli pa vladaj”, koja problem rešava deobom na manje delove, sve dok ga ne redukuje na osnovni slučaj koji rešava direktno. 
+
+*Ređanje spajanjem* se temelji na ideji da se iz uređenih podnizova spajanjem efikasno može dobiti uređeni niz. Algoritam prvo deli nesortirani niz na manje i manje podnizove, dok svaki ne ostane samo sa jednim elementom, pa je sam po sebi sortiran. Potom, sledi faza spajanja sortiranih podnizova u veće sortirane podnizove, dok se na kraju ne kreira potpuno sortirani niz.
+
+## Spajanje
+
+Dva već sortirana niza se mogu objediniti u treći sortirani niz samo jednim prolaskom kroz nizove, odnosno u linearnom vremenu `O(m + n)`, gde su `m` i `n` dužine nizova.
 
 ```c
 void merge(int a[], int m, int b[], int n, int c[]) {
@@ -21,11 +27,15 @@ void merge(int a[], int m, int b[], int n, int c[]) {
 }
 ```
 
-U prikaznoj implementaciji, paralelno se prolazi kroz nizove `a` dimenzije `m` i `b` dimenzije `n`. Promenljiva `i` čuva tekuću pozicija u nizu `a`, dok promenljiva `j` čuva tekuću poziciju u nizu `b`. Tekući elementi se porede i manji se upisuje u niz `c` (na tekuću poziciju `k`), pri čemu se napreduje samo u nizu iz kojeg je taj manji element uzet. Postupak se nastavlja dok se ne stigne do kraja jednog od nizova. Kada se kraći niz isprazni, eventualni preostali elementi iz dužeg niza se nadovezuju na kraj niza c.
+U prikaznoj implementaciji, paralelno se prolazi kroz nizove `a` dužine `m` i `b` dužine `n`. Promenljiva `i` čuva tekuću pozicija u nizu `a`, dok promenljiva `j` čuva tekuću poziciju u nizu `b`. Tekući elementi se porede i manji se upisuje u niz `c` (na tekuću poziciju `k`), pri čemu se napreduje samo u nizu iz kojeg je taj manji element uzet. Postupak se nastavlja dok se ne stigne do kraja jednog od nizova. Kada se kraći niz isprazni, eventualni preostali elementi iz dužeg niza se nadovezuju na kraj niza `c`.
 
-*Merge sort* algoritam deli niz na dve polovine (čija se dužina razlikuje najviše za 1), rekurzivno sortira svaku od njih, i zatim objedinjuje sortirane polovine. Problematično je što je za objedinjavanje neophodno koristiti dodatni, pomoćni niz. Na kraju se izvršava vraćanje objedinjenog niza iz pomoćnog u polazni. Izlaz iz rekurzije je slučaj jednočlanog niza (slučaj praznog niza ne može da nastupi).
+## Koraci
 
-Funkicija `mergesort_` sortira deo niza `a[l, d]`, uz korišćenje niza `tmp` kao pomoćnog.
+![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
+
+*Merge sort* algoritam deli niz na dve polovine (čija se dužina razlikuje najviše za 1), rekurzivno sortira svaku od njih, i zatim spaja sortirane polovine. Za spajanje sortiranih polovina je neophodan pomoćni niz. Slučaj izlaza iz rekurzije je jednočlani niz. 
+
+Funkicija `mergesort_` sortira deo niza `a[l, d]`, uz korišćenje niza `tmp` kao pomoćnog:
 
 ```c
 void mergesort_(int a[], int l, int d, int tmp[]) {
@@ -60,10 +70,11 @@ void mergesort(int a[], int n) {
 }
 ```
 
-Provera da li je alokacija nije uspela ovaj put nije vršena.
+## Složenost
 
 Rekurentna jednačina koja opisuje složenost je T (n) = 2 · T (n/2) + O(n) te je složenost O(n log n).
 
-![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
+### Literatura
 
-Izvor: Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Matematički fakultet, Beograd, 2017.
+* Esmir Pilav i Zoran Jasak, *Algoritmi i programiranje, materijal za vježbe*, Prirodno matematički fakultet, Univerzitet u Tuzli, 2013.
+* Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Matematički fakultet, Beograd, 2017.
