@@ -81,8 +81,8 @@ image: /images/kursevi/algoritmi.jpg
 
 - [Uvod u teoriju grafova](/teorija-grafova)
   - [Sedam mostova Kenigsberga](/problem-sedam-mostova)
-  - [Matrica susedstva](/matrica-susedstva)
-  - [Lista susedstva](/lista-susedstva)
+  - [Matrica povezanosti](/matrica-povezanosti)
+  - [Lista povezanosti](/lista-povezanosti)
 - [Pretraga u dubinu](/pretraga-u-dubinu)
 - [Pretraga u širinu](/pretraga-u-sirinu)
 

@@ -1,7 +1,8 @@
 ---
-title: Lista susedstva
+title: Lista povezanosti
 layout: lekcija-algoritmi
-permalink: /lista-susedstva
+permalink: /lista-povezanosti
+redirect_from: /lista-susedstva
 ---
 
 **Lista povezanosti ili lista susjedstva (engl. *adjacency list*) je matrica u koju za svaki čvor u grafu zapisujemo njegove susjede. Za razliku od matrice susjedstva, lista susjeda može biti i grbava matrica (matrica kod koje veličine svih redova nisu jednake).**

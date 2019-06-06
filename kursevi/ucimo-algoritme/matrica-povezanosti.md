@@ -1,7 +1,8 @@
 ---
-title: Matrica susedstva
+title: Matrica povezanosti
 layout: lekcija-algoritmi
-permalink: /matrica-susedstva
+permalink: /matrica-povezanosti
+redirect_from: /matrica-susedstva
 ---
 
 **Matrica povezanostii ili matrica susjedstva (engl. *adjacency matrix*) je matrica dimenzija V x V (gdje je V broj čvorova u grafu), u kojoj u polju (A, B) piše težina grane koja povezuje čvorove A i B (ako ona postoji). Matrica susjedstva uvijek je kvadratna matrica.**
