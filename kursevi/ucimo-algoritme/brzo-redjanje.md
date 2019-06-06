@@ -6,29 +6,33 @@ permalink: /brzo-redjanje
 
 ![](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
 
-**“Quicksort” je do sada najbrži poznati algoritam za sortiranje. I ovo je rekurzivni algoritam zasnovan na strategiji “podeli pa vladaj”.**
+**Brzi sort (*quicksort*) se, generalno, smatra najbržim algoritmom sortiranja. To je rekurzivni algoritam zasnovan na strategiji “podeli pa vladaj”.**
 
 Algoritam se sastoji od sledećih koraka:
 
-1. Odabir jednog člana niza, tzv. *pivot*-a.
-2. Raspodeliti članove niza tako da sve elemente manje od pivota stavimo ispred njega (podniz 1), a veće iza njega (podniz 2). Nakon te raspodele pivot se nalazi na svojoj konačnoj poziciji.
-3. Rekurzivno sortirati svaki podniz na isti način.
+1. Nasumično izabrati neki član niza, koji se naziva *pivot* ili oslonac.
+2. Razvrstati članove, tako da sve manje od pivota stavimo u jedan podniz, a veće u drugi. Dva podniza su nesortirana i razdvojena pivotom.
+3. Rekurzivno sortirati svaki podniz na isti način. Rekurzija se nastavlja dok podnizovima ne ostane samo jedan element, nakon čega se dobiva sortirani niz.
+
+Mogući su različiti načini izbora pivota. Na primer, može da se uzme prvi element niza, mada postoje i efikasniji načini. Idealno, pivot bi trebalo da predstavlja srednju vrednost niza. 
+
+Ključni deo algoritma je način razvrstavanja niza na dve particije, odvojene pivotom, bez korištenja dodatnog memorijskog prostora.
 
 ## Pozadina
 
 Osnovna ideja kod [*selection sort*](/redjanje-izborom) algoritma je da se jedan element postavi na svoje mesto, a zatim se isti metod rekurzivno primeni na podniz koji je za jedan kraći od polaznog. S obzirom da pripremna akcija zahteva O(n) operacija, dobija se jednačina `T (n) = T (n − 1) + O(n)`, čije rešenje je `O(n^2)`. Sa druge strane, kod [*merge sort*](/redjanje-spajanjem) algoritma sortiranje se svodi na sortiranje dva podniza, dvostruko manje dimenzije. S obzirom da spajanje dva sortirana niza zahteva O(n) operacija, dobija se jednačina `T (n) = 2T (n/2) + O(n)`, čije je rešenje `O(n log n)`.
 
-**Dakle, značajno je efikasnije da se problem dimenzije `n` svodi na dva problema dimenzije `n/2` nego na jedan problem dimenzije `n-1`** — ovo je osnovna ideja takozvanih podeli i vladaj algoritama u koje spada i *quick sort*.
+**Dakle, značajno je efikasnije da se problem dimenzije `n` svodi na dva problema dimenzije `n/2` nego na jedan problem dimenzije `n-1`** — ovo je osnovna ideja podeli i vladaj algoritama u koje spada i *quick sort*.
 
 ## Koraci
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/84/Lomuto_animated.gif)
 
-*Brzo ređanje* pokušava da postigne bolju efikasnost, modifikujući osnovnu ideju *ređanja izborom* tako što umesto najmanjeg, u svakom krugu na svoje mesto postavi element nazvan **pivot**, koji je relativno blizu sredine niza. Međutim, da bi problem mogao biti sveden na sortiranje dva podniza, potrebno je prilikom postavljanja pivota grupisati sve manje elemente levo od njega, a sve veće desno. Dakle, ključni je **korak particionisanja**, koji podrazumeva da se niz organizuje da prvo sadrži elemente manje od pivota, pivotirajući element, pa elemente veće od pivota.
+*Brzo ređanje* pokušava da postigne bolju efikasnost, modifikujući osnovnu ideju *ređanja izborom* tako što umesto najmanjeg, u svakom krugu na svoje mesto postavi element nazvan **pivot**. Međutim, da bi problem mogao biti sveden na sortiranje dva podniza, potrebno je prilikom postavljanja pivota grupisati sve manje elemente levo od njega, a sve veće desno. Dakle, ključni je **korak particionisanja**, koji podrazumeva da se niz organizuje da prvo sadrži elemente manje od pivota, pivotirajući element, pa elemente veće od pivota.
 
 ## Implementacija
 
-`Quick sort` algoritam može se implementirati na sledeći način. Poziv `qsort_(a, l, d)` sortira deo niza `a[l, d]`.
+*Quick sort* se može implementirati na sledeći način. Poziv `qsort_(a, l, d)` sortira deo niza `a[l, d]`.
 
 ```c
 void qsort_(int a[], int l, int d) {
@@ -49,9 +53,11 @@ void qsort(int a[], int n) {
 }
 ```
 
-Funkcija `izbor_pivota` odabire za pivot neki element niza `a[l, d]` i vraća njegov indeks (u nizu `a`). Pozivom funkcije `razmeni` pivot se postavlja na poziciju `l`. Funkcija `particionisanje` vrši particionisanje niza (pretpostavljajući da se pre particionisanja pivot nalazi na poziciji `l`) i vraća poziciju na kojoj se nalazi pivot nakon particionisanja. Funkcija se poziva samo za nizove koji imaju više od jednog elementa te joj je preduslov da je `l` manje ili jednako `d`. Postuslov funkcije `particionisanje` je da je skup elemenata niza `a` nepromenjen nakon njenog poziva, međutim njihov redosled je takav da su svi elementi niza `a[l, p-1]` manji ili jednaki elementu `a[p]`, dok su svi elementi niza `a[p+1, d]` veći ili jednaki od elementa `a[p]`.
+Funkcija `izbor_pivota` bira za pivot neki element niza `a[l, d]` i vraća njegov indeks. Pozivom funkcije `razmeni` pivot se postavlja na poziciju `l`. 
 
 ## Particionisanje
+
+Funkcija `particionisanje` vrši particionisanje niza (pretpostavljajući da se pre particionisanja pivot nalazi na poziciji `l`) i vraća poziciju na kojoj se nalazi pivot nakon particionisanja. Funkcija se poziva samo za nizove koji imaju više od jednog elementa te joj je preduslov da je `l` manje ili jednako `d`. Postuslov funkcije `particionisanje` je da je skup elemenata niza `a` nepromenjen nakon njenog poziva, međutim njihov redosled je takav da su svi elementi niza `a[l, p-1]` manji ili jednaki elementu `a[p]`, dok su svi elementi niza `a[p+1, d]` veći ili jednaki od elementa `a[p]`.
 
 ### Prvi način
 
@@ -167,7 +173,11 @@ Bolje performanse se mogu postići ukoliko se npr. za pivot uzme srednji od tri 
 
 ## Efikasnost
 
+Ovaj algoritam je `O(n log n)` u očekivanom i `O(n^2)` u najgorem slučaju. Ako je implementiran prikladno, verovatnoća da će trajati asimptotski duže je ekstremno mala za veliko `n`.
+
 *Quick sort* je algoritam koji u praksi daje najbolje rezultate kod sortiranja dugačkih nizova. Međutim, za sortiranje kraćih nizova naivni algoritmi (npr. *insertion sort*) mogu da se pokažu praktičnijim. Većina realnih implementacija *quick sort* algoritma koristi hibridni pristup — izlaz iz rekurzije se vrši kod nizova koji imaju nekoliko desetina elemenata i na njih se primenjuje *insertion sort*.
+
+Sortiranje vrši lokalno (*in place*), jer ne koristi drugi niz za pohranu. 
 
 ### Literatura
 
