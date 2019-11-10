@@ -8,7 +8,7 @@ opis: Organizujemo kurseve programiranja za prekvalifikaciju u IT sektor.
 
 Proizvodimo besplatne online kurseve, koji su svima dostupni. 
 
-Takođe organizujemo [mentorsku obuku](/it-obuka) uživo.
+<!-- Takođe organizujemo [mentorsku obuku](/it-obuka) uživo. -->
 
 ## Programski jezici i tehnologije
 
