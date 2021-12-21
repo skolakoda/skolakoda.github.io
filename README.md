@@ -1,7 +1,5 @@
 # Sajt Škole koda
 
-Vidi [skolakoda.org](https://skolakoda.org/)
-
 Sajt Škole koda je napravljen u [Jekyll-u](https://jekyllrb.com/) i postavljen na Github stranice. Umesto pisanja HTML-a za jednostavnije strane se uglavnom koristi [markdown](https://guides.github.com/features/mastering-markdown/) sintaksa (kao u README.md fajlu). Naravno, moguće je koristiti i običan html.
 
 Za početak, najbolje je isprobati Jekyll pre nego što počnete doprinositi. 
