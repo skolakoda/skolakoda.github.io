@@ -30,7 +30,7 @@ Draga opcija je zakup virtuelnog servera. Pomoću softvera jedan računar se mo�
 
 ## Naziv domena
 
-Većina hosting servisa omogućava da postavimo sajt sa vlastitim nazivom domena, a neki i prodaju nazive domena. Da bismo koristili domen (npr. `skolakoda.org`), treba da ga zakupimo kod ovlašćenog registratora. Ubrzo nakon plaćanja godišnje pretplate, naziv postaje aktivan i možemo da ga povežemo sa hostingom.
+Većina hosting servisa omogućava da postavimo sajt sa vlastitim nazivom domena, a neki i prodaju nazive domena. Da bismo koristili domen (npr. `skolakoda.github.io`), treba da ga zakupimo kod ovlašćenog registratora. Ubrzo nakon plaćanja godišnje pretplate, naziv postaje aktivan i možemo da ga povežemo sa hostingom.
 
 {:.uokvireno.ideja}
 Kada registrujete domen, pobrinite se da to učinite pod svo­jim imenom. Budite sigurni da ste vlasnik naziva domena koji registrujete.

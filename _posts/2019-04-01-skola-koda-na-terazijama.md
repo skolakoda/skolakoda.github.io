@@ -19,7 +19,7 @@ Od 15. aprila nam kreće novi krug kurseva. Imamo nekoliko novih predavača, prv
 - [Uvod u Javascript](/kursevi/ucimo-javascript/) (početni, drže Mirjana Zajić i Đorđe Stevanović)
 - [Praktični Frontend](/kursevi/prakticni-frontend/) (napredni, drži Damjan Pavlica)
 - [Full Stack Javascript](/kursevi/napredni-javascript/) (napredni, drži Damjan Pavlica)
-- [React i Redux](https://skolakoda.org/uvod-u-react/) (napredni, drži Dragan Nikolić Kića)
+- [React i Redux](https://skolakoda.github.io/uvod-u-react/) (napredni, drži Dragan Nikolić Kića)
 
 Svi kursevi su iste cene, plaća se mesečna članarina od 80e, a uglavnom traju 3 meseca. *[Saznaj više](/it-obuka)...*
 

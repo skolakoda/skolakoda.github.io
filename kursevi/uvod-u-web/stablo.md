@@ -46,10 +46,10 @@ Uporedi sliku stabla sa kodom u editoru. Pronađi sličnosti i razlike:
         <h2>Učimo web development</h2>
 
         <ul>
-            <li><a href="https://skolakoda.org/kursevi/ucimo-html/">HTML</a></li>
-            <li><a href="https://skolakoda.org/kursevi/ucimo-css/">CSS</a></li>
-            <li><a href="https://skolakoda.org/kursevi/ucimo-javascript/">Javascript</a></li>
-            <li><a href="https://skolakoda.org/kursevi/ucimo-php">PHP</a></li>
+            <li><a href="https://skolakoda.github.io/kursevi/ucimo-html/">HTML</a></li>
+            <li><a href="https://skolakoda.github.io/kursevi/ucimo-css/">CSS</a></li>
+            <li><a href="https://skolakoda.github.io/kursevi/ucimo-javascript/">Javascript</a></li>
+            <li><a href="https://skolakoda.github.io/kursevi/ucimo-php">PHP</a></li>
         </ul>
 
     </div>

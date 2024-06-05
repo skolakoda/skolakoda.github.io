@@ -22,7 +22,7 @@ Specifikacija jezika propisuje imena atributa, i koji tag može imati koje atrib
 
 Svi tagovi imaju prazne atribute. Dodaj sledeće vrednosti atributima:
 
-- `href` atributu dodaj vrednost `https://skolakoda.org`
+- `href` atributu dodaj vrednost `https://skolakoda.github.io`
 - `title` atributu dodaj vrednost `O Školi koda`
 - `src` atributu dodaj vrednost `http://lorempixel.com/400/200/`
 

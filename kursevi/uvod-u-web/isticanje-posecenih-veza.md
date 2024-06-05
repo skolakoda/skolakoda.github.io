@@ -11,7 +11,7 @@ Stilovi posjećenih veza posebno dolaze do izražaja kad se koriste u bočnom st
 
 ```html
 <ul>
-  <li><a href="https://skolakoda.org/">Škola koda</a></li>
+  <li><a href="https://skolakoda.github.io/">Škola koda</a></li>
   <li><a href="http://damjanpavlica.wordress.com">Damjanov Svet</a></li>
   <li><a href="https://www.khanacademy.org/">Khan Academy</a></li>
   <li><a href="https://www.hackerrank.com">Hacker Rank</a></li>
@@ -25,7 +25,7 @@ Nekada je bilo uobičajeno da se osim boje, menja i pozadinska slike za posećen
 {:.html-ulaz}
 ```html
 <ul>
-  <li><a href="https://skolakoda.org/">Škola koda</a></li>
+  <li><a href="https://skolakoda.github.io/">Škola koda</a></li>
   <li><a href="http://damjanpavlica.wordress.com">Damjanov Svet</a></li>
   <li><a href="https://www.khanacademy.org/">Khan Academy</a></li>
   <li><a href="https://www.hackerrank.com">Hacker Rank</a></li>

@@ -8,7 +8,7 @@ title: Upis novih grupa u toku!
 U toku je upis za nove intenzivne tromesečne kurseve Škole koda:
 
 - **[Uvod u programiranje kroz Javascript](/kursevi/ucimo-javascript/)**
-- **[Razvoj aplikacija sa React, Redux i React Native](https://skolakoda.org/uvod-u-react/)**
+- **[Razvoj aplikacija sa React, Redux i React Native](https://skolakoda.github.io/uvod-u-react/)**
 
 **Uvodni Javascript kurs** je za potpune početnike, koji tek žele da nauče programiranje. 
 

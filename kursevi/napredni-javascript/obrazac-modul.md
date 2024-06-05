@@ -63,7 +63,7 @@ Ovde anonimnoj samoizvršnoj funkciji prosleđujemo globalnu `jQuery` varijablu,
 
 ## Izvoz iz modula
 
-<img src='https://skolakoda.org/refaktorisanje/images/closure.png' width='400'>
+<img src='https://skolakoda.github.io/refaktorisanje/images/closure.png' width='400'>
 
 Ukoliko želimo da nešto iz zatvorene unutrašnjosti postane dostupno, moramo dodeliti samoizvršnu anonimnu funkciju konstanti, koja postaje naš prvi Javascript modul. Iz anonimne funkcije vraćamo objekat sa metodama koje postaju javne. Ova tehnika je poznat kao **modul obrazac** (*module pattern*):
 

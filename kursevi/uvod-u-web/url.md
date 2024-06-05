@@ -45,7 +45,7 @@ To je jedan računar koji nudi dve različite informacione usluge, a pregledač 
 
 ### Domen
 
-Ime domena (*domain name*) je osnovno ime sajta, poput [skolakoda.org](https://skolakoda.org). To je internet adresa servera koji služi fajlove. Računari na mreži zapravo koriste IP adrese, a nazivi domena su uvedeni zbog lakšeg pamćenja. Dakle, istoj adresi možemo pristupiti na dva načina, preko imena domena i preko IP adrese:
+Ime domena (*domain name*) je osnovno ime sajta, poput [skolakoda.github.io](https://skolakoda.github.io). To je internet adresa servera koji služi fajlove. Računari na mreži zapravo koriste IP adrese, a nazivi domena su uvedeni zbog lakšeg pamćenja. Dakle, istoj adresi možemo pristupiti na dva načina, preko imena domena i preko IP adrese:
 
 {:.uvuceno}
 [google.com](https://www.google.com/)
@@ -63,7 +63,7 @@ U slučaju da navodimo broj porta, on ide posle naziva domena, ali pre putanje, 
 http://moj-sajt.com:1550/radovi/baza-filmova.html
 ```
 
-Ako adresa ne sadrži port, pregledač će pokušati da se poveže sa podrazumevanim portom za dati protokol. Za `http` je podrazumevani port 80, pa su linkovi http://skolakoda.org:80 i http://skolakoda.org isti.
+Ako adresa ne sadrži port, pregledač će pokušati da se poveže sa podrazumevanim portom za dati protokol. Za `http` je podrazumevani port 80, pa su linkovi http://skolakoda.github.io:80 i http://skolakoda.github.io isti.
 
 ### Putanja
 
@@ -79,10 +79,10 @@ Bitno je napomenuti da ne ukazuje svaka putanja na foldere i fajlove na serveru.
 Ime fajla (*filename*) pokazuje na određeni fajl unutar navedenog direktorija. Na većini servera, ako ne navedemo ime fajla, podrazumeva se `index.html`. Naredne dve adrese su ekvivalentne:
 
 {:.uvuceno}
-[https://skolakoda.org/](https://skolakoda.org/)
+[https://skolakoda.github.io/](https://skolakoda.github.io/)
 
 {:.uvuceno}
-[https://skolakoda.org/index.html](https://skolakoda.org/index.html)
+[https://skolakoda.github.io/index.html](https://skolakoda.github.io/index.html)
 
 Ako indeksni fajl nedostaje, neki serveri će izlistati sadržaj direktorija, a neki poslati poruku sa greškom 404.
 

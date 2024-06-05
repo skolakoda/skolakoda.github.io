@@ -121,5 +121,5 @@ input[type="number"] {
 
 <p class="text error">Niste popunili sva polja.</p>
 
-<a href="https://skolakoda.org">Ovaj link sadrži sigurni protokol.</a>
+<a href="https://skolakoda.github.io">Ovaj link sadrži sigurni protokol.</a>
 ```

@@ -43,11 +43,11 @@ Objekat `location` ima sledeće metode: `reload()`, `assign()` i `replace()`.
 Zanimljivo je da postoji mnogo različitih načina za prelazak na drugu stranicu. Ovo su neki od načina:
 
 ```
-> window.location.href = 'https://skolakoda.org';
-> location.href = 'https://skolakoda.org';
-> location = 'https://skolakoda.org';
-> location.assign('https://skolakoda.org');
-> location.replace('https://skolakoda.org');
+> window.location.href = 'https://skolakoda.github.io';
+> location.href = 'https://skolakoda.github.io';
+> location = 'https://skolakoda.github.io';
+> location.assign('https://skolakoda.github.io');
+> location.replace('https://skolakoda.github.io');
 ```
 
 Za menjanje stranice preporučuje se upotreba predviđenih metoda.

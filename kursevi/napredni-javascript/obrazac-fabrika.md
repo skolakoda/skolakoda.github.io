@@ -47,7 +47,7 @@ APP.Image = function(url) {
 Tri različita konstruktora isto rade - prosleđuju `url` i pozivaju metod `insert()` na sledeći način:
 
 ```js
-const url = 'https://skolakoda.org'
+const url = 'https://skolakoda.github.io'
 
 let o = new APP.Image(url)
 o.insert(document.body)
@@ -62,7 +62,7 @@ o.insert(document.body)
 Zamislimo da program ne zna unapred koji tip objekta je potreban, već kreiramo nove tipove objekata klikom na dugme. Ako varijabla `tip` sadrži tip željenog objekta, možemo upotrebiti sledeću uslovnu logiku:
 
 ```js
-const url = 'https://skolakoda.org'
+const url = 'https://skolakoda.github.io'
 let o 
 
 if (tip === 'Image') {

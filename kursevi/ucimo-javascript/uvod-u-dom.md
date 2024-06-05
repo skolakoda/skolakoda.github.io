@@ -41,7 +41,7 @@ Dva glavna načina za pristup čvorovima su kretanjem po DOM stablu ili pomoću 
 
 **HTML je inicijalni kod web stranice. Možemo ga videti pritiskom na desno dugme i izborom `View Page Source`. DOM je trenutno stanje web stranice, koje možemo videti `Inspect` alatkom.**
 
-Kod statičkih stranica HTML i DOM su često identični. Međutim, kod stranica koje se dinamički renderuju Javascriptom, oni se u potpunosti razlikuju. Na primer, ispitajte aplikaciju *[Programerski citati](https://skolakoda.org/programming-quotes/)*, sa `View Page Source`. Izvorni HTML ima samo osnovnu strukturu i jedan prazan element:
+Kod statičkih stranica HTML i DOM su često identični. Međutim, kod stranica koje se dinamički renderuju Javascriptom, oni se u potpunosti razlikuju. Na primer, ispitajte aplikaciju *[Programerski citati](https://skolakoda.github.io/programming-quotes/)*, sa `View Page Source`. Izvorni HTML ima samo osnovnu strukturu i jedan prazan element:
 
 ```html
 <div id="root"></div>

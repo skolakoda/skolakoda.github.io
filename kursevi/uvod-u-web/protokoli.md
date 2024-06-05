@@ -35,25 +35,25 @@ Mailto URL se koristi za slanje elektronske pošte. Kada se izabere link koji sa
 Mailto URL adresa se razlikuje od URL oblika. Ona izgleda ovako:
 
 ```
-mailto:info@skolakoda.org
+mailto:info@skolakoda.github.io
 ```
 
 Možemo dodati temu poruke u URL adresu na sledeći način:
 
 ```
-mailto:info@skolakoda.org?subject=Zdravo Svete!
+mailto:info@skolakoda.github.io?subject=Zdravo Svete!
 ```
 
 Možemo definisati i adrese Cc i Bcc na sledeći način:
 
 ```
-mailto:info@skolakoda.org?cc=mejl@gmail.com
+mailto:info@skolakoda.github.io?cc=mejl@gmail.com
 ```
 
 Neki pregledači podržavaju i stavljanje teksta poruke u link sa upitom `body=`, pa možemo kombinovati sve zajedno na sledeći način:
 
 ```
-mailto:info@skolakoda.org?subject=Zdravo Svete!&cc=mejl@gmail.com&body=Tekst poruke.
+mailto:info@skolakoda.github.io?subject=Zdravo Svete!&cc=mejl@gmail.com&body=Tekst poruke.
 ```
 
 ### File

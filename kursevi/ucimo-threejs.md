@@ -4,7 +4,7 @@ title: Uvod u 3D grafiku kroz Three.js
 github: ucimo-threejs
 ---
 
-<iframe scrolling="no" class="float-left" src="https://skolakoda.org/ucimo-threejs/40-rad-sa-modelima/90-modeli-dae/" width="100%" height="600"></iframe>
+<iframe scrolling="no" class="float-left" src="https://skolakoda.github.io/ucimo-threejs/40-rad-sa-modelima/90-modeli-dae/" width="100%" height="600"></iframe>
 
 **Učimo 3D grafiku, malo geometrije, fizičke simulacije, vizuelizacije podataka, rad sa 3D modelima, igre i animacije.**
 

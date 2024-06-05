@@ -63,7 +63,7 @@ Editor izvršava kod na dva načina
 
     const editIcon = document.createElement('a')
     const params = `jezik=${jezik}&code=${encodeURIComponent(codeElement.innerText)}`
-    editIcon.href = `https://skolakoda.org/editor/?${params}`
+    editIcon.href = `https://skolakoda.github.io/editor/?${params}`
     editIcon.innerText = '✎'
     editIcon.title = 'Otvori u editoru'
     editIcon.classList.add('edit-icon')

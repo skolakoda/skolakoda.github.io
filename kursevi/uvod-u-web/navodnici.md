@@ -9,7 +9,7 @@ permalink: /ucimo-html/navodnici
 Vrednost HTML atributa nekad radi i bez navodnika, kao u slučaju:
 
 ```html
-<a href=https://skolakoda.org>
+<a href=https://skolakoda.github.io>
 ```
 
 Međutim, navodnici su neophodni ukoliko vrednost atributa sadrži praznine. Na primer, ovaj titl će pući:

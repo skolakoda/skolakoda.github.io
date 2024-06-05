@@ -16,7 +16,7 @@ Najbolje je rješenje nekako ukazati na vanjske veze, te dopustiti korisniku da 
 
 ```css
 a[href^="http:"] {
-  background: url(https://skolakoda.org/images/ikonice/external-link.png) no-repeat right top;
+  background: url(https://skolakoda.github.io/images/ikonice/external-link.png) no-repeat right top;
   padding-right: .9em;
 }
 ```
@@ -28,7 +28,7 @@ Link stilizujemo tako što napravimo prostora za ikonicu, sa malo popune s desne
 <style>
 a[href^="http:"],
 a[href^="https:"] {
-  background: url(https://skolakoda.org/images/ikonice/external-link.png) no-repeat right top;
+  background: url(https://skolakoda.github.io/images/ikonice/external-link.png) no-repeat right top;
   padding-right: .9em;
 }
 </style>
@@ -40,7 +40,7 @@ a[href^="https:"] {
 Ovo će stilizovati sve vanjske veze. No, obuhvatiće i unutarnje veze koje koriste apsolutne umjesto relativnih putanja. Da bismo ovo rešili, moramo redefinisati stil veze ka našem domenu, uklanjanjem ikonice:
 
 ```css
-a[href^="https://skolakoda.org/"] {
+a[href^="https://skolakoda.github.io/"] {
   background-image: none;
   padding-right: 0;
 }
@@ -54,17 +54,17 @@ Pomoću selektora atributa možemo stilizovati bilo koji protokol, uključujući
 ```html
 <style>
 a[href^="skype:"] {
-  background: url(https://skolakoda.org/images/ikonice/skype.svg) no-repeat right top;
+  background: url(https://skolakoda.github.io/images/ikonice/skype.svg) no-repeat right top;
   padding-right: 1.2em;
 }
 
 a[href^="mailto:"] {
-  background: url(https://skolakoda.org/images/ikonice/email.svg) no-repeat right top;
+  background: url(https://skolakoda.github.io/images/ikonice/email.svg) no-repeat right top;
   padding-right: 1.2em;
 }
 
 a[href^="tel:"] {
-  background: url(https://skolakoda.org/images/ikonice/phone.svg) no-repeat right top;
+  background: url(https://skolakoda.github.io/images/ikonice/phone.svg) no-repeat right top;
   padding-right: 1.2em;
 }
 </style>
@@ -82,12 +82,12 @@ Do još jedne uobičajene frustracije dolazi kada pritisnete vezu, misleći da �
 ```html
 <style>
 a[href$=".pdf"] {
-  background: url(https://skolakoda.org/images/ikonice/pdf.svg) no-repeat right top;
+  background: url(https://skolakoda.github.io/images/ikonice/pdf.svg) no-repeat right top;
   padding-right: 1.2em;
 }
 
 a[href$=".doc"] {
-  background: url(https://skolakoda.org/images/ikonice/doc.svg) no-repeat right top;
+  background: url(https://skolakoda.github.io/images/ikonice/doc.svg) no-repeat right top;
   padding-right: 1.2em;
 }
 </style>

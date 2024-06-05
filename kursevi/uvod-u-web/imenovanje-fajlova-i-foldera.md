@@ -16,7 +16,7 @@ Operativni sistem Windows ne razlikuje mala i velika slova u nazivu fajlova, dok
 
 Serveri obično serviraju podrazumevan indeksni fajl kada URL adresa vodi do foldera, umesto do samog fajla. Većina servera će prvo potražiti da li postoji `index.html` stranica, koju servira kao podrazu­mevanu.
 
-Kad koristimo podrazumevani indeksni fajl adresa je kraća, jer ne moramo pisati naziv fajla. Na primer, URL adresa može biti `skolakoda.org/kursevi/`, umesto  `skolakoda.org/kursevi/index.html`.
+Kad koristimo podrazumevani indeksni fajl adresa je kraća, jer ne moramo pisati naziv fajla. Na primer, URL adresa može biti `skolakoda.github.io/kursevi/`, umesto  `skolakoda.github.io/kursevi/index.html`.
 
 {:.uokvireno}
 Ako ne dodamo indeksni fajl, neki serveri će izlistati posetiocima sadržaj foldera. Ako ne želite da neko „zaviruje" u vaše fajlove, treba da dodate `index.html` ili podesite kontrole pristupa.

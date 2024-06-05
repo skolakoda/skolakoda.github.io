@@ -26,7 +26,7 @@ Paketi se pišu jednako kao i bilo koji Java program, no pri tome se treba drža
 
 ## Pravila imenovanja
 
-Javina konvencija imenovanja jemči jedinstvena imena paketa na svetskom nivou, tako što od autora zahteva da koriste ime domena koji poseduju u imenovanju paketa. Dakle, ako vlasnik domena `skolakoda.org` kreira neki paket, on će imati prefiks `org.skolakoda`. Na primer:
+Javina konvencija imenovanja jemči jedinstvena imena paketa na svetskom nivou, tako što od autora zahteva da koriste ime domena koji poseduju u imenovanju paketa. Dakle, ako vlasnik domena `skolakoda.github.io` kreira neki paket, on će imati prefiks `org.skolakoda`. Na primer:
 
 ```
 org.skolakoda.graphic

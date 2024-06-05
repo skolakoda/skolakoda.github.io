@@ -1,7 +1,7 @@
 title: Škola koda # You can create any custom variable, like {{site.title}}
 description: Učimo narod programiranju!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://skolakoda.org # the base hostname & protocol for your site
+url: https://skolakoda.github.io # the base hostname & protocol for your site
 
 permalink: /:slug
 
