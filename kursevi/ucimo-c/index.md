@@ -37,7 +37,7 @@ image: /images/kursevi/uvod.png
 - [Heksadecimalni (šesnaestični) brojevi](/heksadecimalni-brojevi)
 - Vežba: zapisivanje podataka u binarnom formatu
 
-### Uvod u podatke
+### Tipovi podataka
 
 - [Uvod u podatke](/uvod-u-podatke)
 - [Razlika analognog i digitalnog zapisa](/analogni-i-digitalni-zapis)
