@@ -28,7 +28,7 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
   {% include kutijice/algoritmi.html %}
   {% include kutijice/inzenjerstvo.html %}
   {% include kutijice/refaktorisanje.html %}
-  <!-- {% include kutijice/blockchain.html %} -->
+  {% include kutijice/blockchain.html %}
   {% include kutijice/bez-racunara.html %}
 </div>
 

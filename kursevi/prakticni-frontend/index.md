@@ -9,8 +9,6 @@ kurs: frontend
 
 ***Za kurs je neophodno predznanje HTML, CSS i JS-a.***
 
-<a href="/prijava?kurs=4" class="btn float-right">Prijava za obuku</a>
-
 ### Uvod
 
 - [Kako postati upotrebljiv?](https://youtu.be/elOG6tINmHg)

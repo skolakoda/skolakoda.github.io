@@ -52,6 +52,3 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
     - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
-- https://phpsrbija.github.io/php-the-right-way/
-- postaviti sidebar sa sadrzajem kursa?
-- bekend i glasanje za projekte

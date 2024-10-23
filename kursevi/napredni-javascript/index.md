@@ -9,8 +9,6 @@ kurs: napredni-js
 
 ***Neophodan uslov za uspešno praćenje kursa je efektivna upotreba Javascripta.***
 
-<a href="/prijava?kurs=5" class="btn float-right">Prijava za obuku</a>
-
 ### Objektno orijentisani Javascript
 
 - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)

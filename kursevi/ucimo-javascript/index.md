@@ -9,8 +9,6 @@ image: /images/kursevi/js-logo.png
 
 ***Za uspešno praćenje kursa preporučuje se osnovno poznavanje HTML-a i CSS-a.***
 
-<a href="/prijava?kurs=2" class="btn float-right">Prijava za obuku</a>
-
 ### Uvod
 
 - [Učila bih programiranje ali ne znam matematiku](/ne-znam-matematiku)
