@@ -5,7 +5,7 @@ permalink: /nizovi
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Array1.svg/640px-Array1.svg.png
 ---
 
-**Niz ili polje (en. *array*) je složen tip podataka koji se sastoji od više elemenata. Svaki element ima određenu poziciju u nizu i moguće mu je pojedinačno pristupiti korišćenjem jedinstvenog rednog broja (indeksa). Broj elemenata niza predstavlja dužinu niza. Zavisno od jezika, niz mogu činiti elementi istog tipa ili različitih tipova.**
+**Niz (en. *array*) je struktura podataka koja se sastoji od više elemenata smeštenih u uzastopnim memorijskim lokacijama. Svaki element ima određenu poziciju u nizu i moguće mu je pristupiti putem jedinstvenog rednog broja (indeksa). Broj elemenata predstavlja dužinu niza. Zavisno od jezika, niz mogu činiti elementi istog tipa ili različitih tipova.**
 
 ![]({{page.image}})
 
