@@ -1,5 +1,5 @@
 ---
-title: Slog ili zapis (<i>record</i>)
+title: Zapis ili slog (<i>record</i>)
 layout: lekcija-algoritmi
 permalink: /slog
 image: /images/koncepti/podaci/census-record.jpg
@@ -7,10 +7,10 @@ image: /images/koncepti/podaci/census-record.jpg
 
 ![]({{page.image}})
 
-**Slog je skup međusobno povezanih (ali heterogenih) podataka koje obično nazivamo polja ili atributi.** Zapisi nekih vrsta datoteka su zapravo skupovi slogova, odnosno takve datoteke su linearne liste slogova.
+**Zapis je struktura međusobno povezanih ali raznorodnih podataka, koje obično nazivamo polja ili atributi. Svaki atribut može biti različitog tipa. Zapis se obično koristi za predstavljanje entiteta u bazi podataka.** 
 
 Važno je naglasiti osnovne razlike između sloga i polja:
-* elementi sloga mogu biti nehomogeni podaci (različitih tipova)
+* elementi sloga mogu biti različitih tipova
 * ne mora postojati "prirodni" redoslijed elemenata sloga, elementi se označavaju imenima atributa
 
 Skup slogova možemo promatrati i kao tablicu u kojoj svaki stupac ima svoje ime i odgovara pojedinom polju (atributu) sloga. **Takva struktura čini osnovu tzv. relacijskih baza podataka.**

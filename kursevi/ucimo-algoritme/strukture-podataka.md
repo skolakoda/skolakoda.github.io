@@ -19,15 +19,15 @@ Možemo reći da je struktura podataka logički model određene organizacije pod
 
 Slijedeće strukture podataka i operacije na njima temelji su računalne znanosti, jer su osnovni elementi brojnih algoritama:
 
-* **[Niz](/nizovi)** (eng. *array*) – niz elemenata smeštenih u uzastopnim memorijskim lokacijama
-* **[Lista](/povezana-lista)** (eng. *linked list*) – niz elemenata koji sadrže podatak i pokazivač na slijedeći element
-* **[Stog](/stog)** (eng. *stack*) – niz u kojem se dodavanje i brisanje mogu obavljati samo na jednom kraju
-* **[Red](/red)** (eng. *queue*) – niz u kojem je dodavanje moguće samo na jednom a brisanje samo na drugom kraju
-* **Rečnik** (eng. *dictionary*) ili **haš tabela** (eng. *hash table*) - struktura koja koristi funkciju heširanja kako bi se elementi sačuvali i brzo pronašli, omogućava efikasno pretraživanje, umetanje i brisanje podataka.
-* **Skup** (eng. *set*) - kolekcija jedinstvenih elemenata, obično neuređenih (bez fiksnog redosleda). Implementiran pomoću heš tabele (kod neuređenih) ili stabla (kod uređenih skupova).
-* **[Stablo](/stablo)** (eng. *binary tree*) – hijerarhijska struktura sa čvorovima, gde svaki čvor može imati više podčvorova. Najčešći primer je **binarno stablo**, gde svaki čvor ima najviše dva podčvora.
-* **[Graf](/graf)** (eng. *graph*) – općenita struktura u kojoj svaki element može biti povezan sa više drugih elemenata. Sastoji se od čvorova (ili vrhova) i ivica (veza između njih).
-* **[Slog](/slog)** (eng. *record*) - skup podataka koji mogu biti različitog tipa, niz slogova obično je dio datoteke ili tablice
+- **[Niz](/nizovi)** (eng. *array*) – niz elemenata smeštenih u uzastopnim memorijskim lokacijama
+- **[Lista](/povezana-lista)** (eng. *linked list*) – niz elemenata koji sadrže podatak i pokazivač na slijedeći element
+- **[Stog](/stog)** (eng. *stack*) – niz u kojem se dodavanje i brisanje mogu obavljati samo na jednom kraju
+- **[Red](/red)** (eng. *queue*) – niz u kojem je dodavanje moguće samo na jednom a brisanje samo na drugom kraju
+- **Rečnik** (eng. *dictionary*) ili **haš tabela** (eng. *hash table*) - struktura koja koristi funkciju heširanja kako bi se elementi sačuvali i brzo pronašli, omogućava efikasno pretraživanje, umetanje i brisanje podataka.
+- **Skup** (eng. *set*) - kolekcija jedinstvenih elemenata, obično neuređenih (bez fiksnog redosleda). Implementiran pomoću heš tabele (kod neuređenih) ili stabla (kod uređenih skupova).
+- **[Stablo](/stablo)** (eng. *binary tree*) – hijerarhijska struktura sa čvorovima, gde svaki čvor može imati više podčvorova. Najčešći primer je **binarno stablo**, gde svaki čvor ima najviše dva podčvora.
+- **[Graf](/graf)** (eng. *graph*) – općenita struktura u kojoj svaki element može biti povezan sa više drugih elemenata. Sastoji se od čvorova (ili vrhova) i ivica (veza između njih).
+- **[Zapis](/slog)** (eng. *record*) - struktura podataka koja sadrži grupu atributa, a svaki može biti različitog tipa. Zapis se obično koristi za predstavljanje entiteta u bazi podataka.
 
 ## Linearne i nelinearne strukture
 
