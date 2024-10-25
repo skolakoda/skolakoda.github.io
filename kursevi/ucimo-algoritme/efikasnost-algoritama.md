@@ -19,7 +19,7 @@ Glavni resursi koje algoritam zahteva su procesorsko **vreme i prostor** u memor
 ## Konstantna složenost: 1
 > ***vreme uvek isto, nezavisno od unosa***
 
-Algoritmi konstantne složenosti izvode uvek isti broj operacija, bez obzira na veličinu unosa. Dobar primer je uzimanje nasumičnog člana niza. Dužina niza ne utiče na složenost, jer svakom članu pristupamo jednako brzo.
+Algoritmi konstantne složenosti izvode uvek isti broj operacija, bez obzira na veličinu unosa. Dobar primer je uzimanje prvog, poslednjeg ili nasumičnog člana niza. Dužina niza ne utiče na složenost, jer svakom članu pristupamo jednako brzo.
 
 Ovako izgleda funkcija koja prima niz, a vraća nasumični član:
 
@@ -43,7 +43,7 @@ U klasu podlinearnih algoritama spadaju i algoritmi korenske složenosti, koji s
 ## Linearna složenost: n
 > ***vreme raste isto kao unos***
 
-Algoritam ima linearnu složenost kada nad svakim članom ulaza obavlja isti broj operacija (može i samo jednu). Na primer:
+Algoritam ima linearnu složenost kada nad svakim članom ulaza obavlja isti broj operacija (može i samo jednu). Na primer klasična iteracija niza:
 
 ```js
 for (let i = 0; i < 100; i++) {  

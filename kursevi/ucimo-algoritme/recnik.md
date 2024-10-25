@@ -23,16 +23,6 @@ Heš funkcija je funkcija koja prima ulazne podatke promenljive dužine i pretva
 
 Pristup, umetanje i brisanje u haš tabeli obično imaju O(1) vremensku složenost u prosečnom slučaju, što znači da su izuzetno brze operacije i ne zavise od broja elemenata.
 
-<!-- ## Mogućnost kolizije
-
-Kolizija se dešava kada dva različita ključa dobiju isti heš kod, tj. kad više ključeva pokazuje na istu memorijsku lokaciju. Postoji nekoliko tehnika za rešavanje kolizija, uključujući lančanje (*chaining*) i otvoreno adresiranje (*open addressing*). -->
-
-<!-- ## Prazni indeksi
-
-Prazni indeksi u heš tabelama obično ne zauzimaju značajnu količinu memorije za same podatke, ali rezervišu prostor u memoriji za strukturu tabele. Uglavnom prazni indeksi zauzimaju samo onoliko memorije koliko je potrebno za čuvanje pokazivača ili reference (4 ili 8 bajtova u zavisnosti od sistema).
-
-Veći broj praznih indeksa znači nižu gustinu popunjenosti, što može biti korisno za smanjenje sudara. Ipak, preniska gustina može uzrokovati rasipanje memorije. Kod nekih heš tabela, kada gustina popunjenosti dostigne određeni prag (npr. 70-80%), tabela se automatski proširuje kako bi se smanjio broj sudara.  -->
-
 ##  Primer: telefonski imenik
 
 Pretpostavimo da imamo sledeće podatke za telefonski imenik koji želimo da implementiramo. Ključ za svaki unos će biti ime osobe, a vrednost broj telefona.

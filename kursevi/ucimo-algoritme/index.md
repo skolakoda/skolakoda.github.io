@@ -23,7 +23,7 @@ image: /images/kursevi/algoritmi.jpg
 
 ### Složenost algoritama
 
-- Analiza algoritama
+<!-- - Analiza algoritama -->
 - [Složenost algoritama](/efikasnost-algoritama)
 - [Tablica složenosti algoritama](/tablica-slozenosti-algoritama)
 - [Zapis složenosti (asimptotska notacija)](/asimptotska-notacija)
