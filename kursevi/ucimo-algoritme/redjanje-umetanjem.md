@@ -12,13 +12,15 @@ Koncepcijski, postoje dva niza, polazni niz iz kojeg se uklanjaju elementi, i ni
 
 ## Primer iz stvarnog života
 
-Ređanje karata ili sličica po brojevima:
+Ređanje sličica po brojevima:
 
-1. **Uzmi prvu kartu**: Ona je već “složena” i postaje osnov za slaganje ostalih.
-2. **Stavi drugu kartu**: Uzmi drugu kartu i stavi je levo od prve ako je manja, desno ako je veća.
-3. **Nastavi sa ostalim kartama**: Svaku sledeću kartu ubaci na pravo mesto među kartama koje držiš složene.
+1. **Uzmi prvu sličicu**: Ona postaje osnov za slaganje ostalih.
+2. **Stavi drugu sličicu**: Uzmi drugu sličicu i stavi je levo od prve ako je manja, desno ako je veća.
+3. **Nastavi sa ostalima**: Svaku sledeću sličicu umetni na pravo mesto među sličicama koje držiš složene.
 
 Postupak ponavljaš sve dok sve karte ne budu složene od najmanje do najveće.
+
+![](/images/koncepti/slicice.jpg)
 
 ## Implementacija
 
