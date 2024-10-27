@@ -1,14 +1,16 @@
 ---
-title: Ređanje mehurom (<i>bubble sort</i>)
+title: Ređanje mehurićima (<i>bubble sort</i>)
 layout: lekcija-algoritmi
 permalink: /redjanje-mehurom
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/5/54/Sorting_bubblesort_anim.gif)
 
-***Ovo je jedna od najjednostavnijih metoda sortiranja koja je efikasna samo za relativno maleni broj elemenata. Za veći broj elemenata ova metoda je prespora. Stoga se vrlo retko upotrebljava osim za edukacijske svrhe.***
+***Sortiranje mehurićima je prosta metoda sortiranja, efikasna samo za relativno maleni broj elemenata. Za veći broj elemenata ova metoda je prespora. Stoga se retko upotrebljava osim za edukacijske svrhe.***
 
-*Bubble sort* algoritam u svakom prolazu kroz niz poredi susedne elemente, i zamenjuje im mesta ukoliko je potrebno. Prolasci kroz niz se ponavljaju sve dok se ne napravi prolaz u kome nije bilo razmene, što znači da je niz sortiran.
+*Bubble sort* algoritam u svakom prolasku niza poredi susedne elemente, i zamenjuje im mesta ako treba. Prolasci se ponavljaju sve do prolaska bez razmene, što znači da je niz sortiran.
+
+Kao što manji mehurići sporije plutaju ka površini vode a veći brže isplivaju, tako veliki brojevi ovde prvi "isplivaju" na kraj niza.
 
 ## Primer
 

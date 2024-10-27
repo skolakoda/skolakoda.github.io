@@ -57,7 +57,7 @@ image: /images/kursevi/algoritmi.jpg
 ### Algoritmi sortiranja
 
 - [Algoritmi sortiranja](/algoritmi-sortiranja)
-  - [Ređanje mehurom](/redjanje-mehurom) (_bubble sort_)
+  - [Ređanje mehurićima](/redjanje-mehurom) (_bubble sort_)
   - [Ređanje izborom](/redjanje-izborom) (_selection sort_)
   - [Ređanje umetanjem](/redjanje-umetanjem) (_insertion sort_)
   - [Šelovo ređanje](/shelovo-redjanje) (*Shell sort*)

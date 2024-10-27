@@ -6,11 +6,9 @@ permalink: /redjanje-spajanjem
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c5/Merge_sort_animation2.gif)
 
-***Merge sort* algoritam rekurzivno deli niz u podnizove koji se zasebno sortiraju, a zatim se spajaju u konačno sortirani niz.**
+**Sortiranje spajanjem je algoritam koji prvo deli niz na manje podnizove, dok svaki ne ostane sa samo jednim elementom, a zatim ih spaja u sortiranom redosledu, dok ne kreira potpuno sortirani niz.**
 
-Algoritam koristi strategiju “podeli pa vladaj”, koja problem rešava deobom na manje delove, sve dok ga ne redukuje na osnovni slučaj koji rešava direktno. 
-
-*Ređanje spajanjem* se temelji na ideji da se iz uređenih podnizova spajanjem efikasno može dobiti uređeni niz. Algoritam prvo deli nesortirani niz na manje i manje podnizove, dok svaki ne ostane samo sa jednim elementom, pa je sam po sebi sortiran. Potom, sledi faza spajanja sortiranih podnizova u veće sortirane podnizove, dok se na kraju ne kreira potpuno sortirani niz.
+Algoritam koristi pristup “podeli pa vladaj”, koja problem rešava deobom na manje delove, sve dok ga ne redukuje na osnovni slučaj koji rešava direktno. 
 
 ## Spajanje
 
