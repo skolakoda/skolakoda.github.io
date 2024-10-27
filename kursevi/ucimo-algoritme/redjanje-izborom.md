@@ -6,9 +6,9 @@ permalink: /redjanje-izborom
 
 ![](https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif)
 
-**Algoritam „sortiranje selekcijom“ u svakoj iteraciji nalazi određeni element i stavlja ga na svoje mesto.**
+**Sortiranje selekcijom je prost algoritam za sortiranje niza elemenata. Algoritam u svakom prolasku nalazi najmanji (ili najveći) element u nesortiranom delu niza i stavlja ga na svoje mesto.**
 
-Najjednostaviji oblik algoritma je da u prvoj iteraciji pronađe najmanji element i postavi ga na prvo mesto, u drugoj iteraciji pronađe najmanji preostali element i stavi ga na drugo mesto, itd.
+Na primer, u prvoj iteraciji nađe najmanji element i stavi ga na prvo mesto, u drugoj iteraciji nađe najmanji preostali element i stavi ga na drugo mesto, itd.
 
 ## Sled koraka
 
@@ -26,6 +26,16 @@ Prikažimo rad algoritma na primeru sortiranja niza (5 3 4 2 1).
 (1 2 3 4.5)
 ```
 
+## Primer iz života
+
+Slaganje knjiga po visini na polici:
+
+1. **Pronađi najmanju knjigu**: Pogledaj sve knjige i pronađi najkraću.
+2. **Stavi je na početak**: Stavi tu najkraću knjigu na početak police.
+3. **Ponavljaj za ostatak**: Pogledaj preostale knjige, nađi najmanju preostalu, pa je stavi na sledeće mesto.
+
+Nastavi ovako dok sve knjige ne budu složene od najkraće do najviše.
+
 ## Implementacija
 
 Pozicija najmanjeg elementa u nizu `a`,  dužine `n`, počevši od pozicije `i` se može naći `poz_min` funkcijom. U tom slučaju, *selection sort* algoritam izgleda ovako:
@@ -33,7 +43,7 @@ Pozicija najmanjeg elementa u nizu `a`,  dužine `n`, počevši od pozicije `i` 
 {:.ulaz}
 ```js
 function razmeni(a, i, j) {
-  const tmp = a[i]; a[i] = a[j]; a[j] = tmp
+  [a[i], a[j]] = [a[j], a[i]]
 }
 
 function poz_min(a, n, i) {
@@ -98,7 +108,7 @@ Rekruzivna implementacija je donekle jednostavnija u slučaju da se umesto pomer
 {:.ulaz}
 ```js
 function razmeni(a, i, j) {
-  const tmp = a[i]; a[i] = a[j]; a[j] = tmp
+  [a[i], a[j]] = [a[j], a[i]]
 }
 
 function poz_max(a, n) {
@@ -128,7 +138,7 @@ Naravno, moguća je i originalna varijanta, uz slanje dodatnog indeksa kroz reku
 {:.ulaz}
 ```js
 function razmeni(a, i, j) {
-  const tmp = a[i]; a[i] = a[j]; a[j] = tmp
+  [a[i], a[j]] = [a[j], a[i]]
 }
 
 function poz_min(a, n, i) {
