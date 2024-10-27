@@ -6,9 +6,19 @@ permalink: /redjanje-umetanjem
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/25/Insertion_sort_animation.gif)
 
-***Insertion sort* algoritam sortira niz tako što jedan po jedan element niza umeće na odgovarajuće mesto, u do tada sortirani deo niza.**
+**Sortiranje umetanjem je algoritam koji sortira niz tako što jedan po jedan element niza umeće na odgovarajuće mesto, u do tada sortirani deo niza.**
 
-Koncepcijski, postoje dva niza — polazni niz iz kojeg se uklanjaju elementi i niz koji čuva rezultat, u koji se dodaju elementi. Međutim, obično implementacije koriste memorijski prostor polaznog niza za obe uloge — početni deo niza predstavlja rezultujući niz, dok krajnji deo predstavlja preostali deo polaznog niza.
+Koncepcijski, postoje dva niza, polazni niz iz kojeg se uklanjaju elementi, i niz u koji se dodaju elementi. Međutim, obično implementacije koriste memorijski prostor polaznog niza za obe uloge — početni deo niza predstavlja rezultujući niz, dok krajnji deo predstavlja preostali deo polaznog niza.
+
+## Primer iz stvarnog života
+
+Ređanje karata ili sličica po brojevima:
+
+1. **Uzmi prvu kartu**: Ona je već “složena” i postaje osnov za slaganje ostalih.
+2. **Stavi drugu kartu**: Uzmi drugu kartu i stavi je levo od prve ako je manja, desno ako je veća.
+3. **Nastavi sa ostalim kartama**: Svaku sledeću kartu ubaci na pravo mesto među kartama koje držiš složene.
+
+Postupak ponavljaš sve dok sve karte ne budu složene od najmanje do najveće.
 
 ## Implementacija
 

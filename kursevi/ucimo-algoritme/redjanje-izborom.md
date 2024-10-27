@@ -14,11 +14,13 @@ Na primer, u prvoj iteraciji nađe najmanji element i stavi ga na prvo mesto, u 
 
 Slaganje knjiga po visini na polici:
 
-1. **Pronađi najmanju knjigu**: Pogledaj sve knjige i pronađi najkraću.
-2. **Stavi je na početak**: Stavi tu najkraću knjigu na početak police.
-3. **Ponavljaj za ostatak**: Pogledaj preostale knjige, nađi najmanju preostalu, pa je stavi na sledeće mesto.
+1. **Pronađi najmanju knjigu**: Pogledaj sve knjige i pronađi najmanju.
+2. **Stavi je na početak**: Stavi najmanju knjigu na početak police.
+3. **Ponavljaj za ostatak**: Pogledaj preostale knjige, nađi najmanju preostalu, stavi je na sledeće mesto.
 
 Nastavi ovako dok sve knjige ne budu složene od najkraće do najviše.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/A_small_bookshelf.jpg/640px-A_small_bookshelf.jpg)
 
 ## Sled koraka
 
