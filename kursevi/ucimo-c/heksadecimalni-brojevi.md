@@ -19,7 +19,7 @@ Cifre 0-9 imaju uobičajene vrednosti, a slova A-F imaju vrednosti od 10-15. Obz
 
 ```
 4A2
-= 4 * 16^2 + 10 * 16^1 + 2 * 16^0
+= 4 * 16^2 + 10 * 16^1 + 2
 = 1024 + 160 + 2
 ```
 

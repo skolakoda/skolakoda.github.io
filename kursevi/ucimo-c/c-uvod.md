@@ -2,7 +2,7 @@
 title: Uvod u programski jezik C
 layout: lekcija-c
 permalink: /c-uvod
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg/959px-Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/1/1b/Ken_Thompson_and_Dennis_Ritchie--1973.jpg
 ---
 
 ![Dennis Ritchie and Ken Thompson]({{page.image}})

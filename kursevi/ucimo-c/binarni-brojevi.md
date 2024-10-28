@@ -24,8 +24,8 @@ Na primer, cifre binarnog broja `10011` imaju sledeće vrednosti:
 Tako, binarni broj `10011` zapravo ima sledeću vrednost:
 
 ```
-1 * 2^4 + 0 * 2^3 + 0 * 2^2 + 1 * 2^1 + 1 * 2^0
-1 * 16  + 0 * 8   + 0 * 4   + 1 * 2   + 1 * 1
+1 * 2^4 + 0 * 2^3 + 0 * 2^2 + 1 * 2^1 + 1
+1 * 16  + 0 * 8   + 0 * 4   + 1 * 2   + 1
 = 19
 ```
 
