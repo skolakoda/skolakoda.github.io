@@ -37,7 +37,6 @@ Prema svojstvima, podaci mogu biti tipa:
 ...
 
 Podatke možemo povezati u sledeće strukture:
-<!-- Sa stajališta struktura, podatke možemo povezati u: -->
 * nizove (koji predstavljaju matematičke vektore i matrice)
 * skupove
 * slogove
@@ -46,10 +45,9 @@ Podatke možemo povezati u sledeće strukture:
 
 ## Primitivni tipovi
 
-![](//csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/3d39b4/data-types-in-json/Images/JSON-represents-six-data-types.jpg)
+![](/images/koncepti/podaci/tipovi-podataka.jpg)
 
-**Primitivni tipovi podataka**, za razliku od kompozitnih, su tipovi koje programski jezik nudi kao osnovne gradbene elemente. Ovisno o jeziku i implementaciji,
-primitivni tipovi mogu ili nemoraju imati "jedan prema jedan" korespondenciju sa objektima u računalnoj memoriji. Primitivni tipovi poznati su i kao osnovni ili ugrađeni tipovi (eng. *built-in types*).
+**Primitivni tipovi podataka** su oni koje programski jezik nudi kao osnovne gradbene elemente. Ovisno o jeziku i implementaciji, primitivni tipovi mogu (ali ne moraju) imati "jedan prema jedan" odnos sa objektima u memoriji. Poznati su i kao osnovni ili ugrađeni tipovi (eng. *built-in types*).
 
 Tipični primitivni tipovi podataka uključuju:
 * **niz znakova**: character, char, string
@@ -58,12 +56,12 @@ Tipični primitivni tipovi podataka uključuju:
 * **logički** (boolean), ima vrijednosti istinu ili laž
 * **referenca** ili **pokazivač** (eng. *pointer*), sadrži memorijsku adresu nekog drugog objekta
 
-Ovdje je potrebno naglasiti razliku između preciznosti (*precision*) i točnosti (*accuracy*). Preciznost broja određena je dužinom riječi procesora (32 ili 64 bita). Preciznost se iskazuje brojem prvih važećih točnih znamenki, a točnost je bliskost stvarnoj (nepoznatoj) vrijednosti. Za dovoljnu točnost potrebna je adekvatna preciznost, ali preciznost ne implicira automatski točnost jer su iskazane znamenke mogle nastati na temelju npr. pogrešnog mjerenja.
+Preciznost broja određena je dužinom riječi procesora (32 ili 64 bita).
 
 ## Tipovi i programski jezici
 
 Neke od ključnih značajki programskih jezika:
-* da li su deklaracije tipa podatka obavezne ili neobavezne
-* da li su ograničenog dosega unutar programske jedinice (procedure, modula, bloka) ili ne?
+* jesu li deklaracije tipa podatka obavezne
+* jesu li ograničenog dosega unutar programske jedinice (procedure, modula, bloka) ili ne?
 
 Izvor: N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi I*, Zagreb, 2005.

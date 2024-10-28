@@ -17,7 +17,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wikipedia_favic
 
 Na samom početku ere računara (1950-tih godina) napravljen je jedan šifarnik za kodiranje slova brojevima. Ovaj šifarnik poznat je kao ASCII (*American Standard Code for Information Interchange*) tabela i još uvek je u upotrebi.
 
-![](https://bam.files.bbci.co.uk/bam/live/content/zm46yrd/large)
+![](/images/koncepti/podaci/podaci-slova.png)
 
 Tako recimo veliko slovo A ima šifru 65 u dekadnom brojnom sistemu (ili 1000001 u binarnom). ASCII je prvobitno sadržao samo internacionalnu latiničnu azbuku, i bilo ga je nemoguće koristiti za druge jezike osim engleskog.
 
@@ -26,9 +26,9 @@ Ovaj kod se pojavljuje u više varijanti, a UTF-16 je 16-bitna varijanta koja po
 
 ## Zvuk
 
-Zvuk nastaje vibracijom vazduha, pa kada se vibracija prenese do naše bubne opne, ona vibrira u istom ritmu i proizvodi signal, koji naš mozak interpretira kao zvuk. Pošto je zvuk vibracija vazduha, ta se vibracija u mikrofonu (slično kao u bubnoj opni) pretvara u električni signal. U komjuteru se zvuk takođe pamti pomoću brojeva.
+Zvuk nastaje vibracijom vazduha, a kada se vibracija prenese do naše bubne opne, ona vibrira u istom ritmu i proizvodi signal, koji mozak interpretira kao zvuk. Pošto je zvuk vibracija vazduha, ta se vibracija u mikrofonu (slično kao u bubnoj opni) pretvara u električni signal. U komjuteru se zvuk takođe pamti pomoću brojeva.
 
-![](//www.karbosguide.com/images/u1727.gif)
+![](/images/koncepti/podaci/podaci-zvuk.gif)
 
 S druge strane, reprodukcija zvučnog signala se odvija tako što se brojevi, kojima je registrovan zvuk, pretvaraju ponovo u električni signal.
 
@@ -60,9 +60,9 @@ Grafiku je takođe moguće obrađivati, promenom karakteristika piksela (boje, o
 
 Videli smo da nam je za čuvanje bilo koje vrste podataka potrebno da čuvamo samo nizove 0 i 1, od kojih se svi podaci sastoje. Osnovna memorijska ćelija se zove bit. Naziv dolazi otuda što se u njoj pamti jedna binarna cifra (**bi**nary digi**t**).
 
-Ako 8 bitova povežemo u jednu celinu dobićemo tzv. bajt kao pokazuje sledeća slika.
+Ako 8 bitova povežemo u celinu dobićemo jedan bajt, kao što pokazuje sledeća slika.
 
-![](//image.noelshack.com/fichiers/2010/48/1291400659-bytes-5506b22482.png)
+![](/images/koncepti/podaci/bit-bajt.png)
 
 U jedan bajt možemo smestiti jednu od 256 mogućih kombinacija 0 i 1. Na primer neko ASCII slovo ili jednu od RGB boja nekog piksela. Svaki bit u bajtu ima svoju adresu (od 0 do 7), te svakom možemo individualno pristupati i menjati ga.
 
