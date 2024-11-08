@@ -35,7 +35,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - **O***pen/closed principle* ([otvoreno-zatvoren princip](/otvoren-zatvoren-princip))
   - **L***iskov substitution principle* ([Liskovljev princip zamene](/liskov-princip-zamene))
   - **I***nterface segregation principle* ([princip podele interfejsa](/princip-podele-interfejsa))
-  - **D***ependency inversion principle*
+  - **D***ependency inversion principle* ([princip inverzije zavisnosti](/princip-inverzije-zavisnosti))
 - [Ekapsulacija i skrivanje informacija](/enkapsulacija)
 
 ### Projektni obrasci
