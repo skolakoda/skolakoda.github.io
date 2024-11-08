@@ -1,4 +1,4 @@
-@use "../base/variables";
+@import "../base/variables";
 
 .boxes a:nth-of-type(6n+1) {
   background: $carrot-orange;

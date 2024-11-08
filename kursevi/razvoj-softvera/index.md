@@ -30,13 +30,13 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 
 ### Temeljni principi projektovanja
 
-- Razdvajanje briga
-- [Princip isključive odgovornosti](/princip-iskljucive-odgovornosti)
-- Apstrakcija i neponavljanje koda
+- SOLID principi:
+  - **S***ingle responsibility principle* ([princip isključive odgovornosti](/princip-iskljucive-odgovornosti))
+  - **O***pen/closed principle* ([otvoren/zatvoren princip](/otvoren-zatvoren-princip))
+  - **L***iskov substitution principle* ([Liskovljev princip zamene](/liskov-princip-zamene))
+  - **I***nterface segregation principle* ([princip podele interfejsa](/princip-podele-interfejsa))
+  - **D***ependency inversion principle*
 - [Ekapsulacija i skrivanje informacija](/enkapsulacija)
-- [Otvoren/zatvoren princip](/otvoren-zatvoren-princip)
-- [Princip zamene Barbare Liskov](/liskov-princip-zamene)
-- [Princip podele interfejsa](/princip-podele-interfejsa)
 
 ### Projektni obrasci
 
