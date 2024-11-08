@@ -4,11 +4,13 @@ layout: lekcija-razvoj
 permalink: /princip-iskljucive-odgovornosti
 ---
 
-**Princip isključive odgovornosti** (*Single responsibility principle*) je u bliskoj vezi sa razdvajanjem briga. On govori da svaki objekat treba da ima jedan fokus. Pridržavanjem ovog principa, izbegava se problem monolitnih klasa, što predstavlja softverski ekvivalent za švajcarski nož. Ako su objekti koncizni, povećava se čitljivost i omogućava lakše održavanje sistema.
+**Princip isključive odgovornosti** (*Single responsibility principle*) govori da svaka komponenta treba da ima samo jednu odgovornost, odnosno da se bavi samo jednim aspektom aplikacije. 
 
-## Primer
+Ako komponenta ima više odgovornosti teško ju je menjati i održavati. Poštovanjem principa jedne odgovornosti izbegava se problem monolitnih klasa, koje se bave svim i svačim. 
 
-Kao primer možemo posmatrati klasu `Book`, koja obuhvata koncept knjige i pridruženih funkcionalnosti:
+## Primer: razdvajanje odgovornosti
+
+Kao primer možemo uzeti klasu `Book`, koja obuhvata koncept knjige i pridruženih funkcionalnosti:
 
 ```cs
 class Book {
@@ -30,7 +32,7 @@ class Book {
 }
 ```
 
-Ova klasa se može učiniti kao sasvim ispravna. Imamo knjigu za koju možemo da odredimo naslov, autora i možemo da pređemo na sledeću stranicu. Poslednja metoda omogućava da se odštampa trenutna stranica i da se prikaže na ekranu. Međutim, ovde se može pojaviti problem. Mešanje logike sa prikazom je loša praksa. Zbog toga bi kod trebalo izmeniti:
+Ova klasa se može učiniti kao sasvim ispravna. Imamo knjigu kojoj možemo da vidimo naslov i autora, te okrenemo sledeću stranicu. Poslednja metoda omogućava da se odštampa trenutna stranica. Međutim, ovde se može pojaviti problem. Mešanje logike sa prikazom je loša praksa. Zbog toga bi klasu trebalo razdvojiti:
 
 ```cs
 class Book {
@@ -64,7 +66,7 @@ class HtmlPrinter: Printer {
 }
 ```
 
-U okviru ovog jednostavnog primera, može se videti razdvajanje prezentacione logike od poslovne logike, šro predstavlja SRP princip. Primenom ovog principa dobijamo veliku prednost u fleksibilnosti našeg softvera.
+U okviru ovog prostog primera možemo videti razdvajanje prezentacione od poslovne logike, što predstavlja SRP princip. Primenom ovog principa dobijamo veliku prednost u fleksibilnosti našeg softvera.
 
 
 Izvor: Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin

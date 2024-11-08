@@ -32,7 +32,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 
 - SOLID principi:
   - **S***ingle responsibility principle* ([princip isključive odgovornosti](/princip-iskljucive-odgovornosti))
-  - **O***pen/closed principle* ([otvoren/zatvoren princip](/otvoren-zatvoren-princip))
+  - **O***pen/closed principle* ([otvoreno-zatvoren princip](/otvoren-zatvoren-princip))
   - **L***iskov substitution principle* ([Liskovljev princip zamene](/liskov-princip-zamene))
   - **I***nterface segregation principle* ([princip podele interfejsa](/princip-podele-interfejsa))
   - **D***ependency inversion principle*

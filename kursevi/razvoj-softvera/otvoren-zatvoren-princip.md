@@ -1,16 +1,16 @@
 ---
-title: Otvoren/zatvoren princip
+title: Otvoreno-zatvoren princip 
 layout: lekcija-razvoj
 permalink: /otvoren-zatvoren-princip
 ---
 
-**Otvoren-zatvoren princip (*Open-close principle*) govori da klasa treba da bude otvorena za proširenja a zatvorena za izmene.**
+**Otvoreno-zatvoren princip (*Open-close principle*) glasi da klasa treba da bude otvorena za proširenje a zatvorena za izmene. U praksi, to znači da možemo dodati novu funkcionalnost bez menjanja postojeće.**
 
-Drugim rečima, treba omogućiti dodavanje novih karakteristika i proširenje klase bez promene unutrašnjeg ponašanja postojećih metoda. Princip teži da se izbegne menjanje postojeće klase i drugih klasa koje od nje zavise, jer će to dovesti do pojavljivanja velikog broja grešaka u samoj aplikaciji.
+Menjanje postojeće funkcionalnosti dovodi do mnogih grešaka u aplikaciji. Proširenje se obično postiže kroz nasleđivanje ili interfejse. Polimorfizam omogućava proširenje bez potrebe za menjanjem postojećih klasa, jer možemo dodati nove podklase koje implementiraju specifično ponašanje.
 
 ## Primer
 
-U okviru primera možemo posmatrati klasu `Customer` koja poseduje jednu metodu `getDiscount()`:
+Imamo klasu `Customer` koja poseduje jednu metodu `getDiscount()`:
 
 ```cs
 class Customer {
@@ -20,7 +20,9 @@ class Customer {
 }
 ```
 
-Ako se vremenom pored klijenata pojave i klijenti posebnog tipa (npr. silver i gold), onda se klasa `Customer` može promeniti kao što je prikazano:
+### Primer kako ne treba
+
+Ako kasnije uvedemo posebne tipove mušterija (npr. silver i gold), onda se klasa `Customer` može promeniti kao što je prikazano:
 
 ```cs
 class Customer {
@@ -46,7 +48,9 @@ class Customer {
 }
 ```
 
-Problem je što, ako budemo imali još tipova klijenata, moraćemo dodavati još `if` uslova u okviru `getDiscount` metode, što će dovesti do nove promene u okviru `Customer` klase. Kada se god promeni klasa, mora se osigurati da prethodni kod radi, jer izmene mogu dovesti do pojave grešaka u ostatku koda.
+Problem je, ako budemo imali još tipova mušterija, moraćemo dodavati još `if` uslova u `getDiscount` metodu, što vodi do novih promene u okviru `Customer` klase. Kad god se promeni klasa, mora se osigurati da prethodni kod radi, jer izmene mogu dovesti do grešaka.
+
+### Primer kako treba
 
 Umesto toga, kod treba proširiti kako bi bili sigurni da postojeći kod i dalje radi:
 
@@ -56,11 +60,13 @@ class Customer {
     return TotalSales;
   }
 }
+
 class SilverCustomer: Customer {
   public override double getDiscount(double TotalSales) {
     return base.getDiscount(TotalSales) - 50;
   }
 }
+
 class GoldCustomer: SilverCustomer {
   public override double getDiscount(double TotalSales) {
     return base.getDiscount(TotalSales) - 100;
@@ -68,7 +74,9 @@ class GoldCustomer: SilverCustomer {
 }
 ```
 
-Ovim kodom smo postigli da je klasa `Customer` zatvorena za bilo kakve izmene ali je otvorena za proširenja, što je suština OCP-a.
+Ovim kodom smo postigli da je klasa `Customer` zatvorena za bilo kakve izmene ali je otvorena za proširenja, što je suština Otvoreno-zatvorenog principa.
 
 
-Izvor: Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+### Izvori 
+- Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+- Wikipedia, [Open–closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)

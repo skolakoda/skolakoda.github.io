@@ -4,13 +4,13 @@ layout: lekcija-razvoj
 permalink: /liskov-princip-zamene
 ---
 
-**Liskovljev princip zamene (*Liskov substitution principle*) govori da bi trebalo omogućiti korišćenje bilo koje izvedene klase na mestu klase roditelja i da bi ta klasa trebala da se ponaša na isti način bez izmena.**
+**Liskovljev princip zamene (*Liskov substitution principle*) kaže treba biti moguće koristiti bilo koju nasleđenu klasu umesto roditelja, a da aplikacija radi na isti način.**
 
-Ovaj princip je u skladu sa [otvoren/zatvoren principom](/otvoren-zatvoren-princip), jer osigurava da izvedena klasa ne utiče na ponašanje klase roditelja.
+Liskovljev princip je u skladu sa [otvoreno-zatvorenim principom](/otvoren-zatvoren-princip), jer osigurava da izvedena klasa ne menja ponašanje roditelja.
 
 ## Primer
 
-Dat je primer principa zamene kod koga imamo tri klase: `Vozilo`, `Kola` i `Trolejbus`. Klase `Kola` i `Trolejbus` su nasleđene iz klase `Vozilo`:
+U sledećem primeru imamo roditeljsku klasu `Vozilo` i nasleđene klase `Kola` i `Trolejbus`:
 
 ```cs
 class Vozilo {
