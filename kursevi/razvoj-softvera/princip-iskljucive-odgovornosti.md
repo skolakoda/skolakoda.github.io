@@ -2,11 +2,14 @@
 title: Princip isključive odgovornosti
 layout: lekcija-razvoj
 permalink: /princip-iskljucive-odgovornosti
+image: /images/koncepti/oop/SingleResponsibility.png
 ---
 
 **Princip isključive odgovornosti** (*Single responsibility principle*) govori da svaka komponenta treba da ima samo jednu odgovornost, odnosno da se bavi samo jednim aspektom aplikacije. 
 
 Ako komponenta ima više odgovornosti teško ju je menjati i održavati. Poštovanjem principa jedne odgovornosti izbegava se problem monolitnih klasa, koje se bave svim i svačim. 
+
+![]({{page.image}})
 
 ## Primer: razdvajanje odgovornosti
 
@@ -32,7 +35,9 @@ class Book {
 }
 ```
 
-Ova klasa se može učiniti kao sasvim ispravna. Imamo knjigu kojoj možemo da vidimo naslov i autora, te okrenemo sledeću stranicu. Poslednja metoda omogućava da se odštampa trenutna stranica. Međutim, ovde se može pojaviti problem. Mešanje logike sa prikazom je loša praksa. Zbog toga bi klasu trebalo razdvojiti:
+Ova klasa se može učiniti kao sasvim ispravna. Imamo knjigu kojoj možemo da vidimo naslov i autora, te okrenemo sledeću stranicu. Poslednja metoda omogućava da se odštampa trenutna stranica. Međutim, ovde se može pojaviti problem. Mešanje logike sa prikazom je loša praksa. 
+
+Zbog toga bi klasu trebalo razdvojiti:
 
 ```cs
 class Book {

@@ -2,14 +2,17 @@
 title: Princip inverzije zavisnosti
 layout: lekcija-razvoj
 permalink: /princip-inverzije-zavisnosti
+image: /images/koncepti/oop/dependency-inverted.png
 ---
 
-**Princip obrtanja zavisnosti** (*dependency inversion principle*) služi za smanjenje zavisnosti viših klasa od nižih i njihovo labavo povezivanje. Osnovne ideje su:
+**Princip inverzije zavisnosti** (*dependency inversion principle*) služi za smanjenje zavisnosti viših klasa od nižih i njihovo labavo povezivanje. Osnovne ideje su:
 
 - Više klase ne treba da zavise od nižih, već obe treba da zavise od apstrakcija.
 - Apstrakcije ne treba da zavise od detalja implementacije, već obratno.
 
-Tako, viša klasa koja se bavi poslovnom logikom ne treba da zavisi od konkretne niže klase zadužene za tekuće zadatke, poput čitanja baze podataka, slanja pošte i slično. Umesto toga, obe klase treba da zavise od apstrakcije.
+Tako, viša klasa koja se bavi poslovnom logikom ne treba direktno da zavisi od neke niže klase zadužene za tekuće zadatke, poput čitanja baze podataka, slanja pošte i slično. Umesto toga, obe klase treba da zavise od apstrakcije, koja im postaje posrednik.
+
+![]({{page.image}})
 
 ## Primer
 

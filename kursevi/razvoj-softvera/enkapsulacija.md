@@ -1,5 +1,5 @@
 ---
-title: Ekapsulacija i skrivanje informacija
+title: Enkapsulacija i skrivanje informacija
 layout: lekcija-razvoj
 permalink: /enkapsulacija
 image: https://upload.wikimedia.org/wikipedia/commons/0/09/Plc_control_panel.JPG
