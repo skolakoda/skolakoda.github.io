@@ -4,13 +4,13 @@ layout: lekcija-razvoj
 permalink: /liskov-princip-zamene
 ---
 
-**Liskovljev princip zamene (*Liskov substitution principle*) kaže treba biti moguće koristiti bilo koju nasleđenu klasu umesto roditelja, a da aplikacija radi na isti način.**
+**Liskovljev princip zamene (*Liskov substitution principle*) kaže da treba biti moguće upotrebiti bilo koju izvedenu klasu umesto roditelja, a da aplikacija radi na isti način.**
 
 Liskovljev princip je u skladu sa [otvoreno-zatvorenim principom](/otvoren-zatvoren-princip), jer osigurava da izvedena klasa ne menja ponašanje roditelja.
 
 ## Primer
 
-U sledećem primeru imamo roditeljsku klasu `Vozilo` i nasleđene klase `Kola` i `Trolejbus`:
+U sledećem primeru imamo roditeljsku klasu `Vozilo` i izvedene klase `Kola` i `Trolejbus`:
 
 ```cs
 class Vozilo {
@@ -51,7 +51,7 @@ class Trolejbus: Vozilo {
 }
 ```
 
-Da bi pokazali da se izvedene klase mogu upotrebiti na istom mestu gde i klasa roditelj, možemo kreirati klasu `Program` sa `main` metodom:
+Sledeći program pokazuje da sve tri klase možemo upotrebiti na isti način:
 
 ```cs
 class Program {

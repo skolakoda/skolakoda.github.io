@@ -4,74 +4,108 @@ layout: lekcija-razvoj
 permalink: /princip-podele-interfejsa
 ---
 
-Cilj **principa podele interfejsa** (*Interface segregation principle*) je dodeljivanje novog interfejsa grupama metoda koje imaju isti fokus, kako bi se izbeglo da klijent mora da implementira jedan veliki interfejs i veliki broj metoda koje mu nisu potrebne. Prednost ovog principa se ogleda u tome da klase koje žele da koriste iste interfejse, treba da implementiraju samo određen skup metoda.
+**Princip podele interfejsa** (*Interface segregation principle*) kaže da klase ne treba primoravati da implementiraju metode koje im nisu potrebne. Umesto glomaznog interfejsa sa mnogo metoda treba praviti manje interfejse, relevantne za različite klase.
 
 ## Primer
 
-Da bi se demonstrirao principa podele interfejsa, biće kreirana mala aplikacija čiji je domen katalog proizvoda. Katalog proizvoda čine filmovi u obliku DVD ili Blu-Ray diskova. Za svaki podtip proizvoda postoji odgovarajuća klasa. Obe klase implementiraju `IProduct` interfejs kao što se može videti:
-
+Pretpostavimo da imamo veliki interfejs koji obuhvata različite vrste uređaja:
 
 ```cs
-public interface IProduct
-{
-  decimal Price { get; set; }
-  int WeightInKg { get; set; }
-  int RunningTime { get; set; }
+public interface IDevice {
+    void TurnOn();
+    void TurnOff();
+    void PrintDocument();
+    void ScanDocument();
 }
 
-public class DVD : IProduct
-{
-  public decimal Price { get; set; }
-  public int WeightInKg { get; set; }
-  public int RunningTime { get; set; }
+public class Printer : IDevice {
+    public void TurnOn() {
+        Console.WriteLine("Printer is on");
+    }
+
+    public void TurnOff() {
+        Console.WriteLine("Printer is off");
+    }
+
+    public void PrintDocument() {
+        Console.WriteLine("Printing document...");
+    }
+
+    public void ScanDocument() {
+        // Nema smisla za Printer, ali mora da implementira
+        throw new NotImplementedException();
+    }
 }
 
-public class BluRayDisc : IProduct
-{
-  public decimal Price { get; set; }
-  public int WeightInKg { get; set; }
-  public int RunningTime { get; set; }
+public class Scanner : IDevice {
+    public void TurnOn() {
+        Console.WriteLine("Scanner is on");
+    }
+
+    public void TurnOff() {
+        Console.WriteLine("Scanner is off");
+    }
+
+    public void PrintDocument() {
+        // Nema smisla za Scanner, ali mora da implementira
+        throw new NotImplementedException();
+    }
+
+    public void ScanDocument() {
+        Console.WriteLine("Scanning document...");
+    }
 }
 ```
 
-Sada ćemo u aplikaciju dodati novi tip proizvoda koji nije film. Dodajemo klasu `TShirt`. Pošto je i ona proizvod, mora da implementira `IProduct` interfejs. Problem sa tim što klasa `TShirt` implementira `IProduct` interfejs je u tome što svojstvo `RunningTime` nema nikavo značenje za majicu i ne bi trebao tu da se nalazi. Rešenje je u uočavanju razlika između proizvoda kao što su filmovi i majice i prebacivanje tih razlika u specifične interfejse.
+U ovom primeru, `Printer` i `Scanner` su primorani da implementiraju metode koje nisu relevantne za njih.
 
-Dodaćemo novi interfejs `IMovie`:
+### Rešenje podelom interfejsa
 
 ```cs
-public interface IMovie
-{
-  int RunningTime { get; set; }
+public interface IPrintable {
+    void PrintDocument();
 }
 
-public interface IProduct
-{
-  decimal Price { get; set; }
-  int WeightInKg { get; set; }
+public interface IScannable {
+    void ScanDocument();
 }
 
-public class DVD : IProduct, IMovie
-{
-  public decimal Price { get; set; }
-  public int WeightInKg { get; set; }
-  public int RunningTime { get; set; }
+public interface IDevice {
+    void TurnOn();
+    void TurnOff();
 }
 
-public class BluRayDisc : IProduct, IMovie
-{
-  public decimal Price { get; set; }
-  public int WeightInKg { get; set; }
-  public int RunningTime { get; set; }
+public class Printer : IDevice, IPrintable {
+    public void TurnOn() {
+        Console.WriteLine("Printer is on");
+    }
+
+    public void TurnOff() {
+        Console.WriteLine("Printer is off");
+    }
+
+    public void PrintDocument() {
+        Console.WriteLine("Printing document...");
+    }
 }
 
-public class TShirt : IProduct
-{
-  public decimal Price { get; set; }
-  public int WeightInKg { get; set; }
+public class Scanner : IDevice, IScannable {
+    public void TurnOn() {
+        Console.WriteLine("Scanner is on");
+    }
+
+    public void TurnOff() {
+        Console.WriteLine("Scanner is off");
+    }
+
+    public void ScanDocument() {
+        Console.WriteLine("Scanning document...");
+    }
 }
 ```
 
-Ovo je suština principa podele interfejsa. Razdvajanjem interfejsa, povećava se mogućnost ponovne upotrebe i razumevanja koda.
+Sada Printer implementira interfejse `IDevice` i `IPrintable`, dok Scanner implementira `IDevice` i `IScannable`. Svaka klasa implementira samo metode koje su relevantne za njen specifičan tip.
+
+U jezicima koji ne podržavaju višestruko nasleđivanje možemo koristiti kompoziciju. Kompozicija znači da klasa sadrži instancu drugih klasa umesto da nasleđuje njihove funkcionalnosti. 
 
 
-Izvor: Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
