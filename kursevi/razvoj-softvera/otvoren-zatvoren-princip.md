@@ -4,9 +4,9 @@ layout: lekcija-razvoj
 permalink: /otvoren-zatvoren-princip
 ---
 
-**Otvoreno-zatvoren princip (*Open-close principle*) glasi da klasa treba da bude otvorena za proširenje a zatvorena za izmene. U praksi, to znači da možemo dodati novu funkcionalnost bez menjanja postojeće.**
+**Otvoreno-zatvoren princip (*Open-close principle*) glasi da klasa treba da bude otvorena za proširenje a zatvorena za izmene. To znači da možemo dodati novu funkcionalnost bez menjanja postojeće.**
 
-Menjanje postojeće funkcionalnosti dovodi do mnogih grešaka u aplikaciji. Proširenje se obično postiže kroz nasleđivanje ili interfejse. Polimorfizam omogućava proširenje bez potrebe za menjanjem postojećih klasa, jer možemo dodati nove podklase koje implementiraju specifično ponašanje.
+Menjanje postojeće funkcionalnosti dovodi do mnogih grešaka u aplikaciji. Proširenje se obično postiže kroz interfejse ili nasleđivanje. Polimorfizam omogućava proširenje bez potrebe za menjanjem postojećih klasa, jer možemo dodati nove podklase koje implementiraju specifično ponašanje.
 
 ## Primer
 
@@ -20,9 +20,7 @@ class Customer {
 }
 ```
 
-### Primer kako ne treba
-
-Ako kasnije uvedemo posebne tipove mušterija (npr. silver i gold), onda se klasa `Customer` može promeniti kao što je prikazano:
+Ako vremenom uvedemo posebne tipove mušterija (npr. silver i gold), onda se klasa `Customer` može promeniti na sledeći način:
 
 ```cs
 class Customer {
@@ -50,7 +48,7 @@ class Customer {
 
 Problem je, ako budemo imali još tipova mušterija, moraćemo dodavati još `if` uslova u `getDiscount` metodu, što vodi do novih promene u okviru `Customer` klase. Kad god se promeni klasa, mora se osigurati da prethodni kod radi, jer izmene mogu dovesti do grešaka.
 
-### Primer kako treba
+### Rešenje pomoću polimorfizma
 
 Umesto toga, kod treba proširiti kako bi bili sigurni da postojeći kod i dalje radi:
 
@@ -75,7 +73,6 @@ class GoldCustomer: SilverCustomer {
 ```
 
 Ovim kodom smo postigli da je klasa `Customer` zatvorena za bilo kakve izmene ali je otvorena za proširenja, što je suština Otvoreno-zatvorenog principa.
-
 
 ### Izvori 
 - Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin

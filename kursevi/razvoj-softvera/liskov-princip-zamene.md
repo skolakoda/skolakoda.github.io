@@ -10,7 +10,7 @@ Liskovljev princip je u skladu sa [otvoreno-zatvorenim principom](/otvoren-zatvo
 
 ## Primer
 
-U sledećem primeru imamo roditeljsku klasu `Vozilo` i izvedene klase `Kola` i `Trolejbus`:
+U sledećem C# primeru imamo roditeljsku klasu `Vozilo` i izvedene klase `Kola` i `Trolejbus`:
 
 ```cs
 class Vozilo {
@@ -73,4 +73,44 @@ class Program {
 ```
 
 
-Izvor: Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+## Loš primer 
+
+U ovom JS primeru, imamo osnovnu klasu `Dokument` i podklasu `TajniDokument`, koja ne može biti zamena za roditelja jer menja osnovnu funkcionalnost:
+
+{:.ulaz}
+```js
+class Dokument {
+  constructor(sadržaj) {
+    this.sadržaj = sadržaj
+  }
+
+  prikaziSadržaj() {
+    console.log(this.sadržaj)
+  }
+}
+
+class TajniDokument extends Dokument {
+  prikaziSadržaj(lozinka) {
+    if (this.autentifikuj(lozinka)) {
+      this.prikaziSadržaj()
+    } else {
+      console.log("Pogrešna lozinka")
+    }
+  }
+
+  autentifikuj(lozinka) {
+    return false
+  }
+}
+
+const dokument = new Dokument("Sadržaj dokumenta.")
+const tajniDokument = new TajniDokument("Sadržaj dokumenta.")
+
+dokument.prikaziSadržaj()         // ispisuje: Sadržaj dokumenta.
+tajniDokument.prikaziSadržaj()    // ispisuje: Pogrešna lozinka
+```
+
+Ovde vidimo, kad roditeljsku klasu zamenimo sa klasom naslednicom program ne radi na isti način, dakle Liskovljev princip zamene nije ispoštovan.
+
+### Izvori
+- Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
