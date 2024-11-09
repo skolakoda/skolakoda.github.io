@@ -115,7 +115,7 @@ Ovde `UserService` zavisi direktno od `Database` klase. Ako bismo želeli da pro
 
 ### Rešenje
 
-Primer labave povezanosti klasa putem injektovanja zavisnosti:
+Primer labave povezanosti klasa putem injekcije zavisnosti:
 
 ```js
 class MongoDB {
@@ -136,7 +136,7 @@ class UserService {
 }
 
 
-const userService = new UserService(new MongoDB()) // injektovanje zavisnosti kroz konstruktor
+const userService = new UserService(new MongoDB()) // injekcija zavisnosti kroz konstruktor
 userService.getUser()
 ```
 

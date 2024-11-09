@@ -45,18 +45,32 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 
 - [Ispravan kod nije dovoljan](/ispravan-kod-nije-dovoljan)
 - [Projektni obrasci](/projektni-obrasci)
-- [Fasada (*facade*)](/obrazac-fasada)
-- [Adapter (*adapter*)](/obrazac-adapter)
-- [Posmatrač (*observer*)](/obrazac-posmatrac)
-- [Jedinac (*singleton*)](/obrazac-singleton)
-- [Fabrika (*factory*)](/obrazac-fabrika)
-- [Strategija (*strategy*)](/obrazac-strategija)
-- [Kompozicija (*composite*)](/obrazac-kompozicija)
-- [Komanda (*command*)](/obrazac-komanda)
-- [Model–view–controller (MVC)](/mvc)
-- Vežba: Implementiraj MVC obrazac
+- Kreacioni 
+  - [Jedinac (*singleton*)](/obrazac-singleton)
+  - [Fabrika (*factory*)](/obrazac-fabrika)
+- Strukturni
+  - [Adapter (*adapter*)](/obrazac-adapter)
+  - [Fasada (*facade*)](/obrazac-fasada)
+  - [Kompozicija (*composite*)](/obrazac-kompozicija)
+  - Modul
+- Ponašajni
+  - [Komanda (*command*)](/obrazac-komanda)
+  - [Strategija (*strategy*)](/obrazac-strategija)
+  - [Posmatrač (*observer*)](/obrazac-posmatrac)
 
-### Faza razvoja softvera
+### Arhitektonski obrasci
+- [Front kontroler](/front-kontroler)
+- [Model–view–controller (MVC)](/mvc)
+  - Model–view–presenter (MVP)
+  - Model–view–viewmodel (MVVM)
+- [Višeslojna arhitektura](/viseslojna-arhitektura) (multitier, n-tier)
+- Klijent-server model
+- [Model ravnopravnih partnera](/model-ravnopravnih-partnera) (*peer-to-peer*)
+- Mikroservisi
+- Cloud arhitektura
+- [Projektovanje web aplikacija](https://www.slideshare.net/DamjanPavlica/projektovanje-web-aplikacija)
+
+### Faze razvoja softvera
 
 - [Proces razvoja softvera](/faze-razvoja-programa)
   - [Model vodopada](/model-vodopada)
@@ -67,7 +81,6 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - Izrada specifikacije
 - [Projektovanje modela](/projektovanje-modela)
   - Detektovanje elemenata sistema
-  - UML notacija
   - [Izgrada dijagrama klasa](/dijagram-klasa)
   - [Izrada dijagrama toka](/dijagram-toka)
 - Pisanje programa
@@ -76,11 +89,3 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - [Dokumentacija programa](/dokumentacija-programa)
 - [Održavanje softvera](/odrzavanje-softvera)
   - [Starenje softvera](https://www.slideshare.net/DamjanPavlica/starenje-softvera)
-
-### Mrežna arhitektura
-
-- Distribuirani sistemi
-- Klijent-server model
-- [Višeslojna arhitektura](/viseslojna-arhitektura)
-- [Model ravnopravnih partnera](/model-ravnopravnih-partnera)
-- [Projektovanje web aplikacija](https://www.slideshare.net/DamjanPavlica/projektovanje-web-aplikacija)
