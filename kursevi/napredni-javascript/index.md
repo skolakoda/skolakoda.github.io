@@ -57,7 +57,6 @@ kurs: napredni-js
 
 ### Projektni obrasci
 - [Projektni obrasci](/projektni-obrasci)
-- [Obrazac modul](/javascript-obrazac-modul) (*module pattern*)
 - [Obrazac fabrika](/javascript-obrazac-fabrika) (*factory pattern*)
 - [Obrazac posmatrač](/javascript-obrazac-posmatrac) (*observer pattern*)
 - [Dobre prakse pisanja Javascripta](/javascript-dobre-prakse)

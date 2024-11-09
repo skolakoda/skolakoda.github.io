@@ -52,7 +52,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Adapter (*adapter*)](/obrazac-adapter)
   - [Fasada (*facade*)](/obrazac-fasada)
   - [Kompozicija (*composite*)](/obrazac-kompozicija)
-  - Modul
+  - [Modul (*module*)](/obrazac-modul)
 - Ponašajni
   - [Komanda (*command*)](/obrazac-komanda)
   - [Strategija (*strategy*)](/obrazac-strategija)
