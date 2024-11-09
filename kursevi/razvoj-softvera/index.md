@@ -45,7 +45,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 
 - [Ispravan kod nije dovoljan](/ispravan-kod-nije-dovoljan)
 - [Projektni obrasci](/projektni-obrasci)
-- Kreacioni 
+- Tvorbeni 
   - [Jedinac (*singleton*)](/obrazac-singleton)
   - [Fabrika (*factory*)](/obrazac-fabrika)
 - Strukturni

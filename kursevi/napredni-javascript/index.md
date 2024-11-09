@@ -56,8 +56,6 @@ kurs: napredni-js
 - Vežba: proveri `this` unutar obične i streličaste povratne funkcije (`addEventListener` i `setTimeout`)
 
 ### Projektni obrasci
-- [Projektni obrasci](/projektni-obrasci)
-- [Obrazac fabrika](/javascript-obrazac-fabrika) (*factory pattern*)
 - [Obrazac posmatrač](/javascript-obrazac-posmatrac) (*observer pattern*)
 - [Dobre prakse pisanja Javascripta](/javascript-dobre-prakse)
 
