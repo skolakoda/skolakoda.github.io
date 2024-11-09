@@ -14,7 +14,7 @@ Tako, viša klasa koja se bavi poslovnom logikom ne treba direktno da zavisi od 
 
 ![]({{page.image}})
 
-## Primer
+## Primer u C#
 
 U sledećem primeru, viša klasa `InvoiceService` zavisi direktno od konkretne klase `EmailService`:
 
@@ -46,9 +46,9 @@ public class InvoiceService
 
 Sada, ako želimo da promenimo način slanja e-mailova (na primer, da koristimo drugi email servis), moraćemo da modifikujemo `InvoiceService`, što krši principe dobrog dizajna.
 
-### Rešenje inverzijom zavisnosti
+### Rešenje
 
-Sada ćemo preraditi kod da primenimo princip inverzije zavisnosti, koristeći apstrakciju (interfejs) između `InvoiceService` i `EmailService`.
+Sada ćemo preraditi kod da primenimo princip inverzije zavisnosti, koristeći injektovanje zavisnosti i apstrakciju (interfejs) kao vezu između dve klase.
 
 ```cs
 // apstrakcija
@@ -86,3 +86,59 @@ public class InvoiceService
 ```
 
 Sada, ako želimo koristiti drugi email servis (koji implementira isti interfejs), možemo ga jednostavno proslediti konstruktoru bez menjanja bilo čega u višoj klasi.
+
+
+## Primer u JS-u
+
+Primer tesne povezanosti klasa, bez primene inverzije zavisnosti:
+
+```js
+class Database {
+  connect() {
+    console.log('Connecting to the database...')
+  }
+}
+
+class UserService {
+  constructor() {
+    this.db = new Database() // zavisi od konkretne klase
+  }
+
+  getUser() {
+    this.db.connect()
+    console.log('Fetching user...')
+  }
+}
+```
+
+Ovde `UserService` zavisi direktno od `Database` klase. Ako bismo želeli da promenimo bazu podataka, morali bismo da menjamo kod u `UserService` klasi.
+
+### Rešenje
+
+Primer labave povezanosti klasa putem injektovanja zavisnosti:
+
+```js
+class MongoDB {
+  connect() {
+    console.log('Connecting to MongoDB...')
+  }
+}
+
+class UserService {
+  constructor(database) {
+    this.db = database
+  }
+
+  getUser() {
+    this.db.connect()
+    console.log('Fetching user...')
+  }
+}
+
+
+const userService = new UserService(new MongoDB()) // injektovanje zavisnosti kroz konstruktor
+userService.getUser()
+```
+
+Ovde `UserService` više ne zavisi direktno od `Database` klase. Umesto toga, database instanca je injektovana kroz konstruktor, što omogućava promenu baze podataka bez menjanja `UserService` klase.
+

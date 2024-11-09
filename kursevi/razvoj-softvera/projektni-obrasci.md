@@ -12,9 +12,11 @@ permalink: /projektni-obrasci
 
 Projektni obrasci (*design patterns*) predstavljaju apstraktne primere rešenja na visokom nivou. Njih treba posmatrati kao plan u rešavanju problema, a ne kao samo rešenje. Gotovo je nemoguće pronaći okvir (*framework*) koji će biti primenjen kako bi se kreirala cela aplikacija. Umesto toga, inženjeri vrše uopštavanje problema kako bi prepoznali obrasce koje treba da primene. Projektni obrasci imaju za cilj ponovnu upotrebu postojećih rešenja. Iako nisu svi problemi jednaki, ako je moguće posmatrani problem „razbiti“ i naći sličnosti sa problemima koji su ranije bili rešavani, onda je moguće primeniti uniformno rešenje nad njim. **Većina problema na koje se nailazi tokom programiranja je već rešena nebrojeno puta**, pa verovatno postoji i obrazac koji može pomoći u implementaciji.
 
-Obrasci su nastali kao rezultat dobre prakse i iskustva programera. Skup najvažnijih i najčešće korišćenih obrazaca je skupljen i objavljen u knjizi *Design Patterns: Elements of Reusable Object-Oriented Software*, koju su napisali Erich Gamma, Richard Helm, Ralph Johnson i John Vlissides, poznati kao *Gang of Four*.
+Obrasci su nastali kao rezultat dobre prakse i iskustva programera. **Skup najvažnijih i najčešće korišćenih obrazaca je skupljen u knjizi *Design Patterns: Elements of Reusable Object-Oriented Software*, koju su 1994. objavili Erich Gamma, Richard Helm, Ralph Johnson i John Vlissides, poznati kao *Gang of Four*.**
 
-Obrasci su ključni za dizajn i razvoj softvera. Oni omogućavaju **izražavanje namera kroz zajednički rečnik**, kada se problemi rešavaju prilikom projektovanja, tako i tokom kreiranja samog koda. Obrasci promovišu upotrebu dobrog dizajna objektno-orjentisanog softvera. Oni predstavljaju efikasan način da se opiše rešenje kompleksnih problema. Sa poznavanjem dizajn paterna, moguća je brza komunikacija unutar tima bez obraćanja pažnje na detalje implementacije niskog nivoa. Njihova posebna vrednost se nalazi u činjenici da su to oprobana i testirana rešenja.
+![](/images/ljudi/Gang of Four.png)
+
+Obrasci su ključni za dizajn i razvoj softvera. Oni omogućavaju **izražavanje namera kroz zajednički rečnik**, prilikom projektovanja i kreiranja koda. Obrasci promovišu upotrebu dobrog dizajna objektno-orjentisanog softvera. Oni predstavljaju efikasan način da se opiše rešenje kompleksnih problema. Sa poznavanjem dizajn paterna, moguća je brza komunikacija unutar tima bez obraćanja pažnje na detalje implementacije niskog nivoa. Njihova posebna vrednost se nalazi u činjenici da su to oprobana i testirana rešenja.
 
 **Obrasci su nezavisni od korišćenog programskog jezika.** Njihova primena je identična u svim objektno-orjentisanim programskim jezicima.
 
