@@ -2,30 +2,70 @@
 title: Posmatrač (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-posmatrac
-redirect_from: /posmatrac
+image: /images/koncepti/oop/observer-pattern.png
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/a/a8/Observer_w_update.svg)
+![]({{page.image}})
 
-**Pomoću obrasca posmatrača (*observer pattern*) razdvaja se prikaz stanja nekog objekta od samog objekta, i omogućuje postojanje više prikaza. Kad se stanje objekta promijeni, svi prikazi automatski se ažuriraju u skladu s novim stanjem.**
+**Projektni obrazac posmatrač (*observer pattern*) je jedan od najpoznatijih softverskih obrazaca, koji služi da delovi programa posmatraju i reaguju na promene u drugom delu programa.**
 
-Ovaj obrazac može se koristiti u svim situacijama gdje se zahtijeva više od jednog formata prikaza za stanje i gdje objekt koji čuva informacije o stanju ne mora znati koji sve formati prikaza se koriste.
+Kod ovog obrasca postoje dve glavne uloge:
 
-## Problem
+- **subjekt** ili **izdavač** (*publisher*), koji obaveštava posmatrače kada se desi nešto važno.
+- **posmatrači** (*observers*) ili **pretplatnici** (*subscribers*), koji čekaju obaveštenje izdavača da bi preduzeli akciju.
 
-U mnogim situacijama potrebno je osigurati više simultanih prikaza istih informacija o stanju, na primjer grafički prikaz i tabularni prikaz. Svi prikazi trebaju podržavati interakciju, dakle kad se stanje promijeni, svi prikazi moraju se ažurirati.
+Posmatrački obrazac ima široku primenu. Na primer, u igricama neki karakteri (*posmatrači*) menjaju ponašanje nakon što je kraljica (*subjekt*) ubijena. Takođe, događaji pregledača su primer posmatračkog obrasca. Pregledač objavljuje događaj svim funkcijama koje su pretplaćene na njega. Konačno, i *Redux* biblioteka primenjuje ovaj obrazac. Kad se stanje promeni, prikaz se ažurira u skladu s novim stanjem.
 
-## Rešenje
+Često je potrebno imati više uporednih prikaza istih podataka, na primjer grafički i tabularni prikaz. Kad se stanje promijeni, svi prikazi moraju se ažurirati. Obrazac posmatrača omogućuje postojanje više prikaza jednog objekta, a kad se stanje objekta promijeni, svi prikazi automatski se ažuriraju.
 
-Rešenje se zasniva na dvije apstraktne klase `Subject` i `Observer`, te na konkretnim klasama `ConcreteSubject` i `ConcreteObserver` koje nasljeđuju odgovarajuće apstraktne klase. Apstraktne klase sadrže općenite operacije koje su primjenjive u svim situacijama.
+## Primer
 
-Stanje koje treba prikazivati sadržano je u objektu klase `ConcreteSubject`. Taj objekt nasljeđuje operacije od `Subject`, što mu omogućuje dodavanje ili uklanjanje `Observer`-a (svaki od njih odgovara jednom prikazu stanja) te slanje obavijesti da mu se stanje promijenilo.
+Recimo da imamo objekat `store`, koji čuva stanje naše aplikacije. S druge strane, imamo `header` i `footer`, čije su *render* metode pretplaćene na stanje skladišta, i pozivaju se sa svakom njegovom izmenom:
 
-Objekt iz klase `ConcreteObserver` čuva kopiju stanja `ConcreteSubject`-a i implementira apstraktnu operaciju `Update()` iz klase `Observer`. Time je omogućeno da se kopije stanja usklađuju, te da se prikazi obnavljaju kad god je došlo do promjene stanja.
+{:.ulaz}
+```js
+const store = {
+  state: {},
+  subscribers: [],
 
-## Posljedice
+  subscribe(callback) {
+    this.subscribers.push(callback)
+  },
 
-Subjekt zna samo za apstraktnog promatrača i ne zna detalje konkretnih klasa koje nasljeđuju tog apstraktnog promatrača. Zato među tim objektima postoji minimalna povezanost. S druge strane, zbog tog nedostatka znanja, ne mogu se izvesti optimizacije koje bi poboljšale performanse kod iscrtavanja prikaza. Promjene u subjektu mogle bi izazvati niz povezanih promjena u promatračima.
+  publish() {
+    this.subscribers.forEach(callback => callback())
+  },
 
+  setState(newState) {
+    this.state = newState
+    this.publish()
+  }
+}
 
-Izvor: Robert Manger, *Softversko inženjerstvo (skripta)*, Zagreb, 2012.
+const header = {
+  render() {
+    console.log("Azurira se header...")
+  }
+}
+
+const footer = {
+  render() {
+    console.log("Azurira se footer...")
+  }
+}
+
+// render metode se pretplacuju da posmatraju promene skladista
+store.subscribe(header.render)
+store.subscribe(footer.render)
+
+// stanje skladista se menja, usled cega se posmatraci pozivaju
+store.setState({ ulogovan: true })
+```
+
+U navedenom primeru imamo:
+
+- niz `subscribers`, koji sadrži povratne funkcije
+- metod `subscribe()`, koji dodaje pretplatnika u taj niz
+- metod `publish()` koji poziva sve pretplaćene funkcije
+
+Svaki put kada se setuje novo stanje skladišta, biće pozvani svi pretplatnici pomoću metode `publish`.

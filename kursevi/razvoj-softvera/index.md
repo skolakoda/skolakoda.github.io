@@ -54,9 +54,9 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Kompozicija (*composite*)](/obrazac-kompozicija)
   - [Modul (*module*)](/obrazac-modul)
 - Ponašajni
+  - [Posmatrač (*observer*)](/obrazac-posmatrac)
   - [Komanda (*command*)](/obrazac-komanda)
   - [Strategija (*strategy*)](/obrazac-strategija)
-  - [Posmatrač (*observer*)](/obrazac-posmatrac)
 
 ### Arhitektonski obrasci
 - [Front kontroler](/front-kontroler)

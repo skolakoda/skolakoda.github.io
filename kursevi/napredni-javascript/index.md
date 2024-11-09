@@ -56,7 +56,6 @@ kurs: napredni-js
 - Vežba: proveri `this` unutar obične i streličaste povratne funkcije (`addEventListener` i `setTimeout`)
 
 ### Projektni obrasci
-- [Obrazac posmatrač](/javascript-obrazac-posmatrac) (*observer pattern*)
 - [Dobre prakse pisanja Javascripta](/javascript-dobre-prakse)
 
 ### Šablonske strune (\` \`) [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-sablonske-strune)
