@@ -28,7 +28,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - Kompozicija vs nasleđivanje
 - [Komponente i njihovo korištenje](/komponente)
 
-### Temeljni principi projektovanja
+### Principi projektovanja
 
 - SOLID principi:
   - **S***ingle responsibility principle* ([princip isključive odgovornosti](/princip-iskljucive-odgovornosti))
@@ -68,7 +68,6 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - [Model ravnopravnih partnera](/model-ravnopravnih-partnera) (*peer-to-peer*)
 - Mikroservisi
 - Cloud arhitektura
-- [Projektovanje web aplikacija](https://www.slideshare.net/DamjanPavlica/projektovanje-web-aplikacija)
 
 ### Faze razvoja softvera
 

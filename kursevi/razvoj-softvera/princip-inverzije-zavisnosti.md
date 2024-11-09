@@ -90,7 +90,7 @@ Sada, ako želimo koristiti drugi email servis (koji implementira isti interfejs
 
 ## Primer u JS-u
 
-Primer tesne povezanosti klasa, bez primene inverzije zavisnosti:
+Primer tesne sprege klasa, bez primene inverzije zavisnosti:
 
 ```js
 class Database {
@@ -115,7 +115,7 @@ Ovde `UserService` zavisi direktno od `Database` klase. Ako bismo želeli da pro
 
 ### Rešenje
 
-Primer labave povezanosti klasa putem injekcije zavisnosti:
+Primer labave sprege klasa putem injekcije zavisnosti:
 
 ```js
 class MongoDB {
