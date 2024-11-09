@@ -36,6 +36,9 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - **L***iskov substitution principle* ([Liskovljev princip zamene](/liskov-princip-zamene))
   - **I***nterface segregation principle* ([princip podele interfejsa](/princip-podele-interfejsa))
   - **D***ependency inversion principle* ([princip inverzije zavisnosti](/princip-inverzije-zavisnosti))
+- DRY (*Don't Repeat Yourself*)
+- KISS (*Keep It Simple, Stupid*)
+- YAGNI (*You Aren't Gonna Need It*)
 - [Enkapsulacija i skrivanje informacija](/enkapsulacija)
 
 ### Projektni obrasci
