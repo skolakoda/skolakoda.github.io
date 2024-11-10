@@ -19,7 +19,9 @@ Postoje dve vrste kopiranja objekata:
 - plitko kopiranje (*shallow copy*) kopira samo prvi nivo svojstava objekta. Ako original sadrži unutrašnje objekte, kopije će deliti iste reference na njih.
 - duboko kopiranje (*deep copy*) kopira objekt zajedno sa svim njegovim ugrađenim strukturama (rekurzivno). Na ovaj način, kopija postaje nezavisna i promene u kopiji ne utiču na original.
 
-## Primer plitkog kopiranja u JavaScript-u
+## Kopiranje objekata u Javaskriptu
+
+### Primer plitkog kopiranja
 
 Koristeći metodu [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign):
 
@@ -57,21 +59,49 @@ console.log(original.name)
 console.log(original.details.color) // promenjen original
 ```
 
-## Primer dubokog kopiranja u JavaScript-u
+### Primer dubokog kopiranja
 
-Duboko kopiranje nije prirodno podržano u JavaScript-u, ali možemo ga postići uz pomoć biblioteka poput lodash ili pomoću JSON-a kada objekat nema metode:
+Duboko kopiranje nije prirodno podržano u JavaScript-u, ali možemo ga implementirati pomoću rekurzije:
 
 {:.ulaz}
 ```js
-const original = { name: 'Auto', details: { color: 'plava', motor: 'benzin' } }
-const kopija = JSON.parse(JSON.stringify(original))
+function deepCopy(struct) {
+  // vraćamo primitive i nepostojeće vrednosti
+  if (typeof struct !== 'object' || struct === null) return struct
 
-// menjamo kopiju
-kopija.name = 'Bicikl'
-kopija.details.color = 'crvena'
+  // kreiramo novu strukturu
+  const kopija = Array.isArray(struct) ? [] : {}
 
-console.log(original.name)
-console.log(original.details.color) // original nepromenjen
+  // rekurzivno kopiramo svojstva
+  for (const key in struct) {
+    if (struct.hasOwnProperty(key)) {
+      kopija[key] = deepCopy(struct[key]);
+    }
+  }
+  return kopija
+}
+
+// test
+const original = {
+  name: 'John',
+  age: 30,
+  address: {
+    city: 'New York',
+    zip: '10001'
+  },
+  hobbies: ['reading', 'traveling']
+}
+
+const kopija = deepCopy(original)
+
+// izmena kopije ne utiče na original
+kopija.address.city = 'Los Angeles'
+kopija.hobbies.push('gaming')
+
+console.log(original.address.city)  // "New York"
+console.log(original.hobbies)       // ["reading", "traveling"]
+console.log(kopija.address.city)    // "Los Angeles"
+console.log(kopija.hobbies)         // ["reading", "traveling", "gaming"]
 ```
 
 ## Literatura
