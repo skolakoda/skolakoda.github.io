@@ -4,7 +4,9 @@ layout: lekcija-razvoj
 permalink: /obrazac-modul
 ---
 
-**Modul** je projektni obrazac koji služi za enkapsulaciju (*zatvaranje u kapsulu*) podataka i procedura, skrivajući unutrašnju logiku od spoljnog sveta i izlažući samo odabrane metode i podatke. 
+![](/images/koncepti/oop/puzzle.jpg)
+
+**Modul** je projektni obrazac koji služi za enkapsulaciju (*zatvaranje u kapsulu*) podataka i procedura, skrivajući unutrašnju logiku od spoljnog sveta i izlažući samo neophodne metode i podatke. 
 
 Koncept modula nam omogućava da pišemo zasebne delove programa (ili biblioteke) i kombinujemo ih po potrebi, kao delove slagalice. Svaki modul sadrži privatna svojstva i metode, kao i javna koja izvozi po potrebi.
 

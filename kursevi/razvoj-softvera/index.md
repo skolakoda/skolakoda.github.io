@@ -50,6 +50,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Fabrika (*factory*)](/obrazac-fabrika)
 - Strukturni
   - [Adapter (*adapter*)](/obrazac-adapter)
+  - Dekorater (*decorator*)
   - [Fasada (*facade*)](/obrazac-fasada)
   - [Kompozicija (*composite*)](/obrazac-kompozicija)
   - [Modul (*module*)](/obrazac-modul)
@@ -57,6 +58,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Posmatrač (*observer*)](/obrazac-posmatrac)
   - [Komanda (*command*)](/obrazac-komanda)
   - [Strategija (*strategy*)](/obrazac-strategija)
+  - Stanje (*state*)
 
 ### Arhitektonski obrasci
 - [Front kontroler](/front-kontroler)
