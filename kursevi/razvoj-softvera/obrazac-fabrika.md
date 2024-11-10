@@ -7,11 +7,13 @@ image: /images/koncepti/oop/factory-pattern.png
 
 ![]({{page.image}})
 
-**Fabrika (*factory pattern*) je projektni obrazac koji se koristi za kreiranje objekata, bez potrebe da se direktno poziva konstruktor klase.** Fabrički obrazac instancira odgovarajuće klase na osnovu parametara koje mu daje klijent ili na osnovu stanja aplikacije.
+**Fabrički obrazac (*factory pattern*) ili fabrički metod (*factory method*) je projektni obrazac koji se koristi za kreiranje objekata, bez potrebe da se direktno poziva konstruktor klase.** Fabrički obrazac instancira odgovarajuće klase na osnovu parametara koje mu daje klijent ili na osnovu stanja aplikacije.
 
 Fabrički obrazac funkcioniše po sličnom principu kao prava fabrika. U realnosti, fabrike služe za proizvodnju nekog proizvoda. Klijent koji poručuje proizvode preko prodajnog mesta ne mora da zna na koji način su ti proizvodi proizvedeni. Slično, u fabričkom obrascu se logika kreiranja objekata izmešta iz klijentskog koda.
 
 Pre svega, fabrika nam omogućava da razdvojimo kreiranje objekta od njegove implementacije. Klijent ne mora znati ništa o tome kako je nova instanca napravljena. Takođe, fabrički obrazac omogućava centralizaciju logike stvaranja objekata i fleksibilnost promene njihovih tipova.
+
+![](/images/koncepti/oop/fabrika.png)
 
 ## Primer
 
