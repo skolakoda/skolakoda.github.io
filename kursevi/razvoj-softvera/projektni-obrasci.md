@@ -4,23 +4,44 @@ layout: lekcija-razvoj
 permalink: /projektni-obrasci
 ---
 
-![](http://www.deepakkamboj.com/wp-content/uploads/2015/11/designpatterns-720x340.png)
+<!-- ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmethodpoet.com%2Fwp-content%2Fuploads%2F2022%2F11%2Fdesign-patterns-division.png&f=1&nofb=1&ipt=73ccfd6b2dce1d243025f6bda7a5c2ea3efe682af47ac9e23a4845e08ba268a3&ipo=images) -->
 
-***Prosto rečeno, projektni obrasci predstavljaju akumulirano iskustvo “starih” i iskusnih programera u rešavanju nekih osnovnih programerskih problema iz oblasti objektnog programiranja.***
+**Projektni obrasci (*design patterns*) predstavljaju rešenja osnovnih programerskih problema na visokom nivou apstrakcije. Nastali su kao rezultat dobre prakse i iskustva generacija programera.** 
 
-**Posao softverskih inženjera je pre svega rešavanje softverskih problema.** To su problemi koje su drugi inženjeri verovatno već rešavali veliki broj puta u različitim oblicima. Tokom kreiranja softvera primenom objektno-orjentisanog pristupa, veliki broj obrazaca, principa i slučajeva najbolje prakse je otkriven, imenovan i unet u katalog. Poznavanjem ovih obrazaca i uobičajenih rešenja, inženjeri mogu da „razbijaju“ složene probleme i razviju aplikacije sa oprobanim i pouzdanih rešenjima.
+Gotovo je nemoguće pronaći okvir (*framework*) koji rešava sve probleme jedne aplikacije. Umesto toga, programeri uopštavaju probleme kako bi prepoznali obrasce koje treba primeniti. 
 
-Projektni obrasci (*design patterns*) predstavljaju apstraktne primere rešenja na visokom nivou. Njih treba posmatrati kao plan u rešavanju problema, a ne kao samo rešenje. Gotovo je nemoguće pronaći okvir (*framework*) koji će biti primenjen kako bi se kreirala cela aplikacija. Umesto toga, inženjeri vrše uopštavanje problema kako bi prepoznali obrasce koje treba da primene. Projektni obrasci imaju za cilj ponovnu upotrebu postojećih rešenja. Iako nisu svi problemi jednaki, ako je moguće posmatrani problem „razbiti“ i naći sličnosti sa problemima koji su ranije bili rešavani, onda je moguće primeniti uniformno rešenje nad njim. **Većina problema na koje se nailazi tokom programiranja je već rešena nebrojeno puta**, pa verovatno postoji i obrazac koji može pomoći u implementaciji.
+**Projektni obrasci su nezavisni od programskog jezika.** Njihova primena je identična u svim objektno-orjentisanim jezicima.
 
-Obrasci su nastali kao rezultat dobre prakse i iskustva programera. **Skup najvažnijih i najčešće korišćenih obrazaca je skupljen u knjizi *Design Patterns: Elements of Reusable Object-Oriented Software*, koju su 1994. objavili Erich Gamma, Richard Helm, Ralph Johnson i John Vlissides, poznati kao *Gang of Four*.**
+## Prepoznavanje rešenih problema
+
+**Posao softverskih inženjera je pre svega rešavanje softverskih problema.** To su problemi koje su drugi inženjeri verovatno već rešavali veliki broj puta u različitim oblicima. 
+
+Projektni obrasci imaju za cilj ponovnu upotrebu postojećih dobrih rešenja. Iako problemi nisu isti, ako je moguće naći sličnost moguće je primeniti uniformno rešenje. **Većina problema na koje se nailazi tokom programiranja je već rešena nebrojeno puta**, pa verovatno postoji obrazac koji može pomoći.
+
+Tokom decenija kreiranja softvera, veliki broj obrazaca, principa i slučajeva najbolje prakse je otkriven, imenovan i unet u katalog. Poznavanjem ovih obrazaca, inženjeri mogu da prepoznaju složene probleme i razviju aplikacije sa oprobanim i pouzdanih rešenjima.
+
+## Izražavanje namera kroz zajednički rečnik
+
+**Projektni obrasci omogućuju izražavanje namera kroz zajednički rečnik**, prilikom projektovanja i pisanja koda. Oni predstavljaju efikasan način da se opiše rešenje složenih problema. Sa poznavanjem dizajn paterna, moguća je brza komunikacija unutar tima bez obraćanja pažnje na detalje implementacije. Njihova posebna vrednost je što su to oprobana i testirana rešenja.
+
+## Četvroročlana banda (*Gang of Four*)
 
 ![](/images/ljudi/Gang of Four.png)
 
-Obrasci su ključni za dizajn i razvoj softvera. Oni omogućavaju **izražavanje namera kroz zajednički rečnik**, prilikom projektovanja i kreiranja koda. Obrasci promovišu upotrebu dobrog dizajna objektno-orjentisanog softvera. Oni predstavljaju efikasan način da se opiše rešenje kompleksnih problema. Sa poznavanjem dizajn paterna, moguća je brza komunikacija unutar tima bez obraćanja pažnje na detalje implementacije niskog nivoa. Njihova posebna vrednost se nalazi u činjenici da su to oprobana i testirana rešenja.
+**Skup najvažnijih i najčešće korišćenih obrazaca je skupljen u knjizi *Design Patterns: Elements of Reusable Object-Oriented Software*, koju su 1994. godine objavili Erich Gamma, Richard Helm, Ralph Johnson i John Vlissides, poznati kao *Gang of Four*.**
 
-**Obrasci su nezavisni od korišćenog programskog jezika.** Njihova primena je identična u svim objektno-orjentisanim programskim jezicima.
+U svojoj knjizi oni su sakupili i opisali 23 klasična projektna obrasca, koje su podelili u 3 grupe:
+
+- Tvorbeni (*creational*)
+- Strukturni (*structural*)
+- Ponašajni (*behavioral*)
+
+## Kada ih ne koristiti?
 
 Međutim, ne zahtevaju svi problemi primenu dizajn paterna. Tačno je da **obrasci mogu učiniti da kompleksni problemi postanu jednostavni, ali oni takođe mogu jednostavne probleme učiniti kompleksnim.** Nakon prvog upoznavanja sa dizajn paternima, mnogi inženjeri upadaju u problem da pokušavaju da primene obrasce na svaki deo koda. Ovim se postiže suprotan efekat od željenog, odnosno, sam softver se dodatno komplikuje.
 
+## Literatura
 
-Izvor: Zdravko Ivanković, Dejan Lacmanović, *Softversko inženjerstvo 2*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+- Zdravko Ivanković, Dejan Lacmanović, *Softversko inženjerstvo 2*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+- Mario Casciaro, Luciano Mammino, *Node.js: Projektni obrasci*, Mikro knjiga, 2019.
+- Wikipedia, [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
