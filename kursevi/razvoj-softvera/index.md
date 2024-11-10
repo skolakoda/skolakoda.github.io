@@ -48,6 +48,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - Tvorbeni 
   - [Jedinac (*singleton*)](/obrazac-singleton)
   - [Fabrika (*factory*)](/obrazac-fabrika)
+  - Prototip (*prototype*)
 - Strukturni
   - [Adapter (*adapter*)](/obrazac-adapter)
   - Dekorater (*decorator*)
@@ -61,12 +62,12 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Strategija (*strategy*)](/obrazac-strategija)
   - Stanje (*state*)
 
-### Arhitektonski obrasci
-- [Front kontroler](/front-kontroler)
+### Arhitektura softvera
+- [Višeslojna arhitektura](/viseslojna-arhitektura) (*multitier, n-tier*)
 - [Model–view–controller (MVC)](/mvc)
   - Model–view–presenter (MVP)
   - Model–view–viewmodel (MVVM)
-- [Višeslojna arhitektura](/viseslojna-arhitektura) (multitier, n-tier)
+- [Front kontroler](/front-kontroler)
 - Klijent-server model
 - [Model ravnopravnih partnera](/model-ravnopravnih-partnera) (*peer-to-peer*)
 - Mikroservisi

@@ -9,7 +9,9 @@ image: /images/koncepti/oop/factory-pattern.png
 
 **Fabrika (*factory pattern*) je projektni obrazac koji se koristi za kreiranje objekata, bez potrebe da se direktno poziva konstruktor klase.** Fabrički obrazac instancira odgovarajuće klase na osnovu parametara koje mu daje klijent ili na osnovu stanja aplikacije.
 
-Pre svega, fabrika nam omogućava da razdvojimo izradu objekta od njegove implementacije. Korisnik fabrike ne mora ništa da zna o načinu na koji je nova instanca napravljena. Takođe, fabrički obrazac omogućava centralizaciju logike stvaranja objekata i fleksibilnost promene njihovih tipova.
+Fabrički obrazac funkcioniše po sličnom principu kao prava fabrika. U realnosti, fabrike služe za proizvodnju nekog proizvoda. Klijent koji poručuje proizvode preko prodajnog mesta ne mora da zna na koji način su ti proizvodi proizvedeni. Slično, u fabričkom obrascu se logika kreiranja objekata izmešta iz klijentskog koda.
+
+Pre svega, fabrika nam omogućava da razdvojimo kreiranje objekta od njegove implementacije. Klijent ne mora znati ništa o tome kako je nova instanca napravljena. Takođe, fabrički obrazac omogućava centralizaciju logike stvaranja objekata i fleksibilnost promene njihovih tipova.
 
 ## Primer
 
@@ -115,3 +117,4 @@ o.insert(document.body)
 - Ved Antani, Stojan Stefanov, *Objektno-orjentisan JavaScript*, Beograd, 2017.
 - Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
 - Mario Casciaro, Luciano Mammino, *Node.js: Projektni obrasci*, Mikro knjiga, 2019.
+- Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023.
