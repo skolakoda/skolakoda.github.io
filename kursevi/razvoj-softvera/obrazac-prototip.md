@@ -19,7 +19,7 @@ Postoje dve vrste kopiranja objekata:
 - plitko kopiranje (*shallow copy*) kopira samo prvi nivo svojstava objekta. Ako original sadrži unutrašnje objekte, kopije će deliti iste reference na njih.
 - duboko kopiranje (*deep copy*) kopira objekt zajedno sa svim njegovim ugrađenim strukturama (rekurzivno). Na ovaj način, kopija postaje nezavisna i promene u kopiji ne utiču na original.
 
-## Kopiranje objekata u Javaskriptu
+## Primer kopiranja objekata u JS-u
 
 ### Primer plitkog kopiranja
 
