@@ -4,7 +4,9 @@ layout: lekcija-napredni-js
 permalink: /javascript-dobre-prakse
 ---
 
-**Obrasci za pisanje programa** nam pomažu da organizujemo kod (npr. imenski prostor), poboljšamo performanse (npr. asinhrono učitavanje) i nadoknadimo mogućnosti koje nedostaju (npr. privatna svojstva).
+**Dobre prakse pisanja Javascripta** nam pomažu da organizujemo kod (npr. imenski prostor), poboljšamo performanse (npr. asinhrono učitavanje) i nadoknadimo mogućnosti koje nedostaju (npr. privatna svojstva).
+
+**UPDATE**: Tekst je pisan davno a jezik se brzo razvija, pa su neke prakse zastarele a neke još uvek aktuelne.
 
 ## Razdvajanje briga
 
@@ -15,13 +17,12 @@ Kao što i vrapci znaju, tri gradivna bloka veb stranice su:
 - ponašanje (JavaScript)
 
 To znači sledeće:
-- Atribut stil u HTML-u ne bi trebalo da se koristi.
-- Izbegavajte dodavanje događaja u HTML-u.
-- Smanjite broj `<script>` tagova.
+- za stilove imamo zaseban CSS fajl, ne menjamo ih direktno u HTML-u.
+- za ponašanje imamo zaseban JS fajl, ne pišemo skripte u HTML-u.
 
 ## Asinhrono učitavanje JavaScripta
 
-Jedan način na koji možete da sprečite JavaScript datoteke da blokiraju stranicu je da ih učitate asinhrono, pomoću atributa `defer`:
+Jedan način na koji možete da sprečite JavaScript datoteke da blokiraju stranicu je da ih učitate asinhrono, pomoću `defer` ili `async` atributa. Ako niste sigurni koji, `defer` je sigurica:
 
 ```html
 <script defer src="main.js"></script>
@@ -65,7 +66,7 @@ Mnogi OO jezici imaju sledeće modifikatore pristupa:
 
 JavaScript nema posebnu sintaksu za označavanje privatnih svojstava i metoda, ali možemo koristiti [zatvorenost](/javascript-zatvorenost) unutar funkcije da postignemo isti nivo zaštite.
 
-## Privilegovani metodi
+### Privilegovani metodi
 
 Privilegovani metodi (termin je smislio Douglas Crockford) su javni metodi koji mogu da pristupe privatnim metodima i svojstvima. Oni se ponašaju kao „most“ da bi neke privatne funkcije postale dostupne, ali na kontrolisani način, i "upakovane" u privilegovani metod.
 

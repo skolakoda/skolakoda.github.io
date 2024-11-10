@@ -55,20 +55,6 @@ kurs: napredni-js
 - `this` i streličaste funkcije
 - Vežba: proveri `this` unutar obične i streličaste povratne funkcije (`addEventListener` i `setTimeout`)
 
-### Projektni obrasci
-- [Dobre prakse pisanja Javascripta](/javascript-dobre-prakse)
-
-### Šablonske strune (\` \`) [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-sablonske-strune)
-
-- Čemu služe šablonske strune?
-  - Višelinijski tekst
-  - Evaluacija izraza unutar strune
-- Slučajevi upotrebe
-  - Evaluacija HTML-a
-  - HTML u Javaskriptu
-- Prosleđivanje funkciji (*tagged template literals*)
-- Vežba: generisanje HTML-a iz JS-a
-
 ### Prototipska priroda jezika
 
 - [Šta je prototip?](/javascript-prototip)
@@ -121,15 +107,9 @@ kurs: napredni-js
 - [Propagacija događaja naviše (*bubbling*)](/javascript-bubbling)
 - [Zaustavljanje propagacije događaja](/zaustavljanje-propagacije)
 
-### Refaktorisanje uslova
-
-- Odvajanje uslova u funkciju
-- Uklanjanje ugnježdenih uslova
-- Refaktorisanje uslova do nestanka
-- Logički zakoni za programere
-
 ## Razno
 
 - [Prevođenje brojčanih sistema](/javascript-prevodjenje-brojcanih-sistema)
 - [Bitovski operatori u Javaskriptu](/bitovni-operatori-javaskript)
 - [Hvatanje grešaka](/javascript-hvatanje-gresaka)
+- [Dobre prakse pisanja Javascripta](/javascript-dobre-prakse)

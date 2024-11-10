@@ -1,14 +1,17 @@
 ---
-title: Modul obrazac
+title: Modul (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-modul
 ---
 
-**Modul** je projektni obrazac koji služi za enkapsulaciju (doslovno *zatvaranje u kapsulu*) podataka i procedura, skrivajući unutrašnju logiku od spoljnog sveta i izlažući samo odabrane metode i podatke (kontrola pristupa). 
+**Modul** je projektni obrazac koji služi za enkapsulaciju (*zatvaranje u kapsulu*) podataka i procedura, skrivajući unutrašnju logiku od spoljnog sveta i izlažući samo odabrane metode i podatke. 
 
-U Javascriptu, modul obrazac sprečava zagađenje globalnog prostora zatvaranjem promenljivih u lokalni opseg. Kada u svakom fajlu imamo globalne varijable, to žestoko zagađuje globalni prostor. Ukoliko isti identifikator postoji u više fajlova, dolazi do kolizije i pucanja programa.
+Koncept modula nam omogućava da pišemo zasebne delove programa (ili biblioteke) i kombinujemo ih po potrebi, kao delove slagalice. Svaki modul sadrži privatna svojstva i metode, kao i javna koja izvozi po potrebi.
 
-Modul obrazac je bio popularan u starom Javascriptu pre ES6 standarda, kada su moduli postali deo jezika. ES6 moduli podrazumevano imaju zatvoren opseg i kod njih primena ove tehnike nije potrebna.
+U Javascriptu, obrazac modula još sprečava zagađenje globalnog prostora zatvaranjem promenljivih u lokalni opseg. Kada u svakom fajlu imamo globalne varijable, to žestoko zagađuje globalni prostor. Ukoliko isti identifikator postoji u više fajlova, dolazi do kolizije i pucanja programa.
+
+{:.ideja.uokvireno}
+Obrazac modula je bio popularan u starom Javascriptu pre ES6 standarda. Danas JS moduli podrazumevano imaju zatvoren opseg i kod njih primena ove tehnike nije potrebna.
 
 ## Zatvaranje opsega
 
