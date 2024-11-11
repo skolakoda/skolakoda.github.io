@@ -94,6 +94,60 @@ class Program {
 
 Prvo kreiramo interfejs `IComponent` koji sadrži metode `Add`, `Remove` i `Display`. Ove metode će implementirati i klasa `Component` koja predstavlja komponentu, i klasa `Composite` koja predstavlja kompoziciju. Klasa `Composite` sadrži kao atribut listu objekata tipa `IComponent` kako bi kreirala kolekciju.
 
+## Primer u JavaScript-u:
+
+{:.ulaz}
+```js
+class Component {
+  add(component) {}
+  remove(component) {}
+  getName() {}
+}
+
+class Leaf extends Component {
+  constructor(name) {
+    super()
+    this.name = name
+  }
+
+  getName() {
+    return this.name
+  }
+}
+
+class Composite extends Component {
+  constructor(name) {
+    super()
+    this.name = name
+    this.children = []
+  }
+
+  add(component) {
+    this.children.push(component)
+  }
+
+  remove(component) {
+    this.children = this.children.filter(child => child !== component)
+  }
+
+  getName() {
+    return this.children.map(child => child.getName()).join(", ")
+  }
+}
+
+// upotreba
+const leaf1 = new Leaf("Leaf 1")
+const leaf2 = new Leaf("Leaf 2")
+const composite = new Composite("Composite")
+composite.add(leaf1)
+composite.add(leaf2)
+
+console.log(leaf1.getName())
+console.log(composite.getName())
+```
+
+Klasa `Composite` može sadržati i `Leaf` i `Composite` objekte, omogućujući da se svi tretiraju na isti način.
+
 ## Literatura
 
 - Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
