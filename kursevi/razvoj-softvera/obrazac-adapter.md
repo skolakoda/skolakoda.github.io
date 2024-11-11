@@ -3,29 +3,34 @@ title: Adapter (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-adapter
 redirect_from: /adapter
+image: /images/koncepti/oop/adapter.png
 ---
 
-![](https://gamessoon.ru/assets/264-adapterintro2646.jpg)
+![]({{page.image}})
 
-***Adapter - strukturalni šablon koji vam omogućava da koristite klasu koja implementira potrebne funkcije, ali ima neadekvatan interfejs.***
+**Adapter je strukturni šablon koji nam omogućava da koristimo klasu koja ima potrebnu funkcionalnost, ali neadekvatan interfejs.**
 
-Evo nas kod drugog obrasca “Velike Četvorke” (*Gang of Four*). Ovaj obrazac, kao što i samo ime sugeriše služi da prilagodi (adaptira) postojeće funkcionalnosti (interfejs) onome što korisnik očekuje. Ovaj obrazac omogućava saradnju klasama koje inače ne bi mogle da funkcionišu zajedno zbog nekompatibilnosti, tako što pravi sopstveni interfejs – “omotač” oko već postojeće klase i na taj način omogućavaju klijentu da komunicira sa osnovnom klasom. Adapter je takođe odgovoran za pretvaranje tipa podataka u tip koji klijent očekuje kao odgovor.
+Ovaj obrazac služi da *adaptira* postojeći interfejs onome što klijent očekuje. Adapter omogućava saradnju klasama koje inače ne bi mogle da komuniciraju, tako što pravi interfejs (“omotač”) servisne klase. Adapter je takođe odgovoran za pretvaranje tipa podataka u tip koji klijent očekuje.
 
-## Dva vid obrasca
+## Gde koristiti?
+
+Ovaj obrazac je izuzetno koristan kada već imamo razvijene servise, ali ne koriste interfejs koji nam je potreban. 
+
+## Vrste obrasca
 
 Ovaj obrazac srećemo u dva oblika:
 
-**Object adapter pattern** – adapter u ovom slučaju koristi instancu (objekat) klase koju “obmotava”. Evo UML prikaza:
+- ***Object adapter pattern*** koristi instancu klase koju “obmotava”. Evo UML prikaza:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d7/ObjectAdapter.png)
 
-**Class adapter pattern** – U ovom slučaju adapter koristi višestruko nasleđivanje. Ovaj vid obrasca ne može se koristiti u jezicima koji ne podržavaju višestruko nasleđivanje (npr. Java). Evo UML notacije:
+- ***Class adapter pattern*** koristi višestruko nasleđivanje. Ovaj vid obrasca ne može se koristiti u jezicima koji ne podržavaju višestruko nasleđivanje. Evo UML notacije:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/35/ClassAdapter.png)
 
-## Primer
+## Primer u Javi
 
-Evo i primera Java implementacije *Object Adapter* obrasca:
+Recimo da imamo razvijene metode za rad sa `Stack`-om, ali servis nam vraća `DoublyLinkedList`. Stoga, moramo uraditi prilagođavanje liste interfejsu `Stack`, implementacijom adapter obrasca:
 
 ```java
 interface Stack
@@ -35,8 +40,7 @@ interface Stack
   Object top ();
 }
 
-/* DoubleLinkedList */
-class DList
+class DoublyLinkedList
 {
   public void insert (DNode pos, Object o) { ... }
   public void remove (DNode pos) { ... }
@@ -51,8 +55,8 @@ class DList
   public Object getTail () { ... }
 }
 
-/* Adapt DList class to Stack interface */
-class DListImpStack extends DList implements Stack
+/* Adapt DoublyLinkedList to Stack interface */
+class DListImpStack extends DoublyLinkedList implements Stack
 {
   public void push (Object o) {
     insertTail (o);
@@ -68,15 +72,8 @@ class DListImpStack extends DList implements Stack
 }
 ```
 
-`DListImpStack` prosiruje `DList` (dvostruko ulančana lista), a implementira interfejs `Stack`. Ovim adaptiramo `DList` i prilagođavamo ga `Stack` interfejsu. Drugim rečima koristimo `Dlist` metode (npr. `insertTail`) da bismo implementirali metode interfejsa `Stack` (npr. `push`). Na ovaj način možemo koristiti metode implementiranog `Stack`-a, dok se u stvari u pozadini izvršavaju metode `DList`-a.
+`DListImpStack` proširuje dvostruko ulančanu lista, a implementira interfejs `Stack`. Ovim adaptiramo `DoublyLinkedList` i prilagođavamo ga `Stack` interfejsu. Drugim rečima koristimo `Dlist` metode (npr. `insertTail`) da bismo implementirali metode interfejsa `Stack` (npr. `push`). Na ovaj način možemo koristiti `Stack` metode dok se u stvari u pozadini izvršavaju metode `DoublyLinkedList`.
 
-## Gde koristiti?
-
-Gde koristiti ovaj obrazac?
-
-Ovaj obrazac je izuzetno koristan kada već imamo razvijene servise (tj. metode, funkcionalnosti), ali ne koriste interfejs koji nam je potreban. Kao u primeru, imali smo već razvijene metode za rad sa `Stack`-om, ali u okviru druge klase (`DList`) i morali smo samo uraditi malo prilagođavanje interfejsu `Stack`.
-
-Primer iz svakodnevnog života je konvertovanje DOM-a (*Document Object Model*) jednog XML-a za prikaz u strukturi drveta.
-
-
-Izvor: *[Sensei’s thoughts](https://senseithoughts.wordpress.com/)*
+## Literatura
+- Sensei’s thoughts, *[Velika četvorka (Design patterns) – Adapter](https://senseithoughts.wordpress.com/2007/05/29/velika-cetvorka-design-patterns-adapter)*
+- Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023.

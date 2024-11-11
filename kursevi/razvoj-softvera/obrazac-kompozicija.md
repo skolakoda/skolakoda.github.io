@@ -98,15 +98,8 @@ Prvo kreiramo interfejs `IComponent` koji sadrži metode `Add`, `Remove` i `Disp
 
 {:.ulaz}
 ```js
-class Component {
-  add(component) {}
-  remove(component) {}
-  getName() {}
-}
-
-class Leaf extends Component {
+class Leaf {
   constructor(name) {
-    super()
     this.name = name
   }
 
@@ -115,9 +108,8 @@ class Leaf extends Component {
   }
 }
 
-class Composite extends Component {
+class Composite {
   constructor(name) {
-    super()
     this.name = name
     this.children = []
   }
@@ -131,7 +123,7 @@ class Composite extends Component {
   }
 
   getName() {
-    return this.children.map(child => child.getName()).join(", ")
+    return `${this.name}: ${this.children.map(child => child.getName()).join(", ")}`
   }
 }
 
@@ -142,7 +134,6 @@ const composite = new Composite("Composite")
 composite.add(leaf1)
 composite.add(leaf2)
 
-console.log(leaf1.getName())
 console.log(composite.getName())
 ```
 
