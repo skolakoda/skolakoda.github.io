@@ -18,13 +18,13 @@ Kompozitni obrazac radi sa dva tipa: komponentama (*component*) ili listovima (*
 
 ## Upotreba
 
-Aplikacije koje koriste grupisanje podataka su u velikoj upotrebi. Npr. možemo posmatrati aplikaciju za puštanje muzike (iTunes, Winamp...) ili aplikacije za kreiranje albuma sa slikama (Flickr ili iPhoto). Stavke se smeštaju u velike liste, koje se zatim na određeni način strukturiraju.
+Mnogi su primeri aplikacija koje koriste grupisanje podataka, npr. aplikacije za puštanje muzike (iTunes, Winamp...) ili kreiranje foto albuma (Flickr ili iPhoto). Stavke se smeštaju u velike liste, koje se zatim na određeni način strukturiraju.
 
-Ako posmatramo iPhoto, možemo videti da postoje različiti načini na koje možemo prikazivati slike koje su u njega unete: hronološki ili na osnovu imena događaja pod kojim su unete (npr. letovanje). Jedna fotografija se može pojaviti u okviru više albuma. Kreiranje albuma stvara kompozitni objekat, koji ne uključuje stvarno kopiranje fotografija na više lokacija. Važna osobina vezana za kompozitni obrazac jeste da operacije koje se odnose na fotografije i albume fotografija, treba da imaju ista imena i efekte, bez obzira na to da li se implementacije razlikuju. Npr. korisniku treba omogućiti da pogleda fotografiju, ali i da pogleda album (koji sadrži fotograrije).
+Ako posmatramo iPhoto, možemo videti da postoje različiti načini na koje možemo prikazivati slike koje su u njega unete: hronološki ili na osnovu oznaka (npr. letovanje). Jedna fotografija se može pojaviti u okviru više albuma. Kreiranje albuma stvara kompozitni objekat, koji ne uključuje stvarno kopiranje fotografija. Bitna osobina kompozitnog obrasca jeste da operacije koje se odnose na fotografije i albume fotografija treba da imaju ista imena i efekte, bez obzira na to da li se implementacije razlikuju. Npr. korisniku treba omogućiti da pogleda fotografiju, ali i da pogleda album (koji sadrži fotograrije).
 
 ## Primer u C#
 
-U cilju demonstracije kompozitnog obrasca ćemo kreirati demo primer:
+Primer kompozitnog obrasca u jeziku C#:
 
 ```cs
 class Program {
@@ -32,26 +32,6 @@ class Program {
     void Add(IComponent c);
     void Remove(IComponent c);
     void Display(int depth);
-  }
-
-  class Composite: IComponent {
-    private List < IComponent > _children = new List < IComponent > ();
-    private string name;
-    public Composite(string name) {
-      this.name = name;
-    }
-    public void Add(IComponent c) {
-      _children.Add(c);
-    }
-    public void Remove(IComponent c) {
-      _children.Remove(c);
-    }
-    public void Display(int depth) {
-      Console.WriteLine(new String('-', depth) + name);
-      foreach(IComponent component in _children) {
-        component.Display(depth + 2);
-      }
-    }
   }
 
   class Component: IComponent {
@@ -67,6 +47,26 @@ class Program {
     }
     public void Display(int depth) {
       Console.WriteLine(new String('-', depth) + name);
+    }
+  }
+
+  class Composite: IComponent {
+    private List < IComponent > _children = new List<IComponent>();
+    private string name;
+    public Composite(string name) {
+      this.name = name;
+    }
+    public void Add(IComponent c) {
+      _children.Add(c);
+    }
+    public void Remove(IComponent c) {
+      _children.Remove(c);
+    }
+    public void Display(int depth) {
+      Console.WriteLine(new String('-', depth) + name);
+      foreach(IComponent component in _children) {
+        component.Display(depth + 2);
+      }
     }
   }
 
@@ -92,7 +92,7 @@ class Program {
 }
 ```
 
-Prvo se kreira interfejs `IComponent` koji sadrži tri metode: `Add`, `Remove` i `Display`. Ovo su metode koje će implementirati i klasa `Component` koja predstavlja jednu komponentu, kao i klasa `Composite` koja predstavlja kompoziciju komponenti. Klasa `Composite` sadrži kao atribut listu objekata tipa `IComponent` kako bi kreirala kolekciju.
+Prvo kreiramo interfejs `IComponent` koji sadrži metode `Add`, `Remove` i `Display`. Ove metode će implementirati i klasa `Component` koja predstavlja komponentu, i klasa `Composite` koja predstavlja kompoziciju. Klasa `Composite` sadrži kao atribut listu objekata tipa `IComponent` kako bi kreirala kolekciju.
 
 ## Literatura
 
