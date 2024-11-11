@@ -62,6 +62,9 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Komanda (*command*)](/obrazac-komanda)
   - [Strategija (*strategy*)](/obrazac-strategija)
   - Stanje (*state*)
+- Ostali
+  - [Bazen objekata (*object pool*)](/bazen-objekata)
+  - Lenjo učitavanje (*lazy loading*)
 
 ### Arhitektura softvera
 - [Višeslojna arhitektura](/viseslojna-arhitektura) (*multitier, n-tier*)
