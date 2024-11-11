@@ -52,7 +52,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - Graditelj (*builder*)
 - Strukturni
   - [Adapter (*adapter*)](/obrazac-adapter)
-  - Dekorater (*decorator*)
+  - [Dekorator (*decorator*)](/obrazac-dekorator)
   - [Fasada (*facade*)](/obrazac-fasada)
   - Most (*bridge*)
   - [Kompozicija (*composite*)](/obrazac-kompozicija)
