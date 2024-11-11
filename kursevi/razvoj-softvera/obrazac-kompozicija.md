@@ -3,15 +3,18 @@ title: Kompozicija (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-kompozicija
 redirect_from: /kompozicija
+image: /images/koncepti/oop/composite-patter-tree.jpg
 ---
 
-![](https://gustavopeiretti.com/composite-design-pattern/composite-patter-tree-java.jpg)
+![]({{page.image}})
 
-Kompozitni obrazac (*composite pattern*) se odnosi na sisteme koji poseduju dosta objekata. Njegova funkcija je da se jedna komponenta i grupa komponenti mogu tretirati na isti način. Tipične operacije nad komponentama uključuju add, remove, display, find i group.
+**Kompozitni obrazac (*composite pattern*) je strukturni obrazac koji omogućava tretiranje objekata i grupa objekata na isti način.** Koristi se za implementaciju hijerarhije gde se objekti i kompozicije tretiraju kao jedan objekat, pružajući fleksibilnost u radu sa rekurzivnim strukturama, poput stabla.
 
-Kompozitni obrazac jeste jedan od najjednostavnijih. On radi sa dva tipa: komponentama (*components*) i objektima sastavljenim iz komponenti (*composites*). Oba tipa implementiraju interfejs sa zajedničkim osobinama. Kompozitni objekti se sastoje od objekata komponenti. U većini slučajeva, operacije nad kompozitnim objektima se implementiraju tako što se pozivaju ekvivalente operacije nad njihovim objektima komponentama.
+Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`.
 
-![](https://www.javacodegeeks.com/wp-content/uploads/2015/09/composite_pattern.jpg)
+Kompozitni obrazac radi sa dva tipa: komponentama (*component*) ili listovima (*leaf*) i kompozicijama (*composite*). Oba tipa implementiraju interfejs sa zajedničkim osobinama. Obično se operacije nad kompozicijama implementiraju tako što pozivaju ekvivalente operacije nad njihovim komponentama.
+
+![](/images/koncepti/oop/composite_pattern.jpg)
 
 ## Upotreba
 
@@ -91,5 +94,6 @@ class Program {
 
 Prvo se kreira interfejs `IComponent` koji sadrži tri metode: `Add`, `Remove` i `Display`. Ovo su metode koje će implementirati i klasa `Component` koja predstavlja jednu komponentu, kao i klasa `Composite` koja predstavlja kompoziciju komponenti. Klasa `Composite` sadrži kao atribut listu objekata tipa `IComponent` kako bi kreirala kolekciju.
 
+## Literatura
 
-Izvor: Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+- Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
