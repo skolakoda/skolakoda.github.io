@@ -5,13 +5,13 @@ permalink: /obrazac-kompozicija
 redirect_from: /kompozicija
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Fortaleza_de_Bam%2C_Ir%C3%A1n%2C_2016-09-23%2C_DD_09.jpg/1024px-Fortaleza_de_Bam%2C_Ir%C3%A1n%2C_2016-09-23%2C_DD_09.jpg)
+![](https://gustavopeiretti.com/composite-design-pattern/composite-patter-tree-java.jpg)
 
-Kompozitni obrazac (*composite patern*) se odnosi na sisteme koji poseduju dosta objekata. Njegova funkcija je da se jedna komponenta i grupa komponenti mogu tretirati na isti način. Tipične operacije nad komponentama uključuju add, remove, display, find i group.
+Kompozitni obrazac (*composite pattern*) se odnosi na sisteme koji poseduju dosta objekata. Njegova funkcija je da se jedna komponenta i grupa komponenti mogu tretirati na isti način. Tipične operacije nad komponentama uključuju add, remove, display, find i group.
 
 Kompozitni obrazac jeste jedan od najjednostavnijih. On radi sa dva tipa: komponentama (*components*) i objektima sastavljenim iz komponenti (*composites*). Oba tipa implementiraju interfejs sa zajedničkim osobinama. Kompozitni objekti se sastoje od objekata komponenti. U većini slučajeva, operacije nad kompozitnim objektima se implementiraju tako što se pozivaju ekvivalente operacije nad njihovim objektima komponentama.
 
-![](https://upload.wikimedia.org/wikipedia/commons/6/65/W3sDesign_Composite_Design_Pattern_UML.jpg)
+![](https://www.javacodegeeks.com/wp-content/uploads/2015/09/composite_pattern.jpg)
 
 ## Upotreba
 
@@ -19,7 +19,7 @@ Aplikacije koje koriste grupisanje podataka su u velikoj upotrebi. Npr. možemo 
 
 Ako posmatramo iPhoto, možemo videti da postoje različiti načini na koje možemo prikazivati slike koje su u njega unete: hronološki ili na osnovu imena događaja pod kojim su unete (npr. letovanje). Jedna fotografija se može pojaviti u okviru više albuma. Kreiranje albuma stvara kompozitni objekat, koji ne uključuje stvarno kopiranje fotografija na više lokacija. Važna osobina vezana za kompozitni obrazac jeste da operacije koje se odnose na fotografije i albume fotografija, treba da imaju ista imena i efekte, bez obzira na to da li se implementacije razlikuju. Npr. korisniku treba omogućiti da pogleda fotografiju, ali i da pogleda album (koji sadrži fotograrije).
 
-## Primer
+## Primer u C#
 
 U cilju demonstracije kompozitnog obrasca ćemo kreirati demo primer:
 
