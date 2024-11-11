@@ -8,25 +8,17 @@ image: /images/koncepti/oop/adapter.png
 
 ![]({{page.image}})
 
-**Adapter je strukturni šablon koji nam omogućava da koristimo klasu koja ima potrebnu funkcionalnost, ali neadekvatan interfejs.**
+**Adapter je strukturni šablon koji omogućava da objekti sa nekompatibilnim interfejsima međusobno sarađuju, bez modifikacije njihovog izvornog koda.**
 
-Ovaj obrazac služi da *adaptira* postojeći interfejs onome što klijent očekuje. Adapter omogućava saradnju klasama koje inače ne bi mogle da komuniciraju, tako što pravi interfejs (“omotač”) servisne klase. Adapter je takođe odgovoran za pretvaranje tipa podataka u tip koji klijent očekuje.
+Adapter funkcioniše tako što *adaptira* interfejs jednog objekta u oblik koji drugi objekat može koristiti. Adapter je takođe odgovoran za pretvaranje tipa podataka u tip koji klijent očekuje.
 
-## Gde koristiti?
-
-Ovaj obrazac je izuzetno koristan kada već imamo razvijene servise, ali ne koriste interfejs koji nam je potreban. 
+Ovaj obrazac je izuzetno koristan kada već imamo razvijene servise koji nemaju interfejs koji nam je potreban. 
 
 ## Vrste obrasca
 
-Ovaj obrazac srećemo u dva oblika:
-
-- ***Object adapter pattern*** koristi instancu klase koju “obmotava”. Evo UML prikaza:
-
-![](https://upload.wikimedia.org/wikipedia/commons/d/d7/ObjectAdapter.png)
-
-- ***Class adapter pattern*** koristi višestruko nasleđivanje. Ovaj vid obrasca ne može se koristiti u jezicima koji ne podržavaju višestruko nasleđivanje. Evo UML notacije:
-
-![](https://upload.wikimedia.org/wikipedia/commons/3/35/ClassAdapter.png)
+Adapter obrazac srećemo u dva oblika:
+- ***Object adapter pattern*** koristi instancu klase koju “obmotava”.
+- ***Class adapter pattern*** koristi višestruko nasleđivanje. Ovaj vid obrasca ne može se koristiti u jezicima koji ne podržavaju višestruko nasleđivanje.
 
 ## Primer u Javi
 
@@ -73,6 +65,40 @@ class DListImpStack extends DoublyLinkedList implements Stack
 ```
 
 `DListImpStack` proširuje dvostruko ulančanu lista, a implementira interfejs `Stack`. Ovim adaptiramo `DoublyLinkedList` i prilagođavamo ga `Stack` interfejsu. Drugim rečima koristimo `Dlist` metode (npr. `insertTail`) da bismo implementirali metode interfejsa `Stack` (npr. `push`). Na ovaj način možemo koristiti `Stack` metode dok se u stvari u pozadini izvršavaju metode `DoublyLinkedList`.
+
+## Primer u JavaScript-u
+
+Pretpostavimo da radimo sa aplikacijom koja koristi klasu `OldPrinter` za štampanje, ali sada treba da pređemo na novi sistem koji koristi drugačiji format putem `NewPrinter` klase. Stoga je potrebno napraviti interfejs koji će koristiti novi štampač na način kao što je korišćen stari:
+
+{:.ulaz}
+```js
+class OldPrinter {
+  printText(text) {
+    console.log(`Stari printer: ${text}`)
+  }
+}
+
+class NewPrinter {
+  printDocument(doc) {
+    console.log(`Novi printer: ${doc}`)
+  }
+}
+
+class PrinterAdapter {
+  constructor(newPrinter) {
+    this.newPrinter = newPrinter
+  }
+
+  printText(text) {
+    this.newPrinter.printDocument(text) // prilagođava poziv
+  }
+}
+
+// upotreba
+const newPrinter = new NewPrinter()
+const adapter = new PrinterAdapter(newPrinter)
+adapter.printText("Štampaj kroz adapter")
+```
 
 ## Literatura
 - Sensei’s thoughts, *[Velika četvorka (Design patterns) – Adapter](https://senseithoughts.wordpress.com/2007/05/29/velika-cetvorka-design-patterns-adapter)*
