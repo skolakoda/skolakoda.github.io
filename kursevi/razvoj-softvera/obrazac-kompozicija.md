@@ -2,25 +2,24 @@
 title: Kompozicija (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-kompozicija
-redirect_from: /kompozicija
 image: /images/koncepti/oop/composite-patter-tree.jpg
 ---
 
 ![]({{page.image}})
 
-**Kompozitni obrazac (*composite pattern*) je strukturni obrazac koji omogućava tretiranje objekata i grupa objekata na isti način.** Koristi se za implementaciju hijerarhije gde se objekti i kompozicije tretiraju kao jedan objekat, pružajući fleksibilnost u radu sa rekurzivnim strukturama, poput stabla.
-
-Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`.
+**Kompozicija (*composite pattern*) je strukturni obrazac koji omogućava tretiranje objekata i kompozicija na isti način i pruža fleksibilnost u radu sa rekurzivnim strukturama, poput stabla.**
 
 Kompozitni obrazac radi sa dva tipa: komponentama (*component*) ili listovima (*leaf*) i kompozicijama (*composite*). Oba tipa implementiraju interfejs sa zajedničkim osobinama. Obično se operacije nad kompozicijama implementiraju tako što pozivaju ekvivalente operacije nad njihovim komponentama.
 
-![](/images/koncepti/oop/composite_pattern.jpg)
+Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`.
+
+<!-- ![](/images/koncepti/oop/composite_pattern.jpg) -->
 
 ## Upotreba
 
-Mnogi su primeri aplikacija koje koriste grupisanje podataka, npr. aplikacije za puštanje muzike (iTunes, Winamp...) ili kreiranje foto albuma (Flickr ili iPhoto). Stavke se smeštaju u velike liste, koje se zatim na određeni način strukturiraju.
+Kompozitni obrazac ima smisla primeniti tamo gde je model aplikacije predstavljen kao stablo. Mnogi su primeri aplikacija koje koriste grupisanje podataka, npr. aplikacije za puštanje muzike ili kreiranje foto albuma. Stavke se smeštaju u velike liste, koje se zatim na određeni način strukturiraju.
 
-Ako posmatramo iPhoto, možemo videti da postoje različiti načini na koje možemo prikazivati slike koje su u njega unete: hronološki ili na osnovu oznaka (npr. letovanje). Jedna fotografija se može pojaviti u okviru više albuma. Kreiranje albuma stvara kompozitni objekat, koji ne uključuje stvarno kopiranje fotografija. Bitna osobina kompozitnog obrasca jeste da operacije koje se odnose na fotografije i albume fotografija treba da imaju ista imena i efekte, bez obzira na to da li se implementacije razlikuju. Npr. korisniku treba omogućiti da pogleda fotografiju, ali i da pogleda album (koji sadrži fotograrije).
+U aplikaciji iPhoto, postoje različiti načini na koje možemo prikazivati slike: hronološki ili na osnovu oznaka (npr. letovanje). Jedna slika se može pojaviti u više albuma. Kreiranje albuma stvara kompozitni objekat, koji ne uključuje stvarno kopiranje fotografija. Bitna osobina kompozitnog obrasca jeste da operacije koje se odnose na fotografije i albume fotografija treba da imaju ista imena i efekte, bez obzira na to da li se implementacije razlikuju. Npr. korisniku treba omogućiti da pogleda fotografiju, ali i da pogleda album (koji sadrži fotografije).
 
 ## Primer u C#
 
@@ -142,3 +141,4 @@ Klasa `Composite` može sadržati i `Leaf` i `Composite` objekte, omogućujući 
 ## Literatura
 
 - Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+- Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023.
