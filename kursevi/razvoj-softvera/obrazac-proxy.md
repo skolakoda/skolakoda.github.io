@@ -1,7 +1,7 @@
 ---
 title: Posrednik (projektni obrazac)
 layout: lekcija-razvoj
-permalink: /obrazac-posrednik
+permalink: /obrazac-proxy
 ---
 
 ![](/images/koncepti/oop/proxy.png)
