@@ -9,134 +9,157 @@ image: /images/koncepti/oop/composite-patter-tree.jpg
 
 **Kompozicija (*composite pattern*) je strukturni obrazac koji omogućava tretiranje objekata i kompozicija na isti način i pruža fleksibilnost u radu sa rekurzivnim strukturama, poput stabla.**
 
-Kompozitni obrazac radi sa dva tipa: komponentama (*component*) ili listovima (*leaf*) i kompozicijama (*composite*). Oba tipa implementiraju interfejs sa zajedničkim osobinama. Obično se operacije nad kompozicijama implementiraju tako što pozivaju ekvivalente operacije nad njihovim komponentama.
+Kompozitni obrazac ima sledeće delove: 
+- komponenta (*component*), apstraktna klasa ili interfejs koji definiše zajedničke metode koje moraju implementirati listovi i kompozicije.
+- list (*leaf*), pojedinačni objekt koji nema podkomponente.
+- kompozicija (*composite*), složeni objekat koji ima podkomponente (listove ili druge kompozicije).
 
-Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`.
+Obično se operacije nad kompozicijama implementiraju tako što pozivaju ekvivalente operacije nad njihovim komponentama. Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`. 
 
-<!-- ![](/images/koncepti/oop/composite_pattern.jpg) -->
+![](/images/koncepti/oop/composite_pattern.jpg)
 
 ## Upotreba
 
-Kompozitni obrazac ima smisla primeniti tamo gde je model aplikacije predstavljen kao stablo. Mnogi su primeri aplikacija koje koriste grupisanje podataka, npr. aplikacije za puštanje muzike ili kreiranje foto albuma. Stavke se smeštaju u velike liste, koje se zatim na određeni način strukturiraju.
+Kompozitni obrazac se primenjuje tamo gde je model aplikacije predstavljen kao stablo. 
 
-U aplikaciji iPhoto, postoje različiti načini na koje možemo prikazivati slike: hronološki ili na osnovu oznaka (npr. letovanje). Jedna slika se može pojaviti u više albuma. Kreiranje albuma stvara kompozitni objekat, koji ne uključuje stvarno kopiranje fotografija. Bitna osobina kompozitnog obrasca jeste da operacije koje se odnose na fotografije i albume fotografija treba da imaju ista imena i efekte, bez obzira na to da li se implementacije razlikuju. Npr. korisniku treba omogućiti da pogleda fotografiju, ali i da pogleda album (koji sadrži fotografije).
+Mnogi su primeri aplikacija koje koriste grupisanje stavki, npr. aplikacije za puštanje muzike ili kreiranje foto albuma. Kreiranje albuma stvara kompozitni objekat. Operacije koje se odnose na fotografije i albume fotografija treba da imaju ista imena i efekte, bez obzira da li se implementacije razlikuju. Npr. korisniku treba omogućiti da pogleda fotografiju, ali i da pogleda album koji sadrži fotografije, a takođe i da ih obriše.
+
+## Primer
+
+Zamislimo da imamo dva tipa objekata: Proizvodi i Kutije. Kutija može da sadrži nekoliko proizvoda, ali i manje kutije. Manja kutija takođe može da sadrži proizvode i još manje kutije, itd. Treba da napravimo napravite sistem za poručivanje koji koristi ove klase, kako bismo odredili ukupnu cenu.
 
 ## Primer u C#
 
 Primer kompozitnog obrasca u jeziku C#:
 
 ```cs
-class Program {
-  interface IComponent {
-    void Add(IComponent c);
-    void Remove(IComponent c);
-    void Display(int depth);
-  }
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
-  class Component: IComponent {
-    private string name;
-    public Component(string name) {
-      this.name = name;
-    }
-    public void Add(IComponent c) {
-      Console.WriteLine("Cannot add to a leaf");
-    }
-    public void Remove(IComponent c) {
-      Console.WriteLine("Cannot remove from a leaf");
-    }
-    public void Display(int depth) {
-      Console.WriteLine(new String('-', depth) + name);
-    }
-  }
+// komponenta
+public abstract class Item
+{
+    public abstract decimal GetPrice();
+}
 
-  class Composite: IComponent {
-    private List < IComponent > _children = new List<IComponent>();
-    private string name;
-    public Composite(string name) {
-      this.name = name;
-    }
-    public void Add(IComponent c) {
-      _children.Add(c);
-    }
-    public void Remove(IComponent c) {
-      _children.Remove(c);
-    }
-    public void Display(int depth) {
-      Console.WriteLine(new String('-', depth) + name);
-      foreach(IComponent component in _children) {
-        component.Display(depth + 2);
-      }
-    }
-  }
+// list
+public class Product : Item
+{
+    public string Name { get; set; }
+    public decimal Price { get; set; }
 
-  static void Main(string[] args) {
-    // Create a tree structure
-    Composite root = new Composite("root");
-    root.Add(new Component("Leaf A"));
-    root.Add(new Component("Leaf B"));
-    Composite comp = new Composite("Composite X");
-    comp.Add(new Component("Leaf XA"));
-    comp.Add(new Component("Leaf XB"));
-    root.Add(comp);
-    root.Add(new Component("Leaf C"));
-    // Add and remove a leaf
-    Component leaf = new Component("Leaf D");
-    root.Add(leaf);
-    root.Remove(leaf);
-    // Recursively display tree
-    root.Display(1);
-    // Wait for user
-    Console.ReadKey();
-  }
+    public Product(string name, decimal price)
+    {
+        Name = name;
+        Price = price;
+    }
+
+    public override decimal GetPrice()
+    {
+        return Price;
+    }
+}
+
+// kompozicija
+public class Box : Item
+{
+    private List<Item> items = new List<Item>();
+
+    public void Add(Item item)
+    {
+        items.Add(item);
+    }
+
+    public override decimal GetPrice()
+    {
+        return items.Sum(item => item.GetPrice());
+    }
+}
+
+// upotreba
+public class Program
+{
+    public static void Main()
+    {
+        var product1 = new Product("Laptop", 1000);
+        var product2 = new Product("Smartphone", 500);
+        var product3 = new Product("Headphones", 150);
+
+        var box1 = new Box();
+        box1.Add(product1);
+        box1.Add(product2);
+
+        var box2 = new Box();
+        box2.Add(product3);
+
+        var mainBox = new Box();
+        mainBox.Add(box1);
+        mainBox.Add(box2);
+
+        Console.WriteLine("Ukupna cena: " + mainBox.GetPrice());
+    }
 }
 ```
 
-Prvo kreiramo interfejs `IComponent` koji sadrži metode `Add`, `Remove` i `Display`. Ove metode će implementirati i klasa `Component` koja predstavlja komponentu, i klasa `Composite` koja predstavlja kompoziciju. Klasa `Composite` sadrži kao atribut listu objekata tipa `IComponent` kako bi kreirala kolekciju.
-
-## Primer u JavaScript-u:
+## Primer u JavaScript-u
 
 {:.ulaz}
 ```js
-class Leaf {
-  constructor(name) {
-    this.name = name
-  }
-
-  getName() {
-    return this.name
+// component
+class Item {
+  getPrice() {
+    throw new Error('getPrice() must be implemented')
   }
 }
 
-class Composite {
-  constructor(name) {
+// leaf
+class Product extends Item {
+  constructor(name, price) {
+    super()
     this.name = name
-    this.children = []
+    this.price = price
   }
 
-  add(component) {
-    this.children.push(component)
+  getPrice() {
+    return this.price
+  }
+}
+
+// composite
+class Box extends Item {
+  constructor() {
+    super()
+    this.items = []
   }
 
-  remove(component) {
-    this.children = this.children.filter(child => child !== component)
+  add(item) {
+    this.items.push(item)
   }
 
-  getName() {
-    return `${this.name}: ${this.children.map(child => child.getName()).join(", ")}`
+  getPrice() {
+    return this.items.reduce((acc, item) => acc + item.getPrice(), 0)
   }
 }
 
 // upotreba
-const leaf1 = new Leaf("Leaf 1")
-const leaf2 = new Leaf("Leaf 2")
-const composite = new Composite("Composite")
-composite.add(leaf1)
-composite.add(leaf2)
+const product1 = new Product('Laptop', 1000)
+const product2 = new Product('Smartphone', 500)
+const product3 = new Product('Headphones', 150)
 
-console.log(composite.getName())
+const box1 = new Box()
+box1.add(product1)
+box1.add(product2)
+
+const box2 = new Box()
+box2.add(product3)
+
+const mainBox = new Box()
+mainBox.add(box1)
+mainBox.add(box2)
+
+console.log('Ukupna cena: ' + mainBox.getPrice())
 ```
-
-Klasa `Composite` može sadržati i `Leaf` i `Composite` objekte, omogućujući da se svi tretiraju na isti način.
 
 ## Literatura
 

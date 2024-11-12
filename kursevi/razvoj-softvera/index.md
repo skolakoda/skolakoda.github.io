@@ -25,7 +25,6 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Polimorfizam](/polimorfizam)
   - [Kontrola pristupa](/kontrola-pristupa)
   - Ograničenja nasleđivanja
-- Kompozicija vs nasleđivanje
 - [Komponente i njihovo korištenje](/komponente)
 
 ### Principi projektovanja
@@ -57,6 +56,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Most (*bridge*)](/obrazac-most)
   - [Kompozicija (*composite*)](/obrazac-kompozicija)
   - [Posrednik (*proxy*)](/obrazac-posrednik)
+  - [Flyweight](/obrazac-flyweight)
   - [Modul (*module*)](/obrazac-modul)
 - Ponašajni
   - [Posmatrač (*observer*)](/obrazac-posmatrac)
