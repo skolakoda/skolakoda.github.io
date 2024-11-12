@@ -7,70 +7,81 @@ image: /images/koncepti/oop/composite-patter-tree.jpg
 
 <!-- ![]({{page.image}}) -->
 
-**Flyweight (*leteća težina*) je strukturni obrazac koji omogućava smanjenje potrošnje memorije deljenjem zajedničkih objekata. Koristi se kada pravimo veliki broj sličnih objekata.**
+**Flyweight (*leteći teret*) je strukturni obrazac koji omogućava smanjenje potrošnje memorije deljenjem zajedničkih objekata. Koristi se kada pravimo mnoštvo objekata sa istim svojstvima.**
 
-Flyweight obrazac koristi tehniku deljenja objekata. On deli **nepromenljive** podatke (*intrinsic state*) među instancama, dok **promenljive** podatke (*extrinsic state*) stavlja izvan objekta, omogućavajući da se objekti stvaraju bez dupliranja nepromenljivih podataka.
+Ovaj obrazac deli **nepromenljiva** stanja (*intrinsic state*) među instancama, dok **promenljiva** stanja (*extrinsic state*) prosleđuje prilikom kreiranja objekta. Kada je potrebno stvoriti objekat, proveravamo da li već postoji instanca tog intrizničnog stanja. Ako postoji, koristi se, a ne, kreira se nova i smešta u *flyweight factory*. 
 
-## Kako radi?
+## Delovi obrasca
 
-Kada je potrebno stvoriti objekat, proveravamo da li već postoji instanca sa istim *intrinsic state*. Ako postoji, koristi se ta instanca, a ako ne, kreira se nova i smešta u *flyweight factory*. Klijent prosleđuje podatke koji se razlikuju između objekata kao *extrinsic state* pri svakom pozivu.
+Flyweight obrazac uglavnom ima sledeće delove:
 
-Delovi obrasca:
-- **Flyweight**: Apstraktna klasa koja definiše metodu za obavljanje rada, gde se razlikuju unutrašnji i spoljašnji podaci.
-- **ConcreteFlyweight**: Konkretna implementacija flyweight objekta, koja čuva samo **intrinsic state**.
-- **FlyweightFactory**: Fabrika koja stvara i čuva instance **ConcreteFlyweight** objekata. Ona održava kolekciju objekata i omogućava njihovo deljenje.
-- **Client**: Klijent koristi flyweight objekte, prosleđujući **extrinsic state** prilikom svakog poziva.
+- *Flyweight*: Interfejs ili apstraktna klasa koja definiše metodu koja koristi deljene podatke.
+- *Concrete flyweight*: Konkretna implementacija *flyweight*-a koja čuva deljene podatke i implementira operacije koje se obavljaju na tim podacima.
+- *Flyweight factory*: Fabrika koja kreira i upravlja deljenim instancama *flyweight* objekata, garantujući da se isti objekti koriste kad god je to moguće.
 
-## Primer implementacije u JavaScript-u
+Implementacija se zavisno od jezika može razlikovati.
 
-Pretpostavimo da želimo da kreiramo aplikaciju koja prikazuje grafičke oblike na ekranu. Iako možemo imati mnogo objekata poput krugova, kvadrata i drugih oblika, mnogi od njih mogu imati iste karakteristike (kao što su boja ili tip).
+## Primer u JavaScript-u
 
+Pravimo mnoštvo `AngyBird` objekata koje optimizujemo tako što dele istu instancu boje:
+
+{:.ulaz}
 ```js
-// Flyweight
-class Shape {
-  draw(extrinsicState) {
-    throw new Error("draw() must be implemented");
+class Color {
+  constructor(name) {
+    this._name = name
+  }
+
+  get name() {
+    return this._name
   }
 }
 
-// ConcreteFlyweight
-class Circle extends Shape {
-  constructor(radius, color) {
-    super();
-    this.radius = radius;  // intrinsic state (deljeno)
-    this.color = color;    // intrinsic state (deljeno)
+class AngryBird {
+  constructor(color) {
+    this._color = color // objekat boje
   }
 
-  draw(extrinsicState) {
-    console.log(`Drawing a ${this.color} circle of radius ${this.radius} at position (${extrinsicState.x}, ${extrinsicState.y})`);
+  get color() {
+    return this._color
+  }
+
+  draw() {
+    console.log(`Drawing AngryBird with color: ${this.color.name}`)
   }
 }
 
-// FlyweightFactory
-class ShapeFactory {
+class AngryBirdFactory {
   constructor() {
-    this.shapes = {};
+    this._flyweights = {} // čuva deljene instance
   }
 
-  getCircle(radius, color) {
-    const key = `${radius}-${color}`;
-    if (!this.shapes[key]) {
-      this.shapes[key] = new Circle(radius, color);
+  getColor(name) {
+    if (!this._flyweights[name]) {
+      this._flyweights[name] = new Color(name)
+      console.log(`Creating new Color: ${name}`)
     }
-    return this.shapes[key];
+    return this._flyweights[name]
+  }
+
+  getAngryBird(colorName) {
+    const color = this.getColor(colorName)
+    return new AngryBird(color)
   }
 }
 
-// Client code
-const shapeFactory = new ShapeFactory();
+// upotreba
+const angryBirdFactory = new AngryBirdFactory()
 
-const circle1 = shapeFactory.getCircle(5, "red");
-const circle2 = shapeFactory.getCircle(5, "red");
-const circle3 = shapeFactory.getCircle(10, "blue");
+for (let i = 0; i < 20; i++) {
+  const redBird = angryBirdFactory.getAngryBird('Red')
+  redBird.draw()
+}
 
-circle1.draw({x: 10, y: 20});
-circle2.draw({x: 20, y: 30});
-circle3.draw({x: 30, y: 40});
+for (let i = 0; i < 20; i++) {
+  const blueBird = angryBirdFactory.getAngryBird('Blue')
+  blueBird.draw()
+}
 ```
 
 ## Literatura
