@@ -1,8 +1,8 @@
 /* global jezici */
 /*
 Editor izvršava kod na dva načina
-  - ako je JS izvrsava i ispisuje log u HTML
-  - ostale jezike salje na server da se izvrse
+  - ako je JS, izvršava kod u pregledaču i ispisuje log u HTML
+  - ostale jezike salje na server da se izvrše
 */
 {
   const ulazi = document.querySelectorAll('.ulaz')
@@ -19,7 +19,10 @@ Editor izvršava kod na dva načina
     izlaz.innerHTML = ''
     const originalLog = console.log
     console.log = (...args) =>
-      args.map((arg, i) => izlaz.innerHTML += arg + (args[i + 1] ? ' ' : '<br>'))
+      args.map((arg, i) => {
+        const val = typeof arg === 'object' ? JSON.stringify(arg) : arg
+        izlaz.innerHTML += val + (args[i + 1] ? ' ' : '<br>')
+      })
     try {
       eval(kod)
     } catch (e) {
@@ -27,7 +30,7 @@ Editor izvršava kod na dva načina
     }
     // nakon asinhronih poziva
     setTimeout(() => {
-      console.log = originalLog      
+      console.log = originalLog
     }, 5000)
   }
 
