@@ -3,24 +3,20 @@ title: Fasada (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-fasada
 redirect_from: /fasada
-image: https://upload.wikimedia.org/wikipedia/en/5/57/Example_of_Facade_design_pattern_in_UML.png
+image: /images/koncepti/oop/fasada.gif
 ---
-
-![](https://upload.wikimedia.org/wikipedia/commons/d/d6/%27De_Calypso%27_Mauritsweg_Rotterdam2.jpg)
-
-**Fasada (*facade design pattern*) je prvi i najjednostavniji projektni obrazac.**
-
-Simbolično, fasada je ono što posmatrač vidi spolja. Fasada skriva unutrašnjost kuće. Arhitekta koristi fasadu da prikaže posmatraču ono što on želi, odnosno ono što posmatrač treba da vidi.
-
-Analogno tome *Facade* projektni obrazac skriva realizaciju funkcionalnosti (klasa i/ili interfejsa) čije pojedinačne realizacije klijent ne mora da vidi i da koristi. Dakle, za klijenta kreiramo jednu klasu, koju će on da vidi i čije će metode moći da koristi. Ove metode su kreirane kombinovanjem jedne ili više metoda “skrivenih” klasa. Dakle, prema korisniku prilagođavamo nove metode (fasada kuće), koristeći postojeće (unutrašnjost kuće). Evo kako to izgleda u UML notaciji:
 
 ![]({{page.image}})
 
-Klijenti pristupaju klasi `Facade`, tj. njenoj metodi `doSomething()`. Ova metoda realizuje novu funkcionalnost za potrebe klijenata, pri tom koristeći tri klase (iz tri paketa) i njihove metode.
+**Fasada (*facade pattern*) služi za pojednostavljivanje složenog sistema tako što pruža jednostavan interfejs ka složenoj pozadini. Koristi se za organizaciju koda i olakšavanje korisničkog pristupa sistemu.**
+
+U stvarnom životu, fasada je ono što posmatrač vidi spolja. Fasada skriva unutrašnjost kuće.
+
+Analogno tome, fasadni obrazac skriva klase čije pojedinačne realizacije klijent ne mora da vidi. Za klijenta kreiramo jednu klasu koju vidi i čije metode može koristiti. Metode fasadne klase su kreirane kombinovanjem metoda sakrivenih klasa.
 
 ## Primer
 
-A evo i jednog primera JAVA realizacije:
+Sledeći kod prikazuje implementaciju fasadnog obrasca u Javi, gde klasa `UserfriendlyDate` funkcioniše kao fasada koja pojednostavljuje rad sa datumima:
 
 ```java
 import java.text.*;
@@ -52,26 +48,22 @@ class FacadePattern
    public static void main(String[] args) throws ParseException
    {
        UserfriendlyDate d = new UserfriendlyDate("1980-08-20");  
-       System.out.println("Date: " + d);  
+       System.out.println("datum: " + d);           // datum: 1980-08-20
        d.addDays(20);  
-       System.out.println("20 days after: " + d);
+       System.out.println("nakon 20 dana: " + d);   // nakon 20 dana: 1980-09-09
    }
 }
 ```
 
-Klijent poziva `FacadePattern` pri čemu želi da dobije kao odgovor datum posle 20 dana od određenog datuma. Njega ne interesuje realizacija, ali zato `FacadePattern` poziva implementaciju klase `UserfriendlyDate` koja implementira razne metode, između ostalih i dodavanje 20 dana na neki datum.
+Ova implementacija fasade omogućava da radimo sa datumima kroz jednostavan API, dok `Calendar` i `SimpleDateFormat` klase ostaju skrivene od korisnika.
 
 ## Kada koristiti?
 
-Kako prepoznati u stvarnosti potrebu za korišćenjem ovog obrasca?
+Evo nekih slučajeva koji mogu biti prilika za korišćenje fasadnog obrasca:
 
-Evo nekih slučajeva koje ja vidim kao priliku za korišćenje ovog *design patterna*:
+- Imamo gotove funkcionalnosti (interfejse, klase, metode) koje ne smemo da menjamo, ali sa njima (ili uz malu dopunu) možemo realizovati potrebne funkcionalnosti za klijenta. 
+- Imamo funkcionalnosti koje odgovaraju klijentu, ali iz nekog razloga ne želimo da otvorimo skrivene klase.
+- Neke metode ne možemo menjati (npr. u slučaju *third-party* komponenti), one nam ne odgovaraju u potpunosti, pa moramo da ih posredno modifikujemo koristeći fasadni obrazac.
 
-1. Imamo gotove funkcionalnosti (interfejse, klase, metode) koje ne smemo da “kvarimo”, tj. menjamo, ali sa njima (ili uz malu dopunu drugim klasama) možemo da realizujemo potrebne funkcionalnosti za klijenta. Onda je svakako bolje rešenje napraviti *Facade* klasu prilagođenu klijentu, bez diranja postojećih, već razvijenih funkcionalnosti.
-
-2. Imamo funkcionalnosti koje odgovaraju klijentu, ali iz nekog razloga ne želimo da “skrivene” klase “otvorimo” za klijenta (ili bar jedan deo metoda).
-
-3. Za “skrivene” metode imamo opis, ali ne i *source* i ne možemo ih menjati (npr. u slučaju *third-party* komponenti), one nam ne odgovaraju u potpunosti, pa moramo da ih posredno modifikujemo koristeći fasadni obrazac.
-
-
-Izvor: *[Sensei’s thoughts](https://senseithoughts.wordpress.com/)*
+## Literatura
+- Sensei’s thoughts, *[Velika četvorka (Design patterns) – Facade](https://senseithoughts.wordpress.com/2007/05/29/velika-cetvorka-design-patterns-facade/)*
