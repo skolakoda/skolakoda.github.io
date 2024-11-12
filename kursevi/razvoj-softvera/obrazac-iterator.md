@@ -15,6 +15,8 @@ Osnovna ideja iteratora je da se izvuče ponašanje kolekcije u posebnu `Iterato
 
 Svi iteratori moraju implementirati isti interfejs, ali mogu koristiti različite algoritme prolaska. Ukoliko nam je potreban drugačiji način prolaska, onda kreiramo novu iterator klasu, bez potrebe da menjamo kolekciju.
 
+Mnogi programski jezici imaju ugrađene iterator klase ili mehanizme za iteraciju kroz kolekcije podataka. 
+
 ![](/images/koncepti/oop/iteratori.png)
 
 ## Primer u JavaScript-u
