@@ -16,7 +16,7 @@ Kompozitni obrazac ima sledeće delove:
 
 Obično se operacije nad kompozicijama implementiraju tako što pozivaju ekvivalente operacije nad njihovim komponentama. Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`. 
 
-![](/images/koncepti/oop/composite_pattern.jpg)
+<!-- ![](/images/koncepti/oop/composite_pattern.jpg) -->
 
 ## Upotreba
 
@@ -25,6 +25,8 @@ Kompozitni obrazac se primenjuje tamo gde je model aplikacije predstavljen kao s
 Mnogi su primeri aplikacija koje koriste grupisanje stavki, npr. aplikacije za puštanje muzike ili kreiranje foto albuma. Kreiranje albuma stvara kompozitni objekat. Operacije koje se odnose na fotografije i albume fotografija treba da imaju ista imena i efekte, bez obzira da li se implementacije razlikuju. Npr. korisniku treba omogućiti da pogleda fotografiju, ali i da pogleda album koji sadrži fotografije, a takođe i da ih obriše.
 
 ## Primer
+
+![](https://refactoring.guru/images/patterns/diagrams/composite/problem-en.png)
 
 Zamislimo da imamo dva tipa objekata: Proizvodi i Kutije. Kutija može da sadrži nekoliko proizvoda, ali i manje kutije. Manja kutija takođe može da sadrži proizvode i još manje kutije, itd. Treba da napravimo napravite sistem za poručivanje koji koristi ove klase, kako bismo odredili ukupnu cenu.
 

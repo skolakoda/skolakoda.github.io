@@ -16,6 +16,8 @@ Ovaj obrazac je izuzetno koristan kada već imamo razvijene servise koji nemaju 
 
 ## Vrste obrasca
 
+![](https://refactoring.guru/images/patterns/content/adapter/adapter-en.png)
+
 Adapter obrazac srećemo u dva oblika:
 - ***Object adapter pattern*** koristi instancu klase koju “obmotava”.
 - ***Class adapter pattern*** koristi višestruko nasleđivanje. Ovaj vid obrasca ne može se koristiti u jezicima koji ne podržavaju višestruko nasleđivanje.
