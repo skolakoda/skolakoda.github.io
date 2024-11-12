@@ -62,6 +62,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Posmatrač (*observer*)](/obrazac-posmatrac)
   - [Komanda (*command*)](/obrazac-komanda)
   - [Strategija (*strategy*)](/obrazac-strategija)
+  - [Iterator](/obrazac-iterator)
   - Stanje (*state*)
 - Ostali
   - [Bazen objekata (*object pool*)](/bazen-objekata)
