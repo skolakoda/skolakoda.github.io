@@ -123,6 +123,67 @@ proxy.vrednost = 10
 proxy.vrednost = -5
 ```
 
+### Posrednik za keširanje
+
+Ovde koristimo *proxy* obrazac za keširanje videa - `createProxyDownloader` proverava keš i preuzima novi video samo ako nije keširan, inače vraća keširanu verziju.
+
+{:.ulaz}
+```js
+const downloadVideo = async name => {
+  console.log("Connecting to https://www.youtube.com/")
+  await new Promise(resolve => setTimeout(resolve, 500 + Math.random() * 1000))
+  console.log("Downloaded", name)
+  return { name, downloaded: true }
+}
+
+const createProxyDownloader = () => {
+  const videoCache = new Map()
+  return async name => {
+    if (!videoCache.has(name))
+      videoCache.set(name, downloadVideo(name))
+    return videoCache.get(name)
+  }
+}
+
+// upotreba
+const log = item => console.log(`Video "${item.name}" is ready and cached`)
+
+const getVideo = createProxyDownloader()
+getVideo("Geekific").then(log)
+getVideo("Geekific").then(log)
+getVideo("Sean Study").then(log)
+getVideo("Sean Study").then(log)
+getVideo("Geekific").then(log)
+```
+
+### Posrednik za autorizaciju
+
+U okviru *proxy* obrasca proveriti da li je korisnik uspešno autentifikovan na sistem, ako jeste, autorizovati plaćanje kreditnom karticom, a ako nije izbaciti poruku.
+
+{:.ulaz}
+```js
+const pay = () => {
+  console.log("Plaćanje je izvršeno.")
+}
+
+const createProxy = authenticated => {
+  return () => {
+    if (authenticated)
+      pay()
+    else 
+      console.log("Morate se ulogovati pre plaćanja.")
+  }
+}
+
+// upotreba
+const authenticatedPay = createProxy(true)
+authenticatedPay()
+
+const unauthenticatedPay = createProxy(false)
+unauthenticatedPay()
+```
+
 ## Literatura
 
 - Mario Casciaro, Luciano Mammino, *Node.js: Projektni obrasci*, Mikro knjiga, 2019.
+- Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023.
