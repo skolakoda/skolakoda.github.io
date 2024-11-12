@@ -2,7 +2,7 @@
 title: Iterator (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-iterator
-image: /images/koncepti/oop/Iterators-and-Iterables.jpg
+image: /images/koncepti/podaci/strukture.png
 ---
 
 ![]({{page.image}})
