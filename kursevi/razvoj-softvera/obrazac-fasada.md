@@ -8,62 +8,114 @@ image: /images/koncepti/oop/fasada.gif
 
 ![]({{page.image}})
 
-**Fasada (*facade pattern*) služi za pojednostavljivanje složenog sistema tako što pruža jednostavan interfejs ka složenoj pozadini. Koristi se za organizaciju koda i olakšavanje korisničkog pristupa sistemu.**
+**Fasada (*facade pattern*) je obrazac koji omogućava jednostavan interfejs ka složenim podsistemima.** Predstavlja način za „maskiranje“ složenosti objekata kreiranjem klase koja će izvršiti sve neophodne proračune za klijenta, s tim što on ne zna šta se zaista dešava u pozadini.
 
-U stvarnom životu, fasada je ono što posmatrač vidi spolja. Fasada skriva unutrašnjost kuće.
+Ovaj obrazac obezbeđuje jedan objedinjeni interfejs, nazvan fasada, koji olakšava korišćenje mnoštva složenih klasa tako što skriva njihovu unutrašnju logiku i funkcionalnost. Koristi se za organizaciju koda i olakšavanje korisničkog pristupa sistemu. 
 
-Analogno tome, fasadni obrazac skriva klase čije pojedinačne realizacije klijent ne mora da vidi. Za klijenta kreiramo jednu klasu koju vidi i čije metode može koristiti. Metode fasadne klase su kreirane kombinovanjem metoda sakrivenih klasa.
-
-## Primer
-
-Sledeći kod prikazuje implementaciju fasadnog obrasca u Javi, gde klasa `UserfriendlyDate` funkcioniše kao fasada koja pojednostavljuje rad sa datumima:
-
-```java
-import java.text.*;
-import java.util.*;
-
-/** "Facade" */
-class UserfriendlyDate
-{
-   Calendar cal = Calendar.getInstance();
-   SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-
-   public UserfriendlyDate(String isodate_ymd) throws ParseException {
-       Date date = sdf.parse(isodate_ymd);
-       cal.setTime(date);
-   }
-
-   public void addDays(int days) {
-       cal.add(Calendar.DAY_OF_MONTH, days);
-   }
-
-   public String toString() {
-       return sdf.format(cal.getTime());
-   }
-}
-
-/** "Client" */
-class FacadePattern
-{
-   public static void main(String[] args) throws ParseException
-   {
-       UserfriendlyDate d = new UserfriendlyDate("1980-08-20");  
-       System.out.println("datum: " + d);           // datum: 1980-08-20
-       d.addDays(20);  
-       System.out.println("nakon 20 dana: " + d);   // nakon 20 dana: 1980-09-09
-   }
-}
-```
-
-Ova implementacija fasade omogućava da radimo sa datumima kroz jednostavan API, dok `Calendar` i `SimpleDateFormat` klase ostaju skrivene od korisnika.
+U stvarnom životu, fasada je ono što posmatrač vidi spolja i što skriva unutrašnjost kuće. Analogno tome, fasadni obrazac skriva klase čije realizacije klijent ne mora da vidi. Za klijenta kreiramo jednu klasu koju vidi i čije metode može koristiti. Metode fasadne klase kreiramo kombinovanjem metoda sakrivenih klasa.
 
 ## Kada koristiti?
 
-Evo nekih slučajeva koji mogu biti prilika za korišćenje fasadnog obrasca:
+Fasadni obrazac se koristi kada:
+- Želimo da pojednostavimo upotrebu kompleksnog sistema koji ima mnogo međusobno povezanih klasa.
+- Metode biblioteke nam ne odgovaraju u potpunosti, pa ih posredno modifikujemo preko fasade.
+- Imamo funkcionalnosti koje klijent traži, ali ne želimo da mu izložimo skrivene klase.
 
-- Imamo gotove funkcionalnosti (interfejse, klase, metode) koje ne smemo da menjamo, ali sa njima (ili uz malu dopunu) možemo realizovati potrebne funkcionalnosti za klijenta. 
-- Imamo funkcionalnosti koje odgovaraju klijentu, ali iz nekog razloga ne želimo da otvorimo skrivene klase.
-- Neke metode ne možemo menjati (npr. u slučaju *third-party* komponenti), one nam ne odgovaraju u potpunosti, pa moramo da ih posredno modifikujemo koristeći fasadni obrazac.
+## Primer u Javaskriptu
+
+Naš sistem za rezervaciju putovanja uključuje rezervaciju leta, hotela i automobila. Klijent mora pojedinačno da komunicira sa sve tri klase za rezervaciju. Korišćenjem fasadnog obrasca, možemo ih sakriti iza jedne fasade, koja se brine o svim rezervacijama, bez potrebe da klijent zna detalje o svakom podsistemu.
+
+{:.ulaz}
+```js
+class FlightBooking {
+  bookFlight(destination) {
+    console.log(`Let rezervisan za ${destination}`)
+  }
+}
+
+class HotelBooking {
+  bookHotel(destination) {
+    console.log(`Hotel rezervisan u ${destination}`)
+  }
+}
+
+class CarRental {
+  rentCar(destination) {
+    console.log(`Auto iznajmljen u ${destination}`)
+  }
+}
+
+class TravelFacade {
+  constructor() {
+    this.flightBooking = new FlightBooking()
+    this.hotelBooking = new HotelBooking()
+    this.carRental = new CarRental()
+  }
+
+  makeReservation(destination) {
+    this.flightBooking.bookFlight(destination)
+    this.hotelBooking.bookHotel(destination)
+    this.carRental.rentCar(destination)
+    console.log(`Kompletna rezervacija za ${destination} je završena!\n`)
+  }
+}
+
+// upotreba
+const travelFacade = new TravelFacade()
+travelFacade.makeReservation('Pariz')
+```
+
+## Primer u Javi
+
+Primer fasade za putovanja u Javi:
+
+```java
+class FlightBooking {
+    public void bookFlight(String destination) {
+        System.out.println("Let rezervisan za " + destination);
+    }
+}
+
+class HotelBooking {
+    public void bookHotel(String destination) {
+        System.out.println("Hotel rezervisan u " + destination);
+    }
+}
+
+class CarRental {
+    public void rentCar(String destination) {
+        System.out.println("Auto iznajmljen u " + destination);
+    }
+}
+
+class TravelFacade {
+    private FlightBooking flightBooking;
+    private HotelBooking hotelBooking;
+    private CarRental carRental;
+
+    public TravelFacade() {
+        flightBooking = new FlightBooking();
+        hotelBooking = new HotelBooking();
+        carRental = new CarRental();
+    }
+
+    public void makeReservation(String destination) {
+        flightBooking.bookFlight(destination);
+        hotelBooking.bookHotel(destination);
+        carRental.rentCar(destination);
+        System.out.println("Kompletna rezervacija za " + destination + " je završena!\n");
+    }
+}
+
+// upotreba
+public class Main {
+    public static void main(String[] args) {
+        TravelFacade travelFacade = new TravelFacade();
+        travelFacade.makeReservation("Pariz");
+    }
+}
+```
 
 ## Literatura
 - Sensei’s thoughts, *[Velika četvorka (Design patterns) – Facade](https://senseithoughts.wordpress.com/2007/05/29/velika-cetvorka-design-patterns-facade/)*
+- Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023.
