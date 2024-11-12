@@ -2,10 +2,10 @@
 title: Flyweight (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-flyweight
-image: /images/koncepti/oop/composite-patter-tree.jpg
+image: /images/koncepti/oop/flyweight.png
 ---
 
-<!-- ![]({{page.image}}) -->
+![]({{page.image}})
 
 **Flyweight (*leteći teret*) je strukturni obrazac koji omogućava smanjenje potrošnje memorije deljenjem zajedničkih objekata. Koristi se kada pravimo mnoštvo objekata sa istim svojstvima.**
 
@@ -21,7 +21,7 @@ Flyweight obrazac uglavnom ima sledeće delove:
 
 Implementacija se zavisno od jezika može razlikovati.
 
-## Primer u JavaScript-u
+## Primer u JS-u
 
 Pravimo mnoštvo `AngyBird` objekata koje optimizujemo tako što dele istu instancu boje:
 
@@ -71,16 +71,93 @@ class AngryBirdFactory {
 }
 
 // upotreba
-const angryBirdFactory = new AngryBirdFactory()
+const factory = new AngryBirdFactory()
 
 for (let i = 0; i < 20; i++) {
-  const redBird = angryBirdFactory.getAngryBird('Red')
+  const redBird = factory.getAngryBird('Red')
   redBird.draw()
 }
 
 for (let i = 0; i < 20; i++) {
-  const blueBird = angryBirdFactory.getAngryBird('Blue')
+  const blueBird = factory.getAngryBird('Blue')
   blueBird.draw()
+}
+```
+
+## Primer u C#
+
+Ekvivalenti primer u C#, koji koristi *flyweight* obrazac za optimizaciju memorije:
+
+```cs
+using System;
+using System.Collections.Generic;
+
+class Color
+{
+    public string Name { get; }
+
+    public Color(string name)
+    {
+        Name = name;
+    }
+}
+
+class AngryBird
+{
+    public Color Color { get; }
+
+    public AngryBird(Color color)
+    {
+        Color = color;
+    }
+
+    public void Draw()
+    {
+        Console.WriteLine($"Drawing AngryBird with color: {Color.Name}");
+    }
+}
+
+class AngryBirdFactory
+{
+    private readonly Dictionary<string, Color> _flyweights = new Dictionary<string, Color>();
+
+    public Color GetColor(string name)
+    {
+        if (!_flyweights.ContainsKey(name))
+        {
+            _flyweights[name] = new Color(name);
+            Console.WriteLine($"Creating new Color: {name}");
+        }
+        return _flyweights[name];
+    }
+
+    public AngryBird GetAngryBird(string colorName)
+    {
+        return new AngryBird(GetColor(colorName));
+    }
+}
+
+class Program
+{
+    private static readonly string[] colors = { "Red", "Blue", "Green", "Yellow", "Pink" };
+
+    static void Main()
+    {
+        var factory = new AngryBirdFactory();
+
+        // kreira po 20 ptica svake boje
+        for (int i = 0; i < 20; i++)
+        {
+            AngryBird redBird = factory.GetAngryBird("Red");
+            redBird.Draw();
+        }
+
+        for (int i = 0; i < 20; i++)
+        {
+            AngryBird blueBird = factory.GetAngryBird("Blue");
+            blueBird.Draw();
+        }
+    }
 }
 ```
 
