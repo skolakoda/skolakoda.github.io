@@ -2,7 +2,6 @@
 title: Strategija (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-strategija
-redirect_from: /strategija
 image: /images/koncepti/oop/strategija.png
 ---
 
