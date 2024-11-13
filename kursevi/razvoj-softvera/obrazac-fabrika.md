@@ -2,23 +2,22 @@
 title: Fabrika (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-fabrika
-image: /images/koncepti/oop/factory-pattern.png
+image: /images/koncepti/oop/fabrika.png
 ---
 
 ![]({{page.image}})
 
-**Fabrički obrazac (*factory pattern*) ili fabrički metod (*factory method*) je projektni obrazac koji se koristi za kreiranje objekata, bez potrebe da se direktno poziva konstruktor klase.** Fabrički obrazac instancira odgovarajuće klase na osnovu parametara koje mu daje klijent ili na osnovu stanja aplikacije.
+**Fabrički obrazac (*factory pattern*) ili fabrički metod (*factory method*) je projektni obrazac koji se koristi za kreiranje objekata, bez potrebe da se direktno poziva konstruktor klase.** Tvornički obrazac instancira odgovarajuće klase na osnovu parametara koje mu daje klijent ili na osnovu stanja aplikacije.
 
 Fabrički obrazac funkcioniše po sličnom principu kao prava fabrika. U realnosti, fabrike služe za proizvodnju nekog proizvoda. Klijent koji poručuje proizvode preko prodajnog mesta ne mora da zna na koji način su ti proizvodi proizvedeni. Slično, u fabričkom obrascu se logika kreiranja objekata izmešta iz klijentskog koda.
 
-Pre svega, fabrika nam omogućava da razdvojimo kreiranje objekta od njegove implementacije. Klijent ne mora znati ništa o tome kako je nova instanca napravljena. Takođe, fabrički obrazac omogućava centralizaciju logike stvaranja objekata i fleksibilnost promene njihovih tipova.
-
-![](/images/koncepti/oop/fabrika.png)
+Pre svega, ovaj obrazac nam omogućava da razdvojimo kreiranje objekta od njegove implementacije. Klijent ne mora znati ništa o tome kako je nova instanca napravljena. Takođe, tvornički obrazac omogućava centralizaciju logike stvaranja objekata i fleksibilnost promene njihovih tipova.
 
 ## Primer
 
-Recimo da imamo tri različite klase koje implementiraju `insert` funkciju. Svi konstruktori primaju URL adresu, ali je različito koriste. Jedni pomoću nje kreiraju tekst, drugi link, a treći sliku:
+Dinamički kreiramo tekst, link ili sliku, koristeći fabrički obrazac.
 
+{:.ulaz}
 ```js
 class Text {
   constructor(url) {
@@ -61,57 +60,22 @@ const APP = {
   Link,
   Image
 }
-```
 
-Tri različita objekta možemo kreirati i dodati stranici na isti način:
-
-```js
-const url = 'https://neki.link'
-
-const a = new APP.Image(url)
-a.insert(document.body)
-
-const b = new APP.Text(url)
-b.insert(document.body)
-
-const c = new APP.Link(url)
-c.insert(document.body)
-```
-
-Zamislimo da program ne zna unapred koji tip objekta je potreban, već kreiramo nove tipove objekata klikom na dugme. Ako varijabla `tip` sadrži tip željenog objekta, možemo upotrebiti sledeću uslovnu logiku:
-
-```js
-const url = 'https://neki.link'
-let o 
-
-if (tip === 'Image') {
-  o = new APP.Image(url) 
-}
-if (tip === 'Link') {
-  o = new APP.Link(url) 
-}
-if (tip === 'Text') {
-  o = new APP.Text(url) 
+const fabrika = (tip, url) => {
+  if (APP[tip]) {
+    return new APP[tip](url)
+  } else {
+    throw new Error(`Tip ${tip} nije podržan.`)
+  }
 }
 
-o.insert(document.body)
-```
+const tipovi = ['Image', 'Text', 'Link']
+const url = 'https://picsum.photos/200'
 
-Ovo radi, ali sa mnogo klasa postaje predugačko i teško održivo. 
-
-### Rešenje pomoću fabričkog obrasca
-
-Funkcija `fabrika` kreira objekat čiji je tip dinamički određen. Prethodne uslove menjamo mnogo jednostavnijim kodom:
-
-```js
-const fabrika = (tip, url) => new APP[tip](url)
-```
-
-Naravno, u praksi bismo dodali još neke provere, da li željena klasa postoji i slično. Sada možemo dinamički da instanciramo novi objekat na sledeći način:
-
-```js
-const o = fabrika(tip, url)
-o.insert(document.body)
+tipovi.forEach(tip => {
+  const o = fabrika(tip, url)
+  o.insert(document.querySelector('.wrapper'))
+})
 ```
 
 ## Literatura
