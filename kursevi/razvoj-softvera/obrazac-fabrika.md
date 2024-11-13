@@ -13,7 +13,7 @@ Fabrički obrazac funkcioniše po sličnom principu kao prava fabrika. U realnos
 
 Pre svega, ovaj obrazac nam omogućava da razdvojimo kreiranje objekta od njegove implementacije. Klijent ne mora znati ništa o tome kako je nova instanca napravljena. Takođe, tvornički obrazac omogućava centralizaciju logike stvaranja objekata i fleksibilnost promene njihovih tipova.
 
-## Primer
+## Primer: tvornica HTML elemenata
 
 Dinamički kreiramo tekst, link ili sliku, koristeći fabrički obrazac.
 
@@ -76,6 +76,37 @@ tipovi.forEach(tip => {
   const o = fabrika(tip, url)
   o.insert(document.querySelector('.wrapper'))
 })
+```
+
+## Primer: tvornica automobila
+
+{:.ulaz}
+```js
+const randomFrom = arr => arr[Math.floor(Math.random() * arr.length)]
+
+class Zastava {
+  drive() { console.log('Ide Zastava') }
+}
+
+class Yugo {
+  drive() { console.log('Ide Yugo') }
+}
+
+class Lada {
+  drive() { console.log('Ide Lada') }
+}
+
+class Factory {
+  static createCar(type) {
+    if (type === 'Zastava') return new Zastava()
+    if (type === 'Yugo') return new Yugo()
+    if (type === 'Lada') return new Lada()
+  }
+}
+
+const cars = ['Zastava', 'Yugo', 'Lada']
+const car = Factory.createCar(randomFrom(cars))
+car.drive()
 ```
 
 ## Literatura
