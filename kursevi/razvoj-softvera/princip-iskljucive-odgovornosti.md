@@ -5,11 +5,13 @@ permalink: /princip-iskljucive-odgovornosti
 image: /images/koncepti/oop/SingleResponsibility.png
 ---
 
-**Princip isključive odgovornosti** (*Single responsibility principle*) govori da svaka komponenta treba da ima samo jednu odgovornost, odnosno da se bavi samo jednim aspektom aplikacije. 
+![]({{page.image}})
+
+**Princip isključive odgovornosti** (*Single responsibility principle*) glasi da svaka komponenta treba da ima samo jednu odgovornost, odnosno jedan razlog za promenu.
+
+To znači da je svaka komponenta odgovorna samo za obavljanje jednog određenog posla. Kada se javi potreba za njenom promenom, treba biti moguće izvršiti promenu bez uticaja na ostatak sistema.
 
 Ako komponenta ima više odgovornosti teško ju je menjati i održavati. Poštovanjem principa jedne odgovornosti izbegava se problem monolitnih klasa, koje se bave svim i svačim. 
-
-![]({{page.image}})
 
 ## Primer: razdvajanje odgovornosti
 

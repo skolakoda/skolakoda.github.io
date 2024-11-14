@@ -4,9 +4,9 @@ layout: lekcija-razvoj
 permalink: /liskov-princip-zamene
 ---
 
-**Liskovljev princip zamene (*Liskov substitution principle*) kaže da treba biti moguće upotrebiti bilo koju izvedenu klasu umesto roditelja, a da aplikacija radi na isti način.**
+**Liskovljev princip zamene (*Liskov substitution principle*) nalaže da sve klase budu zamenjive svojim naslednicama, odnosno da je moguće koristiti naslednu klasu mesto roditelja, bez promene u radu programa.** I da upotreba proširenog metoda umesto roditeljskog ne menja rad programa.
 
-Liskovljev princip je u skladu sa [otvoreno-zatvorenim principom](/otvoren-zatvoren-princip), jer osigurava da izvedena klasa ne menja ponašanje roditelja.
+Liskovljev princip je u skladu sa [otvoreno-zatvorenim principom](/otvoren-zatvoren-princip), jer osigurava da izvedena klasa ne menja ponašanje izvornih metoda.
 
 ## Primer
 

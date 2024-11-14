@@ -30,11 +30,11 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 ### Principi projektovanja
 
 - SOLID principi:
-  - **S***ingle responsibility principle* ([princip isključive odgovornosti](/princip-iskljucive-odgovornosti))
-  - **O***pen/closed principle* ([otvoreno-zatvoren princip](/otvoren-zatvoren-princip))
+  - **S***ingle responsibility principle* ([Princip isključive odgovornosti](/princip-iskljucive-odgovornosti))
+  - **O***pen/closed principle* ([Otvoreno-zatvoren princip](/otvoren-zatvoren-princip))
   - **L***iskov substitution principle* ([Liskovljev princip zamene](/liskov-princip-zamene))
-  - **I***nterface segregation principle* ([princip podele interfejsa](/princip-podele-interfejsa))
-  - **D***ependency inversion principle* ([princip inverzije zavisnosti](/princip-inverzije-zavisnosti))
+  - **I***nterface segregation principle* ([Princip podele interfejsa](/princip-podele-interfejsa))
+  - **D***ependency inversion principle* ([Princip inverzije zavisnosti](/princip-inverzije-zavisnosti))
 - DRY (*Don't Repeat Yourself*)
 - KISS (*Keep It Simple, Stupid*)
 - YAGNI (*You Aren't Gonna Need It*)

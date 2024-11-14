@@ -4,7 +4,9 @@ layout: lekcija-razvoj
 permalink: /princip-podele-interfejsa
 ---
 
-**Princip podele interfejsa** (*Interface segregation principle*) kaže da klase ne treba primoravati da implementiraju metode koje im nisu potrebne. Umesto glomaznog interfejsa sa mnogo metoda treba praviti manje interfejse, relevantne za različite klase.
+**Princip podele interfejsa** (*interface segregation principle*) kaže da klase ne treba primoravati da implementiraju metode interfejsa koje im nisu potrebne. 
+
+Umesto glomaznog interfejsa treba praviti manje specijalizovane interfejse, relevantne za različite klase. Treba izbegavati sveobuhvatne interfejse koji sadrže metode koje nisu potrebne svima koji ih implementiraju.
 
 ## Primer
 

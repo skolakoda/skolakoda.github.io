@@ -4,7 +4,7 @@ layout: lekcija-razvoj
 permalink: /otvoren-zatvoren-princip
 ---
 
-**Otvoreno-zatvoren princip (*Open-close principle*) glasi da klasa treba da bude otvorena za proširenje a zatvorena za izmene. To znači da možemo dodati novu funkcionalnost bez menjanja postojeće.**
+**Otvoreno-zatvoren princip (*open-close principle*) glasi da klase treba da budu otvorene za proširenje a zatvorene za izmene.** To znači da trebaju biti napisane tako da se mogu proširiti, ali da se ne moraju menjati da bi se to postiglo. Odnosno da možemo dodati novu funkcionalnost bez menjanja postojeće.
 
 Menjanje postojeće funkcionalnosti dovodi do mnogih grešaka u aplikaciji. Proširenje se obično postiže kroz interfejse ili nasleđivanje. Polimorfizam omogućava proširenje bez potrebe za menjanjem postojećih klasa, jer možemo dodati nove podklase koje implementiraju specifično ponašanje.
 
