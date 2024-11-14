@@ -7,7 +7,7 @@ image: /images/koncepti/oop/flyweight.png
 
 ![]({{page.image}})
 
-**Flyweight (*leteći teret*) je strukturni obrazac koji omogućava smanjenje potrošnje memorije deljenjem zajedničkih objekata. Koristi se kada pravimo mnoštvo objekata sa istim svojstvima.**
+**Flyweight (*mušičja težina*) je strukturni obrazac koji omogućava smanjenje potrošnje memorije deljenjem zajedničkih objekata. Koristi se kada pravimo mnoštvo objekata sa istim svojstvima.**
 
 Ovaj obrazac deli **nepromenljiva** stanja (*intrinsic state*) među instancama, dok **promenljiva** stanja (*extrinsic state*) prosleđuje prilikom kreiranja objekta. Kada je potrebno stvoriti objekat, proveravamo da li već postoji instanca tog intrizničnog stanja. Ako postoji, koristi se, a ne, kreira se nova i smešta u *flyweight factory*. 
 

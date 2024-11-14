@@ -8,6 +8,8 @@ permalink: /obrazac-proxy
 
 **Posrednik (*proxy*) jeste objekat koji kontroliše pristup drugom objektu, koji nazivamo subjekat.** Posrednik i subjekat imaju identičan interfejs, što omogućava da jedan zamenjujemo drugim. Posrednik presreće sve ili neke operacije koje treba da se izvrše nad subjektom, čime proširuje ili dopunjuje njegovo ponašanje. 
 
+## Upotreba 
+
 Posrednički obrazac se obično koristi u sledećim slučajevima:
 - **Kontrola pristupa**: posrednik može da ograniči pristup resursima tako što proverava dozvole ili autentifikaciju korisnika pre nego što dozvoli pristup originalnom objektu.
 - **Optimizacija resursa**: Kada rad sa originalnim objektom zahteva znatne resurse, posrednik može da optimizuje učitavanje tako što koristi *lazy initialization* i kreira originalni objekat samo kada je neophodno.
