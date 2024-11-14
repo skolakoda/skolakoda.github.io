@@ -6,20 +6,26 @@ permalink: /mvc
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg)
 
-**Model–view–controller (MVC)** je softverski arhitekturni obrazac. Deli aplikaciju na tri međusobno povezane komponente kao bi se razdvojile interne predstave informacija od načina kako je informacija prezentovana i prihvaćena od strane korisnika. Na ovaj način, MVC projektni obrazac omogućava paralelni razvoj komponenti i ponovnu iskoristivost koda.
+**Model–view–controller (MVC) je arhitektonski obrazac koji se koristi za organizaciju koda u aplikacijama.**
 
-Inicijano korišćena za desktop aplikacije, ova arhitektura je postala popularna za dizajn web i mobilnih aplikacija. Najčešće korišćeni programski jezici Java, C#, PHP i Ruby imaju svoje popularne MVC framework-e koji se koriste u razvoju aplikacija.
+Ovaj obrazac deli aplikaciju na tri povezane celine, čime se smanjuje međuzavisnost i olakšava održavanje. Na taj način, MVC arhitektura omogućava paralelni razvoj komponenti i ponovnu iskoristivost koda.
 
-Komponente su:
-- **MODEL** – centralna komponenta MVC paterna. Izražava ponašanje aplikacije u smislu problemskog domena, nezavisno od korisničkog interfejsa. Upravlja podacima, programskom logikom i pravilima koja su ugrađena u aplikaciju.
-- **VIEW** – može biti bilo koji prikaz informacija (*output representation*). Za iste informacije može biti više različitih prikaza – grafikoni, tabelarni prikazi i slično.
-- **KONTROLER** – preuzima ulaze i konvertuje ih u komande koje su upućene MODELU ili VIEW.
+Inicijano korišćena za desktop aplikacije, ova arhitektura je postala popularna u razvoju web i mobilnih aplikacija. Popularni programski jezici Java, C#, PHP, Ruby i drugi imaju svoje MVC *framework*-e.
 
-Podela na 3 komponente definiše i njihovu međusobnu povezanost:
+## Delovi 
 
-- MODEL čuva podatke, KONTROLER zadaje komande modelu za preuzimanje podataka, kontroler zadaje komande kojima se podaci prikazuju u VIEW.
-- VIEW generiše novi izlaz koji je predstavljen korisniku, na osnovu promena koje su se desile u modelu.
-- KONTROLER može da šalje komande MODELU da promeni stanje modela. Kontroler može da šalje komande na VIEW da se izmeni prikaz podataka na osnovu izmena modela ili da se prikaže druga vrsta ili način ponašanja VIEW.
+Komponente MVC arhitekture su:
+- **Model** predstavlja strukturu podatka i poslovnu logiku aplikacije. On je odgovoran za pristup podacima, njihovu obradu i pravila koja se primenjuju na te podatke. Model ne zna ništa o korisničkom interfejsu ili načinu na koji se podaci prikazuju.
+- **Prikaz (*View*)** je deo aplikacije koji se bavi prikazom podataka korisniku. On predstavlja korisnički interfejs i odgovoran je za vizuelno predstavljanje podataka iz modela. Prikaz se ažurira kada model obavesti o promenama, čime se osigurava da korisnik uvek vidi najnovije podatke. Isti podaci mogu imati više različitih prikaza – grafikoni, tabele i slično.
+- **Kontroler (*Controller*)** deluje kao posrednik između modela i prikaza. On prima korisničke ulaze (npr. klikove, unos podataka) i obrađuje ih, često menjajući stanje modela kao odgovor na te ulaze. Kontroler takođe može da ažurira view kako bi odražavao promene u modelu.
 
+## Kako radi
 
-Izvor: Kazi Ljubica: *Osnove industrijskog razvoja softvera (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+- Kada korisnik izvrši neku akciju (npr. klikne dugme), ta akcija se šalje kontroleru.
+- Kontroler obrađuje akciju, i može da izvrši promene u modelu (npr. ažurira podatke).
+- Kada se model promeni, on obaveštava prikaz o tim promenama.
+- Prikaz se zatim ažurira kako bi prikazao nove podatke korisniku.
+
+## Literatura
+
+- Kazi Ljubica: *Osnove industrijskog razvoja softvera (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
