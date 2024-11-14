@@ -2,18 +2,46 @@
 title: Jedinac (<i>Singleton</i>)
 layout: lekcija-razvoj
 permalink: /obrazac-singleton
-redirect_from: /singleton
+image: /images/koncepti/oop/singleton.jpg
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Eenzaam_plantje_%28zeekraal_Salicornia%29_trotseert_de_soms_barre_elementen._Locatie%2C_Noarderleech_Provincie_Friesland_02.jpg/1024px-Eenzaam_plantje_%28zeekraal_Salicornia%29_trotseert_de_soms_barre_elementen._Locatie%2C_Noarderleech_Provincie_Friesland_02.jpg)
+![]({{page.image}})
 
-**Jedinac ili unikat (en. *singleton*) je projektni obrazac koji obezbeđuje da postoji samo jedan objekat određene vrste.**
+**Jedinac ili unikat (en. *singleton pattern*) je projektni obrazac koji obezbeđuje da postoji samo jedan objekat određene vrste.**
 
-U objektno orjentisanim jezicima to znači da se instanca klase kreira samo jednom. Kada poku­šamo da ponovo kreiramo objekat iste klase, biće vraćena originalna instanca.
+U objektno orjentisanim jezicima to znači da se instanca klase kreira samo jednom. Kada pokušamo da ponovo kreiramo objekat iste klase, biće vraćena originalna instanca.
+
+Singleton je jedan od jednostavnijih obrazaca dizajna. Klasa koja ga primenjuje ima samo jednu instancu kojom upravlja sama, i sprečava bilo koju drugu klasu da kreira njenu instancu.
+
+## Upotreba
+
+Singleton obrazac se obično koristi u sledećim slučajevima:
+- vođenje globalnog stanja aplikacije
+- centralna klasa koja upravlja vezama baze podataka
+- rukovanje postavkama 
+- deljenje resursa između različitih delova aplikacije
 
 ## Primer u Javi
 
-Primer realizacije singularnog obrasca:
+### Revnosna inicijalizacija
+
+Primer revnosne (*eager*) implementacije singularnog obrasca, koja odmah stvara instancu:
+
+```java
+public class Singleton {
+    private static Singleton instance = new Singleton();
+ 
+    private Singleton() {}
+ 
+    public static Singleton getInstance() {
+        return instance;
+    }
+}
+```
+
+### Lenja inicijalizacija
+
+Primer lenje (*lazy*) implementacije singularnog obrasca, koja kreira instancu tek kada se pozove `getInstance()`:
 
 ```java
 public class Singleton
@@ -74,4 +102,5 @@ P.s. Promenljiva `primerak` ne treba da bude globalna, već zatvorena u modul.
 ## Literatura
 
 - Ved Antani, Stojan Stefanov, *Objektno-orjentisan JavaScript*, Beograd, 2017.
-- *[Sensei’s thoughts](https://senseithoughts.wordpress.com/)*
+- Sensei’s thoughts, *[Design Patterns (Projektni Obrasci)](https://senseithoughts.wordpress.com/2007/05/29/design-patterns-projektni-obrasci/)*
+- [Šta je Singleton Design Pattern?](https://bs.linux-console.net/?p=27048#gsc.tab=0)
