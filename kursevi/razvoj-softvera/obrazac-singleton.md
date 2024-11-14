@@ -7,15 +7,15 @@ image: /images/koncepti/oop/singleton.jpg
 
 ![]({{page.image}})
 
-**Jedinac ili unikat (en. *singleton pattern*) je projektni obrazac koji obezbeđuje da postoji samo jedan objekat određene vrste.**
+**Jedinac (en. *singleton*) je projektni obrazac koji obezbeđuje da postoji samo jedan objekat određene vrste.**
 
 U objektno orjentisanim jezicima to znači da se instanca klase kreira samo jednom. Kada pokušamo da ponovo kreiramo objekat iste klase, biće vraćena originalna instanca.
 
-Singleton je jedan od jednostavnijih obrazaca dizajna. Klasa koja ga primenjuje ima samo jednu instancu kojom upravlja sama, i sprečava bilo koju drugu klasu da kreira njenu instancu.
+Singlton je jedan od jednostavnijih obrazaca dizajna. Klasa koja ga primenjuje ima samo jednu instancu kojom upravlja sama, i sprečava bilo koju drugu klasu da kreira njenu instancu.
 
 ## Upotreba
 
-Singleton obrazac se obično koristi u sledećim slučajevima:
+Singlton obrazac se obično koristi u sledećim slučajevima:
 - vođenje globalnog stanja aplikacije
 - centralna klasa koja upravlja vezama baze podataka
 - rukovanje postavkama 
