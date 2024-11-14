@@ -5,14 +5,16 @@ permalink: /princip-inverzije-zavisnosti
 image: /images/koncepti/oop/dependency-inverted.png
 ---
 
+![]({{page.image}})
+
 **Princip inverzije zavisnosti** (*dependency inversion principle*) služi za smanjenje zavisnosti viših klasa od nižih i njihovo labavo povezivanje. Osnovne ideje su:
 
 - Više klase ne treba da zavise od nižih, već obe treba da zavise od apstrakcija.
 - Apstrakcije ne treba da zavise od detalja implementacije, već obratno.
 
-Tako, viša klasa koja se bavi poslovnom logikom ne treba direktno da zavisi od neke niže klase zadužene za tekuće zadatke, poput čitanja baze podataka, slanja pošte i slično. Umesto toga, obe klase treba da zavise od apstrakcije, koja im postaje posrednik.
+Na primer, viša klasa koja se bavi poslovnom logikom ne treba direktno da zavisi od neke niže klase zadužene za tekuće zadatke, poput čitanja baze podataka, slanja pošte i slično. Umesto toga, obe klase treba da zavise od apstrakcije, koja im postaje posrednik. Ovo načelo omogućuje da se klase nižeg nivoa lako menjaju ili zamjenjuju bez da se menjaju klase višeg nivoa.
 
-![]({{page.image}})
+Princip inverzije zavisnosti se fokusira na smanjenje zavisnosti između komponenti u sistemu, što omogućava lakši razvoj, održavanje i testiranje koda. 
 
 ## Primer u C#
 
