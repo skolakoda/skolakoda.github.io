@@ -17,6 +17,12 @@ Ovaj obrazac nam omogućava da razdvojimo kreiranje objekta od njegove implement
 
 Fabrički obrazac funkcioniše po sličnom principu kao prava fabrika. U realnosti, fabrike služe za proizvodnju nekog proizvoda. Klijent koji poručuje proizvode preko prodajnog mesta ne mora da zna na koji način su ti proizvodi proizvedeni. Slično, u fabričkom obrascu se logika kreiranja objekata izmešta iz klijentskog koda.
 
+## Prednosti upotrebe
+
+Fabrički obrazac promoviše fleksibilnost dizajna, gde koristimo interfejse ili apstraktne klase za kreiranje konkretnih klasa. Takođe promoviše skalabilnost kroz polimorfizam, dozvoljavajući novim klasama da implementiraju postojeći interfejs kako se aplikacija širi.
+
+Ovaj obrazac uključuje dva važna principa dizajna: otvoreno-zatvoren princip i inverziju kontrole. Inverziju kontrole primenjuje jer prebacuje kreiranje objekata sa klijentske na fabričku klasu. 
+
 ## Primer: tvornica HTML elemenata
 
 Dinamički kreiramo tekst, link ili sliku, koristeći fabrički obrazac.
