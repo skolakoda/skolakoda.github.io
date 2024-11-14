@@ -6,7 +6,7 @@ permalink: /mvvm
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/MVVMPattern.svg/640px-MVVMPattern.svg.png)
 
-**Model-View-ViewModel (MVVM) je arhitektonski obrazac koji služi za organizaciju koda u aplikacijama, posebno onim sa složenim korisničkim interfejsom.** Predstavlja varijaciju starije MVC arhitekture.
+***Model-view-viewmodel* (MVVM) je arhitektonski obrazac koji služi za organizaciju koda u aplikacijama, posebno onim sa složenim korisničkim interfejsom.** Predstavlja varijaciju starije MVC arhitekture.
 
 MVVM arhitektura olakšava razdvajanje korisničkog interfejsa od poslovnog modela, čime se omogućuje nezavisan razvoj delova aplikacije. MVVM arhitektonski obrazac su kreirali arhitekti Microsofta kako bi pojednostavili programiranje korisničkog interfejsa zasnovanog na događajima. Ovaj obrazac je uključen u Windows Presentation Foundation (WPF). MVVM je varijacija prezentacionog modela Martina Faulera. 
 
