@@ -7,9 +7,17 @@ image: /images/koncepti/oop/decorator.jpg
 
 ![]({{page.image}})
 
-**Dekorator je strukturni obrazac koji omogućava dinamičko dodavanje novih funkcionalnosti klasi bez menjanja izvornog koda.** Dekorator koristimo kada imamo previše kombinacija dodatnih funkcionalnosti, da ne bismo pravili podklase za svaku od njih.
+**Dekorator je strukturni obrazac koji omogućava dinamičko dodavanje novih funkcionalnosti klasi bez menjanja njenog izvornog koda.** 
 
-Ključna prednost dekorator pattern-a je fleksibilnost. Možemo kombinovati dekoratore u različitim redosledima (prvo sir, pa masline, ili obrnuto) i na taj način dinamički proširivati funkcionalnost originalnog objekta bez potrebe za stvaranjem novih podklasa.
+Jedan od najvažnijih principa u razvoju softvera je otvoreno-zatvoreni princip, koji glasi da klase treba da budu otvorene za proširenje a zatvorene za modifikaciju. Obrazac dekoratera utjelovljuje taj princip.
+
+Dekorator koristimo kada imamo previše mogućih kombinacija, da ne bismo pravili podklasu za svaku. Dekorator dinamički proširuje klasu u vreme izvršenja koristeći kompoziciju, i alternativa je nasljeđivanju.
+
+## Prednosti
+
+Dvije glavne prednosti dekoratera su sigurnost i fleksibilnost. Obrazac dekoratera nam omogućava da dodamo nov kod ne kvareći već postojeći, čime efikasno sprečava uvođenje grešaka ili neželjenih nuspojava.
+
+Druga prednost je fleksibilnost. Možemo kombinovati dekoratore u različitom redosledu (prvo sir, pa masline, ili obratno) i tako dinamički proširivati funkcionalnost objekta bez potrebe za stvaranjem podklasa.
 
 ## Delovi dekorator obrasca
 
@@ -17,7 +25,7 @@ Ključna prednost dekorator pattern-a je fleksibilnost. Možemo kombinovati deko
 - **Apstraktni dekorator** (npr. `PizzaDecorator`), koji deluje kao *proxy* za osnovnu komponentu, sadrži referencu na nju i omogućava pristup njenim metodama. Služi kao osnova za konkretne dekoratore. 
 - **Konkretni dekoratori** (npr. `CheeseDecorator` i `OliveDecorator`), koji proširuju funkcionalnost osnovne klase.
 
-## Primer u JavaScript-u
+## Primer dekorator obrasca
 
 Imamo osnovna komponentu `Pizza`, i različite dekoratore za priloge. Svaki prilog pici dodaje novu cenu i opis.
 
@@ -83,7 +91,7 @@ console.log(pizza3.description)
 console.log(pizza3.cost)
 ```
 
-## Prost primer u JavaScript-u
+## Primer dekorator funkcije
 
 U JavaScriptu, dekorator ne mora biti striktno strukturiran kao u objektnim jezicima. Obrazac možemo primeniti na pojednostavljen način, kao funkciju koja prima funkciju, i vraća je sa proširenim ponašanjem. I ovde, dekorator omogućava da se funkcija proširi bez menjanja njenog osnovnog koda.
 

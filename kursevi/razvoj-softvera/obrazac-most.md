@@ -7,14 +7,14 @@ image: /images/koncepti/oop/Bridge-Design-Pattern.png
 
 ![]({{page.image}})
 
-**Most (*bridge pattern*) je projektni obrazac koji služi da skup tesno povezanih klasa podelimo u dve odvojene hijerarhije, apstrakciju i implementaciju, a potom ih premostimo.** 
+**Most (*bridge pattern*) je strukturni obrazac koji služi da skup tesno povezanih klasa podelimo u dve odvojene hijerarhije - apstrakciju i implementaciju, a potom ih premostimo.** 
 
 Ovaj obrazac je smišljen da u potpunosti odvoji apstrakciju od njene implementacije, tako da se mogu menjati nezavisno. Umesto da pravi brojne nasledne klase, most sprečava njihov eksponencijalni rast i kreira dve odvojene hijerarhije. Potom premošćava jaz tako što umesto nasleđivanja koristi kompoziciju. 
 
 ## Delovi obrasca
 
-* Apstrakcija podrazumeva visok nivo interfejsa koji ne sadrži poslovnu logiku ili bilo kakve detalje o implementaciji. 
-* Implementacija je odgovorna za poslove nižeg nivoa. 
+* **Apstrakcija** podrazumeva visok nivo interfejsa koji ne sadrži poslovnu logiku ili bilo kakve detalje o implementaciji. 
+* **Implementacija** je odgovorna za poslove nižeg nivoa. 
 Apstrakcija sadrži referencu na objekat implementacije, tako da apstrakcija kontroliše metode objekta implementacije. 
 
 ## Zadatak

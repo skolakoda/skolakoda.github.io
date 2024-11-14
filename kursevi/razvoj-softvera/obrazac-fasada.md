@@ -8,7 +8,7 @@ image: /images/koncepti/oop/fasada.gif
 
 ![]({{page.image}})
 
-**Fasada (*facade pattern*) je obrazac koji pruža jednostavan interfejs ka složenim podsistemima.** Fasadni obrazac služi da pomogne klijentskim aplikacijama da lakše komuniciraju sa sistemom. Fasada obezbeđuje objedinjeni interfejs za upotrebu mnoštva složenih klasa a skriva njihovu unutrašnju logiku i funkcionalnost. 
+**Fasada (*facade pattern*) je obrazac koji pruža jednostavan interfejs ka složenim podsistemima.** Fasadni obrazac služi da pomogne klijentskim aplikacijama da lakše komuniciraju sa sistemom. Fasada obezbeđuje objedinjeni interfejs za upotrebu mnoštva složenih klasa, skrivajući njihovu unutrašnju logiku i funkcionalnost. 
 
 U stvarnom životu, fasada je ono što posmatrač vidi spolja i što skriva unutrašnjost kuće. Analogno tome, fasadni obrazac skriva klase čije realizacije klijent ne mora da vidi. Za klijenta kreiramo jednu klasu koju vidi i čije metode može koristiti. Metode fasadne klase kreiramo kombinovanjem metoda sakrivenih klasa.
 
