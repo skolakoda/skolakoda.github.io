@@ -7,11 +7,11 @@ image: /images/koncepti/oop/decorator.jpg
 
 ![]({{page.image}})
 
-**Dekorator je strukturni obrazac koji omogućava dinamičko dodavanje novih funkcionalnosti klasi bez menjanja njenog izvornog koda.** 
+**Dekorator je strukturni obrazac koji omogućava "dekorisanje" postojećih objekata, odnosno dinamičko dodavanje funkcionalnosti bez promene njihove strukture.**  
 
 Jedan od najvažnijih principa u razvoju softvera je otvoreno-zatvoreni princip, koji glasi da klase treba da budu otvorene za proširenje a zatvorene za modifikaciju. Obrazac dekoratera utjelovljuje taj princip.
 
-Dekorator koristimo kada imamo previše mogućih kombinacija, da ne bismo pravili podklasu za svaku. Dekorator dinamički proširuje klasu u vreme izvršenja koristeći kompoziciju, i alternativa je nasljeđivanju.
+Dekorator obrazac koristimo kada imamo previše mogućih kombinacija funkcionalnosti, da ne bismo pravili podklase za sve. Dekorator dinamički proširuje klasu koristeći kompoziciju, i alternativa je nasljeđivanju.
 
 ## Prednosti
 
@@ -19,7 +19,7 @@ Dvije glavne prednosti dekoratera su sigurnost i fleksibilnost. Obrazac dekorate
 
 Druga prednost je fleksibilnost. Možemo kombinovati dekoratore u različitom redosledu (prvo sir, pa masline, ili obratno) i tako dinamički proširivati funkcionalnost objekta bez potrebe za stvaranjem podklasa.
 
-## Delovi dekorator obrasca
+## Delovi
 
 - **Osnovna komponenta** (npr. `Pizza`), na koju će se primenjivati dekoratori.
 - **Apstraktni dekorator** (npr. `PizzaDecorator`), koji deluje kao *proxy* za osnovnu komponentu, sadrži referencu na nju i omogućava pristup njenim metodama. Služi kao osnova za konkretne dekoratore. 
@@ -112,5 +112,5 @@ const loggedSum = log(sum)
 console.log(loggedSum(2, 3))
 ```
 
-<!-- ## Literatura
-- Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023. -->
+## Literatura
+- The Gang of Four, Design Patterns: Elements of Reusable Object-Oriented Software

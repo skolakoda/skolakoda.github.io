@@ -61,12 +61,12 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Mušičja težina (*flyweight*)](/obrazac-flyweight)
   - [Modul](/obrazac-modul)
 - Ponašajni
+  - [Stanje](/obrazac-stanje)
   - [Posmatrač](/obrazac-posmatrac)
   - [Komanda](/obrazac-komanda)
   - [Strategija](/obrazac-strategija)
   - [Iterator](/obrazac-iterator)
   - [Šablonski metod](/sablonski-metod)
-  - Stanje (*state*)
 - Ostali
   - [Bazen objekata (*object pool*)](/bazen-objekata)
   - Lenjo učitavanje (*lazy loading*)
