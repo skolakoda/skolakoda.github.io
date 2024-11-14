@@ -77,7 +77,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - [Višeslojna arhitektura](/viseslojna-arhitektura) (*n-tier*)
 - [Model–view–controller (MVC)](/mvc)
   - Model–view–presenter (MVP)
-  - Model–view–viewmodel (MVVM)
+  - [Model–view–viewmodel (MVVM)](/mvvm)
 - [Objekat za pristup podacima](/data-access-object) (*data access object*)
 - [Front kontroler](/front-kontroler)
 - [Model ravnopravnih partnera](/model-ravnopravnih-partnera) (*peer-to-peer*)

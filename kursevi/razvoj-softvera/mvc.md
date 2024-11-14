@@ -12,7 +12,7 @@ Ovaj obrazac deli aplikaciju na tri povezane celine, čime se smanjuje međuzavi
 
 Inicijano korišćena za desktop aplikacije, ova arhitektura je postala popularna u razvoju web i mobilnih aplikacija. Popularni programski jezici Java, C#, PHP, Ruby i drugi imaju svoje MVC *framework*-e.
 
-## Delovi 
+## Arhitektura 
 
 Komponente MVC arhitekture su:
 - **Model** predstavlja strukturu podatka i poslovnu logiku aplikacije. On je odgovoran za pristup podacima, njihovu obradu i pravila koja se primenjuju na te podatke. Model ne zna ništa o korisničkom interfejsu ili načinu na koji se podaci prikazuju.
