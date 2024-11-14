@@ -7,22 +7,24 @@ image: /images/koncepti/oop/composite-patter-tree.jpg
 
 ![]({{page.image}})
 
-**Kompozicija (*composite pattern*) je strukturni obrazac koji omogućava tretiranje objekata i kompozicija na isti način i pruža fleksibilnost u radu sa rekurzivnim strukturama, poput stabla.**
-
-Kompozitni obrazac ima sledeće delove: 
-- komponenta (*component*), apstraktna klasa ili interfejs koji definiše zajedničke metode koje moraju implementirati listovi i kompozicije.
-- list (*leaf*), pojedinačni objekt koji nema podkomponente.
-- kompozicija (*composite*), složeni objekat koji ima podkomponente (listove ili druge kompozicije).
+**Kompozicija (*composite pattern*) je strukturni obrazac koji omogućava tretiranje objekata i kompozicija na isti način, te pruža fleksibilnost u radu sa rekurzivnim strukturama poput stabla.**
 
 Obično se operacije nad kompozicijama implementiraju tako što pozivaju ekvivalente operacije nad njihovim komponentama. Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`. 
+
+## Delovi 
+
+Kompozitni obrazac ima sledeće delove: 
+- **komponenta** (*component*), apstraktna klasa ili interfejs koji definiše zajedničke metode koje moraju implementirati listovi i kompozicije.
+- **list** (*leaf*), pojedinačni objekt koji nema podkomponente.
+- **kompozicija** (*composite*), složeni objekat koji ima podkomponente (listove ili druge kompozicije).
 
 <!-- ![](/images/koncepti/oop/composite_pattern.jpg) -->
 
 ## Upotreba
 
-Kompozitni obrazac se primenjuje tamo gde je model aplikacije predstavljen kao stablo. 
+Kompozitni obrazac treba primeniti kada se grupa objekata ponaša kao jedan objekt, ili kada je model aplikacije predstavljen kao stablo. 
 
-Mnogi su primeri aplikacija koje koriste grupisanje stavki, npr. aplikacije za puštanje muzike ili kreiranje foto albuma. Kreiranje albuma stvara kompozitni objekat. Operacije koje se odnose na fotografije i albume fotografija treba da imaju ista imena i efekte, bez obzira da li se implementacije razlikuju. Npr. korisniku treba omogućiti da pogleda fotografiju, ali i da pogleda album koji sadrži fotografije, a takođe i da ih obriše.
+Mnogi su primeri aplikacija koje koriste grupisanje stavki, npr. aplikacije za puštanje muzike ili kreiranje foto albuma. Foto album je zapravo kompozitni objekat. Operacije koje se odnose na fotografije i albume fotografija treba da imaju ista imena i efekte, bez obzira da li se implementacije razlikuju. Npr. korisniku treba omogućiti da pogleda fotografiju, ali i album koji sadrži fotografije, a takođe i da ih obriše.
 
 ## Primer
 
