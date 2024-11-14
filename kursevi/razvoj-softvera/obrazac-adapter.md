@@ -8,9 +8,9 @@ image: /images/koncepti/oop/adapter.png
 
 ![]({{page.image}})
 
-**Adapter je strukturni šablon koji omogućava da objekti sa nekompatibilnim interfejsima međusobno sarađuju, bez modifikacije njihovog izvornog koda.**
+**Adapter je strukturni obrazac koji omogućava da dva nepovezana sučelja rade zajedno, bez modifikacije ijednog od njih.**
 
-Adapter funkcioniše tako što *adaptira* interfejs jednog objekta u oblik koji drugi objekat može koristiti. Adapter je takođe odgovoran za pretvaranje tipa podataka u tip koji klijent očekuje.
+Adapter radi tako što *adaptira* interfejs jednog objekta u strukturu koju klijent može koristiti. Adapter je takođe odgovoran za pretvaranje tipa podataka u tip koji klijent očekuje.
 
 Ovaj obrazac je izuzetno koristan kada već imamo razvijene servise koji nemaju interfejs koji nam je potreban. 
 
