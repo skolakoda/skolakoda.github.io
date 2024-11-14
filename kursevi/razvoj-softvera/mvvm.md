@@ -2,9 +2,10 @@
 title: Model-View-ViewModel
 layout: lekcija-razvoj
 permalink: /mvvm
+image: /images/koncepti/Model-View-ViewModel.jpg
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/MVVMPattern.svg/640px-MVVMPattern.svg.png)
+![]({{page.image}})
 
 ***Model-view-viewmodel* (MVVM) je arhitektonski obrazac koji služi za organizaciju koda u aplikacijama, posebno onim sa složenim korisničkim interfejsom.** Predstavlja varijaciju starije MVC arhitekture.
 
