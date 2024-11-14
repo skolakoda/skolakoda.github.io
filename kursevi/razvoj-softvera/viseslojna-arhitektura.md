@@ -2,7 +2,10 @@
 title: Višeslojna arhitektura
 layout: lekcija-razvoj
 permalink: /viseslojna-arhitektura
+image: /images/koncepti/oop/slojevi.png
 ---
+
+![]({{page.image}})
 
 Sredinom 1990-ih godina, kada su aplikacije u preduzećima postajale sve složenije i izvršavale se na računarima nekoliko stotina ili hiljada krajnjih korisnika, klijentska strana u tradicionalnom dvoslojnom klijent-server modelu predstavljala je problem koji je sprečavao izmene i proširenja iz više razloga:
 
