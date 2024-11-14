@@ -46,8 +46,9 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - [Projektni obrasci](/projektni-obrasci)
 - Tvorbeni 
   - [Jedinac (*singleton*)](/obrazac-singleton)
-  - [Fabrika (*factory*)](/obrazac-fabrika)
   - [Prototip (*prototype*)](/obrazac-prototip)
+  - [Fabrika (*factory*)](/obrazac-fabrika)
+  - Apstraktna fabrika (*abstract factory*)
   - Graditelj (*builder*)
 - Strukturni
   - [Adapter (*adapter*)](/obrazac-adapter)
