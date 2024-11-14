@@ -71,11 +71,13 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Bazen objekata (*object pool*)](/bazen-objekata)
   - Lenjo učitavanje (*lazy loading*)
 
-### Arhitektura softvera
-- [Višeslojna arhitektura](/viseslojna-arhitektura) (*multitier, n-tier*)
+### Arhitektonski obrasci
+
+- [Višeslojna arhitektura](/viseslojna-arhitektura) (*n-tier*)
 - [Model–view–controller (MVC)](/mvc)
   - Model–view–presenter (MVP)
   - Model–view–viewmodel (MVVM)
+- [Objekat za pristup podacima](/data-access-object) (*data access object*)
 - [Front kontroler](/front-kontroler)
 - Klijent-server model
 - [Model ravnopravnih partnera](/model-ravnopravnih-partnera) (*peer-to-peer*)
