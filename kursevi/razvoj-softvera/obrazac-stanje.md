@@ -2,18 +2,22 @@
 title: Stanje (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-stanje
-image: /images/koncepti/oop/decorator.jpg
+image: /images/koncepti/oop/state-machine.jpg
 ---
 
-<!-- ![]({{page.image}}) -->
+![]({{page.image}})
 
-**Stanje (*state pattern*) je softverski obrazac koji omogućava objektima da menjaju svoje ponašanje u zavisnosti od njihovog unutrašnjeg stanja.** Ovaj obrazac omogućava da se objekat ponaša kao da je promenio svoju klasu. 
+**Stanje (*state pattern*) je softverski obrazac koji omogućava objektu da menja ponašanje zavisno od svog unutrašnjeg stanja.** 
+
+Obrazac stanja je sličan konceptu konačnih automata. Ovo može biti čistiji način za promenu ponašanja objekta bez korišćenja mnoštva uslova, što poboljšava održavanje.
+
+Ovaj obrazac je veoma popularan u razvoju igara i drugim oblastima.
 
 ## Karakteristike
 
-- Promena ponašanja: obrazac stanja omogućava objektima da menjaju svoje ponašanje u zavisnosti od svog stanja. Umesto da se koristi složena struktura uslova za upravljanje različitim stanjima, ovaj obrazac koristi podklase koje predstavljaju različita stanja.
-- Enkapsulacija stanja: svako stanje je predstavljeno kao klasa koja implementira zajednički interfejs. Ovo omogućava da se logika vezana za svako stanje enkapsulira unutar odgovarajuće klase, čime se smanjuje kompleksnost glavnog objekta.
-- Prelazak između stanja: Objekat može lako da prelazi između različitih stanja pozivajući metode koje su definisane u interfejsu stanja. Ovo omogućava dinamičko menjanje ponašanja objekta bez promene njegove strukture.
+- **Promena ponašanja**: objekti mogu menjati ponašanje zavisno od svog stanja. Umesto zamršenih uslova za upravljanje različitim stanjima, ovaj obrazac koristi podklase koje predstavljaju različita stanja.
+- **Enkapsulacija stanja**: svako stanje je predstavljeno kao klasa koja implementira zajednički interfejs, što omogućava da se enkapsulira pripadajuća logika i smanji složenost glavnog objekta.
+- **Prelazak između stanja**: Objekat može lako prelaziti između različitih stanja pozivajući metode definisane u interfejsu. Ovo omogućava dinamičko menjanje ponašanja objekta bez promene njegove strukture.
 
 ## Primer
 
