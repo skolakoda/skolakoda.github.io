@@ -39,7 +39,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - KISS (*Keep It Simple, Stupid*)
 - YAGNI (*You Aren't Gonna Need It*)
 - [Enkapsulacija i skrivanje informacija](/enkapsulacija)
-- Inverzija kontrole
+- [Inverzija kontrole](/inverzija-kontrole)
 
 ### Projektni obrasci
 
