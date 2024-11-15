@@ -1,7 +1,7 @@
 ---
 title: Objekat za pristup podacima
 layout: lekcija-razvoj
-permalink: /data-access-object
+permalink: /objekat-za-pristup-podacima
 image: /images/koncepti/oop/dao.jpg
 ---
 

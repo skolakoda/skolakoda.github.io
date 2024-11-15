@@ -70,6 +70,8 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Šablonski metod](/sablonski-metod)
 - Ostali
   - [Bazen objekata (*object pool*)](/bazen-objekata)
+  - [Objekat za pristup podacima](/objekat-za-pristup-podacima) (*data access object*)
+  - [Objekat za prenos podataka](/objekat-za-prenos-podataka) (*data transfer object*)
   - Lenjo učitavanje (*lazy loading*)
 
 ### Arhitektonski obrasci
@@ -79,7 +81,6 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - [Model–view–controller (MVC)](/mvc)
   - Model–view–presenter (MVP)
   - [Model–view–viewmodel (MVVM)](/mvvm)
-- [Objekat za pristup podacima](/data-access-object) (*data access object*)
 - [Front kontroler](/front-kontroler)
 - [Model ravnopravnih partnera](/model-ravnopravnih-partnera) (*peer-to-peer*)
 - Mikroservisi
