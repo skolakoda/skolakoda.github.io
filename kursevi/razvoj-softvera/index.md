@@ -40,7 +40,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - YAGNI (*You Aren't Gonna Need It*)
 - [Enkapsulacija i skrivanje informacija](/enkapsulacija)
 - [Inverzija kontrole](/inverzija-kontrole)
-- [Ubrizgavanje zavisnosti](/ubrizgavanje-zavisnosti)
+  - [Ubrizgavanje zavisnosti](/ubrizgavanje-zavisnosti)
 
 ### Projektni obrasci
 
