@@ -7,13 +7,11 @@ image: /images/koncepti/oop/Dependency-Injection.gif
 
 ![]({{page.image}})
 
-**Ubrizgavanje zavisnosti** (*dependency injection*, skraćeno DI) je softverski obrazac gde se zavisnosti klase dostavljaju spolja, umesto da ih klasa sama kreira. Ovo ukida tesnu povezanost između komponenti, povećava modularnost i olakšava testiranje i održavanje.
+**Ubrizgavanje zavisnosti** (*dependency injection*, skraćeno DI) je softverski obrazac gde se jednoj klasi objekti od kojih zavisi prosleđuju izvana, umesto da ih ona sama kreira. 
 
-Ubrizgavanje zavisnosti predstavlja praktičnu primenu [principa inverzije zavisnosti](/princip-inverzije-zavisnosti), tako što klase višeg nivoa više ne zavise direktno od klasa nižeg nivoa već od apstrakcija. Zavisnosti (moduli nižeg nivoa) se prosleđuju spolja, obično putem konstruktora, metoda ili polja.
+Objekti se obično prosleđuju putem konstruktora, metoda ili polja. Ovo ukida tesnu vezanost komponenti i olakšava održavanje i testiranje (npr. prosleđivanjem *mock* objekata). Injekcija zavisnosti predstavlja praktičnu primenu [principa inverzije zavisnosti](/princip-inverzije-zavisnosti), tako što klase višeg nivoa više ne zavise direktno od klasa nižeg nivoa već od apstrakcija. U širem smislu oba potpadaju pod princip [inverzije kontrole](/inverzija-kontrole).
 
-U širem smislu oba potpadaju pod princip [inverzije kontrole](/inverzija-kontrole).
-
-## Primer 
+## Primer u C#
 
 ```cs
 // bez ubrizgavanja zavisnosti
@@ -28,5 +26,27 @@ public class UserService {
         this.db = db;
     }
 }
+```
+
+## Primer u JS-u
+
+```js
+// bez ubrizgavanja zavisnosti
+class UserService {
+    constructor() {
+        this.db = new Database()
+    }
+}
+
+// sa ubrizgavanjem zavisnosti
+class UserService {
+    constructor(db) {
+        this.db = db
+    }
+}
+
+// upotreba
+const db = new Database() // kreiramo zavisnost spolja
+const userService = new UserService(db) // prosleđujemo je klasi
 ```
 
