@@ -83,7 +83,9 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - [Front kontroler](/front-kontroler)
 - [Model ravnopravnih partnera](/model-ravnopravnih-partnera) (*peer-to-peer*)
 - Mikroservisi
+- Mikro frontendi
 - Cloud arhitektura
+  - Arhitektura bez servera (*serverless*)
 
 ### Faze razvoja softvera
 
