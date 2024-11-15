@@ -9,21 +9,21 @@ image: /images/koncepti/oop/InversionOfControl.png
 
 **Inverzija kontrole** (*inversion of control*, skraćeno IoC) je princip projektovanja softvera gde se kontrola nad procesom izvršenja prebacuje iz koda koji zahteva određene servise na kod koji te servise pruža. Prema ovom principu, vanjski izvor (npr. *framework*) preuzima tok kontrole umesto ručno pisanih delova. 
 
-Po ovom načelu radi i programiranje zasnovano na događajima, gde ručno pisani samo reaguje da događaje, dok petljom događaja rukovodi framework ili izvršno okruženja. 
+Po ovom načelu radi i programiranje zasnovano na događajima, gde ručno pisani reaguje da događaje, dok petljom događaja rukovodi razvojni okvir ili izvršno okruženja. Inverzija kontrole se naširoko koristi unutar razvojnih okvira. Poznata je i kao Holivudski princip — "Ne zovite nas, mi ćemo zvati vas".
 
-Inverzija kontrole se naširoko koristi od strane framework-a.
+Istorijski, u proceduralnom programiranju, ručno pisani kod je pozivao vanjske biblioteke za obavljanje određenih zadataka. Usled inverzije kontrole, vanjski izvori sada često pozivaju ručno pisani kod.
 
-## Istorija
+## Karakteristike
 
-Istorijski, u proceduralnom programiranju, ručno pisani kod je pozivao vanjske biblioteke za obavljanje određenih zadataka. Usled inverzije kontrole, vanjski izvor ili framework sada poziva ručno pisani kod.
+> Važna karakteristika razvojnog okvira je da metode koje korisnik definiše često bivaju pozvane unutar samog okvira, a ne iz koda korisničke aplikacije. Okvir često igra ulogu glavnog programa u koordinaciji i sekvenciranju radnji aplikacije. Ova inverzija kontrole daje okvirima moć da služe kao proširivi skeleti. Metodi koje piše korisnik prilagođavaju generičke algoritme definisane u okviru za specifičnu aplikaciju.
+>
+> -- Ralph Johnson i Brian Foote
 
-## Principi
+Inverzija kontrole čini ključnu razliku između razvojnog okvira i biblioteke. Biblioteka je u suštini skup funkcija koje možete pozvati. Okvir otelovljuje neki apstraktni dizajn, sa više ugrađenog ponašanja. Da biste ga koristili, morate da ubacite svoje ponašanje na odgovarajuća mesta.
 
-Inverzija kontrole poštuje [načelo isključive odgovornosti](/princip-iskljucive-odgovornosti). Ako imamo komponentu koja nešto radi, čim je takođe odgovorna za stvaranje svojih ovisnosti, ona radi više stvari. Zato [ubrizgavanje zavisnosti](ubrizgavanje-zavisnosti) predstavlja važnu primenu ovih principa.
+## Razdvajanje značenja
 
-## Prednosti
+Postoji određena konfuzija oko značenja inverzije kontrole. Neki ljudi brkaju opšti princip sa specifičnim načinima njegove primene (kao što je [injekcija zavisnosti](/ubrizgavanje-zavisnosti)) koju koriste neki razvojni okviri. 
 
-Neke od prednosti inverzije kontrole su:
-- Smanjenje složenosti: razmotrite količinu dupliciranog koda jer mnoge odvojene lokacije stvaraju svoje ovisnosti.
-- Lakša proverljivost: možemo promeniti konkretne ovisnosti prilikom testiranja.
-- Lakše održavanje: možemo uneti promene u ovisnost bez potrebe da menjamo glavnu klasu.
+## Literatura
+- Martin Fowler, [*Inversion Of Control*](https://martinfowler.com/bliki/InversionOfControl.html)

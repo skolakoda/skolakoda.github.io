@@ -11,6 +11,15 @@ image: /images/koncepti/oop/Dependency-Injection.gif
 
 Objekti se obično prosleđuju putem konstruktora, metoda ili polja. Ovo ukida tesnu vezanost komponenti i olakšava održavanje i testiranje (npr. prosleđivanjem *mock* objekata). Injekcija zavisnosti predstavlja praktičnu primenu [principa inverzije zavisnosti](/princip-inverzije-zavisnosti), tako što klase višeg nivoa više ne zavise direktno od klasa nižeg nivoa već od apstrakcija. U širem smislu oba potpadaju pod princip [inverzije kontrole](/inverzija-kontrole).
 
+Injekcija zavisnosti poštuje [načelo isključive odgovornosti](/princip-iskljucive-odgovornosti). Ako imamo komponentu koja nešto radi, čim je takođe odgovorna za stvaranje svojih ovisnosti, ona radi više stvari. 
+
+## Prednosti
+
+Neke od prednosti ubrizgavanje zavisnosti su:
+- Smanjenje tesne vezanosti
+- Lakša proverljivost: možemo primeniti *mock* objekte prilikom testiranja.
+- Lakše održavanje: možemo uneti promene u ovisnost bez potrebe da menjamo glavnu klasu.
+
 ## Primer u C#
 
 ```cs

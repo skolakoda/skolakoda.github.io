@@ -44,12 +44,11 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
 
 ## TODO
 
-- popraviti izvršenje koda
-    - probati https://onecompiler.com/apis/code-execution
-- pregledati refaktorisanje šta može da se iskoristi za napredni js
+- dodavati odgovarajuce citate
 - dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)
-- dodavati odgovarajuce citate na lekcije
 - razvoj igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
     - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
+- popraviti izvršenje koda
+    - probati https://onecompiler.com/apis/code-execution
