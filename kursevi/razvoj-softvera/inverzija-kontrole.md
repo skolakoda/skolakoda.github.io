@@ -2,10 +2,10 @@
 title: Inverzija kontrole
 layout: lekcija-razvoj
 permalink: /inverzija-kontrole
-image: /images/koncepti/oop/dependency-inverted.png
+image: /images/koncepti/oop/InversionOfControl.png
 ---
 
-<!-- ![]({{page.image}}) -->
+![]({{page.image}})
 
 **Inverzija kontrole** (*inversion of control*, skraćeno IoC) je princip projektovanja softvera gde se kontrola nad procesom izvršenja prebacuje iz koda koji zahteva određene servise na kod koji te servise pruža. Prema ovom principu, vanjski izvor (npr. *framework*) preuzima tok kontrole umesto ručno pisanih delova. 
 
