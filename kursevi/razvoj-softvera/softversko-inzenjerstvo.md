@@ -7,7 +7,9 @@ image: /images/koncepti/software-product.png
 
 ![]({{page.image}})
 
-**Softversko inženjerstvo je disciplina koja se bavi svim aspektima proizvodnje softvera.** Dakle, softversko inženjerstvo bavi se modelima, metodama i alatima koji su nam potrebni da bi na što jeftiniji način mogli proizvoditi što kvalitetnije softverske proizvode.
+**Softversko inženjerstvo je disciplina koja se bavi svim aspektima proizvodnje softvera - modelima, metodama i alatima potrebnim da bi što jeftinije mogli proizvoditi što kvalitetnije softverske proizvode.** 
+
+Softversko inženjerstvo je složen proces za koji je potrebno naučiti veliki broj principa, alata i tehnika kako bismo bili uspešni u tom poslu. No, stručnost se ne stiče učenjem velikog broja tehnologija, alata i jezika ili praćenjem trendova, nego temeljnim poznavanjem principa softverskog inženjerstva.
 
 ## Softversko inženjerstvo kao nauka
 
@@ -19,6 +21,8 @@ Softversko inženjerstvo može se smatrati znanstvenom disciplinom no također i
 ## Softversko inženjerstvo kao profesija
 
 Softversko inženjerstvo također je i profesija. U mnogim zemljama softverski inženjeri organizirani su u strukovne udruge koje štite njihova prava ali donekle i ograničavaju slobodu njihovog djelovanja. Primjeri takvih udruga su ACM, IEEE-CS i British Computer Society. Udruge donose pravila ponašanja za svoje članove. Postoji i etički kodeks softverskih inženjera kojeg su zajednički usvojili ACM i IEEE-CS.
+
+Posao softverskog inženjera ne predstavljaju samo klase, algoritmi i tehnologije. Veći deo posla softverskog inženjera čine razumevanje zahteva, refaktorisanje, pisanje testova, pronalaženje defekata, kontinualna integracija koda, procesi razvoja projekta i ostalo.
 
 ## Istorija
 
@@ -33,3 +37,4 @@ Važna osobina softverskog inženjerstva je da u njemu nema „jednoumlja“ ni 
 ## Literatura
 
 - Robert Manger, *Softversko inženjerstvo (skripta)*, Zagreb, 2012.
+- Dr Jovan Popović, *Osnove softverskog inženjerstva*, Računarski fakultet, Beograd, 2019.
