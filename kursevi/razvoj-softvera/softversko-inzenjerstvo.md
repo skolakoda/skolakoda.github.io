@@ -30,6 +30,6 @@ Od 1960-tih godina do danas softversko inženjerstvo prešlo je dug put. Ispoče
 
 Važna osobina softverskog inženjerstva je da u njemu nema „jednoumlja“ ni jednoobraznosti. Za razliku od matematike gdje se proučavaju nepobitne istine, u softverskom inženjerstvu razvijaju se različite ideje i pristupi koji su često u međusobnom nesuglasju. Glavni razlog za takvu raznolikost pristupa je raznolikost samih softverskih produkata – zaista, teško je očekivati da se sve vrste softvera mogu razvijati na isti način. Drugi razlog za raznolikost je činjenica da softversko inženjerstvo još uvijek nije doseglo svoju zrelu fazu – ta disciplina se i ovog trenutka intenzivno razvija, a nove spoznaje stalno revidiraju stare.
 
-### Literatura
+## Literatura
 
 - Robert Manger, *Softversko inženjerstvo (skripta)*, Zagreb, 2012.
