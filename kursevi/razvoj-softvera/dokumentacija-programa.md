@@ -8,7 +8,7 @@ permalink: /dokumentacija-programa
 
 **Razvoj softvera ne svodi se samo na razvoj programa nego i na sastavljanje dokumenata koji prate te programe. Dokumentacija je sastavni i nezaobilazni dio onoga što softverski inženjeri proizvode.**
 
-Nakon što je program testiran i verificiran, potrebno ga je dokumentirati. 
+Izradu dokumentacije dijelom je moguće automatizirati ili barem olakšati korištenjem softverskih alata.
 
 ## Vrste dokumentacije
 
