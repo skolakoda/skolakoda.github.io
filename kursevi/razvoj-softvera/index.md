@@ -24,7 +24,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Polimorfizam](/polimorfizam)
   - [Kontrola pristupa](/kontrola-pristupa)
   - Ograničenja nasleđivanja
-- [Komponente i njihovo korištenje](/komponente)
+- [Softverske komponente](/komponente)
 
 ### Principi projektovanja
 
