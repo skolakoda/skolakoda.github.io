@@ -7,11 +7,11 @@ image: /images/koncepti/oop/singleton.jpg
 
 ![]({{page.image}})
 
-**Jedinac (en. *singleton*) je projektni obrazac koji obezbeđuje da postoji samo jedan objekat određene vrste.**
+**Jedinac (en. *singleton*) je projektni obrazac koji obezbeđuje da postoji samo jedan globalni objekat određene vrste.** Iako može delovati da ih ima više, svi "primerci" zapravo pokazuju na istu strukturu. 
 
-U objektno orjentisanim jezicima to znači da se instanca klase kreira samo jednom. Kada pokušamo da ponovo kreiramo objekat iste klase, biće vraćena originalna instanca.
+Glavna svrha singltona je da obezbedi jedinstvenu instancu koja upravlja nekim zajedničkim resursima ili stanjem. Klasa koja ga primenjuje ima samo jednu instancu kojom upravlja sama, i sprečava bilo kog drugog da kreira njenu instancu.
 
-Singlton je jedan od jednostavnijih obrazaca dizajna. Klasa koja ga primenjuje ima samo jednu instancu kojom upravlja sama, i sprečava bilo koju drugu klasu da kreira njenu instancu.
+Singlton je jedan od jednostavnijih obrazaca dizajna. Ovaj obrazac se tako implementira da pokušaj kreiranja nove instance kreira singleton samo za prvi poziv, te vraća pokazivače na njega u narednim pozivima.
 
 ## Upotreba
 
@@ -20,6 +20,11 @@ Singlton obrazac se obično koristi u sledećim slučajevima:
 - centralna klasa koja upravlja vezama baze podataka
 - rukovanje postavkama 
 - deljenje resursa između različitih delova aplikacije
+
+U video igrama, singlton obrazac se često koristi za upravljanje globalnim stanjem i resursima, kao što su:
+- Menadžer zvuka (`SoundManager`) – Jedina instanca koja upravlja svim zvučnim efektima i muzikom u igri. 
+- Menadžer igre (`GameManager`) – Globalni objekat koji prati stanje igre (pobednik, trenutni nivo, broj poena, itd.). Ovo omogućava pristup različitim aspektima igre sa bilo kog dela koda.
+- Menadžer čuvanja (`SaveManager`) – Upravlja globalnim podacima o napretku u igri, kao što su sačuvane igre, postavke, itd.
 
 ## Primer u Javi
 
