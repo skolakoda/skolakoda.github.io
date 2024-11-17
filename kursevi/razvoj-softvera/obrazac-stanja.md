@@ -9,15 +9,21 @@ image: /images/koncepti/oop/state-machine.jpg
 
 **Stanje (*state pattern*) je softverski obrazac koji omogućava objektu da menja ponašanje zavisno od svog unutrašnjeg stanja.** 
 
-Obrazac stanja je sličan konceptu konačnih automata. Ovo može biti čistiji način za promenu ponašanja objekta bez korišćenja mnoštva uslova, što poboljšava održavanje.
+Obrazac stanja implementira mašinu stanja na objektno-orijentisan način. Obično pojedinačne klase stanja nasleđuje `State`, a prelazi između stanja se implementira na osnovu metoda definisanih u nadklasi.
 
-Ovaj obrazac je veoma popularan u razvoju igara i drugim oblastima.
+Obrazac stanja može biti čistiji način za kontrolu ponašanja objekta bez korišćenja mnoštva uslova, što poboljšava održavanje. Ovaj obrazac je veoma popularan u razvoju igara i drugim oblastima. 
+
+Obrazac stanja ima sličnosti sa modelom strategije.
 
 ## Karakteristike
 
 - **Promena ponašanja**: objekti mogu menjati ponašanje zavisno od svog stanja. Umesto zamršenih uslova za upravljanje različitim stanjima, ovaj obrazac koristi podklase koje predstavljaju različita stanja.
 - **Enkapsulacija stanja**: svako stanje je predstavljeno kao klasa koja implementira zajednički interfejs, što omogućava da se enkapsulira pripadajuća logika i smanji složenost glavnog objekta.
 - **Prelazak između stanja**: Objekat može lako prelaziti između različitih stanja pozivajući metode definisane u interfejsu. Ovo omogućava dinamičko menjanje ponašanja objekta bez promene njegove strukture.
+
+## Upotreba u igrama
+
+Bazična veštačka inteligencija u igrama se implementira pomoću obrasca stanja. AI uglavnom ima nekoliko stanja koje smisleno menja, kao što su napadanje, lutanje, bežanje. Svako stanje može imati svoju `update()` metodu i druge potrebne podatke (npr. lika koji juri, oblast kojom luta, itd.).
 
 ## Primer
 
