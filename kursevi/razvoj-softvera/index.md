@@ -61,7 +61,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Mušičja težina (*flyweight*)](/obrazac-flyweight)
   - [Modul](/obrazac-modul)
 - Ponašajni
-  - [Stanje](/obrazac-stanje)
+  - [Stanje](/obrazac-stanja)
   - [Posmatrač](/obrazac-posmatrac)
   - [Komanda](/obrazac-komanda)
   - [Strategija](/obrazac-strategija)

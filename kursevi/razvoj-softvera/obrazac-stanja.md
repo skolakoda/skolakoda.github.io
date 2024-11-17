@@ -1,7 +1,7 @@
 ---
 title: Stanje (projektni obrazac)
 layout: lekcija-razvoj
-permalink: /obrazac-stanje
+permalink: /obrazac-stanja
 image: /images/koncepti/oop/state-machine.jpg
 ---
 
