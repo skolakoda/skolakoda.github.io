@@ -2,7 +2,7 @@
 title: Jedinac (<i>Singleton</i>)
 layout: lekcija-razvoj
 permalink: /obrazac-singleton
-image: /images/koncepti/oop/singleton.jpg
+image: /images/koncepti/oop/singleton.png
 ---
 
 ![]({{page.image}})
@@ -14,8 +14,6 @@ Glavna svrha singltona je da obezbedi jedinstvenu instancu koja upravlja nekim z
 Singlton je jedan od jednostavnijih obrazaca dizajna. Ovaj obrazac se tako implementira da pokušaj kreiranja nove instance kreira singleton samo za prvi poziv, te vraća pokazivače na njega u narednim pozivima.
 
 ## Upotreba
-
-![](https://raw.githubusercontent.com/skolakoda/teorija-razvoja-igara/master/05-projektni-obrasci/slike/sington.png)
 
 Singlton obrazac se obično koristi u sledećim slučajevima:
 - vođenje globalnog stanja aplikacije
