@@ -7,21 +7,35 @@ image: /images/koncepti/oop/fabrika.png
 
 ![]({{page.image}})
 
-**Fabrički obrazac (*factory pattern*) ili fabrički metod (*factory method*) je projektni obrazac koji se koristi za kreiranje objekata, bez potrebe da se direktno poziva konstruktor klase.** Fabrički obrazac instancira odgovarajuće klase na osnovu parametara koje mu daje klijent ili na osnovu stanja aplikacije.
+**Tvornički obrazac (*factory pattern*) ili fabrički metod (*factory method*) je projektni obrazac koji služi za kreiranje objekata, bez potrebe da klijent direktno poziva konstruktor klase.** 
 
-Tvornički obrazac je specijalizovan za delegiranje i enkapsulaciju. Tvornička metoda može znati da stvara neki proizvod, ali ne zna specifične karakteristike proizvoda koji će stvoriti. Ovo znanje je dostupno samo odgovarajućim podklasama. Stoga je odgovornost za implementaciju fabričke metode i kreiranje odgovarajućih objekata isključivo odgovornost podklase.
+Fabrički obrazac instancira odgovarajuće klase na osnovu parametara koje zadaje klijent ili na osnovu stanja aplikacije. Fabrika centralizuje stvaranje i uništavanje objekata (npr. na osnovu konfiguracijskog fajla), pružajući univerzalan i siguran način za rukovanje objektima.
 
-Ovaj obrazac nam omogućava da razdvojimo kreiranje objekta od njegove implementacije. Klijent ne mora znati ništa o tome kako je nova instanca napravljena. Takođe, tvornički obrazac omogućava centralizaciju logike stvaranja objekata i fleksibilnost promene njihovih tipova.
-
-## Analogija iz stvarnog života
-
-Fabrički obrazac funkcioniše po sličnom principu kao prava fabrika. U realnosti, fabrike služe za proizvodnju nekog proizvoda. Klijent koji poručuje proizvode preko prodajnog mesta ne mora da zna na koji način su ti proizvodi proizvedeni. Slično, u fabričkom obrascu se logika kreiranja objekata izmešta iz klijentskog koda.
+Tvornički obrazac nam omogućava i da razdvojimo kreiranje objekta od njegove implementacije. Klijent ne mora znati ništa o tome kako se instanca stvara, niti tvornica mora znati specifične karakteristike proizvoda koje stvara. Odgovornost za kreiranje odgovarajućih objekata je isključiva odgovornost podklase.
 
 ## Prednosti upotrebe
 
 Fabrički obrazac promoviše fleksibilnost dizajna, gde koristimo interfejse ili apstraktne klase za kreiranje konkretnih klasa. Takođe promoviše skalabilnost kroz polimorfizam, dozvoljavajući novim klasama da implementiraju postojeći interfejs kako se aplikacija širi.
 
 Ovaj obrazac uključuje dva važna principa dizajna: otvoreno-zatvoren princip i inverziju kontrole. Inverziju kontrole primenjuje jer prebacuje kreiranje objekata sa klijentske na fabričku klasu. 
+
+## Analogija iz stvarnog života
+
+Fabrički obrazac funkcioniše po sličnom principu kao prava fabrika. U realnosti, fabrike služe za proizvodnju nekog proizvoda. Klijent koji poručuje proizvode preko prodajnog mesta ne mora da zna na koji način su ti proizvodi proizvedeni. Slično, u fabričkom obrascu se logika kreiranja objekata izmešta iz klijentskog koda.
+
+## Primena u igrama
+
+![](/images/myth.jpg)
+
+Igre kontinuirano stvaraju i uništavaju objekte. Na primer, strateške igre moraju da stvaraju (*spawn*-uju) na stotine vojnika za svaki nivo, na osnovu podataka iz json fajla. Sledstveno, značajan deo programa je posvećen stvaranju na zahtev i uništavanju na kraju životnog ciklusa. Kako mnogi programeri rade na istom kodu, a programi rastu, logika stvaranja-uništavanja se širi na mnoge fajlove, često uzrokujući probleme zbog neusklađenosti u protokolu. Tu kao spas dolazi tvornička klasa.
+
+```js
+function spawnEntity (typename) {
+    const entity = new (factory[typename])()  // dinamicki kreira instancu
+    entities.push(entity)
+    return entity
+}
+```
 
 ## Primer: tvornica HTML elemenata
 
@@ -125,4 +139,3 @@ car.drive()
 - Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
 - Mario Casciaro, Luciano Mammino, *Node.js: Projektni obrasci*, Mikro knjiga, 2019.
 - Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023.
-- [Šta je obrazac fabričkog dizajna?](https://bs.linux-console.net/?p=26915#gsc.tab=0)
