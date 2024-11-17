@@ -167,95 +167,101 @@ console.log('Ukupna cena: ' + mainBox.getPrice())
 
 ## Primer u C++: Nivo igre
 
-Klasa `Level` predstavlja ceo nivo, a `LevelItem` primitivne entitete unutar nivoa: napitke, predmete koje igrač može uzeti i sl. Na osnovu toga, funkcija `LordOfTheRings` kreira hijerarhiju `MiddleEarth` dva podnivoa (`Moria` i `TheShire`) te mnoštvo stvorenja i napitaka u svakoj zoni.
+Klasa `Level` predstavlja ceo nivo, a `LevelItem` primitivne entitete unutar nivoa: napitke, predmete koje igrač može uzeti i sl. Na osnovu toga, funkcija `main` kreira hijerarhiju `MiddleEarth` sa dva podnivoa (`Moria` i `TheShire`) te mnoštvo stvorenja i napitaka u svakoj zoni.
 
 ```cpp
-class Level {
-  public:
-    const char* Name() { return _name; }
-    virtual float LifePoints();
-    virtual int NumEnemies();
-    virtual void Add(LevelItem*);
-    virtual void Remove(LevelItem*);
-    virtual Iterator<LevelItem*>* CreateIterator();
-  protected:
-    LevelItem(const char*);
-  private:
-    const char* _name;
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+class LevelItem {
+public:
+    virtual ~LevelItem() {}
+    virtual float LifePoints() = 0;
+    virtual int NumEnemies() = 0;
+    virtual void Add(LevelItem*) {}
+    virtual void Remove(LevelItem*) {}
 };
 
-class Potion: public LevelItem {
-  public:
-    Potion(const char*);
-    virtual float LifePoints();
+class Potion : public LevelItem {
+public:
+    Potion(const string& name) : _name(name) {}
+    float LifePoints() override { return 50.0; } // Primer vrednosti
+    int NumEnemies() override { return 0; }
+
+private:
+    string _name;
 };
 
 class CompositeItem : public LevelItem {
-  public:
-    virtual float LifePoints();
-    virtual int NumEnemies();
-    virtual void Add(LevelItem*);
-    virtual void Remove(LevelItem*);
-    virtual Iterator<LevelItem*>* CreateIterator();
-  protected:
-    CompositeItem(const char*);
-  private:
-    List<LevelItem*> _items;
-};
+public:
+    CompositeItem(const string& name) : _name(name) {}
 
-float CompositeItem::LifePoints() {
-    Iterator<LevelItem*>* i = CreateIterator();
-    float total = 0;
-    for (i->First(); !i->IsDone(); i->Next()) {
-        total += i->CurrentItem()->LifePoints();
+    float LifePoints() override {
+        float total = 0;
+        for (auto item : _items)
+            total += item->LifePoints();
+        return total;
     }
-    delete i;
-    return total;
-}
 
-int CompositeItem::NumEnemies() {
-    Iterator<LevelItem*>* i = CreateIterator();
-    int total = 0;
-    for (i->First(); !i->IsDone(); i->Next()) {
-        total += i->CurrentItem()->NumEnemies();
+    int NumEnemies() override {
+        int total = 0;
+        for (auto item : _items)
+            total += item->NumEnemies();
+        return total;
     }
-    delete i;
-    return total;
-}
 
-class Enemy : public CompositeItem{
-  public:
-      Enemy(const char*);
-      virtual float LifePoints();
-      virtual int NumEnemies();
+    void Add(LevelItem* item) override {
+        _items.push_back(item);
+    }
+
+    void Remove(LevelItem* item) override {
+        auto it = std::find(_items.begin(), _items.end(), item);
+        if (it != _items.end()) {
+            _items.erase(it);
+        }
+    }
+
+private:
+    string _name;
+    vector<LevelItem*> _items;
 };
 
-class SubLevel: public CompositeItem{
-  public:
-      SubLevel(const char*);
-      virtual float LifePoints();
-      virtual int NumEnemies();
+class Enemy : public CompositeItem {
+public:
+    Enemy(const string& name) : CompositeItem(name) {}
+    float LifePoints() override { return 100.0; } // Primer vrednosti
+    int NumEnemies() override { return 1; }
 };
 
-void LordOfTheRings () {
-  Level* MiddleEarth=new Level("Middle Earth");
-  SubLevel* TheShire= new SubLevel("TheShire");
-  SubLevel* Moria= new SubLevel("Mines of Moria");
-  MiddleEarth->Add(TheShire);
-  MiddleEarth->Add(Moria);
-  Enemy *Nazgul=new Enemy("Nazgul");
-  Enemy *NazgulRider=new Enemy("NazgulRider");
-  Enemy *NazgulSteed=new Enemy("NazgulSteed");
-  Nazgul->Add(NazgulRider);
-  Nazgul->Add(NazgulSteed);
-  TheShire->Add(Nazgul);
-  Enemy *Balrog=new Enemy("Balrog");
-  Moria->Add(Balrog);
-  Potion *Lembas=new Potion("Lembas");
-  TheShire->Add(Lembas);
-  cout << "The number of monsters in Middle Earth is " << MiddleEarth->NumEnemies() << endl;
-  cout << "The life points for the monsters are " << MiddleEarth-
-  >LifePoints() << endl;
+class SubLevel : public CompositeItem {
+public:
+    SubLevel(const string& name) : CompositeItem(name) {}
+};
+
+int main() {
+    CompositeItem* MiddleEarth = new CompositeItem("Middle Earth");
+    SubLevel* TheShire = new SubLevel("The Shire");
+    SubLevel* Moria = new SubLevel("Mines of Moria");
+    MiddleEarth->Add(TheShire);
+    MiddleEarth->Add(Moria);
+
+    Enemy* Nazgul = new Enemy("Nazgul");
+    Enemy* NazgulRider = new Enemy("Nazgul Rider");
+    Enemy* NazgulSteed = new Enemy("Nazgul Steed");
+    Nazgul->Add(NazgulRider);
+    Nazgul->Add(NazgulSteed);
+    TheShire->Add(Nazgul);
+    Enemy* Balrog = new Enemy("Balrog");
+    Moria->Add(Balrog);
+    Potion* Lembas = new Potion("Lembas");
+    TheShire->Add(Lembas);
+
+    cout << "The number of monsters in Middle Earth is " << MiddleEarth->NumEnemies() << endl;
+    cout << "The life points for the monsters are " << MiddleEarth->LifePoints() << endl;
 }
 ```
 
