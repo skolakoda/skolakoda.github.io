@@ -2,14 +2,18 @@
 title: Posmatrač (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-posmatrac
-image: /images/koncepti/oop/observer-pattern.png
+image: /images/koncepti/oop/posmatrac.png
 ---
 
 ![]({{page.image}})
 
 **Posmatrač (*observer pattern*) je obrazac ponašanja koji služi da delovi programa posmatraju i reaguju na promene u drugom delu programa.** Ovaj obrazac omogućava automatsko obaveštavanje zainteresovanih objekata o svim promenama koje se dešavaju posmatranom subjektu. 
 
-Posmatrač je jedan od najpoznatijih softverskih obrazaca.
+Model posmatrača se obično implementira kada subjekat želi da šalje poruke svojim posmatračima. Subjekt ne treba da zna ništa o tome kako rade posmatrači.
+
+Posmatrač je jedan od najpoznatijih softverskih obrazaca i široko je rasprostranjen - Java ga je uključila u osnovnu biblioteku (`java.util.Observer`), a C# ugradio direktno u jezik (ključna reč `event`).
+
+## Uloge
 
 Kod ovog obrasca postoje dve glavne uloge:
 
@@ -18,10 +22,15 @@ Kod ovog obrasca postoje dve glavne uloge:
 
 ## Primena
 
-Posmatrački obrazac ima široku primenu. Na primer, u igricama neki karakteri (*posmatrači*) menjaju ponašanje nakon što je kraljica (*subjekt*) ubijena. Takođe, događaji pregledača su primer posmatračkog obrasca. Pregledač objavljuje događaj svim funkcijama koje su pretplaćene na njega. Konačno, i *Redux* biblioteka primenjuje ovaj obrazac. Kad se stanje promeni, prikaz se ažurira u skladu s novim stanjem.
+Posmatrački obrazac ima široku primenu. 
+
+Recimo da dodajemo sistem dostignuća u našu igru. Model posmatrača omogućava jednom modulu da objavi da se nešto zanimljivo dogodilo, ne brinući ko prima obaveštenje. Na primer, u igricama neki karakteri (*posmatrači*) menjaju ponašanje nakon što je kraljica (*subjekt*) ubijena. 
+
+Takođe, događaji pregledača su primer posmatračkog obrasca. Pregledač objavljuje događaj svim funkcijama koje su pretplaćene na njega. Konačno, i *Redux* biblioteka primenjuje ovaj obrazac. Kad se stanje promeni, prikaz se ažurira u skladu s novim stanjem.
 
 Često je potrebno imati više uporednih prikaza istih podataka, na primjer grafički i tabularni prikaz. Kad se stanje promijeni, svi prikazi moraju se ažurirati. Obrazac posmatrača omogućuje postojanje više prikaza jednog objekta, a kad se stanje objekta promijeni, svi prikazi automatski se ažuriraju.
 
+![](/images/koncepti/oop/observer.jpg)
 
 ## Primer obrasca u JS-u
 
