@@ -15,6 +15,8 @@ Singlton je jedan od jednostavnijih obrazaca dizajna. Ovaj obrazac se tako imple
 
 ## Upotreba
 
+![](https://raw.githubusercontent.com/skolakoda/teorija-razvoja-igara/master/05-projektni-obrasci/slike/sington.png)
+
 Singlton obrazac se obično koristi u sledećim slučajevima:
 - vođenje globalnog stanja aplikacije
 - centralna klasa koja upravlja vezama baze podataka
@@ -108,4 +110,3 @@ P.s. Promenljiva `primerak` ne treba da bude globalna, već zatvorena u modul.
 
 - Ved Antani, Stojan Stefanov, *Objektno-orjentisan JavaScript*, Beograd, 2017.
 - Sensei’s thoughts, *[Design Patterns (Projektni Obrasci)](https://senseithoughts.wordpress.com/2007/05/29/design-patterns-projektni-obrasci/)*
-- [Šta je Singleton Design Pattern?](https://bs.linux-console.net/?p=27048#gsc.tab=0)
