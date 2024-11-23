@@ -7,9 +7,9 @@ image: /images/koncepti/podaci/strukture.png
 
 ![]({{page.image}})
 
-**Iterator je obrazac koji omogućava prolazak kroz kolekciju elemenata bez znanja njene unutrašnje strukture.** Ideja je omogućiti da se prođe kroz elemente kolekcije jedan po jedan. 
+**Iterator je obrazac koji omogućava sekvencijalni pristup elementima neke kolekcije bez otkrivanja njene unutrašnje strukture.** 
 
-S obzirom da postoji puno različitih vrsta kolekcija (stablo, lista, niz, skup, rečnik...), Iterator nam omogućava da prođemo elemente bez potreba da znamo kako je kolekcija struktuirana. Klijent koristi samo javne metode iteratora, poput `next()`, dok detalji o strukturi podataka ostaju skriveni. 
+S obzirom da postoji puno različitih vrsta kolekcija (stablo, lista, niz, skup, rečnik...), iterator nam omogućava da prođemo elemente bez potreba da znamo kako je kolekcija struktuirana. Klijent koristi samo javne metode iteratora, poput `next()`, dok detalji o strukturi podataka ostaju skriveni. 
 
 Osnovna ideja iteratora je da se izvuče ponašanje kolekcije u posebnu `Iterator` klasu. Objekat iteratora enkapsulira sve detalje prolaska kroz kolekciju, kao što su trenutna pozicija i koliko elemenata je ostalo do kraja. Stoga, više iteratora može istovremeno prolaziti kroz istu kolekciju, nezavisno jedan od drugog. 
 
@@ -74,4 +74,5 @@ console.log(mapIterator.next())
 
 ## Literatura
 
+- The Gang of Four, *Design Patterns: Elements of Reusable Object-Oriented Software*, 1994.
 - Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023.

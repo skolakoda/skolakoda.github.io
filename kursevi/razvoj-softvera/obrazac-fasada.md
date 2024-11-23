@@ -115,5 +115,7 @@ public class Main {
 ```
 
 ## Literatura
+
+- The Gang of Four, *Design Patterns: Elements of Reusable Object-Oriented Software*, 1994.
 - Sensei’s thoughts, *[Velika četvorka (Design patterns) – Facade](https://senseithoughts.wordpress.com/2007/05/29/velika-cetvorka-design-patterns-facade/)*
 - Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023.

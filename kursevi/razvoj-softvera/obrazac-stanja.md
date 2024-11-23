@@ -7,7 +7,7 @@ image: /images/koncepti/oop/state-machine.jpg
 
 ![]({{page.image}})
 
-**Stanje (*state pattern*) je softverski obrazac koji omogućava objektu da menja ponašanje zavisno od svog unutrašnjeg stanja.** 
+**Stanje (*state pattern*) je softverski obrazac koji omogućava objektu da menja ponašanje zavisno od svog unutrašnjeg stanja.** Objekat će izgledati kao da menja svoju klasu.
 
 Obrazac stanja implementira mašinu stanja na objektno-orijentisan način. Obično pojedinačne klase stanja nasleđuje `State`, a prelazi između stanja se implementira na osnovu metoda definisanih u nadklasi.
 

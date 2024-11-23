@@ -7,7 +7,7 @@ image: /images/koncepti/oop/posmatrac.png
 
 ![]({{page.image}})
 
-**Posmatrač (*observer pattern*) je obrazac ponašanja koji služi da delovi programa posmatraju i reaguju na promene u drugom delu programa.** Ovaj obrazac omogućava automatsko obaveštavanje zainteresovanih objekata o svim promenama koje se dešavaju posmatranom subjektu. 
+**Posmatrač (*observer pattern*) je obrazac ponašanja koji služi da delovi programa posmatraju i reaguju na promene u drugom delu programa.** Ovaj obrazac definiše zavisnost između objekata tako da kada jedan promeni stanje, svi koji zavise od njega su automatski obavešteni i ažurirani.
 
 Model posmatrača se obično implementira kada subjekat želi da šalje poruke svojim posmatračima. Subjekt ne treba da zna ništa o tome kako rade posmatrači.
 
@@ -170,4 +170,5 @@ Svaki put kada se setuje novo stanje skladišta, biće pozvani svi pretplatnici 
 
 ## Literatura
 
+- The Gang of Four, *Design Patterns: Elements of Reusable Object-Oriented Software*, 1994.
 - Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023.
