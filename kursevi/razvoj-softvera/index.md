@@ -30,6 +30,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 
 - [Apstrakcija](/apstrakcija)
 - [Enkapsulacija](/enkapsulacija)
+- Razdvajanje briga
 - SOLID principi:
   - [Princip isključive odgovornosti](/princip-iskljucive-odgovornosti) (**S***ingle responsibility principle*)
   - [Otvoreno-zatvoren princip](/otvoren-zatvoren-princip) (**O***pen/closed principle*)
