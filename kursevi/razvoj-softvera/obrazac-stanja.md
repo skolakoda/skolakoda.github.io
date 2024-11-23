@@ -161,4 +161,4 @@ public class Program {
 ```
 
 ## Literatura
-- The Gang of Four, Design Patterns: Elements of Reusable Object-Oriented Software, 1994
+- The Gang of Four, *Design Patterns: Elements of Reusable Object-Oriented Software*, 1994.

@@ -135,7 +135,7 @@ car.drive()
 
 ## Literatura
 
-- The Gang of Four, Design Patterns: Elements of Reusable Object-Oriented Software, 1994
+- The Gang of Four, *Design Patterns: Elements of Reusable Object-Oriented Software*, 1994.
 - Ved Antani, Stojan Stefanov, *Objektno-orjentisan JavaScript*, Beograd, 2017.
 - Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
 - Mario Casciaro, Luciano Mammino, *Node.js: Projektni obrasci*, Mikro knjiga, 2019.

@@ -267,5 +267,6 @@ int main() {
 
 ## Literatura
 
+- The Gang of Four, *Design Patterns: Elements of Reusable Object-Oriented Software*, 1994.
 - Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
 - Angelina Njeguš, *Obrasci projektovanja softvera*, Univerzitet Singidunum, Beograd, 2023.
