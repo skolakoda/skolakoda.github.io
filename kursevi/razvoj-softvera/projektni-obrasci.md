@@ -6,7 +6,7 @@ permalink: /projektni-obrasci
 
 <!-- ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmethodpoet.com%2Fwp-content%2Fuploads%2F2022%2F11%2Fdesign-patterns-division.png&f=1&nofb=1&ipt=73ccfd6b2dce1d243025f6bda7a5c2ea3efe682af47ac9e23a4845e08ba268a3&ipo=images) -->
 
-**Projektni obrasci ili obrasci dizajna (*design patterns*) su višekratno upotrebljiva rešenje za poznate probleme. Softverski projektni obrasci predstavljaju rešenja osnovnih programerskih problema na visokom nivou apstrakcije. Nastali su kao rezultat dobre prakse i iskustva generacija programera.** 
+**Projektni obrasci ili šabloni dizajna (*design patterns*) su višekratno upotrebljiva rešenje za poznate probleme. Softverski projektni obrasci predstavljaju rešenja osnovnih programerskih problema na visokom nivou apstrakcije. Nastali su kao rezultat dobre prakse i iskustva generacija programera.** 
 
 Gotovo je nemoguće pronaći okvir (*framework*) koji rešava sve probleme jedne aplikacije. Umesto toga, programeri uopštavaju probleme kako bi prepoznali obrasce koje treba primeniti. 
 

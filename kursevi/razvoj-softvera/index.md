@@ -72,6 +72,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Objekat za prenos podataka](/objekat-za-prenos-podataka) (*data transfer object*)
   - [Bazen objekata (*object pool*)](/bazen-objekata)
   - [Lenjo učitavanje](/lenjo-ucitavanje) (*lazy loading*)
+- [Anti-obrasci](/anti-obrasci)
 
 ### Arhitektonski obrasci
 
