@@ -7,11 +7,11 @@ image: /images/koncepti/oop/singleton.png
 
 ![]({{page.image}})
 
-**Jedinac (en. *singleton*) je projektni obrazac koji obezbeđuje da postoji samo jedan globalni objekat određene vrste.** Iako može delovati da ih ima više, svi "primerci" zapravo pokazuju na istu strukturu. 
+**Jedinac (en. *singleton*) je projektni obrazac koji obezbeđuje da postoji samo jedan globalni objekat određene vrste,** odnosno da klasa ima samo jednu instancu sa globalnom tačkom pristupa. Iako može delovati da ima više primeraka, svi oni zapravo pokazuju na istu strukturu. 
 
-Glavna svrha singltona je da obezbedi jedinstvenu instancu koja upravlja nekim zajedničkim resursima ili stanjem. Klasa koja ga primenjuje ima samo jednu instancu kojom upravlja sama, i sprečava bilo kog drugog da kreira njenu instancu.
+Uloga singltona je da omogući jedan objekat koji upravlja zajedničkim resursima ili stanjem. Klasa koja ga primenjuje ima samo jednu instancu, kojom upravlja sama, i sprečava bilo kog drugog da je kreira.
 
-Singlton je jedan od jednostavnijih obrazaca dizajna. Ovaj obrazac se tako implementira da pokušaj kreiranja nove instance kreira singleton samo za prvi poziv, te vraća pokazivače na njega u narednim pozivima.
+Singlton je jedan od jednostavnijih obrazaca dizajna. Ovaj obrazac se tako implementira da pokušaj kreiranja nove instance kreira singlton samo za prvi poziv, te vraća pokazivače na njega u narednim pozivima.
 
 ## Upotreba
 
