@@ -30,6 +30,7 @@ Poznati programerski anti-obrasci uključuju:
 - **Poltergeist** – Objekti koji postoje samo da bi prosledili podatke drugima.  
 - **Tok lave** (*lava flow*) – Stari, beskoristan kod ostavljen u aplikaciji, koji niko ne sme da ukloni. - **Mrtav kod** (*dead code*) – Kod koji se nikada ne izvršava, ali nije uklonjen.  
 - **Kod za bacanje** (*throwaway code*) - privremeni kod napravljen kao pokazno rešenje ili prototip, bez brige o kvalitetu ili efikasnosti, s namerom da se kasnije zameni. Međutim, takav kod često postane trajan. Kod prototipa, cilj je da se dokaže koncept, ali često završi preopterećen dodacima za impresivnu demonstraciju. 
+- **Samo neka radi** (*keeping it working*) je nastojanje da se projekat održava u funkcionalnom stanju, bez razmišljanja o dugoročnom održavanju i arhitekturi. Ovo se redovno događa kada je fokus na kratkoročnim popravkama i dodavanju novih funkcija, zanemarujući refaktorisanje i tehnički dug. To dovodi do težeg održavanja, sporijeg razvoja i gomilanja grešaka u aplikaciji.
 
 Svaki od anti-obrazaca komplikuje održavanje i čitanje koda, pa ih treba izbegavati.
 
