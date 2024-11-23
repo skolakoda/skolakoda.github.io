@@ -49,4 +49,5 @@ Razlozi nastanka velike blatnjave lopte u softveru su stihijski razvoj bez plani
 ## Literatura
 
 - Jeff Atwood, [*The Big Ball of Mud and Other Architectural Disasters*](https://blog.codinghorror.com/the-big-ball-of-mud-and-other-architectural-disasters/)
+- Bruce M. Van Horn II, *Real-World Implementation of C# Design Patterns*, 2022
 - Addy Osmani, *Learning Javascript Design Patterns*, 2023.

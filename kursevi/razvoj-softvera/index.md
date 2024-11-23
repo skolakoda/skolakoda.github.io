@@ -28,6 +28,8 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 
 ### Principi projektovanja
 
+- [Apstrakcija](/apstrakcija)
+- [Enkapsulacija](/enkapsulacija)
 - SOLID principi:
   - [Princip isključive odgovornosti](/princip-iskljucive-odgovornosti) (**S***ingle responsibility principle*)
   - [Otvoreno-zatvoren princip](/otvoren-zatvoren-princip) (**O***pen/closed principle*)
@@ -37,7 +39,6 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - DRY (*Don't Repeat Yourself*)
 - KISS (*Keep It Simple, Stupid*)
 - YAGNI (*You Aren't Gonna Need It*)
-- [Enkapsulacija i skrivanje informacija](/enkapsulacija)
 - [Inverzija kontrole](/inverzija-kontrole)
   - [Ubrizgavanje zavisnosti](/ubrizgavanje-zavisnosti)
 
