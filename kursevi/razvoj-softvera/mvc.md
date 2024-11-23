@@ -26,6 +26,13 @@ Komponente MVC arhitekture su:
 - Kada se model promeni, on obaveštava prikaz o tim promenama.
 - Prikaz se zatim ažurira kako bi prikazao nove podatke korisniku.
 
+## Koje obrasce koristi
+
+MVC se oslanja na [posmatrački obrazac](/obrazac-posmatrac) za osnovne komunikacije. Kada se model promeni, on obaveštava svoje posmatrače (prikaze) da je nešto ažurirano — što je verovatno najvažniji odnos u MVC-u. Obrazac posmatrača takođe omogućava da se više prikaza poveže sa istim modelom.
+
+Prikazi i kontrolori imaju malo drugačiji odnos. Kontroleri omogućavaju prikazima da reaguju na korisnički unos i predstavljaju primer [obrasca strategije](/obrazac-strategija).
+
 ## Literatura
 
 - Kazi Ljubica: *Osnove industrijskog razvoja softvera (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+- Addy Osmani, *Learning Javascript Design Patterns*, 2023.

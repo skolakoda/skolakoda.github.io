@@ -109,15 +109,21 @@ tipovi.forEach(tip => {
 const randomFrom = arr => arr[Math.floor(Math.random() * arr.length)]
 
 class Zastava {
-  drive() { console.log('Ide Zastava') }
+  drive() { 
+    console.log('Ide Zastava') 
+  }
 }
 
 class Yugo {
-  drive() { console.log('Ide Yugo') }
+  drive() { 
+    console.log('Ide Yugo') 
+  }
 }
 
 class Lada {
-  drive() { console.log('Ide Lada') }
+  drive() { 
+    console.log('Ide Lada') 
+  }
 }
 
 class Factory {
