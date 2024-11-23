@@ -7,9 +7,9 @@ image: /images/koncepti/oop/composite-patter-tree.jpg
 
 ![]({{page.image}})
 
-**Kompozicija (*composite pattern*) je strukturni obrazac koji omogućava tretiranje objekata i kompozicija na isti način, te pruža fleksibilnost u radu sa rekurzivnim strukturama poput stabla.**
+**Kompozicija (*composite pattern*) je projektni obrazac koji omogućuje sastavljanje objekata u strukturu stabla, te tretiranje objekata i njihovih kompozicija na isti način.** 
 
-Kompozitni obrazac organizuje objekte u strukture koje predstavljaju hijerarhije. Obično se operacije nad kompozicijama implementiraju tako što pozivaju ekvivalente operacije nad njihovim komponentama. Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`. 
+Kompozitni obrazac pruža fleksibilnost u radu sa rekurzivnim strukturama, koje predstavljaju hijerarhije. Obično se operacije nad kompozicijama implementiraju tako što pozivaju ekvivalente operacije nad njihovim komponentama. Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`. 
 
 Mnogi tipovi aplikacija, posebno igre, implementiraju kompoziciju za raznorodne kolekcije podataka. 
 
