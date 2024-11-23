@@ -7,15 +7,21 @@ image: /images/koncepti/spaghetti-code.jpg
 
 ![]({{page.image}})
 
-**Anti-obrazac ili anti-šablon (*anti-pattern*) je rešenje koje na prvi pogled deluje kao efikasno ili uobičajeno za određeni problem, ali u praksi dovodi do loših rezultata, otežava održavanje, povećava složenost ili uzrokuje druge probleme u sistemu.** 
+**Anti-obrazac ili anti-šablon (*anti-pattern*) je dokazano loša tehnika ili arhitektonska praksa koje gotovo izvesno stvara probleme u razvoju softvera.** Anti-obrazac je suprotan obrascu dizajna. 
 
-Anti-obrasci se često javljaju zbog neiskustva, brzopletosti ili nedostatka razumevanja posledica određenih odluka u razvoju softvera. Programeri nekad i svesno biraju lakša i privremena rešenja da bi ubrzali isporuku koda. Ona imaju tendenciju da postanu trajna i akumuliraju tehnički dug.
+Anti-obrazac može delovati kao rešenje za određeni problem, ali nanosi više štete nego koristi jer usporava razvoj, otežava održavanje, povećava složenost i uzrokuje druge probleme u sistemu.
 
 Termin *anti-pattern* je skovao Andrew Koenig 1995. godine. On je opisao anti-obrase na sledeći način:
 
 > Anti-obrazac je isto kao obrazac, samo što umesto rešenja daje nešto što površno izgleda kao rešenje, ali to nije.
 
 Prepoznavanje anti-obrazaca je od suštinskog značaja za razvoj softvera, isto kao i poznavanje obrazaca. 
+
+## Uzroci javljanja
+
+Anti-obrasci se često javljaju zbog neiskustva, brzopletosti ili nedostatka razumevanja posledica određenih odluka u razvoju softvera. Programeri nekad i svesno biraju lakša i privremena rešenja da bi ubrzali isporuku koda. Ona imaju tendenciju da postanu trajna i akumuliraju tehnički dug.
+
+Neki antiobrasci su počeli kao legitimni obrasci dizajna, a kasnije proglašeni anti-obrascima.
 
 ## Poznati anti-obrasci
 
@@ -51,3 +57,4 @@ Razlozi nastanka velike blatnjave lopte u softveru su stihijski razvoj bez plani
 - Jeff Atwood, [*The Big Ball of Mud and Other Architectural Disasters*](https://blog.codinghorror.com/the-big-ball-of-mud-and-other-architectural-disasters/)
 - Bruce M. Van Horn II, *Real-World Implementation of C# Design Patterns*, 2022
 - Addy Osmani, *Learning Javascript Design Patterns*, 2023.
+- Carl-Hugo Marcotte, *Architecting ASP.NET Core Applications*, 2024.
