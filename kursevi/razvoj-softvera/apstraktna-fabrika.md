@@ -7,7 +7,7 @@ image: /images/koncepti/oop/Abstract-Factory.webp
 
 ![]({{page.image}})
 
-**Apstraktna fabrika (*abstract factory*) je tvorbeni obrazac koji omogućava kreiranje porodica srodnih objekata bez preciziranja njihovih konkretnih tipova.** 
+**Apstraktna fabrika (*abstract factory*) je tvorbeni obrazac koji omogućava kreiranje porodica srodnih objekata.** Apstraktna fabrika kreira različite konkretne fabrike, koje potom kreiraju specifične objekte.
 
 Apstraktna fabrika definiše interfejs za stvaranje objekata, dok konkretne fabrike implementiraju funkcionalnost za stvaranje specifičnih tipova.
 
