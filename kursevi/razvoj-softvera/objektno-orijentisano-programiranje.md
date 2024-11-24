@@ -2,7 +2,10 @@
 title: Objektno-orijentisano programiranje
 layout: lekcija-razvoj
 permalink: /objektno-orijentisano-programiranje
+image: /images/koncepti/oop/4-stuba.jpeg
 ---
+
+![]({{page.image}})
 
 > Objektno-orjentisan dizajn predstavlja rimske brojeve računarstva.
 >
@@ -11,6 +14,8 @@ permalink: /objektno-orijentisano-programiranje
 ***Objektno-orijentisano programiranje je pristup razvoju računarskih programa koji imitira način na koji su objekti definisani u realnom svetu.***
 
 U okviru objektno-orijentisanog programiranja računarski program se tretira kao niz objekata koji sarađuju u cilju izvršavanja određenog zadatka. Svaki objekat je poseban deo programa, koji interaguje sa drugim delovima programa na specifičan, kontrolisan način.
+
+## Primer iz realnog života
 
 Kao primer iz realnog života, razmotrimo stereo sistem. Najveći broj stereo sistema sastavljen je od velikog broja različitih objekata, koji se najčešće nazivaju komponente, kao što su:
 
@@ -25,4 +30,6 @@ Sve navedene komponente su projektovane tako da interaguju jedne sa drugima kori
 
 U slučaju objektno-orijentisanog programiranja važi potpuno identičan princip: svoj program kreirate kombinujući novokreirane objekte i postojeće objekte, primenjujući prilikom povezivanja odgovarajuće standardne postupke.
 
-Izvor: Lora Limej, Rodžers Kedenhed, *Java 6 naučite za 21 dan*, Beograd, 2007.
+## Literatura
+
+- Lora Limej, Rodžers Kedenhed, *Java 6 naučite za 21 dan*, Beograd, 2007.

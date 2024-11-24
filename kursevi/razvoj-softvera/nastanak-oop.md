@@ -1,5 +1,5 @@
 ---
-title: Kako je nastalo objektno orijentisano programiranje?
+title: Nastanak objektno orijentisanog programiranja
 layout: lekcija-razvoj
 permalink: /nastanak-oop
 image: /images/koncepti/oop/proceduralno-vs-objektno.jpg

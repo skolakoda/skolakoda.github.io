@@ -17,19 +17,17 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 ### Objektno orijentisano programiranje
 
 - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
-  - [Uvod u objektno orijentisano programiranje](https://www.slideshare.net/DamjanPavlica/uvod-u-objektno-orijentisano-programiranje-i-c)
   - [Kako je nastalo objektno orijentisano programiranje?](/nastanak-oop)
-- [Nasleđivanje klasa](/nasledjivanje-klasa)
+- Četiri stuba OOP:
+  - [Apstrakcija](/apstrakcija)
+  - [Enkapsulacija](/enkapsulacija)
+  - [Nasleđivanje](/nasledjivanje-klasa)
   - [Polimorfizam](/polimorfizam)
-  - [Kontrola pristupa](/kontrola-pristupa)
-  - Ograničenja nasleđivanja
+- [Kontrola pristupa](/kontrola-pristupa)
 - [Kompozicija umesto nasleđivanja](/kompozicija-vs-nasledjivanje)
-- [Softverske komponente](/komponente)
 
 ### Principi projektovanja
 
-- [Apstrakcija](/apstrakcija)
-- [Enkapsulacija](/enkapsulacija)
 - Razdvajanje briga
 - SOLID principi:
   - [Princip isključive odgovornosti](/princip-iskljucive-odgovornosti) (**S***ingle responsibility principle*)
@@ -42,6 +40,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - YAGNI (*You Aren't Gonna Need It*)
 - [Inverzija kontrole](/inverzija-kontrole)
   - [Ubrizgavanje zavisnosti](/ubrizgavanje-zavisnosti)
+- [Softverske komponente](/komponente)
 
 ### Projektni obrasci
 
