@@ -7,6 +7,10 @@ image: /images/koncepti/podaci/kockice.jpeg
 
 ![]({{page.image}})
 
+> Ja, u stvari, tvrdim da je razlika između lošeg i dobrog programera u tome da li on smatra svoj kod ili strukture podataka važnijim. Loši programeri brinu o kodu. Dobri programeri brinu o strukturama podataka i njihovim odnosima.
+>
+> -- <cite>Linus Torvalds</cite>
+
 ***U računalnoj znanosti, struktura podataka označava način pohrane podataka koji omogućava njihovu efikasnu uporabu. Dobar odabir strukture podataka često omogućuje efikasniji algoritam obrade.***
 
 Različite strukture podataka odgovaraju različitim vrstama programskih problema, a neke su visoko-specijalizirane samo za određene zadatke. U razvoju složenih sustava, izbor struktura podataka jedan je od najvažnijih koraka. Iskustva razvoja velikih programskih sustava pokazala su da kvaliteta i performanse konačnih rješenja u mnogome ovise o izboru najpogodnijih struktura podataka. Nakon što su odabrane strukture podataka, često je time određen i algoritam kojeg treba upotrijebiti.
@@ -41,6 +45,10 @@ Nelinearne strukture su stabla i grafovi.
 
 ## Statičke i dinamičke strukture
 
+> Najvažniji deo pisanja programa je dizajniranje struktura podataka.
+>
+> -- <cite>Dan Bricklin</cite>
+
 **Strukture podataka možemo podeliti na statičke i dinamičke.** Statičke strukture podataka su fiksne veličine i ta veličina se određuje u fazi kompajliranja programa. U ove strukture podataka spadaju na primer **nizovi**, jer njihovu veličinu zadajemo prilikom deklaracije. Nasuprot statičkim strukturama postoje i dinamičke strukture podataka čija veličina može da se menja u toku izvršavanja programa.
 
 Statičke strukture se brže obrađuju, ali mogu zauzimati mnogo više od potrebne memorije. Dinamičke strukture koriste tačno onoliko memorije koliko je potrebno ali su teže za implementaciju, jer je potrebno implementirati i upravljanje memorijom. Dinamičke strukture se implementiraju korišćenjem pokazivača.
@@ -49,7 +57,7 @@ Jedan primer upotrebe dinamičke strukture je predstavljanje slabo popunjene mat
 
 ## Osnovne operacije
 
-Četiri osnovne operacije se primjenjuju na svim strukturama:
+Četiri osnovne operacije se primjenjuju na svim strukturama podataka:
 
 * **prolaženje** strukture (eng. *traversing*), pristup svakom elementu tačno jedanput, da bi se procesirao
 * **pretraživanje**, pronalaženje lokacije elementa koji sadrži željenu vrijednost ili pronalaženje svih elemenata koji ispunjavaju jedan ili više uvjeta

@@ -7,6 +7,10 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2010-10-30_Gees
 
 ![]({{page.image}})
 
+> Nauka o operacijama, koja je nastala iz matematike, je nauka za sebe, i ima svoju apstraktnu istinu i vrednost.
+>
+> -- <cite>Ada Lovelace</cite>
+
 ***Algoritam je efektivna procedura za rešavanje problema u konačnom broju koraka.***
 
 Svrha svakog algoritma jeste rešavanje određenog problema. Svaki problem odlikuju dve karakteristike: **ulazni i izlazni podaci**. Ovi podaci jesu matematički objekti koji pripadaju nekom konačnom ili prebrojivom skupu, dok se sam problem sastoji u iznalaženju određene uzročno-posledične veze između ulaza i izlaza, metodologije kojom se ulazne veličine transformišu u željeni rezultat.

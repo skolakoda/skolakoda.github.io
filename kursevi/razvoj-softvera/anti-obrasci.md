@@ -46,6 +46,10 @@ Svaki od anti-obrazaca komplikuje održavanje i čitanje koda, pa ih treba izbeg
 
 ![](/images/koncepti/big-ball-of-mud.webp)
 
+> Gradimo naše računarske sisteme kao što gradimo naše gradove: tokom vremena, bez plana, na vrhu ruševina.
+>
+> -- <cite>Ellen Ullman</cite>
+
 **Velika lopta od blata** (*big ball of mud*) je arhitektonski anti-obrazac u kojem je softverski sistem neorganizovan, haotičan i bez jasne arhitekture. Ovaj antiobrazac odlikuju:  
 
 - Loša modularnost i razdvajanje odgovornosti. 

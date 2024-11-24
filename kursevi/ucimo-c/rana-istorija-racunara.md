@@ -22,8 +22,11 @@ Prve mehaničke sprave koje su mogle da potpuno automatski izvode aritmetičke o
 
 ## Mehaničke mašine
 
-Žozef Mari Žakard konstruisao je 1801. godine prvu
-programabilnu mašinu — mehanički tkački razboj koji je koristio bušene kartice kao svojevrsne programe za generisanje kompleksnih šara na tkanini. Svaka rupa na kartici određivala je jedan pokret mašine, a svaki red na kartici odgovarao je jednom redu šare.
+> Možemo najprikladnije reći da analitička mašina tka algebarske obrasce isto kao što Žakardov razboj tka cveće i lišće.
+>
+> -- <cite>Ada Lovelace</cite>
+
+Žozef Mari Žakard konstruisao je 1801. godine prvu programabilnu mašinu — mehanički tkački razboj koji je koristio bušene kartice kao svojevrsne programe za generisanje kompleksnih šara na tkanini. Svaka rupa na kartici određivala je jedan pokret mašine, a svaki red na kartici odgovarao je jednom redu šare.
 
 ![Analitička mašina](//ds-wordpress.haverford.edu/bitbybit/wp-content/uploads/2012/07/Chapter_2-60.jpg)
 
@@ -37,8 +40,7 @@ Ada Bajron zajedno sa Bebidžem napisala je prve programe za analitičku mašinu
 
 ![Hollerith Machine](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/HollerithMachine.CHM.jpg/1024px-HollerithMachine.CHM.jpg)
 
-Elektromehaničke mašine za računanje koristili
-su se od sredine XIX veka do vremena Drugog svetskog rata. Jedna od prvih je mašina za čitanje bušenih kartica koju je konstruisao Herman Holerit. Ova mašina korišćena je 1890. za obradu rezultata popisa stanovništva u SAD. Naime, obrada rezultata popisa iz 1880. godine trajala je više od 7 godina, a zbog naglog porasta broja stanovnika procenjeno je da bi obrada rezultata iz 1890. godine trajala više od 10 godina, što je bilo neprihvatljivo mnogo. Holerit je sproveo ideju da se podaci prilikom popisa zapisuju na mašinski čitljivom medijumu (na bušenim karticama), a da se kasnije obrađuju njegovom mašinom. Koristeći ovaj pristup obrada rezultata popisa uspešno je završena za godinu dana. Od Holeritove male kompanije kasnije je nastala čuvena kompanija IBM.
+Elektromehaničke mašine za računanje koristile su se od sredine XIX veka do vremena Drugog svetskog rata. Jedna od prvih je mašina za čitanje bušenih kartica koju je konstruisao Herman Holerit. Ova mašina korišćena je 1890. za obradu rezultata popisa stanovništva u SAD. Naime, obrada rezultata popisa iz 1880. godine trajala je više od 7 godina, a zbog naglog porasta broja stanovnika procenjeno je da bi obrada rezultata iz 1890. godine trajala više od 10 godina, što je bilo neprihvatljivo mnogo. Holerit je sproveo ideju da se podaci prilikom popisa zapisuju na mašinski čitljivom medijumu (na bušenim karticama), a da se kasnije obrađuju njegovom mašinom. Koristeći ovaj pristup obrada rezultata popisa uspešno je završena za godinu dana. Od Holeritove male kompanije kasnije je nastala čuvena kompanija IBM.
 
 Godine 1941, Konrad Cuze konstruisao je 22-bitnu mašinu računanje Z3 koji je imao izvesne mogućnosti programiranja (podržane su bile petlje, ali ne i uslovni skokovi), te se često smatra i prvim realizovanim programabilnim računarom. Cuzeove mašine tokom Drugog svetskog rata naišle su samo na ograničene primene. Cuzeova kompanija proizvela je oko 250 različitih tipova računara do kraja šezdesetih godina, kada je postala deo kompanije Simens (nem. *Siemens*).
 
@@ -47,6 +49,10 @@ U okviru saradnje kompanije IBM i univerziteta Harvard, tim Hauarda Aikena zavr�
 ## Elektronski računari
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Colossus.jpg/1024px-Colossus.jpg)
+
+> Čovek snabdeven papirom, olovkom i gumicom, i podvrgnut strogoj disciplini, u stvari je univerzalna mašina.
+>
+> -- <cite>Alan Turing</cite>
 
 Elektronski računari koriste se od kraja 1930-ih do danas. Jedan od prvih elektronskih računara ABC (specijalne namene — rešavanje sistema linearnih jednačina) napravili su 1939. godine Atanasov i Beri. Mašina je prva koristila binarni brojevni sistem i električne kondenzatore (engl. *capacitor*) za skladištenje bitova — sistem koji se u svojim savremenim varijantama koristi i danas u okviru tzv. DRAM memorije. Mašina nije bila programabilna.
 

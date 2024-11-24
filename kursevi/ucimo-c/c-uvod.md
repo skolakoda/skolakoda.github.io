@@ -7,6 +7,10 @@ image: https://upload.wikimedia.org/wikipedia/commons/1/1b/Ken_Thompson_and_Denn
 
 ![Dennis Ritchie and Ken Thompson]({{page.image}})
 
+> C je čudan, manjkav i neverovatno uspešan.
+>
+> -- <cite>Dennis Ritchie</cite>
+
 **C je programski jezik opće namjene. Razvio ga je Dennis Ritchie sedamdestih godina prošlog stoljeća, za korišćenje na Unix sistemima, u *Bell Telephone Laboratories Inc*. Iako je napravljen za sistemsko programiranje, takođe se koristi i za programiranje aplikacija.**
 
 C je tijesno je povezan s operativnim sistemom UNIX na kojemu je razvijen, jer su i sistem i većina programa koji rade na UNIX-u napisani baš u C-u. Jezik, ipak, nije vezan samo za jedan operativni sistem ili računalo; iako je nazvan "jezikom za sistemsko programiranje" zato što se koristi pri pisanju prevoditelja i operativnih sistema, podjednako se dobro koristi za programiranje u drugim područjima. Većina bitnih ideja C-a potječe od jezika BCPL. Utjecaj BCPL-a na C ostvaren je indirektno preko B jezika koji je 1970. napisao Ken Thompson za prvi UNIX sistem na [PDP-7](https://en.wikipedia.org/wiki/PDP-7) računalu. BCPL i B su jezici bez "tipova podataka". Nasuprot njemu, C nudi mnoštvo različitih tipova podataka.

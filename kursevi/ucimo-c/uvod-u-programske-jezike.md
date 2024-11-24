@@ -20,9 +20,9 @@ Međutim, prirodni jezici nisu ravni računarskim jezicima po preciznosti. Na pr
 
 ## Jezici nižih i viših nivoa
 
-> Jezik koji nema sve je zapravo lakši za programiranje u tome što ima.
+> Programski jezik je niskog nivoa kada njegovi programi zahtevaju pažnju za irelevantno.
 >
-> -- <cite>Dennis Ritchie</cite>
+> -- <cite>Alan Perlis</cite>
 
 Baš kao što postoji više prirodnih jezika, tako postoji i više programskih jezika. Razni jezici se generalno klasifikuju u jezike niskog i visokog nivoa. Što više programski jezik liči na prirodni jezik, to je njegov nivo viši. Sa jezicima niskog nivoa teže je raditi, ali oni obično proizvode programe koji su manji i brži.
 
@@ -33,5 +33,9 @@ Baš kao što postoji više prirodnih jezika, tako postoji i više programskih j
 * Na još višem nivou, jezici kao što su `C` i `Java` omogućavaju programerima da pišu programe koristeći reči i izraze koji su sličniji engleskom jeziku. Pored toga, programeri koji koriste ove jezike ne moraju da brinu oko takvih detalja kao što su registri. Ovi jezici su veoma rasprostranjeni i velika većina programa se piše u njima. Ne pripadaju najvišem nivou, jer je u njima moguće napisati i programe za razne mašine i njihove delove.
 
 * Na najvišem nivou su jezici, kao što su `BASIC`, `Visual Basic`, `Pascal`, `Delphi`… Oni služe za pisanje aplikacija na računarima.
+
+> LISP je pomogao brojnim najnadarenijim ljudima da misle prethodno nezamislive misli.
+>
+> -- <cite>Edsger W. Dijkstra</cite>
 
 Izvor: [profesorka.wordpress.com](https://profesorka.wordpress.com/)
