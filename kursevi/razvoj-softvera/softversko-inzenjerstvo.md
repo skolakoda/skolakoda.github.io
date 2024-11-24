@@ -24,6 +24,10 @@ Softversko inženjerstvo može se smatrati znanstvenom disciplinom no također i
 
 ## Softversko inženjerstvo kao profesija
 
+> Preko pola vremena koje provedeš radeći na projektu je razmišljanje, i nema alatke, ma koliko bila napredna, koja može razmišljati umesto tebe.
+>
+> -- <cite>Richard P. Gabriel</cite>
+
 Softversko inženjerstvo također je i profesija. U mnogim zemljama softverski inženjeri organizirani su u strukovne udruge koje štite njihova prava ali donekle i ograničavaju slobodu njihovog djelovanja. Primjeri takvih udruga su ACM, IEEE-CS i British Computer Society. Udruge donose pravila ponašanja za svoje članove. Postoji i etički kodeks softverskih inženjera kojeg su zajednički usvojili ACM i IEEE-CS.
 
 Posao softverskog inženjera ne predstavljaju samo klase, algoritmi i tehnologije. Veći deo posla softverskog inženjera čine razumevanje zahteva, refaktorisanje, pisanje testova, pronalaženje defekata, kontinualna integracija koda, procesi razvoja projekta i ostalo.

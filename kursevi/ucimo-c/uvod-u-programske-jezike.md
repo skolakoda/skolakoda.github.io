@@ -6,6 +6,10 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Bangalore_India
 ---
 ![]({{page.image}})
 
+> Postoji samo dve vrste jezika: oni na koje se ljudi žale i oni koje niko ne koristi.
+>
+> -- <cite>Bjarne Stroustrup</cite>
+
 **Jezik je osnovno sredstvo sporazumevanja ljudi. Koristeći jezik saznajemo nove informacije i delimo svoje znanje, osećanja i iskustva sa drugima. Jezikom možemo izraziti svaku misao i opisati svaki događaj. Svet se kontroliše kroz jezik. Svi koriste jezik za davanje uputstva drugima, kao i za prikupljanje informacija.**
 
 Jezik je neophodan i za računar. Softver se pravi pomoću specijalnih jezika koji izdaju naredbe računaru. Pored toga, jezik definiše podatke sa kojima će te naredbe raditi. Računarski jezik je sličan ljudskom jeziku. Imenice, glagoli, predlozi i objekti iz jezika imaju svoje odgovarajuće elemente u programskom kodu – redovima teksta koji se prevode u programe. Ali softverske rečenice imaju posebnu sintaksu, a reči od kojih se sastoji jezik imaju svoje precizno značenje.
@@ -15,6 +19,10 @@ Računarski jezik je mnogo strožiji i ograničeniji od prirodnog jezika. Jedna 
 Međutim, prirodni jezici nisu ravni računarskim jezicima po preciznosti. Na primer, pokušajte da opišete spiralu bez upotrebe svojih ruku. To je nemoguće na prirodnom jeziku. Ali pošto je matematika integralni deo računarskih jezika, ovi jezici ne samo da mogu opisati spiralu, nego i obezbediti naredbe za prikazivanje slike te spirale na monitoru.
 
 ## Jezici nižih i viših nivoa
+
+> Jezik koji nema sve je zapravo lakši za programiranje u tome što ima.
+>
+> -- <cite>Dennis Ritchie</cite>
 
 Baš kao što postoji više prirodnih jezika, tako postoji i više programskih jezika. Razni jezici se generalno klasifikuju u jezike niskog i visokog nivoa. Što više programski jezik liči na prirodni jezik, to je njegov nivo viši. Sa jezicima niskog nivoa teže je raditi, ali oni obično proizvode programe koji su manji i brži.
 

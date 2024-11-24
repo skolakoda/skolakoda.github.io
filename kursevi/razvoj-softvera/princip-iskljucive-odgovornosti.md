@@ -7,11 +7,11 @@ image: /images/koncepti/oop/SingleResponsibility.png
 
 ![]({{page.image}})
 
-**Princip isključive odgovornosti (*Single responsibility principle*, skraćeno SRP) glasi da svaka komponenta treba da ima samo jednu odgovornost, odnosno jedan razlog za promenu.**
-
 > Nikada ne treba da postoji više od jednog razloga za promenu klase.
 >
-> -- <cite>Robert C. Martin, tvorac principa</cite>
+> -- <cite>Robert C. Martin</cite>
+
+**Princip isključive odgovornosti (*Single responsibility principle*) glasi da svaka komponenta treba da ima samo jednu odgovornost, odnosno jedan razlog za promenu.**
 
 To znači da je svaka komponenta odgovorna samo za obavljanje jednog određenog posla. Kada se javi potreba za njenom promenom, trebalo bi da to ne utiče na ostatak sistema.
 

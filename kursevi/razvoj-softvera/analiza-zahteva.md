@@ -4,6 +4,10 @@ layout: lekcija-razvoj
 permalink: /analiza-zahteva
 ---
 
+> Najvažniji pojedini aspekt razvoja softvera je biti načisto oko toga šta pokušavaš da napraviš.
+>
+> -- <cite>Bjarne Stroustrup</cite>
+
 **S obzirom na to da se softver obično piše za naručioce, u procesu analize i specifikovanja problema vrši se intenzivna komunikacija analitičara sa njima.**
 
 Kada se softver pravi po narudžbini, naručioci mogu da budu krajnji korisnici ili njihovi predstavnici, ali čest slučaj u velikim kompanijama je da ulogu naručioca preuzimaju radnici zaposleni u odeljenju prodaje ili marketinga (koji imaju ideju kakav proizvod bi kasnije mogli da prodaju).
@@ -28,5 +32,10 @@ Obim posla često se izražava u terminima broja potrebnih čovek-meseci (1 čov
 
 Rezultat analize je precizna specifikacija problema. Specifikacijom je potrebno što preciznije opisati problem, prirodu ulaznih podataka i oblik u kome se žele rešenja — izlazni rezultati. Specifikacija programa bavi se pitanjem šta program treba da uradi, kojom brzinom, koja mu je maksimalna dozvoljena veličina, itd. Kada je problem precizno specifikovan, prelazi se na sledeće faze u kojima se modeluje i dizajnira rešenje specifikovanog problema.
 
+> Napravi procenu, udvostruči broj, a onda pređi na narednu jedinicu vremena. Ovo pravilo skalira zadatke na veoma interesantan način: jednominutni zadatak eksplodira stepenom od 120 da uzme dva časa. Jednočasovni zadatak eksplodira \"samo\" stepenom 48 na dva dana, dok jednodnevni posao poraste stepenom od 14 na dve sedmice.
+>
+> -- <cite>Poul-Henning Kamp</cite>
 
-Izvor: Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Beograd, 2017.
+## Literatura
+
+- Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Beograd, 2017.
