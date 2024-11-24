@@ -7,13 +7,15 @@ image: /images/koncepti/spaghetti-code.jpg
 
 ![]({{page.image}})
 
+> Ako je debagovanje proces uklanjanja bagova, onda programiranje mora biti proces njihovog umetanja.
+>
+> -- <cite>Edsger W. Dijkstra</cite>
+
 **Anti-obrazac ili anti-šablon (*anti-pattern*) je dokazano loša tehnika ili arhitektonska praksa koje gotovo izvesno stvara probleme u razvoju softvera.** Anti-obrazac je suprotan obrascu dizajna. 
 
 Anti-obrazac može delovati kao rešenje za određeni problem, ali nanosi više štete nego koristi jer usporava razvoj, otežava održavanje, povećava složenost i uzrokuje druge probleme u sistemu.
 
-Termin *anti-pattern* je skovao Andrew Koenig 1995. godine. On je opisao anti-obrase na sledeći način:
-
-> Anti-obrazac je isto kao obrazac, samo što umesto rešenja daje nešto što površno izgleda kao rešenje, ali to nije.
+Termin *anti-pattern* je skovao Andrew Koenig 1995. godine, koji ga je opisao na sledeći način: "*Anti-obrazac je isto kao obrazac, samo što umesto rešenja daje nešto što površno izgleda kao rešenje, ali to nije*."
 
 Prepoznavanje anti-obrazaca je od suštinskog značaja za razvoj softvera, kao i poznavanje obrazaca. Indikator mogućeg problema u kodu naziva se **kodni zapah** (*code smell*).
 

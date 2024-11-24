@@ -4,7 +4,9 @@ layout: lekcija-razvoj
 permalink: /faze-razvoja-programa
 ---
 
-![](/images/fore/faze-razvoja-softvera.jpg)
+> Postoje dva načina izgradnje softvera: Jedan je napraviti ga toliko prostim da očigledno nema nedostataka, a drugi je napraviti ga toliko komplikovanim da nema očiglednih nedostataka. Prva metoda je puno teža.
+>
+> -- <cite>Tony Hoare</cite>
 
 ***Proces razvoja softvera je vremenom evoluirao. U početku, softver je bio vrlo jednostavan i programeri su mogli da ga generišu direktnim pisanjem koda. Nije bilo nikakvog planiranja, već se na osnovu nekoliko odluka formirao sistem.***
 
@@ -31,5 +33,6 @@ Na kraju sledi završno testiranje u kome se proverava da li sistem ispunjava po
 
 - **održavanje**. Ovo je dugotrajna faza u kojoj se ispravljaju greške u sistemu koje se javljaju nakon njegove isporuke. Takođe se radi i na daljem unapređenju pojedinih delova sistema u skladu sa zahtevima korisnika ili promenama u okruženju.
 
+## Literatura
 
-Izvor: Violeta Tomašević, *Razvoj aplikativnog softvera*, Beograd, 2012.
+- Violeta Tomašević, *Razvoj aplikativnog softvera*, Beograd, 2012.

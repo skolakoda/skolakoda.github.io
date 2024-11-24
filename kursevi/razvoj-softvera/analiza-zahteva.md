@@ -4,8 +4,6 @@ layout: lekcija-razvoj
 permalink: /analiza-zahteva
 ---
 
-![](https://www.qtsin.com/img/Analysis.jpg)
-
 **S obzirom na to da se softver obično piše za naručioce, u procesu analize i specifikovanja problema vrši se intenzivna komunikacija analitičara sa njima.**
 
 Kada se softver pravi po narudžbini, naručioci mogu da budu krajnji korisnici ili njihovi predstavnici, ali čest slučaj u velikim kompanijama je da ulogu naručioca preuzimaju radnici zaposleni u odeljenju prodaje ili marketinga (koji imaju ideju kakav proizvod bi kasnije mogli da prodaju).
@@ -14,7 +12,9 @@ Tokom sastanaka često se najpre vrši analiza postojećih rešenja (na primer, 
 
 ## Procena dužine i cene razvoja
 
-![](/images/fore/procena.gif)
+> Prva lažna pretpostavka koja podriva rokove razvoja softvera je da će sve proći dobro, tj. da će svaki zadatak trajati samo koliko "treba" da traje. Veliki programerski projekti se, pak, sastoje od mnogo zadataka, od kojih su neki ulančani od početka do kraja. Verovatnoća da će sve proći dobro postaje nestvarno mala.
+>
+> -- <cite>Fred Brooks</cite>
 
 Pored precizne analize zahteva, zadatak analize je i da se naprave **procene obima, cene i vremena** potrebnog da se projekat realizuje. Preciznije, analiza treba da proceni:
 

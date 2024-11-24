@@ -7,7 +7,11 @@ image: /images/koncepti/software-product.png
 
 ![]({{page.image}})
 
-**Softversko inženjerstvo je disciplina koja se bavi svim aspektima proizvodnje softvera - modelima, metodama i alatima potrebnim da bi što jeftinije mogli proizvoditi što kvalitetnije softverske proizvode.** 
+> Najveći izazov za programera je da se ne zbuni pred kompleksnošću sopstvene tvorevine.
+>
+> -- <cite>Edsger W. Dijkstra</cite>
+
+**Softversko inženjerstvo je disciplina koja se bavi svim aspektima proizvodnje softvera - modelima, metodama i alatima potrebnim da bi mogli proizvoditi kompleksne softverske proizvode.** 
 
 Softversko inženjerstvo je složen proces za koji je potrebno naučiti veliki broj principa, alata i tehnika kako bismo bili uspešni u tom poslu. No, stručnost se ne stiče učenjem velikog broja tehnologija, alata i jezika ili praćenjem trendova, nego temeljnim poznavanjem principa softverskog inženjerstva.
 
