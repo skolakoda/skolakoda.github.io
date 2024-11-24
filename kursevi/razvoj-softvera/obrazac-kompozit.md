@@ -1,24 +1,25 @@
 ---
-title: Kompozicija (projektni obrazac)
+title: Kompozit (projektni obrazac)
 layout: lekcija-razvoj
-permalink: /obrazac-kompozicija
+permalink: /obrazac-kompozit
+redirect_from: /obrazac-kompozicija
 image: /images/koncepti/oop/composite-patter-tree.jpg
 ---
 
 ![]({{page.image}})
 
-**Kompozicija (*composite pattern*) je projektni obrazac koji omogućuje sastavljanje objekata u strukturu stabla, te tretiranje objekata i njihovih kompozicija na isti način.** 
+**Kompozit (*composite pattern*) je projektni obrazac koji omogućuje sastavljanje objekata u strukturu stabla, te tretiranje objekata i kompozitnih objekata na isti način.** 
 
-Kompozitni obrazac pruža fleksibilnost u radu sa rekurzivnim strukturama, koje predstavljaju hijerarhije. Obično se operacije nad kompozicijama implementiraju tako što pozivaju ekvivalente operacije nad njihovim komponentama. Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`. 
+Kompozitni obrazac pruža fleksibilnost u radu sa rekurzivnim strukturama, koje predstavljaju hijerarhije. Operacije nad kompozitima se implementiraju pozivanjem ekvivalentnih operacija nad njihovim komponentama. Tipične operacije uključuju `add`, `remove`, `display`, `find` i `group`. 
 
-Mnogi tipovi aplikacija, posebno igre, implementiraju kompoziciju za raznorodne kolekcije podataka. 
+Mnoge aplikacije, posebno igre, implementiraju kompozitni obrazac za raznorodne kolekcije podataka. 
 
 ## Delovi 
 
 Kompozitni obrazac ima sledeće delove: 
-- **komponenta** (*component*), apstraktna klasa ili interfejs koji definiše zajedničke metode koje moraju implementirati listovi i kompozicije.
+- **komponenta** (*component*), apstraktna klasa ili interfejs koji definiše zajedničke metode koje moraju implementirati listovi i kompoziti.
 - **list** (*leaf*), pojedinačni objekt koji nema podkomponente.
-- **kompozicija** (*composite*), složeni objekat koji ima podkomponente (listove ili druge kompozicije).
+- **kompozit** (*composite*), složeni objekat koji ima podkomponente (listove ili druge kompozite).
 
 <!-- ![](/images/koncepti/oop/composite_pattern.jpg) -->
 
@@ -65,7 +66,7 @@ public class Product : Item
     }
 }
 
-// kompozicija
+// kompozit
 public class Box : Item
 {
     private List<Item> items = new List<Item>();

@@ -59,7 +59,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Dekorator](/obrazac-dekorator)
   - [Fasada](/obrazac-fasada)
   - [Most](/obrazac-most)
-  - [Kompozicija](/obrazac-kompozicija)
+  - [Kompozit](/obrazac-kompozit)
   - [Posrednik (*proxy*)](/obrazac-proxy)
   - [Mušičja težina (*flyweight*)](/obrazac-flyweight)
   - [Modul](/obrazac-modul)

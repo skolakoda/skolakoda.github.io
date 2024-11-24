@@ -7,7 +7,7 @@ image: /images/koncepti/oop/kompozicija-vs-nasledjivanje.jpg
 
 ![]({{page.image}})
 
-**Kompozicija objekata (*object composition*) je princip softverskog dizajna gde se objekti prave kombinovanjem manjih, nezavisnih objekata koji obavljaju specifične zadatke.** Umesto da klasa nasleđuje funkcije od roditeljske klase, ona koristi zasebne klasa (komponente) za postizanje željenog ponašanja.
+**Kompozicija objekata (*object composition*) je princip softverskog dizajna gde se objekti prave kombinovanjem manjih nezavisnih objekata koji obavljaju specifične zadatke.** Umesto da klasa nasleđuje funkcije od roditeljske klase, ona koristi zasebne klasa (komponente) za postizanje željenog ponašanja.
 
 ## Karakteristike
 
