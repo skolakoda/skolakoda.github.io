@@ -2,7 +2,7 @@
 title: Stanje (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-stanja
-image: /images/koncepti/oop/state-machine.jpg
+image: /images/koncepti/oop/Basic-States.webp
 ---
 
 ![]({{page.image}})
@@ -26,6 +26,8 @@ Obrazac stanja ima sličnosti sa modelom strategije.
 Bazična veštačka inteligencija u igrama se implementira pomoću obrasca stanja. AI uglavnom ima nekoliko stanja koje smisleno menja, kao što su napadanje, lutanje, bežanje. Svako stanje može imati svoju `update()` metodu i druge potrebne podatke (npr. lika koji juri, oblast kojom luta, itd.).
 
 ## Primer
+
+![](/images/koncepti/oop/state-machine.jpg)
 
 Uzmimo automat za prodaju pića. Automat može biti u različitim stanjima, kao što su "bez novca", "sa novcem", "prodaja". Svako od ovih stanja ima svoje ponašanje kada korisnik izvrši određenu akciju (npr. umetanje novca, izbor pića). Umesto da se koristi kompleksna logika za upravljanje svim mogućim slučajevima, svako stanje sadrži specifičnu logiku za to stanje.
 
