@@ -79,5 +79,7 @@ class HtmlPrinter: Printer {
 
 U okviru ovog prostog primera možemo videti razdvajanje prezentacione od poslovne logike, što predstavlja SRP princip. Primenom ovog principa dobijamo veliku prednost u fleksibilnosti našeg softvera.
 
+## Literatura
 
-Izvor: Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+- Zdravko Ivanković i Dejan Lacmanović, *Softversko inženjerstvo 2 (skripta)*, Tehnički fakultet Mihajlo Pupin, Zrenjanin
+- Carl-Hugo Marcotte, *Architecting ASP.NET Core Applications*, 2024.
