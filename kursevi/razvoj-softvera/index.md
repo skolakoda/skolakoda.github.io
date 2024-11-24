@@ -88,7 +88,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 - [Model ravnopravnih partnera](/model-ravnopravnih-partnera) (*peer-to-peer*)
 - Mikroservisi
 - Mikro frontendi
-- Cloud arhitektura
+- [Cloud arhitektura](/cloud-arhitektura)
   - Arhitektura bez servera (*serverless*)
 
 ### Faze razvoja softvera
