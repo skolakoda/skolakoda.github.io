@@ -12,7 +12,6 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 ### Uvod
 
 - [Uvod u softversko inženjerstvo](/softversko-inzenjerstvo)
-- Softverska arhitektura i softverski dizajn
 - [Verovali ili ne](/verovali-ili-ne)
 
 ### Objektno orijentisano programiranje
@@ -24,7 +23,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
   - [Polimorfizam](/polimorfizam)
   - [Kontrola pristupa](/kontrola-pristupa)
   - Ograničenja nasleđivanja
-  - [Kompozicija vs nasleđivanje](/kompozicija-vs-nasledjivanje)
+- [Kompozicija umesto nasleđivanja](/kompozicija-vs-nasledjivanje)
 - [Softverske komponente](/komponente)
 
 ### Principi projektovanja
@@ -79,6 +78,7 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 
 ### Arhitektonski obrasci
 
+- [Arhitektura softvera](/arhitektura-softvera)
 - Klijent-server model
 - [Višeslojna arhitektura](/viseslojna-arhitektura) (*n-tier*)
 - [Model–view–controller (MVC)](/mvc)
