@@ -24,9 +24,10 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 - [Vektori](/vektori)
 
-### Arhitektura
+### Koncepti igre
 
-- [Razdvajanje briga](/razdvajanje-briga-u-igrama)
 - [Glavna petlja](/glavna-petlja)
-- [Delta vreme](/delta-vreme)
-- [Fiksni vremenski korak](/fiksni-vremenski-korak)
+  - [Delta vreme](/delta-vreme)
+  - [Fiksni vremenski korak](/fiksni-vremenski-korak)
+  - [Upravljanje korisničkim unosom](/korisnicki-unos-u-igrama)
+- [Razdvajanje briga](/razdvajanje-briga-u-igrama)
