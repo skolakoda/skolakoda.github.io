@@ -1,6 +1,6 @@
 ---
 title: Vektori za game developere
-layout: post
+layout: lekcija-razvoj-igara
 author: damjan
 permalink: /vektori
 ---

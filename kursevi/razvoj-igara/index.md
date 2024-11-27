@@ -11,8 +11,14 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 ### Geometrija
 
+- [Kako napraviti kružnu animaciju pomoću trigonometrije?](/trigonometrija-animacija)
+
 ### Matematika
 
 ### Fizika
 
+- [Njutnovi zakoni](/njutnovi-zakoni)
+
 ### Vektori
+
+- [Vektori](/vektori)

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: lekcija-razvoj-igara
 title: Kako napraviti kružnu animaciju pomoću trigonometrije?
 author: damjan
 image: /images/koncepti/circle_cos_sin.gif
