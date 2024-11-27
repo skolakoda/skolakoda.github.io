@@ -1,17 +1,3 @@
-# Delta vreme
-
-Delta vreme (elapsed time or *delta time*, skraćeno *dt*) je vreme trajanja prethodnog kadra. Zavisi od brzine računara i količine računanja u tom trenutku. Obzirom da trajanje kadrova varira, animacija je brža kad su kadrovi kraći, a sporija kad su kadrovi duži.
-
-Delta vreme se koristi kao korektor da bi animacija bila nezavisna od učestalosti kadrova (*frame rate*):
-
-```js
-const speed = 8
-
-update ()
-{
-    mesh.position += new Vector3(speed * deltaTime, 0, 0);
-}
-```
 
 ## Fiksiran vremenski razmak (*fixed timestep*)
 

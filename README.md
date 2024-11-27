@@ -44,6 +44,7 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
 
 ## TODO
 
+- srediti jebeni css
 - teorija razvoja igara
     - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
     - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara

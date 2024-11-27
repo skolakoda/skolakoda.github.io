@@ -4,11 +4,13 @@ layout: lekcija-razvoj-igara
 permalink: /delta-vreme
 ---
 
-**Delta vreme (*delta time*) predstavlja trajanje jednog kadra iliti interval između dva uzastopna kadra u igri. U razvoju igara koristi se za ujednačenje pokreta, bez obzira na brzinu osvežavanja ekrana (FPS).**
+**Delta vreme (*delta time*) je vreme trajanja prethodnog kadra, iliti interval između dva uzastopna kadra u igri. Zavisi od brzina osvežavanja ekrana, jačine računara i količine računanja u tom trenutku.**
 
-Tako, ako se kadar brže menja, onda predmet pomoću delta vremena pomeramo sporije, i obratno. 
+Obzirom da trajanje kadrova varira, animacija je brža kad su kadrovi kraći, a sporija kad su kadrovi duži. Stoga delta vreme koristimo kao korektor, da bi animacija bila nezavisna od učestalosti kadrova (*frame rate*). Sa delta vremenom, ako je kadar brži predmet u igri se kreće sporije, i obratno, ako je kadar sporiji predmet se kreće brže, kako bi vizuelni utisak ostao isti. 
 
-## Objašnjenje
+Delta vreme se koristi kao korektor da bi animacija bila nezavisna od učestalosti kadrova (*frame rate*):
+
+## Upotreba
 
 Delta vreme se obično koristi na sledeći način:
 
@@ -16,7 +18,17 @@ Delta vreme se obično koristi na sledeći način:
 noviPolozaj = polozaj + brzina * deltaVreme
 ``` 
 
-Ako je brzina ekrana 60 kadrova po sekundi, onda je delta vreme 60-ti deo sekunde:
+Što bi u JS kodu izgledalo otprilike ovako:
+
+```js
+mesh.position = mesh.position + new Vector3(speed * deltaTime, 0, 0)
+```
+
+Tako predmet uvek ide istom brzinom, bez obzira na brzinu ekrana.
+
+## Vrednost delta vremena
+
+Delta vreme ponajviše zavisi od brzine osvežavanja ekrana (FPS). Ako je brzina ekrana 60 kadrova po sekundi, onda je delta vreme 60-ti deo sekunde:
 
 ```
 deltaVreme = 1s / 60 
@@ -29,8 +41,6 @@ Ako je brzina ekrana 30 frejmova po sekundi, onda je delta vreme 30-ti deo sekun
 deltaVreme = 1s / 30 
            = 0.033 s
 ```
-
-Tako predmet uvek ide istom brzinom, bez obzira na brzinu ekrana.
 
 ## Glavna petlja sa delta vremenom
 
