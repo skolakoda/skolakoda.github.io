@@ -30,4 +30,5 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
   - [Delta vreme](/delta-vreme)
   - [Fiksni vremenski korak](/fiksni-vremenski-korak)
   - [Upravljanje korisničkim unosom](/korisnicki-unos-u-igrama)
+  - [Simulacija fizike](/simulacija-fizike-u-igrama)
 - [Razdvajanje briga](/razdvajanje-briga-u-igrama)
