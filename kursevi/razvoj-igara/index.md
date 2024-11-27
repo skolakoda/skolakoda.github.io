@@ -9,6 +9,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 ### Uvod
 
+
 ### Geometrija
 
 - [Kako napraviti kružnu animaciju pomoću trigonometrije?](/trigonometrija-animacija)
@@ -22,3 +23,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 ### Vektori
 
 - [Vektori](/vektori)
+
+### Arhitektura
+
+- [Razdvajanje briga](/razdvajanje-briga-u-igrama)
