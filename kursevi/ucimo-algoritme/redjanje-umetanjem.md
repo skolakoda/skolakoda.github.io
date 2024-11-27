@@ -20,7 +20,7 @@ Ređanje sličica po brojevima:
 
 Postupak ponavljaš sve dok sve karte ne budu složene od najmanje do najveće.
 
-![](/images/koncepti/slicice.jpg)
+![](/images/koncepti/algoritmi/slicice.jpg)
 
 ## Implementacija
 

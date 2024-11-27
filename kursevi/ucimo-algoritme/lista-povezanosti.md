@@ -9,7 +9,7 @@ redirect_from: /lista-susedstva
 
 Na slici 2 vidimo vidimo listu susjeda koja odgovara grafu sa slike 1.
 
-![](/images/koncepti/grafovi/lista-susedstva.png)
+![](/images/koncepti/podaci/lista-susedstva.png)
 
 Kao što možemo vidjeti u prvom redu pišemo susjede čvora A, u drugom susjede čvora B itd. Da bi postigli efekat grbave matrice ne možemo koristiti obično dvodimenzionalno polje, nego su nam potrebni vektori.
 
