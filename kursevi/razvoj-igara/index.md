@@ -29,3 +29,4 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Razdvajanje briga](/razdvajanje-briga-u-igrama)
 - [Glavna petlja](/glavna-petlja)
 - [Delta vreme](/delta-vreme)
+- [Fiksni vremenski korak](/fiksni-vremenski-korak)
