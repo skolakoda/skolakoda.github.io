@@ -2,11 +2,8 @@
 title: Višestruko vraćanje vrednosti
 layout: lekcija-napredni-js
 author: damjan
-image: /images/apstraktno/cigle.jpg
 permalink: /visestruko-vracanje-vrednosti
 ---
-
-<img src="{{page.image}}" class="full">
 
 ***Svima je poznato da funkcije vraćaju vrednost, ali manje je poznato da funkcije mogu sadržati više `return` naredbi.***
 
