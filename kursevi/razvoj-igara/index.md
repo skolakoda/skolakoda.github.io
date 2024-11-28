@@ -31,4 +31,9 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
   - [Fiksni vremenski korak](/fiksni-vremenski-korak)
   - [Upravljanje korisničkim unosom](/korisnicki-unos-u-igrama)
   - [Simulacija fizike](/simulacija-fizike-u-igrama)
+
+### Arhitektura igre
+
 - [Razdvajanje briga](/razdvajanje-briga-u-igrama)
+- Osnovne klase
+  - [Klasa Scena](/klasa-scena)
