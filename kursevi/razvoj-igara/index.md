@@ -37,3 +37,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Razdvajanje briga](/razdvajanje-briga-u-igrama)
 - [Klasa Scena](/klasa-scena)
 - [Fizičko telo](/fizicko-telo)
+
+### Sadržaj igre
+
+- [Obrasci avanture](/obrasci-avanture)
