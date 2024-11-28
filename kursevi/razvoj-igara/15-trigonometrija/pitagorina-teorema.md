@@ -1,26 +1,30 @@
-# Pitagorina teorema
+---
+title: Pitagorina teorema
+layout: lekcija-razvoj-igara
+permalink: /pitagorina-teorema
+---
 
 Pitagorina teorema glasi:
+
 ```
-a^2 + b^2 = c^2
+a² + b² = c²
 ```
+
 gde su `a` i `b` kraće stranice trougla a `c` je hipotenuza.
 
-![pitagorina-teorema-primena](slike/pitagorina-teorema-primena.jpg)
+![pitagorina-teorema-primena](/images/razvoj-igara/pitagorina-teorema-primena.jpg)
 
 Pitagorina teorema važi samo za pravougle trouglove.
 
-# Primena
-
-## Rastojanje između dve tačke
+## Primer: rastojanje između dve tačke
 
 Često u programiranju želimo da znamo rastojanje između dve tačke na ekranu.
 
-![rastojanje](slike/rastojanje.png)
+![rastojanje](/images/razvoj-igara/rastojanje.png)
 
 Najlakši način da to izračunamo je Pitagorina teorema.
 
-![rastojanje-izmedju-tacaka](slike/distance.png)
+![rastojanje-izmedju-tacaka](/images/razvoj-igara/distance.png)
 
 Pravolinijska razdaljina između dve tačke se naziva Euklidskom razdaljinom. 
 
@@ -34,8 +38,8 @@ distance = Math.sqrt(a*a + b*b)
 3D primer uključuje i `z` osu:
 
 ```js
-x = x2 − x1
-y = y2 − y1
-z = z2 − z1
+x = x2 - x1
+y = y2 - y1
+z = z2 - z1
 distance = Math.sqrt(x*x + y*y + z*z)
 ```
