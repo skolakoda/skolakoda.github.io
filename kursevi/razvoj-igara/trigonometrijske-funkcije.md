@@ -82,9 +82,7 @@ Tangens se može odrediti i ovako:
 
 To znači da je tangens kombinacija sinus i kosinus funkcija. 
 
-https://jsfiddle.net/mudroljub/c10hjzqe/
-
-<script async src="//jsfiddle.net/mudroljub/c10hjzqe/embed/"></script>
+<script async src="//jsfiddle.net/mudroljub/c10hjzqe/embed/result/"></script>
 
 # Inverzne trigonometrijske funkcije
 
