@@ -4,29 +4,27 @@ layout: lekcija-razvoj-igara
 permalink: /trigonometrijske-funkcije
 ---
 
+![trigonometrijske-funkcije](/images/razvoj-igara/trigonometrijske-funkcije.png)
+
 **Trigonometrijske funkcije povezuju ugao pravouglog trougla sa odnosom dužina dve stranice.** Mogu služiti za računanje nepoznatog ugla ili stranice trougla, a imaju i mnoge druge namene.
 
-Koriste se i za krugove, jer oni imaju uglove, kao i neku vrtsu hipotenuze (poluprečnik). Ugao unutar kruga može iznositi bilo koju pozitivnu, pa čak i negativnu vrednost (za razliku od trougla).
+Koriste se i za krugove, jer oni imaju uglove i hipotenuzu (poluprečnik). Za razliku od trougla, ugao unutar kruga može iznositi bilo koju pozitivnu, pa čak i negativnu vrednost.
+
+## Formule 
 
 Najpoznatije trigonometrijske funkcije su **sinus**, **kosinus** i **tangens**:
 
-\[
-\text{sinus}(\alpha) = \frac{\text{naspramna strana}}{\text{hipotenuza}}
-\]
-\[
-\text{kosinus}(\alpha) = \frac{\text{priležeća strana}}{\text{hipotenuza}}
-\]
-\[
-\text{tangens}(\alpha) = \frac{\text{naspramna}}{\text{priležeća strana}}
-\]
+```
+sinus(α) = naspramna strana / hipotenuza  
+kosinus(α) = ležeća strana / hipotenuza  
+tangens(α) = naspramna / ležeća strana
+```
 
-Možemo ih pamtiti po engleskim skraćenicama SOH, CAH, TOA:
+Trigonometrijske formule možemo pamtiti po engleskim skraćenicama SOH, CAH, TOA:
 
 * **s**in(α) = **o**pposite / **h**ypotenuse
 * **c**os(α) = **a**djacent / **h**ypotenuse
 * **t**an(α) = **o**pposite / **a**djacent
-
-![trigonometrijske-funkcije](/images/razvoj-igara/trigonometrijske-funkcije.png)
 
 Ove funkcije su ugrađene u digitrone i dostupne su u većini programskih jezika.
 
@@ -36,7 +34,7 @@ Ove funkcije su ugrađene u digitrone i dostupne su u većini programskih jezika
 
 ![sinus-kosinus-graf.png](/images/razvoj-igara/sinus-kosinus-graf.png)
 
-C program koji crta sinusnu funkciju za razne ulaze:
+C program koji crta sinusnu funkciju:
 
 ```c
 void draw_sine ()
@@ -76,9 +74,9 @@ tan(α) = y / x
 
 Tangens se može odrediti i ovako:
 
-\[
-\text{tan(α)} = \frac{\text{naspramna}}{\text{priležeća}} = \frac{\text{sin(α)}}{\text{cos(α)}}
-\]
+```
+tan(α) = naspramna / ležeća = sin(α) / cos(α)
+```
 
 To znači da je tangens kombinacija sinus i kosinus funkcija. 
 
@@ -92,9 +90,9 @@ To znači da je tangens kombinacija sinus i kosinus funkcija.
 
 Inverzna funkcija tangensa zove se arktangens:
 
-\[
-\text{ugao} = \text{atan} \left( \frac{\text{naspramna}}{\text{priležeća strana}} \right)
-\]
+```
+ugao = atan(naspramna / ležeća strana)
+```
 
 Ali ovo nekad može dati netačan rezultat, jer dva suprotna vektora imaju isti odnos dve stranice.
 
