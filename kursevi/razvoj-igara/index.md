@@ -35,5 +35,5 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 ### Arhitektura igre
 
 - [Razdvajanje briga](/razdvajanje-briga-u-igrama)
-- Osnovne klase
-  - [Klasa Scena](/klasa-scena)
+- [Klasa Scena](/klasa-scena)
+- [Fizičko telo](/fizicko-telo)

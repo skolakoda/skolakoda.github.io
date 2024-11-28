@@ -8,7 +8,7 @@ permalink: /klasa-scena
 
 ## Predmet igre
 
-Predmet igre (`GameObject`, `Actor` ili `Entity`) predstavlja jedan entitet u svetu igre. Predmetu treba proslediti je li statičan ili dinamičan, npr. je li drvo ili reaguje na fiziku.
+Predmet igre (`GameObject`, `Actor` ili `Entity`) predstavlja jedan entitet u svetu igre. Predmetu treba proslediti je li statičan ili dinamičan, npr. je li nepokretan zid ili kutija koja reaguje na fiziku.
 
 ## Scena kao graf
 
