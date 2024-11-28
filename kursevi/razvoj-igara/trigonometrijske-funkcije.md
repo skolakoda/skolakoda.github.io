@@ -30,37 +30,38 @@ Ove funkcije su ugrađene u digitrone i dostupne su u većini programskih jezika
 
 ## Sinus i kosinus
 
-`sin()` i `cos()` se mogu koristiti za razne stvari. Obe funkcije primaju jedan parametar, ugao, i vraćaju broj između -1 i 1. Ugao može biti beskonačne veličine, ali se sinusoidni obrazac ponavlja svakih 360°, što se zove osnovni period.
+`sin()` i `cos()` se mogu koristiti za razne stvari. Obe funkcije primaju jedan parametar, ugao, i vraćaju broj između -1 i 1. Ugao može biti beskonačne veličine, ali se osnovni obrazac ponavlja svakih 360°.
 
 ![sinus-kosinus-graf.png](/images/razvoj-igara/sinus-kosinus-graf.png)
 
-C program koji crta sinusnu funkciju:
+JS program koji crta sinusnu funkciju:
 
-```c
-void draw_sine ()
-{
-    int length = 50;
-    fixed x, y;
-    fixed angle = 0;
-    fixed angle_stepsize = itofix (5);
-    // Allegro degrees range from 0 to 255
-    while (fixtoi(angle) < 256)
-    {
-        // the angle is plotted along the x-axis
-        x = angle;
-        // the sine function is plotted along the y-axis
-        y = length * fsin (angle);
+{:.ulaz}
+```js
+const canvas = document.createElement('canvas')
+canvas.width = 800
+canvas.height = 400
+document.querySelector('.ulaz').insertAdjacentElement('afterend', canvas)
+const ctx = canvas.getContext('2d')
 
-        putpixel (screen,
-            fixtoi (x), fixtoi (y) + SCREEN_H / 2,
-            makecol (255, 255, 255));
+function drawSine() {
+    const r = 120
+    const centerY = canvas.height / 2
+    let angle = 0
 
-        angle += angle_stepsize;
+    ctx.beginPath()
+
+    while (angle < 2 * Math.PI) {
+        const x = angle / (2 * Math.PI) * canvas.width
+        const y = centerY - r * Math.sin(angle)
+        ctx.lineTo(x, y)
+        angle += 0.12
     }
+    ctx.stroke()
 }
-```
 
-![](/images/razvoj-igara/sine.gif)
+drawSine()
+```
 
 ## Tangens
 
