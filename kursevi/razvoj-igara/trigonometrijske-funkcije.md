@@ -1,4 +1,8 @@
-# Trigonometrijske funkcije
+---
+title: Trigonometrijske funkcije
+layout: lekcija-razvoj-igara
+permalink: /trigonometrijske-funkcije
+---
 
 **Trigonometrijske funkcije povezuju ugao pravouglog trougla sa odnosom dužina dve stranice.** Mogu služiti za računanje nepoznatog ugla ili stranice trougla, a imaju i mnoge druge namene.
 
@@ -22,7 +26,7 @@ Možemo ih pamtiti po engleskim skraćenicama SOH, CAH, TOA:
 * **c**os(α) = **a**djacent / **h**ypotenuse
 * **t**an(α) = **o**pposite / **a**djacent
 
-![trigonometrijske-funkcije](slike/trigonometrijske-funkcije.png)
+![trigonometrijske-funkcije](/images/razvoj-igara/trigonometrijske-funkcije.png)
 
 Ove funkcije su ugrađene u digitrone i dostupne su u većini programskih jezika.
 
@@ -30,7 +34,7 @@ Ove funkcije su ugrađene u digitrone i dostupne su u većini programskih jezika
 
 `sin()` i `cos()` se mogu koristiti za razne stvari. Obe funkcije primaju jedan parametar, ugao, i vraćaju broj između -1 i 1. Ugao može biti beskonačne veličine, ali se sinusoidni obrazac ponavlja svakih 360°, što se zove osnovni period.
 
-![sinus-kosinus-graf.png](slike/sinus-kosinus-graf.png)
+![sinus-kosinus-graf.png](/images/razvoj-igara/sinus-kosinus-graf.png)
 
 C program koji crta sinusnu funkciju za razne ulaze:
 
@@ -58,7 +62,7 @@ void draw_sine ()
 }
 ```
 
-![](slike/sine.gif)
+![](/images/razvoj-igara/sine.gif)
 
 ## Tangens
 
@@ -68,7 +72,7 @@ Tangens je funkcija za izračunavanje odnosa naspramne i priležeće strane trou
 tan(α) = y / x
 ```
 
-![](slike/tan.gif)
+![](/images/razvoj-igara/tan.gif)
 
 Tangens se može odrediti i ovako:
 
@@ -96,7 +100,7 @@ Inverzna funkcija tangensa zove se arktangens:
 
 Ali ovo nekad može dati netačan rezultat, jer dva suprotna vektora imaju isti odnos dve stranice.
 
-![](slike/suprotni-vektori.gif)
+![](/images/razvoj-igara/suprotni-vektori.gif)
 
 Delimično rešenje je moguće ovako (delimično jer ne proveravamo slučaj kada je x 0):
 
