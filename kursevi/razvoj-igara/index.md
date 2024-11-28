@@ -13,7 +13,12 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 ### Geometrija
 
 - [Osnovni pojmovi geometrije](/geometrija-pojmovi)
+  - [Krug](/krug)
 - [Koordinatni sistemi](/koordinatni-sistemi)
+  - [Prostor sveta](/prostor-sveta)
+
+### Trigonometrija
+
 - [Kako napraviti kružnu animaciju pomoću trigonometrije?](/trigonometrija-animacija)
 
 ### Matematika
