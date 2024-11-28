@@ -10,7 +10,7 @@ Složena sekvenca s mnogim izborima. Svi izbori su otprilike jednako važni, a n
 
 ![timecaveb](/images/razvoj-igara/timecaveb.png)
 
-**Efekti**: Vremenska pećina je najstarija i najočiglednija CYOA (*Choose Your Own Adventure*) struktura. Često je dobra za narative o slobodi i otvorenoj mogućnosti, avanturama koje mogu ići bilo gde. Vremenske pećine tendiraju da imaju relativno kratke partije, ali jako potiču na ponovno igranje: one su široke, a ne dugačke. Čak i nakon više igranja, većina igrača će propustiti dobar deo sadržaja.
+**Efekti**: Vremenska pećina je najstarija i najočiglednija CYOA (*Choose Your Own Adventure*) struktura. Često je dobra za narative o slobodi i otvorenoj mogućnosti, avanturama koje mogu ići bilo gde. Vremenske pećine teže da imaju relativno kratke partije, ali veoma potiču na ponovno igranje: one su široke, a ne dugačke. Čak i nakon više igranja, većina igrača će propustiti dobar deo sadržaja.
 
 ## Špalir (*Gauntlet*)
 
