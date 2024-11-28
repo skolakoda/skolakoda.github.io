@@ -41,23 +41,20 @@ JS program koji crta sinusnu funkciju:
 const canvas = createCanvas()
 const ctx = canvas.getContext('2d')
 
-function drawSine() {
-    const r = 60
-    const centerY = canvas.height / 2
-    let angle = 0
+const r = 60
+const centerY = canvas.height / 2
+let angle = 0
 
-    ctx.beginPath()
+ctx.beginPath()
 
-    while (angle < 2 * Math.PI) {
-        const x = angle / (2 * Math.PI) * canvas.width
-        const y = centerY - r * Math.sin(angle)
-        ctx.lineTo(x, y)
-        angle += 0.12
-    }
-    ctx.stroke()
+while (angle < 2 * Math.PI) {
+    const x = angle / (2 * Math.PI) * canvas.width
+    const y = centerY - r * Math.sin(angle)
+    ctx.lineTo(x, y)
+    angle += 0.12
 }
 
-drawSine()
+ctx.stroke()
 ```
 
 ## Tangens
