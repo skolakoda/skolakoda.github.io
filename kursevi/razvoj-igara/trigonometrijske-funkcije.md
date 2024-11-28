@@ -38,8 +38,7 @@ JS program koji crta sinusnu funkciju:
 
 {:.ulaz}
 ```js
-const canvas = document.createElement('canvas')
-document.querySelector('.ulaz').insertAdjacentElement('afterend', canvas)
+const canvas = createCanvas()
 const ctx = canvas.getContext('2d')
 
 function drawSine() {
