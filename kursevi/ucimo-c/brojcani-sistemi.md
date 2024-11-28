@@ -51,6 +51,6 @@ U heksadecimalnom sustavu trebamo 16 simbola, pa se uz dekadske znamenke koristi
 7 · 16^4 + 10 · 16^3 + 9 · 16^2 + 15 · 16 + 14
 ```
 
-Općenito, u sustavu s bazom b skup simbola identificiramo s brojevima koje predstavljaju: `{0, 1, 2, ..., b − 1}`.
+Općenito, u sustavu s bazom b skup simbola identificiramo s brojevima koje predstavljaju: `{0, 1, 2, ..., b - 1}`.
 
 Izvor: Vedran Krčadinac, *Osnove algoritama (predavanja)*, Zagreb, 2016./2017.

@@ -4,17 +4,15 @@ layout: lekcija-razvoj-igara
 permalink: /pitagorina-teorema
 ---
 
-Pitagorina teorema glasi:
+![pitagorina-teorema-primena](/images/razvoj-igara/pitagorina-teorema-primena.jpg)
+
+**Pitagorina teorema služi da izračunavanje nepoznate stranice u pravouglom trouglu.** Formula glasi:
 
 ```
 a² + b² = c²
 ```
 
 gde su `a` i `b` kraće stranice trougla a `c` je hipotenuza.
-
-![pitagorina-teorema-primena](/images/razvoj-igara/pitagorina-teorema-primena.jpg)
-
-Pitagorina teorema važi samo za pravougle trouglove.
 
 ## Primer: rastojanje između dve tačke
 

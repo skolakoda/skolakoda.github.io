@@ -92,8 +92,8 @@ Na primer, igrač sa laserskom puškom stoji na poziciji (1,2), a neprijateljski
 Recimo da pišemo igru u kojoj igrač može ispaljivati prateće rakete. Prvo računamo vektor razdaljine, tako što oduzmemo položaj rakete od položaja cilja:
 
 ```js
-razdaljina.x = target.x − raketa.x
-razdaljina.y = target.y − raketa.y
+razdaljina.x = target.x - raketa.x
+razdaljina.y = target.y - raketa.y
 ```
 
 Sada možemo izračunati ugao pod kojim raketa treba da ide, pomoću trigonometrijske funkcije `atan2()`:

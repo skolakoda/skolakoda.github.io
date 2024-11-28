@@ -68,7 +68,7 @@ void umetni(int a[], int j) {
 }
 ```
 
-Funkcija `umetni` se poziva n−1 put i to za vrednosti `i` od 1 do `n`, dok u najgorem slučaju (obrnuto sortiranog niza) ona izvršava `i` razmena i `i` poređenja. Zbog toga je ukupan broj razmena, kao i broj poređenja O(n^2).
+Funkcija `umetni` se poziva n-1 put i to za vrednosti `i` od 1 do `n`, dok u najgorem slučaju (obrnuto sortiranog niza) ona izvršava `i` razmena i `i` poređenja. Zbog toga je ukupan broj razmena, kao i broj poređenja O(n^2).
 
 Efikasnija implementacija se može dobiti ukoliko se ne koriste razmene, već se element koji nije na svom mestu zapamti, zatim se pronađe pozicija na koju treba da se umetne, svi elementi od te pozicije se pomere za jedno mesto u desno da bi se na kraju zapamćeni element upisao na svoje mesto.
 

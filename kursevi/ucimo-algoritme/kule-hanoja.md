@@ -23,9 +23,9 @@ Lako možeš probati da rešiš ovu zagonetku. Ne trebaju ti nikakvi diskovi ni 
 
 Iterativno rešenje ovog problema je veoma kompleksno, a rekurzivno prilično jednostavno: ukoliko je `n = 0`, nema diskova koji treba da se prebacuju; inače:
 
-- prebaci (rekurzivno) n−1 diskova sa polazne na pomoćnu kulu (korišćenjem dolazne kule kao pomoćne),
+- prebaci (rekurzivno) n-1 diskova sa polazne na pomoćnu kulu (korišćenjem dolazne kule kao pomoćne),
 - prebaci najveći disk sa polazne na dolaznu kulu i, konačno,
-- prebaci (rekurzivno) n − 1 diskova sa pomoćne na dolaznu kulu (korišćenjem polazne kule kao pomoćne).
+- prebaci (rekurzivno) n - 1 diskova sa pomoćne na dolaznu kulu (korišćenjem polazne kule kao pomoćne).
 
 ![](https://petljamedia.blob.core.windows.net/root/Media/Default/Problem/Primer.png)
 
