@@ -29,4 +29,4 @@ Lice je ravan između vrhova. Na primer, kocka ima 8 različitih vrhova (tačaka
 
 Geometrija je izgrađena od vrhova i lica, dok je materijal tekstura koja koristi boju ili sliku. Kad povežemo geometriju sa materijalom, dobijamo *mesh*.
 
-![](slike/3d-cube.png)
+![](/images/razvoj-igara/3d-cube.png)
