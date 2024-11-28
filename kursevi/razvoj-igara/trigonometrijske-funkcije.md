@@ -39,13 +39,11 @@ JS program koji crta sinusnu funkciju:
 {:.ulaz}
 ```js
 const canvas = document.createElement('canvas')
-canvas.width = 800
-canvas.height = 400
 document.querySelector('.ulaz').insertAdjacentElement('afterend', canvas)
 const ctx = canvas.getContext('2d')
 
 function drawSine() {
-    const r = 120
+    const r = 60
     const centerY = canvas.height / 2
     let angle = 0
 
