@@ -56,7 +56,9 @@ Editor izvršava kod na dva načina
     const id = match ? match[1] : null
     if (!id) return
 
-    canvas = document.createElement('canvas')
+    if (document.getElementById(id)) return document.getElementById(id)
+
+    const canvas = document.createElement('canvas')
     canvas.width = 400
     canvas.height = 300
     canvas.id = id
