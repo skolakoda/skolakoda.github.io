@@ -34,6 +34,8 @@ Ove funkcije su ugrađene u digitrone i dostupne su u većini programskih jezika
 
 ![sinus-kosinus-graf.png](/images/razvoj-igara/sinus-kosinus-graf.png)
 
+## Primer: crtanje sinusne funkcije
+
 JS program koji crta sinusnu funkciju:
 
 {:.ulaz}
@@ -65,13 +67,13 @@ drawLine()
 
 ## Tangens
 
-Tangens je funkcija za izračunavanje odnosa naspramne i priležeće strane trougla, koje su na slici označene sa `y` i `x`:
+![](/images/razvoj-igara/tan.gif)
+
+Tangens je funkcija za izračunavanje odnosa naspramne i ležeće strane trougla, koje su označene sa `y` i `x`:
 
 ```
 tan(α) = y / x
 ```
-
-![](/images/razvoj-igara/tan.gif)
 
 Tangens se može odrediti i ovako:
 
@@ -81,23 +83,19 @@ tan(α) = naspramna / ležeća = sin(α) / cos(α)
 
 To znači da je tangens kombinacija sinus i kosinus funkcija. 
 
-# Inverzne trigonometrijske funkcije
-
-**Inverzne trigonometrijske funkcije služe da izračunamo nepoznati ugao pravouglog trougla, na osnovu poznatih dužina dve stranice.**
-
 ## Arktangens
 
-Inverzna funkcija tangensa zove se arktangens:
+**Inverzne trigonometrijske funkcije** služe da izračunamo nepoznati ugao trougla, na osnovu poznatih dužina dve stranice. Najkorisnija je inverzna funkcija tangensa, koja se zove arkus tangens ili arktangens:
 
 ```
 ugao = atan(naspramna / ležeća strana)
 ```
 
-Ali ovo nekad može dati netačan rezultat, jer dva suprotna vektora imaju isti odnos dve stranice.
+U slučaju negativnih vrednosti daje netačan rezultat, jer dva suprotna vektora imaju isti odnos dve stranice.
 
 ![](/images/razvoj-igara/suprotni-vektori.gif)
 
-Delimično rešenje je moguće ovako (delimično jer ne proveravamo slučaj kada je x 0):
+Delimično rešenje je moguće ovako (delimično jer ne proveravamo slučaj kada x je 0):
 
 ```js
 if (x > 0)
@@ -106,7 +104,7 @@ else
     angle = PI + atan(y / x)
 ```
 
-Ali da bi se stvari pojednostavile, funkcija `atan2()` je dostupna programerima:
+Da bi se stvari pojednostavile, funkcija `atan2()` je dostupna u većini programskih jezika:
 
 ```js
 angle = atan2(y / x)
