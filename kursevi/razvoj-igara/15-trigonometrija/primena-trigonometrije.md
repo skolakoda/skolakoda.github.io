@@ -54,18 +54,17 @@ Pomoću trigonometrijskih funkcija možemo nacrtati krug:
 
 {:.ulaz}
 ```js
-function draw_circle () {
-    const length = 50
-    const angle_stepsize = 0.1
-    let angle = 0.0
+const canvas = document.getElementById('canvas')
+const ctx = canvas.getContext('2d')
 
-    while (angle < 2 * PI) {
-      let x = length * Math.cos(angle)
-      let y = length * Math.sin(angle)
+const length = 50
+let angle = 0.0
 
-      draw (x + SCREEN_W / 2, y + SCREEN_H / 2)
-      angle += angle_stepsize
-  }
+while (angle < 2 * Math.PI) {
+  const x = length * Math.cos(angle)
+  const y = length * Math.sin(angle)
+  ctx.fillRect(x + canvas.width / 2, y + canvas.height / 2, 1, 1)
+  angle += 0.1
 }
 ```
 
@@ -75,7 +74,7 @@ Možemo koristiti sinus i kosinus za animaciju orbite planete:
 
 {:.ulaz}
 ```js
-const canvas = document.getElementById('canvas')
+const canvas = document.getElementById('canvas2')
 const ctx = canvas.getContext('2d')
 
 let angle = 0
