@@ -50,8 +50,24 @@ Editor izvršava kod na dva načina
     http.send(params)
   }
 
+  /* ako neko traži canvas po id, kreira taj canvas id */
+  const addCanvasIfNeeded = (code, el) => {
+    const match = code.match(/canvas\s*=\s*document\.getElementById\(['"]([^'"]+)['"]\)/)
+    const id = match ? match[1] : null
+    if (!id) return
+
+    canvas = document.createElement('canvas')
+    canvas.width = 400
+    canvas.height = 300
+    canvas.id = id
+    el.insertAdjacentElement('afterend', canvas)
+  }
+
   function izvrsi(kod, jezik, izlaz) {
-    if (jezik == 'js') izvrsiJS(kod, izlaz)
+    if (jezik == 'js') {
+      addCanvasIfNeeded(kod, izlaz)
+      izvrsiJS(kod, izlaz)
+    }
     else izvrsiNaServeru(kod, jezici[jezik], izlaz)
   }
 
@@ -66,6 +82,7 @@ Editor izvršava kod na dva načina
 
     const editIcon = document.createElement('a')
     const params = `jezik=${jezik}&code=${encodeURIComponent(codeElement.innerText)}`
+
     editIcon.href = `https://skolakoda.github.io/editor/?${params}`
     editIcon.innerText = '✎'
     editIcon.title = 'Otvori u editoru'
@@ -81,5 +98,4 @@ Editor izvršava kod na dva načina
     dugme.onclick = () => izvrsi(codeElement.innerText, jezik, izlaz)
     ulaz.appendChild(dugme)
   }
-
 }

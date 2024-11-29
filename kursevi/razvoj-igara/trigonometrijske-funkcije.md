@@ -40,7 +40,7 @@ JS program koji crta sinusnu funkciju:
 
 {:.ulaz}
 ```js
-const canvas = createCanvas()
+const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
 
 const r = 60
