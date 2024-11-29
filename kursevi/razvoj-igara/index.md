@@ -27,9 +27,6 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 ### Matematika
 
-### Fizika
-
-- [Njutnovi zakoni](/njutnovi-zakoni)
 
 ### Vektori
 
@@ -37,6 +34,15 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Jedinični vektor](/jedinicni-vektor)
 - [Sabiranje vektora](/sabiranje-vektora)
 - [Oduzimanje vektora](/oduzimanje-vektora)
+- Množenje vektora
+  - [Skaliranje vektora](/skaliranje-vektora)
+  - [Skalarni proizvod vektora](/dot-proizvod)
+  - [Vektorski proizvod](/vektorski-proizvod)
+- [Linearna interpolacija](/lerp)
+
+### Fizika
+
+- [Njutnovi zakoni](/njutnovi-zakoni)
 
 ### Koncepti igre
 

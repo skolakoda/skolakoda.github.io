@@ -1,4 +1,8 @@
-# Linear Interpolation (LERP)
+---
+title: Linearna interpolacija
+layout: lekcija-razvoj-igara
+permalink: /lerp
+---
 
 U igrama, često treba naći neku tačku između dve tačke. Linearna interpolacija služi baš za to. Koristi se na sledeći način:
 
@@ -22,20 +26,11 @@ Ako želimo interpolaciju između dve proste vrednosti (na primer temperature, v
 (1 - t) * start + t * end
 ```
 
-Ako želimo linearnu interpolaciju vektora, formula je nešto složenija:
+## Primer u kodu 
 
-\[
-(1 - t) \mathbf{A} + t \mathbf{B} = \left[
-\begin{array}{c}
-(1 - t) A_x + t B_x \\
-(1 - t) A_y + t B_y \\
-(1 - t) A_z + t B_z
-\end{array}
-\right]
-\]
+Linearna interpolacija vektora u Javaskriptu izgleda ovako:
 
-Prevedena u Javaskript izgleda ovako:
-
+{:.ulaz}
 ```js
 function lerp(a, b, t) {
   return {
@@ -54,10 +49,11 @@ const result = lerp(a, b, t)
 console.log(result)
 ```
 
-## Primena
+## Primena u igrama
 
 U igrama, LERP se koristi za pomeranje predmeta od tačke A do tačke B. To se postiže pozivanjem funkcije `lerp` u redovnim intervalima i postepenim povećanjem faktora interpolacije. Na primer:
 
+{:.ulaz}
 ```js
 const start = { x: 0, y: 0 }
 const end = { x: 100, y: 100 }
