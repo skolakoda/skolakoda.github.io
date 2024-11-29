@@ -34,6 +34,9 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 ### Vektori
 
 - [Vektori](/vektori)
+- [Jedinični vektor](/jedinicni-vektor)
+- [Sabiranje vektora](/sabiranje-vektora)
+- [Oduzimanje vektora](/oduzimanje-vektora)
 
 ### Koncepti igre
 
