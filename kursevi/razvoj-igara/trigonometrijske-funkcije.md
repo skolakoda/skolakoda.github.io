@@ -44,17 +44,23 @@ const ctx = canvas.getContext('2d')
 const r = 60
 const centerY = canvas.height / 2
 let angle = 0
+let animationId
 
 ctx.beginPath()
 
-while (angle < 2 * Math.PI) {
-    const x = angle / (2 * Math.PI) * canvas.width
+function drawLine() {
+    const x = angle / (2 * Math.PI) * 400
     const y = centerY - r * Math.sin(angle)
     ctx.lineTo(x, y)
     angle += 0.12
+    ctx.stroke()
+    if (angle < 2 * Math.PI)
+        animationId = requestAnimationFrame(drawLine) 
+    else
+        cancelAnimationFrame(drawLine)
 }
 
-ctx.stroke()
+drawLine()
 ```
 
 ## Tangens
@@ -74,8 +80,6 @@ tan(α) = naspramna / ležeća = sin(α) / cos(α)
 ```
 
 To znači da je tangens kombinacija sinus i kosinus funkcija. 
-
-<script async src="//jsfiddle.net/mudroljub/c10hjzqe/embed/result/"></script>
 
 # Inverzne trigonometrijske funkcije
 
