@@ -1,4 +1,8 @@
-# Kretanje
+---
+title: Kretanje
+layout: lekcija-razvoj-igara
+permalink: /kretanje
+---
 
 Na računaru, možeš podesiti položaj predmeta kako god želiš. U stvarnom svetu je drugačije. Telo ima svoj položaj, pomera se pomoću kretanja, a kretanje se postiže dodavanjem sile. Kada računamo kretanje, interesuju nas položaj, brzina i ubrzanje tela. Položaj (x, y) se uvek odnosi na centar mase.
 
@@ -6,7 +10,7 @@ Svako telo se sastoji od mnoštva tačaka. Prema načinu kretanja tačaka u telu
 * obično ili translatorno kretanje (sve tačke tela se kreću na isti način i opisuju iste putanje)
 * rotaciono kretanje (različite tačke tela prelaze različite kružne putanje)
 
-![](slike/translatorno-kretanje.png)
+![](/images/razvoj-igara/translatorno-kretanje.png)
 
 Nauka o kretanju se zove kintetika.
 
@@ -18,7 +22,7 @@ When calculating displacement, all you care about is where the object starts and
 
 Football is a good example of displacement versus distance. Suppose player catches the ball on the 20-yard line and starts running. There's a blocker in the way, so the receiver circles around the blocker, avoids the other defender running toward him, and eventually gets tackled on the 50-yard line. The positive 30 yards is his displacement even though the actual distance traveled is much more.
 
-![distance-vs-displacement](slike/distance-vs-displacement.png)
+![distance-vs-displacement](/images/razvoj-igara/distance-vs-displacement.png)
 
 ## Brzina (*speed*) i vektorska brzina (*velocity*)
 

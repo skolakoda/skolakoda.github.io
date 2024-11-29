@@ -47,6 +47,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
   - [Gravitacija](/gravitacija)
 - [Energija](/energija)
 - [Njutnovi zakoni kretanja](/njutnovi-zakoni)
+- [Kretanje](/kretanje)
 
 ### Koncepti igre
 
