@@ -50,8 +50,8 @@ U našem primeru, dobijamo sledeće brojeve:
 Ako imamo x i y komponentu vektora u kartezijanskom zapisu, dužinu možemo računati Pitagorinom teoremom. Ako se nepoznati leteći objekat pomera 4 nadesno i 3 nagore, ovako ćemo saznati njegovu brzinu:
 
 ```
-brzina² = 3² + 4²  
-brzina² = 9 + 16  
+brzina² = 3² + 4²
+brzina² = 9 + 16
 brzina² = 25
 brzina = 5
 ```
