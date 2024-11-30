@@ -27,6 +27,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 ### Matematika
 
+- [Linearna interpolacija](/lerp)
 
 ### Vektori
 
@@ -34,24 +35,31 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Jedinični vektor](/jedinicni-vektor)
 - [Sabiranje vektora](/sabiranje-vektora)
 - [Oduzimanje vektora](/oduzimanje-vektora)
-- Množenje vektora
-  - [Skaliranje vektora](/skaliranje-vektora)
-  - [Skalarni proizvod vektora](/dot-proizvod)
-  - [Vektorski proizvod](/vektorski-proizvod)
-- [Linearna interpolacija](/lerp)
+- [Skaliranje vektora](/skaliranje-vektora)
+- [Skalarni proizvod vektora](/dot-proizvod) (*dot proizvod*)
+- [Vektorski proizvod](/vektorski-proizvod) (*unakrsni proizvod*)
 
-### Fizika
+### Sile
 
 - [Sile](/sile)
   - [Trenje](/trenje)
   - [Gravitacija](/gravitacija)
 - [Energija](/energija)
+
+### Kretanje
+
 - [Njutnovi zakoni](/njutnovi-zakoni)
 - [Kretanje](/kretanje)
   - [Integracija](/integracija)
   - [Rotaciono kretanje](/rotaciono-kretanje)
 - [Projektil](/projektil)
 - [Parabola](/parabola)
+
+### Sudari
+- [Sudari u igrama](/kolizija)
+- [Detekcija sudara](/detekcija-sudara)
+  - [Otkrivanje sudara krugom](/sudar-krugova)
+  - [Otkrivanje sudara kutijom](/sudar-kutija)
 
 ### Koncepti igre
 

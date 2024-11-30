@@ -30,7 +30,7 @@ Primer u kodu:
 ```js
 x = x1 - x2
 y = y1 - y2
-distance = Math.sqrt(a*a + b*b)
+distance = Math.sqrt(a**2 + b**2)
 ```
 
 3D primer uključuje i `z` osu:
@@ -39,5 +39,5 @@ distance = Math.sqrt(a*a + b*b)
 x = x2 - x1
 y = y2 - y1
 z = z2 - z1
-distance = Math.sqrt(x*x + y*y + z*z)
+distance = Math.sqrt(x**2 + y**2 + z**2)
 ```

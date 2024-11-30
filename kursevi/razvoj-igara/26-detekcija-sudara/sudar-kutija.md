@@ -1,4 +1,8 @@
-# Otkrivanje sudara kutijom
+---
+title: Otkrivanje sudara kutijom
+layout: lekcija-razvoj-igara
+permalink: /sudar-kutija
+---
 
 Otkrivanje sudara kutijom je osnovni metod za 2D i 3D, prost za primenu i jeftin za računanje, sve dok nema rotacije.
 
@@ -52,21 +56,21 @@ function intersect(a, b) {
 }
 ```
 
-![](slike/aabb_test.png)
+![](/images/razvoj-igara/aabb_test.png)
 
 No, ovaj metod je dosta neprecizan i dovodi do lažnih sudara:
 
-![](slike/lazna-kolizija.png)
+![](/images/razvoj-igara/lazna-kolizija.png)
 
 If you have entities that will be rotating, you can constantly modify the dimensions of box so it still wraps the object:
 
-![](slike/rotating_knot.gif)
+![](/images/razvoj-igara/rotating_knot.gif)
 
 # Sistem sudara sa više kutija (*bounding box collision with multiple boxes*)
 
 It isn't so costly and is easier to implement. You will break the sprite down into smaller rectangles. You loop through the rectangles to see if they intersect the rectangle you are intrested in.
 
-![](slike/multiple-boxes.png)
+![](/images/razvoj-igara/multiple-boxes.png)
 
 # Primena
 

@@ -26,7 +26,7 @@ Ako želimo interpolaciju između dve proste vrednosti (na primer temperature, v
 (1 - t) * start + t * end
 ```
 
-## Primer u kodu 
+## Primer: lerp funkcija 
 
 Linearna interpolacija vektora u Javaskriptu izgleda ovako:
 
@@ -49,14 +49,17 @@ const result = lerp(a, b, t)
 console.log(result)
 ```
 
-## Primena u igrama
+## Primer: lerp animacija
 
 U igrama, LERP se koristi za pomeranje predmeta od tačke A do tačke B. To se postiže pozivanjem funkcije `lerp` u redovnim intervalima i postepenim povećanjem faktora interpolacije. Na primer:
 
 {:.ulaz}
 ```js
+const canvas = document.getElementById('canvas')
+const ctx = canvas.getContext('2d')
+
 const start = { x: 0, y: 0 }
-const end = { x: 100, y: 100 }
+const end = { x: 300, y: 100 }
 const duration = 2000
 const startTime = Date.now()
 
@@ -67,9 +70,10 @@ const lerp = (a, b, t) => ({
 
 function animate() {
     const elapsed = Date.now() - startTime
-    const t = Math.min(elapsed / duration, 1) // osigurava ≤ 1
+    const t = Math.min(elapsed / duration, 1)
     const value = lerp(start, end, t)
-    console.log(value)
+
+    ctx.fillRect(value.x, value.y, 2, 2)
 
     if (t < 1) requestAnimationFrame(animate)
 }

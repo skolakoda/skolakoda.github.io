@@ -35,13 +35,32 @@ Smer rezultirajućeg vektora možemo vizuelizovati na sledeći način:
 
 ![cross-product](https://upload.wikimedia.org/wikipedia/commons/d/d2/Right_hand_rule_cross_product.svg)
 
-## Vektorski proizvod u 2D igrama
+## Rotiranje vektora u 2D igrama
 
-Recimo da imamo brod sa topovima levo i desno. Ako je brod okrenut u smeru (2,1), u kom smeru su okrenuti topovi? 
-
-Ovo je prosto u 2D. Da bi rotirali vektor za 90 stepeni u smeru kazaljke, prvo zamenimo mesta komponentama pa predznak druge komponente. Tako (a,b) postaje (b,-a). Dakle, ako je brod okrenut u smeru (2,1), desni topovi su okrenuti u smeru (1,-2). Levi topovi su suprotni, dakle menjamo predznake oba broja dobivši: (-1,2).
+Recimo da imamo brod sa topovima bočno. Ako je brod okrenut u smeru (2,1), gde su okrenuti topovi? Ovo je prosto u 2D. Da bi rotirali vektor za 90 stepeni u smeru kazaljke, prvo zamenimo mesta komponentama, te predznak druge komponente. Tako (a,b) postaje (b,-a). Dakle, ako je brod okrenut u smeru (2,1), desni topovi su okrenuti u smeru (1,-2). Levi topovi su suprotni, dakle menjamo predznake oba broja: (-1,2).
 
 ![cross-product](/images/razvoj-igara/boat-3.jpg)
+
+### Objašnjenje
+
+Za rotiranje vektora za 90 stepeni (u smeru kazaljke), koristimo sledeću 2D rotacionu matricu:
+
+```
+R(90°) = |  0  1 |
+         | -1  0 |
+```
+
+Kada pomnožimo rotacionu matricu sa vektorom `(a, b)` koristeći množenje matrica, dobijamo:
+
+```
+v' = |  0  1 |   *   | a |
+     | -1  0 |       | b |
+   = | ( 0 * a + 1 * b)  |
+     | (-1 * a + 0 * b)  |
+   = (b, -a)
+```
+
+Dakle, vektor `(a, b)` nakon rotacije za 90 stepeni postaje `(b, -a)`.
 
 ## Vektorski proizvod u 3D igrama
 
