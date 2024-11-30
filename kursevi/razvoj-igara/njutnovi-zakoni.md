@@ -1,10 +1,10 @@
 ---
-title: Njutnovi zakoni kretanja
+title: Njutnovi zakoni
 layout: lekcija-razvoj-igara
 permalink: /njutnovi-zakoni
 ---
 
-**Alhemičar i filozof prirode Isak Njutn je u 17. veku otkrio tri zakona koja regulišu svo kretanje na Zemlji (osim na kvantnom nivou). Njutnovi zakoni su veoma bitni za realistično kretanje u igrama.**
+**Filozof prirode Isak Njutn je u 17. veku otkrio tri zakona koja regulišu svo kretanje na Zemlji (osim na kvantnom nivou). Njutnovi zakoni su veoma bitni za realistično kretanje u igrama.**
 
 ## Prvi Njutnov zakon: Zakon inercije
 
