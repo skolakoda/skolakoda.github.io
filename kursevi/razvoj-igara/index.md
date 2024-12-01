@@ -68,7 +68,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 ### Primeri fizike
 - [Fizika aviona](/fizika-avion)
 - [Fizika vozila](/fizika-vozilo)
-- [Fizika broda](/fizika-brod)
+- [Fizika plovila](/fizika-plovilo)
 
 ### Koncepti igre
 
