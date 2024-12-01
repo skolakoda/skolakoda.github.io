@@ -61,6 +61,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Otkrivanje sudara krugom](/sudar-krugova)
 - [Otkrivanje sudara kutijom](/sudar-kutija)
 - [Otkrivanje sudara kruga i kutije](/sudar-kruga-i-kutije)
+- [Otkrivanje tačke u telu](/tacka-u-telu)
 
 ### Koncepti igre
 

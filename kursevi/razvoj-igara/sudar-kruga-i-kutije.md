@@ -13,8 +13,19 @@ Evo celog koda:
 
 {:.ulaz}
 ```js
-const circle = {x:100, y:290, r:10}
-const rect = {x:100, y:100, w:40, h:100}
+const canvas = document.getElementById('canvas')
+const ctx = canvas.getContext('2d')
+
+const circle = {x:80, y:90, r:10}
+const rect = {x:100, y:30, w:40, h:100}
+
+ctx.fillStyle = 'red'
+ctx.fillRect(rect.x, rect.y, rect.w, rect.h)
+
+ctx.beginPath()
+ctx.arc(circle.x, circle.y, circle.r, 0, Math.PI * 2)
+ctx.fillStyle = 'blue'
+ctx.fill()
 
 function rectCircleColliding(circle,rect){
     const distX = Math.abs(circle.x - rect.x-rect.w/2)
@@ -33,5 +44,3 @@ function rectCircleColliding(circle,rect){
 
 console.log(rectCircleColliding(circle, rect))
 ```
-
-http://jsfiddle.net/m1erickson/n6U8D/
