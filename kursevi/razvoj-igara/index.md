@@ -65,6 +65,11 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Otkrivanje preseka linija](/presek-linija)
 - [Sudarni odgovor](/sudarni-odgovor)
 
+### Primeri fizike
+- [Fizika aviona](/fizika-avion)
+- [Fizika vozila](/fizika-vozilo)
+- [Fizika broda](/fizika-brod)
+
 ### Koncepti igre
 
 - [Glavna petlja](/glavna-petlja)
