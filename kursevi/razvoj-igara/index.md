@@ -57,11 +57,13 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 ### Sudari
 - [Sudari u igrama](/kolizija)
-- [Detekcija sudara](/detekcija-sudara)
+- [Otkrivanje sudara](/detekcija-sudara)
 - [Otkrivanje sudara krugom](/sudar-krugova)
 - [Otkrivanje sudara kutijom](/sudar-kutija)
 - [Otkrivanje sudara kruga i kutije](/sudar-kruga-i-kutije)
 - [Otkrivanje tačke u telu](/tacka-u-telu)
+- [Otkrivanje preseka linija](/presek-linija)
+- [Sudarni odgovor](/sudarni-odgovor)
 
 ### Koncepti igre
 

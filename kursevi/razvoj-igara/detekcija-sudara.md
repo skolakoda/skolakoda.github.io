@@ -1,5 +1,5 @@
 ---
-title: Detekcija sudara
+title: Otkrivanje sudara
 layout: lekcija-razvoj-igara
 permalink: /detekcija-sudara
 ---

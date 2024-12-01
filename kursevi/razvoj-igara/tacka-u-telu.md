@@ -12,17 +12,30 @@ Jedna od prostijih provera je da li se tačka nalazi unutar sfere:
 
 {:.ulaz}
 ```js
+const sphere = { center: { x: 100, y: 100, z: 0 }, radius: 50 }
+const point1 = { x: 100, y: 80, z: 2 }
+const point2 = { x: 60, y: 50, z: 0 }
+
 function isPointInsideSphere(point, sphere) {
     const dx = point.x - sphere.center.x
     const dy = point.y - sphere.center.y
     const dz = point.z - sphere.center.z
-    const distanceSquared = dx * dx + dy * dy + dz * dz
-    return distanceSquared < sphere.radiusSquared
+    return dx**2 + dy**2 + dz**2 < sphere.radius**2
 }
 
-const sphere = { center: { x: 0, y: 0, z: 0 }, radiusSquared: 25 }
-const point1 = { x: 2, y: 2, z: 2 }
-const point2 = { x: 6, y: 0, z: 0 }
+// 2D vizuelizacija
+const canvas = document.getElementById('canvas')
+const ctx = canvas.getContext('2d')
+
+ctx.beginPath()
+ctx.arc(sphere.center.x, sphere.center.y, sphere.radius, 0, Math.PI * 2)
+ctx.stroke()
+
+ctx.fillStyle = 'red'
+ctx.fillRect(point1.x, point1.y, 4, 4)
+
+ctx.fillStyle = 'green'
+ctx.fillRect(point2.x, point2.y, 4, 4)
 
 console.log(isPointInsideSphere(point1, sphere))
 console.log(isPointInsideSphere(point2, sphere))
