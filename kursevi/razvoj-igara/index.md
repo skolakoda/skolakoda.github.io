@@ -70,6 +70,9 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Fizika vozila](/fizika-vozilo)
 - [Fizika plovila](/fizika-plovilo)
 
+### Mape
+- [Crtanje mapa](/crtanje-mapa)
+
 ### Koncepti igre
 
 - [Glavna petlja](/glavna-petlja)
