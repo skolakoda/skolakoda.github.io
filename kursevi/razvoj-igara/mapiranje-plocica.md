@@ -1,12 +1,12 @@
 ---
 title: Mapiranje pločica
 layout: lekcija-razvoj-igara
-permalink: /tile-mapping
+permalink: /mapiranje-plocica
 ---
 
 **Mapiranje pločica (*tile mapping*) je tehnika kompresije koja nam omogućava da kreiramo lepe svetove u igri uz malo memorije. Mapiranje pločica se koristilo u bezbroj klasičnih igara i koristi se i danas.**
 
-Ključna ideja je da podelimo nivo igre na skup pločica. Svaka pločica je kvadrat, koji kombinujemo sa drugim pločicama da bismo nacrtali nivo.
+Ključna ideja je da podelimo nivo igre na skup pločica. Svaka pločica je kvadrat, koji kombinujemo sa drugim pločicama da bismo nacrtali nivo. Na pločice obično mapiramo teksture.
 
 Istu teksturu možemo ponavljati, ali je čuvamo u memoriji samo jednom.
 

@@ -72,7 +72,8 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 ### Mape
 - [Crtanje mapa](/crtanje-mapa)
-- [Mapiranje pločica](/tile-mapping)
+- [Mapiranje pločica](/mapiranje-plocica)
+- [Mapiranje sfere](/mapiranje-sfere)
 
 ### Koncepti igre
 
