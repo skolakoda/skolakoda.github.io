@@ -1,4 +1,8 @@
-# 3D transformacione matrice
+---
+title: 3D transformacione matrice
+layout: lekcija-razvoj-igara
+permalink: /3d-transformacione-matrice
+---
 
 ## Translacija
 

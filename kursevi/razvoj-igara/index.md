@@ -79,11 +79,16 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 - [Konačni automat](/konacni-automat)
 
-### Projekcija
+### 3D projekcija
 
-- [Projekcija](/projekcija)
+- [Uvod u projekciju](/projekcija)
 - [Ortografska projekcija](/ortografska-projekcija)
 - [Perspektivna projekcija](/perspektivna-projekcija)
+
+### Matrice i transformacije
+
+- [Uvod u transformacije](/transformacije)
+- [Transformacione matrice](/transformacione-matrice)
 
 ### Koncepti igre
 

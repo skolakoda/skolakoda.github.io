@@ -1,5 +1,5 @@
 ---
-title: Projekcija
+title: Uvod u projekciju
 layout: lekcija-razvoj-igara
 permalink: /projekcija
 ---
