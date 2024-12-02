@@ -46,9 +46,9 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
 
 - srediti jebeni css
 - teorija razvoja igara
-    - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
-    - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
-- spojiti primere iz razvoja igara
+    - spojiti https://github.com/skolakoda/ucimo-razvoj-igara
+    - https://github.com/skolakoda/ucimo-3d-projekciju
+    - https://raf.edu.rs/citaliste/clanci/svastara/istorija-video-igara/
 - dodati sve primere na kurseve (https://jsfiddle.net/, i iz komtrejda, spojiti oop javu...)
 - pokušati proksi za hacker rank na azure
 - preraditi sajt da naglasak bude na postojeće kurseve i module (npr projektni obrasci, tipovi podataka i slično)

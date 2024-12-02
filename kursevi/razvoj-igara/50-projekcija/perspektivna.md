@@ -1,24 +1,28 @@
-# Perspektivna projekcija
+---
+title: Perspektivna projekcija
+layout: lekcija-razvoj-igara
+permalink: /perspektivna-projekcija
+---
 
 3D graphics najbolje predstavlja projekcija from the 3D world on a 2D plane, while maintaining the appearance of depth. The farther an object is from the camera, the smaller it appears in the final image. It's similar to how our eye works.
 
-![](slike/perspektiva.gif)
+![](/images/razvoj-igara/perspektiva.gif)
 
 Unlike the above projection type, perspective projection relies on the concept of a focal point.
 
 A perspective projection is a projection of the world on a surface as though seen through a single point. A 2D to 1D perspective projection looks like this:
 
-![](slike/Persp2DProjection.svg)
+![](/images/razvoj-igara/Persp2DProjection.svg)
 
 An orthographic projection only captures the rectangular prism directly in front of the surface of projection. A perspective projection captures a larger space of the world.
 
 In 2D, the shape of the perspective projection is a regular trapezoid (a quadrilateral that has only one pair of parallel sides, and the other pair of sides have the same slope). In 3D, the shape is called a frustum; essentially, a pyramid with the tip chopped off.
 
-![](slike/ViewFrustum.svg)
+![](/images/razvoj-igara/ViewFrustum.svg)
 
 The viewing volume for a 3D perspective projection is a frustum of a pyramid, a truncated pyramid whose top has been cut off by a plane parallel to its base.
 
-![perspektiva](slike/perspektiva.png)
+![perspektiva](/images/razvoj-igara/perspektiva.png)
 
 # Primer
 
@@ -40,13 +44,13 @@ A perspective projection essentially shifts vertices towards the eye, based on t
 
 The problem is really just a simple geometry problem. Here is the equivalent form in a 2D to 1D perspective projection - the projection of the point P onto the projection plane (green):
 
-![](slike/PerspDiagram.svg)
+![](/images/razvoj-igara/PerspDiagram.svg)
 
 R is the projected point. This plane is at an offset of Ez compared to the eye point, which is fixed at the origin.
 
 We have two similar right triangles: manji (E, R i Ez) i veći (E, P i Pz). We have the eye position and the position of the unprojected point. To find the location of R, we simply do this:
 
-![](slike/PerspectiveFunc.svg)
+![](/images/razvoj-igara/PerspectiveFunc.svg)
 ```
 R = P * (Ez / Pz)
 ```
@@ -67,45 +71,45 @@ The vertical field of view allows us to zoom in and out on the world.
 
 In the picture on the left the angle is wider which makes objects smaller while in the picture on the right hand side the angle is smaller which makes the same object appear larger. Note that this has an effect on the location of the camera.
 
-![](slike/FOV.png)
+![](/images/razvoj-igara/FOV.png)
 
 We start by determining the distance of the projection plane from the camera. Obviously, not the entire plane is visible. We can only see stuff in a rectangular area (the projection window) which has the same proportions of our screen.
 
 Visina of the projection window is `2`, sto znači da je širina `2 * aspect ratio`. If we place the camera in the origin and look at the area we will see the following:
 
-![](slike/projection_window.png)
+![](/images/razvoj-igara/projection_window.png)
 
 Anything outside this rectangle is going to be clipped away. Now let's take a look "from the side" (looking down at the YZ plane):
 
-![](slike/side_view1.png)
+![](/images/razvoj-igara/side_view1.png)
 
 We find the distance from the camera to the projection plane using the vertical field of view (denoted by the angle alpha):
 
-![](slike/12_01.png)
+![](/images/razvoj-igara/12_01.png)
 
 The next step is to calculate the projected coordinates of X and Y. Consider the next image (again looking down at the YZ plane).
 
-![](slike/side_view2.png)
+![](/images/razvoj-igara/side_view2.png)
 
 We have a point in the 3D world with the coordinates (x,y,z). We want to find (xp, yp) that represent the projected coordinates. We'll start with Y. According to the rule of similar triangles we can determine the following:
 
-![](slike/12_02.png)
+![](/images/razvoj-igara/12_02.png)
 
 In the same manner for the X component:
 
-![](slike/12_03.png)
+![](/images/razvoj-igara/12_03.png)
 
 Since our projection window is `2 * ar` (width) `by 2` (height), a vertex is inside the window if is projected to a point whose `X` is between `-ar` and `+ar` and the `Y` is between -1 and +1.
 
 We have reached the following projection equations for the X and Y components:
 
-![](slike/12_04.png)
+![](/images/razvoj-igara/12_04.png)
 
 [...]
 
 Therefore, the final transformation matrix is:
 
-![](slike/12_11.png)
+![](/images/razvoj-igara/12_11.png)
 
 Implementacija funkcije:
 ```c

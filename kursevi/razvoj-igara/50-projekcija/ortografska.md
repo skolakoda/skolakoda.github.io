@@ -1,34 +1,46 @@
-# Ortografska (paralelna) projekcija
+---
+title: Ortografska projekcija
+layout: lekcija-razvoj-igara
+permalink: /ortografska-projekcija
+---
 
-An orthographic projection is a very simplistic projection. When projecting onto an axis-aligned surface, the projection simply throw away the coordinate perpendicular to the surface.
+**Ortografska (paralelna) projekcija je vrlo jednostavna projekcija. Kada projektuje pod pravim uglom, ona jednostavno odbacuje koordinatu koja je normalna na površinu.**
 
-Na slici je prikazana 2D to 1D Orthographic Projection:
+Ljudsko oko ne vidi svet putem ortografske projekcije, jer joj nedostaje perspektiva.
 
-![](slike/Ortho2DProjection.svg)
+## Matrice projekcije
 
-A simple orthographic projection onto the plane z = 0 can be defined by the following matrix:
+Prosta ortografska projekcija na ravan može se definisati sledećom matricom, koja transformiše 3D koordinate u 2D tako da `z` koordinata nestaje:
+
 ```
-[ 1 0 0
-  0 1 0
+[ 1 0 0  
+  0 1 0  
   0 0 1 ]
 ```
 
-Often, it is more useful to use homogeneous coordinates. The transformation above can be represented for homogeneous coordinates as:
+U računarskoj grafici, često je praktičnije koristiti homogene koordinate, što omogućava da se projekcija lakše integriše sa drugim transformacijama (kao što su rotacija, translacija itd.). Gornja transformacija može se predstaviti pomoću homogenih koordinata:
+
 ```
-[ 1 0 0 0
-  0 1 0 0
-  0 0 1 0
+[ 1 0 0 0  
+  0 1 0 0  
+  0 0 1 0  
   0 0 0 1 ]
 ```
 
-One of the most frequent parallel projections are the front, top and side views of the object (elevations). The projections are given by the functions:
+## Elevacije
 
+![](/images/razvoj-igara/elevations.gif)
+
+Elevacije su prikazi objekta iz fiksiranih pravaca. Tri najčešće elevacija su:
+
+- Prednja elevacija: prikaz objekta sa prednje strane.
+- Bočna elevacija: prikaz objekta sa jedne bočne strane (levo ili desno).
+- Gornja elevacija: prikaz objekta sa gornje strane.
+
+Glave paralelne projekcije predstavljene funkcijama izgledaju ovako:
+
+```js
+prednjaStrana = (x,y,z) => (x,z)  
+bocnaStrana = (x,y,z) => (y,z)  
+gornjaStrana = (x,y,z) => (x,y)
 ```
-frontP(x,y,z) = (x,z)
-sideP(x,y,z) = (y,z)
-topP(x,y,z) = (x,y)
-```
-
-![](slike/elevations.gif)
-
-Human eyes do not see the world via orthographic projection.
