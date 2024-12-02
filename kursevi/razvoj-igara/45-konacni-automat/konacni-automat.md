@@ -45,11 +45,13 @@ U realnim sistemima neretko imamo na desetine stanja koje je gotovo nemoguće pr
 
 Mašina stanja takođe može biti predstavljena tabelarno. Tablica prelaza stanja (*state transition table*) služi za precizno definisanje konačnih stanja i njihovih promena zavisno od ulaznih događaja. Pomaže u dizajniranju složenih scenarija, kao što su igre i interfejsi sa višestrukim stanjima.
 
-## Primer proste implementacije
+## Primer: Stražar
 
-![](/images/koncepti/oop/Basic-States.webp)
+<!-- ![](/images/koncepti/oop/Basic-States.webp) -->
 
-Primer proste implementacije mašine stanja u JS-u. Imamo neprijatelja koji može biti u dva stanja: `Patrol` i `Chase`. Neprijatelj inicijalno patrolira. Ako mu se igrač približi, prelazi u poteru:
+![](/images/razvoj-igara/strazar-stanja.png)
+
+Imamo stražara koji može biti u dva stanja: `Patrol` i `Attack`. Stražar inicijalno patrolira. Ako mu se igrač približi, prelazi u napad:
 
 {:.ulaz}
 ```js
@@ -59,27 +61,27 @@ class PatrolState {
   }
 
   enter() {
-    console.log('Neprijatelj prelazi u stanje patroliranja.')
+    console.log('Neprijatelj se vraća patroliranju.')
   }
 
   update(player) {
     console.log('Neprijatelj patrolira...')
     const distance = Math.hypot(this.actor.x - player.x, this.actor.y - player.y)
-    if (distance < 5) this.actor.changeState(new ChaseState(this.actor))
+    if (distance < 5) this.actor.changeState(new AttackState(this.actor))
   }
 }
 
-class ChaseState {
+class AttackState {
   constructor(actor) {
     this.actor = actor
   }
 
   enter() {
-    console.log('Neprijatelj prelazi u stanje potere.')
+    console.log('Neprijatelj prelazi u napad!')
   }
 
   update(player) {
-    console.log('Neprijatelj juri igrača!')
+    console.log('Neprijatelj napada igrača...')
     const distance = Math.hypot(this.actor.x - player.x, this.actor.y - player.y)
     if (distance >= 5) this.actor.changeState(new PatrolState(this.actor))
   }
@@ -105,7 +107,7 @@ class Enemy {
   }
 }
 
-// primer
+// upotreba
 const player = { x: 0, y: 0 }
 const enemy = new Enemy()
 enemy.setPosition(10, 10)
@@ -121,6 +123,14 @@ player.x = player.y = 20
 console.log('\nIgrač se udaljio:')
 enemy.update(player)
 ```
+
+Uz malo truda, stražaru možete dodati i treće stanje, da beži kada mu opadne energija.
+
+## Primer: Igra
+
+Ne samo neprijatelji u igri već i sama igra može primenjivati konačni automat za praćenje svojih stanja:
+
+![igra](/images/razvoj-igara/dijagram-igre.jpg)
 
 ## Literatura
 
