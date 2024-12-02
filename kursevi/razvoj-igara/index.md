@@ -75,6 +75,10 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Mapiranje pločica](/mapiranje-plocica)
 - [Mapiranje sfere](/mapiranje-sfere)
 
+### Konačni automat
+
+- [Konačni automat](/konacni-automat)
+
 ### Koncepti igre
 
 - [Glavna petlja](/glavna-petlja)
