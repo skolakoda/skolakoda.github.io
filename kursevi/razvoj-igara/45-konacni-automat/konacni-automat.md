@@ -33,6 +33,83 @@ Mašina stanja može biti predstavljena grafikonom, gde su čvorovi (*nodes*) st
 
 Velika prednost mašine stanja je ponovna upotreba za različita stvorenja. Na primer, stanja poput patroliranja ili napada, a uz određenu parametrizaciju, možemo koristiti za razne vrste stvorenja.
 
+## Primer proste implementacije
+
+![](/images/koncepti/oop/Basic-States.webp)
+
+Primer proste implementacije mašine stanja u JS-u. Imamo neprijatelja koji može biti u dva stanja: `Patrol` i `Chase`. Neprijatelj inicijalno patrolira. Ako mu se igrač približi, prelazi u poteru:
+
+{:.ulaz}
+```js
+class PatrolState {
+  constructor(actor) {
+    this.actor = actor
+  }
+
+  enter() {
+    console.log('Neprijatelj prelazi u stanje patroliranja.')
+  }
+
+  update(player) {
+    console.log('Neprijatelj patrolira...')
+    const distance = Math.hypot(this.actor.x - player.x, this.actor.y - player.y)
+    if (distance < 5) this.actor.changeState(new ChaseState(this.actor))
+  }
+}
+
+class ChaseState {
+  constructor(actor) {
+    this.actor = actor
+  }
+
+  enter() {
+    console.log('Neprijatelj prelazi u stanje potere.')
+  }
+
+  update(player) {
+    console.log('Neprijatelj juri igrača!')
+    const distance = Math.hypot(this.actor.x - player.x, this.actor.y - player.y)
+    if (distance >= 5) this.actor.changeState(new PatrolState(this.actor))
+  }
+}
+
+class Enemy {
+  constructor() {
+    this.state = new PatrolState(this)
+  }
+
+  setPosition(x, y) {
+    this.x = x
+    this.y = y
+  }
+
+  changeState(newState) {
+    this.state = newState
+    this.state.enter()
+  }
+
+  update(player) {
+    this.state.update(player)
+  }
+}
+
+// primer
+const player = { x: 0, y: 0 }
+const enemy = new Enemy()
+enemy.setPosition(10, 10)
+
+console.log('Početno stanje:')
+enemy.update(player)
+
+player.x = player.y = 8
+console.log('\nIgrač se približio:')
+enemy.update(player)
+
+player.x = player.y = 20
+console.log('\nIgrač se udaljio:')
+enemy.update(player)
+```
+
 ## Literatura
 
 - Fernando Bevilacqua, [*Finite-State Machines: Theory and Implementation*](https://code.tutsplus.com/finite-state-machines-theory-and-implementation--gamedev-11867t)
