@@ -10,7 +10,9 @@ permalink: /konacni-automat
 
 Kada pravimo automat konačnih stanja, stanja znamo unapred (jer su konačna). Samo jedno stanje može biti aktivno, pa mašina mora preći iz jednog stanja u drugo da bi izvršila različite radnje.
 
-## Sastojci
+Velika prednost mašine stanja je ponovna upotreba za različita stvorenja. Na primer, stanja poput patroliranja ili napada, a uz određenu parametrizaciju, možemo koristiti za razne vrste stvorenja.
+
+## Delovi
 
 Konačni automat čine:
 - **stanja** u kojima mašina može biti; istovremeno može biti u samo jednom.
@@ -23,15 +25,25 @@ Konačni automat čine:
 
 ## Simuliranje neodređenosti
 
-Većina igara je deterministička; što znači da znamo kako će neprijatelji reagovati. Ako ne vide igrača, patroliraju. Ako ga vide, napadaju. Možemo simulirati nepredvidivu logiku tako što ćemo promeniti stanje nasumično. Na primer, ponekad neprijatelj može da upotrebi granatu u odnosu na pištolj, ili da odmah napadne ne čekajući alarm... Ova nasumičnost čini mašinu stanja nedeterminističkom, što znači da znamo sva stanja, ali ne i puteve između njih.
+Većina igara je deterministička, što znači da znamo kako će neprijatelji reagovati. Ako ne vide igrača, patroliraju. Ako ga vide, napadaju. 
 
-## Vizuelizacija
+Možemo simulirati nepredvidivu logiku tako što ćemo promeniti stanje nasumično. Na primer, neprijatelj nekad može upotrebiti bombu a ne pištolj, ili odmah napasti ne čekajući alarm... Ova nasumičnost čini mašinu stanja nedeterminističkom, što znači da znamo sva stanja, ali ne i puteve između njih.
 
-Mašina stanja može biti predstavljena grafikonom, gde su čvorovi (*nodes*) stanja, a grane (*edges*) prelazi. Mašina stanja takođe može biti predstavljena tabelarno.
+## Dijagram stanja
 
-## Ponovna upotreba
+![dva-stanja](/images/razvoj-igara/dva-stanja.jpeg)
 
-Velika prednost mašine stanja je ponovna upotreba za različita stvorenja. Na primer, stanja poput patroliranja ili napada, a uz određenu parametrizaciju, možemo koristiti za razne vrste stvorenja.
+Konačni automat se najčešće prikazuje dijagramom stanja, odnosno grafikonom gde su čvorovi stanja, a ivice prelazi. Na slici imamo prostu mašinu sa:
+- 2 stanja (upaljeno, ugašeno)
+- 2 prelaza (paljenje, gašenje)
+
+U realnim sistemima neretko imamo na desetine stanja koje je gotovo nemoguće pratiti bez odgovarajućeg grafičkog prikaza.
+
+## Tablica prelaza stanja
+
+![tablica-stanja](/images/razvoj-igara/tablica-stanja.png)
+
+Mašina stanja takođe može biti predstavljena tabelarno. Tablica prelaza stanja (*state transition table*) služi za precizno definisanje konačnih stanja i njihovih promena zavisno od ulaznih događaja. Pomaže u dizajniranju složenih scenarija, kao što su igre i interfejsi sa višestrukim stanjima.
 
 ## Primer proste implementacije
 
