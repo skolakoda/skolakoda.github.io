@@ -4,52 +4,36 @@ layout: lekcija-razvoj-igara
 permalink: /3d-transformacione-matrice
 ---
 
-## Translacija
-
-$$
-T = \begin{bmatrix}
- 1& 0&  0& 0\\ 
- 0&  1& 0& 0\\ 
- 0&  0&  1& 0\\ 
- t_{x}& t_{y}&  t_{z}& 1\\
-\end{bmatrix}
-$$
-
-## Skaliranje
-
-$$
-S = \begin{bmatrix}
- S_{x}&  0&  0& 0\\ 
- 0&  S_{y}&  0& 0\\ 
- 0& 0&  S_{z}& 0\\ 
- 0&  0&  0& 1
-\end{bmatrix}
-$$
-
 ## Rotacija
 
 Matrice za rotaciju po x, y i z osi:
 
-$$
-R_{x}(\theta) = \begin{bmatrix}
- 1& 0&  0& 0\\ 
- 0&  cos\theta & −sin\theta& 0\\ 
- 0&  sin\theta &  cos\theta& 0\\ 
- 0& 0&  0& 1\\
-\end{bmatrix}
-R_{y}(\theta) = \begin{bmatrix}
- cos\theta& 0&  sin\theta& 0\\ 
- 0&  1& 0& 0\\ 
- −sin\theta&  0&  cos\theta& 0\\ 
- 0& 0&  0& 1\\
-\end{bmatrix}
-R_{z}(\theta) =\begin{bmatrix}
- cos\theta &  −sin\theta &  0& 0\\ 
- sin\theta &  cos\theta &  0& 0\\ 
- 0& 0&  1& 0\\ 
- 0&  0&  0& 1
-\end{bmatrix}
-$$
+Za rotaciju oko x-ose:
+
+```
+1    0       0    0  
+0   cosθ  -sinθ   0  
+0   sinθ   cosθ   0  
+0    0       0    1
+```
+
+Za rotaciju oko y-ose:
+
+```
+cosθ   0   sinθ   0  
+0      1      0    0  
+-sinθ  0   cosθ   0  
+0      0      0    1
+```
+
+Za rotaciju oko z-ose:
+
+```
+cosθ  -sinθ   0    0  
+sinθ   cosθ   0    0  
+0      0      1    0  
+0      0      0    1
+```
 
 ## Primeri
 
