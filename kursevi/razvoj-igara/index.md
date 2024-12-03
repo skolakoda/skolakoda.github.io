@@ -95,6 +95,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
   - [Matrica refleksije](/matrica-refleksije)
   - [Matrica struganja](/matrica-struganja)
   - [Matrica inverzije](/matrica-inverzije)
+  - [Matrica identiteta](/matrica-identiteta)
 
 ### Koncepti igre
 

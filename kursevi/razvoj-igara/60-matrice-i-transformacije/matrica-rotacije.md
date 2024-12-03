@@ -6,9 +6,9 @@ permalink: /matrica-rotacije
 
 ![](/images/razvoj-igara/rotacija.png)
 
-**Matrica rotacije služi za rotiranje predmeta ili celokupnog vektorskog prostora oko određene ose ili tačke.**
+**Matrica rotacije služi za rotiranje predmeta ili celokupnog vektorskog prostora oko određene tačke ili ose.**
 
-## 2D rotacija
+## 2D rotacije
 
 2D rotacija oko ishodišta u smeru kazaljke:
 
@@ -24,7 +24,31 @@ sin(θ),  cos(θ)
 -sin(θ) cos(θ)
 ```
 
-## 3D rotacija
+### Pamtljive 2D rotacije
+
+```
+rotacija 90°  = (x, y) => (-y, x)
+rotacija 180° = (x, y) => (-x, -y)
+rotacija 270° = (x, y) => (y, -x)
+```
+
+**Objašnjenje**: Za ugao od 90° u matrici rotacije imamo sledeće vrednosti:
+
+```
+cos(90°) = 0
+sin(90°) = 1
+```
+
+Kada zamenimo vrednosti u matrici dobijemo:
+
+```
+R(90°) = 0, -1
+         1,  0
+```
+
+Množenje ove matrice sa (x, y) daje (-y, x).
+
+## 3D rotacije
 
 3D rotacija oko x ose:
 
@@ -50,26 +74,31 @@ sin(θ),  cos(θ), 0
 0,       0,      1
 ```
 
-## Pamtljive 2D rotacije
+### Homogeni zapis
+
+Matrica za rotaciju oko x-ose:
 
 ```
-rotacija 90°  = (x, y) => (-y, x)
-rotacija 180° = (x, y) => (-x, -y)
-rotacija 270° = (x, y) => (y, -x)
+1    0       0    0  
+0   cosθ  -sinθ   0  
+0   sinθ   cosθ   0  
+0    0       0    1
 ```
 
-**Objašnjenje**: Za ugao od 90° u matrici rotacije imamo sledeće vrednosti:
+Matrica za rotaciju oko y-ose:
 
 ```
-cos(90°) = 0
-sin(90°) = 1
+cosθ   0   sinθ   0  
+0      1      0    0  
+-sinθ  0   cosθ   0  
+0      0      0    1
 ```
 
-Kada zamenimo vrednosti u matrici dobijemo:
+Matrica za rotaciju oko z-ose:
 
 ```
-R(90°) = 0, -1
-         1,  0
+cosθ  -sinθ   0    0  
+sinθ   cosθ   0    0  
+0      0      1    0  
+0      0      0    1
 ```
-
-Množenje ove matrice sa (x, y) daje (-y, x).

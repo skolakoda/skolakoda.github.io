@@ -21,19 +21,42 @@ transformisan vektor = vektor x transformaciona matrica
 
 Transformacione matrice omogućuju lako kombinovanje transformacija množenjem matrica.
 
-## Matrica identiteta
+## Primer upotrebe
 
-Identitetska (ili jedinična) matrica je matrica kojoj su na glavnoj dijagonali jedinice, a ostalo nule. Ona u množenju ne menja druge matrice, slično kao broj 1.
+Primer osnovnih transformacija pomoću matrica u Three.js-u:
 
-2D identitetska matrica:
-```
-1 0
-0 1
-```
+```js
+const matrix = new THREE.Matrix4()
 
-3D identitetska matrica:
-```
-1 0 0
-0 1 0
-0 0 1
+function translate(mesh, param) {
+  matrix.set(
+    1, 0, 0, param.x,
+    0, 1, 0, param.y,
+    0, 0, 1, param.z,
+    0, 0, 0, 1
+  )
+  mesh.applyMatrix4(matrix)
+}
+
+function scale(mesh, param) {
+  matrix.set(
+    param.x, 0, 0, 0,
+    0, param.y, 0, 0,
+    0, 0, param.z, 0,
+    0, 0, 0, 1
+  )
+  mesh.geometry.applyMatrix4(matrix)
+}
+
+function rotateY(mesh, param) {
+  const cos = Math.cos(param.theta)
+  const sin = Math.sin(param.theta)
+  matrix.set(
+    cos, 0, sin, 0,
+    0, 1, 0, 0,
+    -sin, 0, cos, 0,
+    0, 0, 0, 1
+  )
+  mesh.geometry.applyMatrix4(matrix)
+}
 ```
