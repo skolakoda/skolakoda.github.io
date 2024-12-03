@@ -87,7 +87,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 ### Matrice i transformacije
 
-- [Uvod u transformacije](/transformacije)
+- [Linearne transformacije](/linearne-transformacije)
 - [Transformacione matrice](/transformacione-matrice)
   - [Matrica translacije](/matrica-translacije)
   - [Matrica skaliranja](/matrica-skaliranja)
