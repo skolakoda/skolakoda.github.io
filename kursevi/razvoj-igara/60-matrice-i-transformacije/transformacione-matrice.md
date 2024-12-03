@@ -4,12 +4,19 @@ layout: lekcija-razvoj-igara
 permalink: /transformacione-matrice
 ---
 
-**Transformacione matrice opisuju linearne transformacije.** One opisuju kako se predmeti pomeraju, rotiraju, skaliraju, reflektuju ili na drugi način preobražuju. Osnovne matrice su:
+**Matrica je niz brojeva, poređanih u redove i kolone.** Ako matrica ima isti broj vrsta i kolona, onda je kvadratna. Tipična 2x2 matrica izgleda ovako:
 
-- translacija
-- skaliranje
-- rotacija
-- odraz (refleksija)
+```
+a c
+b d
+```
+
+**Transformacione matrice opisuju linearne transformacije.** One opisuju kako se predmeti pomeraju, rotiraju, skaliraju, reflektuju ili na drugi način preobražuju. Osnovne matrice preobrazbe su:
+
+- translacija (pomeranje)
+- skaliranje (preveličanje)
+- rotacija (okretanje)
+- refleksija (odraz)
 - struganje (*shearing*)
 - identitet  
 
