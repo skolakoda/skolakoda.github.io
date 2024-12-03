@@ -89,6 +89,11 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 - [Uvod u transformacije](/transformacije)
 - [Transformacione matrice](/transformacione-matrice)
+  - [Matrica skaliranja](/matrica-skaliranja)
+  - [Matrica rotacije](/matrica-rotacije)
+  - [Matrica refleksije](/matrica-refleksije)
+  - [Matrica struganja](/matrica-struganja)
+  - [Matrica inverzije](/matrica-inverzije)
 
 ### Koncepti igre
 
