@@ -50,8 +50,8 @@ image: /images/kursevi/algoritmi.jpg
 - [Algoritmi pretrage](/algoritmi-pretrazivanja)
   - [Linearna pretraga](/linearna-pretraga) (redom)
   - [Binarna pretraga](/binarna-pretraga) (podelom)
+- [Vežba: pogađanje zamišljenog broja](/pogadjanje-zamisljenog-broja)
 - Vežba: nalaženje osobe u telefonskom imeniku
-- Vežba: pogađanja zamišljenog broja (veće-manje)
 - Vežba: nalaženje dva najmanja broja u nizu
 
 ### Algoritmi sortiranja

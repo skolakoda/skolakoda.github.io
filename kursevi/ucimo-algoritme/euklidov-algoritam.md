@@ -31,7 +31,7 @@ console.log(nzd(48, 18))
 
 ## Rekurzivna implementacija
 
-Najveći zajednički delilac se, pomoću Euklidovog algoritma, može izračunati narednom rekurzivnom funkcijom:
+Najveći zajednički delilac se, pomoću Euklidovog algoritma, može izračunati i rekurzivnom funkcijom:
 
 {:.ulaz}
 ```js

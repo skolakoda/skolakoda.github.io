@@ -12,7 +12,7 @@ Bio je u upotrebi među seljacima koji nisu bili školovani i nisu znali tablicu
 
 ## Koraci
 
-Da bismo pomnožili dva broja, na primer 12 i 14, potrebno je da prvi neprestano delimo sa dva (bez ostatka), a drugi množimo sa dva:
+Da bismo pomnožili dva broja, na primer 12 i 14, potrebno je da prvi delimo na pola (zaokružujući naniže) do jedinice, a drugi dupliramo:
 
 ```
 12   14
@@ -21,7 +21,7 @@ Da bismo pomnožili dva broja, na primer 12 i 14, potrebno je da prvi neprestano
 1    112
 ```
 
-Potom, precrtati sve redove gde je prvi broj neparan:
+Potom, odbacujemo sve redove gde je prvi broj paran:
 
 <pre>
 <del>12</del>   <del>14</del>
@@ -30,16 +30,16 @@ Potom, precrtati sve redove gde je prvi broj neparan:
 1    112
 </pre>
 
-Na kraju, sabrati brojeve koji su preostali u drugoj koloni.
+Na kraju, sabiramo brojeve koji su ostali u drugoj koloni.
 
 ```
      56
 +   112
--------
+———————
     168
 ```
 
-## Implementacija
+## Implementacija u Python-u
 
 Data je iterativna implementacija u Python-u:
 
@@ -69,4 +69,38 @@ def pomnozi(x, y):
         return y + 2 * pomnozi((x - 1) / 2, y)
 
 print (pomnozi(12, 14))
+```
+
+## Implementacija u JS-u
+
+Data je iterativna implementacija u JS-u:
+
+{:.ulaz}
+```js
+function pomnozi(x, y) {
+    let zbir = 0
+    while (x > 0) {
+        if (x % 2 === 1) zbir += y
+        x = Math.floor(x / 2)
+        y *= 2
+    }
+    return zbir
+}
+
+console.log(pomnozi(12, 14))
+```
+
+Moguće je algoritam implementirati i rekurzivno:
+
+{:.ulaz}
+```js
+function pomnozi(x, y) {
+    if (x === 0) return 0
+    if (x % 2 === 0)
+        return 2 * pomnozi(x / 2, y)
+    else
+        return y + 2 * pomnozi((x - 1) / 2, y)
+}
+
+console.log(pomnozi(12, 14))
 ```

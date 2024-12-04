@@ -15,12 +15,18 @@ Editor izvršava kod na dva načina
 
   /* FUNCTIONS */
 
+  const normalizeLog = x => {
+    if (x instanceof Set) return JSON.stringify(Array.from(x))
+    if (typeof arg === 'object') return JSON.stringify(arg)
+    return x
+  }
+
   function izvrsiJS(kod, izlaz) {
     izlaz.innerHTML = ''
     const originalLog = console.log
     console.log = (...args) =>
       args.map((arg, i) => {
-        const val = typeof arg === 'object' ? JSON.stringify(arg) : arg
+        const val = normalizeLog(arg)
         izlaz.innerHTML += val + (args[i + 1] ? ' ' : '<br>')
       })
     try {

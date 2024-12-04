@@ -1,10 +1,12 @@
-# Traženje putanje
+---
+title: Traženje putanje
+layout: lekcija-razvoj-igara
+permalink: /trazenje-putanje
+---
 
-Traženje putanje je pronalazak najkraće putanje između dve tačke. Često se primenjuje za rešavanje lavirinata.
+**Algoritmi za traženje putanje služe za pronalazak najkraće putanje između dve tačke. Često se primenjuju za rešavanje lavirinata.**
 
-U suštini, metod traženja putanje traži graf počevši od jednog čvora i nastavlja pretraživanje na susedne čvorove dok se ne pronađe ciljni čvor, sa nameom da se pronađe najkraći put.
-
-Path finding algorithms can be divided in two broad categories: local and global. Local approaches try to find a path to a destination by analyzing the surroundings of the current position only. We know in which direction we want to go, and we try to perform the best move by studying our local neighborhood. Global algorithms, on the other hand, analyze the area as a whole and trace the best path using all the information.
+Algoritmi za traženje putanje mogu se podeliti u dve široke kategorije: lokalne i globalne. Lokalni pokušavaju da pronađu put do odredišta analizirajući okolinu trenutne pozicije. Znamo u kom pravcu želimo da idemo i pokušavamo napraviti najbolji potez proučavajući svoje susedstvo. Globalni algoritmi, s druge strane, analiziraju područje u celini i trasiraju najbolji put koristeći sve dostupne informacije.
 
 ## Crash and Turn
 
