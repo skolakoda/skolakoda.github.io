@@ -15,9 +15,17 @@ Editor izvršava kod na dva načina
 
   /* FUNCTIONS */
 
-  const normalizeLog = x => {
+  function formatMatrix(matrix) {
+    const maxLength = Math.max(...matrix.flat().map(val => String(val).length))
+    return matrix.map(row => 
+        row.map(val => String(val).padStart(maxLength, ' ')).join(' ')
+    ).join('\n')
+  }
+
+  const formatLog = x => {
     if (x instanceof Set) return JSON.stringify(Array.from(x))
-    if (typeof arg === 'object') return JSON.stringify(arg)
+    if (Array.isArray(x) && x.every(Array.isArray)) return formatMatrix(x)
+    if (typeof x === 'object') return JSON.stringify(x)
     return x
   }
 
@@ -26,8 +34,7 @@ Editor izvršava kod na dva načina
     const originalLog = console.log
     console.log = (...args) =>
       args.map((arg, i) => {
-        const val = normalizeLog(arg)
-        izlaz.innerHTML += val + (args[i + 1] ? ' ' : '<br>')
+        izlaz.innerHTML += formatLog(arg) + (args[i + 1] ? ' ' : '<br>')
       })
     try {
       eval(kod)
