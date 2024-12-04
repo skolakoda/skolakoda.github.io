@@ -85,6 +85,7 @@ image: /images/kursevi/algoritmi.jpg
   - [Matrica povezanosti](/matrica-povezanosti)
   - [Lista povezanosti](/lista-povezanosti)
 - [Pretraga u dubinu](/pretraga-u-dubinu)
+  - [Problem osam dama](/problem-osam-dama)
 - [Pretraga u širinu](/pretraga-u-sirinu)
 
 ### Ostali algoritmi
