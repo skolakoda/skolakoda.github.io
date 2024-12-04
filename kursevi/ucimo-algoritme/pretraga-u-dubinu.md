@@ -102,6 +102,6 @@ U slučaju Lojdove slagalice, početna pozicija je nasumična, završna je ona n
 
 Postoji niz poboljšanja pretrage u dubinu i upravo ova slagalica je odličan primer kako se pretraga može ubrzati usmeravanjem i ograničavanjem.
 
-### Izvori
+## Izvori
 
 - Petlja.org: [*Pretraga "najpre u dubinu" i "najpre u širinu"*](https://petlja.org/BubbleBee/r/Lectures/algoritmi-pretrage-najpre-u-dubinu-i-najpre-u-sirinu)

@@ -72,21 +72,17 @@ function solveQueensRecursive(board, col = 0) {
   return false
 }
 
-function solveQueens(n) {
-  const board = Array.from({ length: n }, () => Array(n).fill(0))
-
-  return solveQueensRecursive(board) ? board : null
-}
-
 // upotreba
-const solution = solveQueens(8)
-console.log(solution || 'Nema rešenja.')
+const board = Array.from({ length: 8 }, () => Array(8).fill(0))
+
+const isSolved = solveQueensRecursive(board)
+console.log(isSolved ? board : 'Nema rešenja.')
 ```
 
 ## Trivia
 
 Zanimljivo da je pre pojave računara bio potreban genije i upornost veličine Gausa (jedan od najvećih matematičara svih vremena) za potpuno rešavanje ovog problema (nalaženje svih 92 rešenja). Danas je to običan školski zadatak do čijeg rešenja može doći svako ko ume da programira.
 
-### Izvori
+## Izvori
 
 - Petlja.org: [*Pretraga "najpre u dubinu" i "najpre u širinu"*](https://petlja.org/BubbleBee/r/Lectures/algoritmi-pretrage-najpre-u-dubinu-i-najpre-u-sirinu)

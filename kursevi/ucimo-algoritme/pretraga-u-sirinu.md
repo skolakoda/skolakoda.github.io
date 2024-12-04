@@ -4,21 +4,25 @@ layout: lekcija-algoritmi
 permalink: /pretraga-u-sirinu
 ---
 
-![](https://camo.githubusercontent.com/2dbee6a8b24b0921898ffe2c0e1bd4a81a8f2f0f/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f647172326d656a68632f696d6167652f75706c6f61642f76313530313336303734362f6266735f7373776d657a2e676966)
+![](/images/koncepti/algoritmi/pretraga-stabla.png)
 
-**Pretraga u širinu (engl. *breadth first search*) se od pretrage u dubinu razlikuje po redosledu obilaženja polja, odnosno pozicija u postoru pretrage. Ovom pretragom se prvo pronalaze sve pozicije koje nastaju posle jednog poteza, zatim sve koje nastaju posle dva poteza, itd.**
+**Pretraga u širinu (*breadth first search*, BFS) je algoritam za pretragu stabala i grafova, gde krećemo od početnog čvora i prelazimo sve njegove susede pre nego što pređemo na sledeći nivo.** Tako se osigurava da prvo pretražimo trenutni nivo pre nego što nastavimo dublje.
 
-Kada je poznat skup S(k) pozicija dostižnih k poteza, tada se skup S(k+1) pozicija dostižnih u k+1 poteza dobija napredovanjem za jedan korak na svaki mogući način is svake od pozicija iz S(k). Ranije posećene pozicije se ne uzimaju ponovo u obzir. Postupak se nastavlja dok se ne dođe do tražene pozicije, ili se pretraže sve pozicije u zadatim okvirima.
+Pretraga u širinu se od pretrage u dubinu razlikuje po redosledu obilaska. Ovom pretragom se prvo pronalaze sve pozicije dostupne posle jednog poteza, zatim sve dostupne posle dva poteza, itd.
 
-Prednost pretrage u širinu je što se prvo posećivanje svake nove pozicije uvek postiže u najmanjem mogućem broju poteza. Zahvaljujući tome, rešenja otkrivena pretragom u širinu su uvek optimalna po broju poteza. Sa druge strane, radi pretrage u širinu potrebno je organizovati pamćenje posećenih pozicija, da bi se pretraga mogla nastaviti iz svih tih pozicija.
+Algoritam pretrage u širinu koristi strukturu podataka koja se naziva [red](/red). Objekti mogu da se dodaju na kraj reda, a objekat koji je na početku reda može da se uzme i upotrebi. U slučaju lavirinta, objekti predstavljaju pozicije iz prostora pretrage, a to su dostignuta polja.
 
-Algoritam pretrage u širinu koristi strukturu podataka koja se naziva [red](/red) (engl. *queue*). Ona zaista funkcioniše kao red ljudi koji čekaju na neku uslugu: objekti mogu da se dodaju na kraj reda, a objekat koji je na početku reda može da se uzme i upotrebi. U slučaju lavirinta, objekti predstavljaju pozicije iz prostora pretrage, a to su dostignuta polja.
+## Prednosti i mane
 
-## Izlazak iz lavirinta
+Prednost pretrage u širinu je što se prva poseta svake nove pozicije uvek postiže u najmanjem mogućem broju koraka. Zahvaljujući tome, rešenja otkrivena pretragom u širinu su uvek optimalna po broju koraka. 
 
-Da bismo bolje ilustrovali mogućnosti algoritma pretrage u širinu, postavićemo problem lavirinta nešto drugačije. Neka je matricom `a` dat lavirint i polazno polje u njemu. Zadatak je da se za svako polje lavirinta odredi najmanji broj poteza koji je potreban da se do tog polja stigne kroz lavirint, kretanjem od polaznog polja.
+Sa druge strane, radi pretrage u širinu potrebno je organizovati pamćenje posećenih pozicija, da bi se pretraga mogla nastaviti iz njih.
 
-Stavljaćemo u red koordinate polja koja su susedna posećenim, tako da ona čekaju da budu posećena. Za svako polje ćemo u pomoćnoj matrici `m` pamtiti broj poteza koji je potreban za stizanje do njega.
+## Primer u pseudokodu: Izlaz iz lavirinta
+
+Matricom `a` je dat lavirint i polazno polje u njemu. Zadatak je da se za svako polje lavirinta odredi najmanji broj koraka koji potreban da se do tog polja stigne.
+
+Stavljamo u red koordinate polja koja su susedna posećenim, tako da ona čekaju da budu posećena. Za svako polje u pomoćnoj matrici `m` pamtimo broj koraka potreban za stizanje do njega.
 
 ```c
 MinMoves(xstart, ystart)
@@ -55,9 +59,58 @@ MinMoves(xstart, ystart)
     WriteLine();
 ```
 
-Prilikom pretrage u širinu želimo da dodamo u red samo susede tekućeg polja koji još nisu posećeni. Ovde se posećena polja prepoznaju po tome što imaju upisan potreban broj poteza (različit od inicijalne vrednosti).
+Prilikom pretrage u širinu želimo da dodamo u red samo susede tekućeg polja koji još nisu posećeni. Posećena polja se prepoznaju po tome što imaju upisan potreban broj poteza.
 
 Vreme rada i zauzeće memorije su u najgorem slučaju srazmerni veličini prostora pretrage.
 
 
-Izvor: [Petlja.org](https://petlja.org/BubbleBee/r/Lectures/algoritmi-pretrage-najpre-u-dubinu-i-najpre-u-sirinu)
+## Primer u JS-U
+
+Jednostavna implementacija pretrage u širinu u JavaScript-u:
+
+{:.ulaz}
+```js
+function bfsMaze(maze, start, end) {
+  const directions = [
+    [0, 1], [1, 0], [0, -1], [-1, 0] // desno, dole, levo, gore
+  ]
+  const rows = maze.length
+  const cols = maze[0].length
+  const queue = [[start, [start]]]
+  const visited = new Set()
+
+  visited.add(start.toString())
+
+  while (queue.length > 0) {
+    const [[x, y], path] = queue.shift()
+    if (x === end[0] && y === end[1]) return path
+
+    for (const [dx, dy] of directions) {
+      const nx = x + dx, ny = y + dy
+      if (
+        nx >= 0 && ny >= 0 && nx < rows && ny < cols &&
+        maze[nx][ny] === 0 && !visited.has([nx, ny].toString())
+      ) {
+        queue.push([[nx, ny], [...path, [nx, ny]]])
+        visited.add([nx, ny].toString())
+      }
+    }
+  }
+  return null
+}
+
+// upotreba
+const maze = [
+  [0, 1, 0, 0],
+  [0, 1, 0, 1],
+  [0, 0, 0, 1],
+  [1, 1, 0, 0]
+]
+
+const start = [0, 0], end = [3, 3]
+console.log(bfsMaze(maze, start, end)) // koraci do cilja
+```
+
+## Izvori
+
+- Petlja.org: [*Pretraga "najpre u dubinu" i "najpre u širinu"*](https://petlja.org/BubbleBee/r/Lectures/algoritmi-pretrage-najpre-u-dubinu-i-najpre-u-sirinu)
