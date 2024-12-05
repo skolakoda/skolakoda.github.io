@@ -87,6 +87,9 @@ image: /images/kursevi/algoritmi.jpg
 - [Pretraga u dubinu](/pretraga-u-dubinu)
   - [Primer: problem osam dama](/problem-osam-dama)
 - [Pretraga u širinu](/pretraga-u-sirinu)
+- [Udari i skreni](/udari-i-skreni)
+- [Dajkstrin algoritam](/dajkstrin-algoritam)
+- [A* algoritam](/a-star-algoritam)
 
 ### Ostali algoritmi
 
