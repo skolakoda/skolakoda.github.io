@@ -61,7 +61,8 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Otkrivanje preseka linija](/presek-linija)
 - [Sudarni odgovor](/sudarni-odgovor)
 
-### Mape
+### Mape pločica
+
 - [Crtanje mapa](/crtanje-mapa)
 - [Mapiranje pločica](/mapiranje-plocica)
 - [Mapiranje sfere](/mapiranje-sfere)
