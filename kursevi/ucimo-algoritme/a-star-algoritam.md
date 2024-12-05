@@ -4,9 +4,11 @@ layout: lekcija-algoritmi
 permalink: /a-star-algoritam
 ---
 
-A* (pronounced A-star) is a global space-search algorithm that can be used to find solutions to many problems, path finding being just one of them. It has been used in many real-time strategy games and is probably the most popular path finding algorithm.
+![astar-algoritam](/images/koncepti/algoritmi/astar-algoritam.gif)
 
-![astar-algoritam](slike/astar-algoritam.gif)
+**A* (*A-star*) je algoritam pretrage koji se koristi za rešavanje mnogih problema, uključujući nalaženje najkraćeg puta. Koristi se u mnogim igrama i verovatno je najpopularniji algoritam traženja puta.**
+
+A* algoritam kombinuje Dajkstrin algoritam i pohlepnu (*greedy*) pretragu, što ga čini bržim od drugih algoritama poput Dajkstre, koji istražuje sve mogućnosti.
 
 ## Primer u pseudokodu
 
