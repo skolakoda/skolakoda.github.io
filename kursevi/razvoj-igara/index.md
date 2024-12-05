@@ -7,9 +7,6 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 **{{page.desc}}**
 
-### Uvod
-
-
 ### Geometrija
 
 - [Osnovni pojmovi geometrije](/geometrija-pojmovi)
@@ -25,10 +22,6 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Primena trigonometrije](/primena-trigonometrije)
 - [Kako napraviti kružnu animaciju pomoću trigonometrije?](/trigonometrija-animacija)
 
-### Matematika
-
-- [Linearna interpolacija](/lerp)
-
 ### Vektori
 
 - [Vektori](/vektori)
@@ -38,22 +31,25 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Skaliranje vektora](/skaliranje-vektora)
 - [Skalarni proizvod vektora](/dot-proizvod) (*dot proizvod*)
 - [Vektorski proizvod](/vektorski-proizvod) (*unakrsni proizvod*)
+- [Linearna interpolacija](/lerp)
 
-### Sile
+### Fizika
 
+- [Njutnovi zakoni](/njutnovi-zakoni)
 - [Sile](/sile)
   - [Trenje](/trenje)
   - [Gravitacija](/gravitacija)
-- [Energija](/energija)
-
-### Kretanje
-
-- [Njutnovi zakoni](/njutnovi-zakoni)
+<!-- - [Energija](/energija) -->
 - [Kretanje](/kretanje)
-  - [Integracija](/integracija)
+  - [Integracija fizike](/integracija)
   - [Rotaciono kretanje](/rotaciono-kretanje)
 - [Projektil](/projektil)
-- [Parabola](/parabola)
+  - [Parabola](/parabola)
+- [Fizičko telo](/fizicko-telo)
+- Primeri:
+  - [Fizika aviona](/fizika-avion)
+  - [Fizika vozila](/fizika-vozilo)
+  - [Fizika plovila](/fizika-plovilo)
 
 ### Sudari
 - [Sudari u igrama](/kolizija)
@@ -65,19 +61,10 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Otkrivanje preseka linija](/presek-linija)
 - [Sudarni odgovor](/sudarni-odgovor)
 
-### Primeri fizike
-- [Fizika aviona](/fizika-avion)
-- [Fizika vozila](/fizika-vozilo)
-- [Fizika plovila](/fizika-plovilo)
-
 ### Mape
 - [Crtanje mapa](/crtanje-mapa)
 - [Mapiranje pločica](/mapiranje-plocica)
 - [Mapiranje sfere](/mapiranje-sfere)
-
-### Konačni automat
-
-- [Konačni automat](/konacni-automat)
 
 ### 3D projekcija
 
@@ -106,12 +93,12 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
   - [Upravljanje korisničkim unosom](/korisnicki-unos-u-igrama)
   - [Simulacija fizike](/simulacija-fizike-u-igrama)
 
-### Arhitektura igre
+### Arhitektura i obrasci
 
 - [Razdvajanje briga](/razdvajanje-briga-u-igrama)
+- [Konačni automat](/konacni-automat)
 - [Obrasci avanture](/obrasci-avanture)
 - [Klasa Scena](/klasa-scena)
-- [Fizičko telo](/fizicko-telo)
 
 ### Korisnički interfejs
 
