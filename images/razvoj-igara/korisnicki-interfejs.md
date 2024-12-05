@@ -1,3 +1,9 @@
+---
+title: Korisnički interfejs u igrama
+layout: lekcija-razvoj-igara
+permalink: /korisnicki-interfejs-igara
+---
+
 ## User Interface
 
 There are a few random but important tips on user interface:

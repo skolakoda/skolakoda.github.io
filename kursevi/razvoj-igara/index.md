@@ -115,3 +115,9 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 ### Sadržaj igre
 
 - [Obrasci avanture](/obrasci-avanture)
+
+### Korisnički interfejs
+
+- [Korisnički interfejs u igrama](/korisnicki-interfejs-u-igrama)
+- [Obrasci za korisnički interfejs](/korisnicki-interfejs-obrasci)
+- [Upravljanje ekranima igre](/upravljanje-ekranima-igre)
