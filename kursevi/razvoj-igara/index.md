@@ -109,12 +109,9 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 ### Arhitektura igre
 
 - [Razdvajanje briga](/razdvajanje-briga-u-igrama)
+- [Obrasci avanture](/obrasci-avanture)
 - [Klasa Scena](/klasa-scena)
 - [Fizičko telo](/fizicko-telo)
-
-### Sadržaj igre
-
-- [Obrasci avanture](/obrasci-avanture)
 
 ### Korisnički interfejs
 
