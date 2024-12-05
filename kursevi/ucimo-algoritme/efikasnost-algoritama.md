@@ -8,7 +8,7 @@ image: /images/koncepti/algoritmi/efikasnost-algoritama.png
 
 ![]({{page.image}})
 
-***Kada pišemo neku proceduru, veoma je bitno da procenimo koliko je ona složena. Složenost se meri brojem operacija koje neki algoritam obavlja. Složenost je direktno proporcionalna trajanju, a obrnuto proporcionalna efikasnosti algoritma. Složeni algoritmi su spori i neefikasni. Cilj je rešiti problem u što manje koraka.***
+**Kada pišemo neku proceduru, veoma je bitno da procenimo koliko je složena. Složenost se meri brojem operacija koje algoritam obavlja. Složenost je direktno proporcionalna trajanju, a obrnuto proporcionalna efikasnosti algoritma. Složeni algoritmi su spori i neefikasni. Cilj je rešiti problem u što manje koraka.**
 
 Zanimljivo da je kod većine algoritama prvi utisak vara. Oni algoritmi koji krenu brže kasnije uspore, i obratno. Tek kod veoma velikih unosa, krivulja rasta postaje izraženija.
 

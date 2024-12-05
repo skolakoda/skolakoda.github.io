@@ -26,7 +26,7 @@ Ovaj izraz znači da se `n`-ti Fibonačijev broj izračunava kao zbir `n-1`-og i
 Dakle, Fibonačijev niz (0,1,1,2,3,5,8,13,...) može se definisati u vidu rekurzivne funkcije `F`:
 
 - F (0) = 0 i F (1) = 1 (bazni slučaj)
-- F (n) = F (n − 1) + F (n − 2) (rekurzivni korak)
+- F (n) = F (n - 1) + F (n - 2) (rekurzivni korak)
 
 ## Implementacija
 

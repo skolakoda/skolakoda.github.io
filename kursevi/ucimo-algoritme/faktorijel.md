@@ -11,7 +11,7 @@ permalink: /faktorijel
 Funkcija faktorijel može se definisati na (primitivno) rekurzivan način:
 
 - 0! = 1 (bazni slučaj)
-- n! = n · (n − 1)! (rekurzivni korak)
+- n! = n · (n - 1)! (rekurzivni korak)
 
 Vrednost faktorijela se može izračunati korišćenjem petlje, ali i korišćenjem rekurzije:
 

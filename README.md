@@ -44,12 +44,17 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
 
 ## TODO
 
-- dodavati odgovarajuce citate
-- dodati sve primere na kurseve (https://jsfiddle.net/user/mudroljub/fiddles/, i iz komtrejda, spojiti oop javu...)
-- razvoj igara
-    - http://www.metropolitan.ac.rs/files/newsletter/2017/12/game.svg
-    - https://www.raf.edu.rs/citaliste/svastara/3650-istorija-video-igara
-- preraditi sajt da naglasak bude na postojeće kurseve i njihove module (npr projektni obrasci, tipovi podataka i slično)
+- srediti jebeni css
+- teorija razvoja igara
+    - spojiti https://github.com/skolakoda/ucimo-razvoj-igara
+    - https://github.com/skolakoda/ucimo-3d-projekciju
+    - https://raf.edu.rs/citaliste/clanci/svastara/istorija-video-igara/
+- dodati sve primere na kurseve (https://jsfiddle.net/, i iz komtrejda, spojiti oop javu...)
+- pokušati proksi za hacker rank na azure
+- preraditi sajt da naglasak bude na postojeće kurseve i module (npr projektni obrasci, tipovi podataka i slično)
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
-- popraviti izvršenje koda
-    - probati https://onecompiler.com/apis/code-execution
+
+
+Programiranje igara je široka oblast koja uključuje geometriju (posebno trigonometriju), matematiku, fiziku i veštačku inteligenciju. Za 3D grafiku je posebno bitna linearna algebra.
+
+Pitagora, Dekart i Njutn su trojica likova nezaobilaznih u razvoju igara. Posebno Pitagorina teorema, Dekartov koordinatni sistem i Njutnovi zakoni. U 3D programiranju je nezaobilazan Ojler, poznat po Ojlerovim uglovima i još koječemu.

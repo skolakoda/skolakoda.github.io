@@ -15,6 +15,8 @@ Singlton je jedan od jednostavnijih obrazaca dizajna. Ovaj obrazac se tako imple
 
 ## Upotreba
 
+![](/images/koncepti/oop/singlton.png)
+
 Singlton obrazac se obično koristi u sledećim slučajevima:
 - vođenje globalnog stanja aplikacije
 - centralna klasa koja upravlja vezama baze podataka

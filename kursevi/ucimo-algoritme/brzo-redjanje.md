@@ -20,7 +20,7 @@ Ključni deo algoritma je način razvrstavanja niza na dve particije, odvojene p
 
 ## Pozadina
 
-Osnovna ideja kod [*selection sort*](/redjanje-izborom) algoritma je da se jedan element postavi na svoje mesto, a zatim se isti metod rekurzivno primeni na podniz koji je za jedan kraći od polaznog. S obzirom da pripremna akcija zahteva O(n) operacija, dobija se jednačina `T (n) = T (n − 1) + O(n)`, čije rešenje je `O(n^2)`. Sa druge strane, kod [*merge sort*](/redjanje-spajanjem) algoritma sortiranje se svodi na sortiranje dva podniza, dvostruko manje dimenzije. S obzirom da spajanje dva sortirana niza zahteva O(n) operacija, dobija se jednačina `T (n) = 2T (n/2) + O(n)`, čije je rešenje `O(n log n)`.
+Osnovna ideja kod [*selection sort*](/redjanje-izborom) algoritma je da se jedan element postavi na svoje mesto, a zatim se isti metod rekurzivno primeni na podniz koji je za jedan kraći od polaznog. S obzirom da pripremna akcija zahteva O(n) operacija, dobija se jednačina `T (n) = T (n - 1) + O(n)`, čije rešenje je `O(n^2)`. Sa druge strane, kod [*merge sort*](/redjanje-spajanjem) algoritma sortiranje se svodi na sortiranje dva podniza, dvostruko manje dimenzije. S obzirom da spajanje dva sortirana niza zahteva O(n) operacija, dobija se jednačina `T (n) = 2T (n/2) + O(n)`, čije je rešenje `O(n log n)`.
 
 **Dakle, značajno je efikasnije da se problem dimenzije `n` svodi na dva problema dimenzije `n/2` nego na jedan problem dimenzije `n-1`** — ovo je osnovna ideja podeli i vladaj algoritama u koje spada i *quick sort*.
 

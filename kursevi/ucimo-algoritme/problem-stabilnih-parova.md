@@ -1,15 +1,15 @@
 ---
-title: Algoritam za nalaženje stabilnih parova
+title: Problem stabilnih parova
 layout: lekcija-algoritmi
 permalink: /problem-stabilnih-parova
-image: https://static01.nyt.com/images/2013/01/13/fashion/13COURTSHIP_SUBCOURTSHIP/13COURTSHIP_SUBCOURTSHIP-jumbo-v2.jpg
+image: /images/koncepti/algoritmi/parovi.jpg
 ---
 
 ![]({{page.image}})
 
 ## Problem
 
-Pretpostavimo da u jednom gradu na jugu Srbije imamo `n` mladića i `n` devojaka. Svi se međusobno znaju, jer je malo mesto. Svaki mladić ima rang listu svih devojaka iz mesta. Na prvom mestu se nalazi ona koja mu se najviše sviđa, a na poslednjem ona koja mu se sviđa najmanje. Sve devojke takođe imaju rang listu mladića. Te liste su nam unapred poznate na neki način (Radio Milevom).
+Pretpostavimo da u nekom gradiću imamo `n` mladića i `n` devojaka. Svi se međusobno znaju, jer je malo mesto. Svaki mladić ima rang listu svih devojaka iz mesta. Na prvom mestu se nalazi ona koja mu se najviše sviđa, a na poslednjem ona koja mu se sviđa najmanje. Sve devojke takođe imaju rang listu mladića. Te liste su nam unapred poznate na neki način (Radio Milevom).
 
 Cilj nam je da uparimo momke i devojke tako da svi budu sretni, a da brakovi budu stabilni.
 
@@ -19,13 +19,11 @@ Na primer, pretpostavimo da su Marko i Jovana u jednom, a Petar i Milica u drugo
 
 Inače, [algoritam](https://en.wikipedia.org/wiki/Stable_marriage_problem) su prvi put opisali D. Gale i L.S. Shapley 1962 godine.
 
-![](https://cdn-images-1.medium.com/max/1200/1*KyXDDH007fDh2pZ0GA81Tw.jpeg)
-
 ## Podaci
 
 Hajdemo sada da problem razmotrimo na konkretnom slučaju 5 devojaka i 5 mladića. Mladiće ćemo označiti brojevima 1-5, a devojke slovim A-E.
 
-Sledeća tabela pokazule njihove rang liste:
+Sledeća tabela pokazuje njihove rang liste:
 
 ```
 mladići ---------------------- devojke
@@ -64,7 +62,7 @@ Sada ćemo opisati algoritam koji vodi do stabilnog uparivanja. Svakog dana se p
 
 Kada posle nekoliko dana ujutro ispod svakog balkona ostane samo po jedan mladić, devojke uzimaju te mladiće. Tako formirani parovi biće stabilni u skladu sa našom definicijom stabilnosti. Tu je i kraj našeg algoritma. Algoritam sadrži sve tri vrste koraka: sekvencu, selekciju i repeticiju.
 
-![](//www.science4all.org/wp-content/uploads/2012/06/stable_marriage.png)
+![](/images/koncepti/algoritmi/stable_marriage.png)
 
 ## Primena
 

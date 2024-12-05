@@ -11,40 +11,13 @@ image: https://devopedia.org/images/article/28/2951.1490520804.gif
 
 U diskretnom slučaju, ako skup ima `n` (konačno mnogo) elemenata, algoritam je vremenski logaritamske složenosti — O(log n).
 
-Pretraživanje se vrši na sledeći način: pronalazi se srednji element skupa, proverava se da li je jednak zadatoj vrednosti i ako jeste vraća se njegov indeks, a ako nije pretraživanje se nastavlja nad skupom svih manjih (ako je srednji element veći od zadate vrednosti) ili svih većih elemenata (ako je srednji element manji od zadate vrednosti).
+Pretraživanje se vrši na sledeći način: pronalazi se srednji element skupa, proverava se je li jednak zadatoj vrednosti i ako jeste vraća se njegov indeks, a ako nije pretraga se nastavlja nad skupom svih manjih (ako je srednji element veći od zadate vrednosti) ili svih većih elemenata (ako je srednji element manji).
 
-Binarno pretraživanje je primer [podeli-i-vladaj](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm) algoritama.
+Binarno pretraživanje je primer [podeli-i-vladaj](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm) algoritama. Može se implementirati iterativno ili rekurzivno.
 
-## Primer: pogađanje broja u intervalu
-
-Binarno pretraživanje se može koristiti u igri pogađanja zamišljenog broja iz zadatog intervala. Jedan igrač treba da zamisli broj iz tog intervala, a drugi da pogodi broj, na osnovu što manjeg broja pitanja na koje prvi igrač odgovara sa da ili ne. Ako pretpostavimo da interval čine brojevi od 1 do 16 i ako je prvi igrač zamislio broj 11, onda igra može da se odvija na sledeći način:
-
-```
-Da li je zamišljeni broj veći od 8 ? da
-Da li je zamišljeni broj veći od 12 ? ne
-Da li je zamišljeni broj veći od 10 ? da
-Da li je zamišljeni broj veći od 11 ? ne
-```
-
-Na osnovu dobijenih odgovora, drugi igrač može da zaključi da je zamišljeni broj 11. Broj pitanja potrebnih za određivanje intervala pretrage je O(log k), gde je k širina polaznog intervala.
-
-## Primer: pogađanje broja bez ograničenja
-
-Ukoliko u prethodnoj igri nije zadata gornja granica intervala, najpre treba odrediti jedan broj koji je veći od zamišljenog broja i onda primeniti binarno pretraživanje. Ako pretpostavimo da je prvi igrač zamislio broj 11, onda igra može da se odvija na sledeći način:
-
-```
-Da li je zamišljeni broj veći od 1 ? da
-Da li je zamišljeni broj veći od 2 ? da
-Da li je zamišljeni broj veći od 4 ? da
-Da li je zamišljeni broj veći od 8 ? da
-Da li je zamišljeni broj veći od 16 ? ne
-```
-
-Na osnovu dobijenih odgovora, drugi igrač može da zaključi da je zamišljeni broj u intervalu od 1 do 16 i da primeni binarno pretraživanje na taj interval. Broj pitanja potrebnih za određivanje intervala pretrage je O(log k), gde je k zamišljeni broj i ukupna složenost pogađanja je ponovo O(log k).
+## Uređenost podataka
 
 **Binarno pretraživanje je daleko efikasnije nego linearno, ali zahteva da su podaci koji se pretražuju uređeni.** Ovo je jedan od glavnih razloga zašto se reči u rečnicima, enciklopedijama i telefonskim imenicima sortiraju. Ove knjige se obično pretražuju postupkom koji odgovara varijantama binarne pretrage. Odnos složenosti postaje još očigledniji ukoliko se zamisli koliko bi komplikovano bilo sekvencijalno pretraživanje reči u nesortiranom rečniku.
-
-Binarno pretraživanje se može implementirati iterativno ili rekurzivno.
 
 ## Rekurzivna binarna pretraga
 
@@ -92,5 +65,6 @@ int binarna_pretraga(int a[], int n, int x) {
 }
 ```
 
+### Literatura
 
-Izvor: Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Matematički fakultet, Beograd, 2017.
+- Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Matematički fakultet, Beograd, 2017.

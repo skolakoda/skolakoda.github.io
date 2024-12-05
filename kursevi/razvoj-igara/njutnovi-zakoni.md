@@ -1,14 +1,10 @@
 ---
-title: Njutnovi zakoni za game developere
-layout: post
-author: damjan
+title: Njutnovi zakoni
+layout: lekcija-razvoj-igara
 permalink: /njutnovi-zakoni
-image: https://upload.wikimedia.org/wikipedia/commons/2/2c/Isaac_Newton_laboratory_fire.jpg
 ---
 
-![]({{page.image}})
-
-***Alhemičar i filozof prirode sir Isak Njutn je u 17. veku otkrio tri zakona koja regulišu svo kretanje na Zemlji (osim na kvantnom nivou). Najvažniji je drugi Njutnov zakon, koji upravlja gotovo celokupnim kretanjem predmeta u igrama.***
+**Filozof prirode Isak Njutn je u 17. veku otkrio tri zakona koja regulišu svo kretanje na Zemlji (osim na kvantnom nivou). Njutnovi zakoni su veoma bitni za realistično kretanje u igrama.**
 
 ## Prvi Njutnov zakon: Zakon inercije
 
@@ -36,7 +32,7 @@ odnosno:
 F = m * a
 ```
 
-U programiranju igara, sila i ubrzanje su obično zapisani kao vektori. To znači da možeš računati svaku dimenziju ponaosob:
+U programiranju igara, sila i ubrzanje su obično zapisani kao vektori. To znači da možemo računati svaku dimenziju ponaosob:
 ```
 Fx = m * ax
 Fy = m * ay

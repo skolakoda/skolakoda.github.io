@@ -35,7 +35,7 @@ Po završetku zadatka, razvijalac kreira *pull request* na Github-u, odnosno zah
 
 Ukoliko se desi da nečiji kod bez pregleda bude spojen u glavnu granu, treba je resetovati na prethodno stanje. Promene napravljene na taj način neće biti sačuvane.
 
-![git grane](images/koncepti/git/git-grane.png)
+![git grane](images/jezici/git-grane.png)
 
 ## Git poruke
 

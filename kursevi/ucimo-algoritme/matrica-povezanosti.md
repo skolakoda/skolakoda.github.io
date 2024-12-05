@@ -2,30 +2,27 @@
 title: Matrica povezanosti
 layout: lekcija-algoritmi
 permalink: /matrica-povezanosti
-redirect_from: /matrica-susedstva
 ---
 
-**Matrica povezanostii ili matrica susjedstva (engl. *adjacency matrix*) je matrica dimenzija V x V (gdje je V broj čvorova u grafu), u kojoj u polju (A, B) piše težina grane koja povezuje čvorove A i B (ako ona postoji). Matrica susjedstva uvijek je kvadratna matrica.**
+![](https://upload.wikimedia.org/wikipedia/commons/3/3b/AdjacencyMatrix.png)
 
-Na slici 1 možemo vidjeti težinski neusmjereni graf kome odgovara navedena matrica.
+**Matrica povezanosti ili matrica susjedstva (*adjacency matrix*) je kvadratna matrica dimenzija V x V (V je broj čvorova u grafu), gde u svakom polju piše težina grane koja povezuje ta dva čvora (ako postoji).**
 
-![](http://boljiprogramer.com/wp-content/uploads/2018/03/graf21-1024x390.png)
+**Matrica susjedstva za neusmjerene grafove je simetrična u odnosu na glavnu dijagonalu.** Kod usmjerenih grafova, matrica nije simetrična u odnosu na glavnu dijagonalu.
 
-Ko što vidimo, pošto postoji grana A – B sa težinom 12, u matrici susjedstva na poziciji (A, B) upisano je 12, ali, takođe, 12 je upisano na poziciju (B, A) u matrici. Ovo je urađeno jer je dati graf neusmjeren, pa ako imamo granu od A do B to znači da imamo i granu od B do A iste težine.
+Ukoliko je graf bestežinski, u polje upisujemo 1 ukoliko postoji grana između čvorova, ili 0 ukoliko ne postoji.
 
-**Možemo primjetiti da je matrica susjedstva za neusmjerene grafove simetrična u odnosu na glavnu dijagonalu.** Ipak, ukoliko bismo imali usmjereni graf onda bi težinu grane od C do D pisali samo u polje (C, D), ali ne i u polje (D, C), tako da matrica, u tom slučaju, ne bi bila simetrična u odnosu na glavnu dijagonalu.
+Nepopunjena polja u matrici susjedstva popunjavaju se u zavisnosti od problema koji treba riješiti. Obično na glavnu dijagonalu pišemo 0, jer je svaki čvor od samog sebe udaljen 0. Ukoliko tražimo najkraći put, onda ćemo na sva neispunjena polja pisati beskonačno (ili -1), da bi naglasili da direktna veza ne postoji.
 
-Ukoliko je graf koji zapisujemo bestežinski u matricu susjedstva na polje (A, B) upisaćemo 1 ukoliko postoji grana od A do B, ili 0 ukoliko ta grana ne postoji.
+## Prednosti i nedostaci
 
-Nepopunjena polja u matrici susjedstva (npr. (A, C); (C, B); (B, G)…) popunjavaju se u zavisnosti od problema koji treba riješiti. Često ćemo na glavnu dijagonalu pisati 0, jer je svaki čvor od samog sebe udaljen 0. Ukoliko tražimo najkraći put između neka dva čvora u grafu onda ćemo na sva neispunjena polja (osim onih na glavnoj dijagonali) pisati beskonačno (tj. neki veoma veliki broj), da bi tako naglasili da direktna grana između ta dva čvora ne postoji.
+Prednost matrice susjedstva je što u vremenskoj složenosti O(1) možemo provjeriti postoji li neka grana i koliko je teška. 
 
-Prednost matrice susjedstva je u tome što u vremenskoj složenosti O(1) možemo provjeriti postoji li neka grana i koliko je teška. Sa druge strane, nedostatak je to što matrica susjedstva zauzima VxV prostora, a često imamo veoma rijetke grafove.
+Nedostatak je to što matrica susjedstva zauzima VxV prostora, a često imamo veoma rijetke grafove.
 
-## Vežba
+## Primer u C++
 
-Da bismo bolje razumjeli matricu susjedstva implementirajmo sljedeći kod:
-
-Unose se brojevi n i m, a zatim m puta po tri broja a, b i c, što znači da između čvorova a i b u grafu postoji dvosmjerna grana dužine c. Potrebno je ispisati matricu susjedstva koja odgovara datom grafu. Ukoliko između čvorova x i y ne postoji grana u polje (x, y) treba upisati vrijednost -1.
+Kreiramo matricu susedstva za graf sa `n` čvorova i `m` ivica. Svi elementi se inicijalizuju na `-1`, osim dijagonale (`0`). Program zatim unosi `m` ivica (`a, b, c`), postavljajući težine u matrici. Na kraju ispisujemo matricu.
 
 ```cpp
 #include <iostream>
@@ -64,4 +61,38 @@ int main()
 }
 ```
 
-Izvor: [boljiprogramer.com](http://boljiprogramer.com/napredno-programiranje/algoritmi-sa-grafovima/zapis-grafa-matrica-susjedstva-lista-susjeda/)
+## Primer u JS-u
+
+Kreiramo matricu susedstva veličine `n`, gde su težine ivica date nizom `edges`. Ako ivica ne postoji, vrednost je `-1`. Na dijagonali su nule (udaljenost čvora do sebe).
+
+{:.ulaz}
+```js
+function createAdjacencyMatrix(n, edges) {
+    const matrix = Array.from({ length: n }, () => Array(n).fill(-1))
+
+    for (let i = 0; i < n; i++)
+        matrix[i][i] = 0
+
+    edges.forEach(([a, b, c]) => {
+        matrix[a][b] = c
+        matrix[b][a] = c
+    })
+
+    return matrix
+}
+
+// upotreba
+const n = 4
+const edges = [
+    [0, 1, 3], // ivica između čvorova 0 i 1 sa težinom 3
+    [1, 2, 2], // ivica između čvorova 1 i 2 sa težinom 2
+    [2, 3, 4]  // ivica između čvorova 2 i 3 sa težinom 4
+]
+
+const matrix = createAdjacencyMatrix(n, edges)
+console.log(matrix)
+```
+
+### Izvori
+
+- [boljiprogramer.com](http://boljiprogramer.com/napredno-programiranje/algoritmi-sa-grafovima/zapis-grafa-matrica-susjedstva-lista-susjeda/)

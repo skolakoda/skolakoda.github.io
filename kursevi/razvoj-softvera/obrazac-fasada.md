@@ -14,6 +14,8 @@ U stvarnom životu, fasada je ono što posmatrač vidi spolja i što skriva unut
 
 ## Upotreba
 
+![](/images/koncepti/oop/bad-coupling.png)
+
 Fasadni obrazac se koristi kada:
 - Želimo da pojednostavimo upotrebu kompleksnog sistema koji ima mnogo međusobno povezanih klasa.
 - Metode biblioteke nam ne odgovaraju u potpunosti, pa ih posredno modifikujemo preko fasade.

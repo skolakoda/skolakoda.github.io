@@ -27,13 +27,24 @@ Donald E. Knuth u uvodu svoje izuzetno uticajne monografije *The Art of Computer
 - definitnost (određenost)
 - efektivnost
 
+### ulaz i izlaz
+
 Prve dve osobine — **postojanje uzlaza i izlaza** — govore zapravo o tome da su algoritmi sredstvo za rešavanje problema. Na primer, u [Euklidovom algoritmu](/euklidov-algoritam) ulaz se sastoji od dva pozitivna cela broja, dok je izlaz njihov najveći zajednički delilac.
 
-U načelu, od algoritma očekujemo da bude niz intuitivno jasnih koraka. Zahtev **konačnosti** postulira da broj tih elemenatrnih koraka mora biti konačan. U tome se algoritam razlikuje od procesa: proces može biti jasno definisan, ali beskonačan niz koraka. Na primer, iterativni postupak za rešavanje neke jednačine (kao što je to Njutnov postupak) nije algoritam, već je u pitanju beskonačan proces računanja. Međutim, definisanjem margine greške, on postaje numerički algoritam za približno rešavanje posmatrane jednačine, jer konvergencija postupka garantuje da će se nakon konačno mnogo iteracija doći do zadovoljavajućeg približnog rešenja.
+### konačnost
 
-**Definitnost** izražava potrebu da svi pomenuti koraci algoritma budu precizno i nedvosmisleno formulisani, te da su lišeni svih oblika subjektivnosti. Između ostalog, definitnost jeste jedna od glavnih razlika između algoritma i kulinarskog recepta. Očekujemo da koraci algoritma budu do te mere egzaktno određeni da se oni bez ikakvih daljih interpretacija mogu sprovesti na računaru. Programski jezici predstavljaju tipičan primer sredstva kojim se ostvaruje zahtev za definitnošću.
+U načelu, od algoritma očekujemo da bude niz intuitivno jasnih koraka. Zahtev **konačnosti** postulira da broj tih osnovnih koraka mora biti konačan. 
+
+U tome se algoritam razlikuje od procesa: proces može biti jasno definisan, ali beskonačan niz koraka. Na primer, iterativni postupak za rešavanje neke jednačine (kao što je to Njutnov postupak) nije algoritam, već je u pitanju beskonačan proces računanja. Međutim, definisanjem margine greške, on postaje numerički algoritam za približno rešavanje posmatrane jednačine, jer konvergencija postupka garantuje da će se nakon konačno mnogo iteracija doći do zadovoljavajućeg približnog rešenja.
+
+### određenost
+
+**Definitnost** izražava potrebu da svi pomenuti koraci algoritma budu precizno i nedvosmisleno formulisani, te da su lišeni svih oblika subjektivnosti. Između ostalog, definitnost jeste jedna od glavnih razlika između algoritma i kulinarskog recepta. Očekujemo da koraci algoritma budu do te mere egzaktno određeni da se oni bez ikakvih daljih interpretacija mogu sprovesti na računaru. Programski jezici predstavljaju tipičan primer sredstva kojim se ostvaruje zahtev za određenošću.
+
+### efektivnost
 
 Najzad, očekujemo da algoritmi budu **efektivni**: koraci koji čine algoritam moraju biti dovoljno elementarni, a ceo tok algoritma (bar u načelu) lako proverljiv od strane čoveka.
 
+## Izvori
 
-Izvor: Igor Dolinka, *Kratak uvod u analizu algoritama*, Novi Sad, 2008.
+- Igor Dolinka, *Kratak uvod u analizu algoritama*, Novi Sad, 2008.

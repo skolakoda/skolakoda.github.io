@@ -42,9 +42,9 @@ Sada izvršavamo isti postupak za broj 7.
 
 Primjećujemo da su u nizu ostali samo prosti brojevi i da se algoritam može zaustaviti nakon broja 7. Brojeve 8, 9 i 10 nećemo obrađivati jer nisu prosti, tj. već su izbačeni iz niza.
 
-## Implementacija
+## Implementacija u Pythonu
 
-Implementacija algoritma Eratostenovo sito u Pythonu:
+Implementacija Eratostenovog sita u Pythonu:
 
 {:.ulaz}
 ```python
@@ -62,4 +62,28 @@ def nadji_proste_brojeve(n):
 print(nadji_proste_brojeve(100))
 ```
 
-Izvor: [boljiprogramer.com](http://boljiprogramer.com/napredno-programiranje/matematicki-algoritmi/eratostenovo-sito/)
+## Implementacija u JS-u
+
+Implementacija Eratostenovog sita u JS-u:
+
+{:.ulaz}
+```js
+function nadjiProsteBrojeve(n) {
+    const prosti = new Set()
+    const slozeni = new Set()
+
+    for (let i = 2; i <= n; i++)
+        if (!slozeni.has(i)) {
+            prosti.add(i)
+            for (let j = i * i; j <= n; j += i)
+                slozeni.add(j)
+        }
+    return prosti
+}
+
+console.log(nadjiProsteBrojeve(100))
+```
+
+## Izvori
+
+- [Eratostenovo sito](http://boljiprogramer.com/napredno-programiranje/matematicki-algoritmi/eratostenovo-sito/)

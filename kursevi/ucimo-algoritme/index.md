@@ -50,8 +50,8 @@ image: /images/kursevi/algoritmi.jpg
 - [Algoritmi pretrage](/algoritmi-pretrazivanja)
   - [Linearna pretraga](/linearna-pretraga) (redom)
   - [Binarna pretraga](/binarna-pretraga) (podelom)
+- [Vežba: pogađanje zamišljenog broja](/pogadjanje-zamisljenog-broja)
 - Vežba: nalaženje osobe u telefonskom imeniku
-- Vežba: pogađanja zamišljenog broja (veće-manje)
 - Vežba: nalaženje dva najmanja broja u nizu
 
 ### Algoritmi sortiranja
@@ -78,14 +78,18 @@ image: /images/kursevi/algoritmi.jpg
 - Vežba: [palindrom funkcija](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/p/challenge-is-a-string-a-palindrome) (jel reč ista odnapred i odpozadi)
 - Vežba: crtanje pomoću rekurzije
 
-### Grafovski algoritmi
+### Traženje puta i grafovski algoritmi
 
 - [Uvod u teoriju grafova](/teorija-grafova)
   - [Sedam mostova Kenigsberga](/problem-sedam-mostova)
   - [Matrica povezanosti](/matrica-povezanosti)
   - [Lista povezanosti](/lista-povezanosti)
 - [Pretraga u dubinu](/pretraga-u-dubinu)
+  - [Primer: problem osam dama](/problem-osam-dama)
 - [Pretraga u širinu](/pretraga-u-sirinu)
+- [Udari i skreni](/udari-i-skreni)
+- [Dajkstrin algoritam](/dajkstrin-algoritam)
+- [A* algoritam](/a-star-algoritam)
 
 ### Ostali algoritmi
 
