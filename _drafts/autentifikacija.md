@@ -14,7 +14,6 @@ Koraci autentifikacije pomoću nodejs-a i mongodb-a:
 - Kada postojeci korisnik zeli da se uloguje, prvo kriptovati lozinku koju je poslao (istom funkcijom naravno), pa uporediti sa kriptovanom lozinkom u bazi
 - Generisati random token koji ce trajati odredjeno vreme za svakog korisnika, kako ne bi morao da salje ime i lozinku svaki put (pogledati https://youtu.be/xBYr9DxDqyU)
 - Proveravati korisnika preko validnog tokena koji ce svaki put slati sa frontenda
-- Zastititi odredjene rute (npr. brisanje ne moze ako user nije admin, a dodavanje ne moze ako nije registrovan)
 
 ## Autentifikacija na frontendu
 

@@ -2,13 +2,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Škola koda | {{page.title | strip_html | default: "Učimo narod programiranju!"}}</title>
-
   {% assign opis = "Škola koda, učimo narod programiranju!" %}
   {% if page.opis %}
     {% assign opis = page.opis %}
   {% endif %}
   <meta name="description" content="{{opis}}">
-
   {% assign slika = "/images/ikonice/skola-koda-logo.png" %}
   {% if page.image %}
     {% assign slika = page.image %}
@@ -19,7 +17,5 @@
   <meta property="og:image" content="{{slika}}" />
 
   <link href="/libs/jwarby-jekyll-pygments-themes/github.css" rel="stylesheet">
-  <style>
-    {% include css/style.css %}
-  </style>
+  <link href="/css/style.css" rel="stylesheet">
 </head>

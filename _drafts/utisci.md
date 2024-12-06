@@ -1,1 +1,0 @@
-Vesna Stojanovic wrote: I have learned so much in just two months, he explains great, he  immediately gets to the point, doesn't confuse you with too much information or theory, simply things so you learn easily. Practice, practice, practice!
