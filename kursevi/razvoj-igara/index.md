@@ -108,3 +108,8 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Korisnički interfejs u igrama](/korisnicki-interfejs-u-igrama)
 - [Obrasci za korisnički interfejs](/korisnicki-interfejs-obrasci)
 - [Upravljanje ekranima igre](/upravljanje-ekranima-igre)
+
+### Bonus: rekurzivna grafika
+
+- [Rekurzivni krugovi](/rekurzivni-krugovi)
+- [Rekurzivno drvo](/rekurzivno-drvo)
