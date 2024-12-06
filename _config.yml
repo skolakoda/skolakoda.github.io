@@ -3,7 +3,7 @@ description: Učimo narod programiranju!
 baseurl: ""
 url: https://skolakoda.github.io
 
-permalink: /:slug
+permalink: /:slug # zamenjuje kontakt.md sa /kontakt/
 
 # Build settings
 gems:
@@ -15,8 +15,6 @@ exclude:
 
 defaults:
   -
-    scope:
-      path: "" # empty string for all files
     values:
       layout: "default"
 

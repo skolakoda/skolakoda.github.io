@@ -61,9 +61,7 @@ Verovatno najčešće korišten selektor je `document.getElementById`, koji hvat
 Za querySelector selektor možemo napraviti alias funkciju, *a la jQuery*, koju koristimo na sledeći način:
 
 ```js
-function $(selektor) {
-  return document.querySelector(selektor)
-}
+const $ = selektor => document.querySelector(selektor)
 
 $('h3').style.color = 'purple'
 $('.prvi-pasus').style.color = 'yellow'

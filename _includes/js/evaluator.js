@@ -1,4 +1,4 @@
-// evaluira izraze $('.izraz')
+// evaluira izraze
 
 {
   const izrazi = document.querySelectorAll('.izraz')
