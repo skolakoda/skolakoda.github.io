@@ -13,26 +13,6 @@ Fizičko telo je obično nevidljivo u igri. Oblik kreiramo pozivanjem metode za 
 
 **Većina fizičkih tela su čvrsta tela**, ali ne sva. Fizičko telo može biti i savitljivo (poput tkanine ili tečnosti), dok čvrsto telo ne može menjati oblik ili zapreminu.
 
-## Primer: više tela povezanih sa jednim likom
-
-Možemo imati više fizičkih tela povezanih sa jednim likom. Na primer, ako heroj nosi mač, ima smisla kreirati jedno telo za junaka, a drugo za mač, kako bismo kreirali logiku igre na osnovu sudara različitih tela:
-
-```js
-function collisionDidOccur() {
-  switch (collision) {
-  case (player && sword):
-    //do nothing;
-    break;
-  case (player && enemy):
-    //ouch!!;
-    break;
-  case (sword && enemy):
-    //do damage!!;
-    break;
-  }
-}
-```
-
 ## Ograničenja
 
 ![](/images/razvoj-igara/ConcaveVsConvex1.png)

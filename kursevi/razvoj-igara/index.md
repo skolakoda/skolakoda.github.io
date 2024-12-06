@@ -35,6 +35,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 ### Fizika
 
+- [Uvod u fiziku igara](/uvod-u-fiziku-igara)
 - [Njutnovi zakoni](/njutnovi-zakoni)
 - [Sile](/sile)
   - [Trenje](/trenje)

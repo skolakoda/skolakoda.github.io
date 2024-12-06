@@ -72,8 +72,8 @@ Editor izvršava kod na dva načina
     if (document.getElementById(id)) return document.getElementById(id)
 
     const canvas = document.createElement('canvas')
-    canvas.width = 400
-    canvas.height = 300
+    canvas.width = 512
+    canvas.height = 288
     canvas.id = id
     el.insertAdjacentElement('afterend', canvas)
   }
