@@ -2,7 +2,6 @@
 title: "Vežba: Za koliko ću naučiti programiranje?"
 layout: lekcija-js
 permalink: /vezba-koliko-ucenja
-redirect_from: /za-koliko-cu-nauciti-programiranje
 ---
 
 Prema [jednoj teoriji](https://en.wikipedia.org/wiki/Outliers_(book)), potrebno je 10 000 sati učenja u nekoj oblasti da postaneš ekspert. Polazeći od toga, recimo da je potrebno 2000 časova učenja da postaneš početnik.

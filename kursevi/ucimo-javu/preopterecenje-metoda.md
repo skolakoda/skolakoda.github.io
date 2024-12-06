@@ -2,8 +2,6 @@
 title: Preopterećenje metoda u Javi
 layout: lekcija-java
 permalink: /preopterecenje-metoda
-redirect_from:
-  - /ista-imena-varijabli-i-metoda
 ---
 
 **Ako klasa ima više metoda istog imena ali različitih parametara, to je poznato kao preopterećenje (*overloading*) metoda.**

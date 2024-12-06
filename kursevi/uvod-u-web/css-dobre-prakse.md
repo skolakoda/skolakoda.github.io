@@ -3,7 +3,6 @@ title: Dobre CSS prakse
 layout: lekcija-html
 author: damjan
 permalink: /css-dobre-prakse
-redirect_from: /css-saveti
 image: /images/kursevi/css.png
 ---
 

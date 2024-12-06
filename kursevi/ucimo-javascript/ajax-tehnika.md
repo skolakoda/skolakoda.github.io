@@ -3,7 +3,6 @@ title: Uvod u AJAX tehniku
 layout: lekcija-js
 permalink: /ajax-tehnika
 image: images/koncepti/web/sinhroni-restoran.gif
-redirect_from: /ajax-pozivi
 ---
 
 **AJAX znači asinhroni Javaskript i XML**:

@@ -2,8 +2,6 @@
 title: Pokretanje Javascripta u pregledaču
 layout: lekcija-js
 permalink: /pokretanje-javascripta-u-pregledacu
-redirect_from:
-  - /dodavanje-javascripta
 ---
 
 **Osnovni način dodavanja Javascripta na web stranicu je korišćenje `<script/>` taga. Ovaj element, koji je uvela kompanija Netscape, postao je deo HTML 3.2 specifikacije.**

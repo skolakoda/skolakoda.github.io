@@ -2,7 +2,6 @@
 title: Komanda (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-komanda
-redirect_from: /komanda
 ---
 
 ![](https://refactoring.guru/images/patterns/content/command/command-comic-1.png)

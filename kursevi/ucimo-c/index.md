@@ -66,7 +66,7 @@ image: /images/kursevi/uvod.png
 
 ### Uslovi i grananje
 
-- [Logički tok programa](/programska-logika)
+- [Logički tok programa](/uslovi)
 - [Relacijski i logički operatori](/c-relacijski-i-logicki-operatori)
 - [Logičke kapije](/logicke-kapije)
 - [Bitovni operatori](/bitovni-operatori)

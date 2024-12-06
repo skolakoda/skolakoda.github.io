@@ -2,7 +2,6 @@
 title: IT obuka
 permalink: /it-obuka
 opis: Organizujemo mentorsku obuku za rešene pojedince, koji su krenuli putem prekvalifikacije u IT sektor.
-redirect_from: /o-javascript-kursu
 ---
 
 # IT obuka

@@ -2,7 +2,6 @@
 title: Fasada (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-fasada
-redirect_from: /fasada
 image: /images/koncepti/oop/fasada.gif
 ---
 

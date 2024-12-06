@@ -2,7 +2,6 @@
 title: Kompozit (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-kompozit
-redirect_from: /obrazac-kompozicija
 image: /images/koncepti/oop/composite-patter-tree.jpg
 ---
 

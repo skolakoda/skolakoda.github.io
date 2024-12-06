@@ -2,7 +2,6 @@
 title: HTML stablo
 layout: lekcija-html
 permalink: /html-stablo
-redirect_from: /ucimo-html/stablo
 ---
 
 **HTML elementi su ugnježdeni jedni unutar drugih (*deca* unutar *roditelja*), tvoreći strukturu stabla.**

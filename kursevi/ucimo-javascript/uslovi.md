@@ -4,8 +4,6 @@ layout: lekcija-js
 author: damjan
 permalink: /uslovi
 image: /images/koncepti/logika/skretnica.jpg
-redirect_from:
-  - /programska-logika
 ---
 
 ![]({{page.image}})

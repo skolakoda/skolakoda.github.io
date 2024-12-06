@@ -2,8 +2,6 @@
 title: Automatsko pretvaranje tipova u Javi
 layout: lekcija-java
 permalink: /java-pretvaranje-tipova
-redirect_from:
-  - /java-casting
 ---
 
 Ako `int` podijelimo sa `int` dobijemo `int`. Ako `double` podijelimo sa `double` dobijemo `double`. Ako `int` podijelimo sa `double` ili `double` sa `double`, dobijemo `double`, jer u **slučaju nejednakosti tipova Java teži dodjeljivanju što šireg tipa kako se spriječilo gubljenje informacija**.

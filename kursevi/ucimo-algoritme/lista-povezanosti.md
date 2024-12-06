@@ -2,7 +2,6 @@
 title: Lista povezanosti
 layout: lekcija-algoritmi
 permalink: /lista-povezanosti
-redirect_from: /lista-susedstva
 ---
 
 ![](/images/koncepti/podaci/lista-susedstva.png)

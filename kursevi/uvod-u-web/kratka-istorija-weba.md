@@ -2,8 +2,6 @@
 title: Kratka istorija weba
 layout: lekcija-html
 permalink: /kratka-istorija-weba
-redirect_from:
-  - /kratka-istorija-web-dizajna
 ---
 
 ***Na početku je web bio samo niz naučnih publikacija u obliku statičkih HTML dokumenata koji su bili povezani hiperlinkovima. Verovali ili ne, tada nije postojao način da se slike postave na stranicu.***

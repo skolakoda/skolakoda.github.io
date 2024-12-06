@@ -5,7 +5,6 @@ layout: stranica
 klasa: biografija
 image: /images/skola/damjan.jpg
 permalink: /damjan-pavlica
-redirect_from: /autor/damjan-pavlica
 ---
 
 ![Damjan Pavlica IT predavač u Beogradu]({{page.image}})

@@ -2,7 +2,6 @@
 title: Adapter (projektni obrazac)
 layout: lekcija-razvoj
 permalink: /obrazac-adapter
-redirect_from: /adapter
 image: /images/koncepti/oop/adapter.png
 ---
 

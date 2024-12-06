@@ -2,7 +2,6 @@
 title: Zatvorenost (<i>closure</i>)
 layout: lekcija-napredni-js
 permalink: /javascript-zatvorenost
-redirect_from: /javascript-zatvaranje
 ---
 
 **Zatvorenost (*closure*) se stvara kada unutrašnja funkcija zadrži vezu sa opsegom važenja spoljašnje funkcije, i nakon što spoljašnja vrati svoj rezultat.**
