@@ -8,11 +8,7 @@ permalink: /glavna-petlja
 
 **Za razliku od običnih programa, igra nakon pokretanja, čak i ako igrač ništa ne radi, neprestano ide. Zato u svim igrama postoji glavna petlja ili *game loop*.** 
 
-Tipična glavna petlja će primiti i obraditi unos igrača, ažurirati logiku igre i iscrtati scenu. Svaka glavna petlja je drugačija i prilagođena za konkretnu igru.
-
-## Prost primer
-
-Ovako izgleda najprostiji primer glavne petlje:
+Tipična glavna petlja će primiti i obraditi unos igrača, ažurirati logiku igre i iscrtati scenu. Ovako izgleda osnovna struktura glavne petlje:
 
 ```js
 const glavnaPetlja = () => {
@@ -20,6 +16,42 @@ const glavnaPetlja = () => {
   update()
   render()
 }
+```
+
+Svaka glavna petlja je drugačija i prilagođena za konkretnu igru.
+
+## Prost primer
+
+Ovako izgleda prost primer glavne petlje (bez korisničkog unosa):
+
+{:.ulaz}
+```js
+const canvas = document.getElementById('canvas')
+const cx = canvas.getContext('2d')
+
+let bX = 30, bY = 30, mX = 10, mY = 20
+
+function render() {
+   cx.clearRect(0, 0, canvas.width, canvas.height)
+   cx.beginPath()
+   cx.fillStyle = 'red'
+   cx.arc(bX, bY, 20, 0, Math.PI * 2)
+   cx.fill()
+}
+
+function update() {
+   if (bX >= canvas.width || bX <= 0) mX *= -1
+   if (bY >= canvas.height || bY <= 0) mY *= -1
+   bX += mX
+   bY += mY
+}
+
+function gameLoop() {
+   update()
+   render()
+}
+
+setInterval(gameLoop, 33)
 ```
 
 U `render` fazi ide i `audio`, tj. muzika i zvučni efekti. Bitno je da `render()` ide nakon `update()`, da bi ekran oslikavao stanje igre. U `update` fazi obavljaju se sva računanja vezana za logiku igre, na primer:
