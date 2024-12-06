@@ -59,7 +59,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
@@ -127,11 +126,9 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  jekyll (~> 4.0)
-  jekyll-paginate
+  jekyll
   jekyll-redirect-from
-  kramdown (~> 2.3)
-  rexml
+  kramdown
 
 RUBY VERSION
    ruby 3.3.6p108
