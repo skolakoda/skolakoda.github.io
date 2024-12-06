@@ -35,7 +35,6 @@ bundle exec jekyll serve --incremental
 Glavni folderi su:
 
 - `_includes` - tu se nalaze delovi html stranica (npr. header, footer)
-- `_posts` - ove se pišu članci za blog
 - `kursevi` - ovde idu lekcije za sve online kurseve koje objavljujemo.
 - `stranice` - glavne statične stranice sajta, poput O nama, Projekti, Kursevi, Kontakt i slično.
 
@@ -43,8 +42,8 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
 
 ## TODO
 
-- dodati sve primere na kurseve (https://jsfiddle.net/, i iz komtrejda, spojiti oop javu...)
+- dodati sve primere na kurseve (https://jsfiddle.net/, i iz komtrejda)
 - dodati algoritme
-- pokušati proksi za hacker rank na azure
 - preraditi sajt da naglasak bude na postojeće kurseve i module (npr projektni obrasci, tipovi podataka i slično)
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
+- pokušati proksi za hacker rank na azure

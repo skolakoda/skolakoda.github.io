@@ -4,9 +4,70 @@ layout: lekcija-razvoj-igara
 permalink: /kolizija
 ---
 
-**Prilikom sudara (ili kolizije), dva tela deluju jedno na drugo. Nakon sudara, njihovo kretanje se menja.**
+**Prilikom sudara, dva tela deluju jedno na drugo. Nakon sudara, njihovo kretanje se menja.**
 
-Treba praviti razliku između detekcije kolizije i odgovora na koliziju.
+Treba praviti razliku između detekcije kolizije (sudara) i odgovora na koliziju.
+
+## Primer: sudar sa zidom
+
+U ovom primeru imamo prost sudar kocke sa zidom, uz implementaciju bazične fizike:
+
+{:.ulaz}
+```js
+const canvas = document.getElementById('canvas')
+const ctx = canvas.getContext('2d')
+
+const gravity = 0.5
+let positionX = 100.0
+let positionY = 175.0
+let velocityX = 4.0
+let velocityY = 0.0
+let onGround = false
+
+window.addEventListener("mousedown", () => {
+    if (!onGround) return
+    velocityY = -12.0
+    onGround = false
+})
+
+window.addEventListener("mouseup", () => {
+    if (velocityY < -6.0) velocityY = -6.0
+})
+
+const update = () => {
+    velocityY += gravity
+    positionY += velocityY
+    positionX += velocityX
+
+    if (positionY > 175.0) {
+        positionY = 175.0
+        velocityY = 0.0
+        onGround = true
+    }
+
+    if (positionX < 10 || positionX > 290) velocityX *= -1
+}
+
+const render = () => {
+    ctx.clearRect(0, 0, canvas.width, canvas.height)
+    ctx.beginPath()
+    ctx.moveTo(0, 175)
+    ctx.lineTo(300, 175)
+    ctx.stroke()
+
+    ctx.rect(positionX - 10, positionY - 20, 20, 20)
+    ctx.stroke()
+}
+
+const loop = () => {
+    update()
+    render()
+    window.setTimeout(loop, 33)
+}
+loop()
+```
+
+Pritisni miša za skakanje!
 
 ## Sistem kolizije
 
@@ -21,7 +82,7 @@ Događaj sudara (*collision event*) treba da vrati bar sledeće podatke:
 - silu sudara
 
 {:.uokvireno}
-Svrstajte predmete u grupe, to optimizuje sistem kolizije. Na primer, sanduci na prvom spratu ne mogu da se sudare sa sanducima na drugom spratu, jer su fizički odvojeni.
+Organizujte predmete u grupe, to optimizuje sistem kolizije. Na primer, sanduci na prvom spratu ne mogu da se sudare sa sanducima na drugom spratu, jer su fizički odvojeni.
 
 ## Primer: reagovanje na razne vrste sudara
 
