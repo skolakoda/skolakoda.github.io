@@ -7,6 +7,8 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 **{{page.desc}}**
 
+**Pitagora, Dekart i Njutn su trojica likova nezaobilaznih u razvoju igara. Posebno Pitagorina teorema, Dekartov koordinatni sistem i Njutnovi zakoni.**
+
 ### Geometrija
 
 - [Osnovni pojmovi geometrije](/geometrija-pojmovi)
