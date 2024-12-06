@@ -47,10 +47,9 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Projektil](/projektil)
   - [Parabola](/parabola)
 - [Fizičko telo](/fizicko-telo)
-- Primeri:
-  - [Fizika aviona](/fizika-avion)
-  - [Fizika vozila](/fizika-vozilo)
-  - [Fizika plovila](/fizika-plovilo)
+- [Fizika aviona](/fizika-avion)
+- [Fizika vozila](/fizika-vozilo)
+- [Fizika plovila](/fizika-plovilo)
 
 ### Sudari
 - [Sudari u igrama](/kolizija)

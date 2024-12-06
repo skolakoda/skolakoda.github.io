@@ -56,7 +56,7 @@ Sada nam treba krug koji ćemo crtati, i funkcija koja ga crta:
 const circle = {
   x: 100,
   y: 100,
-  r: 50
+  r: 25
 }
 
 const drawCircle = circle => {
@@ -101,11 +101,39 @@ circle.x = Math.cos(time) * modifier + canvas.width / 2
 circle.y = Math.sin(time) * modifier + canvas.height / 2
 ```
 
+## Kompletan primer
+
 Eto, nije bilo toliko teško, imamo planetu koja kruži svemirom.
 
-Možete je [pogledati ovde](https://jsfiddle.net/mudroljub/4ew4anx9/).
+{:.ulaz}
+```js
+const canvas = document.getElementById('canvas')
+const ctx = canvas.getContext('2d')
+const modifier = 100
 
-<script async src="//jsfiddle.net/mudroljub/4ew4anx9/embed/result/"></script>
+const circle = {
+  x: 100,
+  y: 100,
+  r: 25
+}
+
+const drawCircle = circle => {
+  ctx.clearRect(0, 0, canvas.width, canvas.height)
+  ctx.beginPath()
+  ctx.arc(circle.x, circle.y, circle.r, 0, 2 * Math.PI)
+  ctx.fill()
+}
+
+const loop = () => {
+    window.requestAnimationFrame(loop)
+    const time = Date.now() / 1000
+    circle.x = Math.cos(time) * modifier + canvas.width / 2
+    circle.y = Math.sin(time) * modifier + canvas.height / 2
+    drawCircle(circle)
+}
+
+loop()
+```
 
 ## Korak 3: Zabava
 
