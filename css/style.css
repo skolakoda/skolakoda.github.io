@@ -53,11 +53,6 @@ address {
   text-align: center;
 }
 
-.no-decoration {
-  text-decoration: none;
-  color: inherit;
-}
-
 .circle {
   border-radius: 50%;
 }
@@ -70,7 +65,7 @@ address {
   width: 100%;
 }
 
-.post-content .full,
+
 .extra-full {
   left: 50%;
   margin-left: -50vw;
@@ -92,14 +87,6 @@ address {
   flex-wrap: wrap;
 }
 
-.between {
-  justify-content: space-between;
-}
-
-.around {
-  justify-content: space-around;
-}
-
 .text-right {
   text-align: right;
 }
@@ -110,10 +97,6 @@ address {
 
 .float-right {
   float: right;
-}
-
-.overflow-x {
-  overflow-x: auto;
 }
 
 .relative {
@@ -312,12 +295,6 @@ button:hover,
   margin: 16px 0;
 }
 
-.editor-icon {
-  margin-left: 8px;
-  vertical-align: middle;
-  width: 50px;
-}
-
 /* EDITOR */
 
 code {
@@ -499,10 +476,6 @@ textarea {
   height: 300px;
 }
 
-fieldset {
-  border: 1px solid #C1C1C1;
-}
-
 .github-fork-ribbon {
   background-color: #88A825;
   font-size: 13px;
@@ -575,16 +548,6 @@ a:hover,
 a:active,
 a:focus {
   outline: none;
-}
-
-a[href^="https://youtu"] {
-  background: url(/images/ikonice/youtube.svg) no-repeat right top;
-  padding-right: 1.6em;
-}
-
-a[href^="/vezb"] {
-  background: url(/images/ikonice/star.svg) no-repeat right top;
-  padding-right: 1.6em;
 }
 
 a.btn,
@@ -896,22 +859,13 @@ header nav a.active, header nav a:hover {
   display: none;
 }
 
-.ikonica-manja,
-.ikonica-veca,
-.ikonica-velika {
-  vertical-align: middle;
-}
 
-.ikonica-manja {
-  height: 28px;
+.ikonica-veca {
+  vertical-align: middle;
 }
 
 .ikonica-veca {
   height: 32px;
-}
-
-.ikonica-velika {
-  height: 36px;
 }
 
 /* NASLOVNA */
@@ -971,11 +925,6 @@ header nav a.active, header nav a:hover {
 }
 .naslovna .siva-pozadina {
   background-color: #F2F1ED;
-}
-@media (min-width: 800px) {
-  .naslovna .njuzleter-wrapper {
-    padding-bottom: 60px;
-  }
 }
 .naslovna .usluga,
 .naslovna .developer {
