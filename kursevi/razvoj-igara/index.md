@@ -17,10 +17,10 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 ### Trigonometrija
 
 - [Pitagorina teorema](/pitagorina-teorema)
-- [Jedinični krug](/jedinicni-krug)
 - [Trigonometrijske funkcije](/trigonometrijske-funkcije)
 - [Primena trigonometrije](/primena-trigonometrije)
-- [Kako napraviti kružnu animaciju pomoću trigonometrije?](/trigonometrija-animacija)
+- [Kružne animacije pomoću trigonometrije](/trigonometrija-animacija)
+- [Jedinični krug](/jedinicni-krug)
 
 ### Vektori
 

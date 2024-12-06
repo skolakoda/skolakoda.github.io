@@ -154,3 +154,9 @@ Vidimo da na ovaj načim dobijamo zanimljive efekte, odnosno razne vrste ravnome
 Za kraj, malo sami eksperimentišite. Na primer, možete ubaciti još planeta koje imaju svoje orbite, možda i neke koje se vrte u suprotnom smeru.
 
 Srećno kodovanje!
+
+## Bonus: napredna kružna animacija
+
+Uz minimalne izmene izvornog koda možemo postići zanimljive efekte. Kod napredne animacije možete pogledati [ovde](https://jsfiddle.net/mudroljub/4ew4anx9/12/).
+
+<script async src="//jsfiddle.net/mudroljub/4ew4anx9/12/embed/result/"></script>
