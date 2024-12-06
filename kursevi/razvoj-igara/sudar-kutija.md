@@ -12,60 +12,59 @@ Granična kutija poravnata po osi (*axis aligned bounding box*, skraćeno AABB) 
 
 Postoji nekoliko različitih načina da se predstavi AABB. Najprostije je pamtiti gornji levi i donji desni ugao. Da utvrdimo je li se dve kutije seku, koristimo teoremu razdvajajuće ose (*separating axis theorem*), koja kaže ako možemo povući liniju koja razdvaja dva poligona, oni se ne sudaraju. 
 
-## Primer: otkrivanje sudara kutijom 2D
+## Primer: detekcija sudara kutija
 
 {:.ulaz}
 ```js
-class AABB {
-  constructor(min, max) {
-    this.min = min
-    this.max = max
+const canvas = document.getElementById('canvas')
+const ctx = canvas.getContext('2d')
+
+class Box {
+  constructor(position, width = 60, height = 40, color = 'black') {
+    this.position = position
+    this.width = width
+    this.height = height
+    this.color = color
+  }
+  draw() {
+    ctx.fillStyle = this.color
+    ctx.fillRect(this.position.x, this.position.y, this.width, this.height)
   }
 }
 
-function AABBvsAABB(a, b) {
-  if (a.max.x < b.min.x || a.min.x > b.max.x) return false
-  if (a.max.y < b.min.y || a.min.y > b.max.y) return false
-
-  return true
+function intersect(a, b) {
+  return (
+    a.position.x < b.position.x + b.width &&
+    a.position.x + a.width > b.position.x &&
+    a.position.y < b.position.y + b.height &&
+    a.position.y + a.height > b.position.y
+  )
 }
 
-const box1 = new AABB({ x: 0, y: 0 }, { x: 5, y: 5 })
-const box2 = new AABB({ x: 3, y: 3 }, { x: 8, y: 8 })
-const box3 = new AABB({ x: 6, y: 6 }, { x: 10, y: 10 })
+const box1 = new Box({ x: 100, y: 100 })
+const box2 = new Box({ x: 200, y: 200 })
 
-console.log(AABBvsAABB(box1, box2))
-console.log(AABBvsAABB(box1, box3))
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height)
+  box1.color = box2.color = intersect(box1, box2) ? 'red' : 'black'
+  box1.draw()
+  box2.draw()
+  requestAnimationFrame(draw)
+}
+
+draw()
+
+canvas.addEventListener('mousemove', e => {
+  box1.position.x = e.offsetX - box1.width / 2
+  box1.position.y = e.offsetY - box1.height / 2
+})
 ```
 
-## Primer: otkrivanje sudara kutijom 3D
+Ova logika se lako može proširiti na 3D dodavanjem još jedne ose. 
 
-{:.ulaz}
-```js
-class AABB {
-  constructor(min, max) {
-    this.min = min
-    this.max = max
-  }
-}
+## Prednosti i mane
 
-function AABBvsAABB(a, b) {
-  if (a.max.x < b.min.x || a.min.x > b.max.x) return false
-  if (a.max.y < b.min.y || a.min.y > b.max.y) return false
-  if (a.max.z < b.min.z || a.min.z > b.max.z) return false
-
-  return true
-}
-
-const box1 = new AABB({ x: 0, y: 0, z: 0 }, { x: 5, y: 5, z: 5 })
-const box2 = new AABB({ x: 3, y: 3, z: 3 }, { x: 8, y: 8, z: 8 })
-const box3 = new AABB({ x: 6, y: 6, z: 6 }, { x: 10, y: 10, z: 10 })
-
-console.log(AABBvsAABB(box1, box2))
-console.log(AABBvsAABB(box1, box3))
-```
-
-Iako jednostavan, ovaj metod je neprecizan i dovodi do lažnih sudara:
+Iako jednostavan, ovaj metod je za neka tela neprecizan i dovodi do lažnih sudara:
 
 ![](/images/razvoj-igara/lazna-kolizija.png)
 
