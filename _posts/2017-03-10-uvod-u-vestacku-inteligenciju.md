@@ -1,6 +1,6 @@
 ---
 title: Uvod u veštačku inteligenciju
-layout: post
+layout: default
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/De_har_l%C3%A4rt_robotar_att_samarbeta_Robotar.jpg/1280px-De_har_l%C3%A4rt_robotar_att_samarbeta_Robotar.jpg
 ---
 

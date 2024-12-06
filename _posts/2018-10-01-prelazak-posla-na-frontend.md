@@ -1,7 +1,7 @@
 ---
 title: Prelazak posla na frontend
 author: damjan
-layout: post
+layout: default
 image: https://www.myamcat.com/blog/wp-content/uploads/2017/02/front-end-developer-wanted-illustration-e1487757289647.jpg
 ---
 

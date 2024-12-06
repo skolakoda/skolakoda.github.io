@@ -7,13 +7,11 @@ permalink: /:slug
 
 # Build settings
 gems:
-  - jekyll-paginate
   - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
   - .git
-  - .sass-cache
 
 defaults:
   -
@@ -22,5 +20,3 @@ defaults:
     values:
       layout: "default"
 
-paginate: 8
-paginate_path: "/blog/strana:num"

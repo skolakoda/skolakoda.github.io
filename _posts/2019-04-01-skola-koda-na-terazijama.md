@@ -1,6 +1,6 @@
 ---
 title: Škola koda na Terazijama, novi kursevi od 15. aprila!
-layout: post
+layout: default
 image: /images/skola/grupne/skola-koda-grupna-odozgo.jpg
 ---
 

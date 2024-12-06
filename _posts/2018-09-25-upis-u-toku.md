@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Upis novih grupa u toku!
 ---
 
