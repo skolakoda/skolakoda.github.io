@@ -45,5 +45,6 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
 - dodati sve primere na kurseve (https://jsfiddle.net/, i iz komtrejda)
 - dodati algoritme
 - preraditi sajt da naglasak bude na postojeće kurseve i module (npr projektni obrasci, tipovi podataka i slično)
+  - https://jsfiddle.net/mudroljub/xbwhc9mr/3/
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - pokušati proksi za hacker rank na azure

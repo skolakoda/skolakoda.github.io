@@ -18,34 +18,33 @@ const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
 
 const gravity = 0.5
-let positionX = 100.0
-let positionY = 175.0
-let velocityX = 4.0
-let velocityY = 0.0
+const position = { x: 100, y: 175 }
+const velocity = { x: 4, y: 0 }
 let onGround = false
 
 window.addEventListener("mousedown", () => {
     if (!onGround) return
-    velocityY = -12.0
+    velocity.y = -12
     onGround = false
 })
 
 window.addEventListener("mouseup", () => {
-    if (velocityY < -6.0) velocityY = -6.0
+    if (velocity.y < -6) velocity.y = -6
 })
 
 const update = () => {
-    velocityY += gravity
-    positionY += velocityY
-    positionX += velocityX
+    velocity.y += gravity
+    position.y += velocity.y
+    position.x += velocity.x
 
-    if (positionY > 175.0) {
-        positionY = 175.0
-        velocityY = 0.0
+    if (position.y > 175) {
+        position.y = 175
+        velocity.y = 0
         onGround = true
     }
 
-    if (positionX < 10 || positionX > 290) velocityX *= -1
+    if (position.x < 10 || position.x > 290) 
+      velocity.x *= -1
 }
 
 const render = () => {
@@ -53,16 +52,14 @@ const render = () => {
     ctx.beginPath()
     ctx.moveTo(0, 175)
     ctx.lineTo(300, 175)
-    ctx.stroke()
-
-    ctx.rect(positionX - 10, positionY - 20, 20, 20)
+    ctx.rect(position.x - 10, position.y - 20, 20, 20)
     ctx.stroke()
 }
 
 const loop = () => {
     update()
     render()
-    window.setTimeout(loop, 33)
+    setTimeout(loop, 33)
 }
 loop()
 ```
@@ -71,7 +68,7 @@ Pritisni miša za skakanje!
 
 ## Sistem kolizije
 
-U razvoju igara, svaki sistem kolizije bi trebalo da radi nekoliko osnovnih stvari: 
+U razvoju igara, zbog velikog broja predmeta koji se sudaraju, obično imamo neki sistem kolizije. Svaki sistem kolizije bi trebalo da radi nekoliko osnovnih stvari: 
 - da izveštava o događajima kolizije
 - da izvodi *raycast* i *shapecast*
 - da rukuje fantomskim objektima
