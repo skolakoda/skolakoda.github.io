@@ -49,7 +49,6 @@ function draw() {
   box1.color = box2.color = intersect(box1, box2) ? 'red' : 'black'
   box1.draw()
   box2.draw()
-  requestAnimationFrame(draw)
 }
 
 draw()
@@ -57,6 +56,7 @@ draw()
 canvas.addEventListener('mousemove', e => {
   box1.position.x = e.offsetX - box1.width / 2
   box1.position.y = e.offsetY - box1.height / 2
+  draw()
 })
 ```
 

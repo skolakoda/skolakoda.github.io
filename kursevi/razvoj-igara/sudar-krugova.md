@@ -50,7 +50,6 @@ function draw() {
   circle1.color = circle2.color = intersect(circle1, circle2) ? 'red' : 'black'
   circle1.draw()
   circle2.draw()
-  requestAnimationFrame(draw)
 }
 
 draw()
@@ -58,5 +57,6 @@ draw()
 canvas.addEventListener('mousemove', e => {
   circle1.position.x = e.offsetX
   circle1.position.y = e.offsetY
+  draw()
 })
 ```

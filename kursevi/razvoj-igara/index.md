@@ -88,7 +88,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
   - [Matrica identiteta](/matrica-identiteta)
 - [Operacije nad matricama](/operacije-nad-matricama)
 
-### Koncepti igre
+### Glavna petlja
 
 - [Glavna petlja](/glavna-petlja)
   - [Delta vreme](/delta-vreme)
