@@ -17,7 +17,6 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
   {% include kutijice/web.html %}
   {% include kutijice/js.html %}
   {% include kutijice/frontend.html %}
-  {% include kutijice/react.html %}
   {% include kutijice/js-napredni.html %}
   {% include kutijice/java.html %}
 </div>
@@ -30,7 +29,7 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
   {% include kutijice/razvoj-igara.html %}
   {% include kutijice/refaktorisanje.html %}
   {% include kutijice/bez-racunara.html %}
-  {% include kutijice/blockchain.html %}
+  <!-- {% include kutijice/blockchain.html %} -->
 </div>
 
 ## Materijali u pripremi
@@ -39,8 +38,7 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
   {% include kutijice/php.html %}
   {% include kutijice/nodejs.html %}
   {% include kutijice/threejs.html %}
-  {% include kutijice/react-native.html %}
-  {% include kutijice/redux.html %}
+  {% include kutijice/react.html %}
   {% include kutijice/sql.html %}
   {% include kutijice/git.html %}
   {% include kutijice/animacije.html %}
