@@ -19,8 +19,6 @@ Možemo reći da je struktura podataka logički model određene organizacije pod
 
 ## Osnovne strukture
 
-![strukture podataka](/images/koncepti/podaci/strukture-podataka.jpg)
-
 Slijedeće strukture podataka i operacije na njima temelji su računalne znanosti, jer su osnovni elementi brojnih algoritama:
 
 - **[Niz](/nizovi)** (eng. *array*) – niz elemenata smeštenih u uzastopnim memorijskim lokacijama

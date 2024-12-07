@@ -16,7 +16,7 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 - [Niz](/nizovi) (*array*)
   - [Dvodimenzionalni nizovi (matrice)](/matrice)
   - [Višedimenzionalni nizovi](/visedimenzionalni-nizovi)
-- [Povezana lista](/povezana-lista)
+- [Lista (povezana lista)](/povezana-lista)
 - [Stog](/stog) (*stack*)
 - [Red](/red) (*queue*)
 
