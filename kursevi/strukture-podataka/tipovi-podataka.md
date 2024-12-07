@@ -50,7 +50,24 @@ Primitivni tipovi se organizuju u **složene tipove** ili **strukture podataka**
 
 Neki tipovi podataka se značajno razlikuju među jezicima. Npr. *string* je negde niz karaktera, a negde prost tip.
 
-Preciznost broja određena je dužinom riječi procesora (32 ili 64 bita).
+## Veličina tipova podataka
+
+Ovo su osnovni tipovi podataka zajedno sa njihovim veličinama u memoriji. Veličine mogu varirati zavisno od arhitekture sistema i implementacije jezika, ali ovo su uobičajene vrednosti:
+
+| Tip podataka         | Opis                                  | Veličina u memoriji   |
+|----------------------|---------------------------------------|-----------------------|
+| **`bool`**           | logička vrednost (true/false)         | 1 bajt                |
+| **`char`**           | karakter (znak)                       | 1 bajt                |
+| **`byte`**           | najkraći celi broj                    | 1 bajt                |
+| **`short`**          | kratki celi broj                      | 2 bajta               |
+| **`int`**            | standardni celi broj                  | 4 bajta               |
+| **`long`**           | duži celi broj                        | 4 bajta (32-bitni) ili<br>8 bajta (64-bitni) |
+| **`float`**          | broj sa pomičnim zarezom              | 4 bajta                |
+| **`double`**         | duplo precizniji broj sa pomičnim zarezom | 8 bajta                |
+
+Izbor odgovarajućeg brojčanog tipa podataka je umeće - ne sme biti preveliki, da ne bismo rasipali memoriju, niti premali, da bismo sačuvali preciznost i izvršili potrebna računanja.
+
+Veličine nekih tipova mogu varirati u zavisnosti od implementacije jezika i arhitekture sistema (32-bitni vs 64-bitni sistemi), što može uticati na preciznost brojeva.
 
 ## Izvori
 
