@@ -19,14 +19,13 @@ image: /images/kursevi/algoritmi.jpg
 - [Euklidov algoritam](/euklidov-algoritam)
 - [Eratostenovo sito](/eratostenovo-sito)
 - [Rusko seljačko množenje](/rusko-mnozenje)
-- [Cena računskih operacija](/cena-racunskih-operacija)
 
 ### Složenost algoritama
 
-<!-- - Analiza algoritama -->
 - [Složenost algoritama](/efikasnost-algoritama)
 - [Tablica složenosti algoritama](/tablica-slozenosti-algoritama)
 - [Zapis složenosti (asimptotska notacija)](/asimptotska-notacija)
+- [Cena računskih operacija](/cena-racunskih-operacija)
 
 ### Strukture podataka
 
