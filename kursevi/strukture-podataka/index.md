@@ -30,7 +30,7 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 
 ### Asocijativne strukture
 
-- [Rečnik](/recnik) ili mapa
+- [Rečnik (mapa)](/recnik)
   - [Heš tabela](/recnik)
 - Skup
 
