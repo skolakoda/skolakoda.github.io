@@ -1,7 +1,7 @@
 ---
 title: Uvod u strukture podataka
-layout: lekcija-algoritmi
-permalink: /strukture-podataka
+layout: lekcija-strukture
+permalink: /strukture-podataka-uvod
 image: /images/koncepti/podaci/kockice.jpeg
 ---
 
@@ -31,7 +31,7 @@ Slijedeće strukture podataka i operacije na njima temelji su računalne znanost
 - **Skup** (eng. *set*) - kolekcija jedinstvenih elemenata, obično neuređenih (bez fiksnog redosleda). Implementiran pomoću heš tabele (kod neuređenih) ili stabla (kod uređenih skupova).
 - **[Stablo](/stablo)** (eng. *binary tree*) – hijerarhijska struktura sa čvorovima, gde svaki čvor može imati više podčvorova. Najčešći primer je **binarno stablo**, gde svaki čvor ima najviše dva podčvora.
 - **[Graf](/graf)** (eng. *graph*) – općenita struktura u kojoj svaki element može biti povezan sa više drugih elemenata. Sastoji se od čvorova (ili vrhova) i ivica (veza između njih).
-- **[Zapis](/slog)** (eng. *record*) - struktura podataka koja sadrži grupu atributa, a svaki može biti različitog tipa. Zapis se obično koristi za predstavljanje entiteta u bazi podataka.
+- **[Zapis](/zapis)** (eng. *record*) - struktura podataka koja sadrži grupu atributa, a svaki može biti različitog tipa. Zapis se obično koristi za predstavljanje entiteta u bazi podataka.
 
 ## Linearne i nelinearne strukture
 

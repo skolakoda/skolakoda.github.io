@@ -1,6 +1,6 @@
 ---
 title: Vežbe sa matricama
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /vezbe-sa-matricama
 ---
 

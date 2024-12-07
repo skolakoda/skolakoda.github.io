@@ -1,27 +1,27 @@
 ---
 title: Stog (<i>stack</i>)
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /stog
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Spreewald_2014_21.jpg/800px-Spreewald_2014_21.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/The_land_of_heather_%281904%29_%2814793181483%29.jpg/400px-The_land_of_heather_%281904%29_%2814793181483%29.jpg
 ---
 
 ![]({{page.image}})
 
-**Linearna struktura u kojoj se elementi mogu dodavati ili oduzimati samo na jednom kraju zove se stog (en. *stack*).**
+**Stog ili plast (en. *stack*) je linearna struktura podataka, gde se elementi mogu dodavati ili oduzimati samo na jednom kraju.** Nazvana je po plastu, gde se seno uvek dodaje i oduzima samo s vrha.
 
-Nizovi i liste dozvoljavaju dodavanje i brisanje elemenata na bilo kojem mjestu – početku, kraju ili između. Postoje određene situacije u programiranju kada želimo ograničiti dodavanja i brisanja elemenata samo na jedan kraj liste.
+Nizovi i liste dozvoljavaju dodavanje i brisanje elemenata na bilo kojem mjestu – početku, kraju ili između. Postoje određeni scenariji kada želimo ograničiti dodavanja i brisanja elemenata samo na jedan kraj liste.
+
+Drugi uobičajeni naziv za ovu strukturu je **LIFO** lista (eng. *last in – first out*). 
 
 ## Osnovne operacije
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/The_land_of_heather_%281904%29_%2814793181483%29.jpg/400px-The_land_of_heather_%281904%29_%2814793181483%29.jpg)
+![](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg)
 
 Osnovne operacije na stogu su:
-* dodavanje (umetanje) elementa na stog (eng. *push*)
-* brisanje (uklanjanje) elementa iz stoga (eng. *pop*)
+* dodavanje elementa na stog (eng. *push*)
+* uklanjanje elementa iz stoga (eng. *pop*)
 
-Nije moguće izvaditi ili umetnuti bilo koji element iz sredine prije nego se "skinu" svi elementi iznad njega. Iz toga slijedi da je zadnji dodani element ujedno i onaj koji će se prvi izvaditi. Stoga je drugi uobičajeni naziv za strukturu stoga : **LIFO** (eng. *last in – first out*). Drugim riječima **stog je struktura kod koje se posljednji pohranjeni podatak prvi uzima u obradu**.
-
-![](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg)
+Nije moguće izvaditi ili umetnuti bilo koji element iz sredine prije nego se "skinu" svi elementi iznad njega. Iz toga slijedi da je zadnji dodani element ujedno i onaj koji će se prvi izvaditi. Drugim riječima **stog je struktura kod koje se posljednji pohranjeni podatak prvi uzima u obradu**.
 
 **Pojedina operacija dodaj ili briši zahtijeva jednako vremena bez obzira na broj pohranjenih podataka.**
 

@@ -1,6 +1,6 @@
 ---
 title: Stablo (<i>tree</i>)
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /stablo
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Buddhisme.jpg/503px-Buddhisme.jpg
 ---

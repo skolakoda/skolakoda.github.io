@@ -27,8 +27,8 @@
     izlaz.classList.add('vrednost')
     izrazi[i].parentNode.insertBefore(izlaz, izrazi[i].nextSibling)
     izrazi[i].contentEditable = true
-    izrazi[i].on('keyup', () => vrednuj(izrazi[i], izlaz))
-    izrazi[i].on('blur', () => proveriGresku(izrazi[i], izlaz))
+    izrazi[i].addEventListener('keyup', () => vrednuj(izrazi[i], izlaz))
+    izrazi[i].addEventListener('blur', () => proveriGresku(izrazi[i], izlaz))
     vrednuj(izrazi[i], izlaz)
   }
 }

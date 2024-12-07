@@ -1,10 +1,10 @@
 ---
 title: "Vežba: uparene zagrade"
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /vezba-uparene-zagrade
 ---
 
-![](http://interactivepython.org/runestone/static/pythonds/_images/simpleparcheck.png)
+![](/images/koncepti/algoritmi/simpleparcheck.png)
 
 ## Problem
 
@@ -54,4 +54,4 @@ print(jelUpareno('())('))
 
 Izvori:
 - [petlja.org](https://petlja.org/BubbleBee/r/Lectures/strukture-podataka-1)
-- [interactivepython.org](http://interactivepython.org/runestone/static/pythonds/BasicDS/SimpleBalancedParentheses.html)
+- [*Simple Balanced Parentheses*](https://runestone.academy/ns/books/published/pythonds/BasicDS/SimpleBalancedParentheses.html)

@@ -1,6 +1,6 @@
 ---
 title: Povezana lista
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /povezana-lista
 image: /images/koncepti/podaci/povezana-lista.jpg
 ---
@@ -11,14 +11,11 @@ image: /images/koncepti/podaci/povezana-lista.jpg
 
 Svaki element liste sadrži neki podatak i pokazivač na sledeći element. Poseban značaj ima pokazivač na prvi element liste, koji se često zove i glava liste. Poslednji element sadrži tzv. `NULL` pokazivač koji označava kraj liste.
 
-![](https://petljamedia.blob.core.windows.net/root/Media/Default/Kursevi/uvod-u-programiranje/nedelja_11/lista.png)
-<!-- https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/640px-Singly-linked-list.svg.png -->
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/640px-Singly-linked-list.svg.png)
 
 ## Razlika liste i niza
 
 Za razliku od polja (niza), svaki element liste sadrži pokazivač na slijedeći element. Pošto pokazivač sadrži adresu slijedećeg elementa u listi, sukcesivni elementi liste ne moraju biti spremljeni u sukcesivnom nizu memorijskih lokacija. Na taj način fizički redoslijed memorijskih lokacija nema nikakav utjecaj na redoslijed elemenata u listi. Za razliku od niza, vrlo jednostavno je dodavanje i brisanje elemenata iz liste.
-
-![](http://interactivepython.org/runestone/static/pythonds/_images/idea2.png)
 
 ## Algoritam obilaska
 

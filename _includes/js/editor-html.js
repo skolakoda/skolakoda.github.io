@@ -51,7 +51,7 @@
     azuriraj(editor, izlaz)
 
     /* EVENTS */
-    editorWrapper.on('keyup', () => azuriraj(editor, izlaz))
+    editorWrapper.addEventListener('keyup', () => azuriraj(editor, izlaz))
   }
 
 }

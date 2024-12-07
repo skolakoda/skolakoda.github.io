@@ -11,6 +11,6 @@
     button.classList.add('btn-small')
     resenja[i].style.display = 'none'
     resenja[i].parentNode.insertBefore(button, resenja[i])
-    button.on('click', () => obrniResenje(resenja[i]))
+    button.addEventListener('click', () => obrniResenje(resenja[i]))
   }
 }

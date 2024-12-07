@@ -1,17 +1,17 @@
 ---
-title: Rečnik ili heš tabela
-layout: lekcija-algoritmi
+title: Heš tabela
+layout: lekcija-strukture
 permalink: /recnik
 image: //upload.wikimedia.org/wikipedia/commons/thumb/c/c2/HASHTB08.svg/600px-HASHTB08.svg.png
 ---
 
 ![]({{page.image}})
 
-**Rečnik, mapa, asocijativni niz ili heš tabela (eng. *hash table*) je struktura podataka koja čuva parove ključeva i vrednosti. Ova struktura koristi heš funkciju za indeksiranje elemenata, što omogućava brz pristup vrednostima na osnovu ključeva.** 
+**Rečnik iil mapa** je asocijativna struktura podataka koja čuva parove ključeva i vrednosti. 
 
-Rečnik omogućava brzo nalaženje, dodavanje i brisanje vrednosti, bez obzira na veličinu rečnika.
+**Heš tabela** (eng. *hash table*) je implementacija rečnika koja koristi heš funkciju za indeksiranje elemenata, što omogućuje trenutni pristup vrednostima preko ključa. Ovo omogućava trenutno nalaženje, dodavanje i brisanje vrednosti, bez obzira na veličinu rečnika.
 
-## Kako radi rečnik?
+## Kako radi heš tabela?
 
 Kada se novi par ključ-vrednost doda u rečnik, ključ prolazi kroz **heš funkciju** koja generiše heš kod, tj. broj koji se koristi kao indeks za pozicioniranje vrednosti u memoriji. Heš kod određuje gde će vrednost biti sačuvana u tabeli. Kada želimo da pristupimo vrednosti pomoću ključa, ključ ponovo prolazi kroz heš funkciju kako bi ukazao na mesto u tabeli gde je vrednost pohranjena.
 

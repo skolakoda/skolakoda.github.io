@@ -24,12 +24,12 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
 ## Jezički nezavisna znanja
 
 <div class="boxes">
+  {% include kutijice/strukture.html %}
   {% include kutijice/algoritmi.html %}
   {% include kutijice/inzenjerstvo.html %}
   {% include kutijice/razvoj-igara.html %}
   {% include kutijice/refaktorisanje.html %}
   {% include kutijice/bez-racunara.html %}
-  <!-- {% include kutijice/blockchain.html %} -->
 </div>
 
 ## Materijali u pripremi

@@ -27,23 +27,6 @@ image: /images/kursevi/algoritmi.jpg
 - [Zapis složenosti (asimptotska notacija)](/asimptotska-notacija)
 - [Cena računskih operacija](/cena-racunskih-operacija)
 
-### Strukture podataka
-
-- [Uvod u strukture podataka](/strukture-podataka)
-- [Niz](/nizovi)
-  - [Dvodimenzionalni nizovi (matrice)](/matrice)
-  - [Višedimenzionalni nizovi](/visedimenzionalni-nizovi)
-  - [Vežbe sa matricama](/vezbe-sa-matricama)
-- [Povezana lista](/povezana-lista)
-- [Rečnik](/recnik) 
-- [Stog](/stog) (*stack*)
-- [Red](/red) (*queue*)
-- [Zapis](/slog) (*record*)
-- [Stablo](/stablo)
-  - [Binarno stablo pretrage](/binarno-stablo-pretrage)
-- [Graf](/graf)
-- [Vežba: uparene zagrade](/vezba-uparene-zagrade)
-
 ### Algoritmi pretrage
 
 - [Algoritmi pretrage](/algoritmi-pretrazivanja)

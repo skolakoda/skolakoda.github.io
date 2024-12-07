@@ -1,7 +1,7 @@
 ---
 title: Zapis ili slog (<i>record</i>)
-layout: lekcija-algoritmi
-permalink: /slog
+layout: lekcija-strukture
+permalink: /zapis
 image: /images/koncepti/podaci/census-record.jpg
 ---
 

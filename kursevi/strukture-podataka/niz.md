@@ -1,6 +1,6 @@
 ---
 title: Niz (<i>array</i>)
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /nizovi
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Array1.svg/640px-Array1.svg.png
 ---

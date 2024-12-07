@@ -1,6 +1,6 @@
 ---
 title: Binarno stablo pretrage
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /binarno-stablo-pretrage
 author: damjan
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/400px-Binary_search_tree.svg.png
