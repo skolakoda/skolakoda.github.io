@@ -34,9 +34,9 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 ### Hijerarhijske strukture
 
 - [Stablo](/stablo)
-- Binarno stablo
+- [Binarno stablo](/binarno-stablo)
 - [Binarno stablo pretrage](/binarno-stablo-pretrage)
-- Hrpa (*heap*)
+- [Hrpa](/heap) (*heap*)
 
 ### Grafovi 
 
