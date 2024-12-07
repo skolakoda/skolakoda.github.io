@@ -1,5 +1,5 @@
 ---
-title: Strukture podataka
+title: Podaci i strukture podataka
 layout: kurs
 permalink: /strukture-podataka
 image: /images/koncepti/podaci/strukture-podataka.jpg
@@ -7,7 +7,15 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 
 **Učimo kako računari beleže podatke, koje strukture podataka postoje i koje najbolje rešavaju određeni problem.**
 
-### Uvod
+### Uvod u podatke
+
+<!-- - [Razlika između podatka i informacije](/razlika-podaci-informacije) -->
+- [Vrste podataka](/vrste-podataka)
+- [Čuvanje podataka](/cuvanje-podataka)
+- [Analogni i digitalni zapis](/analogni-i-digitalni-zapis)
+- [Tipovi podataka u programskim jezicima](/tipovi-podataka)
+
+### Strukture podataka
 
 - [Uvod u strukture podataka](/strukture-podataka-uvod)
 

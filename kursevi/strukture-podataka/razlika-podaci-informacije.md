@@ -1,10 +1,10 @@
 ---
 title: Razlika između podatka i informacije
-layout: lekcija-c
+layout: lekcija-strukture
 permalink: /razlika-podaci-informacije
 ---
 
-***Ponekad se podatak i informacija koriste kao sinonimi, iako nisu. Podatak predstavlja neku vrednost (niz simbola) van konteksta i bez značenja. Informacija je podatak sa značenjem.***
+**Ponekad se podatak i informacija koriste kao sinonimi, iako nisu. Podatak predstavlja neku vrednost (niz simbola) van konteksta i bez značenja. Informacija je podatak sa značenjem.**
 
 ## Kontekst podataka određuje značenje
 
