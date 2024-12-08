@@ -7,11 +7,13 @@ image: /images/koncepti/podaci/povezana-lista.jpg
 
 ![]({{page.image}})
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/640px-Singly-linked-list.svg.png)
+
 **Lista ili vezana lista (en. *linked list*) je linearna struktura podataka u kojoj je redoslijed elemenata određen pokazivačima.**
 
 Svaki element sadrži podatak i pokazivač na sledeći element. Poseban značaj ima pokazivač na prvi element liste, koji se često zove glava liste. Poslednji element sadrži tzv. `NULL` pokazivač koji označava kraj liste.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/640px-Singly-linked-list.svg.png)
+U **jednostruko povezanim listama** svaki čvor pokazuje samo ka sledećem, dok u **dvostruko povezanim listama** svaki čvor pokazuje ka sledećem i ka prethodnom čvoru. Ovo omogućava i kretanje unazad, dok se u jednostruko povezanim listama može kretati samo napred.
 
 ## Razlika liste i niza
 
@@ -109,7 +111,117 @@ void stampajRek(Element *glava){
 }
 ```
 
-### Literatura
+## Implementacija u C++
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Node {
+public:
+    int value;
+    Node* next;
+
+    Node(int val) : value(val), next(nullptr) {}
+};
+
+class LinkedList {
+private:
+    Node* head;
+
+public:
+    LinkedList() : head(nullptr) {}
+
+    void append(int value) {
+        Node* newNode = new Node(value);
+        if (!head) {
+            head = newNode;
+            return;
+        }
+        Node* current = head;
+        while (current->next) {
+            current = current->next;
+        }
+        current->next = newNode;
+    }
+
+    void print() {
+        Node* current = head;
+        while (current) {
+            cout << current->value << " ";
+            current = current->next;
+        }
+        cout << endl;
+    }
+
+    ~LinkedList() {
+        while (head) {
+            Node* temp = head;
+            head = head->next;
+            delete temp;
+        }
+    }
+};
+
+int main() {
+    LinkedList list;
+    list.append(1);
+    list.append(2);
+    list.append(3);
+    list.print();
+    return 0;
+}
+```
+
+
+## Implementacija u JS-u
+
+Javascript već *array* sa ugrađenim mogućnostima fleksibilne liste, pa ova implementacija služi više u edukativne svrhe:
+
+{:.ulaz}
+```js
+class Node {
+  constructor(value) {
+    this.value = value
+    this.next = null
+  }
+}
+
+class LinkedList {
+  constructor() {
+    this.head = null
+  }
+
+  append(value) {
+    const newNode = new Node(value)
+    if (!this.head) {
+      this.head = newNode
+      return
+    }
+    let current = this.head
+    while (current.next) {
+      current = current.next
+    }
+    current.next = newNode
+  }
+
+  print() {
+    let current = this.head
+    while (current) {
+      console.log(current.value)
+      current = current.next
+    }
+  }
+}
+
+const list = new LinkedList()
+list.append(1)
+list.append(2)
+list.append(3)
+list.print()
+```
+
+## Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
 - *Uvod u programiranje - Računarski fakultet*, [Dinamičke strukture podataka](https://petlja.org/BubbleBee/r/lekcije/uvod-u-programiranje/nedelja_11)
