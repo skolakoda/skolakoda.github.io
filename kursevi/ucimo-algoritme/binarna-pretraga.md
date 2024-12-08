@@ -2,24 +2,22 @@
 title: Binarna pretraga
 layout: lekcija-algoritmi
 permalink: /binarna-pretraga
-image: https://devopedia.org/images/article/28/2951.1490520804.gif
+image: /images/koncepti/algoritmi/binarna.gif
 ---
 
 ![]({{page.image}})
 
-**Binarno pretraživanje je nalaženje zadate vrednosti u sortiranom skupu elemenata. U svakom koraku, dok se ne pronađe tražena vrednost, skup se deli na dva dela i pretraga se nastavlja samo u jednom — odbacuje se deo koji sigurno ne sadrži traženu vrednost.**
+**Binarna pretraga je efikasan algoritam za nalaženje elementa u sortiranom nizu.** Umesto da proverava svaki element redom, binarna pretraga u svakom koraku deli skup na pola. 
 
-U diskretnom slučaju, ako skup ima `n` (konačno mnogo) elemenata, algoritam je vremenski logaritamske složenosti — O(log n).
+Pretraživanje se vrši na sledeći način: nalazi srednji element skupa, proverava je li jednak traženoj vrednosti, ako jeste vraća njegov indeks, ako nije pretraga se nastavlja nad podskupom manjih (ako je srednji element veći od tražene vrednosti) ili većih elemenata (ako je srednji element manji).
 
-Pretraživanje se vrši na sledeći način: pronalazi se srednji element skupa, proverava se je li jednak zadatoj vrednosti i ako jeste vraća se njegov indeks, a ako nije pretraga se nastavlja nad skupom svih manjih (ako je srednji element veći od zadate vrednosti) ili svih većih elemenata (ako je srednji element manji).
-
-Binarno pretraživanje je primer [podeli-i-vladaj](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm) algoritama. Može se implementirati iterativno ili rekurzivno.
+Vremenska složenost binarne pretrage je **O(log n)** - logaritamska složenost. Binarno pretraživanje je primer [podeli-i-vladaj](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm) algoritama. Može se implementirati iterativno ili rekurzivno.
 
 ## Uređenost podataka
 
-**Binarno pretraživanje je daleko efikasnije nego linearno, ali zahteva da su podaci koji se pretražuju uređeni.** Ovo je jedan od glavnih razloga zašto se reči u rečnicima, enciklopedijama i telefonskim imenicima sortiraju. Ove knjige se obično pretražuju postupkom koji odgovara varijantama binarne pretrage. Odnos složenosti postaje još očigledniji ukoliko se zamisli koliko bi komplikovano bilo sekvencijalno pretraživanje reči u nesortiranom rečniku.
+**Binarno pretraživanje je daleko efikasnije nego linearno, ali zahteva da su podaci koje pretražuje uređeni.** Ovo je jedan od glavnih razloga zašto se reči u rečnicima, enciklopedijama i imenicima sortiraju. Oni se obično pretražuju postupkom koji odgovara varijantama binarne pretrage. Efikasnost postaje još očiglednija ukoliko zamislimo koliko bi komplikovano bilo pretraživanje reči redom u nesortiranom rečniku.
 
-## Rekurzivna binarna pretraga
+## Rekurzivna implementacija
 
 Naredna funkcija daje rekurzivnu implementaciju binarnog pretraživanja. Poziv `binarna_pretraga(a, l, d, x)` vraća indeks elementa niza `a` između `l` i `d` (uključujući i njih) koji je jednak zadatoj vrednosti `x` ako postoji,  inače `-1`. Dakle, ukoliko se želi pretraga celog niza, funkciju treba pozvati sa `binarna_pretraga(a, 0, n-1, x)`.
 
@@ -43,7 +41,7 @@ Primetimo da se za nalaženje središta, umesto izraza `l + (d - l)/2` može kor
 
 Složenost ove funkcije je O(log n), a njena korektnost se dokazuje jednostavno.
 
-## Iterativna binarna pretraga
+## Iterativna implementacija
 
 Oba rekurzivna poziva u prethodnoj funkciji su bila repno-rekurzivna, tako da se mogu jednostavno eliminisati. Time se dobija iterativna funkcija koja vraća indeks elementa niza `a` koji je jednak zadatoj vrednosti `x` ako takva postoji, inače `-1`.
 
@@ -65,6 +63,6 @@ int binarna_pretraga(int a[], int n, int x) {
 }
 ```
 
-### Literatura
+## Literatura
 
 - Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Matematički fakultet, Beograd, 2017.
