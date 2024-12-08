@@ -23,15 +23,11 @@ Osnovne operacije na stogu su:
 
 Nije moguće izvaditi ili umetnuti bilo koji element iz sredine prije nego se "skinu" svi elementi iznad njega. Iz toga slijedi da je zadnji dodani element ujedno i onaj koji će se prvi izvaditi. Drugim riječima **stog je struktura kod koje se posljednji pohranjeni podatak prvi uzima u obradu**.
 
-**Pojedina operacija dodaj ili briši zahtijeva jednako vremena bez obzira na broj pohranjenih podataka.**
+**Operacija dodaj ili briši zahtijeva jednako vremena bez obzira na broj pohranjenih podataka.**
 
 Premda se čini da je stog vrlo restriktivna struktura podataka, on ima brojne vrlo važne primjene u računalnoj znanosti. Često se upotrebljava u situacijama kada određene korake obrade treba odgoditi do trenutka ispunjenja drugih uvjeta.
 
-Situacija da je stog pun može zahtijevati alociranje dodatne memorije i ponovno pokretanje programa (tzv. *stack overflow*). Prazan stog ne mora značiti pogrešku.
-
 ## Implementacija
-
-Prikaz i manipulacija sa stogom može se realizirati statičkom strukturom podataka. U niz zadane strukture dodaju se ili brišu pojedine stavke po principu "LastInFirstOut" (LIFO).
 
 Sledi prosta implementacija stoga u Javascriptu:
 
@@ -69,15 +65,11 @@ element = stog.ukloni()   // stog je sada [2]
 console.log(element)      // stampa 5
 ```
 
-## Vežba
+## Prelivanje steka (*stack overflow*)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Kaartspel_van_Edgar_van_Haelst.jpg/640px-Kaartspel_van_Edgar_van_Haelst.jpg)
+Prelivanje steka (*stack overflow*) je greška koja nastaje kada program pređe ograničenje memorije dodeljene steku (posebnoj oblasti memorije za čuvanje lokalnih promenljivih i povratnih adresa funkcija). 
 
-Potrebno je simulirati sledeće poteze sa kartama. U ruci imamo ceo špil karata dok na stolu na početnu ne stoji ni jedna karta. U jednom trenutku možemo ili da uzmemo bilo koju kartu iz špila i da je stavimo na vrh trenutne gomile na stolu (na početku je gomila prazna) ili da pogledamo vrednost karte koja je na vrhu gomile i da je sklonimo sa gomile.
-
-Analiziranjem ovog problema možemo da zaključimo da su nam dovoljne 3 metode, od toga jedna treba da ubacuje element u skup, druga da odgovara koji je element poslednji ubačen u skup, i treća da izbacuje iz skupa element koji je poslednji ubačen. Struktura stek rešava ovaj problem.
-
-Primetimo da sve pomenute metode imaju vremensku složenost O(1).
+Obično nastaje kada funkcije pozivaju jedna drugu ili same sebe (rekurzija) bez pravilnog završetka, ili kada lokalni podaci u funkciji zauzmu više prostora nego što stek može da podrži.
 
 ### Literatura
 

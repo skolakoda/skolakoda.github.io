@@ -53,4 +53,5 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 ### Primena u algoritmima
 
 - [Vežbe sa matricama](/vezbe-sa-matricama)
+- [Vežba sa kartama](/vezba-sa-kartama-stek) (stek)
 - [Vežba: uparene zagrade](/vezba-uparene-zagrade) (stek)
