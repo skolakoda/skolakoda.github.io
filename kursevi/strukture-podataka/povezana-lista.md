@@ -7,19 +7,19 @@ image: /images/koncepti/podaci/povezana-lista.jpg
 
 ![]({{page.image}})
 
-**Lista ili vezana lista (en. *linked list*) je linearna struktura elemenata u kojoj je redoslijed određen pokazivačima.**
+**Lista ili vezana lista (en. *linked list*) je linearna struktura podataka u kojoj je redoslijed elemenata određen pokazivačima.**
 
-Svaki element liste sadrži neki podatak i pokazivač na sledeći element. Poseban značaj ima pokazivač na prvi element liste, koji se često zove i glava liste. Poslednji element sadrži tzv. `NULL` pokazivač koji označava kraj liste.
+Svaki element sadrži podatak i pokazivač na sledeći element. Poseban značaj ima pokazivač na prvi element liste, koji se često zove glava liste. Poslednji element sadrži tzv. `NULL` pokazivač koji označava kraj liste.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/640px-Singly-linked-list.svg.png)
 
 ## Razlika liste i niza
 
-Za razliku od polja (niza), svaki element liste sadrži pokazivač na slijedeći element. Pošto pokazivač sadrži adresu slijedećeg elementa u listi, sukcesivni elementi liste ne moraju biti spremljeni u sukcesivnom nizu memorijskih lokacija. Na taj način fizički redoslijed memorijskih lokacija nema nikakav utjecaj na redoslijed elemenata u listi. Za razliku od niza, vrlo jednostavno je dodavanje i brisanje elemenata iz liste.
+Za razliku od niza ili polja (*array*), svaki element liste sadrži pokazivač na slijedeći element. Pošto pokazivač sadrži adresu slijedećeg elementa, sukcesivni elementi ne moraju biti spremljeni u sukcesivnim memorijskim lokacijama. Fizički redoslijed memorijskih lokacija nema nikakav utjecaj na redoslijed elemenata u listi. Za razliku od niza, vrlo jednostavno je dodavanje i brisanje elemenata iz liste.
 
 ## Algoritam obilaska
 
-Algoritam operacije “pristupa i obrade” svih elemenata povezane liste (eng. *traversing*):
+Algoritam prolaska svih elemenata povezane liste (eng. *traversing*):
 
 1. Postavi pokazivač na početak
 2. Ponavljaj korake 3 i 4 dok je pokazivač različit od “null”
@@ -28,13 +28,13 @@ Algoritam operacije “pristupa i obrade” svih elemenata povezane liste (eng. 
 
 ## Dodavanje elemenata
 
-Na slici 5 shematski je prikazano dodavanje elementa u povezanu listu. Prije dodavanja novog elementa čvor A pokazuje na slijedeći čvor B. Nakon umetanja novog čvora između čvorova A i B, čvor A pokazuje na novi čvor N, a čvor N pokazuje na čvor B.
-
 ![](/images/koncepti/podaci/dodavanje-u-listu.png)
 
-Na sličan način, mijenjanjem lokacije na koju pokazuje pokazivač realizira se i brisanje elementa iz povezane liste.
+Na slici je shematski dodavanje elementa u listu. Prije dodavanja novog elementa čvor A pokazuje na čvor B. Nakon umetanja novog čvora između A i B, čvor A pokazuje na novi čvor N, a čvor N pokazuje na čvor B.
 
-## Implementacija
+Na sličan način, mijenjanjem lokacije na koju pokazuje pokazivač uklanja se element iz povezane liste.
+
+## Implementacija u C
 
 Povezana lista celih brojeva u C implementira se preko strukture na sledeći način:
 
@@ -51,7 +51,7 @@ Nakon toga kreiramo glavu liste:
 Element *glava= NULL;
 ```
 
-Ovom naredbom kreira se prazna lista, tako što navedemo da je glava liste NULL pokazivač. Podatak u strukturi može biti različitog tipa, a elementi liste mogu da sadrže i više podataka različitog tipa. Na primer možemo napraviti listu koja sadrži podatke o studentima i ima ime, prezime i broj poena studenta. Ovakva lista implementirala bi se sledećom strukturom:
+Ovom naredbom kreira se prazna lista, tako što navedemo da je glava liste NULL pokazivač. Elementi liste mogu da sadrže i više podataka različitog tipa. Na primer možemo napraviti listu koja sadrži podatke o studentima i ima ime, prezime i broj poena studenta. Ovakva lista implementirala bi se sledećom strukturom:
 
 ```c
 typedef struct ElementStudent{
@@ -66,7 +66,9 @@ Ono što je zajedničko za sve povezane liste je da elementi moraju imati pokazi
 
 Funkcije za rad sa listama koje menjaju sadržaj liste imaju kao ulazni podatak listu, koja je predstavljena kao pokazivač na prvi element liste, a kao rezultat vraćaju pokazivač na prvi element izmenjene liste. Drugi način je da se lista prosledi po referenci, a ne po vrednosti, i onda nemamo povratnu vrednost iz funkcije.
 
-Kod funkcije za dodavanje elementa jedan argument je lista, a drugi element koji se dodaje koji može biti već kreiran i alociran element (čvor) liste ili samo podatak. Ako prosleđujemo samo podatak potrebno je u funkciji alocirati memoriju za novi element liste. Sledi funkcija za dodavanje elementa na početak liste celih brojeva:
+### Dodavanje elemenata
+
+Kod funkcije za dodavanje elementa jedan argument je lista, a drugi element koji se dodaje koji može biti već kreiran i alociran element liste ili samo podatak. Ako prosleđujemo samo podatak potrebno je u funkciji alocirati memoriju za novi element liste. Sledi funkcija za dodavanje elementa na početak liste celih brojeva:
 
 ```c
 Element* dodajNaPocetak(Element *glava, int broj){
@@ -78,7 +80,11 @@ Element* dodajNaPocetak(Element *glava, int broj){
 }
 ```
 
-Pošto se u ovoj funkciji prosleđuje samo podatak, prilikom dodavanja novog elementa u funkciji potrebno je alocirati memorijski prostor za novi element, u ovom primeru koristi se funkcija malloc. Zatim se tom elementu dodeljuju vrednosti, prosleđeni parametar kao podatak, a pokazivač na sledeći element je u stvari pokazivač na početak liste. Ostaje još da se pokazivač na glavu liste prebaci na novi element (jer dodajemo na početak) i da se tako dobijena nova lista vrati kao rezultat funkcije. Štampanje liste podrazumeva obilazak svakog elementa liste i ispis podatka za svaki element:
+Pošto se u ovoj funkciji prosleđuje samo podatak, prilikom dodavanja novog elementa u funkciji potrebno je alocirati memorijski prostor za novi element, u ovom primeru koristi se funkcija `malloc`. Zatim se tom elementu dodeljuju vrednosti, prosleđeni parametar kao podatak, a pokazivač na sledeći element je u stvari pokazivač na početak liste. Ostaje još da se pokazivač na glavu liste prebaci na novi element (jer dodajemo na početak) i da se tako dobijena nova lista vrati kao rezultat funkcije. 
+
+### Štampanje liste
+
+Štampanje liste podrazumeva obilazak svakog elementa liste i ispis podatka za svaki element:
 
 ```c
 void stampaj(Element *glava){
