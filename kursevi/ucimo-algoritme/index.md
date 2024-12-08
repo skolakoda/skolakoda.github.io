@@ -12,13 +12,6 @@ image: /images/kursevi/algoritmi.jpg
 
 - [Šta je algoritam?](/algoritmi-uvod)
 - [Svakodnevni algoritmi](/svakodnevni-algoritmi)
-- Algoritmi u pseudokodu
-
-### Algoritmi računanja
-
-- [Euklidov algoritam](/euklidov-algoritam)
-- [Eratostenovo sito](/eratostenovo-sito)
-- [Rusko seljačko množenje](/rusko-mnozenje)
 
 ### Složenost algoritama
 
@@ -27,11 +20,19 @@ image: /images/kursevi/algoritmi.jpg
 - [Zapis složenosti (asimptotska notacija)](/asimptotska-notacija)
 - [Cena računskih operacija](/cena-racunskih-operacija)
 
+### Algoritmi računanja
+
+- [Euklidov algoritam](/euklidov-algoritam) (najveći zajednički delilac)
+- [Eratostenovo sito](/eratostenovo-sito) (niz prostih brojeva)
+- [Rusko seljačko množenje](/rusko-mnozenje)
+- [Naivno množenje](/naivno-mnozenje)
+- [Algoritam za određivanje prostog broja](/jel-prost-broj)
+
 ### Algoritmi pretrage
 
 - [Algoritmi pretrage](/algoritmi-pretrazivanja)
-  - [Linearna pretraga](/linearna-pretraga) (redom)
-  - [Binarna pretraga](/binarna-pretraga) (podelom)
+- [Linearna pretraga](/linearna-pretraga) (redom)
+- [Binarna pretraga](/binarna-pretraga) (podelom)
 - [Vežba: pogađanje zamišljenog broja](/pogadjanje-zamisljenog-broja)
 - Vežba: nalaženje osobe u telefonskom imeniku
 - Vežba: nalaženje dva najmanja broja u nizu
@@ -39,13 +40,13 @@ image: /images/kursevi/algoritmi.jpg
 ### Algoritmi sortiranja
 
 - [Algoritmi sortiranja](/algoritmi-sortiranja)
-  - [Ređanje mehurićima](/redjanje-mehurom) (_bubble sort_)
-  - [Ređanje izborom](/redjanje-izborom) (_selection sort_)
-  - [Ređanje umetanjem](/redjanje-umetanjem) (_insertion sort_)
-  - [Šelovo ređanje](/shelovo-redjanje) (*Shell sort*)
-  - [Ređanje spajanjem](/redjanje-spajanjem) (_merge sort_)
-  - [Brzo ređanje](/brzo-redjanje) (_quicksort_)
-  - [Ređanje hrpom](/redjanje-hrpom) (*heapsort*)
+- [Ređanje mehurićima](/redjanje-mehurom) (_bubble sort_)
+- [Ređanje izborom](/redjanje-izborom) (_selection sort_)
+- [Ređanje umetanjem](/redjanje-umetanjem) (_insertion sort_)
+- [Šelovo ređanje](/shelovo-redjanje) (*Shell sort*)
+- [Ređanje spajanjem](/redjanje-spajanjem) (_merge sort_)
+- [Brzo ređanje](/brzo-redjanje) (_quicksort_)
+- [Ređanje hrpom](/redjanje-hrpom) (*heapsort*)
 
 ### Rekurzivni algoritmi
 

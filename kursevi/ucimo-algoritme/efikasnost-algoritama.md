@@ -19,13 +19,21 @@ Glavni resursi koje algoritam zahteva su procesorsko **vreme i prostor** u memor
 ## Konstantna složenost: 1
 > ***vreme uvek isto, nezavisno od unosa***
 
-Algoritmi konstantne složenosti izvode uvek isti broj operacija, bez obzira na veličinu unosa. Dobar primer je uzimanje prvog, poslednjeg ili nasumičnog člana niza. Dužina niza ne utiče na složenost, jer svakom članu pristupamo jednako brzo.
+Algoritmi konstantne složenosti izvode uvek isti broj operacija, bez obzira na veličinu unosa. Dobar primer je uzimanje prvog, poslednjeg ili nasumičnog člana niza. 
 
-Ovako izgleda funkcija koja prima niz, a vraća nasumični član:
+Uzimanje prvog člana niza: 
 
 ```js
-niz => niz[Math.floor(Math.random() * niz.length)]
+niz[0]
 ```
+
+Uzimanje nasumičnog člana niza:
+
+```js
+niz[Math.floor(Math.random() * niz.length)]
+```
+
+Dužina niza ne utiče na složenost, jer svakom članu pristupamo jednako brzo.
 
 ## Logaritamska (podlinearna) složenost: log n
 > ***vreme raste sporije od unosa***
@@ -45,13 +53,14 @@ U klasu podlinearnih algoritama spadaju i algoritmi korenske složenosti, koji s
 
 Algoritam ima linearnu složenost kada nad svakim članom ulaza obavlja isti broj operacija (može i samo jednu). Na primer klasična iteracija niza:
 
+{:.ulaz}
 ```js
 for (let i = 0; i < 100; i++) {  
     console.log(i)
 }
 ```
 
-Količina rada po elementu je konstantna i ne zavisi od veličine unosa. Vreme izvršenja srazmerno je količini unosa.
+Vreme izvršenja srazmerno je količini unosa. Količina rada po elementu je konstantna i ne zavisi od veličine unosa. 
 
 Primer iz stvarnog sveta bilo bi čitanje knjige :)
 
@@ -74,12 +83,13 @@ for(i = 0; i < brojUnosa; i++){
 
 Jedna od praktičnih primena je kombinacija svakog elementa sa svakim:
 
+{:.ulaz}
 ```js
 const osobe = ["Ana", "Milovan", "Azra", "Senad", "Petra", "Petar"]
 
 for(let i = 0; i < osobe.length; i++){
   for(let j = i+1; j < osobe.length; j++){
-    console.log(osobe[i], osobe[j])
+    console.log(osobe[i] + ' i ' + osobe[j])
   }
 }
 ```

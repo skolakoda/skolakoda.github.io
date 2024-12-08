@@ -17,7 +17,7 @@ Zanimljivi primeri Fibonačijevog niza nalaze se svuda u prirodi, možemo ga uo�
 
 ## Rekurzivna definicija
 
-U matematičkom smislu, rekurzija predstavlja definisanje problema uz pomoć samog tog problema. U matematici postoje mnogi primeri rekurzije, a najpoznatiji su Fibonačijevi brojevi koji se definišu na sledeći način:
+Rekurzija predstavlja definisanje problema uz pomoć samog tog problema. U matematici postoje mnogi primeri rekurzije, a najpoznatiji su Fibonačijevi brojevi koji se definišu na sledeći način:
 
 `F(n) = F(n-1) + F(n-2)`
 
@@ -25,10 +25,12 @@ Ovaj izraz znači da se `n`-ti Fibonačijev broj izračunava kao zbir `n-1`-og i
 
 Dakle, Fibonačijev niz (0,1,1,2,3,5,8,13,...) može se definisati u vidu rekurzivne funkcije `F`:
 
-- F (0) = 0 i F (1) = 1 (bazni slučaj)
-- F (n) = F (n - 1) + F (n - 2) (rekurzivni korak)
+```
+F (0) = 0 i F (1) = 1 (bazni slučaj)
+F (n) = F (n - 1) + F (n - 2) (rekurzivni korak)
+```
 
-## Implementacija
+## Rekurzivna implementacija
 
 Funkcija za izračunavanje n-tog elementa Fibonačijevog niza može se rekurzivno implementirati na sledeći način:
 
@@ -41,6 +43,8 @@ function fib(n) {
 
 console.log(fib(15))
 ```
+
+## Iterativna implementacija
 
 Funkcija za traženje n-og fibonačijevog broja može biti i iterativno implementirana, pomoću petlje:
 
@@ -57,11 +61,11 @@ function fib(n) {
 console.log(fib(15))
 ```
 
-U funkcionalnim programskim jezicima eliminacija repne rekurzije je redovno zagarantovana standardom jezika, što omogućuje korišćenje rekurzije umesto petlji.
-
 ## Opasnost rekurzije
 
-Iako je rekurzivna definicija, bez sumnje, elegantnija, u jezicima koji nemaju eliminaciju repne rekurzije (*tail-call* optimizaciju) je nesrazmerno neefikasnija.
+U funkcionalnim programskim jezicima eliminacija repne rekurzije je zagarantovana standardom jezika, što omogućuje korišćenje rekurzije umesto petlji.
+
+Iako je rekurzivna definicija elegantnija, u jezicima koji nemaju eliminaciju repne rekurzije (*tail-call* optimizaciju) je nesrazmerno neefikasnija.
 
 Sledi poređenje broja koraka za nalaženje 40-og fibonačijevog broja iterativno i rekurzivno u Javascriptu:
 
