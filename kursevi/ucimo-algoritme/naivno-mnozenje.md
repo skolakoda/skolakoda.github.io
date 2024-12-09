@@ -19,6 +19,7 @@ def pomnozi(x, y):
     return zbir
 
 ```
+
 ## Implementacija u JS-u
 
 {:.ulaz}
@@ -33,4 +34,16 @@ function pomnozi(x, y) {
 }
 
 console.log(pomnozi(6, 8))
+```
+
+## Rekurzivna implementacija
+
+{:.ulaz}
+```js
+function pomnozi(x, y) {
+  if (x === 0) return 0
+  return y + pomnozi(x - 1, y)
+}
+
+console.log(pomnozi(8, 5))
 ```

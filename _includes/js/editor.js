@@ -97,21 +97,23 @@ Editor izvršava kod na dva načina
 
     const editIcon = document.createElement('a')
     const params = `jezik=${jezik}&code=${encodeURIComponent(codeElement.innerText)}`
+    
+    if (jezik == 'js') {
+      editIcon.href = `https://skolakoda.github.io/editor/?${params}`
+      editIcon.target = '_blank'
+      editIcon.innerText = '✎'
+      editIcon.title = 'Otvori u editoru'
+      editIcon.classList.add('edit-icon')
+      ulaz.appendChild(editIcon)
 
-    editIcon.href = `https://skolakoda.github.io/editor/?${params}`
-    editIcon.target = '_blank'
-    editIcon.innerText = '✎'
-    editIcon.title = 'Otvori u editoru'
-    editIcon.classList.add('edit-icon')
-    ulaz.appendChild(editIcon)
+      const izlaz = document.createElement('pre')
+      izlaz.classList.add('izlaz')
+      ulaz.parentNode.insertBefore(izlaz, ulaz.nextSibling)  // append after
 
-    const izlaz = document.createElement('pre')
-    izlaz.classList.add('izlaz')
-    ulaz.parentNode.insertBefore(izlaz, ulaz.nextSibling)  // append after
-
-    const dugme = document.createElement('button')
-    dugme.innerText = 'Izvrši ⚙'
-    dugme.onclick = () => izvrsi(codeElement.innerText, jezik, izlaz)
-    ulaz.appendChild(dugme)
+      const dugme = document.createElement('button')
+      dugme.innerText = 'Izvrši ⚙'
+      dugme.onclick = () => izvrsi(codeElement.innerText, jezik, izlaz)
+      ulaz.appendChild(dugme)
+    }
   }
 }

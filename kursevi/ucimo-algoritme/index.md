@@ -50,14 +50,14 @@ image: /images/kursevi/algoritmi.jpg
 ### Rekurzivni algoritmi
 
 - [Šta je rekurzija?](/rekurzija)
-- [Metod rekurzije](/metod-rekurzije)
+- [Rekurzivna funkcija](/metod-rekurzije)
   - [Faktorijel funkcija](/faktorijel)
-  - [Fibonacijev niz](/fibonacijev-niz)
+  - [Fibonačijev niz](/fibonacijev-niz)
   - [Kule Hanoja](/kule-hanoja)
 - [Rekurzivna grafika](/rekurzivna-grafika)
 - [Uzajamna rekurzija](/uzajamna-rekurzija)
 - [Loše strane rekurzije](/lose-strane-rekurzije)
-- Vežba: [palindrom funkcija](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/p/challenge-is-a-string-a-palindrome) (jel reč ista odnapred i odpozadi)
+- Vežba: palindrom funkcija (jel reč ista odnapred i odpozadi)
 - Vežba: crtanje pomoću rekurzije
 
 ### Traženje puta i grafovski algoritmi
