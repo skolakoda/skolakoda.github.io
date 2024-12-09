@@ -1,5 +1,5 @@
 ---
-title: Uvod u teoriju grafova
+title: Uvod u grafove
 layout: lekcija-algoritmi
 permalink: /teorija-grafova
 ---
@@ -35,6 +35,24 @@ Graf u kojem postoji bar jedan put od svakog čvora do bilo kojeg drugog čvora 
 
 **Potpun graf** je najgušći jednostavan graf (sa najvećim mogućim brojem grana), tj. koji ima granu između svaka dva čvora. Ako želimo da izračunamo broj grana nekog potpunog grafa koristimo formulu `E = V * (V – 1) / 2`, gdje je `E` traženi broj grana, a `V` broj čvorova u tom grafu. 
 
+Algoritam koji kreira kompletan graf, odnosno sve moguće veze za data čvorove:
+
+{:.ulaz}
+```js
+const povezi = cvorovi => {
+  const grane = []
+  for (let i = 0; i < cvorovi.length; i++)
+    for (let j = 0; j < cvorovi.length; j++)
+      if (j > i)
+        grane.push([cvorovi[i], cvorovi[j]])
+
+  return grane;
+}
+
+const cvorovi = ['A', 'B', 'C']
+console.log(povezi(cvorovi))
+```
+
 ### Stablo
 
 ![Stablo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tree_graph.svg/200px-Tree_graph.svg.png)
@@ -49,32 +67,6 @@ Svaki povezani graf sastoji se obavezno iz samo jedne povezane komponente, dok s
 
 Karakteristika povezanih grafova je da iz svakog čvora postoji barem jedan put do bilo kojeg drugog čvora, dok je kod nepovezanih grafova iz nekih čvorova nemoguće stići do nekih drugih. 
 
-## Kretanje kroz graf
-
-Kroz graf se možemo kretati preko grana. Skup nekih grana preko kojih smo se kretali naziva se **staza**. U nekim slučajevima možemo ponavljati čvorove koristeći **petlje**. 
-
-Staza koja ne ponavlja čvorove naziva se **put**. 
-
-Staza koja počinje i završava se u istom čvoru naziva se **ciklus**.
-
-**Susjedni čvorovi** su oni čvorovi koji su povezani granom, tj. moguće je iz jednog u drugi doći putem koji se sastoji samo od jedne grane (za takav put kažemo da ima dužinu 1).
-
-## Usmjereni grafovi
-
-![Usmjereni graf](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Directed_graph_no_background.svg/300px-Directed_graph_no_background.svg.png)
-
-Do sada smo govorili samo o neusmjerenim grafovima. Pored njih, postoje i usmjereni. Kod **usmjerenih grafova** svaka grana je usmjerena (jednosmerna), što znači da ako vodi od čvora A do čvora B, ne vodi iz čvora B u čvor A. Kod usmjerenih grafova nije isto kada napišemo da imamo granu AB ili granu BA. Pomoću grane AB krećemo se samo od A do B, a pomoću grane BA krećemo se od B do A.
-
-## Težinski grafovi
-
-![Težinski graf](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CPT-Graphs-directed-weighted-ex1.svg/268px-CPT-Graphs-directed-weighted-ex1.svg.png)
-
-Svi do sad pomenuti grafovi bili su bestežinski. Pored njih, postoje i **težinski grafovi**, gde svaka grana ima određenu težinu.
-
-Na slici, vidimo da pored svake grane grafa imamo određenu vrijednost, što znači da je težina te grane jednaka broju koji je napisan pored nje. Ako bi graf sa slike predstavljao gradove u nekoj državi, onda bismo mogli reći da težine grana predstavljaju vrijeme potrebno za kretanje između tih gradova.
-
-Česti problemi sa težinskim grafovima odnose se na pronalazak najkraćeg puta od nekog čvora do nekog drugog čvora.
-
-### Izvori
+## Izvori
 
 - [Uvod u teoriju grafova](http://boljiprogramer.com/napredno-programiranje/algoritmi-sa-grafovima/uvod-u-teoriju-grafova/)

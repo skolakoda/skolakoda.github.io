@@ -64,8 +64,9 @@ image: /images/kursevi/algoritmi.jpg
 
 ### Traženje puta i grafovski algoritmi
 
-- [Uvod u teoriju grafova](/teorija-grafova)
-  - [Sedam mostova Kenigsberga](/problem-sedam-mostova)
+- [Sedam mostova Kenigsberga](/problem-sedam-mostova)
+- [Uvod u grafove](/teorija-grafova)
+- [Kretanje kroz graf](/kretanje-kroz-graf)
   - [Matrica povezanosti](/matrica-povezanosti)
   - [Lista povezanosti](/lista-povezanosti)
 - [Pretraga u dubinu](/pretraga-u-dubinu)
