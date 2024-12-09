@@ -1,39 +1,36 @@
 ---
-title: Vežbe sa matricama
-layout: lekcija-strukture
+title: Algoritmi sa matricama
+layout: lekcija-algoritmi
 permalink: /vezbe-sa-matricama
 ---
 
-Zadaci sa matricama. Rešenja su data u raznim programskim jezicima.
+Uobičajeni algoritmi u radu sa matricama.
 
 ### Zbir glavne dijagonale
 
-Trag matrice je zbir elemenata na glavnoj dijagonali. Data je kvadratna matrica dimenzija n × n. Izračunaj njen trag.
+Data je kvadratna matrica dimenzija n × n. Izračunaj zbir elemenata na glavnoj dijagonali (tzv. trag matrice).
 
-{:.ulaz.resenje}
-```c
-#include <stdio.h>
+{:.ulaz}
+```js
+const matrica = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
 
-int matrica[3][3] = {
-    {1, 2, 3},
-    {4, 5, 6},
-    {7, 8, 9}
-};
-
-main() {
-  int i, sum = 0;
-  for (i = 0; i < 3; i++) {
-      sum += matrica[i][i];
-  }
-  printf ("Zbir elemenata na glavnoj dijagonali je %d\n", sum);
+let sum = 0
+for (let i = 0; i < 3; i++) {
+  sum += matrica[i][i]
 }
+
+console.log(`Zbir elemenata na glavnoj dijagonali je ${sum}`)
 ```
 
 ### Najveći član glavne dijagonale
 
 Pronađi indeks najvećeg elementa na glavnoj dijagonali kvadratne matrice dimenzija n × n.
 
-{:.ulaz.resenje}
+{:.ulaz}
 ```js
 const matrica = [
   [1, 3, 6, 14],
@@ -48,7 +45,7 @@ for(let i = 0; i < matrica.length; i++) {
     maxI = i
 }
 
-console.log('Najveci clan na glavnog dijagonali je broj ' + matrica[maxI][maxI] + ' na indeksu ' + maxI)
+console.log('Najveci broj je ' + matrica[maxI][maxI] + ' na indeksu ' + maxI)
 ```
 
 ### Aritmetička sredina sporedne dijagonale
@@ -57,7 +54,7 @@ console.log('Najveci clan na glavnog dijagonali je broj ' + matrica[maxI][maxI] 
 
 Izračunaj aritmetičku sredinu elemenata na sporednoj dijagonali date kvadratne matrice.
 
-{:.ulaz.resenje}
+{:.ulaz}
 ```js
 const matrica = [
   [1, 2, 12, 4],
@@ -78,9 +75,9 @@ console.log('Aritmetička sredina sporedne dijagonale je ' + suma / n)
 
 ![](/images/koncepti/matrice/matrica-iznad-dijagonale.png)
 
-Za datu numeričku kvadratnu matricu, izračunaj zbir svih članova iznad glavne dijagonale, uključujući i one na njoj.
+Za datu kvadratnu matricu, izračunaj zbir svih članova iznad glavne dijagonale, uključujući i one na njoj.
 
-{:.ulaz.resenje}
+{:.ulaz}
 ```js
 const matrica = [
   [1, 2, 12, 4],

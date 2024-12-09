@@ -1,5 +1,5 @@
 ---
-title: Algoritmi i strukture podataka
+title: Učimo algoritme
 layout: kurs
 github: ucimo-algoritme
 permalink: /ucimo-algoritme
@@ -75,6 +75,11 @@ image: /images/kursevi/algoritmi.jpg
 - [Sudar i skretanje](/sudar-i-skretanje)
 - [Dajkstrin algoritam](/dajkstrin-algoritam)
 - [A* algoritam](/a-star-algoritam)
+
+### Algoritmi sa strukturama podataka
+
+- [Algoritmi sa matricama](/vezbe-sa-matricama)
+- [Algoritam za proveru uparenih zagrada](/vezba-uparene-zagrade) (stek)
 
 ### Ostali algoritmi
 

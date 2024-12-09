@@ -26,6 +26,7 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
   - [Višedimenzionalni nizovi](/visedimenzionalni-nizovi)
 - [Lista (povezana lista)](/povezana-lista)
 - [Stog](/stog) (*stack*)
+  - [Vežba sa kartama](/vezba-sa-kartama-stek)
 - [Red](/red) (*queue*)
 
 ### Asocijativne strukture
@@ -49,9 +50,3 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 ### Grafovi 
 
 - [Graf](/graf)
-
-### Primena u algoritmima
-
-- [Vežbe sa matricama](/vezbe-sa-matricama)
-- [Vežba sa kartama](/vezba-sa-kartama-stek) (stek)
-- [Vežba: uparene zagrade](/vezba-uparene-zagrade) (stek)
