@@ -62,7 +62,6 @@ Preduslov za ovaj kurs je poznavanje [struktura podataka](/strukture-podataka).
   - [Poravnanje niza](/poravnanje-niza)
 - [Uzajamna rekurzija](/uzajamna-rekurzija)
 - [Loše strane rekurzije](/lose-strane-rekurzije)
-- Vežba: palindrom funkcija (jel reč ista odnapred i odpozadi)
 
 ### Traženje puta i grafovski algoritmi
 
@@ -84,3 +83,4 @@ Preduslov za ovaj kurs je poznavanje [struktura podataka](/strukture-podataka).
 - PageRank algoritam
 - [Problem stabilnih parova](/problem-stabilnih-parova)
 - [Algoritam uparivanja čarapa](/algoritam-carapa)
+- [Igra života](/igra-zivota)

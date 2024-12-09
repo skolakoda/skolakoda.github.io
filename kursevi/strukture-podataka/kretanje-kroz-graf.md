@@ -22,7 +22,7 @@ Do sada smo govorili samo o neusmjerenim grafovima. Pored njih, postoje i usmjer
 
 ![Težinski graf](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CPT-Graphs-directed-weighted-ex1.svg/268px-CPT-Graphs-directed-weighted-ex1.svg.png)
 
-Svi do sad pomenuti grafovi bili su bestežinski. Pored njih, postoje i **težinski grafovi**, gde svaka grana ima određenu težinu.
+Do sad pomenuti grafovi bili su bestežinski. Pored njih, postoje i **težinski grafovi**, gde svaka grana ima određenu težinu.
 
 Na slici, vidimo da pored svake grane grafa imamo određenu vrijednost, što znači da je težina te grane jednaka broju koji je napisan pored nje. Ako bi graf sa slike predstavljao gradove u nekoj državi, onda bismo mogli reći da težine grana predstavljaju vrijeme potrebno za kretanje između tih gradova.
 
