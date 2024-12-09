@@ -90,6 +90,8 @@ function pomnozi(x, y) {
 console.log(pomnozi(12, 14))
 ```
 
+## Rekurzivna implementacija
+
 Moguće je algoritam implementirati i rekurzivno:
 
 {:.ulaz}

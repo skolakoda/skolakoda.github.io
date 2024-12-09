@@ -54,6 +54,7 @@ image: /images/kursevi/algoritmi.jpg
   - [Faktorijel funkcija](/faktorijel)
   - [Fibonačijev niz](/fibonacijev-niz)
   - [Kule Hanoja](/kule-hanoja)
+  - [Računanje rekurzijom](/racunanje-rekurzijom)
 - [Uzajamna rekurzija](/uzajamna-rekurzija)
 - [Loše strane rekurzije](/lose-strane-rekurzije)
 - Vežba: palindrom funkcija (jel reč ista odnapred i odpozadi)
