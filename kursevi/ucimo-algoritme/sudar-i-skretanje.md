@@ -6,7 +6,7 @@ permalink: /sudar-i-skretanje
 
 ![crash-and-turn](/images/koncepti/algoritmi/crash-and-turn.gif)
 
-**Sudar i skretanje (*crash and turn*) algoritam je jednostavna heuristička metoda za rešavanje lavirinta ili navigaciju kroz neznane prostore.**
+**Sudar i skretanje (*crash and turn*) je jednostavna heuristička metoda za rešavanje lavirinta ili navigaciju kroz neznane prostore.**
 
 Algoritam podseća na ono što bi neka životinja pokušala da uradi. Kreće iz tačke A i pokušava da stigne do tačke B. Pokuša da se kreće pravolinijski dokle može. Kada naiđe na prepreku, bira jednu stranu i pokušava da je zaobiđe, dok ponovo ne može se vrati pravolinijskom kretanju.
 

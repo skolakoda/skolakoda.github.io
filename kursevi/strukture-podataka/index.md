@@ -50,3 +50,8 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 ### Grafovi 
 
 - [Graf](/graf)
+- [Uvod u grafove](/teorija-grafova)
+- [Kretanje kroz graf](/kretanje-kroz-graf)
+  - [Matrica povezanosti](/matrica-povezanosti)
+  - [Lista povezanosti](/lista-povezanosti)
+- [Sedam mostova Kenigsberga](/problem-sedam-mostova)

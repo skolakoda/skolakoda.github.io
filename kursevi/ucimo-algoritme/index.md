@@ -8,6 +8,8 @@ image: /images/kursevi/algoritmi.jpg
 
 **Nauči najefikasnije moguće procedure da se obavi neka radnja. Nauči da meriš složenost algoritama. Nauči algoritme sortiranja i pretrage, koji su presudni kod velikih podataka.**
 
+Preduslov za ovaj kurs je poznavanje [struktura podataka](/strukture-podataka).
+
 ### Uvod
 
 - [Šta je algoritam?](/algoritmi-uvod)
@@ -64,11 +66,6 @@ image: /images/kursevi/algoritmi.jpg
 
 ### Traženje puta i grafovski algoritmi
 
-- [Sedam mostova Kenigsberga](/problem-sedam-mostova)
-- [Uvod u grafove](/teorija-grafova)
-- [Kretanje kroz graf](/kretanje-kroz-graf)
-  - [Matrica povezanosti](/matrica-povezanosti)
-  - [Lista povezanosti](/lista-povezanosti)
 - [Pretraga u dubinu](/pretraga-u-dubinu)
   - [Primer: problem osam dama](/problem-osam-dama)
 - [Pretraga u širinu](/pretraga-u-sirinu)
