@@ -34,3 +34,17 @@ function saberiDo(n) {
 
 console.log(saberiDo(10))
 ```
+
+## Primer: sabiranje cifara broja
+
+Funkcija sabira cifre rekurzivno. Kada je `x` 0, vraća 0. Inače, uzima poslednju cifru (`x % 10`) i poziva samu sebe sa brojem bez poslednje cifre (`Math.floor(x / 10)`), sabirajući te cifre dok ne dođe do 0.
+
+{:.ulaz}
+```js
+function saberiCifre(x) {
+  if (x == 0) return 0
+  return x % 10 + saberiCifre(Math.floor(x / 10))
+}
+
+console.log(saberiCifre (11231))
+```

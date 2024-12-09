@@ -35,6 +35,8 @@ image: /images/kursevi/algoritmi.jpg
 - [Binarna pretraga](/binarna-pretraga) (podelom)
   - [Vežba: pogađanje zamišljenog broja](/pogadjanje-zamisljenog-broja)
 - [Nalaženje krajnjih vrednosti niza](/nalazenje-krajnjih-vrednosti-u-nizu)
+- [Najduža uzastopna sekvenca](/najduza-uzastopna-sekvenca)
+- [Jedini broj bez para](/jedini-bez-para)
 
 ### Algoritmi sortiranja
 
