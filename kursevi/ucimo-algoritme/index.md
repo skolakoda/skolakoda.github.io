@@ -28,7 +28,8 @@ Preduslov za ovaj kurs je poznavanje [struktura podataka](/strukture-podataka).
 - [Eratostenovo sito](/eratostenovo-sito) (niz prostih brojeva)
 - [Rusko seljačko množenje](/rusko-mnozenje)
 - [Naivno množenje](/naivno-mnozenje)
-- [Algoritam za određivanje prostog broja](/jel-prost-broj)
+- [Određivanje prostog broja](/jel-prost-broj)
+- [Srednja vrednost uglova](/srednja-vrednost-uglova)
 
 ### Algoritmi pretrage
 
@@ -76,11 +77,11 @@ Preduslov za ovaj kurs je poznavanje [struktura podataka](/strukture-podataka).
 
 - [Algoritmi sa matricama](/vezbe-sa-matricama)
 - [Rotiranje matrice](/rotiranje-matrice)
-- [Algoritam za proveru uparenih zagrada](/vezba-uparene-zagrade) (stek)
+- [Algoritam za proveru uparenih zagrada](/vezba-uparene-zagrade) (stog)
+- [Algoritam za vraćanje kusura](/vracanje-kusura) (rečnik)
 
 ### Ostali algoritmi
 
-- PageRank algoritam
+- [Igra života](/igra-zivota)
 - [Problem stabilnih parova](/problem-stabilnih-parova)
 - [Algoritam uparivanja čarapa](/algoritam-carapa)
-- [Igra života](/igra-zivota)
