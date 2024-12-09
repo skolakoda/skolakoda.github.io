@@ -7,25 +7,32 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Gabriel_graph.s
 
 ![]({{page.image}})
 
-**Struktura grafa također je nelinearna struktura podataka.**
+**Graf je nelinearna struktura podataka, koju čine čvorovi i veze između njih. Može predstavljati različite odnose između objekata, kao što su računarske mreže, društvene mreže, putevi na mapi i slično.**
 
-Graf `G` sadrži dva konačna skupa: skup točaka `V`, koje nazivamo **čvorovima** ili vrhovima (*nodes* ili *vertices*), i skup linija povezivanja `E`, koje nazivamo **granama** ili bridovima (*edges*). Pri tome svaki brid povezuje dva čvora.
+Graf `G` sadrži dva konačna skupa: skup točaka `V`, koje nazivamo **čvorovima** (*nodes*) ili vrhovima (*vertices*), i skup linija povezivanja `E`, koje nazivamo **granama** ili ivicama (*edges*). Pri tome svaka ivica povezuje dva čvora.
 
 ```
 G = (V, E)
 ```
 
-## Vrste grafova
+<!-- ![](/images/koncepti/podaci/graf.webp) -->
 
-**Usmjereni graf** `G = (V, E)` je graf u kojem svaki brid `e = (i,j)` ima smjer od "inicijalne točke" (čvora) do "terminalne točke" (čvora). Pod uvjetom da su suprotnih smjerova, u usmjerenom grafu mogu postojati dva brida koja povezuju iste čvorove.
+Grafovi nam služe da neki pojam iz stvarnog svijeta pojednostavimo i svedemo na ono što je bitno za određeni problem. U većini slučajeva, najbitnije nam je predstaviti objekte i odnose između njih.
 
-Graf `G` je **povezan** ako i samo ako postoji jednostavna putanja između bilo koja dva čvora u `G`.
+Proučavanjem grafova bavi se teorija grafova. **Za računalni prikaz grafova najpogodnije je koristiti matrice.**
 
-Ako svakom bridu grafa pripada neki podatak, takav graf se naziva **označenim**. Ako su bridovima grafa pridružene pozitivne numeričke vrijednosti, onda se takav graf naziva **težinski** ili graf sa težinskim faktorima.
+## Elementi grafa
 
-![](https://upload.wikimedia.org/wikipedia/commons/a/a9/UCS_graph.jpg)
+Graf je definisan skupom čvorova **V** (*vertex*) i skupom ivica **E** (*edges*). Na primer, određeni graf možemo zapisati pomoću sljedeća dva skupa:
 
-**Za računalni prikaz grafova najpogodnije je koristiti matrice.**
+```
+Skup čvorova: V = { A, B, C, D, E, F, G }
+Skup ivica: E = { AB, BC, CD, DE, EA, BE, AD, EF, EG, FG, FF }
+```
 
+Na kraju skupa vidimo ivicu FF, koja i počinje i završava se u čvoru F. Ivica koja počinje i završava se u istom čvoru naziva se **petlja**.
 
-Izvor: N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
+## Izvori
+
+- N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
+- [Uvod u teoriju grafova](http://boljiprogramer.com/napredno-programiranje/algoritmi-sa-grafovima/uvod-u-teoriju-grafova/)
