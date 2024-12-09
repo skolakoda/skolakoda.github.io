@@ -1,6 +1,6 @@
 ---
 title: Operacije nad matricama
-layout: lekcija-razvoj-igara
+layout: lekcija-strukture
 permalink: /operacije-nad-matricama
 ---
 

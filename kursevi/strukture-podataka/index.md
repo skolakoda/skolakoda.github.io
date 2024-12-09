@@ -27,8 +27,12 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 - [Stog](/stog) (*stack*)
   - [Vežba sa kartama](/vezba-sa-kartama-stek)
 - [Red](/red) (*queue*)
+
+### Tabelarne strukture
+
 - [Matrica](/matrice)
   - [Kvadratna matrica](/kvadratna-matrica)
+  - [Operacije nad matricama](/operacije-nad-matricama)
 
 ### Asocijativne strukture
 
