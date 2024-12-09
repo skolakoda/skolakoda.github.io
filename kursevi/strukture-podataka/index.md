@@ -21,13 +21,14 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 
 ### Linearne strukture
 
-- [Niz](/nizovi) (*array*)
-  - [Dvodimenzionalni nizovi (matrice)](/matrice)
-  - [Višedimenzionalni nizovi](/visedimenzionalni-nizovi)
 - [Lista (povezana lista)](/povezana-lista)
+- [Niz](/nizovi) (*array*)
+  - [Višedimenzionalni niz](/visedimenzionalni-nizovi)
 - [Stog](/stog) (*stack*)
   - [Vežba sa kartama](/vezba-sa-kartama-stek)
 - [Red](/red) (*queue*)
+- [Matrica](/matrice)
+  - [Kvadratna matrica](/kvadratna-matrica)
 
 ### Asocijativne strukture
 
