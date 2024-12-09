@@ -61,7 +61,6 @@ image: /images/kursevi/algoritmi.jpg
 - [Uzajamna rekurzija](/uzajamna-rekurzija)
 - [Loše strane rekurzije](/lose-strane-rekurzije)
 - Vežba: palindrom funkcija (jel reč ista odnapred i odpozadi)
-- Vežba: crtanje pomoću rekurzije
 
 ### Traženje puta i grafovski algoritmi
 
