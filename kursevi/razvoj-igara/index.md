@@ -111,5 +111,6 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 ### Bonus: rekurzivna grafika
 
+- [Rekurzivna grafika](/rekurzivna-grafika)
 - [Rekurzivni krugovi](/rekurzivni-krugovi)
 - [Rekurzivno drvo](/rekurzivno-drvo)

@@ -6,9 +6,11 @@ permalink: /rekurzivno-drvo
 
 ![](/images/razvoj-igara/drvo.png)
 
-**Crtamo fraktalno drvo gde se svaka grana deli na dve manje pod određenim uglovima, ponavljajući proces dok ne postigne zadatu dubinu.**
+**Jedan od prostijih primera rekurzivne grafike je binarno stablo. Sastoji se od osnovnog obrasca, stabla, koji iz sebe reprodukuje dva umanjena.**
 
-## Primer u JS-u
+## Prost primer
+
+Crtamo osnovnu granu koja se deli na dve manje pod određenim uglovima, ponavljajući proces dok ne postigne zadatu dubinu.
 
 {:.ulaz}
 ```js
@@ -30,3 +32,9 @@ function drawTree(x, y, angle, depth, lw) {
 
 drawTree(300, 500, -90, 9, 20)
 ```
+
+## Primer sa bojama
+
+<iframe width="100%" height="600" src="//jsfiddle.net/mudroljub/x1bzmq7s/embedded/js,result/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<iframe width="100%" height="600" src="//jsfiddle.net/mudroljub/x1bzmq7s/embedded/result,js/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
