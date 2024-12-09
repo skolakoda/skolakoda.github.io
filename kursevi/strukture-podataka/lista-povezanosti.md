@@ -1,6 +1,6 @@
 ---
 title: Lista povezanosti
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /lista-povezanosti
 ---
 

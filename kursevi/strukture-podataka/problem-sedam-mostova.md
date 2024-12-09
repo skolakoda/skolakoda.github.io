@@ -1,6 +1,6 @@
 ---
 title: Sedam mostova Kenigsberga
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /problem-sedam-mostova
 ---
 

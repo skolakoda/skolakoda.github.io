@@ -1,6 +1,6 @@
 ---
 title: Kretanje kroz graf
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /kretanje-kroz-graf
 ---
 

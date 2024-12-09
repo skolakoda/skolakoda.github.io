@@ -1,6 +1,6 @@
 ---
 title: Uvod u grafove
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /teorija-grafova
 ---
 

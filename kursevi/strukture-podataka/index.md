@@ -1,5 +1,5 @@
 ---
-title: Podaci i strukture podataka
+title: Učimo strukture podataka
 layout: kurs
 permalink: /strukture-podataka
 image: /images/koncepti/podaci/strukture-podataka.jpg

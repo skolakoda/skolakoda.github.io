@@ -1,6 +1,6 @@
 ---
 title: Matrica povezanosti
-layout: lekcija-algoritmi
+layout: lekcija-strukture
 permalink: /matrica-povezanosti
 ---
 
