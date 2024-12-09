@@ -78,6 +78,7 @@ image: /images/kursevi/algoritmi.jpg
 ### Algoritmi sa strukturama podataka
 
 - [Algoritmi sa matricama](/vezbe-sa-matricama)
+- [Rotiranje matrice](/rotiranje-matrice)
 - [Algoritam za proveru uparenih zagrada](/vezba-uparene-zagrade) (stek)
 
 ### Ostali algoritmi

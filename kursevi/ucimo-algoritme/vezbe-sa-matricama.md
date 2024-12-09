@@ -6,7 +6,7 @@ permalink: /vezbe-sa-matricama
 
 Uobičajeni algoritmi u radu sa matricama.
 
-### Zbir glavne dijagonale
+## Zbir glavne dijagonale
 
 Data je kvadratna matrica dimenzija n × n. Izračunaj zbir elemenata na glavnoj dijagonali (tzv. trag matrice).
 
@@ -26,7 +26,7 @@ for (let i = 0; i < 3; i++) {
 console.log(`Zbir elemenata na glavnoj dijagonali je ${sum}`)
 ```
 
-### Najveći član glavne dijagonale
+## Najveći član glavne dijagonale
 
 Pronađi indeks najvećeg elementa na glavnoj dijagonali kvadratne matrice dimenzija n × n.
 
@@ -48,7 +48,7 @@ for(let i = 0; i < matrica.length; i++) {
 console.log('Najveci broj je ' + matrica[maxI][maxI] + ' na indeksu ' + maxI)
 ```
 
-### Aritmetička sredina sporedne dijagonale
+## Aritmetička sredina sporedne dijagonale
 
 ![](/images/koncepti/matrice/sporedna-dijagonala.png)
 
@@ -71,7 +71,7 @@ for(let i = 0; i < n; i++)
 console.log('Aritmetička sredina sporedne dijagonale je ' + suma / n)
 ```
 
-### Zbir članova iznad glavne dijagonale
+## Zbir članova iznad glavne dijagonale
 
 ![](/images/koncepti/matrice/matrica-iznad-dijagonale.png)
 
@@ -97,6 +97,6 @@ for (let i=0; i<n; i++) {
 console.log(suma)
 ```
 
-### Literatura
+## Literatura
 
 - M. Škarić, V. Radović, *Uvod u programiranje - Zbirka zadataka iz programskog jezika C*, Beograd, 2009.

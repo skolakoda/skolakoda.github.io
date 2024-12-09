@@ -6,7 +6,7 @@ permalink: /vezba-uparene-zagrade
 
 ![](/images/koncepti/algoritmi/simpleparcheck.png)
 
-**Algoritam za proveru uparenih zagrada je klasičan algoritam koji koristi stog strukturu za praćenje otvorenih i zatvorenih zagrada u nizu karaktera.**
+**Algoritam koji koristi stog (*stack*) strukturu za praćenje otvorenih i zatvorenih zagrada u nizu karaktera.**
 
 ## Opis problema
 
@@ -18,7 +18,7 @@ Pokušaćemo upotrebom steka da rešimo ovaj problem.
 
 Kretaćemo se kroz početni niz od prvog karaktera ka poslednjem. Ako je trenutni karakter otvorena zagrada, na stek dodajemo poziciju zagrade. Ako je trenutni karakter zatvorena zagrada a na steku postoji neki element, možemo upariti otvorenu zagradu koja se nalazi na vrhu steka i trenutnu zatvorenu zagradu. Ako trenutni karakter predstavlja zatvorenu zagradu a stek je prazan, zagrade nisu dobro raspoređene.
 
-## Rešenje u Python-u
+## Implementacija u Python-u
 
 Sledi rešenje u Python-u koje koristi strukturu stoga:
 
@@ -52,7 +52,7 @@ print(jelUpareno('(((a + b))(b + a)(()))'))
 print(jelUpareno('())('))
 ```
 
-## Rešenje u JS-u
+## Implementacija u JS-u
 
 {:.ulaz}
 ```js
