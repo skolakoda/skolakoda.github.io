@@ -22,7 +22,16 @@ for (const broj of brojevi) {
   }
 }
 
-console.log("Najmanji broj:", najmanji)
+console.log(najmanji)
+```
+
+Najmanji broj u nizu možemo naći i pomoću ugrađene funkcije u Javaskriptu:
+
+{:.ulaz}
+```js
+const brojevi = [2, 3, 4, 5, 44, -2, -33, 33, 11, 22, 33, 44, 2, 3, 4]
+
+console.log(Math.min(...brojevi))
 ```
 
 ## Nalaženje najvećeg broja
@@ -39,7 +48,16 @@ for (const broj of brojevi) {
   }
 }
 
-console.log("Najveci broj:", najveci)
+console.log(najveci)
+```
+
+Najveći broj u nizu možemo naći i pomoću ugrađene funkcije u Javaskriptu:
+
+{:.ulaz}
+```js
+const brojevi = [2, 3, 4, 5, 44, -2, -33, 33, 11, 22, 33, 44, 2, 3, 4]
+
+console.log(Math.max(...brojevi))
 ```
 
 ## Nalaženje dva najmanja broja

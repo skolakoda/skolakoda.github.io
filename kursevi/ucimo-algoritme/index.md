@@ -57,6 +57,7 @@ image: /images/kursevi/algoritmi.jpg
   - [Fibonačijev niz](/fibonacijev-niz)
   - [Kule Hanoja](/kule-hanoja)
   - [Računanje rekurzijom](/racunanje-rekurzijom)
+  - [Poravnanje niza](/poravnanje-niza)
 - [Uzajamna rekurzija](/uzajamna-rekurzija)
 - [Loše strane rekurzije](/lose-strane-rekurzije)
 - Vežba: palindrom funkcija (jel reč ista odnapred i odpozadi)
