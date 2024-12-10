@@ -1,12 +1,12 @@
 ---
-title: Matrica povezanosti
+title: Matrica susedstva
 layout: lekcija-strukture
-permalink: /matrica-povezanosti
+permalink: /matrica-susedstva
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3b/AdjacencyMatrix.png)
 
-**Matrica povezanosti ili matrica susjedstva (*adjacency matrix*) je kvadratna matrica dimenzija V x V (V je broj čvorova u grafu), gde u svakom polju piše težina grane koja povezuje ta dva čvora (ako postoji).**
+**Matrica povezanosti ili matrica susedstva (*adjacency matrix*) je kvadratna matrica dimenzija V x V (V je broj čvorova u grafu), gde u svakom polju piše težina grane koja povezuje ta dva čvora (ako postoji).**
 
 **Matrica susjedstva za neusmjerene grafove je simetrična u odnosu na glavnu dijagonalu.** Kod usmjerenih grafova, matrica nije simetrična u odnosu na glavnu dijagonalu.
 

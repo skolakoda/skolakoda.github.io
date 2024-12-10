@@ -57,6 +57,6 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 - [Graf](/graf)
 - [Vrste grafova](/vrste-grafova)
 - [Kretanje kroz graf](/kretanje-kroz-graf)
-  - [Matrica povezanosti](/matrica-povezanosti)
-  - [Lista povezanosti](/lista-povezanosti)
+  - [Matrica susedstva](/matrica-susedstva)
+  - [Lista susedstva](/lista-susedstva)
 - [Sedam mostova Kenigsberga](/problem-sedam-mostova)

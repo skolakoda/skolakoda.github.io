@@ -1,14 +1,14 @@
 ---
-title: Lista povezanosti
+title: Lista susedstva
 layout: lekcija-strukture
-permalink: /lista-povezanosti
+permalink: /lista-susedstva
 ---
 
 ![](/images/koncepti/podaci/lista-susedstva.png)
 
 **Lista povezanosti ili lista susjedstva (*adjacency list*) je matrica u koju za svaki čvor u grafu zapisujemo njegove susjede. Za razliku od matrice susjedstva, lista susjeda može biti i grbava matrica (matrica kod koje veličine svih redova nisu jednake).**
 
-Na slici gore vidimo vidimo listu povezanosti koja odgovara datom grafu. U prvom redu pišemo susjede čvora A, u drugom susjede čvora B itd.
+Na slici gore vidimo vidimo listu susedstva koja odgovara datom grafu. U prvom redu pišemo susjede čvora A, u drugom susjede čvora B itd.
 
 Ukoliko želimo da u listu susjeda zabilježimo i vrijednost grane između dva čvora moramo koristiti vektore. Tako bismo u `LS[i][j].first` pisali neki susjedni čvor čvora i, dok bi u `LS[i][j].second` pisali vrijednost grane između ta dva čvora (LS označava vektor vektora parova u koji ćemo smjestiti našu listu susjeda).
 
