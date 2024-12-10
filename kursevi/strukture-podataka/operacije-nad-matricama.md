@@ -12,7 +12,11 @@ Matrične operacije se često koriste u razvoju igara. Na primer, množenje matr
 
 ![matrix_operations](/images/razvoj-igara/sabiranje.jpg)
 
-Matrice istih dimenzija se mogu sabirati. Sabiranje matrica vrši se tako što sabiramo elemente na istim pozicijama iz obe matrice. U C++ kodu to izgleda ovako:
+Matrice istih dimenzija se mogu sabirati. Sabiranje matrica vrši se tako što sabiramo elemente na istim pozicijama iz obe matrice. Oduzimanje matrica radi na isti način, samo oduzimamo pripadajuće elemente.
+
+### Sabiranje matrica u C++
+
+Ova funkcija sabira dve matrice 3x3:
 
 ```c
 Matrix3X3 addMatrices(Matrix3X3 a, Matrix3X3 b)
@@ -25,8 +29,6 @@ Matrix3X3 addMatrices(Matrix3X3 a, Matrix3X3 b)
   return newMatrix;
 }
 ```
-
-Oduzimanje matrica radi na isti način, samo oduzimamo pripadajuće elemente.
 
 ## Množenje matrica
 
@@ -67,6 +69,24 @@ Rezultat (2x2):
 139 154  
 ```
 
+### Množenje matrica u C++
+
+Ova funkcija množi dve matrice 3x3:
+
+```c
+Matrix3X3 multiply3X3Matrices(Matrix3X3 a, Matrix3X3 b) {
+  Matrix3X3 newMatrix;
+  for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+      for (int k = 0; k < 3; k++) {
+        newMatrix[i][j] += (a[i][k] * b[k][j]);
+      }
+    }
+  }
+  return newMatrix;
+}
+```
+
 ### Množenje matrica u JS-u
 
 Standardni algoritam za množenje matrica, koji ima vremensku složenost `O(n³)`:
@@ -88,7 +108,15 @@ function multiplyMatrices(a, b) {
   return newMatrix
 }
 
-console.log(multiplyMatrices([[1, 2], [3, 2]], [[5, 6], [7, 8]]))
+// upotreba
+const matricaA = [[1, 2, 3], 
+                  [4, 5, 6]]
+
+const matricaB = [[7, 8], 
+                  [9, 10],
+                  [11, 12]]
+
+console.log(multiplyMatrices(matricaA, matricaB))
 ```
 
 Funkcionalna verzija bi izgledala ovako:
@@ -99,7 +127,15 @@ const transpose = a => a[0].map((x, i) => a.map(y => y[i]))
 const dotProduct = (a, b) => a.map((x, i) => a[i] * b[i]).reduce((m, n) => m + n)
 const multiplyMatrices = (a, b) => a.map(x => transpose(b).map(y => dotProduct(x, y)))
 
-console.log(multiplyMatrices([[1, 2], [3, 2]], [[5, 6], [7, 8]]))
+// upotreba
+const matricaA = [[1, 2, 3], 
+                  [4, 5, 6]]
+
+const matricaB = [[7, 8], 
+                  [9, 10],
+                  [11, 12]]
+
+console.log(multiplyMatrices(matricaA, matricaB))
 ```
 
 ## Transponovanje matrica
@@ -107,17 +143,6 @@ console.log(multiplyMatrices([[1, 2], [3, 2]], [[5, 6], [7, 8]]))
 ![matrix-transpose](/images/razvoj-igara/matrix-transpose.gif)
 
 Transponovanje je zamena redova i kolona matrice. To znači da će elementi koji su bili u istom redu biti u istoj koloni, a elementi koji su bili u istoj koloni biti u istom redu. Na primer, ako imamo matricu od 2 reda i 3 kolone, njena transponovana matrica će imati 3 reda i 2 kolone.
-
-{:.ulaz}
-```js
-const transpose = a => a[0].map((x, i) => a.map(y => y[i]))
-
-console.log(transpose([
-  [3, 2], 
-  [5, 6], 
-  [7, 8]
-]))
-```
 
 Transponovana matrica A se označava kao AT.
 
@@ -133,6 +158,19 @@ Matrix4X4 transpose4X4Matrix(Matrix4X4 a) {
   }
   return newMatrix;
 }
+```
+
+### Transponovanje matrica u JS-u
+
+{:.ulaz}
+```js
+const transpose = a => a[0].map((x, i) => a.map(y => y[i]))
+
+console.log(transpose([
+  [3, 2], 
+  [5, 6], 
+  [7, 8]
+]))
 ```
 
 ## Invertovanje

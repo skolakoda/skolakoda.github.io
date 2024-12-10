@@ -6,11 +6,15 @@ permalink: /problem-osam-dama
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/8queensminconflict.gif/400px-8queensminconflict.gif)
 
-**Problem osam dama glasi: potrebno je na šahovsku tablu postaviti osam dama tako da se one međusobno ne napadaju, to jest da se dve dame ne nalaze u istom redu, istoj koloni ili na istoj dijagonali**. 
+**Problem osam dama (ili osam kraljica) je klasični problem u oblasti računarstva i matematike, koji se sastoji u tome da se na šahovskoj tabli postavi osam dama tako da nijedna ne ugrožava drugu, to jest da se dve dame ne nalaze u istom redu, koloni ili dijagonali.**
 
 Početna pozicija je prazna tabla, jedan potez je dodavanje jedne dame na tablu, a završna pozicija je bilo koja pozicija sa osam dama na tabli, tako da se one ne napadaju.
 
-Da bismo pojednostavili pretragu, primetimo da tih osam dama moraju da se nalaze u različitim kolonama table. Zbog toga možemo i-tu damu uvek dodavati u i-tu kolonu. Dodavanje vršimo tako što probamo svako polje kolone redom i proveravamo da li dama sa tog polja napada neku od ranije postavljenih dama. Ako napada, vraćamo se i pokušavamo sledeće polje, a ako ne napada, nastavljamo pretragu prelaskom na sledeću damu i sledeću kolonu. Kada uspemo da načinimo osam koraka u dubinu, tada je na tabli osam dama i došli smo do jednog rešenja koje prikazujemo.
+### Opis koraka
+
+Da bismo pojednostavili pretragu, primetimo da osam dama moraju da se nalaze u različitim kolonama table. Zbog toga možemo i-tu damu uvek dodavati u i-tu kolonu. Dodavanje vršimo tako što probamo svako polje kolone redom i proveravamo da li dama sa tog polja napada neku od ranije postavljenih dama. Ako napada, vraćamo se i pokušavamo sledeće polje, a ako ne napada, nastavljamo pretragu prelaskom na sledeću damu i sledeću kolonu. 
+
+Kada uspemo da načinimo osam koraka u dubinu, tada je na tabli osam dama i došli smo do jednog rešenja koje prikazujemo.
 
 ### Primer u pseudokodu
 
