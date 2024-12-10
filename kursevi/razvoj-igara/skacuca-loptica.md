@@ -27,7 +27,7 @@ U ovom primeru animiramo nekoliko loptica u slobodnom padu:
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
 
-const gravity = 0.2
+const gravity = 0.0981
 const friction = 0.8
 const balls = []
 
@@ -37,15 +37,7 @@ class Ball {
         this.y = y
         this.radius = radius
         this.color = `hsl(${Math.random() * 360}, 70%, 50%)`
-        this.dy = Math.random() * 2 + 2
-    }
-
-    draw() {
-        ctx.beginPath()
-        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2)
-        ctx.fillStyle = this.color
-        ctx.fill()
-        ctx.closePath()
+        this.dy = 0
     }
 
     update() {
@@ -54,7 +46,14 @@ class Ball {
         else
             this.dy += gravity
         this.y += this.dy
-        this.draw()
+    }
+
+    draw() {
+        ctx.beginPath()
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2)
+        ctx.fillStyle = this.color
+        ctx.fill()
+        ctx.closePath()
     }
 }
 
@@ -70,6 +69,7 @@ function createBalls() {
 function animate() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     balls.forEach(ball => ball.update())
+    balls.forEach(ball => ball.draw())
     requestAnimationFrame(animate)
 }
 
