@@ -27,9 +27,10 @@ U ovom primeru animiramo nekoliko loptica u slobodnom padu:
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
 
-const gravity = 0.0981
-const friction = 0.8
+const gravity = 0.981
+const friction = 0.75
 const balls = []
+let lastTime = 0
 
 class Ball {
     constructor(x, y, radius) {
@@ -40,11 +41,11 @@ class Ball {
         this.dy = 0
     }
 
-    update() {
+    update(deltaTime) {
         if (this.y + this.radius + this.dy > canvas.height)
             this.dy = -this.dy * friction
         else
-            this.dy += gravity
+            this.dy += gravity * deltaTime
         this.y += this.dy
     }
 
@@ -61,20 +62,23 @@ function createBalls() {
     for (let i = 0; i < 10; i++) {
         const radius = Math.random() * 10 + 5
         const x = Math.random() * (canvas.width - radius * 2) + radius
-        const y = Math.random() * canvas.height / 2
+        const y = Math.random() * canvas.height / 2 - canvas.height / 2
         balls.push(new Ball(x, y, radius))
     }
 }
 
-function animate() {
+function animate(timestamp) {
+    const deltaTime = timestamp - lastTime
+    lastTime = timestamp
+
     ctx.clearRect(0, 0, canvas.width, canvas.height)
-    balls.forEach(ball => ball.update())
+    balls.forEach(ball => ball.update(deltaTime / 1000))
     balls.forEach(ball => ball.draw())
     requestAnimationFrame(animate)
 }
 
 createBalls()
-animate()
+animate(0)
 ```
 
 Kao i u drugim primerima, možete menjati parametre da vidite razliku.
