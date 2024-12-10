@@ -1,23 +1,33 @@
 ---
-title: Uvod u fiziku igara
+title: Lopta koja odskače
 layout: lekcija-razvoj-igara
-permalink: /uvod-u-fiziku-igara
+permalink: /skacuca-loptica
 ---
 
-**Da bismo imali "ukus" fizike u igrama, ne moramo imati simulaciju fizike, dovoljno je primeniti prostu detekciju sudara.**
+**Zamislimo loptu u slobodnom padu, na koju djeluje samo gravitacija.** Kada je pustimo, početna brzina lopte je nula, ali njezino ubrzanje nije – ono je približno 9.81 m/s², što znači da će brzina lopte rasti. 
 
-Međutim, za razvijen fizički sistem u igri potrebno je mnogo više od toga, uključujući osnovno poznavanje zakona fizike, sila i vektora, čemu ćemo se posvetiti u narednim poglavljima.
+Za svaki frejm koristimo formulu za izračunavanje brzine u tom trenutku:
 
-## Ukus fizike u JS-u
+```
+v(i+1)(t) = v(i) + t * (0, -9.81)
+```
 
-U ovom primeru kreiramo nekoliko loptica, animiramo njihovo kretanje naniže, a kada stignu do tla menjamo im smer.
+gde je:
+- `t` vremenski interval između dva trenutka
+- `i` indeks koji predstavlja trenutni korak
+- `v(i)` brzina u datom trenutku
+- `v(i+1)` brzina u narednom trenutku
+
+## Implementacija u JS-u
+
+U ovom primeru animiramo nekoliko loptica u slobodnom padu:
 
 {:.ulaz}
 ```js
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
 
-const gravity = 0.45
+const gravity = 0.2
 const friction = 0.8
 const balls = []
 
