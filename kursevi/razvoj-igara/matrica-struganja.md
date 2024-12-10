@@ -6,7 +6,9 @@ permalink: /matrica-struganja
 
 ![](/images/razvoj-igara/shearing.png)
 
-**Matrica struganja (*shearing*) služi za promenu oblika predmeta ili prostora tako da se njegova geometrija iskrivi u jednoj ili više osa, bez promene zapremine.**
+**Matrica struganja (*shear*) služi za promenu oblika predmeta ili prostora tako da se njegova geometrija iskrivi u jednoj ili više osa, bez promene zapremine.**
+
+Budući da utječe na kutove predmeta, ne koristi se često.
 
 ## 2D struganje
 

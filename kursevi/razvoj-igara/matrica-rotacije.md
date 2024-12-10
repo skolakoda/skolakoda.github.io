@@ -47,7 +47,7 @@ Množenje ove matrice sa (x, y) daje (-y, x).
 
 ## 3D rotacija
 
-3D rotacija oko x ose:
+Rotacija oko x ose za ugao θ:
 
 ```
 1,      0,       0
@@ -55,7 +55,7 @@ Množenje ove matrice sa (x, y) daje (-y, x).
 0, sin(θ),  cos(θ)
 ```
 
-3D rotacija oko y ose:
+Rotacija oko y ose za ugao θ:
 
 ```
 cos(θ),  0, sin(θ)
@@ -63,7 +63,7 @@ cos(θ),  0, sin(θ)
 -sin(θ), 0, cos(θ)
 ```
 
-3D rotacija oko z ose:
+Rotacija oko z ose za ugao θ:
 
 ```
 cos(θ), -sin(θ), 0
@@ -73,7 +73,7 @@ sin(θ),  cos(θ), 0
 
 ### Homogeni zapis
 
-Matrica za rotaciju oko x-ose:
+Matrica rotacije oko x-ose:
 
 ```
 1    0       0    0  
@@ -82,7 +82,7 @@ Matrica za rotaciju oko x-ose:
 0    0       0    1
 ```
 
-Matrica za rotaciju oko y-ose:
+Matrica rotacije oko y-ose:
 
 ```
 cosθ   0   sinθ   0  
@@ -91,7 +91,7 @@ cosθ   0   sinθ   0
 0      0      0    1
 ```
 
-Matrica za rotaciju oko z-ose:
+Matrica rotacije oko z-ose:
 
 ```
 cosθ  -sinθ   0    0  

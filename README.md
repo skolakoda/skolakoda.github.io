@@ -42,9 +42,6 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
 
 ## TODO
 
-- dodati algoritme
-  - dodati crtanje lavirinta iz create 3d world i još ponešto negde
 - preraditi sajt da naglasak bude na postojeće kurseve i module (npr projektni obrasci, tipovi podataka i slično)
   - polica sa knjigama https://jsfiddle.net/mudroljub/xbwhc9mr/3/
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
-- pokušati proksi za hacker rank na azure

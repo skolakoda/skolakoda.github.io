@@ -8,6 +8,8 @@ permalink: /matrica-refleksije
 
 **Matrica refleksije služi za preslikavanje predmeta ili celokupnog prostora preko određene ose ili ravni, stvarajući njihov odraz.**
 
+Refleksije ili odrazi su simetrične transformacije.
+
 ## 2D refleksije
 
 Odraz preko x ose (horizontalna refleksija):
