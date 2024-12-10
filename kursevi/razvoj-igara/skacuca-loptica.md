@@ -78,3 +78,7 @@ animate()
 ```
 
 Kao i u drugim primerima, možete menjati parametre da vidite razliku.
+
+## Izvori
+
+- Kristian Golubić, [*Primjena matematike u izradi računalnih igara*](https://urn.nsk.hr/urn:nbn:hr:217:939160) (diplomski rad), 2014.
