@@ -7,9 +7,11 @@ image: /images/koncepti/podaci/matrica.png
 
 ![]({{page.image}})
 
-**Matrica ili grid je tabelarna struktura podataka u kojoj se najčešće nalaze brojevi. Naziva se i dvodimenzionalnim nizom, jer su njeni elementi jednodimenzionalni nizovi.**
+**Matrica je tabelarna struktura podataka u kojoj se najčešće nalaze brojevi. Naziva se i dvodimenzionalnim nizom, jer su njeni elementi jednodimenzionalni nizovi.**
 
-Matricu možemo predstaviti kao tabelu koja ima `m` redova i `n` kolona, sa ćelijama označenim indeksima. 
+Matricu možemo predstaviti kao tabelu koja ima `m` redova i `n` kolona, sa ćelijama označenim indeksima. Matrice se mogu množiti i zbrajati međusobno, a s [vektorima](/vektori) i skalarima se mogu množiti.
+
+Matrice često služe za čuvanje mape u igrama i za predstavljanje [transformacija](/transformacione-matrice) u 3D grafici.
 
 ## Zapis matrice
 

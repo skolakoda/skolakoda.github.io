@@ -31,8 +31,8 @@ image: /images/koncepti/podaci/strukture-podataka.jpg
 ### Tabelarne strukture
 
 - [Matrica](/matrice)
-  - [Kvadratna matrica](/kvadratna-matrica)
-  - [Operacije nad matricama](/operacije-nad-matricama)
+- [Kvadratna matrica](/kvadratna-matrica)
+- [Operacije nad matricama](/operacije-nad-matricama)
 
 ### Asocijativne strukture
 
