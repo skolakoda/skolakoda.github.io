@@ -1,14 +1,18 @@
 ---
-title: Glavna petlja (<i>main loop</i>)
+title: Glavna petlja
 layout: lekcija-razvoj-igara
 permalink: /glavna-petlja
 ---
 
 ![game-loop](/images/razvoj-igara/game-loop-fixed.png)
 
-**Za razliku od običnih programa, igra nakon pokretanja, čak i ako igrač ništa ne radi, neprestano ide. Zato u svim igrama postoji glavna petlja ili *game loop*.** 
+**Za razliku od običnih programa, igra nakon pokretanja neprestano ide, čak iako igrač ne radi ništa. Zato u svim igrama postoji glavna petlja ili petlja igre. *Game loop*** je centralni obrazac u razvoju igara.
 
-Tipična glavna petlja će primiti i obraditi unos igrača, ažurirati logiku igre i iscrtati scenu. Ovako izgleda osnovna struktura glavne petlje:
+Ključna ideja petlje igre je da konstantno obrađuje korisnički unos, ali bez čekanja. Svi predmeti u igri se nastavljaju kretati i bez korisnikovog unosa.
+
+## Struktura glavne petlje
+
+Svaki put kada se izvrši petlja, program čita korisnički unos, ažurira stanje igre i prikazuje ga korisniku, odnosno iscrtava na ekranu. Ovako izgleda osnovna struktura glavne petlje:
 
 ```js
 const glavnaPetlja = () => {
@@ -18,7 +22,7 @@ const glavnaPetlja = () => {
 }
 ```
 
-Svaka glavna petlja je drugačija i prilagođena za konkretnu igru.
+Svaka petlja igre je drugačija i prilagođena za konkretnu igru.
 
 ## Prost primer
 
@@ -133,3 +137,7 @@ Player presentation
 ```
 
 Jedan od problema sa renderovanjem je taj što CPU većinu vremena provodi čekajući da video kartica obradi ono što joj je poslato. Odvajanjem render sistema na zasebnu nit, oslobađamo CPU dok GPU radi svoju magiju.
+
+## Literatura
+
+- Zvonimir Šimunović, [*Programiranje video igara u biblioteci SFML*](https://zir.nsk.hr/islandora/object/pmf%3A8448) (diplomski rad), 2019.
