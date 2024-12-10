@@ -4,19 +4,20 @@ layout: lekcija-razvoj-igara
 permalink: /skacuca-loptica
 ---
 
-**Zamislimo loptu u slobodnom padu, na koju djeluje samo gravitacija.** Kada je pustimo, početna brzina lopte je nula, ali njezino ubrzanje nije – ono je približno 9.81 m/s², što znači da će brzina lopte rasti. 
+**Zamislimo loptu u slobodnom padu, na koju djeluje samo gravitacija.** 
 
-Za svaki frejm koristimo formulu za izračunavanje brzine u tom trenutku:
+## Opis simulacije
+
+Kada ispustimo loptu, njezina početna brzina je nula, ali ubrzanje nije – ono je jednako gravitaciji, što znači da će brzina lopte rasti. Za svaki frejm koristimo formulu za izračunavanje brzine u tom trenutku:
 
 ```
-v(i+1)(t) = v(i) + t * (0, -9.81)
+nova_brzina = stara_brzina + (0, -9.81) * dt
 ```
 
 gde je:
-- `t` vremenski interval između dva trenutka
-- `i` indeks koji predstavlja trenutni korak
-- `v(i)` brzina u datom trenutku
-- `v(i+1)` brzina u narednom trenutku
+- `dt` vremenski interval između dva frejma
+
+Nakon što prepoznamo sudar, odnosno udarac lopte u tlo, loptica mijenja vektor brzine. U slučaju savršeno elastičnog sudara vektor brzine samo će promijeniti predznak.
 
 ## Implementacija u JS-u
 
@@ -41,11 +42,11 @@ class Ball {
         this.dy = 0
     }
 
-    update(deltaTime) {
+    update(dt) {
         if (this.y + this.radius + this.dy > canvas.height)
             this.dy = -this.dy * friction
         else
-            this.dy += gravity * deltaTime
+            this.dy += gravity * dt
         this.y += this.dy
     }
 
