@@ -11,40 +11,41 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 
 ### Uvod
 
-- [Uvod u softversko inženjerstvo](/softversko-inzenjerstvo)
 - [Verovali ili ne](/verovali-ili-ne)
-
-### Objektno orijentisano programiranje
-
+- [Ispravan kod nije dovoljan](/ispravan-kod-nije-dovoljan)
+- [Uvod u softversko inženjerstvo](/softversko-inzenjerstvo)
 - [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
-  - [Kako je nastalo objektno orijentisano programiranje?](/nastanak-oop)
-- Četiri stuba OOP:
-  - [Apstrakcija](/apstrakcija)
-  - [Enkapsulacija](/enkapsulacija)
-  - [Nasleđivanje](/nasledjivanje-klasa)
-  - [Polimorfizam](/polimorfizam)
-- [Kontrola pristupa](/kontrola-pristupa)
-- [Kompozicija umesto nasleđivanja](/kompozicija-vs-nasledjivanje)
+- [Kako je nastalo objektno orijentisano programiranje?](/nastanak-oop)
 
-### Principi projektovanja
+### Četiri stuba objektno-orijentisanog programiranja
+
+- [Apstrakcija](/apstrakcija)
+- [Enkapsulacija](/enkapsulacija)
+- [Nasleđivanje](/nasledjivanje-klasa)
+- [Polimorfizam](/polimorfizam)
+
+### SOLID principi
+
+- [Princip isključive odgovornosti](/princip-iskljucive-odgovornosti) (**S***ingle responsibility principle*)
+- [Otvoreno-zatvoren princip](/otvoren-zatvoren-princip) (**O***pen/closed principle*)
+- [Liskovljev princip zamene](/liskov-princip-zamene) (**L***iskov substitution principle*)
+- [Princip podele interfejsa](/princip-podele-interfejsa) (**I***nterface segregation principle*)
+- [Princip inverzije zavisnosti](/princip-inverzije-zavisnosti) (**D***ependency inversion principle*)
+
+### Ostali principi
 
 - Razdvajanje briga
-- SOLID principi:
-  - [Princip isključive odgovornosti](/princip-iskljucive-odgovornosti) (**S***ingle responsibility principle*)
-  - [Otvoreno-zatvoren princip](/otvoren-zatvoren-princip) (**O***pen/closed principle*)
-  - [Liskovljev princip zamene](/liskov-princip-zamene) (**L***iskov substitution principle*)
-  - [Princip podele interfejsa](/princip-podele-interfejsa) (**I***nterface segregation principle*)
-  - [Princip inverzije zavisnosti](/princip-inverzije-zavisnosti) (**D***ependency inversion principle*)
+- [Kontrola pristupa](/kontrola-pristupa)
+- [Inverzija kontrole](/inverzija-kontrole)
+  - [Ubrizgavanje zavisnosti](/ubrizgavanje-zavisnosti)
+- [Kompozicija umesto nasleđivanja](/kompozicija-vs-nasledjivanje)
+- [Softverske komponente](/komponente)
 - DRY (*Don't Repeat Yourself*)
 - KISS (*Keep It Simple, Stupid*)
 - YAGNI (*You Aren't Gonna Need It*)
-- [Inverzija kontrole](/inverzija-kontrole)
-  - [Ubrizgavanje zavisnosti](/ubrizgavanje-zavisnosti)
-- [Softverske komponente](/komponente)
 
-### Projektni obrasci
+### Projektni obrasci (*design patterns*)
 
-- [Ispravan kod nije dovoljan](/ispravan-kod-nije-dovoljan)
 - [Projektni obrasci](/projektni-obrasci)
 - Tvorbeni 
   - [Jedinac (*singleton*)](/obrazac-singleton)

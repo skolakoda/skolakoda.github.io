@@ -7,11 +7,11 @@ image: /images/koncepti/oop/polimorfizam.png
 
 ![]({{page.image}})
 
-**Polimorfizam (*"višeobličnost"*) je princip koji nam omogućava korišćenje istog interfejsa za različite tipove podataka. Koristi se za pisanje fleksibilnog i proširivog koda.**
+**Polimorfizam (*"višeobličnost"*) je princip koji nam omogućava rad sa različitim objektima kroz zajednički interfejs.** 
 
 U objektno orjentisanim jezicima polimorfizam omogućuje da osnovna klasa definiše opšti interfejs, odnosno metode zajedničke za sve izvedene klase, ali izvedenim klasama ostavlja da implementiraju te metode. Zbog toga se polimorfizam često opisuje frazom “jedan interfejs, više metoda”. Pošto interfejs diktira osnovna klasa, deliće ga sve izvedene klase, ali će implementacija interfejsa biti specifična za svaku od njih.
 
-## Čemu služi
+## Prednosti
 
 Isti interfejs sa različitim implementacijama služi da olakša održavanje složenih programa. Ako je program pravilno projektovan, svim objektima izvedenim iz osnovne klase se pristupa na isti način, iako će se njihovo ponašanje razlikovati. To znači da programer treba da zapamti samo jedan interfejs, umesto više njih.
 

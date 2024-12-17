@@ -7,10 +7,6 @@ image: /images/koncepti/oop/4-stuba.jpeg
 
 ![]({{page.image}})
 
-> Objektno-orjentisan dizajn predstavlja rimske brojeve računarstva.
->
-> -- <cite>Rob Pike</cite>
-
 ***Objektno-orijentisano programiranje je pristup razvoju računarskih programa koji imitira način na koji su objekti definisani u realnom svetu.***
 
 U okviru objektno-orijentisanog programiranja računarski program se tretira kao niz objekata koji sarađuju u cilju izvršavanja određenog zadatka. Svaki objekat je poseban deo programa, koji interaguje sa drugim delovima programa na specifičan, kontrolisan način.
