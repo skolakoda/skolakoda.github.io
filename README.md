@@ -42,6 +42,8 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
 
 ## TODO
 
+- preći napredni js
+  - možda spojiti node.js
 - preraditi sajt da naglasak bude na postojeće kurseve i module (npr projektni obrasci, tipovi podataka i slično)
   - polica sa knjigama https://jsfiddle.net/mudroljub/xbwhc9mr/3/
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
