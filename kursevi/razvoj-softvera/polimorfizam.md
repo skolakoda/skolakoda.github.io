@@ -7,7 +7,7 @@ image: /images/koncepti/oop/polimorfizam.png
 
 ![]({{page.image}})
 
-**Polimorfizam (*"višeobličnost"*) je princip koji nam omogućava rad sa različitim objektima kroz zajednički interfejs.** 
+**Polimorfizam (*"višeobličnost"*) je princip koji različitim objektima omogućuje da dele isti interfejs.** 
 
 U objektno orjentisanim jezicima polimorfizam omogućuje da osnovna klasa definiše opšti interfejs, odnosno metode zajedničke za sve izvedene klase, ali izvedenim klasama ostavlja da implementiraju te metode. Zbog toga se polimorfizam često opisuje frazom “jedan interfejs, više metoda”. Pošto interfejs diktira osnovna klasa, deliće ga sve izvedene klase, ali će implementacija interfejsa biti specifična za svaku od njih.
 
