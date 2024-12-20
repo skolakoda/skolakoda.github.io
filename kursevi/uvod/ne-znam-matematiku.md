@@ -1,6 +1,6 @@
 ---
 title: Učila bih programiranje ali ne znam matematiku
-layout: lekcija-js
+layout: lekcija-uvod
 author: damjan
 permalink: /ne-znam-matematiku
 image: /images/ljudi/zenska-kompujter.jpg
@@ -12,7 +12,7 @@ image: /images/ljudi/zenska-kompujter.jpg
 
 Kao programeri, svakodnevno se susrećemo sa jezičkim i gramatičkim pitanjima - funkcije nazivamo u imperativu, logičke vrednosti u pasivu, a da ne pominjemo sate i sate mozganja oko najprikladnijeg imenovanja promenljivih.
 
-S druge strane, za pet godina programiranja najsloženija matematička operacija kojom sam se bavio, verovatno je bila računanje širine kolona, tako što širinu ekrana podelimo brojem kolona. Toliko o programerskoj matematici.
+S druge strane, za prvih pet godina programiranja najsloženija matematička operacija kojom sam se bavio, verovatno je bila računanje širine kolona, tako što širinu ekrana podelimo brojem kolona. Toliko o programerskoj matematici.
 
 Naravno, postoje specifične oblasti koje zahtevaju napredno matematičko znanje (na primer sistemsko programiranje ili 3D grafika), ali ovde govorimo o svakodnevnom programerskom poslu, koji se uglavnom svodi na web, android ili iOS.
 

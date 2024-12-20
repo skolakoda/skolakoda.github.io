@@ -1,6 +1,5 @@
-{% assign author = site.data.authors[page.author] %}
-{% if author %}
+{% if page.author == "damjan" %}
 <div class="author-box margin-md-top" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <img class="author-img circle" src="{{author.image}}"> <a href="{{author.url}}" rel="author" itemprop="url"><span itemprop="name">{{author.name}}</span></a>
+  <img class="author-img circle" src="/images/skola/damjan-mala.jpg"> <a href="/damjan-pavlica" rel="author" itemprop="url"><span itemprop="name">Damjan Pavlica</span></a>
 </div>
 {% endif %}

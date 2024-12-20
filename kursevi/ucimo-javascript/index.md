@@ -11,7 +11,6 @@ image: /images/kursevi/js-logo.png
 
 ### Uvod
 
-- [Učila bih programiranje ali ne znam matematiku](/ne-znam-matematiku)
 - [Čemu služi Javascript?](https://youtu.be/BFc_YPAxQcg)
 - [Kratka istorija Javascripta](/kratka-istorija-javascripta)
 

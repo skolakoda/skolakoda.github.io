@@ -14,6 +14,7 @@ image: /images/kursevi/uvod.png
 
 ### Uvod u programiranje
 
+- [Učila bih programiranje ali ne znam matematiku](/ne-znam-matematiku)
 - [Zašto je programiranje zabavno?](/programiranje-je-zabavno)
 - [Da li je programiranje teško?](/programiranje-je-tesko)
 - [Uvod u programske jezike](/uvod-u-programske-jezike)
