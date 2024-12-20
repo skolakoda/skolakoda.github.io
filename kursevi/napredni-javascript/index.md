@@ -9,20 +9,6 @@ kurs: napredni-js
 
 ***Neophodan uslov za uspešno praćenje kursa je efektivna upotreba Javascripta.***
 
-### Objektno orijentisani Javascript
-
-- [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
-- Modelovanje klase
-- [Nasleđivanje klasa](/nasledjivanje-klasa)
-  - Apstrakcija i neponavljanje koda
-  - [Polimorfizam](/polimorfizam)
-  - Otvoren/zatvoren princip (otvoren za proširenje, zatvoren za menjanje)
-- Čemu služe `constructor` i `super`?
-- Pristupne `get` i `set` metode (geteri i seteri)
-- [Statične metode](/javascript-staticki-metodi)
-- Provera pretka sa `instanceof`
-- Vežba: napravi likove za igru (klasa Junak i naslednici Vilenjak i Ork)
-
 ### ES6 moduli
 
 - [Moduli u Javascriptu](/javascript-moduli)
@@ -45,15 +31,12 @@ kurs: napredni-js
 - [Višestruko vraćanje vrednosti](/visestruko-vracanje-vrednosti)
 - [Zatvorenost (_closure_)](/javascript-zatvorenost)
 - [Samoizvršne anonimne funkcije](/samoizvrsne-anonimne-funkcije)
-- Podrazumevani argumenti
-- Streličaste funkcije
 
 ### Kontekst izvršenja (`this`)
 - [Vrednost `this` i kontekst izvršenja](/javascript-this)
 - [Pozajmljivanje metoda sa `call` i `aply`](/javascript-call-aply)
 - Vezivanje konteksta sa `bind`
-- `this` i streličaste funkcije
-- Vežba: proveri `this` unutar obične i streličaste povratne funkcije (`addEventListener` i `setTimeout`)
+- `this` unutar obične i streličaste povratne funkcije
 
 ### Prototipska priroda jezika
 
@@ -79,7 +62,6 @@ kurs: napredni-js
 
 ### Podaci i strukture
 
-- [Uvod u strukture podataka](/strukture-podataka)
 - [Mapa](/javascript-mapa) (*Map*)
 - [Skup](/javascript-skup) (*Set*)
 - Tipski nizovi (*typed arrays*)
@@ -91,7 +73,6 @@ kurs: napredni-js
 - [Destrukturiranje objekata i nizova](/javascript-destrukturiranje)
 - [Operator razdvajanja i parametar ostatka](/javascript-spread-i-rest) (`spread ` i `rest`)
 - neodređen broj argumenata funkcije (`Math.max(...niz)`)
-- spajanje nizova razlaganjem (`[...niz, 4, 5, 6]`)
 
 ### Iteratori i generatori
 
@@ -107,9 +88,10 @@ kurs: napredni-js
 - [Propagacija događaja naviše (*bubbling*)](/javascript-bubbling)
 - [Zaustavljanje propagacije događaja](/zaustavljanje-propagacije)
 
-## Razno
+### Razno
 
+- [Hvatanje grešaka](/javascript-hvatanje-gresaka)
+- [Pravljenje alijas funkcija](/pravljenje-alijas-funkcija)
 - [Prevođenje brojčanih sistema](/javascript-prevodjenje-brojcanih-sistema)
 - [Bitovski operatori u Javaskriptu](/bitovni-operatori-javaskript)
-- [Hvatanje grešaka](/javascript-hvatanje-gresaka)
 - [Dobre prakse pisanja Javascripta](/javascript-dobre-prakse)

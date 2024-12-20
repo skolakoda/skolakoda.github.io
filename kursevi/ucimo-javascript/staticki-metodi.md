@@ -1,6 +1,6 @@
 ---
 title: Statički metodi
-layout: lekcija-napredni-js
+layout: lekcija-js
 permalink: /javascript-staticki-metodi
 ---
 

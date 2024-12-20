@@ -99,19 +99,20 @@ image: /images/kursevi/js-logo.png
 
 - [Objekti u Javascriptu](/javascript-objekti)
 - [Tri namene objekta u Javaskriptu](/tri-vrste-objekata-u-javaskriptu)
-- Iteracija objekta: `for in` i `hasOwnProperty`
+- Iteracija objekta
 - [Međusobna interakcija objekata](/interakcija-objekata)
 - [Ključna reč this](/javascript-this)
 - [Vežba: prenos sredstava sa računa](/vezba-interakcija-objekata)
 - [Vežba: broj ponavljanja svakog imena u nizu](/vezba-koliko-se-koje-ime-ponavlja-u-nizu)
 - Vežba: [napravi kasu za prodavnicu](https://web.archive.org/web/20150610053050/http://www.codecademy.com:80/courses/close-the-super-makert/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
-### Klase i nasleđivanje
+### Objektno orijentisani Javascript
 
 - [Klase u Javascriptu](/javascript-klase)
 - [Nasleđivanje klasa](/javascript-nasledjivanje-klasa)
   - [Ključna reč super](/javascript-super)
-  - [Provera nasleđivanja](/javascript-instanceof)
+  - [Statične metode](/javascript-staticki-metodi)
+  - [Provera nasleđivanja](/javascript-instanceof) (`instanceof`)
 - [Vežba: prenos sredstava pomoću klase](/vezba-interakcija-klasa)
 - Vežba: napravi bazu filmova (niz objekata) sa pretragom
 
@@ -138,10 +139,7 @@ image: /images/kursevi/js-logo.png
 - [Kretanje po DOM stablu](/kretanje-po-dom-stablu)
 - [Selektori elemenata](/selektori-elemenata)
 - [Dodavanje elemenata u DOM](/dodavanje-elemenata)
-- Uklanjanje elemenata (`removeChild` ili `innerHTML`)
 - [Stilizovanje Javaskriptom](/stilizovanje-javaskriptom)
-- Vežba: dodaj elemente u DOM pomoću petlje
-- Vežba: napravi klasu koja dodaje elemente u DOM
 - [Vežba: predstavi HTML strukturu pomoću JS objekta](/vezba-predstavi-html-pomocu-js-objekta)
 
 ### Događaji
@@ -152,10 +150,8 @@ image: /images/kursevi/js-logo.png
 - `event` objekat i njegova svojstva
 - [Sprečavanje podrazumevanog ponašanja](/sprecavanje-podrazumevanog-ponasanja)
 - [Uklanjanje slušača događaja](/uklanjanje-slusaca-dogadjaja)
-- [Pravljenje alijas funkcija](/pravljenje-alijas-funkcija)
 - Vežba: napravi div elemente koji reaguju na događaje
 - Vežba: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)
-- Vežba: uporedi `this` unutar obične i streličaste povratne funkcije
 
 ### Učitavanje podataka (AJAX i API)
 

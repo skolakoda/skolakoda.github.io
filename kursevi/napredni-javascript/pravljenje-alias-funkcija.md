@@ -1,6 +1,6 @@
 ---
 title: Pravljenje alijas funkcija
-layout: lekcija-js-frontend
+layout: lekcija-napredni-js
 permalink: /pravljenje-alijas-funkcija
 ---
 
