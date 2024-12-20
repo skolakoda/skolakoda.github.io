@@ -16,7 +16,7 @@ image: /images/kursevi/js-logo.png
 
 ### Instalacija i pokretanje
 
-- Instalacija editora ([Atom](https://atom.io/), [VS Code](https://code.visualstudio.com/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/)...) i dodataka
+- Instalacija editora i dodataka
 - Instalacija [NodeJS](https://nodejs.org/)-a
 - [Instalacija i pokretanje programa](https://youtu.be/GxHEdXGu62g)
   - [Program Zdravo Svete](/zdravo-javascript)
@@ -33,7 +33,6 @@ image: /images/kursevi/js-logo.png
 
 ### Tipovi podataka
 
-- [Tipovi podataka u programskim jezicima](/tipovi-podataka)
 - [Tipovi podataka u Javaskriptu](/tipovi-podataka-u-javaskriptu)
 - [Promena tipa podatka](/konverzija-tipa-u-javaskriptu)
 - [Provera tipa podatka](/javaskript-typeof)
@@ -45,9 +44,7 @@ image: /images/kursevi/js-logo.png
 - Osnovne računske operacije (`+`, `-`, `*`, `/`)
 - [Upotreba modulo operatora (`%`)](/upotreba-modulo-operatora)
 - [Nepreciznosti u računanju](/nepreciznosti-u-racunanju)
-- Napredne `Math` metode
 - [Vežba: za koliko ću naučiti programiranje?](/vezba-koliko-ucenja)
-- Vežba: postavi model poslovanja
 - [Vežbe sa brojevima](/vezbe-sa-brojevima)
 
 ### Rad sa tekstom
@@ -66,7 +63,6 @@ image: /images/kursevi/js-logo.png
 - [Podrazumevani parametri](/podrazumevani-parametri)
 - Opseg varijabli unutar funkcije
 - [Streličaste funkcije](/strelicaste-funkcije)
-- Vežba: napravi čiste funkcije za osnovne računske operacije
 
 ### Logika
 
@@ -82,7 +78,6 @@ image: /images/kursevi/js-logo.png
 
 - [Petlje u Javascriptu](/petlje-u-javascriptu)
 - [Naredbe break i continue](/js-break-i-continue)
-- Uloga zastavice
 - [Ugnježdene petlje](/ugnjezdene-petlje)
 - [Vežbe sa petljama](/vezbe-sa-petljama)
 - [Vežbe sa strunama](/vezbe-sa-strunama)
@@ -95,7 +90,6 @@ image: /images/kursevi/js-logo.png
 - [Mapiranje niza](/mapiranje-niza)
 - [Filtriranje niza](/filtriranje-niza)
 - [Ostale metode niza](/javascript-metodi-niza) (`splice`, `slice`...)
-- Vežba: prikaži nasumičan citat
 - [Vežba: pronađi ime u nizu](/vezba-pronadji-ime-u-nizu)
 - [Vežba: pronađi najmanji broj u nizu](/vezba-pronadji-najmanji-broj)
 - [Vežba: broj ponavljanja traženog imena u nizu](/broj-ponavljanja-imena-u-nizu)
@@ -120,11 +114,6 @@ image: /images/kursevi/js-logo.png
   - [Provera nasleđivanja](/javascript-instanceof)
 - [Vežba: prenos sredstava pomoću klase](/vezba-interakcija-klasa)
 - Vežba: napravi bazu filmova (niz objekata) sa pretragom
-
-### Kodni standard
-- [JS Standard](https://standardjs.com/) i [Airbnb kodni stil](https://github.com/airbnb/javascript)
-- Instalacija i podešavanje lintera (ESLint)
-- Vežba: refaktorisanje po kodnom standardu
 
 # Front-end programiranje
 
@@ -165,7 +154,6 @@ image: /images/kursevi/js-logo.png
 - [Uklanjanje slušača događaja](/uklanjanje-slusaca-dogadjaja)
 - [Pravljenje alijas funkcija](/pravljenje-alijas-funkcija)
 - Vežba: napravi div elemente koji reaguju na događaje
-- Vežba: napravi editor slike (zum, odzum i filteri)
 - Vežba: napravi da [element prati kretanje miša](https://jsfiddle.net/mudroljub/du274n9z/)
 - Vežba: uporedi `this` unutar obične i streličaste povratne funkcije
 
@@ -178,13 +166,11 @@ image: /images/kursevi/js-logo.png
   - [DELETE zahtev](/javascript-delete-zahtev)
 - [JSON format](/json-format)
 - [Dinamičko renderovanje stranica](/dinamicko-renderovanje)
-- Notifikacije i WebSocket protokol
 - Vežba: učitaj Wikipediju, vremensku prognozu ili neki drugi [javni API](https://github.com/toddmotto/public-apis)
 
 ### Validacija korisničkog unosa
 
 - [Validacija formulara](/javascript-validacija-formulara)
-- Slanje formulara
 - [Regularni izraz](/regularni-izraz)
 - [Regularni izrazi za validaciju](/regularni-izrazi-za-validaciju)
 - [Vežba: validacija formulara](/vezba-js-validacija-formulara)
@@ -194,8 +180,6 @@ image: /images/kursevi/js-logo.png
 - Rad sa slikama
 - Rad sa zvukom i videom
 - Crtanje i animacije na platnu (`canvas`) 
-- Vežba: napravi slajder
-- Vežba: [dinamički napravi foto galeriju](https://jsfiddle.net/mudroljub/d4zwwp70/)
 - [Vežba: Javascript magija](/vezba-javascript-magija)
 - Vežba: Napravi audio plejer i plejlistu
 
@@ -206,19 +190,11 @@ image: /images/kursevi/js-logo.png
 - Žetva podataka (*web scraping*)
 - Čitanje i pisanje fajlova
 - Služenje podataka
-- Vežba: žanji i kombinuj vesti sa raznih izvora
 
 ### Testiranje
 
 - [Jedinični (*unit*) testovi](/jedinicni-testovi)
 - [Razvoj vođen testovima](/razvoj-vodjen-testovima)
 - [*Jasmine* biblioteka](/jasmine-biblioteka)
-- *Mocha* biblioteka
 - Integracioni testovi
 - [Vežba: testiranje sum funkcije](/vezba-testiranje-sum-funkcije)
-
-### Završni projekat
-
-- Napravi jednostraničnu aplikaciju sa pretragom koja uzima podatke iz javnog API-ja
-- Refaktorisanje (optimizacija i povećanje čitkosti koda)
-- Objavljivanje na GitHub Pages ili Heroku
