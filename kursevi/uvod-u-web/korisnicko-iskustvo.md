@@ -22,6 +22,6 @@ Pre­gledanje weba na mobilnim telefonima se razlikuje od pregledanja na računa
 
 Korisnici mobilnih uređaja su orijentisani na zadatke. Oni obično posećuju stranice zbog određenog razloga. Ako ne obave planiran zadatak, brzo će potražiti drugi sajt. Potrudite se da im obezbedite ono što žele što je moguće brže i lakše. Na primer, korisno je da sajt resto­rana odmah prikaže adresu mobilnim posetiocima, jer neko ko gleda taj sajt na telefonu verovatno traži dobro mesto za ručak.
 
-### Literatura
+## Literatura
 
 * Laura Lemay, Rafe Colburn, Jennifer Kyrnin, *HTML5, CSS3 i JavaScript za razvoj veb strana*, Beograd, 2016.

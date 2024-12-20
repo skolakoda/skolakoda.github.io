@@ -25,6 +25,6 @@ Euler je posmatrao ovaj problem na drugačiji način. Svaki deo grada je posmatr
 Za Ojlerovu analizu bitan pojam je **stepen čvora**, koji predstavlja broj veza koje čvor formira sa susedima. Analizom svih mogućih putanja Euler je zaključio da čvor koji nije polazna ili završna tačka puta mora imati stepen koji je paran broj. Sledeći to pravilo u zavisnosti od odabira početne i krajnje tačke možemo zaključiti koja je veza „suvišna“ da bi problem bio rešiv.
 
 
-### Literatura
+## Literatura
 
 - [datascience.rs](http://www.datascience.rs/teorija-grafova-matematika-oko-nas/)

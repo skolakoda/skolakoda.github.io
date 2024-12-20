@@ -1,6 +1,6 @@
 ---
 title: Uvod u programske jezike
-layout: lekcija-c
+layout: lekcija-uvod
 permalink: /uvod-u-programske-jezike
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Bangalore_India_Tech_books_for_sale_IMG_5261.jpg/765px-Bangalore_India_Tech_books_for_sale_IMG_5261.jpg
 ---

@@ -51,7 +51,7 @@ console.log("Uklonjena karta:", gomila.ukloni())
 console.log("Gornja karta nakon uklanjanja:", gomila.pogledajZadnju()) 
 ```
 
-### Literatura
+## Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
 - [Petlja.org](https://petlja.org/BubbleBee/r/Lectures/strukture-podataka-1), *Strukture podataka*

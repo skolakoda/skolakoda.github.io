@@ -1,6 +1,6 @@
 ---
 title: Zašto je programiranje zabavno?
-layout: lekcija-c
+layout: lekcija-uvod
 permalink: /programiranje-je-zabavno
 image: /images/ljudi/devojcica-leti.jpg
 ---

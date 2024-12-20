@@ -96,6 +96,6 @@ console.log(`Rekurzivno: broj ${nadjiRekurzivno(40)} nadjen u ${brojac} operacij
 U vreme pisanja ovog teksta, odnos broja koraka između iterativne i rekurzivne funkcije bio je **39 prema 204668309 (204 miliona) koraka!** Iako jezik u budućnosti može biti optimizovan za rekurzivne pozive, svakako treba biti veoma oprezan.
 
 
-### Literatura
+## Literatura
 
 - Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Beograd, 2017.

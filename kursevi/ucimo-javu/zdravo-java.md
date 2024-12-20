@@ -85,7 +85,7 @@ Ukoliko kompilacija ne prođe, česti uzroci mogu biti:
 - `()`, `{}`, `[]`, uvijek dolaze u paru i ne prepliću se.
 
 
-### Literatura
+## Literatura
 
 - Elliotte Rusty Harold, *[Java Lecture Notes](//www.cafeaulait.org/course/index.html)*, preveo Draško Budin.
 - *Programski jezik Java*, Bilješke sa predavanja Muzafera Saračevića, Novi Pazar, 2015.

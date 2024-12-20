@@ -12,7 +12,7 @@ Svaki **čvor** sadrži neki podatak plus može imati levo i desno podstablo. Sv
 
 Jedna od primena binarnog stabla je prikaz aritmetičkog izraza koji se koristi u procesu prevođenja programa u strojni jezik. Korištenje tri paralelna niza jedan je od načina prikaza binarnog stabla u memoriji.
 
-### Literatura
+## Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
 - *Uvod u programiranje - Računarski fakultet*, [Struktura podataka binarno stablo](https://petlja.org/BubbleBee/r/lekcije/uvod-u-programiranje/nedelja_12)

@@ -47,6 +47,6 @@ Na slici je prikazana tržišna zastupljenost servera od 2000. do 2016. godine.
 
 ![](https://news.netcraft.com/wp-content/uploads/2017/02/wpid-wss-active-share.png)
 
-### Literatura
+## Literatura
 
 - Laura Lemay, Rafe Colburn, Jennifer Kyrnin, *HTML5, CSS3 i JavaScript za razvoj veb strana*, Beograd, 2016.

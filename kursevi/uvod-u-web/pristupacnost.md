@@ -53,6 +53,6 @@ Dodeljivanje labele, kao i odgovarajućih `tabindex` vrednosti poljima može da 
 
 Baš kao što koristimo W3C validator da bismo proverili da li su HTML stranice u skladu sa standardom, možemo koristiti brojne validatore da bismo proverili da li sajt ima problema sa pristupačnošću. Jedan takav validator je *Cynthia Says*, koji možemo pronaći na adresi [cynthiasays.com](http://www.cynthiasays.com/). On proverava da li je sajt u skladu sa smernicama za pristupačnost veb sadržaja, koje je napisala organizacija W3C.
 
-### Literatura
+## Literatura
 
 * Laura Lemay, Rafe Colburn, Jennifer Kyrnin, *HTML5, CSS3 i JavaScript za razvoj veb strana*, Beograd, 2016.

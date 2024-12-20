@@ -57,7 +57,7 @@ Da bi premestili kulu sa jednog mesta na drugo, potrebno je **2<sup>n</sup> - 1*
 
 Očigledno se u slagalici krije više nego što izgleda na prvi pogled.
 
-### Literatura
+## Literatura
 
 - Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Beograd, 2017.
 - [Problem Solving with Algorithms and Data Structures using Python](http://interactivepython.org/runestone/static/pythonds/Recursion/TowerofHanoi.html)

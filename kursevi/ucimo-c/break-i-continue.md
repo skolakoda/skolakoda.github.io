@@ -50,7 +50,7 @@ int main()
 ```
 
 
-### Literatura
+## Literatura
 
 - Brian Kernighan i Dennis Ritchie, *Programski jezik C*
 - [profesorka.wordpress.com](https://profesorka.wordpress.com/)

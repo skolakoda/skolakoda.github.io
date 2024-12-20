@@ -1,6 +1,6 @@
 ---
 title: Binarni brojevi
-layout: lekcija-c
+layout: lekcija-uvod
 permalink: /binarni-brojevi
 image: /images/koncepti/podaci/1-plus-1.png
 ---
@@ -53,7 +53,7 @@ Inače, binarni brojevi su odavno poznati mnogim kulturama. Između ostalog, nal
 
 ![](/images/koncepti/podaci/i-ching-binary.jpg)
 
-### Literatura
+## Literatura
 
 - dr Milan Popović, *Osnove programiranja (skripta)*
 - dr Violeta Tomašević, *Osnovi računarske tehnike*, Beograd, 2009.

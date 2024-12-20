@@ -70,6 +70,6 @@ Postoji praktično pravilo za izbor između ove dve alternative. Ako je slika č
 
 Drugo pravilo je da razmislimo šta bismo stavili u `alt` atribut. Ako je alternativni tekst zanimljiv ili koristan, treba da koristimo sliku. Ako ne možemo da smislimo ništa zanimljivo, onda verovatno treba da bude pozadina.
 
-### Literatura
+## Literatura
 
 * Laura Lemay, Rafe Colburn, Jennifer Kyrnin, *HTML5, CSS3 i JavaScript za razvoj veb strana*, Beograd, 2016.

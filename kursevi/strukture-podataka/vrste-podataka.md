@@ -55,7 +55,7 @@ Grafiku je takođe moguće obrađivati, promenom karakteristika piksela (boje, o
 
 A šta ako imamo pokretnu sliku (video zapis)? Potrebno je samo pamtiti više uzastopnih slika. Kod klasičnih filmova sa filmskom vrpcom uobičajeno je da se prave 24 slike u sekundi, kod kompjutera taj broj je obično 36 pa je kompjuterska slika stabilnija. Zapisivanje video fajla zahteva veliku količinu memorije, mnogo više nego za sliku i zvuk, a naročito u odnosu na tekst i brojeve.
 
-### Literatura
+## Literatura
 
 * Milan Popović, *Osnove programiranja (skripta)*
 * Filip Marić, Predrag Janičić, *Programiranje 1: Osnove programiranja kroz programski jezik C*, Beograd, 2015.

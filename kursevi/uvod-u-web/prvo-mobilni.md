@@ -50,6 +50,6 @@ Kada posetilac dodirne link, otvoriće mu se aplikacija za poruke, zajedno sa te
 
 Iako ste verovatno isprobali stranicu na smanjenom pregledaču ili simulatoru, neophodno je sve proveriti i na mobilnom uređaju. Da li sajt radi? Da li je jednostavan za korišćenje? Da li možemo lako dodirnuti linkove i navigaciju? Ako radi kod nas, pitajmo još ljudi kako radi na njihovim uređajima.
 
-### Literatura
+## Literatura
 
 * Laura Lemay, Rafe Colburn, Jennifer Kyrnin, *HTML5, CSS3 i JavaScript za razvoj veb strana*, Beograd, 2016.

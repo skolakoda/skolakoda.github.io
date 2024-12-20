@@ -71,7 +71,7 @@ Prelivanje steka (*stack overflow*) je greška koja nastaje kada program pređe 
 
 Obično nastaje kada funkcije pozivaju jedna drugu ili same sebe (rekurzija) bez pravilnog završetka, ili kada lokalni podaci u funkciji zauzmu više prostora nego što stek može da podrži.
 
-### Literatura
+## Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
 - [Petlja.org](https://petlja.org/BubbleBee/r/Lectures/strukture-podataka-1), *Strukture podataka*

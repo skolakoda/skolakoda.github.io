@@ -24,6 +24,7 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
 ## Jezički nezavisna znanja
 
 <div class="boxes">
+  {% include kutijice/uvod.html %}
   {% include kutijice/strukture.html %}
   {% include kutijice/algoritmi.html %}
   {% include kutijice/inzenjerstvo.html %}

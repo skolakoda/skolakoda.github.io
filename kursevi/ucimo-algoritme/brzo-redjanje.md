@@ -179,7 +179,7 @@ Ovaj algoritam je `O(n log n)` u očekivanom i `O(n^2)` u najgorem slučaju. Ako
 
 Sortiranje vrši lokalno (*in place*), jer ne koristi drugi niz za pohranu. 
 
-### Literatura
+## Literatura
 
 * Esmir Pilav i Zoran Jasak, *Algoritmi i programiranje, materijal za vježbe*, Prirodno matematički fakultet, Univerzitet u Tuzli, 2013.
 * Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Matematički fakultet, Beograd, 2017.

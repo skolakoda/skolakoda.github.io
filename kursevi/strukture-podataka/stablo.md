@@ -13,7 +13,7 @@ Struktura stabla se sastoji od **čvorova** (eng. *nodes*) i veza između njih k
 
 Primjer strukture stabla koju koristimo u svakodnevnom radu je struktura direktorija, odnosno organizacija fajlova na računalu. U toj strukturi, početni čvor je tzv. korijenski direktorij (eng. *root directory*).
 
-### Literatura
+## Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
 - *Uvod u programiranje - Računarski fakultet*, [Struktura podataka binarno stablo](https://petlja.org/BubbleBee/r/lekcije/uvod-u-programiranje/nedelja_12)

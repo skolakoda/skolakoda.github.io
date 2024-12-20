@@ -241,7 +241,7 @@ int main()
 }
 ```
 
-### Literatura
+## Literatura
 
 - [FOR petlja - C++ programi](http://www.znanje.org/knjige/computer/cpp/n/081CPP/081cpp.htm)
 - [Zbirka programskih rešenja u JavaScript jeziku](http://www.sabackagimnazija.edu.rs/files/materijali/webDizajn/Zbirka.htm)

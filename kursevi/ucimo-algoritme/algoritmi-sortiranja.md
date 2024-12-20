@@ -68,7 +68,7 @@ void sort(int a[], int n);
 Preduslov funkcije je da je promenljiva `n` jednaka dužini niza `a`, dok je postuslov da su elementi niza nakon primene funkcije sortirani kao i da se skup elemenata niza nije promenio.
 
 
-### Literatura
+## Literatura
 
 * Esmir Pilav i Zoran Jasak, *Algoritmi i programiranje, materijal za vježbe*, Prirodno matematički fakultet, Univerzitet u Tuzli, 2013.
 * Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Matematički fakultet, Beograd, 2017.

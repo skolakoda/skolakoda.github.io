@@ -148,7 +148,7 @@ for (i = -40; i <= 220; i += 10)
 
 ```
 
-### Literatura
+## Literatura
 
 - [Zadaci iz Programskog jezika C](http://www.its.edu.rs/reseni-primeri-iz-programskog-jezika-c-3/)
 - [C programiranje #1 - riješeni zadatci](https://www.mojwebdizajn.net/c-rijeseni-zadatci/c-programiranje-rijeseni-zadatci-1.aspx)

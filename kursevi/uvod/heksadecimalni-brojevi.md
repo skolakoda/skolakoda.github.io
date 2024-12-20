@@ -1,6 +1,6 @@
 ---
 title: Heksadecimalni brojevi
-layout: lekcija-c
+layout: lekcija-uvod
 permalink: /heksadecimalni-brojevi
 image: https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2011/05/color-hex-examples.png
 ---
@@ -71,7 +71,7 @@ Sada svaku grupu prevedimo u heksadecimalnu cifru:
 
 Pa je tako 1000101010101110100100111 binarno jednako 1155D27 heksadecimalno. Lako, zar ne?
 
-### Literatura
+## Literatura
 
 - dr Milan Popović, *Osnove programiranja (skripta)*
 - dr Violeta Tomašević, *Osnovi računarske tehnike*, Beograd, 2009.

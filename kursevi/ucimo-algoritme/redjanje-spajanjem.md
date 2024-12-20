@@ -72,7 +72,7 @@ void mergesort(int a[], int n) {
 
 Rekurentna jednačina koja opisuje složenost je T (n) = 2 · T (n/2) + O(n) te je složenost O(n log n).
 
-### Literatura
+## Literatura
 
 * Esmir Pilav i Zoran Jasak, *Algoritmi i programiranje, materijal za vježbe*, Prirodno matematički fakultet, Univerzitet u Tuzli, 2013.
 * Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Matematički fakultet, Beograd, 2017.

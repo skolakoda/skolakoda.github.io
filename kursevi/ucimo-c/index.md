@@ -9,17 +9,8 @@ image: /images/kursevi/uvod.png
 
 ***Kurs programiranja za potpune početnike, kao i samouke kodere koji hoće da popune praznine. Solidan temelj za učenje drugih jezika, i dalju profesionalnu orjentaciju.***
 
-### Uvod u računare
+### Uvod
 
-- [Rana istorija računara](/rana-istorija-racunara)
-- [Fon Nojmanova arhitektura](/fon-nojmanova-arhitektura)
-- [Savremena istorija računara](/savremena-istorija-racunara)
-
-### Uvod u programiranje
-
-- [Zašto je programiranje zabavno?](/programiranje-je-zabavno)
-- [Da li je programiranje teško?](/programiranje-je-tesko)
-- [Uvod u programske jezike](/uvod-u-programske-jezike)
 - [Uvod u programski jezik C](/c-uvod)
 - [Tipovi podataka u jeziku C](/c-tipovi-podataka)
 
@@ -30,13 +21,6 @@ image: /images/kursevi/uvod.png
 - [Prevođenje programa](/c-kompajliranje)
 - [Izgradnja programa](/izgradnja-programa)
 - [Greške u programu](/greske-u-programu)
-
-### Brojčani sistemi
-
-- [Brojčani sistemi](/brojcani-sistemi)
-- [Binarni (dvojni) brojevi](/binarni-brojevi)
-- [Heksadecimalni (šesnaestični) brojevi](/heksadecimalni-brojevi)
-- Vežba: zapisivanje podataka u binarnom formatu
 
 ### Varijable
 
@@ -59,7 +43,6 @@ image: /images/kursevi/uvod.png
 
 ### Uslovi i grananje
 
-- [Logički tok programa](/uslovi)
 - [Relacijski i logički operatori](/c-relacijski-i-logicki-operatori)
 - [Logičke kapije](/logicke-kapije)
 - [Bitovni operatori](/bitovni-operatori)

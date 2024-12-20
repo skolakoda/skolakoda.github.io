@@ -35,6 +35,6 @@ Da li je zamišljeni broj veći od 16 ? ne
 
 Na osnovu dobijenih odgovora, drugi igrač može da zaključi da je zamišljeni broj u intervalu od 1 do 16 i da primeni binarno pretraživanje na taj interval. Broj pitanja potrebnih za određivanje intervala pretrage je O(log k), gde je k zamišljeni broj i ukupna složenost pogađanja je ponovo O(log k).
 
-### Literatura
+## Literatura
 
 - Predrag Janičić i Filip Marić, *PROGRAMIRANJE 2, Osnove programiranja kroz programski jezik C*, Matematički fakultet, Beograd, 2017.

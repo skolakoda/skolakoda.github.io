@@ -192,7 +192,7 @@ int main() {
 }
 ```
 
-### Literatura
+## Literatura
 
 - [Zadaci iz Programskog jezika C](http://www.its.edu.rs/reseni-primeri-iz-programskog-jezika-c-3/)
 - [Zbirka programskih rešenja u JavaScript jeziku](http://www.sabackagimnazija.edu.rs/files/materijali/webDizajn/Zbirka.htm)

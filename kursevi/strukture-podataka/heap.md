@@ -98,6 +98,6 @@ heap.extractMin();        // uklanja najmanji
 console.log(heap.peek());
 ```
 
-### Literatura
+## Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.

@@ -64,7 +64,7 @@ Analiziranjem problema možemo doći do zaključka da su nam i ovde potrebne 3 m
 Koristeći strukturu *queue* možemo rešiti ovaj problem. Primetimo da je vremenska složenost opisanih metoda O(1).
 
 
-### Literatura
+## Literatura
 
 - N. Pavković, D. Marjanović, N. Bojčetić, *Programiranje i algoritmi II*, Zagreb, 2005.
 - [Petlja.org](https://petlja.org/BubbleBee/r/Lectures/strukture-podataka-1), *Strukture podataka*

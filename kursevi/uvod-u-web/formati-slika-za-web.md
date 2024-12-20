@@ -38,6 +38,6 @@ SVG je napravljen u proširivom jeziku za označavanje (XML) i može se pisati d
 
 Uglavnom nije potrebno da ručno pišemo SVG oznake, zato što su dostupne mnoge alatke za kreiranje slika. Većina vektorskih grafičkih programa, kao što su [Adobe Illustrator](http://www.adobe.com/products/illustrator.html) i [Inkscape](https://inkscape.org/en/), sačuvaće slike u formatu SVG.
 
-### Literatura
+## Literatura
 
 * Laura Lemay, Rafe Colburn, Jennifer Kyrnin, *HTML5, CSS3 i JavaScript za razvoj veb strana*, Beograd, 2016.
