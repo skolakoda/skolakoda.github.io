@@ -17,17 +17,15 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Uvod u CSS?](/uvod-css)
 - [Kratka istorija weba](/kratka-istorija-weba)
 
-### Upoznavanje alata
+### Alati
 
-- Instalacija editora (Notepad++, [Atom](https://atom.io/), [Brackets](//brackets.io/), [Sublime](https://www.sublimetext.com/), [Code](https://code.visualstudio.com/)...)
-- Instalacija dodataka za: prepoznavanje jezika, ulepšavanje koda, otkrivanje grešaka
+- Instalacija editora i dodataka
 - Razvojni alati pregledača
 - [Tvrdo osvežavanje (*hard refresh*)](/hard-refresh)
 
-### Moja prva stranica
+### Web stranica
 
 - [HTML elementi](/html-elementi)
-  - Razlikovanje `block` i `inline` elemenata
   - [Gneždenje elemenata](/ucimo-html/gnezdenje)
 - [HTML atributi](/html-atributi)
   - [Upotreba navodnika](/ucimo-html/navodnici)
@@ -80,9 +78,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - [Liste definicija](/lista-definicija)
   - [Ugnježdene liste](/ugnjezdene-liste)
 - Navigacija
-  - pravljenje navigacije pomoću liste
-  - pravljenje navigacije pomoću linkova
-  - menjanje boje na hover
 - [Vežba: napravi mobilnu navigaciju](/vezba-napravi-navigaciju)
 - [Vežba: napravi unutrašnju navigaciju](/vezba-unutrasnja-navigacija)
 - [Vežba: napravi padajući meni](/vezba-padajuci-meni)
@@ -92,12 +87,10 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Osnovni prikazi: `block`, `inline` i `inline-block`
 - [Fleksibilni prikaz (display: flex)](/fleksibilni-prikaz)
 - Vežba: fleksibilno prikaži navigaciju
-- Vežba: fleksibilno prikaži krugove
 
 ### Pozicija elemenata
 
 - [Pozicija elemenata](/pozicioniranje-elemenata)
-- Plutanje elemenata (`float`) kao loša praksa
 - Promena redosleda slojeva (`z-index`)
 - [Vežba: napravi fiksirano zaglavlje](/vezba-fiksirano-zaglavlje)
 
@@ -109,15 +102,12 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Prvo mobilni dizajn](/prvo-mobilni)
 - [Bootstrap biblioteka](https://www.slideshare.net/DamjanPavlica/vodi-za-rad-sa-bootstrapom-69948458)
 - [Vežba: napravi prilagodljivu navigaciju](/vezba-prilagodljiva-navigacija)
-- Vežba: prilagodi prikaz stranica za razne uređaje
 
 ### Box model
 
 - [Box model](/css-box-model)
 - [Margine i razmaci](/margine-i-razmaci)
-- Unutrašnje praznine (`padding`) i širina elementa
 - [Prelivanje sadržaja](/html-overflow)
-- Vežba: promeni `box-sizing` elemenata u `border-box`, menjaj pading, uporedi razliku
 
 ### Slike i multimedija
 
@@ -137,7 +127,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Slanje formulara serveru (`POST` metoda)
 - [Kako napraviti kontakt formu bez bekenda?](/kontakt-forma-bez-bekenda)
 - Vežba: validiraj unos i odredi obavezna polja
-- Vežba: pošalji kontakt formu (koristi [formspree.io](https://formspree.io/))
 
 ### Korisničko iskustvo
 
@@ -147,32 +136,19 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 ### Dobre CSS prakse
 
 - [Dobre CSS prakse](/css-dobre-prakse)
-- Upotreba `!important` kao loša praksa
-- Skraćene direktive i opasnost od gaženja
-- Vežba: organizuj kod u logične celine
-- Vežba: podeli CSS u manje fajlove i uvezi ih u glavni fajl
 
 ### Napredni selektori
 
 - [Selektori naslednika i dece](/css-naslednici-i-deca)
 - [Selektori atributa](/css-selektori-atributa)
 - [Pseudo-klase](/css-pseudo-klase)
-- Blizanački selektori: *adjacent sibling* (`+`) i *general sibling* (`~`)
-- n-to dete i n-ti tip
 - Vežba: oboj svaki drugi red
-- Vežba: napravi otvaranje i zatvaranje navigacije samo sa CSS-om
-- Primer: [otvaranje padajućeg menija na klik](https://jsfiddle.net/mudroljub/turLhuy9/)
 - Primer: [otvaranje navigacije na klik](https://codepen.io/mudroljub/pen/JrJqxp)
-
-### CSS animacije
-- Tranzicije i animacije
-- Vežba: animiraj HTML element
-- Primer: [animirani meni](https://github.com/mudroljub/animirani-meni)
-- Primer: [avionče (animacija sa rotacijom)](https://jsfiddle.net/mudroljub/x5Ljzcky/)
 
 ### Serviranje fajlova
 
 - [Server](/server)
+- [Port](/portovi)
 - [Protokoli](/protokoli)
 - [HTTP protokol](/http)
 - [Sistem imena domena](/sistem-imena-domena)
@@ -183,7 +159,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Optimizacija brzine učitavanja
   - Optimizacija slika
   - [Minifikacija koda](/minifikacija)
-  - Uklanjanje ostalih prepreka
 
 ### SEO optimizacija
 

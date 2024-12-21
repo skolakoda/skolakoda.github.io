@@ -1,6 +1,6 @@
 ---
 title: Šta je port?
-layout: lekcija-nodejs
+layout: lekcija-html
 permalink: /portovi
 ---
 

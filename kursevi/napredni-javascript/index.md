@@ -58,7 +58,6 @@ kurs: napredni-js
   - [Niz obećanja](/niz-obecanja)
 - [Observable](https://jsbin.com/pitaxuv/edit?js,console)
 - Asinhrone funkcije (`async/await`)
-- Vežba: izvršenje povratne funkcije po učitanju svih slika
 
 ### Podaci i strukture
 
