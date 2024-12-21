@@ -31,7 +31,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - [Upotreba navodnika](/ucimo-html/navodnici)
 - [Pravljenje HTML fajla](/pravljenje-html-fajla)
 - [Imenovanje fajlova i foldera](/imenovanje-fajlova-i-foldera)
-- Vežba: Napravi stranicu koja ima naslov, tekst, sliku i link
 - Vežba: Postavi stranicu na Github
 
 ### Dodajemo boje
