@@ -10,7 +10,6 @@ image: /images/kursevi/java-logo.png
 ### Upoznavanje sa Javom
 
 - [Kratka istorija Jave](/kratka-istorija-jave)
-- [Objektno-orijentisano programiranje](/objektno-orijentisano-programiranje)
 - Instalacija Jave
 - [Program Zdravo svete](/zdravo-java)
 
@@ -24,20 +23,12 @@ image: /images/kursevi/java-logo.png
   - [break i continue](/java-break-i-continue)
   - [Označene petlje](/java-oznacene-petlje)
 - [Tipovi podataka u Javi](/java-tipovi-podataka)
+  - [Automatsko pretvaranje tipova (*casting*)](/java-pretvaranje-tipova)
 - [Promenljive i nepromenljive](/java-promenljive-i-nepromenljive)
-- [Naredbe vs. izrazi](/naredbe-i-izrazi)
 - Strune (*strings*)
 - [Nizovi](/java-nizovi)
 - [Argumenti komandne linije](/java-argumenti-komandne-linije)
 - [Komentari u programu](/java-komentari)
-
-### Integrisano razvojno okruženje
-
-- Izbor i instalacija okruženja (Eclipse, NetBeans, BlueJ)
-- Postavljanje projekta
-- Pravljenje nove Java aplikacije
-- Pokretanje Java aplikacije
-- Debagovanje
 
 ### Klase i objekti
 
@@ -54,7 +45,6 @@ image: /images/kursevi/java-logo.png
   - [Preopterećenje metoda](/preopterecenje-metoda) (*overloading*)
 - [Kontrola pristupa](/kontrola-pristupa)
   - [Zaštita pristupa u Javi](/java-zastita-pristupa)
-  - [Enkapsulacija](/enkapsulacija)
 - [Ključna reč `static`](/java-static)
 - [Ključna reč `final`](/java-final)
 - [Ključna reč `this`](/java-this)
@@ -65,7 +55,6 @@ image: /images/kursevi/java-logo.png
 - `StringBuilder` i `StringBuffer`
 - [toString() metoda](/java-to-string-metoda)
 - [Pretvaranje strune u broj](/java-pretvaranje-strune-u-broj)
-- Parameter Passing
 - [Ispitivanje jednakosti objekata](/java-jednakost-objekata)
 - Destroying Objects
 - [Klase omotači primitivnih tipova](/java-klase-omotaci)
@@ -73,18 +62,12 @@ image: /images/kursevi/java-logo.png
 
 ### Nasleđivanje u Javi
 
-- [Nasleđivanje klasa](/nasledjivanje-klasa)
-- [Automatsko pretvaranje tipova (*casting*)](/java-pretvaranje-tipova)
 - [Prekrivanje metoda (*overriding*)](/java-prekrivanje-metoda)
-- [Polimorfizam](/polimorfizam)
 - [Ključna reč `super`](/java-super)
 - Klasa Object
-
-### Napredno nasleđivanje
-
 - [Apstraktne klase](/java-abstract)
 - [Interfejsi](/java-interfejs)
-  - [Implementacija interfejsa](/implementacija-interfejsa)
+    - [Implementacija interfejsa](/implementacija-interfejsa)
 - Collections
 - [Generičke klase](/genericke-klase)
 - Comparable
@@ -94,8 +77,6 @@ image: /images/kursevi/java-logo.png
 - [Biblioteka Java klasa](/java-biblioteka-klasa)
 - [Ključna reč `import`](/java-import)
 - [Pravljenje paketa u Javi](/java-pravljenje-paketa)
-- `CLASSPATH`
-- Package Scope
 
 ### Rukovanje izuzecima
 
@@ -105,7 +86,6 @@ image: /images/kursevi/java-logo.png
 - [Metode klase `Exception`](/exception-metode)
 - [Izbacivanje izuzetaka](/izbacivanje-izuzetaka)
 - [Definisanje vlastitih izuzetaka](/definisanje-izuzetaka)
-- Errors and RuntimeExceptions
 
 ### Ulazno-izlazni tokovi
 
