@@ -1,6 +1,6 @@
 ---
 title: Protokoli
-layout: lekcija-html
+layout: lekcija-web
 permalink: /protokoli
 ---
 

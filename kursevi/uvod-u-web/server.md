@@ -1,6 +1,6 @@
 ---
 title: Šta je server?
-layout: lekcija-html
+layout: lekcija-web
 permalink: /server
 image: /images/koncepti/web/zahtev-odgovor.png
 ---

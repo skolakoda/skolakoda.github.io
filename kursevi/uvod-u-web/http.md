@@ -1,6 +1,6 @@
 ---
 title: Šta je HTTP?
-layout: lekcija-html
+layout: lekcija-web
 permalink: /http
 image: /images/koncepti/web/zahtev-odgovor.png
 ---

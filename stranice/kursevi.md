@@ -14,10 +14,10 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
 
 <div class="boxes">
   {% include kutijice/c.html %}
-  {% include kutijice/web.html %}
+  {% include kutijice/web-dizajn.html %}
   {% include kutijice/js.html %}
-  {% include kutijice/frontend.html %}
   {% include kutijice/js-napredni.html %}
+  {% include kutijice/frontend.html %}
   {% include kutijice/java.html %}
 </div>
 
@@ -25,6 +25,7 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
 
 <div class="boxes">
   {% include kutijice/uvod.html %}
+  {% include kutijice/web.html %}
   {% include kutijice/strukture.html %}
   {% include kutijice/algoritmi.html %}
   {% include kutijice/inzenjerstvo.html %}

@@ -1,6 +1,6 @@
 ---
 title: Šta je web hosting?
-layout: lekcija-html
+layout: lekcija-web
 permalink: /hosting
 ---
 
