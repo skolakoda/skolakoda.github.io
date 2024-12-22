@@ -7,12 +7,20 @@ opis: Uvod u računarske mreže i temeljne web tehnologije. Učimo šta je serve
 
 **{{page.opis}}**
 
-### Server i služenje podataka
+### Osnovni mrežni koncepti
 
 - [Server](/server)
 - [Port](/portovi)
+- IP adresa
+- Ruter
+
+### Mrežni protokoli i servisi
+
 - [Protokoli](/protokoli)
 - [HTTP protokol](/http)
+- [Web servisi](/web-servisi)
+
+### DNS i web hosting
+
 - [Sistem imena domena](/sistem-imena-domena)
 - [Web hosting](/hosting)
-- [Web servisi](/web-servisi)

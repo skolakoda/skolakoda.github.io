@@ -7,11 +7,11 @@ image: /images/koncepti/web/zahtev-odgovor.png
 
 ![]({{page.image}})
 
-**Da bismo pregledali stranice potreban nam je pregledač. Da bismo objavili web stranice, potreban nam je web server.**
+**Da bismo pregledali stranice potreban nam je pregledač. Da bismo služili web stranice, potreban nam je web server.**
 
-Server ili poslužitelj je računar povezan na mrežu, koji prima zahteve i odgovara na njih. Server je takođe naziv za specijalizovani softver instaliran na tom računaru. Primarna uloga servera je da se na njemu hostuju stranice i fajlovi, i tako postanu dostupni na webu. 
+Server ili poslužitelj je računar povezan na mrežu, koji prima zahteve i odgovara na njih. Server je takođe naziv za specijalizovani softver instaliran na tom računaru. Glavna uloga servera je da se na njemu "ugoste" (hostuju) stranice i fajlovi, i tako postanu dostupni na webu. 
 
-Server mora imati statičku (nepromenljivu) IP adresu na internetu.
+Server mora imati statičku (nepromenljivu) IP adresu na internetu, kako bi mu klijenti pristupali.
 
 ## HTTP zahtev i odgovor
 
@@ -25,11 +25,11 @@ Web serveri i pregledači komuniciraju pomoću **protokola za prenos hiperteksta
 
 Neki serveri mogu da obrade datoteke pre nego što ih pošalju klijentima. Pomoću serverske obrade, na primer, možemo da umetnemo datum ili deo teksta na svaku stranicu.
 
-Većina servera obezbeđuje opciju za pokretanje serverskih skripti ili frejmvorka koji dinamički generišu dokumente. PHP je jezik koji se najviše koristi, lak je za korišćenje i radi na većini servera. Druga popularna rešenja su Microsoftov *.NET*, koji se pokreće u Windowsu, *Java Server Pages*, koji se pokreće na većini servera, *Go*, *Ruby on Rails* i *Django* - svi oni mogu se koristiti za izradu veb aplikacija.
+Većina servera obezbeđuje opciju za pokretanje serverskih skripti ili frejmvorka koji dinamički generišu dokumente. PHP je jezik koji se često koristi, lak je za korišćenje i radi na većini servera. Druga popularna rešenja su Microsoftov *.NET*, koji se pokreće u Windowsu, *Java Server Pages*, koji se pokreće na većini servera, *Go*, *Ruby on Rails* i *Django* - svi oni mogu se koristiti za izradu veb aplikacija.
 
 ## Ostala zaduženja servera
 
-Serveri su odgo­vorni za obaveštavanje pregledača o tipu sadržaja koji se nalazi u datoteci. Veb server, takođe, određuje kako URL adrese treba prevesti u lokacije datoteka. Ako klijent zahteva dato­teku koja ne postoji, server prikazuje HTTP grešku 404. Možemo da konfigurišemo server tako da se jedna URL adresa preusmeri na drugu. Na kraju, serveri čuvaju log fajlove radi evidencije o broju pristupa svakoj adresi. Oni čuvaju i evi­denciju grešaka koje nastaju kada klijenti šalju zahteve, tako da možemo da pratimo i ispravljamo greške.
+Serveri su odgo­vorni za obaveštavanje pregledača o tipu sadržaja koji se nalazi u datoteci. Server takođe određuje kako URL adrese treba prevesti u lokacije datoteka. Ako klijent zahteva dato­teku koja ne postoji, server prikazuje HTTP grešku 404. Možemo da konfigurišemo server tako da se jedna URL adresa preusmeri na drugu. Na kraju, serveri čuvaju log fajlove radi evidencije o broju pristupa svakoj adresi. Oni čuvaju i evi­denciju grešaka koje nastaju kada klijenti šalju zahteve, tako da možemo da pratimo i ispravljamo greške.
 
 ## Autentikacija i bezbednost
 
