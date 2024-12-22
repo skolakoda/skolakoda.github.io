@@ -7,7 +7,7 @@ opis: Uvod u računarske mreže i temeljne web tehnologije. Učimo šta je serve
 
 **{{page.opis}}**
 
-### Serviranje fajlova
+### Server i služenje podataka
 
 - [Server](/server)
 - [Port](/portovi)
@@ -15,3 +15,4 @@ opis: Uvod u računarske mreže i temeljne web tehnologije. Učimo šta je serve
 - [HTTP protokol](/http)
 - [Sistem imena domena](/sistem-imena-domena)
 - [Web hosting](/hosting)
+- [Web servisi](/web-servisi)

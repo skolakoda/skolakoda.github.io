@@ -1,6 +1,6 @@
 ---
 title: Šta su web servisi?
-layout: lekcija-nodejs
+layout: lekcija-web
 permalink: /web-servisi
 ---
 

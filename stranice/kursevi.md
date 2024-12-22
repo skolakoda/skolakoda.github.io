@@ -38,7 +38,6 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
 
 <div class="boxes small-boxes">
   {% include kutijice/php.html %}
-  {% include kutijice/nodejs.html %}
   {% include kutijice/threejs.html %}
   {% include kutijice/react.html %}
   {% include kutijice/sql.html %}
