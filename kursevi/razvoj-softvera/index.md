@@ -79,17 +79,13 @@ desc: Učimo razvoj softvera. Učimo da analiziramo zahteve, osmišljamo rešenj
 ### Arhitektonski obrasci
 
 - [Arhitektura softvera](/arhitektura-softvera)
-- Klijent-server model
 - [Višeslojna arhitektura](/viseslojna-arhitektura) (*n-tier*)
 - [Model–view–controller (MVC)](/mvc)
   - Model–view–presenter (MVP)
   - [Model–view–viewmodel (MVVM)](/mvvm)
 - [Front kontroler](/front-kontroler)
-- [Model ravnopravnih partnera](/model-ravnopravnih-partnera) (*peer-to-peer*)
 - Mikroservisi
 - Mikro frontendi
-- [Cloud arhitektura](/cloud-arhitektura)
-  - Arhitektura bez servera (*serverless*)
 
 ### Faze razvoja softvera
 

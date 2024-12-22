@@ -1,6 +1,6 @@
 ---
 title: Cloud arhitektura
-layout: lekcija-razvoj
+layout: lekcija-web
 permalink: /cloud-arhitektura
 image: /images/koncepti/cloud-arhitektura.jpg
 ---

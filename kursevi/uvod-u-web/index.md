@@ -1,8 +1,8 @@
 ---
 layout: kurs
 title: Uvod u web
-image: /images/koncepti/web/zahtev-odgovor.png
-opis: Uvod u računarske mreže i temeljne web tehnologije. Učimo šta je server, šta su portovi, protokoli i slično.
+image: /images/koncepti/web/computer-network.png
+opis: Učimo računarske mreže i temeljne web tehnologije. Učimo šta je server, šta su portovi, protokoli i slično.
 ---
 
 **{{page.opis}}**
@@ -24,3 +24,10 @@ opis: Uvod u računarske mreže i temeljne web tehnologije. Učimo šta je serve
 
 - [Sistem imena domena](/sistem-imena-domena)
 - [Web hosting](/hosting)
+
+### Mrežna arhitektura
+
+- Klijent-server model
+- [Model ravnopravnih partnera](/model-ravnopravnih-partnera) (*peer-to-peer*)
+- [Cloud arhitektura](/cloud-arhitektura)
+  - Arhitektura bez servera (*serverless*)
