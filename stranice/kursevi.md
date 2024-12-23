@@ -29,6 +29,7 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
   {% include kutijice/strukture.html %}
   {% include kutijice/algoritmi.html %}
   {% include kutijice/inzenjerstvo.html %}
+  {% include kutijice/principi-razvoja.html %}
   {% include kutijice/razvoj-igara.html %}
   {% include kutijice/refaktorisanje.html %}
   {% include kutijice/bez-racunara.html %}

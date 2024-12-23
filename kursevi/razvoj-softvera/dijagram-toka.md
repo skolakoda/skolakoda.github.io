@@ -1,6 +1,6 @@
 ---
 title: Izrada dijagrama toka
-layout: lekcija-razvoj
+layout: lekcija-principi
 permalink: /dijagram-toka
 ---
 
