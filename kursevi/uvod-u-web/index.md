@@ -9,6 +9,7 @@ opis: Učimo računarske mreže i temeljne web tehnologije. Učimo šta je serve
 
 ### Osnovni mrežni koncepti
 
+- [Uvod u računarske mreže](/racunarske-mreze)
 - [Server](/server)
 - [Port](/portovi)
 - IP adresa
