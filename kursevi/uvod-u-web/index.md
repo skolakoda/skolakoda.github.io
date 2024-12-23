@@ -1,8 +1,8 @@
 ---
 layout: kurs
 title: Uvod u web
-image: /images/koncepti/web/computer-network.png
-opis: Učimo računarske mreže i temeljne web tehnologije. Učimo šta je server, šta su portovi, protokoli i slično.
+image: /images/koncepti/web/www.jpeg
+opis: Učimo računarske mreže i temelje *world wide web* tehnologije. Učimo šta je server, šta su portovi, protokoli i slično.
 ---
 
 **{{page.opis}}**
@@ -12,8 +12,8 @@ opis: Učimo računarske mreže i temeljne web tehnologije. Učimo šta je serve
 - [Uvod u računarske mreže](/racunarske-mreze)
 - [Server](/server)
 - [Port](/portovi)
-- IP adresa
-- Ruter
+- [IP adresa](/ip-adresa)
+- [Ruter](/ruter)
 
 ### Mrežni protokoli i servisi
 
