@@ -193,6 +193,7 @@ image: /images/kursevi/js-logo.png
 - Integracioni testovi
 - [Vežba: testiranje sum funkcije](/vezba-testiranje-sum-funkcije)
 
-### Razno
+### Praktični zadaci
 
+- [Autentifikacija korisnika](/autentifikacija)
 - [Kako razlikovati uređaje prema dodirljivosti ekrana?](/tretirati-klijentske-uredjaje)
