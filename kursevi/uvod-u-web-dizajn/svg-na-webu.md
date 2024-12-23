@@ -1,15 +1,15 @@
 ---
 title: Rad sa SVG-om
 author: damjan
-layout: lekcija-frontend
+layout: lekcija-html
 permalink: /svg-na-webu
 ---
+
+![](/images/koncepti/vektori/raster-vs-vektor.png)
 
 Poslednjih godina, slike u vektorskom formatu su postale [opšte podržane](//caniuse.com/#feat=svg) na webu i redovno se koriste za ikonice, logoe i druge odgovarajuće namene. Kao što verovatno znate, SVG ne gubi kvalitet prilikom skaliranja, ali je pogodan uglavnom za geometriju (ne može zameniti fotografije).
 
 SVG na stranici možemo tretirati kao sliku, ali ga takođe možemo tretirati kao bilo koji drugi HTML element, jer su SVG i HTML zapravo dva člana iste jezičke porodice.
-
-![](http://quickleft.com/wp-content/uploads/687474703a2f2f662e636c2e6c792f6974656d732f31613139317a314d3273316b32523041303932542f7261737465722d76732d766563746f722e706e67.png)
 
 ## SVG kao slika
 
@@ -100,9 +100,7 @@ Na kraju u CSS-u podesimo nove dimenzije i skaliranje:
 
 ## Rezultat
 
-Sada nad našom ikonicom imamo potpunu kontrolu i možemo je menjati po želji. Za početak, postavili smo laganu promenu boje na hover (izvorni kod možete videti na [fiddle](https://jsfiddle.net/mudroljub/owd6p8y7/)-u).
-
-<script async src="//jsfiddle.net/mudroljub/owd6p8y7/embed/result/"></script>
+Sada nad našom ikonicom imamo potpunu kontrolu i možemo je menjati po želji. Za početak, postavili smo laganu promenu boje na hover.
 
 U slučaju da se ikonica sastoji od više delova, možemo im dodavati različitu boju, providnost i slično. I naravno, ako otkrijete neku novu foru, slobodno podelite.
 

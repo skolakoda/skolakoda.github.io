@@ -1,7 +1,7 @@
 ---
 title: Rad sa gitom u kolektivu
 author: damjan
-layout: lekcija-frontend
+layout: lekcija-razvoj
 permalink: /rad-sa-gitom
 ---
 

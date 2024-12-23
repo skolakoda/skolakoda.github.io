@@ -41,7 +41,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - [Bonus: Heksadecimalni brojevi](/heksadecimalni-brojevi)
 - [Podrazumevani stilovi pregledača](/podrazumevani-stilovi-pregledaca)
 - [Vežba: Promeni boju slova i pozadine](/vezba-boja-slova-i-pozadine)
-- Vežba: Otkrij ko ne nasleđuje boju od roditelja?
 
 ### Tipografija
 
@@ -56,7 +55,6 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - [Osnovna HTML struktura](/html-struktura)
 - [HTML kao stablo](/html-stablo)
 - [Provera validnosti stranica](/html-validacija)
-- Vežba: postavi osnovnu strukturu stranice
 - Vežba: proveri [validnost stranica](https://validator.w3.org/)
 
 ### Linkovi i putanje
@@ -115,8 +113,8 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
   - [Pozadinska slika](/pozadinska-slika)
   - [Mapirana slika](/mapirana-slika)
   - `picture` tag za razne rezolucije
+- [Rad sa SVG-om](/svg-na-webu)
 - [Video u HTML-u](/html-video)
-- Vežba: dodaj više veličina slike
 - [Vežba: napravi fotogaleriju](/vezba-napravi-fotogaleriju)
 
 ### Kontakt stranica
@@ -135,6 +133,7 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 ### Dobre CSS prakse
 
 - [Dobre CSS prakse](/css-dobre-prakse)
+- [Saveti za rad sa Bootstrapom](/rad-sa-bootstrapom)
 
 ### Napredni selektori
 
@@ -144,25 +143,9 @@ opis: Nauči da praviš funkcionalne stranice sa tekstom, slikama, vezama, multi
 - Vežba: oboj svaki drugi red
 - Primer: [otvaranje navigacije na klik](https://codepen.io/mudroljub/pen/JrJqxp)
 
-### Serviranje fajlova
+### Optimizacija stranica
 
-- [Server](/server)
-- [Port](/portovi)
-- [Protokoli](/protokoli)
-- [HTTP protokol](/http)
-- [Sistem imena domena](/sistem-imena-domena)
-- [Web hosting](/hosting)
-
-### Optimizacija brzine
-- Merenje brzine učitavanja ([PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/))
 - Optimizacija brzine učitavanja
   - Optimizacija slika
   - [Minifikacija koda](/minifikacija)
-
-### SEO optimizacija
-
-- Identifikacija ključnih reči
-- Sređivanje sadržaja, naslova, linkova, titlova, meta opisa...
-- Sređivanje slika (jasni nazivi fajlova, alt i title atributi)
-- Čitljive URL adrese
-- *PageRank* algoritam: dodavanje veza ka sajtu (društvene mreže, blog, Github)
+- SEO optimizacija

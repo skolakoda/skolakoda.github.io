@@ -1,7 +1,7 @@
 ---
 title: Saveti za rad sa Bootstrapom
 author: damjan
-layout: lekcija-frontend
+layout: lekcija-html
 image: https://cdn-images-1.medium.com/max/1349/1*XK_dfIrxW0UyoDy2Ja9z-A.png
 permalink: /rad-sa-bootstrapom
 ---

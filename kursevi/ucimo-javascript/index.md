@@ -175,17 +175,15 @@ image: /images/kursevi/js-logo.png
 
 - Rad sa slikama
 - Rad sa zvukom i videom
-- Crtanje i animacije na platnu (`canvas`) 
+- Pravljenje animacija
 - [Vežba: Javascript magija](/vezba-javascript-magija)
 - Vežba: Napravi audio plejer i plejlistu
 
-### Node.js bekend servisi [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
+### Node.js [<img src="/images/ikonice/github.svg" class="ikonica-veca">](https://github.com/skolakoda/ucimo-nodejs)
 
-- [Šta je server?](/server)
-- [Šta su web servisi?](/web-servisi)
-- Žetva podataka (*web scraping*)
 - Čitanje i pisanje fajlova
 - Služenje podataka
+- [Kako napraviti desktop softver sa Javaskriptom?](/javaskript-desktop-softver)
 
 ### Testiranje
 
@@ -194,3 +192,7 @@ image: /images/kursevi/js-logo.png
 - [*Jasmine* biblioteka](/jasmine-biblioteka)
 - Integracioni testovi
 - [Vežba: testiranje sum funkcije](/vezba-testiranje-sum-funkcije)
+
+### Razno
+
+- [Kako razlikovati uređaje prema dodirljivosti ekrana?](/tretirati-klijentske-uredjaje)

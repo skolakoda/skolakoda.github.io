@@ -17,7 +17,6 @@ Proizvodimo besplatne online kurseve, koji su svima dostupni.
   {% include kutijice/web-dizajn.html %}
   {% include kutijice/js.html %}
   {% include kutijice/js-napredni.html %}
-  {% include kutijice/frontend.html %}
   {% include kutijice/java.html %}
 </div>
 

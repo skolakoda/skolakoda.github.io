@@ -1,6 +1,6 @@
 ---
 title: Kako organizovati frontend projekat koji raste?
-layout: lekcija-frontend
+layout: lekcija-razvoj
 author: damjan
 permalink: /kako-organizovati-frontend-projekat
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Bau_MSW_%281%29.jpg/1280px-Bau_MSW_%281%29.jpg

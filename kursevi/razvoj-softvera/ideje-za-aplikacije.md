@@ -1,7 +1,7 @@
 ---
 title: Ideje za aplikacije
 author: damjan
-layout: lekcija-frontend
+layout: lekcija-razvoj
 permalink: /ideje-za-aplikacije
 image: https://upload.wikimedia.org/wikipedia/commons/2/2c/Rock_crusher_gears.jpg
 ---

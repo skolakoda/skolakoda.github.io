@@ -49,3 +49,4 @@ Folderi koji su deo `Jekyll`-a počinju donjom crtom, a ostali su custom folderi
   - polica sa knjigama https://jsfiddle.net/mudroljub/xbwhc9mr/3/
 - https://damjanpavlica.wordpress.com/category/programiranje/zen-programiranja/
 - iskoristiti stari dizajn, policu sa knjigama sa jsfidle
+  - https://jsfiddle.net/mudroljub/xbwhc9mr/3/

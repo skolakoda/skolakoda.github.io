@@ -1,7 +1,7 @@
 ---
 title: Kako napraviti desktop softver sa Javaskriptom?
 author: damjan
-layout: lekcija-frontend
+layout: lekcija-js
 permalink: /javaskript-desktop-softver
 ---
 
