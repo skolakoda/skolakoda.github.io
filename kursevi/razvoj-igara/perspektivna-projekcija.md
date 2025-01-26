@@ -4,19 +4,17 @@ layout: lekcija-razvoj-igara
 permalink: /perspektivna-projekcija
 ---
 
-<!-- ![](/images/razvoj-igara/perspektiva.gif) -->
+![perspektiva](/images/razvoj-igara/perspektiva.png)
 
-<!-- ![perspektiva](/images/razvoj-igara/perspektiva.png) -->
-
-![](/images/razvoj-igara/ViewFrustum.svg)
+<!-- ![](/images/razvoj-igara/ViewFrustum.svg) -->
 
 **3D svet se najbolje predstavlja projekcijom na 2D ravan uz primenu perspektive. Što je predmet dalje od kamere to deluje manje na slici, kao što i oči prirodno vide.**
 
 Oblik 3D perspektivne projekcije se naziva **frustum**, odnosno piramida čiji je vrh odsečen pomoću ravni koja je paralelna njenoj osnovi.
 
-Za razliku od paralelne projekcije, perspektivna projekcija se oslanja na koncept **fokalne tačke**. 
+Za razliku od ortogonalne, perspektivna projekcija se oslanja na koncept **fokalne tačke**. 
 
-## Matrica projekcije
+<!-- ## Matrica projekcije
 
 Najjednostavnija matrica perspektivne projekcije:
 
@@ -25,7 +23,7 @@ Najjednostavnija matrica perspektivne projekcije:
   0  1  0  0
   0  0  1  0
   0  0 -1  0 ]
-```
+``` -->
 
 ## 2D projekcija
 
