@@ -165,7 +165,7 @@ U ovom primeru, tačke se rotiraju u 3D prostoru, preslikavaju u 2D koristeći p
 const canvas = document.getElementById('canvas2')
 const ctx = canvas.getContext('2d')
 
-const fov = 100
+const fov = 500
 
 const pixels = []
 for (let x = -100; x <= 100; x += 10)
