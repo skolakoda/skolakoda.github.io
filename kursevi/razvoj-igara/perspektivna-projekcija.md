@@ -179,7 +179,7 @@ function render() {
   pixels.forEach(p => {
     const zRot = Math.cos(angle) * p.z - Math.sin(angle) * p.x
     const xRot = Math.sin(angle) * p.z + Math.cos(angle) * p.x
-    const scale = fov / (fov + zRot + 150)
+    const scale = fov / (fov + zRot)
     const x2d = xRot * scale + canvas.width / 2
     const y2d = p.y * scale + canvas.height / 2
     ctx.fillRect(x2d, y2d, 2, 2)
