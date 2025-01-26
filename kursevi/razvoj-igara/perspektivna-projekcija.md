@@ -191,6 +191,55 @@ function render() {
 render()
 ```
 
+## Primer: 3D projekcija sfere
+
+{:.ulaz}
+```js
+
+const canvas = document.getElementById('canvas3')
+const ctx = canvas.getContext('2d')
+
+const radius = 150
+const planetSpeed = 0.005
+let angle = 0
+
+const centerX = canvas.width / 2
+const centerY = canvas.height / 2
+const perspective = 300
+
+function drawPlanet() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height)
+
+  for (let phi = 0; phi < Math.PI; phi += 0.1)
+    for (let theta = 0; theta < 2 * Math.PI; theta += 0.1) {
+      const x3D = radius * Math.sin(phi) * Math.cos(theta)
+      const y3D = radius * Math.sin(phi) * Math.sin(theta)
+      const z3D = radius * Math.cos(phi)
+
+      const xRot = x3D * Math.cos(angle) - z3D * Math.sin(angle)
+      const zRot = x3D * Math.sin(angle) + z3D * Math.cos(angle)
+
+      const scale = perspective / (perspective + zRot)
+      const x2D = centerX + xRot * scale
+      const y2D = centerY + y3D * scale
+
+      ctx.beginPath()
+      ctx.arc(x2D, y2D, 2, 0, 2 * Math.PI)
+      ctx.fillStyle = 'blue'
+      ctx.fill()
+    }
+
+}
+
+function animate() {
+  requestAnimationFrame(animate)
+  angle += planetSpeed
+  drawPlanet()
+}
+
+animate()
+```
+
 ## Literatura
 
 - Etay Meiri, [*Perspective projection*](https://ogldev.org/www/tutorial12/tutorial12.html)
