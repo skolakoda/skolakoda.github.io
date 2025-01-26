@@ -44,7 +44,7 @@ R = P * (Ez / Pz)
 
 Ova formula jednako radi u 2D i 3D. Perspektivna projekcija je samo primena ove formule na svaki vrh.
 
-## Primer: 3D projekcija kocke
+## Primer: projekcija kocke
 
 Implementacija perspektivna projekcije u kodu:
 
@@ -100,7 +100,7 @@ skalar = 200 / (z + 4)
 
 određuje koliki će predmet biti na ekranu, na osnovu njegove dubine (`z`). 200 je osnovni skalar. Kako `z` raste (predmet je dalje), veličina se smanjuje. Dodavanje `+ 4` sprečava da predmet postane previše mali ili beskonačno veliki kada je blizu posmatrača.
 
-## Primer: 3D projekcija ravni
+## Primer: projekcija ravni
 
 Rotiramo ravan u 3D prostoru tako što menjamo uglove rotacije oko X i Y osa. Rotacija se obavlja pomoću trigonometrijskih funkcija, a zatim se tačke projektuju na 2D ekran kako bi izgledale kao da su u prostoru. 
 
@@ -156,47 +156,12 @@ function animiraj() {
 setInterval(animiraj, 1000 / 60)  // 60 FPS
 ```
 
-## Primer: 3D projekcija tačaka
-
-U ovom primeru, tačke se rotiraju u 3D prostoru, preslikavaju u 2D koristeći perspektivu i crtaju na platnu. 
+## Primer: projekcija sfere
 
 {:.ulaz}
 ```js
+
 const canvas = document.getElementById('canvas2')
-const ctx = canvas.getContext('2d')
-
-const fov = 500
-
-const pixels = []
-for (let x = -100; x <= 100; x += 10)
-  for (let z = -100; z <= 100; z += 10)
-    pixels.push({ x, y: 40, z })
-
-let angle = 0
-
-function render() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height)
-  pixels.forEach(p => {
-    const zRot = Math.cos(angle) * p.z - Math.sin(angle) * p.x
-    const xRot = Math.sin(angle) * p.z + Math.cos(angle) * p.x
-    const scale = fov / (fov + zRot)
-    const x2d = xRot * scale + canvas.width / 2
-    const y2d = p.y * scale + canvas.height / 2
-    ctx.fillRect(x2d, y2d, 2, 2)
-  })
-  angle += 0.005
-  requestAnimationFrame(render)
-}
-
-render()
-```
-
-## Primer: 3D projekcija sfere
-
-{:.ulaz}
-```js
-
-const canvas = document.getElementById('canvas3')
 const ctx = canvas.getContext('2d')
 
 const radius = 150
@@ -238,6 +203,96 @@ function animate() {
 }
 
 animate()
+```
+
+
+## Primer: projekcija tačaka u ravni
+
+U ovom primeru, tačke se rotiraju u 3D prostoru, preslikavaju u 2D koristeći perspektivu i crtaju na platnu. 
+
+{:.ulaz}
+```js
+const canvas = document.getElementById('canvas3')
+const ctx = canvas.getContext('2d')
+
+const fov = 500
+
+const pixels = []
+for (let x = -100; x <= 100; x += 10)
+  for (let z = -100; z <= 100; z += 10)
+    pixels.push({ x, y: 40, z })
+
+let angle = 0
+
+function render() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height)
+  pixels.forEach(p => {
+    const zRot = Math.cos(angle) * p.z - Math.sin(angle) * p.x
+    const xRot = Math.sin(angle) * p.z + Math.cos(angle) * p.x
+    const scale = fov / (fov + zRot)
+    const x2d = xRot * scale + canvas.width / 2
+    const y2d = p.y * scale + canvas.height / 2
+    ctx.fillRect(x2d, y2d, 2, 2)
+  })
+  angle += 0.005
+  requestAnimationFrame(render)
+}
+
+render()
+```
+
+## Primer: projekcija tačaka u kocki
+
+{:.ulaz}
+```js
+const canvas = document.getElementById('canvas4')
+const ctx = canvas.getContext('2d')
+
+const w2 = canvas.width / 2, h2 = canvas.height / 2
+const { cos } = Math, { sin } = Math, pi = Math.PI
+
+let skalar = 200
+let ugao1 = 0
+let ugao2 = 0
+
+function project(x, y, z) {
+  const x1 = x * cos(ugao1) + z * sin(ugao1)
+  const z1 = -x * sin(ugao1) + z * cos(ugao1)
+  const x2 = x1
+  const y2 = y * cos(ugao2) + z1 * sin(ugao2)
+  const z2 = -y * sin(ugao2) + z1 * cos(ugao2) + 300
+  const d = 500 / z2
+  const x3 = (skalar / z2) * x2 + w2
+  const y3 = (skalar / z2) * y2 + h2
+  ctx.beginPath()
+  ctx.arc(x3, y3, d, 0, 2 * pi)
+  ctx.fill()
+}
+
+function loop() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height)
+  const x = 100, y = 100, z = 100
+
+  for (let i = 0; i < 5; i++)
+    for (let j = 0; j < 5; j++) {
+      const xj = 0.5 * j * x - 100
+      const yi = 0.5 * i * y - 100
+      const zj = 0.5 * j * z - 100
+      const zi = 0.5 * i * z - 100
+      project(xj, yi, -z)
+      project(xj, yi, z)
+      project(x, yi, zj)
+      project(-x, yi, zj)
+      project(xj, y, zi)
+      project(xj, -y, zi)
+    }
+
+  ugao1 += 0.02
+  ugao2 += 0.03
+  window.requestAnimationFrame(loop)
+}
+
+loop()
 ```
 
 ## Literatura
