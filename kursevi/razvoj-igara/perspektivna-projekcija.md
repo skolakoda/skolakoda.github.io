@@ -100,14 +100,13 @@ skalar = 200 / (z + 4)
 
 određuje koliki će predmet biti na ekranu, na osnovu njegove dubine (`z`). 200 je osnovni skalar. Kako `z` raste (predmet je dalje), veličina se smanjuje. Dodavanje `+ 4` sprečava da predmet postane previše mali ili beskonačno veliki kada je blizu posmatrača.
 
-
 ## Primer: 3D projekcija ravni
 
 Rotiramo ravan u 3D prostoru tako što menjamo uglove rotacije oko X i Y osa. Rotacija se obavlja pomoću trigonometrijskih funkcija, a zatim se tačke projektuju na 2D ekran kako bi izgledale kao da su u prostoru. 
 
 {:.ulaz}
 ```js
-const canvas = document.getElementById('platno')
+const canvas = document.getElementById('canvas1')
 const ctx = canvas.getContext('2d')
 
 const d = 500
@@ -155,6 +154,41 @@ function animiraj() {
 }
 
 setInterval(animiraj, 1000 / 60)  // 60 FPS
+```
+
+## Primer: 3D projekcija tačaka
+
+U ovom primeru, tačke se rotiraju u 3D prostoru, preslikavaju u 2D koristeći perspektivu i crtaju na platnu. 
+
+{:.ulaz}
+```js
+const canvas = document.getElementById('canvas2')
+const ctx = canvas.getContext('2d')
+
+const fov = 100
+
+const pixels = []
+for (let x = -100; x <= 100; x += 10)
+  for (let z = -100; z <= 100; z += 10)
+    pixels.push({ x, y: 40, z })
+
+let angle = 0
+
+function render() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height)
+  pixels.forEach(p => {
+    const zRot = Math.cos(angle) * p.z - Math.sin(angle) * p.x
+    const xRot = Math.sin(angle) * p.z + Math.cos(angle) * p.x
+    const scale = fov / (fov + zRot + 150)
+    const x2d = xRot * scale + canvas.width / 2
+    const y2d = p.y * scale + canvas.height / 2
+    ctx.fillRect(x2d, y2d, 2, 2)
+  })
+  angle += 0.005
+  requestAnimationFrame(render)
+}
+
+render()
 ```
 
 ## Literatura
