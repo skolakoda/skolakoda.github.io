@@ -7,7 +7,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 
 **{{page.desc}}**
 
-**Pitagora, Dekart i Njutn su trojica likova nezaobilaznih u razvoju igara. Posebno Pitagorina teorema, Dekartov koordinatni sistem i Njutnovi zakoni.**
+**Pitagora, Dekart i Njutn su trojica likova nezaobilaznih u razvoju igara, posebno Pitagorina teorema, Dekartov koordinatni sistem i Njutnovi zakoni.**
 
 ### Geometrija
 
@@ -24,7 +24,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Kružne animacije pomoću trigonometrije](/trigonometrija-animacija)
 - [Jedinični krug](/jedinicni-krug)
 
-### Vektori
+### Vektori (Linearna algebra)
 
 - [Vektori](/vektori)
 - [Jedinični vektor](/jedinicni-vektor)
@@ -75,7 +75,7 @@ desc: Učimo matematiku, geometriju, fiziku i sva ostala temeljna znanja potrebn
 - [Ortografska projekcija](/ortografska-projekcija)
 - [Perspektivna projekcija](/perspektivna-projekcija)
 
-### Matrice i transformacije
+### Matrice i transformacije (Linearna algebra)
 
 - [Linearne transformacije](/linearne-transformacije)
 - [Transformacione matrice](/transformacione-matrice)

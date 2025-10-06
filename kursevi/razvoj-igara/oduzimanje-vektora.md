@@ -4,7 +4,9 @@ layout: lekcija-razvoj-igara
 permalink: /oduzimanje-vektora
 ---
 
-Vektore oduzimamo jedan od drugog na sledeći način:
+**U igrama, oduzimanje vektora je korisno za dobijanje vektora koji vodi od jedne pozicije do druge.**
+
+Da bismo izračunali vektor koji vodi od jedne do druge tačke, oduzimamo početnu tačku od odredišne. Vektore oduzimamo na sledeći način:
 
 - prvo obrnemo pravac vektora koji želimo da oduzmemo (npr. b)
 - zatim ih sabiramo
@@ -17,17 +19,21 @@ a - b = a + (-b)
 
 ![vector-subtract](/images/razvoj-igara/vector-subtract.gif)
 
-Procedura oduzimanja vektora je sledeća:
+Procedura oduzimanja 2D vektora je sledeća:
+
+```
+a - b = [(a.x - b.x), (a.y - b.y)]
+```
+
+Za 3D vektore dodajemo još jednu osu:
 
 ```
 a - b = [(a.x - b.x), (a.y - b.y), (a.z - b.z)]
 ```
 
-## Ciljanje protivnika u igrama
+## Primer: ciljanje protivnika u igrama
 
 ![](/images/razvoj-igara/laser.jpg)
-
-U igrama, oduzimanje vektora je korisno za dobijanje vektora koji vodi od jedne pozicije do druge. Da bismo ga izračunali, oduzimamo početnu tačku od krajnje tačke.
 
 Na primer, igrač sa laserskom puškom stoji na poziciji (1,2), a neprijateljski robot na (4,3). Da dobijemo vektor kojim laser pogađa robota, oduzimamo poziciju igrača od pozicije robota:
 
@@ -35,7 +41,7 @@ Na primer, igrač sa laserskom puškom stoji na poziciji (1,2), a neprijateljski
 (4, 3) - (1, 2) = (4-1, 3-2) = (3, 1)
 ```
 
-## Implementacija prateće rakete
+## Primer: prateća raketa
 
 U igri nam ponekad zatreba da igrač može ispaljivati prateće rakete. Da bismo to implementirali, prvo računamo vektor razdaljine, tako što oduzmemo položaj rakete od položaja cilja:
 
