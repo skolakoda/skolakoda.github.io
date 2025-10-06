@@ -6,7 +6,7 @@ permalink: /oduzimanje-vektora
 
 **U igrama, oduzimanje vektora je korisno za dobijanje vektora koji vodi od jedne pozicije do druge.**
 
-Da bismo izračunali vektor koji vodi od jedne do druge tačke, oduzimamo početnu tačku od odredišne. Vektore oduzimamo na sledeći način:
+Da bismo izračunali vektor koji vodi od jedne do druge tačke (pokazuje smer i udaljenost), oduzimamo početnu tačku od odredišne. Oduzimanje vektora se vrši na sledeći način:
 
 - prvo obrnemo pravac vektora koji želimo da oduzmemo (npr. b)
 - zatim ih sabiramo
