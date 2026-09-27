@@ -1,6 +1,6 @@
 ---
 title: Damjan Pavlica
-opis: Damjan Pavlica, diplomirani politikolog koji je uspešno promenio struku i postao programer.
+opis: Damjan Pavlica, programerska biografija.
 layout: stranica
 klasa: biografija
 image: /images/skola/Damjan_Wargaming.jpg
