@@ -45,10 +45,6 @@ Za javno dostupne sajtove, aplikacije i igre koje je Damjan pravio, vidi <a href
 
 Ovde možete poslušati Damjanov muzički projekat <a href="https://mudroljub.github.io/damjan-od-resnika/">Damjan od Resnika</a>.
 
-## Blog
-
-Damjan Pavlica je autor bloga <a href="http://damjanpavlica.wordpress.com/">Damjanov svet</a>.
-
 
 <div class="author-wrapper uokvireno" itemscope itemtype="http://schema.org/Person">
   <img 
